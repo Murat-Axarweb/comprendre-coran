@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabulaire Coranique — Racines & Fréquences</title>
+  <meta name="description" content="Apprendre les 300 mots les plus fréquents du Coran avec leurs racines, familles de mots et analyse de profondeur.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0f0f; --bg2: #1a1a1a; --bg3: #242424;
+      --border: #2e2e2e; --border2: #3a3a3a;
+      --text: #e8e8e8; --text2: #a0a0a0; --text3: #606060;
+      --gold: #c9a84c; --gold2: #e8c97a;
+      --green: #4a9e7a; --blue: #5b8fc9; --red: #c96b6b;
+      --radius: 10px; --radius-sm: 6px;
+    }
+    [data-theme="light"] {
+      --bg: #fafaf8; --bg2: #f0ede6; --bg3: #e8e4db;
+      --border: #d8d4cb; --border2: #c8c4bb;
+      --text: #1a1a1a; --text2: #555550; --text3: #999990;
+      --gold: #8b6914; --gold2: #a07820; --green: #2d6b50;
+      --blue: #2d5a8b; --red: #8b2d2d;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 15px; line-height: 1.6; }
+    button { font-family: 'Inter', sans-serif; cursor: pointer; border: none; background: none; color: inherit; }
+    input, select { font-family: 'Inter', sans-serif; background: var(--bg2); border: 1px solid var(--border); color: var(--text); border-radius: var(--radius-sm); padding: 8px 12px; font-size: 14px; outline: none; transition: border-color 0.2s; }
+    input:focus, select:focus { border-color: var(--gold); }
+    select option { background: var(--bg2); }
+    .app { max-width: 960px; margin: 0 auto; padding: 0 16px 80px; }
+
+    /* ===== NAVBAR ===== */
+    .navbar {
+      display: flex; align-items: center; gap: 0;
+      border-bottom: 1px solid var(--border);
+      padding: 0; margin-bottom: 0;
+      position: sticky; top: 0; z-index: 100;
+      background: var(--bg);
+    }
+    .nav-logo {
+      font-family: 'Amiri', serif; font-size: 22px;
+      color: var(--gold); padding: 12px 20px;
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    .nav-links { display: flex; flex: 1; }
+    .nav-link {
+      padding: 14px 18px; font-size: 13px; color: var(--text2);
+      border-bottom: 2px solid transparent; margin-bottom: -1px;
+      transition: color 0.2s; text-decoration: none; display: block;
+    }
+    .nav-link:hover { color: var(--text); }
+    .nav-link.active { color: var(--gold); border-bottom-color: var(--gold); }
+    .nav-right {
+      display: flex; align-items: center; gap: 8px;
+      margin-left: auto; padding: 0 16px;
+    }
+    .lang-btn {
+      padding: 5px 10px; font-size: 12px; font-weight: 500;
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      color: var(--text2); transition: all 0.2s;
+    }
+    .lang-btn:hover, .lang-btn.active { border-color: var(--gold); color: var(--gold); }
+    .theme-btn {
+      padding: 5px 10px; font-size: 13px;
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      color: var(--text2); transition: all 0.2s;
+    }
+    .theme-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* ===== HEADER ===== */
+    .page-header {
+      text-align: center; padding: 36px 0 24px;
+      border-bottom: 1px solid var(--border); margin-bottom: 28px;
+    }
+    .page-header h1 { font-size: 28px; font-weight: 500; color: var(--text); }
+    .page-header p { font-size: 13px; color: var(--text2); margin-top: 6px; }
+
+    /* ===== COUVERTURE BAR ===== */
+    .couverture-section { margin-bottom: 28px; }
+    .couverture-title { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text3); margin-bottom: 12px; }
+    .couverture-steps { display: flex; gap: 8px; flex-wrap: wrap; }
+    .couv-step {
+      flex: 1; min-width: 100px;
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 12px;
+      text-align: center; cursor: pointer; transition: border-color 0.2s;
+    }
+    .couv-step:hover { border-color: var(--gold); }
+    .couv-step.active { border-color: var(--gold); background: rgba(201,168,76,0.08); }
+    .couv-pct { font-size: 20px; font-weight: 600; color: var(--gold); }
+    .couv-label { font-size: 11px; color: var(--text3); margin-top: 2px; }
+    .couv-progress { height: 4px; background: var(--bg3); border-radius: 2px; margin-top: 8px; overflow: hidden; }
+    .couv-progress-fill { height: 100%; background: var(--gold); border-radius: 2px; transition: width 0.5s; }
+
+    /* ===== FILTRES ===== */
+    .filtres-bar {
+      display: flex; gap: 8px; flex-wrap: wrap;
+      margin-bottom: 20px; align-items: center;
+    }
+    .filtres-bar input { flex: 1; min-width: 200px; }
+    .filter-group { display: flex; gap: 6px; flex-wrap: wrap; }
+    .filter-chip {
+      padding: 6px 12px; font-size: 12px; font-weight: 500;
+      border: 1px solid var(--border); border-radius: 20px;
+      color: var(--text2); transition: all 0.2s; cursor: pointer;
+    }
+    .filter-chip:hover { border-color: var(--gold); color: var(--gold); }
+    .filter-chip.active { border-color: var(--gold); color: var(--gold); background: rgba(201,168,76,0.1); }
+    .filter-select { min-width: 140px; }
+
+    /* Vue switcher */
+    .vue-switcher { display: flex; gap: 0; border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
+    .vue-btn { padding: 6px 14px; font-size: 12px; color: var(--text2); transition: all 0.2s; }
+    .vue-btn.active { background: var(--gold); color: var(--bg); }
+
+    /* Résultats count */
+    .results-count { font-size: 12px; color: var(--text3); margin-bottom: 12px; }
+
+    /* ===== GRILLE MOTS ===== */
+    .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+    .vocab-card {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 16px;
+      cursor: pointer; transition: border-color 0.2s, transform 0.15s;
+    }
+    .vocab-card:hover { border-color: var(--gold); transform: translateY(-1px); }
+    .vocab-card.active { border-color: var(--gold); background: rgba(201,168,76,0.05); }
+    .vocab-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+    .vocab-rang { font-size: 11px; color: var(--text3); font-weight: 500; }
+    .vocab-freq-badge {
+      font-size: 11px; padding: 2px 7px; border-radius: 10px;
+      background: rgba(74,158,122,0.15); color: var(--green);
+    }
+    .vocab-ar {
+      font-family: 'Amiri', serif; font-size: 28px;
+      color: var(--text); direction: rtl; text-align: right;
+      line-height: 1.4; margin-bottom: 4px;
+    }
+    .vocab-translit { font-size: 12px; color: var(--text3); font-style: italic; margin-bottom: 6px; }
+    .vocab-fr { font-size: 14px; color: var(--text2); }
+    .vocab-racine-tag {
+      display: inline-block; margin-top: 8px;
+      font-size: 12px; padding: 2px 8px; border-radius: 4px;
+      background: rgba(201,168,76,0.12); color: var(--gold);
+      font-weight: 500;
+    }
+    .vocab-theme-dot {
+      display: inline-block; width: 7px; height: 7px;
+      border-radius: 50%; margin-right: 4px; vertical-align: middle;
+    }
+
+    /* Vue liste */
+    .vocab-list { display: flex; flex-direction: column; gap: 6px; }
+    .vocab-list-item {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 12px 16px;
+      cursor: pointer; transition: border-color 0.2s;
+      display: flex; align-items: center; gap: 16px;
+    }
+    .vocab-list-item:hover { border-color: var(--gold); }
+    .vocab-list-item.active { border-color: var(--gold); }
+    .vl-rang { font-size: 12px; color: var(--text3); min-width: 28px; }
+    .vl-ar { font-family: 'Amiri', serif; font-size: 22px; color: var(--text); direction: rtl; min-width: 80px; text-align: right; }
+    .vl-translit { font-size: 12px; color: var(--text3); font-style: italic; min-width: 100px; }
+    .vl-fr { font-size: 13px; color: var(--text2); flex: 1; }
+    .vl-racine { font-size: 11px; color: var(--gold); }
+    .vl-freq { font-size: 11px; color: var(--green); min-width: 60px; text-align: right; }
+
+    /* ===== PANNEAU DÉTAIL ===== */
+    .detail-panel {
+      position: fixed; right: 0; top: 0; bottom: 0;
+      width: 400px; background: var(--bg);
+      border-left: 1px solid var(--border);
+      overflow-y: auto; z-index: 200;
+      transform: translateX(100%); transition: transform 0.25s;
+      display: flex; flex-direction: column;
+    }
+    .detail-panel.open { transform: translateX(0); }
+    .detail-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+      z-index: 199; display: none;
+    }
+    .detail-overlay.open { display: block; }
+    .detail-header {
+      padding: 20px 20px 16px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg2); position: sticky; top: 0; z-index: 2;
+    }
+    .detail-close {
+      position: absolute; top: 16px; right: 16px;
+      font-size: 18px; color: var(--text2); padding: 4px 8px;
+    }
+    .detail-close:hover { color: var(--text); }
+    .detail-ar {
+      font-family: 'Amiri', serif; font-size: 40px;
+      color: var(--gold); direction: rtl; text-align: right;
+      line-height: 1.3; margin-bottom: 4px;
+    }
+    .detail-translit { font-size: 14px; color: var(--text3); font-style: italic; margin-bottom: 6px; }
+    .detail-trad { font-size: 16px; font-weight: 500; color: var(--text); }
+    .detail-meta { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+    .meta-badge {
+      font-size: 12px; padding: 3px 9px; border-radius: 4px;
+      background: var(--bg3); border: 1px solid var(--border);
+      color: var(--text2);
+    }
+    .meta-badge.gold { color: var(--gold); border-color: rgba(201,168,76,0.3); background: rgba(201,168,76,0.08); }
+    .meta-badge.green { color: var(--green); border-color: rgba(74,158,122,0.3); background: rgba(74,158,122,0.08); }
+
+    .detail-body { padding: 20px; flex: 1; }
+    .detail-section { margin-bottom: 20px; }
+    .detail-section-title {
+      font-size: 11px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--text3); margin-bottom: 10px;
+    }
+
+    /* Famille */
+    .famille-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .famille-chip {
+      background: var(--bg3); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 8px 12px;
+    }
+    .fc-ar { font-family: 'Amiri', serif; font-size: 20px; color: var(--text); direction: rtl; }
+    .fc-translit { font-size: 11px; color: var(--text3); font-style: italic; }
+    .fc-fr { font-size: 12px; color: var(--gold); margin-top: 2px; }
+
+    /* Profondeur */
+    .profondeur-box {
+      background: var(--bg2); border-left: 3px solid var(--gold);
+      padding: 14px 16px; font-size: 14px; color: var(--text2);
+      line-height: 1.75; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+
+    /* Sourates */
+    .sourates-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .sourate-chip {
+      padding: 4px 10px; font-size: 12px;
+      border: 1px solid var(--border); border-radius: 4px;
+      color: var(--text2); background: var(--bg3);
+      cursor: pointer; transition: border-color 0.2s;
+      text-decoration: none;
+    }
+    .sourate-chip:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* Barre de fréquence visuelle */
+    .freq-visual { margin: 8px 0; }
+    .freq-bar { height: 6px; background: var(--bg3); border-radius: 3px; overflow: hidden; }
+    .freq-bar-fill { height: 100%; background: linear-gradient(90deg, var(--green), var(--gold)); border-radius: 3px; transition: width 0.5s; }
+    .freq-numbers { display: flex; justify-content: space-between; margin-top: 4px; font-size: 11px; color: var(--text3); }
+
+    /* No result */
+    .no-result { text-align: center; padding: 3rem; color: var(--text3); font-size: 14px; grid-column: 1/-1; }
+
+    /* Couleurs par thème */
+    .theme-allah { background: #c9a84c; }
+    .theme-foi { background: #5b8fc9; }
+    .theme-prophetie { background: #9b7fc9; }
+    .theme-creation { background: #4a9e7a; }
+    .theme-homme { background: #c97a5b; }
+    .theme-morale { background: #c96b6b; }
+    .theme-jugement { background: #8b6b6b; }
+    .theme-priere { background: #7ac9a8; }
+    .theme-communaute { background: #6b8bc9; }
+    .theme-temps { background: #a0a0a0; }
+    .theme-grammaire { background: #606060; }
+
+    @media (max-width: 700px) {
+      .detail-panel { width: 100%; }
+      .navbar .nav-logo { padding: 10px 12px; font-size: 18px; }
+      .nav-link { padding: 12px 10px; font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+<div class="detail-overlay" id="overlay" onclick="closeDetail()"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-logo">القرآن</div>
+  <div class="nav-links">
+    <a class="nav-link" id="nav-sourates" href="index.html" data-i18n="nav_sourates">Sourates</a>
+    <a class="nav-link active" id="nav-vocabulaire" href="vocabulaire.html" data-i18n="nav_vocabulaire">Vocabulaire</a>
+  </div>
+  <div class="nav-right">
+    <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
+    <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
+    <button class="lang-btn" onclick="setLang('tr')" id="btn-tr">TR</button>
+    <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
+  </div>
+</nav>
+
+<div class="app">
+  <!-- HEADER -->
+  <div class="page-header">
+    <h1 data-i18n="vocab_titre">Vocabulaire Coranique</h1>
+    <p data-i18n="vocab_subtitle">300 mots essentiels · Racines · Fréquences · Familles de mots</p>
+  </div>
+
+  <!-- COUVERTURE -->
+  <div class="couverture-section">
+    <div class="couverture-title" data-i18n="top_label">Couverture du Coran par palier</div>
+    <div class="couverture-steps" id="couverture-steps"></div>
+  </div>
+
+  <!-- FILTRES -->
+  <div class="filtres-bar">
+    <input type="text" id="search-vocab" data-i18n-placeholder="vocab_search" placeholder="Rechercher un mot..." oninput="applyFilters()">
+    <select id="filter-theme" onchange="applyFilters()" class="filter-select">
+      <option value="" data-i18n="filter_all_themes">Tous les thèmes</option>
+    </select>
+    <select id="sort-select" onchange="applyFilters()" class="filter-select">
+      <option value="freq_desc" data-i18n="sort_freq_desc">Plus fréquent d'abord</option>
+      <option value="freq_asc" data-i18n="sort_freq_asc">Moins fréquent d'abord</option>
+      <option value="rang" data-i18n="sort_alpha">Par rang</option>
+    </select>
+    <div class="vue-switcher">
+      <button class="vue-btn active" id="btn-vue-grille" onclick="setVue('grille')">⊞</button>
+      <button class="vue-btn" id="btn-vue-liste" onclick="setVue('liste')">☰</button>
+    </div>
+  </div>
+
+  <!-- FILTRES THÈME CHIPS -->
+  <div class="filter-group" id="theme-chips" style="margin-bottom:16px"></div>
+
+  <div class="results-count" id="results-count"></div>
+
+  <!-- GRILLE / LISTE -->
+  <div id="vocab-container"></div>
+</div>
+
+<!-- PANNEAU DÉTAIL -->
+<div class="detail-panel" id="detail-panel">
+  <div class="detail-header">
+    <button class="detail-close" onclick="closeDetail()">✕</button>
+    <div class="detail-ar" id="d-ar"></div>
+    <div class="detail-translit" id="d-translit"></div>
+    <div class="detail-trad" id="d-trad"></div>
+    <div class="detail-meta" id="d-meta"></div>
+  </div>
+  <div class="detail-body" id="d-body"></div>
+</div>
+
+<script type="module">
+import { I18N, t, initLang, setLang as setLangCore } from './data/i18n.js';
+import { VOCAB, COUVERTURE, THEMES } from './data/vocab.js';
+
+window.I18N = I18N;
+window.VOCAB = VOCAB;
+window.COUVERTURE = COUVERTURE;
+window.THEMES = THEMES;
+
+// ===== LANGUE =====
+initLang();
+
+window.setLang = function(lang) {
+  setLangCore(lang);
+  renderAll();
+  updateLangBtns();
+}
+
+function updateLangBtns() {
+  ['fr','en','tr'].forEach(l => {
+    document.getElementById('btn-'+l).classList.toggle('active', window.LANG === l);
+  });
+}
+
+function applyI18n() {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    el.textContent = t(key);
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    el.placeholder = t(el.getAttribute('data-i18n-placeholder'));
+  });
+}
+
+// ===== THÈME VISUEL =====
+window.toggleTheme = function() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur === 'light' ? '' : 'light');
+  localStorage.setItem('theme', cur === 'light' ? '' : 'light');
+}
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+
+// ===== ÉTAT =====
+let vue = 'grille';
+let activeTheme = '';
+let selectedId = null;
+const THEME_COLORS = {
+  allah:'#c9a84c', foi:'#5b8fc9', prophetie:'#9b7fc9',
+  creation:'#4a9e7a', homme:'#c97a5b', morale:'#c96b6b',
+  jugement:'#8b6b6b', priere:'#7ac9a8', communaute:'#6b8bc9',
+  temps:'#a0a0a0', grammaire:'#606060'
+};
+
+const THEME_KEYS = {
+  allah:'theme_allah', foi:'theme_foi', prophetie:'theme_prophetie',
+  creation:'theme_creation', homme:'theme_homme', morale:'theme_morale',
+  jugement:'theme_jugement', priere:'theme_priere', communaute:'theme_communaute',
+  temps:'theme_temps', grammaire:'theme_allah'
+};
+
+const SOURATES_NOMS = {
+  1:'Al-Fatiha',2:'Al-Baqara',12:'Yusuf',18:'Al-Kahf',24:'An-Nur',
+  26:'Ash-Shuara',33:'Al-Ahzab',49:'Al-Hujurat',50:'Qaf',55:'Ar-Rahman',
+  56:'Al-Waqia',57:'Al-Hadid',67:'Al-Mulk',87:'Al-Ala',89:'Al-Fajr',
+  91:'Ash-Shams',96:'Al-Alaq',99:'Az-Zalzala',101:'Al-Qaria',103:'Al-Asr',
+  107:'Al-Maun',108:'Al-Kawthar',109:'Al-Kafirun',111:'Al-Masad',
+  112:'Al-Ikhlas',113:'Al-Falaq',114:'An-Nas'
+};
+
+// ===== COUVERTURE =====
+function renderCouverture() {
+  const container = document.getElementById('couverture-steps');
+  container.innerHTML = COUVERTURE.map(c => `
+    <div class="couv-step" onclick="filterByTop(${c.top})">
+      <div class="couv-pct">${c.pct}%</div>
+      <div class="couv-label">${c.label[window.LANG] || c.label.fr}</div>
+      <div class="couv-progress"><div class="couv-progress-fill" style="width:${c.pct}%"></div></div>
+    </div>
+  `).join('');
+}
+
+window.filterByTop = function(top) {
+  // Filtrer pour n'afficher que les top N mots
+  document.getElementById('search-vocab').value = '';
+  activeTheme = '';
+  renderThemeChips();
+  const filtered = VOCAB.filter(w => w.rang <= top);
+  renderVocab(filtered);
+  document.getElementById('results-count').textContent = `${filtered.length} mots (Top ${top})`;
+}
+
+// ===== THÈME CHIPS =====
+function renderThemeChips() {
+  const container = document.getElementById('theme-chips');
+  const themesPresents = [...new Set(VOCAB.map(w => w.theme))];
+  container.innerHTML = themesPresents.map(theme => `
+    <button class="filter-chip ${activeTheme === theme ? 'active' : ''}" onclick="toggleThemeFilter('${theme}')">
+      <span class="vocab-theme-dot" style="background:${THEME_COLORS[theme]||'#666'}"></span>
+      ${t(THEME_KEYS[theme] || 'theme_allah')}
+    </button>
+  `).join('');
+}
+
+window.toggleThemeFilter = function(theme) {
+  activeTheme = activeTheme === theme ? '' : theme;
+  renderThemeChips();
+  applyFilters();
+}
+
+// ===== FILTRES =====
+window.applyFilters = function() {
+  const q = document.getElementById('search-vocab').value.toLowerCase().trim();
+  const sort = document.getElementById('sort-select').value;
+
+  let filtered = VOCAB.filter(w => {
+    const matchQ = !q || w.ar.includes(q)
+      || w.translit.toLowerCase().includes(q)
+      || (w.traductions[window.LANG]||w.traductions.fr).toLowerCase().includes(q)
+      || w.racine.includes(q);
+    const matchT = !activeTheme || w.theme === activeTheme;
+    return matchQ && matchT;
+  });
+
+  if (sort === 'freq_desc') filtered.sort((a,b) => b.frequence - a.frequence);
+  else if (sort === 'freq_asc') filtered.sort((a,b) => a.frequence - b.frequence);
+  else filtered.sort((a,b) => a.rang - b.rang);
+
+  document.getElementById('results-count').textContent = `${filtered.length} mot${filtered.length>1?'s':''}`;
+  renderVocab(filtered);
+}
+
+// ===== VUE =====
+window.setVue = function(v) {
+  vue = v;
+  document.getElementById('btn-vue-grille').classList.toggle('active', v === 'grille');
+  document.getElementById('btn-vue-liste').classList.toggle('active', v === 'liste');
+  applyFilters();
+}
+
+// ===== RENDU VOCAB =====
+function renderVocab(list) {
+  const container = document.getElementById('vocab-container');
+  if (!list.length) {
+    container.innerHTML = `<div class="no-result">Aucun mot trouvé.</div>`;
+    return;
+  }
+  const lang = window.LANG || 'fr';
+  const maxFreq = Math.max(...VOCAB.map(w => w.frequence));
+
+  if (vue === 'grille') {
+    container.className = 'vocab-grid';
+    container.innerHTML = list.map(w => {
+      const trad = w.traductions[lang] || w.traductions.fr;
+      return `<div class="vocab-card ${selectedId === w.id ? 'active' : ''}" onclick="openDetail(${w.id})">
+        <div class="vocab-card-top">
+          <span class="vocab-rang">#${w.rang}</span>
+          <span class="vocab-freq-badge">× ${w.frequence.toLocaleString()}</span>
+        </div>
+        <div class="vocab-ar">${w.ar}</div>
+        <div class="vocab-translit">${w.translit}</div>
+        <div class="vocab-fr">${trad}</div>
+        <div>
+          <span class="vocab-theme-dot theme-${w.theme}"></span>
+          <span class="vocab-racine-tag">${w.racine}</span>
+        </div>
+      </div>`;
+    }).join('');
+  } else {
+    container.className = 'vocab-list';
+    container.innerHTML = list.map(w => {
+      const trad = w.traductions[lang] || w.traductions.fr;
+      return `<div class="vocab-list-item ${selectedId === w.id ? 'active' : ''}" onclick="openDetail(${w.id})">
+        <span class="vl-rang">#${w.rang}</span>
+        <span class="vl-ar">${w.ar}</span>
+        <span class="vl-translit">${w.translit}</span>
+        <span class="vl-fr">${trad}</span>
+        <span class="vl-racine">${w.racine}</span>
+        <span class="vl-freq">× ${w.frequence.toLocaleString()}</span>
+      </div>`;
+    }).join('');
+  }
+}
+
+// ===== DÉTAIL =====
+window.openDetail = function(id) {
+  const w = VOCAB.find(x => x.id === id);
+  if (!w) return;
+  selectedId = id;
+  const lang = window.LANG || 'fr';
+  const trad = w.traductions[lang] || w.traductions.fr;
+  const prof = w.profondeur ? (w.profondeur[lang] || w.profondeur.fr) : '';
+  const maxFreq = 4381;
+
+  document.getElementById('d-ar').textContent = w.ar;
+  document.getElementById('d-translit').textContent = w.translit;
+  document.getElementById('d-trad').textContent = trad;
+  document.getElementById('d-meta').innerHTML = `
+    <span class="meta-badge gold">${w.racine}</span>
+    <span class="meta-badge green">× ${w.frequence.toLocaleString()} ${t('occurrences')}</span>
+    <span class="meta-badge">#${w.rang}</span>
+  `;
+
+  const freqPct = Math.min(100, Math.round(w.frequence / maxFreq * 100));
+
+  let familleHtml = '';
+  if (w.famille && w.famille.length) {
+    familleHtml = `
+      <div class="detail-section">
+        <div class="detail-section-title">${t('famille_label')}</div>
+        <div class="famille-chips">
+          ${w.famille.map(f => `
+            <div class="famille-chip">
+              <div class="fc-ar">${f.ar}</div>
+              <div class="fc-translit">${f.translit}</div>
+              <div class="fc-fr">${f[lang] || f.fr}</div>
+            </div>
+          `).join('')}
+        </div>
+      </div>`;
+  }
+
+  let souratesHtml = '';
+  if (w.sourates_cles && w.sourates_cles.length) {
+    souratesHtml = `
+      <div class="detail-section">
+        <div class="detail-section-title">${t('voir_sourates')}</div>
+        <div class="sourates-chips">
+          ${w.sourates_cles.map(n => `
+            <a class="sourate-chip" href="index.html#sourate-${n}">${n} · ${SOURATES_NOMS[n]||'Sourate '+n}</a>
+          `).join('')}
+        </div>
+      </div>`;
+  }
+
+  document.getElementById('d-body').innerHTML = `
+    <div class="detail-section">
+      <div class="detail-section-title">${t('frequence_label')}</div>
+      <div class="freq-visual">
+        <div class="freq-bar"><div class="freq-bar-fill" style="width:${freqPct}%"></div></div>
+        <div class="freq-numbers"><span>0</span><span>${w.frequence.toLocaleString()} × dans le Coran</span></div>
+      </div>
+    </div>
+    ${familleHtml}
+    ${prof ? `
+    <div class="detail-section">
+      <div class="detail-section-title">${t('profondeur_label')}</div>
+      <div class="profondeur-box">${prof}</div>
+    </div>` : ''}
+    ${souratesHtml}
+  `;
+
+  document.getElementById('detail-panel').classList.add('open');
+  document.getElementById('overlay').classList.add('open');
+  applyFilters(); // refresh pour highlight
+}
+
+window.closeDetail = function() {
+  selectedId = null;
+  document.getElementById('detail-panel').classList.remove('open');
+  document.getElementById('overlay').classList.remove('open');
+  applyFilters();
+}
+
+// ===== RENDER ALL =====
+window.renderAll = function() {
+  applyI18n();
+  renderCouverture();
+  renderThemeChips();
+  applyFilters();
+  updateLangBtns();
+  // Refresh detail si ouvert
+  if (selectedId) openDetail(selectedId);
+}
+
+// ===== INIT =====
+renderAll();
+</script>
+</body>
+</html>
