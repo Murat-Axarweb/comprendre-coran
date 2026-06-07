@@ -3188,7 +3188,7 @@ const VOCAB = [
       "tr": "ʿAlayhim bağlama göre yük, sonuç veya nimet bildirebilir. Fâtiha’da “kendilerine nimet verdiklerin” ifadesinde geçer."
     },
     "sourates_cles": [1, 2, 98]
-  }
+  },
   {
     "id": 91, "ar": "هُمْ", "translit": "hum", "frequence": 180, "rang": 91,
     "racine": "pronom personnel", "theme": "grammaire",
@@ -3670,7 +3670,7 @@ const VOCAB = [
       "tr": "Li-llāhi “Allah’a”, “Allah için” veya “Allah’ındır” anlamına gelir. İlahi mülkiyeti anlamak için temel bir ifadedir: her şey Allah’a döner, Allah’ındır ve samimi amel Allah içindir."
     },
     "sourates_cles": [1, 2, 112]
-  }
+  },
   {
     "id": 121, "ar": "رَبِّكَ", "translit": "rabbika", "frequence": 116, "rang": 121,
     "racine": "ر-ب-ب", "theme": "allah",
