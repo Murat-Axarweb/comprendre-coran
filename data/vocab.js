@@ -2854,7 +2854,7 @@ const VOCAB = [
     "sourates_cles": [2, 23, 75]
   },
   {
-    "id": 70, "ar": "بِهِ", "translit": "bihī", "frequence": 327, "rang": 72,
+    "id": 70, "ar": "بِهِ", "translit": "bihī", "frequence": 327, "rang": 70,
     "racine": "بِ + هُ", "theme": "grammaire",
     "traductions": { "fr": "par lui / avec lui / en lui", "en": "with it / by it / in it", "tr": "onunla / onun sayesinde / onda" },
     "famille": [
