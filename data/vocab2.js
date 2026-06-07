@@ -3769,7 +3769,7 @@ const VOCAB_BLOC_151_180 = [
       "tr": "Lā yaʿlamūna “bilmezler” demektir. Kur’an cehaletin bazen bilgi eksikliğinden, bazen de ayetleri görmeyi reddetmekten kaynaklandığını gösterir."
     },
     "sourates_cles": [2, 6, 30]
-  }
+  },
 ];
 
 export { VOCAB2 };
