@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprendre le Coran — Apprendre l'arabe coranique</title>
+  <meta name="description" content="Apprends à comprendre le Coran étape par étape : explore les sourates librement, découvre les mots essentiels, révise les racines et progresse avec des exercices adaptés.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0f0f; --bg2: #1a1a1a; --bg3: #242424; --bg4: #2e2e2e;
+      --border: #2e2e2e; --border2: #3a3a3a;
+      --text: #e8e8e8; --text2: #a0a0a0; --text3: #606060;
+      --gold: #c9a84c; --gold2: #e8c97a; --goldbg: rgba(201,168,76,0.08);
+      --green: #4a9e7a; --greenbg: rgba(74,158,122,0.08);
+      --blue: #5b8fc9; --bluebg: rgba(91,143,201,0.08);
+      --radius: 12px; --radius-sm: 7px; --radius-lg: 18px;
+    }
+    [data-theme="light"] {
+      --bg: #fafaf8; --bg2: #f0ede6; --bg3: #e8e4db; --bg4: #dedad1;
+      --border: #d8d4cb; --border2: #c8c4bb;
+      --text: #1a1a1a; --text2: #555550; --text3: #999990;
+      --gold: #8b6914; --gold2: #a07820; --goldbg: rgba(139,105,20,0.08);
+      --green: #2d6b50; --greenbg: rgba(45,107,80,0.08);
+      --blue: #2d5a8b; --bluebg: rgba(45,90,139,0.08);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 15px; line-height: 1.6; overflow-x: hidden; }
+    a { text-decoration: none; color: inherit; }
+    button { font-family: 'Inter', sans-serif; cursor: pointer; border: none; background: none; color: inherit; }
+
+    /* ===== NAVBAR ===== */
+    .navbar {
+      display: flex; align-items: center;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg); position: sticky; top: 0; z-index: 100;
+      padding: 0 24px;
+    }
+    .nav-logo {
+      font-family: 'Amiri', serif; font-size: 24px;
+      color: var(--gold); padding: 12px 20px 12px 0;
+      border-right: 1px solid var(--border); margin-right: 4px;
+    }
+    .nav-link {
+      padding: 15px 16px; font-size: 13px; color: var(--text2);
+      border-bottom: 2px solid transparent; margin-bottom: -1px;
+      transition: color 0.2s; white-space: nowrap;
+    }
+    .nav-link:hover { color: var(--text); }
+    .nav-link.active { color: var(--gold); border-bottom-color: var(--gold); }
+    .nav-right { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+    .lang-btn {
+      padding: 5px 10px; font-size: 12px; font-weight: 500;
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      color: var(--text2); transition: all 0.2s; background: none; cursor: pointer;
+      font-family: 'Inter', sans-serif;
+    }
+    .lang-btn:hover, .lang-btn.active { border-color: var(--gold); color: var(--gold); background: var(--goldbg); }
+    .theme-btn {
+      padding: 5px 10px; font-size: 13px;
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      color: var(--text2); transition: all 0.2s; background: none; cursor: pointer;
+    }
+    .theme-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* ===== SECTIONS ===== */
+    .section { padding: 80px 24px; max-width: 1000px; margin: 0 auto; }
+    .section-sm { padding: 60px 24px; max-width: 1000px; margin: 0 auto; }
+
+    /* ===== HERO ===== */
+    .hero {
+      min-height: 90vh; display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      text-align: center; padding: 60px 24px;
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ';
+      font-family: 'Amiri', serif;
+      font-size: clamp(28px, 5vw, 52px);
+      color: var(--gold);
+      opacity: 0.06;
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+      pointer-events: none;
+      width: 100%;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-block;
+      font-size: 12px; font-weight: 500; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--gold);
+      border: 1px solid rgba(201,168,76,0.3);
+      padding: 5px 14px; border-radius: 20px;
+      margin-bottom: 24px; background: var(--goldbg);
+    }
+    .hero-arabic {
+      font-family: 'Amiri', serif;
+      font-size: clamp(36px, 8vw, 72px);
+      color: var(--gold); line-height: 1.3;
+      margin-bottom: 8px;
+    }
+    .hero-title {
+      font-size: clamp(24px, 4vw, 42px);
+      font-weight: 300; color: var(--text);
+      line-height: 1.3; margin-bottom: 20px;
+      max-width: 700px;
+    }
+    .hero-title strong { font-weight: 600; }
+    .hero-subtitle {
+      font-size: clamp(15px, 2vw, 18px);
+      color: var(--text2); max-width: 580px;
+      line-height: 1.7; margin-bottom: 40px;
+    }
+    .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+    .btn-primary {
+      padding: 14px 28px; font-size: 15px; font-weight: 500;
+      background: var(--gold); color: #0f0f0f;
+      border-radius: var(--radius-sm); transition: all 0.2s;
+      font-family: 'Inter', sans-serif; cursor: pointer; border: none;
+    }
+    .btn-primary:hover { background: var(--gold2); transform: translateY(-1px); }
+    .btn-secondary {
+      padding: 14px 28px; font-size: 15px; font-weight: 500;
+      background: none; color: var(--text);
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      transition: all 0.2s; font-family: 'Inter', sans-serif; cursor: pointer;
+    }
+    .btn-secondary:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
+    .hero-stats {
+      display: flex; gap: 32px; margin-top: 60px;
+      flex-wrap: wrap; justify-content: center;
+    }
+    .hero-stat { text-align: center; }
+    .hero-stat-num { font-size: 28px; font-weight: 600; color: var(--gold); }
+    .hero-stat-label { font-size: 12px; color: var(--text3); margin-top: 2px; }
+
+    /* ===== CONCEPT ===== */
+    .section-title {
+      font-size: clamp(20px, 3vw, 28px); font-weight: 500;
+      color: var(--text); margin-bottom: 8px;
+    }
+    .section-sub {
+      font-size: 15px; color: var(--text2); margin-bottom: 40px;
+      max-width: 560px; line-height: 1.7;
+    }
+    .concept-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .concept-card {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 20px;
+      transition: border-color 0.2s;
+    }
+    .concept-card:hover { border-color: var(--border2); }
+    .concept-icon {
+      font-size: 24px; margin-bottom: 12px;
+      width: 44px; height: 44px; display: flex; align-items: center;
+      justify-content: center; background: var(--bg3);
+      border-radius: var(--radius-sm);
+    }
+    .concept-title { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
+    .concept-desc { font-size: 13px; color: var(--text2); line-height: 1.6; }
+
+    /* ===== EXEMPLE VERSET ===== */
+    .verset-demo {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius-lg); overflow: hidden;
+    }
+    .verset-demo-header {
+      padding: 16px 24px; background: var(--bg3);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .verset-demo-label { font-size: 12px; color: var(--text3); }
+    .verset-demo-ref { font-size: 12px; color: var(--gold); font-weight: 500; }
+    .verset-arabic {
+      font-family: 'Amiri', serif; font-size: clamp(24px, 4vw, 36px);
+      direction: rtl; text-align: right; color: var(--text);
+      padding: 24px 28px; line-height: 2;
+      border-bottom: 1px solid var(--border);
+    }
+    .verset-translit {
+      font-size: 14px; font-style: italic; color: var(--text2);
+      padding: 12px 28px; border-bottom: 1px solid var(--border);
+    }
+    .mots-demo {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      padding: 20px 28px; direction: rtl;
+      border-bottom: 1px solid var(--border);
+    }
+    .mot-demo {
+      display: flex; flex-direction: column; align-items: center; gap: 4px;
+      padding: 10px 14px; background: var(--bg3);
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      cursor: default; transition: border-color 0.2s;
+    }
+    .mot-demo:hover { border-color: var(--gold); }
+    .mot-demo.highlight { border-color: var(--gold); background: var(--goldbg); }
+    .md-ar { font-family: 'Amiri', serif; font-size: 22px; color: var(--text); direction: rtl; }
+    .md-translit { font-size: 11px; color: var(--text3); font-style: italic; }
+    .md-fr { font-size: 12px; color: var(--gold); font-weight: 500; }
+    .md-racine { font-size: 10px; color: var(--text3); margin-top: 2px; }
+    .verset-trad {
+      padding: 16px 28px; font-size: 15px; color: var(--text2);
+      font-style: italic; line-height: 1.7;
+    }
+
+    /* ===== DEUX MODES ===== */
+    .modes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .mode-card {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius-lg); padding: 32px; position: relative;
+      overflow: hidden; transition: border-color 0.2s;
+    }
+    .mode-card:hover { border-color: var(--border2); }
+    .mode-card.libre { border-top: 3px solid var(--blue); }
+    .mode-card.guide { border-top: 3px solid var(--gold); }
+    .mode-tag {
+      display: inline-block; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      padding: 3px 10px; border-radius: 20px; margin-bottom: 16px;
+    }
+    .mode-tag.libre { background: var(--bluebg); color: var(--blue); }
+    .mode-tag.guide { background: var(--goldbg); color: var(--gold); }
+    .mode-title { font-size: 20px; font-weight: 600; color: var(--text); margin-bottom: 10px; }
+    .mode-desc { font-size: 14px; color: var(--text2); line-height: 1.7; margin-bottom: 20px; }
+    .mode-features { display: flex; flex-direction: column; gap: 8px; }
+    .mode-feature {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 13px; color: var(--text2);
+    }
+    .mode-feature::before { content: '→'; color: var(--text3); font-size: 12px; }
+    .mode-btn {
+      display: inline-block; margin-top: 24px;
+      padding: 10px 20px; font-size: 13px; font-weight: 500;
+      border-radius: var(--radius-sm); transition: all 0.2s; cursor: pointer;
+      font-family: 'Inter', sans-serif; border: none;
+    }
+    .mode-btn.libre { background: var(--bluebg); color: var(--blue); border: 1px solid rgba(91,143,201,0.3); }
+    .mode-btn.guide { background: var(--goldbg); color: var(--gold); border: 1px solid rgba(201,168,76,0.3); }
+    .mode-btn:hover { transform: translateY(-1px); opacity: 0.9; }
+
+    /* ===== PROGRESSION PALIERS ===== */
+    .paliers { display: flex; flex-direction: column; gap: 12px; }
+    .palier {
+      display: flex; align-items: center; gap: 16px;
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 16px 20px;
+    }
+    .palier-top { min-width: 80px; text-align: center; }
+    .palier-top-num { font-size: 18px; font-weight: 600; color: var(--gold); }
+    .palier-top-label { font-size: 11px; color: var(--text3); }
+    .palier-bar-wrap { flex: 1; }
+    .palier-bar { height: 6px; background: var(--bg3); border-radius: 3px; overflow: hidden; }
+    .palier-fill { height: 100%; background: linear-gradient(90deg, var(--green), var(--gold)); border-radius: 3px; }
+    .palier-pct { font-size: 16px; font-weight: 600; color: var(--text); min-width: 48px; text-align: right; }
+    .palier-desc { font-size: 12px; color: var(--text3); margin-top: 4px; }
+
+    /* ===== PARCOURS EXEMPLE ===== */
+    .parcours-demo {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius-lg); padding: 28px;
+    }
+    .parcours-header {
+      display: flex; align-items: center; gap: 12px; margin-bottom: 20px;
+      padding-bottom: 16px; border-bottom: 1px solid var(--border);
+    }
+    .parcours-avatar {
+      width: 40px; height: 40px; border-radius: 50%;
+      background: var(--goldbg); border: 1px solid rgba(201,168,76,0.3);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .parcours-welcome { font-size: 14px; color: var(--text2); }
+    .parcours-welcome strong { color: var(--text); display: block; font-size: 15px; }
+    .parcours-tasks { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+    .parcours-task {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 16px; background: var(--bg3);
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+    }
+    .task-icon {
+      width: 32px; height: 32px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; flex-shrink: 0;
+    }
+    .task-icon.vocab { background: var(--bluebg); }
+    .task-icon.racine { background: var(--goldbg); }
+    .task-icon.verset { background: var(--greenbg); }
+    .task-icon.quiz { background: rgba(201,96,107,0.08); }
+    .task-text { flex: 1; font-size: 13px; color: var(--text); }
+    .task-sub { font-size: 11px; color: var(--text3); margin-top: 1px; }
+    .task-badge {
+      font-size: 11px; padding: 2px 8px; border-radius: 10px;
+      background: var(--bg2); color: var(--text3);
+    }
+    .parcours-stats {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;
+    }
+    .ps-item { text-align: center; }
+    .ps-num { font-size: 18px; font-weight: 600; color: var(--gold); }
+    .ps-label { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+    /* ===== AVERTISSEMENT ===== */
+    .avertissement {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 20px 24px;
+      font-size: 13px; color: var(--text2); line-height: 1.7;
+      max-width: 720px; margin: 0 auto;
+      text-align: center;
+    }
+    .avertissement-icon { font-size: 20px; margin-bottom: 8px; }
+
+    /* ===== CTA FINAL ===== */
+    .cta-section {
+      text-align: center; padding: 80px 24px;
+      border-top: 1px solid var(--border);
+      max-width: 1000px; margin: 0 auto;
+    }
+    .cta-arabic {
+      font-family: 'Amiri', serif; font-size: 32px;
+      color: var(--gold); margin-bottom: 16px; opacity: 0.7;
+    }
+    .cta-title { font-size: clamp(22px, 3vw, 32px); font-weight: 500; color: var(--text); margin-bottom: 12px; }
+    .cta-sub { font-size: 15px; color: var(--text2); margin-bottom: 36px; max-width: 500px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+    .cta-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      border-top: 1px solid var(--border);
+      padding: 24px; text-align: center;
+      font-size: 12px; color: var(--text3);
+    }
+
+    /* ===== DIVIDER ===== */
+    .divider { border: none; border-top: 1px solid var(--border); margin: 0; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 700px) {
+      .modes-grid { grid-template-columns: 1fr; }
+      .parcours-stats { grid-template-columns: repeat(2, 1fr); }
+      .hero-stats { gap: 20px; }
+      .navbar { padding: 0 12px; }
+      .nav-logo { font-size: 20px; padding: 10px 12px 10px 0; }
+      .nav-link { padding: 12px 10px; font-size: 12px; }
+      .section, .section-sm { padding: 50px 16px; }
+      .mots-demo { padding: 16px; }
+      .verset-arabic { padding: 16px; font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-logo">القرآن</div>
+  <a class="nav-link active" href="accueil.html" id="nav-accueil" data-i18n="nav_accueil">Accueil</a>
+  <a class="nav-link" href="index.html" id="nav-sourates" data-i18n="nav_sourates">Sourates</a>
+  <a class="nav-link" href="vocabulaire.html" id="nav-vocabulaire" data-i18n="nav_vocabulaire">Vocabulaire</a>
+  <a class="nav-link" href="#" id="nav-racines" data-i18n="nav_racines">Racines</a>
+  <div class="nav-right">
+    <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
+    <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
+    <button class="lang-btn" onclick="setLang('tr')" id="btn-tr">TR</button>
+    <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-badge" id="hero-badge">Plateforme d'apprentissage de l'arabe coranique</div>
+  <div class="hero-arabic">القرآن الكريم</div>
+  <h1 class="hero-title" id="hero-title">
+    Comprends le Coran,<br><strong>mot à mot, racine par racine</strong>
+  </h1>
+  <p class="hero-subtitle" id="hero-subtitle">
+    Apprends à comprendre le Coran étape par étape : explore les sourates librement, découvre les mots essentiels, révise les racines et progresse à ton propre rythme.
+  </p>
+  <div class="hero-btns">
+    <a href="index.html"><button class="btn-primary" id="hero-btn1">Explorer les sourates</button></a>
+    <a href="vocabulaire.html"><button class="btn-secondary" id="hero-btn2">Découvrir le vocabulaire</button></a>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="hero-stat-num">114</div>
+      <div class="hero-stat-label" data-i18n="stat_sourates">Sourates</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">6 236</div>
+      <div class="hero-stat-label" data-i18n="stat_versets">Versets</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">300</div>
+      <div class="hero-stat-label" id="stat-mots-label">Mots essentiels</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">70%</div>
+      <div class="hero-stat-label" id="stat-couv-label">Du Coran couvert</div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ===== CONCEPT ===== -->
+<div class="section">
+  <h2 class="section-title" id="concept-title">Une approche différente</h2>
+  <p class="section-sub" id="concept-sub">Le Coran lui-même est ton manuel d'arabe. Pas de grammaire lourde au départ — d'abord les mots, les racines, le sens.</p>
+  <div class="concept-grid">
+    <div class="concept-card">
+      <div class="concept-icon">🔤</div>
+      <div class="concept-title" id="c1-title">Mots fréquents d'abord</div>
+      <div class="concept-desc" id="c1-desc">300 mots couvrent 70% du Coran. Commence par eux et tu reconnaîtras des mots partout.</div>
+    </div>
+    <div class="concept-card">
+      <div class="concept-icon">🌱</div>
+      <div class="concept-title" id="c2-title">La magie des racines</div>
+      <div class="concept-desc" id="c2-desc">K-T-B → kitāb, kataba, maktūb. Une racine déverrouille des dizaines de mots d'un coup.</div>
+    </div>
+    <div class="concept-card">
+      <div class="concept-icon">📖</div>
+      <div class="concept-title" id="c3-title">Analyse mot à mot</div>
+      <div class="concept-desc" id="c3-desc">Chaque verset découpé : traduction, translittération, racine, profondeur de sens.</div>
+    </div>
+    <div class="concept-card">
+      <div class="concept-icon">📈</div>
+      <div class="concept-title" id="c4-title">Progression en couches</div>
+      <div class="concept-desc" id="c4-desc">5 niveaux progressifs. On commence par comprendre des mots — pas par apprendre la grammaire.</div>
+    </div>
+    <div class="concept-card">
+      <div class="concept-icon">🎯</div>
+      <div class="concept-title" id="c5-title">Le déclic fréquence</div>
+      <div class="concept-desc" id="c5-desc">"Je comprends déjà quelque chose du Coran." Ce déclic psychologique change tout.</div>
+    </div>
+    <div class="concept-card">
+      <div class="concept-icon">🕌</div>
+      <div class="concept-title" id="c6-title">L'arabe coranique uniquement</div>
+      <div class="concept-desc" id="c6-desc">Pas l'arabe dialectal. L'arabe classique du Coran — précis, pur, intemporel.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ===== EXEMPLE VERSET ===== -->
+<div class="section">
+  <h2 class="section-title" id="exemple-title">Voir un verset analysé</h2>
+  <p class="section-sub" id="exemple-sub">Clique sur un mot pour voir sa racine et sa famille. C'est comme ça qu'on apprend.</p>
+
+  <div class="verset-demo">
+    <div class="verset-demo-header">
+      <span class="verset-demo-label" id="demo-label">Exemple · Al-Fatiha · Verset 2</span>
+      <span class="verset-demo-ref">الفاتحة : ٢</span>
+    </div>
+    <div class="verset-arabic">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</div>
+    <div class="verset-translit">al-ḥamdu lillāhi rabbi l-ʿālamīn</div>
+    <div class="mots-demo" id="mots-demo">
+      <!-- Générés par JS -->
+    </div>
+    <div class="verset-trad" id="demo-trad">"Louange à Allah, Seigneur des mondes."</div>
+  </div>
+
+  <div id="mot-detail-demo" style="display:none;margin-top:16px;background:var(--bg2);border:1px solid var(--gold);border-radius:var(--radius);padding:20px">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid var(--border)">
+      <div id="dd-ar" style="font-family:'Amiri',serif;font-size:36px;color:var(--gold);direction:rtl"></div>
+      <div>
+        <div id="dd-fr" style="font-size:15px;font-weight:500;color:var(--text)"></div>
+        <div id="dd-translit" style="font-size:13px;color:var(--text2);font-style:italic"></div>
+      </div>
+      <div style="margin-left:auto;display:flex;flex-direction:column;gap:6px;align-items:flex-end">
+        <span id="dd-racine" style="background:var(--goldbg);color:var(--gold);padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600"></span>
+        <span id="dd-freq" style="background:var(--greenbg);color:var(--green);padding:3px 10px;border-radius:4px;font-size:11px"></span>
+      </div>
+    </div>
+    <div id="dd-famille" style="margin-bottom:10px"></div>
+    <div id="dd-profondeur" style="font-size:14px;color:var(--text2);line-height:1.75;background:var(--bg3);border-left:3px solid var(--gold);padding:12px 14px"></div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ===== PALIERS FRÉQUENCE ===== -->
+<div class="section">
+  <h2 class="section-title" id="freq-title">Le système de fréquence</h2>
+  <p class="section-sub" id="freq-sub">300 mots suffisent pour comprendre 70% du Coran. Voici ta progression potentielle.</p>
+  <div class="paliers" id="paliers-container"></div>
+</div>
+
+<hr class="divider">
+
+<!-- ===== DEUX MODES ===== -->
+<div class="section">
+  <h2 class="section-title" id="modes-title">Deux façons d'apprendre</h2>
+  <p class="section-sub" id="modes-sub">Choisis ce qui te correspond. Les deux sont complémentaires.</p>
+  <div class="modes-grid">
+    <div class="mode-card libre">
+      <span class="mode-tag libre" id="tag-libre">Mode libre</span>
+      <div class="mode-title" id="libre-title">Explorer à ta façon</div>
+      <div class="mode-desc" id="libre-desc">Accède directement à n'importe quelle sourate, verset, mot ou racine. Tout le contenu est disponible sans restriction.</div>
+      <div class="mode-features">
+        <div class="mode-feature" id="lf1">Toutes les sourates accessibles</div>
+        <div class="mode-feature" id="lf2">Analyse complète de chaque verset</div>
+        <div class="mode-feature" id="lf3">Fiches vocabulaire et racines</div>
+        <div class="mode-feature" id="lf4">Filtres, recherche, navigation libre</div>
+      </div>
+      <a href="index.html"><button class="mode-btn libre" id="libre-btn">Explorer les sourates →</button></a>
+    </div>
+    <div class="mode-card guide">
+      <span class="mode-tag guide" id="tag-guide">Mode guidé</span>
+      <div class="mode-title" id="guide-title">Suivre un parcours</div>
+      <div class="mode-desc" id="guide-desc">Un parcours progressif adapté à ton niveau. Chaque jour : quelques mots, une racine, un verset, un exercice.</div>
+      <div class="mode-features">
+        <div class="mode-feature" id="gf1">Progression par couches (1→5)</div>
+        <div class="mode-feature" id="gf2">Révision espacée intelligente</div>
+        <div class="mode-feature" id="gf3">Exercices adaptés à ton niveau</div>
+        <div class="mode-feature" id="gf4">Statistiques et suivi personnel</div>
+      </div>
+      <button class="mode-btn guide" id="guide-btn" onclick="alert('Bientôt disponible — compte utilisateur en développement')">Commencer le parcours →</button>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ===== SIMULATION TABLEAU DE BORD ===== -->
+<div class="section">
+  <h2 class="section-title" id="dashboard-title">Ton tableau de bord (bientôt)</h2>
+  <p class="section-sub" id="dashboard-sub">Voici à quoi ressemblera ton espace personnel une fois connecté.</p>
+  <div class="parcours-demo">
+    <div class="parcours-header">
+      <div class="parcours-avatar">🌙</div>
+      <div>
+        <div class="parcours-welcome">
+          <strong id="welcome-text">Bonne continuation, Murat !</strong>
+          <span id="welcome-sub">Aujourd'hui · Session 14</span>
+        </div>
+      </div>
+    </div>
+    <div class="parcours-tasks">
+      <div class="parcours-task">
+        <div class="task-icon vocab">📚</div>
+        <div class="task-text">
+          <div id="task1-text">Réviser 5 mots</div>
+          <div class="task-sub" id="task1-sub">رَبّ · اللَّه · رَحْمَة · نُور · حَقّ</div>
+        </div>
+        <span class="task-badge">5 min</span>
+      </div>
+      <div class="parcours-task">
+        <div class="task-icon racine">🌱</div>
+        <div class="task-text">
+          <div id="task2-text">Apprendre 3 nouveaux mots</div>
+          <div class="task-sub" id="task2-sub">Racine ك-ت-ب · famille de mots</div>
+        </div>
+        <span class="task-badge">8 min</span>
+      </div>
+      <div class="parcours-task">
+        <div class="task-icon verset">📖</div>
+        <div class="task-text">
+          <div id="task3-text">Analyser Al-Fatiha · verset 3</div>
+          <div class="task-sub">الرَّحْمَٰنِ الرَّحِيمِ</div>
+        </div>
+        <span class="task-badge">10 min</span>
+      </div>
+      <div class="parcours-task">
+        <div class="task-icon quiz">🎯</div>
+        <div class="task-text">
+          <div id="task4-text">Quiz rapide · 5 questions</div>
+          <div class="task-sub" id="task4-sub">Vocabulaire · Racines</div>
+        </div>
+        <span class="task-badge">5 min</span>
+      </div>
+    </div>
+    <div class="parcours-stats">
+      <div class="ps-item">
+        <div class="ps-num">42</div>
+        <div class="ps-label" id="ps1">Mots appris</div>
+      </div>
+      <div class="ps-item">
+        <div class="ps-num">11</div>
+        <div class="ps-label" id="ps2">Racines vues</div>
+      </div>
+      <div class="ps-item">
+        <div class="ps-num">78%</div>
+        <div class="ps-label" id="ps3">Réussite</div>
+      </div>
+      <div class="ps-item">
+        <div class="ps-num">🔥 7</div>
+        <div class="ps-label" id="ps4">Jours de suite</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ===== AVERTISSEMENT ===== -->
+<div class="section-sm">
+  <div class="avertissement">
+    <div class="avertissement-icon">📌</div>
+    <div id="avert-text">Cette plateforme propose une aide linguistique à la compréhension du texte coranique. Elle ne remplace pas l'étude auprès de personnes qualifiées ni les ouvrages classiques de tafsir. Le ton se veut pédagogique, clair et humble.</div>
+  </div>
+</div>
+
+<!-- ===== CTA FINAL ===== -->
+<div class="cta-section">
+  <div class="cta-arabic">اقْرَأْ</div>
+  <h2 class="cta-title" id="cta-title">Prêt à commencer ?</h2>
+  <p class="cta-sub" id="cta-sub">Commence par Al-Fatiha — 7 versets, 29 mots, une porte d'entrée magnifique vers le Coran.</p>
+  <div class="cta-btns">
+    <a href="index.html?sourate=1"><button class="btn-primary" id="cta-btn1">Commencer avec Al-Fatiha</button></a>
+    <a href="vocabulaire.html"><button class="btn-secondary" id="cta-btn2">Explorer le vocabulaire</button></a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div id="footer-text">Plateforme d'apprentissage de l'arabe coranique · Contenu pédagogique et linguistique</div>
+</footer>
+
+<script>
+// ===== DONNÉES I18N LÉGÈRES (inline pour la page d'accueil) =====
+const TEXTS = {
+  fr: {
+    nav_accueil: "Accueil", nav_sourates: "Sourates",
+    nav_vocabulaire: "Vocabulaire", nav_racines: "Racines",
+    hero_badge: "Plateforme d'apprentissage de l'arabe coranique",
+    hero_title: "Comprends le Coran,<br><strong>mot à mot, racine par racine</strong>",
+    hero_subtitle: "Apprends à comprendre le Coran étape par étape : explore les sourates librement, découvre les mots essentiels, révise les racines et progresse à ton propre rythme.",
+    hero_btn1: "Explorer les sourates", hero_btn2: "Découvrir le vocabulaire",
+    stat_sourates: "Sourates", stat_versets: "Versets",
+    stat_mots: "Mots essentiels", stat_couv: "Du Coran couvert",
+    concept_title: "Une approche différente",
+    concept_sub: "Le Coran lui-même est ton manuel d'arabe. Pas de grammaire lourde au départ — d'abord les mots, les racines, le sens.",
+    c1_title: "Mots fréquents d'abord", c1_desc: "300 mots couvrent 70% du Coran. Commence par eux et tu reconnaîtras des mots partout.",
+    c2_title: "La magie des racines", c2_desc: "K-T-B → kitāb, kataba, maktūb. Une racine déverrouille des dizaines de mots d'un coup.",
+    c3_title: "Analyse mot à mot", c3_desc: "Chaque verset découpé : traduction, translittération, racine, profondeur de sens.",
+    c4_title: "Progression en couches", c4_desc: "5 niveaux progressifs. On commence par comprendre des mots — pas par apprendre la grammaire.",
+    c5_title: "Le déclic fréquence", c5_desc: "\"Je comprends déjà quelque chose du Coran.\" Ce déclic psychologique change tout.",
+    c6_title: "L'arabe coranique uniquement", c6_desc: "Pas l'arabe dialectal. L'arabe classique du Coran — précis, pur, intemporel.",
+    exemple_title: "Voir un verset analysé",
+    exemple_sub: "Clique sur un mot pour voir sa racine et sa famille. C'est comme ça qu'on apprend.",
+    demo_label: "Exemple · Al-Fatiha · Verset 2",
+    demo_trad: '"Louange à Allah, Seigneur des mondes."',
+    freq_title: "Le système de fréquence",
+    freq_sub: "300 mots suffisent pour comprendre 70% du Coran. Voici ta progression potentielle.",
+    palier_desc: ["mots les plus fréquents", "mots essentiels", "vocabulaire courant", "vocabulaire étendu", "vocabulaire complet"],
+    modes_title: "Deux façons d'apprendre",
+    modes_sub: "Choisis ce qui te correspond. Les deux sont complémentaires.",
+    tag_libre: "Mode libre", libre_title: "Explorer à ta façon",
+    libre_desc: "Accède directement à n'importe quelle sourate, verset, mot ou racine. Tout le contenu est disponible sans restriction.",
+    lf1: "Toutes les sourates accessibles", lf2: "Analyse complète de chaque verset",
+    lf3: "Fiches vocabulaire et racines", lf4: "Filtres, recherche, navigation libre",
+    libre_btn: "Explorer les sourates →",
+    tag_guide: "Mode guidé", guide_title: "Suivre un parcours",
+    guide_desc: "Un parcours progressif adapté à ton niveau. Chaque jour : quelques mots, une racine, un verset, un exercice.",
+    gf1: "Progression par couches (1→5)", gf2: "Révision espacée intelligente",
+    gf3: "Exercices adaptés à ton niveau", gf4: "Statistiques et suivi personnel",
+    guide_btn: "Commencer le parcours →",
+    dashboard_title: "Ton tableau de bord (bientôt)",
+    dashboard_sub: "Voici à quoi ressemblera ton espace personnel une fois connecté.",
+    welcome: "Bonne continuation, Murat !", welcome_sub: "Aujourd'hui · Session 14",
+    task1: "Réviser 5 mots", task1_sub: "رَبّ · اللَّه · رَحْمَة · نُور · حَقّ",
+    task2: "Apprendre 3 nouveaux mots", task2_sub: "Racine ك-ت-ب · famille de mots",
+    task3: "Analyser Al-Fatiha · verset 3",
+    task4: "Quiz rapide · 5 questions", task4_sub: "Vocabulaire · Racines",
+    ps1: "Mots appris", ps2: "Racines vues", ps3: "Réussite", ps4: "Jours de suite",
+    avert: "Cette plateforme propose une aide linguistique à la compréhension du texte coranique. Elle ne remplace pas l'étude auprès de personnes qualifiées ni les ouvrages classiques de tafsir. Le ton se veut pédagogique, clair et humble.",
+    cta_title: "Prêt à commencer ?",
+    cta_sub: "Commence par Al-Fatiha — 7 versets, 29 mots, une porte d'entrée magnifique vers le Coran.",
+    cta_btn1: "Commencer avec Al-Fatiha", cta_btn2: "Explorer le vocabulaire",
+    footer: "Plateforme d'apprentissage de l'arabe coranique · Contenu pédagogique et linguistique",
+    freq_label: "× dans le Coran", famille_label: "Famille de mots",
+  },
+  en: {
+    nav_accueil: "Home", nav_sourates: "Surahs",
+    nav_vocabulaire: "Vocabulary", nav_racines: "Roots",
+    hero_badge: "Quranic Arabic Learning Platform",
+    hero_title: "Understand the Quran,<br><strong>word by word, root by root</strong>",
+    hero_subtitle: "Learn to understand the Quran step by step: freely explore surahs, discover essential words, revise roots and progress at your own pace.",
+    hero_btn1: "Explore the surahs", hero_btn2: "Discover vocabulary",
+    stat_sourates: "Surahs", stat_versets: "Verses",
+    stat_mots: "Essential words", stat_couv: "Of the Quran covered",
+    concept_title: "A different approach",
+    concept_sub: "The Quran itself is your Arabic textbook. No heavy grammar at first — words, roots, meaning.",
+    c1_title: "Frequent words first", c1_desc: "300 words cover 70% of the Quran. Start with them and you'll recognise words everywhere.",
+    c2_title: "The magic of roots", c2_desc: "K-T-B → kitāb, kataba, maktūb. One root unlocks dozens of words at once.",
+    c3_title: "Word by word analysis", c3_desc: "Each verse broken down: translation, transliteration, root, depth of meaning.",
+    c4_title: "Layer-by-layer progress", c4_desc: "5 progressive levels. Start with understanding words — not memorising grammar.",
+    c5_title: "The frequency insight", c5_desc: "\"I already understand something of the Quran.\" This psychological click changes everything.",
+    c6_title: "Quranic Arabic only", c6_desc: "Not dialectal Arabic. The classical Arabic of the Quran — precise, pure, timeless.",
+    exemple_title: "See a verse analysed",
+    exemple_sub: "Click on a word to see its root and family. That's how we learn.",
+    demo_label: "Example · Al-Fatiha · Verse 2",
+    demo_trad: '"Praise be to Allah, Lord of all worlds."',
+    freq_title: "The frequency system",
+    freq_sub: "300 words are enough to understand 70% of the Quran. Here is your potential progression.",
+    palier_desc: ["most frequent words", "essential words", "common vocabulary", "extended vocabulary", "complete vocabulary"],
+    modes_title: "Two ways to learn",
+    modes_sub: "Choose what suits you. Both are complementary.",
+    tag_libre: "Free mode", libre_title: "Explore your way",
+    libre_desc: "Access any surah, verse, word or root directly. All content is available without restriction.",
+    lf1: "All surahs accessible", lf2: "Complete analysis of each verse",
+    lf3: "Vocabulary and root cards", lf4: "Filters, search, free navigation",
+    libre_btn: "Explore the surahs →",
+    tag_guide: "Guided mode", guide_title: "Follow a path",
+    guide_desc: "A progressive path adapted to your level. Each day: a few words, a root, a verse, an exercise.",
+    gf1: "Layer progression (1→5)", gf2: "Smart spaced repetition",
+    gf3: "Exercises adapted to your level", gf4: "Statistics and personal tracking",
+    guide_btn: "Start the journey →",
+    dashboard_title: "Your dashboard (coming soon)",
+    dashboard_sub: "This is what your personal space will look like once connected.",
+    welcome: "Good progress, Murat!", welcome_sub: "Today · Session 14",
+    task1: "Revise 5 words", task1_sub: "رَبّ · اللَّه · رَحْمَة · نُور · حَقّ",
+    task2: "Learn 3 new words", task2_sub: "Root ك-ت-ب · word family",
+    task3: "Analyse Al-Fatiha · verse 3",
+    task4: "Quick quiz · 5 questions", task4_sub: "Vocabulary · Roots",
+    ps1: "Words learned", ps2: "Roots seen", ps3: "Success rate", ps4: "Day streak",
+    avert: "This platform offers linguistic help for understanding the Quranic text. It does not replace study with qualified scholars or classical tafsir works. The tone is pedagogical, clear and humble.",
+    cta_title: "Ready to start?",
+    cta_sub: "Begin with Al-Fatiha — 7 verses, 29 words, a magnificent gateway into the Quran.",
+    cta_btn1: "Start with Al-Fatiha", cta_btn2: "Explore vocabulary",
+    footer: "Quranic Arabic learning platform · Pedagogical and linguistic content",
+    freq_label: "× in the Quran", famille_label: "Word family",
+  },
+  tr: {
+    nav_accueil: "Ana Sayfa", nav_sourates: "Sureler",
+    nav_vocabulaire: "Kelimeler", nav_racines: "Kökler",
+    hero_badge: "Kur'an Arapçası Öğrenme Platformu",
+    hero_title: "Kur'an'ı anla,<br><strong>kelime kelime, kök kök</strong>",
+    hero_subtitle: "Kur'an'ı adım adım anlamayı öğren: sureleri özgürce keşfet, temel kelimeleri keşfet, kökleri gözden geçir ve kendi hızında ilerle.",
+    hero_btn1: "Sureleri Keşfet", hero_btn2: "Kelimeleri Keşfet",
+    stat_sourates: "Sure", stat_versets: "Ayet",
+    stat_mots: "Temel kelime", stat_couv: "Kur'an kapsandı",
+    concept_title: "Farklı bir yaklaşım",
+    concept_sub: "Kur'an'ın kendisi senin Arapça ders kitabındır. Başlangıçta ağır dilbilgisi yok — önce kelimeler, kökler, anlam.",
+    c1_title: "Önce sık kullanılan kelimeler", c1_desc: "300 kelime Kur'an'ın %70'ini kapsar. Onlarla başla ve her yerde kelimeler tanırsın.",
+    c2_title: "Köklerin büyüsü", c2_desc: "K-T-B → kitab, ketebe, mektub. Bir kök aynı anda düzinelerce kelimeyi açar.",
+    c3_title: "Kelime kelime analiz", c3_desc: "Her ayet parçalanmış: çeviri, transkripsiyon, kök, anlam derinliği.",
+    c4_title: "Katman katman ilerleme", c4_desc: "5 kademeli seviye. Dilbilgisi ezberlemekle değil, kelimeleri anlamakla başla.",
+    c5_title: "Frekans içgörüsü", c5_desc: "\"Kur'an'dan bir şeyleri zaten anlıyorum.\" Bu psikolojik tık her şeyi değiştirir.",
+    c6_title: "Sadece Kur'an Arapçası", c6_desc: "Lehçe Arapça değil. Kur'an'ın klasik Arapçası — kesin, saf, zamansız.",
+    exemple_title: "Analiz edilmiş bir ayet görün",
+    exemple_sub: "Kökünü ve ailesini görmek için bir kelimeye tıkla. Böyle öğreniyoruz.",
+    demo_label: "Örnek · Al-Fatiha · Ayet 2",
+    demo_trad: '"Âlemlerin Rabbi Allah\'a hamd olsun."',
+    freq_title: "Frekans sistemi",
+    freq_sub: "300 kelime Kur'an'ın %70'ini anlamak için yeterli. İşte potansiyel ilerlemeniz.",
+    palier_desc: ["en sık kelimeler", "temel kelimeler", "yaygın kelimeler", "genişletilmiş kelimeler", "tam kelime hazinesi"],
+    modes_title: "İki öğrenme yolu",
+    modes_sub: "Sana uyanı seç. İkisi birbirini tamamlar.",
+    tag_libre: "Serbest mod", libre_title: "Kendi yolunla keşfet",
+    libre_desc: "Herhangi bir sureye, ayete, kelimeye veya köke doğrudan eriş. Tüm içerik kısıtsız olarak mevcuttur.",
+    lf1: "Tüm surelere erişim", lf2: "Her ayetin tam analizi",
+    lf3: "Kelime ve kök kartları", lf4: "Filtreler, arama, serbest gezinme",
+    libre_btn: "Sureleri Keşfet →",
+    tag_guide: "Rehberli mod", guide_title: "Bir yolu takip et",
+    guide_desc: "Seviyene uygun kademeli bir yol. Her gün: birkaç kelime, bir kök, bir ayet, bir egzersiz.",
+    gf1: "Katman ilerlemesi (1→5)", gf2: "Akıllı aralıklı tekrar",
+    gf3: "Seviyene uyarlanmış egzersizler", gf4: "İstatistikler ve kişisel takip",
+    guide_btn: "Yolculuğu Başlat →",
+    dashboard_title: "Kontrol paneliniz (yakında)",
+    dashboard_sub: "Bağlandıktan sonra kişisel alanınız böyle görünecek.",
+    welcome: "İyi devam et, Murat!", welcome_sub: "Bugün · Oturum 14",
+    task1: "5 kelimeyi gözden geçir", task1_sub: "رَبّ · اللَّه · رَحْمَة · نُور · حَقّ",
+    task2: "3 yeni kelime öğren", task2_sub: "Kök ك-ت-ب · kelime ailesi",
+    task3: "Al-Fatiha · 3. ayeti analiz et",
+    task4: "Hızlı quiz · 5 soru", task4_sub: "Kelimeler · Kökler",
+    ps1: "Öğrenilen kelimeler", ps2: "Görülen kökler", ps3: "Başarı oranı", ps4: "Gün serisi",
+    avert: "Bu platform, Kur'an metnini anlamak için dilbilimsel yardım sunar. Nitelikli âlimlerle yapılan çalışmanın veya klasik tefsir eserlerinin yerini tutmaz. Ton pedagojik, açık ve mütevazıdır.",
+    cta_title: "Başlamaya hazır mısın?",
+    cta_sub: "Al-Fatiha ile başla — 7 ayet, 29 kelime, Kur'an'a muhteşem bir kapı.",
+    cta_btn1: "Al-Fatiha ile Başla", cta_btn2: "Kelimeleri Keşfet",
+    footer: "Kur'an Arapçası öğrenme platformu · Pedagojik ve dilbilimsel içerik",
+    freq_label: "× Kur'an'da", famille_label: "Kelime ailesi",
+  }
+};
+
+const MOTS_FATIHA2 = [
+  { ar:"الْحَمْدُ", translit:"al-ḥamdu", fr:{fr:"La louange",en:"Praise",tr:"Hamd"}, racine:"ح-م-د", freq:68, famille:[{ar:"حَمِدَ",tr:"il a loué / praised / övdü"},{ar:"أَحْمَد",tr:"Muhammad / Ahmad"},{ar:"مُحَمَّد",tr:"le très loué / the praised"}], profondeur:{fr:"Al-ḥamd ouvre le Coran. C'est une louange libre et sincère, non contrainte. Les noms Muḥammad et Aḥmad viennent de cette même racine — le Prophète ﷺ est la 'louange incarnée'.",en:"Al-ḥamd opens the Quran. A free and sincere praise, unconstrained. The names Muḥammad and Aḥmad come from this same root — the Prophet ﷺ is 'praise incarnate'.",tr:"El-hamd Kur'an'ı açar. Özgür ve samimi bir övgü. Muhammed ve Ahmed isimleri aynı kökten gelir — Peygamber ﷺ 'cisimleşmiş övgü'dür."} },
+  { ar:"لِلَّهِ", translit:"lillāhi", fr:{fr:"à Allah",en:"to Allah",tr:"Allah'a"}, racine:"أ-ل-ه", freq:2699, famille:[{ar:"إِلَه",tr:"divinité / deity / ilah"},{ar:"آلِهَة",tr:"dieux / gods / ilahlar"}], profondeur:{fr:"Allah (2699 fois) — le mot le plus fréquent du Coran. La racine a-l-h évoque la dévotion totale du cœur. Sans féminin ni pluriel — l'Être unique par essence.",en:"Allah (2699 times) — the most frequent word in the Quran. The root a-l-h evokes total devotion of the heart. No feminine or plural — the unique Being by essence.",tr:"Allah (2699 kez) — Kur'an'da en sık kelime. a-l-h kökü kalbin tam adanmışlığını çağrıştırır. Dişil veya çoğul yok — özü itibarıyla eşsiz Varlık."} },
+  { ar:"رَبِّ", translit:"rabbi", fr:{fr:"Seigneur de",en:"Lord of",tr:"Rabbi"}, racine:"ر-ب-ب", freq:980, famille:[{ar:"رَبَّى",tr:"il a éduqué / raised / yetiştirdi"},{ar:"تَرْبِيَة",tr:"éducation / education / eğitim"},{ar:"مُرَبِّي",tr:"éducateur / educator / eğitimci"}], profondeur:{fr:"Rabb (980 fois) : seigneur, nourricier, éducateur. Bien plus riche que 'Seigneur' en français — c'est Celui qui crée ET qui prend soin, qui possède ET qui nourrit.",en:"Rabb (980 times): lord, nourisher, educator. Far richer than 'Lord' in English — He who creates AND cares, who owns AND nourishes.",tr:"Rabb (980 kez): efendi, besleyen, yetiştiren. 'Efendi'den çok daha zengin — hem yaratan hem koruyan, hem sahip olan hem besleyen."} },
+  { ar:"الْعَالَمِينَ", translit:"al-ʿālamīn", fr:{fr:"des mondes",en:"of all worlds",tr:"alemlerin"}, racine:"ع-ل-م", freq:105, famille:[{ar:"عِلْم",tr:"science / knowledge / ilim"},{ar:"عَالِم",tr:"savant / scholar / alim"},{ar:"عَلَامَة",tr:"signe / sign / alâmet"}], profondeur:{fr:"Al-ʿālamīn est le pluriel de ʿālam (monde/univers). Fascinant : la même racine donne ʿilm (savoir) et ʿalāma (signe). Connaître le monde c'est lire ses signes — les deux sont liés profondément.",en:"Al-ʿālamīn is the plural of ʿālam (world/universe). Fascinating: the same root gives ʿilm (knowledge) and ʿalāma (sign). Knowing the world is reading its signs — both are deeply linked.",tr:"El-âlemîn, âlem'in (dünya/evren) çoğuludur. Büyüleyici: aynı kök ilim ve alâmet kelimelerini de verir. Dünyayı bilmek, işaretlerini okumaktır."} }
+];
+
+const PALIERS = [
+  { top:10, pct:8, mots:10 }, { top:50, pct:20, mots:50 },
+  { top:100, pct:35, mots:100 }, { top:200, pct:55, mots:200 }, { top:300, pct:70, mots:300 }
+];
+
+// ===== ÉTAT =====
+let LANG = localStorage.getItem('lang') || 'fr';
+let selectedMot = null;
+
+// ===== LANGUE =====
+function t(key) { return (TEXTS[LANG] && TEXTS[LANG][key]) || TEXTS.fr[key] || key; }
+
+window.setLang = function(lang) {
+  LANG = lang;
+  localStorage.setItem('lang', lang);
+  document.documentElement.setAttribute('lang', lang);
+  renderAll();
+}
+
+function updateLangBtns() {
+  ['fr','en','tr'].forEach(l => {
+    document.getElementById('btn-'+l).classList.toggle('active', LANG === l);
+  });
+}
+
+// ===== THÈME =====
+window.toggleTheme = function() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const next = cur === 'light' ? '' : 'light';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+}
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+
+// ===== MOTS DEMO =====
+function renderMotsDemo() {
+  const container = document.getElementById('mots-demo');
+  container.innerHTML = MOTS_FATIHA2.map((m, i) => `
+    <div class="mot-demo ${selectedMot === i ? 'highlight' : ''}" onclick="selectMot(${i})">
+      <span class="md-ar">${m.ar}</span>
+      <span class="md-translit">${m.translit}</span>
+      <span class="md-fr">${m.fr[LANG] || m.fr.fr}</span>
+      <span class="md-racine">${m.racine}</span>
+    </div>
+  `).join('');
+}
+
+window.selectMot = function(i) {
+  selectedMot = selectedMot === i ? null : i;
+  renderMotsDemo();
+  const detail = document.getElementById('mot-detail-demo');
+  if (selectedMot === null) { detail.style.display = 'none'; return; }
+  const m = MOTS_FATIHA2[i];
+  document.getElementById('dd-ar').textContent = m.ar;
+  document.getElementById('dd-fr').textContent = m.fr[LANG] || m.fr.fr;
+  document.getElementById('dd-translit').textContent = m.translit;
+  document.getElementById('dd-racine').textContent = m.racine;
+  document.getElementById('dd-freq').textContent = `× ${m.freq.toLocaleString()} ${t('freq_label')}`;
+  document.getElementById('dd-famille').innerHTML = `
+    <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text3);margin-bottom:6px">${t('famille_label')}</div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px">${m.famille.map(f=>`
+      <div style="background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:6px 12px">
+        <span style="font-family:'Amiri',serif;font-size:18px;color:var(--text);direction:rtl">${f.ar}</span>
+        <span style="font-size:11px;color:var(--text3);display:block;margin-top:2px">${f.tr}</span>
+      </div>`).join('')}
+    </div>`;
+  document.getElementById('dd-profondeur').textContent = m.profondeur[LANG] || m.profondeur.fr;
+  detail.style.display = 'block';
+}
+
+// ===== PALIERS =====
+function renderPaliers() {
+  const container = document.getElementById('paliers-container');
+  const descs = t('palier_desc');
+  container.innerHTML = PALIERS.map((p, i) => `
+    <div class="palier">
+      <div class="palier-top">
+        <div class="palier-top-num">${t('top_label') || 'Top'} ${p.top}</div>
+        <div class="palier-top-label">${t('stat_mots') || 'mots'}</div>
+      </div>
+      <div class="palier-bar-wrap">
+        <div class="palier-bar"><div class="palier-fill" style="width:${p.pct}%"></div></div>
+        <div class="palier-desc">${descs ? descs[i] : ''}</div>
+      </div>
+      <div class="palier-pct">${p.pct}%</div>
+    </div>
+  `).join('');
+}
+
+// ===== RENDER ALL =====
+function renderAll() {
+  updateLangBtns();
+
+  // Navbar
+  document.getElementById('nav-accueil').textContent = t('nav_accueil');
+  document.getElementById('nav-sourates').textContent = t('nav_sourates');
+  document.getElementById('nav-vocabulaire').textContent = t('nav_vocabulaire');
+  document.getElementById('nav-racines').textContent = t('nav_racines');
+
+  // Hero
+  document.getElementById('hero-badge').textContent = t('hero_badge');
+  document.getElementById('hero-title').innerHTML = t('hero_title');
+  document.getElementById('hero-subtitle').textContent = t('hero_subtitle');
+  document.getElementById('hero-btn1').textContent = t('hero_btn1');
+  document.getElementById('hero-btn2').textContent = t('hero_btn2');
+  document.querySelector('.hero-stats .hero-stat:nth-child(1) .hero-stat-label').textContent = t('stat_sourates');
+  document.querySelector('.hero-stats .hero-stat:nth-child(2) .hero-stat-label').textContent = t('stat_versets');
+  document.getElementById('stat-mots-label').textContent = t('stat_mots');
+  document.getElementById('stat-couv-label').textContent = t('stat_couv');
+
+  // Concept
+  document.getElementById('concept-title').textContent = t('concept_title');
+  document.getElementById('concept-sub').textContent = t('concept_sub');
+  document.getElementById('c1-title').textContent = t('c1_title'); document.getElementById('c1-desc').textContent = t('c1_desc');
+  document.getElementById('c2-title').textContent = t('c2_title'); document.getElementById('c2-desc').textContent = t('c2_desc');
+  document.getElementById('c3-title').textContent = t('c3_title'); document.getElementById('c3-desc').textContent = t('c3_desc');
+  document.getElementById('c4-title').textContent = t('c4_title'); document.getElementById('c4-desc').textContent = t('c4_desc');
+  document.getElementById('c5-title').textContent = t('c5_title'); document.getElementById('c5-desc').textContent = t('c5_desc');
+  document.getElementById('c6-title').textContent = t('c6_title'); document.getElementById('c6-desc').textContent = t('c6_desc');
+
+  // Exemple
+  document.getElementById('exemple-title').textContent = t('exemple_title');
+  document.getElementById('exemple-sub').textContent = t('exemple_sub');
+  document.getElementById('demo-label').textContent = t('demo_label');
+  document.getElementById('demo-trad').textContent = t('demo_trad');
+
+  // Fréquence
+  document.getElementById('freq-title').textContent = t('freq_title');
+  document.getElementById('freq-sub').textContent = t('freq_sub');
+
+  // Modes
+  document.getElementById('modes-title').textContent = t('modes_title');
+  document.getElementById('modes-sub').textContent = t('modes_sub');
+  document.getElementById('tag-libre').textContent = t('tag_libre');
+  document.getElementById('libre-title').textContent = t('libre_title');
+  document.getElementById('libre-desc').textContent = t('libre_desc');
+  document.getElementById('lf1').textContent = t('lf1'); document.getElementById('lf2').textContent = t('lf2');
+  document.getElementById('lf3').textContent = t('lf3'); document.getElementById('lf4').textContent = t('lf4');
+  document.getElementById('libre-btn').textContent = t('libre_btn');
+  document.getElementById('tag-guide').textContent = t('tag_guide');
+  document.getElementById('guide-title').textContent = t('guide_title');
+  document.getElementById('guide-desc').textContent = t('guide_desc');
+  document.getElementById('gf1').textContent = t('gf1'); document.getElementById('gf2').textContent = t('gf2');
+  document.getElementById('gf3').textContent = t('gf3'); document.getElementById('gf4').textContent = t('gf4');
+  document.getElementById('guide-btn').textContent = t('guide_btn');
+
+  // Dashboard
+  document.getElementById('dashboard-title').textContent = t('dashboard_title');
+  document.getElementById('dashboard-sub').textContent = t('dashboard_sub');
+  document.getElementById('welcome-text').textContent = t('welcome');
+  document.getElementById('welcome-sub').textContent = t('welcome_sub');
+  document.getElementById('task1-text').textContent = t('task1');
+  document.getElementById('task1-sub').textContent = t('task1_sub');
+  document.getElementById('task2-text').textContent = t('task2');
+  document.getElementById('task2-sub').textContent = t('task2_sub');
+  document.getElementById('task3-text').textContent = t('task3');
+  document.getElementById('task4-text').textContent = t('task4');
+  document.getElementById('task4-sub').textContent = t('task4_sub');
+  document.getElementById('ps1').textContent = t('ps1');
+  document.getElementById('ps2').textContent = t('ps2');
+  document.getElementById('ps3').textContent = t('ps3');
+  document.getElementById('ps4').textContent = t('ps4');
+
+  // Avertissement
+  document.getElementById('avert-text').textContent = t('avert');
+
+  // CTA
+  document.getElementById('cta-title').textContent = t('cta_title');
+  document.getElementById('cta-sub').textContent = t('cta_sub');
+  document.getElementById('cta-btn1').textContent = t('cta_btn1');
+  document.getElementById('cta-btn2').textContent = t('cta_btn2');
+
+  // Footer
+  document.getElementById('footer-text').textContent = t('footer');
+
+  // Composants dynamiques
+  renderMotsDemo();
+  renderPaliers();
+}
+
+// ===== INIT =====
+document.documentElement.setAttribute('lang', LANG);
+renderAll();
+</script>
+</body>
+</html>
