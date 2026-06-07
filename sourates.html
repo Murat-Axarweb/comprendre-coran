@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>القرآن الكريم — Comprendre le Coran</title>
+  <meta name="description" content="Apprendre et comprendre le Coran verset par verset — traduction mot à mot, racines arabes, analyse de profondeur.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ===== VARIABLES ===== */
+    :root {
+      --bg: #0f0f0f;
+      --bg2: #1a1a1a;
+      --bg3: #242424;
+      --border: #2e2e2e;
+      --border2: #3a3a3a;
+      --text: #e8e8e8;
+      --text2: #a0a0a0;
+      --text3: #606060;
+      --gold: #c9a84c;
+      --gold2: #e8c97a;
+      --green: #4a9e7a;
+      --radius: 10px;
+      --radius-sm: 6px;
+    }
+    [data-theme="light"] {
+      --bg: #fafaf8;
+      --bg2: #f0ede6;
+      --bg3: #e8e4db;
+      --border: #d8d4cb;
+      --border2: #c8c4bb;
+      --text: #1a1a1a;
+      --text2: #555550;
+      --text3: #999990;
+      --gold: #8b6914;
+      --gold2: #a07820;
+      --green: #2d6b50;
+    }
+
+    /* ===== RESET ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    button {
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: inherit;
+    }
+    input, select {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: var(--radius-sm);
+      padding: 8px 12px;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input:focus, select:focus { border-color: var(--gold); }
+    select option { background: var(--bg2); }
+
+    /* ===== LAYOUT ===== */
+    .app { max-width: 860px; margin: 0 auto; padding: 0 16px 60px; }
+
+    /* ===== HEADER ===== */
+    .site-header {
+      text-align: center;
+      padding: 40px 0 28px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 28px;
+      position: relative;
+    }
+    .site-header h1 {
+      font-family: 'Amiri', serif;
+      font-size: 42px;
+      color: var(--gold);
+      letter-spacing: 2px;
+      line-height: 1.2;
+    }
+    .site-header .subtitle {
+      font-size: 13px;
+      color: var(--text2);
+      margin-top: 8px;
+      letter-spacing: 0.5px;
+    }
+    .theme-toggle {
+      position: absolute;
+      top: 40px;
+      right: 0;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      color: var(--text2);
+      transition: border-color 0.2s;
+    }
+    .theme-toggle:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* ===== STATS ===== */
+    .stats-bar {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    .stat-item {
+      flex: 1;
+      min-width: 120px;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      text-align: center;
+    }
+    .stat-num {
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--gold);
+    }
+    .stat-label {
+      font-size: 12px;
+      color: var(--text3);
+      margin-top: 2px;
+    }
+
+    /* ===== LISTE SOURATES ===== */
+    #list-view {}
+    .controls {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .controls input { flex: 1; min-width: 180px; }
+    .controls select { min-width: 140px; }
+
+    .sourate-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: 10px;
+    }
+    .s-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      cursor: pointer;
+      transition: border-color 0.2s, transform 0.15s;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .s-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+    .s-card.has-data { border-left: 3px solid var(--green); }
+    .s-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .s-num {
+      font-size: 12px;
+      color: var(--text3);
+      font-weight: 500;
+    }
+    .s-badge {
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: var(--bg3);
+      color: var(--text3);
+    }
+    .s-badge.mecquoise { color: var(--gold); background: rgba(201,168,76,0.1); }
+    .s-badge.medinoise { color: var(--green); background: rgba(74,158,122,0.1); }
+    .s-ar {
+      font-family: 'Amiri', serif;
+      font-size: 20px;
+      color: var(--text);
+      direction: rtl;
+      text-align: right;
+    }
+    .s-fr {
+      font-size: 12px;
+      color: var(--text2);
+    }
+    .s-versets {
+      font-size: 11px;
+      color: var(--text3);
+    }
+    .no-result {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text3);
+      font-size: 14px;
+      grid-column: 1/-1;
+    }
+
+    /* ===== VIEWER ===== */
+    #viewer-view { display: none; }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--text2);
+      margin-bottom: 16px;
+      padding: 6px 0;
+      transition: color 0.2s;
+    }
+    .back-btn:hover { color: var(--gold); }
+
+    .viewer {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .viewer-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg3);
+    }
+    .viewer-header-top {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .v-ar-name {
+      font-family: 'Amiri', serif;
+      font-size: 28px;
+      color: var(--gold);
+    }
+    .v-fr-name {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text);
+    }
+    .v-meta { font-size: 12px; color: var(--text3); }
+    .v-theme {
+      font-size: 13px;
+      color: var(--text2);
+      margin-top: 6px;
+      font-style: italic;
+    }
+
+    /* Navigation versets */
+    .v-nav {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 24px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg2);
+    }
+    .v-nav-btn {
+      padding: 6px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      color: var(--text2);
+      transition: all 0.2s;
+    }
+    .v-nav-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
+    .v-nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .v-counter {
+      flex: 1;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text2);
+    }
+    .v-progress {
+      height: 3px;
+      background: var(--bg3);
+      border-radius: 2px;
+      overflow: hidden;
+      margin: 0 24px;
+    }
+    .v-progress-fill {
+      height: 100%;
+      background: var(--gold);
+      border-radius: 2px;
+      transition: width 0.3s;
+    }
+
+    /* Corps du verset */
+    .verset-body { padding: 24px; }
+    .arabic-display {
+      font-family: 'Amiri', serif;
+      font-size: 32px;
+      line-height: 2;
+      direction: rtl;
+      text-align: right;
+      color: var(--text);
+      margin-bottom: 8px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .translit-line {
+      font-size: 14px;
+      color: var(--text2);
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 20px;
+      overflow-x: auto;
+    }
+    .tab-btn {
+      padding: 8px 16px;
+      font-size: 13px;
+      color: var(--text2);
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      white-space: nowrap;
+      transition: color 0.2s;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--gold); border-bottom-color: var(--gold); }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* Traduction */
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text3);
+      margin-bottom: 8px;
+    }
+    .traduction-text {
+      font-size: 16px;
+      color: var(--text);
+      line-height: 1.8;
+    }
+    .traduction-auteur {
+      font-size: 12px;
+      color: var(--text3);
+      margin-top: 8px;
+    }
+
+    /* Mot à mot */
+    .mots-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      direction: rtl;
+    }
+    .mot-card {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      cursor: pointer;
+      transition: border-color 0.2s;
+      text-align: center;
+    }
+    .mot-card:hover { border-color: var(--gold); }
+    .mot-card.active { border-color: var(--gold); background: rgba(201,168,76,0.08); }
+    .mot-ar { font-family: 'Amiri', serif; font-size: 22px; color: var(--text); direction: rtl; }
+    .mot-translit { font-size: 11px; color: var(--text3); font-style: italic; margin-top: 2px; }
+    .mot-fr-label { font-size: 12px; color: var(--gold); margin-top: 4px; font-weight: 500; }
+
+    /* Détail mot */
+    .mot-detail {
+      margin-top: 16px;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      display: none;
+    }
+    .mot-detail.active { display: block; }
+    .mot-detail-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .mot-detail-ar {
+      font-family: 'Amiri', serif;
+      font-size: 30px;
+      color: var(--gold);
+      direction: rtl;
+    }
+    .mot-detail-info { flex: 1; }
+    .mot-detail-fr { font-size: 15px; font-weight: 500; color: var(--text); }
+    .mot-detail-translit { font-size: 13px; color: var(--text2); font-style: italic; }
+    .racine-badge {
+      background: rgba(201,168,76,0.15);
+      color: var(--gold);
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      font-weight: 600;
+      direction: rtl;
+    }
+    .freq-badge {
+      background: rgba(74,158,122,0.15);
+      color: var(--green);
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 12px;
+    }
+    .famille-list {
+      margin: 10px 0;
+    }
+    .famille-list-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text3);
+      margin-bottom: 6px;
+    }
+    .famille-list ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .famille-list ul li {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 4px 10px;
+      font-size: 13px;
+      color: var(--text2);
+    }
+    .profondeur-box {
+      background: var(--bg2);
+      border-left: 3px solid var(--gold);
+      padding: 12px 14px;
+      font-size: 14px;
+      color: var(--text2);
+      line-height: 1.7;
+      margin-top: 10px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+
+    /* Analyse */
+    .analyse-box {
+      background: var(--bg3);
+      border-left: 3px solid var(--gold);
+      padding: 14px 16px;
+      font-size: 14px;
+      color: var(--text2);
+      line-height: 1.75;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+    .couche-badge {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: rgba(201,168,76,0.12);
+      color: var(--gold);
+    }
+
+    /* Racines */
+    .racines-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .racine-item {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+    }
+    .racine-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .racine-ar {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gold);
+      direction: rtl;
+    }
+    .racine-sens { font-size: 13px; color: var(--text2); }
+
+    /* Résumé pédagogique */
+    .resume-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .resume-card {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+    }
+    .resume-card-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text3);
+      margin-bottom: 8px;
+    }
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 3px 8px;
+      font-size: 12px;
+      color: var(--text2);
+    }
+    .tag.gold { color: var(--gold); border-color: rgba(201,168,76,0.3); }
+    .declic-box {
+      grid-column: 1/-1;
+      background: rgba(74,158,122,0.08);
+      border: 1px solid rgba(74,158,122,0.3);
+      border-radius: var(--radius);
+      padding: 14px;
+      font-size: 13px;
+      color: var(--text2);
+      line-height: 1.7;
+    }
+
+    /* Sourate sans données */
+    .no-data-box {
+      text-align: center;
+      padding: 3rem 2rem;
+      color: var(--text3);
+    }
+    .no-data-box .big { font-size: 40px; margin-bottom: 12px; }
+    .no-data-box p { font-size: 14px; line-height: 1.7; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+      .site-header h1 { font-size: 32px; }
+      .arabic-display { font-size: 26px; }
+      .stats-bar { gap: 8px; }
+      .resume-grid { grid-template-columns: 1fr; }
+      .theme-toggle { top: 16px; }
+    }
+  </style>
+</head>
+<body>
+<!-- NAVBAR -->
+<nav style="display:flex;align-items:center;border-bottom:1px solid var(--border);background:var(--bg);position:sticky;top:0;z-index:100;">
+  <div style="font-family:'Amiri',serif;font-size:22px;color:var(--gold);padding:12px 20px;border-right:1px solid var(--border)">القرآن</div>
+  <a href="index.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Accueil</a>
+  <a href="sourates.html" style="padding:14px 18px;font-size:13px;color:var(--gold);border-bottom:2px solid var(--gold);margin-bottom:-1px;text-decoration:none">Sourates</a>
+  <a href="vocabulaire.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Vocabulaire</a>
+  <div style="display:flex;align-items:center;gap:6px;margin-left:auto;padding:0 16px">
+    <button onclick="setLang('fr')" id="btn-fr" style="padding:5px 10px;font-size:12px;font-weight:500;border:1px solid var(--border);border-radius:6px;color:var(--text2);cursor:pointer;background:none;font-family:'Inter',sans-serif;transition:all 0.2s">FR</button>
+    <button onclick="setLang('en')" id="btn-en" style="padding:5px 10px;font-size:12px;font-weight:500;border:1px solid var(--border);border-radius:6px;color:var(--text2);cursor:pointer;background:none;font-family:'Inter',sans-serif;transition:all 0.2s">EN</button>
+    <button onclick="setLang('tr')" id="btn-tr" style="padding:5px 10px;font-size:12px;font-weight:500;border:1px solid var(--border);border-radius:6px;color:var(--text2);cursor:pointer;background:none;font-family:'Inter',sans-serif;transition:all 0.2s">TR</button>
+    <button onclick="toggleTheme()" style="padding:5px 10px;font-size:13px;border:1px solid var(--border);border-radius:6px;color:var(--text2);cursor:pointer;background:none;font-family:'Inter',sans-serif">☀/☾</button>
+  </div>
+</nav>
+
+<div class="app">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <h1>القرآن الكريم</h1>
+    <p class="subtitle" id="subtitle-text">Comprendre le Coran verset par verset · Racines · Traduction · Analyse</p>
+  </header>
+
+  <!-- STATS -->
+  <div class="stats-bar" id="stats-bar">
+    <div class="stat-item">
+      <div class="stat-num">114</div>
+      <div class="stat-label">Sourates</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">6 236</div>
+      <div class="stat-label">Versets</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="stat-analysees">0</div>
+      <div class="stat-label">Versets analysés</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="stat-pct">0%</div>
+      <div class="stat-label">Couverture</div>
+    </div>
+  </div>
+
+  <!-- LISTE -->
+  <div id="list-view">
+    <div class="controls">
+      <input type="text" id="search" placeholder="Rechercher une sourate..." oninput="filterSourates()">
+      <select id="type-filter" onchange="filterSourates()">
+        <option value="">Toutes (114)</option>
+        <option value="M">Mecquoises</option>
+        <option value="L">Médinoises</option>
+      </select>
+    </div>
+    <div class="sourate-grid" id="sourate-grid"></div>
+  </div>
+
+  <!-- VIEWER -->
+  <div id="viewer-view">
+    <button class="back-btn" onclick="showList()">← Toutes les sourates</button>
+    <div class="viewer">
+      <div class="viewer-header">
+        <div class="viewer-header-top">
+          <span class="v-ar-name" id="v-ar-name"></span>
+          <span class="v-fr-name" id="v-fr-name"></span>
+        </div>
+        <div class="v-meta" id="v-meta"></div>
+        <div class="v-theme" id="v-theme"></div>
+      </div>
+      <div class="v-progress"><div class="v-progress-fill" id="v-progress-fill"></div></div>
+      <div class="v-nav">
+        <button class="v-nav-btn" id="btn-prev" onclick="prevV()">← Précédent</button>
+        <span class="v-counter" id="v-counter"></span>
+        <button class="v-nav-btn" id="btn-next" onclick="nextV()">Suivant →</button>
+      </div>
+      <div class="verset-body" id="verset-body"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- DONNÉES SOURATES (métadonnées des 114) -->
+<script>
+const SOURATES_META = [
+  [1,"Al-Fatiha","الفاتحة","L'ouverture",7,"L","La prière centrale, dialogue direct avec Allah"],
+  [2,"Al-Baqara","البقرة","La vache",286,"L","La plus longue sourate — loi, foi, récits des prophètes"],
+  [3,"Al-Imran","آل عمران","La famille d'Imrân",200,"L","La famille de Marie, Jésus, unité de la révélation"],
+  [4,"An-Nisa","النساء","Les femmes",176,"L","Droits, famille, justice sociale"],
+  [5,"Al-Maida","المائدة","La table servie",120,"L","Loi alimentaire, pactes, Jésus et les disciples"],
+  [6,"Al-Anam","الأنعام","Les bestiaux",165,"M","Monothéisme, argumentation contre le polythéisme"],
+  [7,"Al-Araf","الأعراف","Les lieux élevés",206,"M","Histoire d'Adam, Moïse, peuples anciens"],
+  [8,"Al-Anfal","الأنفال","Le butin",75,"L","Bataille de Badr, éthique de la guerre"],
+  [9,"At-Tawba","التوبة","Le repentir",129,"L","Seule sourate sans Basmala — rupture avec les polythéistes"],
+  [10,"Yunus","يونس","Jonas",109,"M","Récit de Jonas, foi et confiance en Allah"],
+  [11,"Hud","هود","Houd",123,"M","Prophètes et peuples qui les ont rejetés"],
+  [12,"Yusuf","يوسف","Joseph",111,"M","Le plus beau récit du Coran — histoire de Joseph"],
+  [13,"Ar-Rad","الرعد","Le tonnerre",43,"L","Signes de la création, grandeur d'Allah"],
+  [14,"Ibrahim","إبراهيم","Ibrahim",52,"M","Prière d'Ibrahim, gratitude, tyrannie"],
+  [15,"Al-Hijr","الحجر","Al-Hijr",99,"M","Création, Iblis, peuples de Thamoud"],
+  [16,"An-Nahl","النحل","L'abeille",128,"M","Bénédictions d'Allah dans la nature, l'abeille"],
+  [17,"Al-Isra","الإسراء","Le voyage nocturne",111,"M","Le voyage nocturne du Prophète, commandements moraux"],
+  [18,"Al-Kahf","الكهف","La caverne",110,"M","Les gens de la caverne, Moise et Khidr, Dhul-Qarnayn"],
+  [19,"Maryam","مريم","Marie",98,"M","Marie, naissance de Jésus, Ibrahim, prophètes"],
+  [20,"Ta-Ha","طه","Tâ Hâ",135,"M","Moïse et Pharaon, mission prophétique"],
+  [21,"Al-Anbiya","الأنبياء","Les prophètes",112,"M","Chaîne des prophètes, unicité divine"],
+  [22,"Al-Hajj","الحج","Le pèlerinage",78,"L","Le hajj, le Jugement dernier, lutte pour Allah"],
+  [23,"Al-Muminun","المؤمنون","Les croyants",118,"M","Qualités des croyants, création de l'homme"],
+  [24,"An-Nur","النور","La lumière",64,"L","Moralité, calomnie, la lumière divine"],
+  [25,"Al-Furqan","الفرقان","Le Critère",77,"M","Le Coran comme critère du vrai et du faux"],
+  [26,"Ash-Shuara","الشعراء","Les poètes",227,"M","Moïse, Ibrahim, peuples anciens, poètes"],
+  [27,"An-Naml","النمل","La fourmi",93,"M","Salomon, la reine de Saba, la fourmi"],
+  [28,"Al-Qasas","القصص","Le récit",88,"M","Histoire détaillée de Moïse"],
+  [29,"Al-Ankabut","العنكبوت","L'araignée",69,"M","Épreuves des croyants, fragilité du polythéisme"],
+  [30,"Ar-Rum","الروم","Les Romains",60,"M","Victoire future des Romains, signes divins"],
+  [31,"Luqman","لقمان","Luqmân",34,"M","Sagesse de Luqman à son fils"],
+  [32,"As-Sajda","السجدة","La prosternation",30,"M","Création, résurrection, signes divins"],
+  [33,"Al-Ahzab","الأحزاب","Les coalisés",73,"L","Bataille des tranchées, éthique du foyer prophétique"],
+  [34,"Saba","سبأ","Saba'",54,"M","Peuple de Saba, ingratitude, Jugement"],
+  [35,"Fatir","فاطر","Le Créateur",45,"M","Allah Créateur, différence entre vrai et faux"],
+  [36,"Ya-Sin","يس","Yâ Sîn",83,"M","Cœur du Coran — résurrection, unicité divine"],
+  [37,"As-Saffat","الصافات","Les rangs",182,"M","Anges, Ibrahim et son fils, peuples anciens"],
+  [38,"Sad","ص","Sâd",88,"M","David, Salomon, Job, les prophètes"],
+  [39,"Az-Zumar","الزمر","Les groupes",75,"M","Sincérité, repentir, groupes au Jugement"],
+  [40,"Ghafir","غافر","Le pardonneur",85,"M","Le croyant de Pharaon, foi face à la tyrannie"],
+  [41,"Fussilat","فصلت","Fusilât",54,"M","Le Coran comme guérison, la création"],
+  [42,"Ash-Shura","الشورى","La consultation",53,"M","Consultation, unité des religions révélées"],
+  [43,"Az-Zukhruf","الزخرف","L'ornement",89,"M","Richesse trompeuse, Jésus et son message"],
+  [44,"Ad-Dukhan","الدخان","La fumée",59,"M","Nuit du destin, punition des incrédules"],
+  [45,"Al-Jathiya","الجاثية","L'agenouillée",37,"M","Signes divins, Jugement, peuples agenouillés"],
+  [46,"Al-Ahqaf","الأحقاف","Al-Ahqâf",35,"M","Peuple de 'Ad, les djinns écoutent le Coran"],
+  [47,"Muhammad","محمد","Muhammad",38,"L","Combat pour la foi, hypocrites, paradis"],
+  [48,"Al-Fath","الفتح","La victoire",29,"L","Traité d'Hudaybiyya, victoire annoncée"],
+  [49,"Al-Hujurat","الحجرات","Les appartements",18,"L","Éthique communautaire, fraternité islamique"],
+  [50,"Qaf","ق","Qâf",45,"M","Résurrection, création, mort"],
+  [51,"Adh-Dhariyat","الذاريات","Les vents dispersants",60,"M","Serment par les vents, Ibrahim, peuples anciens"],
+  [52,"At-Tur","الطور","Le Mont",49,"M","Serment par le Mont Sinaï, paradis"],
+  [53,"An-Najm","النجم","L'étoile",62,"M","L'ascension du Prophète, unicité divine"],
+  [54,"Al-Qamar","القمر","La lune",55,"M","La lune fendue, peuples qui ont rejeté les prophètes"],
+  [55,"Ar-Rahman","الرحمن","Le Tout Miséricordieux",78,"M","Bénédictions divines — 'Laquelle de vos grâces nierez-vous ?'"],
+  [56,"Al-Waqia","الواقعة","L'événement",96,"M","Le Jugement dernier, trois catégories d'humains"],
+  [57,"Al-Hadid","الحديد","Le fer",29,"L","Générosité, le fer comme signe divin"],
+  [58,"Al-Mujadila","المجادلة","La discussion",22,"L","La femme qui discute, hypocrites, assemblées"],
+  [59,"Al-Hashr","الحشر","L'exode",24,"L","Expulsion des Banu Nadir, attributs divins"],
+  [60,"Al-Mumtahana","الممتحنة","L'éprouvée",13,"L","Relations avec les non-musulmans, foi et liens familiaux"],
+  [61,"As-Saf","الصف","Le rang",14,"L","Cohérence entre paroles et actes, Jésus annonce Muhammad"],
+  [62,"Al-Jumua","الجمعة","Le vendredi",11,"L","La prière du vendredi, responsabilité des savants"],
+  [63,"Al-Munafiqun","المنافقون","Les hypocrites",11,"L","L'hypocrisie, ses signes et ses dangers"],
+  [64,"At-Taghabun","التغابن","La déception",18,"L","Jour du regret, famille comme épreuve, générosité"],
+  [65,"At-Talaq","الطلاق","Le divorce",12,"L","Règles du divorce, confiance en Allah"],
+  [66,"At-Tahrim","التحريم","L'interdiction",12,"L","Foyer du Prophète, exemples de femmes croyantes"],
+  [67,"Al-Mulk","الملك","La royauté",30,"M","Souveraineté divine, mort et vie comme épreuve"],
+  [68,"Al-Qalam","القلم","Le calame",52,"M","Défense du Prophète, l'écriture comme signe"],
+  [69,"Al-Haqqa","الحاقة","L'inévitable",52,"M","L'Heure inévitable, peuples anciens, Jugement"],
+  [70,"Al-Maarij","المعارج","Les voies ascendantes",44,"M","La patience, les voies célestes, Jugement"],
+  [71,"Nuh","نوح","Noé",28,"M","Prédication de Noé, le déluge"],
+  [72,"Al-Jinn","الجن","Les djinns",28,"M","Les djinns écoutent le Coran et croient"],
+  [73,"Al-Muzzammil","المزمل","L'enveloppé",20,"M","La prière nocturne, patience du Prophète"],
+  [74,"Al-Muddaththir","المدثر","Le revêtu",56,"M","Début de la mission, avertissement"],
+  [75,"Al-Qiyama","القيامة","La résurrection",40,"M","Le Jour de la résurrection, la mort"],
+  [76,"Al-Insan","الإنسان","L'Homme",31,"L","Création de l'homme, récompense des croyants"],
+  [77,"Al-Mursalat","المرسلات","Les envoyés",50,"M","Serment par les vents envoyés, Jugement"],
+  [78,"An-Naba","النبأ","La nouvelle",40,"M","La grande nouvelle, la résurrection"],
+  [79,"An-Naziat","النازعات","Les arracheurs",46,"M","Les anges, Moïse et Pharaon, Heure"],
+  [80,"Abasa","عبس","Il s'est renfrogné",42,"M","Le Prophète et l'aveugle — leçon d'humilité"],
+  [81,"At-Takwir","التكوير","L'obscurcissement",29,"M","Signes de la Fin des temps, le Coran comme lumière"],
+  [82,"Al-Infitar","الانفطار","La déchirure",19,"M","Le ciel se déchirera, Jugement, anges gardiens"],
+  [83,"Al-Mutaffifin","المطففين","Les fraudeurs",36,"M","La tromperie dans le commerce, livre des actes"],
+  [84,"Al-Inshiqaq","الانشقاق","Le déchirement",25,"M","Le ciel se déchire, l'homme revient vers Allah"],
+  [85,"Al-Buruj","البروج","Les constellations",22,"M","Les fossés de feu, martyrs de la foi"],
+  [86,"At-Tariq","الطارق","L'astre nocturne",17,"M","L'étoile du matin, l'homme créé d'eau"],
+  [87,"Al-Ala","الأعلى","Le Très-Haut",19,"M","Glorifier Allah, la facilité divine, le Coran mémorisé"],
+  [88,"Al-Ghashiya","الغاشية","L'enveloppante",26,"M","L'Heure enveloppante, paradis et enfer, signes"],
+  [89,"Al-Fajr","الفجر","L'aurore",30,"M","L'aurore, peuples anciens, l'âme apaisée"],
+  [90,"Al-Balad","البلد","La cité",20,"M","La Mecque, les épreuves de l'homme, la générosité"],
+  [91,"Ash-Shams","الشمس","Le soleil",15,"M","Serment par le soleil, purification de l'âme"],
+  [92,"Al-Layl","الليل","La nuit",21,"M","Générosité contre avarice, les deux voies"],
+  [93,"Ad-Duha","الضحى","La matinée",11,"M","Réconfort au Prophète, gratitude pour les bienfaits"],
+  [94,"Ash-Sharh","الشرح","L'ouverture du cœur",8,"M","Après la difficulté vient la facilité"],
+  [95,"At-Tin","التين","Le figuier",8,"M","L'homme créé dans la meilleure forme"],
+  [96,"Al-Alaq","العلق","L'adhérence",19,"M","Premier verset révélé — Lis ! — l'écriture et la connaissance"],
+  [97,"Al-Qadr","القدر","La nuit du destin",5,"M","La nuit du destin, meilleure que mille mois"],
+  [98,"Al-Bayyina","البينة","La preuve évidente",8,"L","Les gens du Livre et les polythéistes face au Coran"],
+  [99,"Az-Zalzala","الزلزلة","Le séisme",8,"L","La Terre tremble, chaque atome d'action compté"],
+  [100,"Al-Adiyat","العاديات","Les coureurs",11,"M","Les chevaux au galop, ingratitude de l'homme"],
+  [101,"Al-Qaria","القارعة","La calamité",11,"M","Le fracas du Jugement, la balance des actes"],
+  [102,"At-Takathur","التكاثر","La course aux richesses",8,"M","La compétition matérielle, la vraie réalité"],
+  [103,"Al-Asr","العصر","L'époque",3,"M","L'homme en perdition sauf 4 conditions — sourate universelle"],
+  [104,"Al-Humaza","الهمزة","Le calomniateur",9,"M","Le médisant, l'avarice, le feu de l'enfer"],
+  [105,"Al-Fil","الفيل","L'éléphant",5,"M","L'armée aux éléphants d'Abraha, protection de La Mecque"],
+  [106,"Quraysh","قريش","Quraych",4,"M","Les caravanes de Quraych, bénédictions d'Allah"],
+  [107,"Al-Maun","الماعون","L'ustensile",7,"M","Refuser l'aide aux pauvres, prière hypocrite"],
+  [108,"Al-Kawthar","الكوثر","L'abondance",3,"L","Don de l'abondance, prière et sacrifice"],
+  [109,"Al-Kafirun","الكافرون","Les mécréants",6,"M","Liberté de religion, pas de compromis sur la foi"],
+  [110,"An-Nasr","النصر","Le secours",3,"L","La victoire annoncée, fin de la mission du Prophète"],
+  [111,"Al-Masad","المسد","Les fibres",5,"M","Abou Lahab et sa femme, l'échec de l'ennemi"],
+  [112,"Al-Ikhlas","الإخلاص","La sincérité",4,"M","L'unicité absolue d'Allah — équivalente au tiers du Coran"],
+  [113,"Al-Falaq","الفلق","L'aube",5,"M","Refuge contre les maux de la création"],
+  [114,"An-Nas","الناس","Les hommes",6,"L","Refuge contre le tentateur — clôture du Coran"]
+];
+
+// Registre des sourates avec données complètes
+const SOURATES_DATA = {};
+
+// Chargement dynamique des données
+async function loadSourateData(num) {
+  if (SOURATES_DATA[num]) return SOURATES_DATA[num];
+  try {
+    const mod = await import(`./sourates/s${String(num).padStart(3,'0')}.js`);
+    SOURATES_DATA[num] = mod.default || Object.values(mod)[0];
+    return SOURATES_DATA[num];
+  } catch(e) {
+    return null;
+  }
+}
+
+// État
+let currentS = null;
+let currentData = null;
+let currentIdx = 0;
+let currentTab = 'traduction';
+let selectedMot = null;
+
+// Stats
+function updateStats() {
+  const analysees = Object.values(SOURATES_DATA)
+    .filter(d => d)
+    .reduce((acc, d) => acc + (d.versets ? d.versets.length : 0), 0);
+  document.getElementById('stat-analysees').textContent = analysees;
+  document.getElementById('stat-pct').textContent = Math.round(analysees / 6236 * 100) + '%';
+}
+
+// Rendu grille
+function renderGrid(list) {
+  const grid = document.getElementById('sourate-grid');
+  if (!list.length) {
+    grid.innerHTML = '<div class="no-result">Aucune sourate trouvée.</div>';
+    return;
+  }
+  grid.innerHTML = list.map(s => {
+    const hasData = !!SOURATES_DATA[s[0]];
+    const typeClass = s[5] === 'M' ? 'mecquoise' : 'medinoise';
+    const typeLabel = s[5] === 'M' ? 'Mecquoise' : 'Médinoise';
+    return `<div class="s-card ${hasData ? 'has-data' : ''}" onclick="openSourate(${s[0]})">
+      <div class="s-card-top">
+        <span class="s-num">${s[0]}</span>
+        <span class="s-badge ${typeClass}">${typeLabel}</span>
+      </div>
+      <div class="s-ar">${s[2]}</div>
+      <div class="s-fr">${s[3]}</div>
+      <div class="s-versets">${s[4]} versets${hasData ? ' · ✓ analysée' : ''}</div>
+    </div>`;
+  }).join('');
+}
+
+function filterSourates() {
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  const type = document.getElementById('type-filter').value;
+  const filtered = SOURATES_META.filter(s => {
+    const matchQ = !q || s[1].toLowerCase().includes(q) || s[3].toLowerCase().includes(q) || s[0].toString().includes(q);
+    const matchT = !type || s[5] === type;
+    return matchQ && matchT;
+  });
+  renderGrid(filtered);
+}
+
+// Ouvrir sourate
+async function openSourate(num) {
+  currentS = SOURATES_META.find(s => s[0] === num);
+  currentIdx = 0;
+  currentTab = 'traduction';
+  selectedMot = null;
+
+  document.getElementById('list-view').style.display = 'none';
+  document.getElementById('viewer-view').style.display = 'block';
+  document.getElementById('stats-bar').style.display = 'none';
+
+  document.getElementById('v-ar-name').textContent = currentS[2];
+  document.getElementById('v-fr-name').textContent = currentS[3];
+  const typeLabel = currentS[5] === 'M' ? 'Mecquoise' : 'Médinoise';
+  document.getElementById('v-meta').textContent = `Sourate ${currentS[0]} · ${typeLabel} · ${currentS[4]} versets`;
+  document.getElementById('v-theme').textContent = currentS[6] || '';
+
+  document.getElementById('verset-body').innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text3)">Chargement...</div>';
+  currentData = await loadSourateData(num);
+  updateStats();
+  renderVerset();
+}
+
+// Rendu verset
+function renderVerset() {
+  const total = currentS[4];
+  document.getElementById('v-counter').textContent = `Verset ${currentIdx + 1} / ${total}`;
+  document.getElementById('btn-prev').disabled = currentIdx === 0;
+  document.getElementById('btn-next').disabled = currentIdx === total - 1;
+  document.getElementById('v-progress-fill').style.width = ((currentIdx + 1) / total * 100) + '%';
+
+  if (!currentData || !currentData.versets || !currentData.versets[currentIdx]) {
+    renderNoData();
+    return;
+  }
+
+  const v = currentData.versets[currentIdx];
+  const trFr = v.traductions?.fr || { auteur: 'Hamidullah', texte: v.traduction_fr || '' };
+
+  document.getElementById('verset-body').innerHTML = `
+    <div class="arabic-display">${v.ar}</div>
+    <div class="translit-line">${v.translit}</div>
+
+    <div class="tabs">
+      <button class="tab-btn ${currentTab==='traduction'?'active':''}" onclick="setTab('traduction')">Traduction</button>
+      <button class="tab-btn ${currentTab==='mots'?'active':''}" onclick="setTab('mots')">Mot à mot</button>
+      <button class="tab-btn ${currentTab==='analyse'?'active':''}" onclick="setTab('analyse')">Analyse</button>
+      <button class="tab-btn ${currentTab==='resume'?'active':''}" onclick="setTab('resume')">Résumé pédago</button>
+    </div>
+
+    <div class="tab-panel ${currentTab==='traduction'?'active':''}" id="panel-traduction">
+      <div class="section-label">Traduction française</div>
+      <div class="traduction-text">${trFr.texte}</div>
+      <div class="traduction-auteur">— ${trFr.auteur}</div>
+    </div>
+
+    <div class="tab-panel ${currentTab==='mots'?'active':''}" id="panel-mots">
+      <div class="section-label">Cliquer sur un mot pour l'analyser</div>
+      <div class="mots-grid" id="mots-grid">
+        ${(v.mots||[]).map((m,i) => `
+          <div class="mot-card" id="mot-${i}" onclick="selectMot(${i})">
+            <div class="mot-ar">${m.ar}</div>
+            <div class="mot-translit">${m.translit}</div>
+            <div class="mot-fr-label">${m.fr}</div>
+          </div>
+        `).join('')}
+      </div>
+      <div class="mot-detail" id="mot-detail"></div>
+    </div>
+
+    <div class="tab-panel ${currentTab==='analyse'?'active':''}" id="panel-analyse">
+      <div class="section-label">Analyse globale du verset</div>
+      <div class="analyse-box">
+        ${v.analyse_globale || 'Analyse en cours de rédaction.'}
+        <div class="couche-badge">Couche ${v.niveau_couche || 1} / 5</div>
+      </div>
+    </div>
+
+    <div class="tab-panel ${currentTab==='resume'?'active':''}" id="panel-resume">
+      ${renderResume()}
+    </div>
+  `;
+}
+
+function renderResume() {
+  if (!currentData || !currentData.resume_pedagogique) return '<div style="color:var(--text3);padding:1rem">Résumé pédagogique en cours de rédaction.</div>';
+  const r = currentData.resume_pedagogique;
+  return `
+    <div class="resume-grid">
+      <div class="resume-card">
+        <div class="resume-card-title">Mots clés à retenir</div>
+        <div class="tag-list">${(r.mots_cles_a_retenir||[]).map(m=>`<span class="tag gold" style="font-family:'Amiri',serif;font-size:16px">${m}</span>`).join('')}</div>
+      </div>
+      <div class="resume-card">
+        <div class="resume-card-title">Racines à retenir</div>
+        <div class="tag-list">${(r.racines_a_retenir||[]).map(r=>`<span class="tag gold">${r}</span>`).join('')}</div>
+      </div>
+      <div class="declic-box">
+        💡 <strong>Le déclic fréquence :</strong> ${r.declic_frequence || ''}
+      </div>
+    </div>`;
+}
+
+function selectMot(i) {
+  const v = currentData.versets[currentIdx];
+  const m = v.mots[i];
+  // Toggle
+  if (selectedMot === i) {
+    selectedMot = null;
+    document.querySelectorAll('.mot-card').forEach(c => c.classList.remove('active'));
+    document.getElementById('mot-detail').classList.remove('active');
+    document.getElementById('mot-detail').innerHTML = '';
+    return;
+  }
+  selectedMot = i;
+  document.querySelectorAll('.mot-card').forEach(c => c.classList.remove('active'));
+  document.getElementById(`mot-${i}`).classList.add('active');
+
+  const detail = document.getElementById('mot-detail');
+  detail.classList.add('active');
+  detail.innerHTML = `
+    <div class="mot-detail-header">
+      <div class="mot-detail-ar">${m.ar}</div>
+      <div class="mot-detail-info">
+        <div class="mot-detail-fr">${m.fr}</div>
+        <div class="mot-detail-translit">${m.translit}</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end">
+        <span class="racine-badge">${m.racine}</span>
+        <span class="freq-badge">× ${m.frequence_coran} dans le Coran</span>
+      </div>
+    </div>
+    <div class="famille-list">
+      <div class="famille-list-title">Famille de mots (même racine)</div>
+      <ul>${(m.famille||[]).map(f=>`<li>${f}</li>`).join('')}</ul>
+    </div>
+    <div class="profondeur-box">${m.profondeur}</div>
+  `;
+}
+
+function setTab(tab) {
+  currentTab = tab;
+  selectedMot = null;
+  renderVerset();
+}
+
+function prevV() { if (currentIdx > 0) { currentIdx--; selectedMot = null; renderVerset(); } }
+function nextV() { if (currentIdx < currentS[4]-1) { currentIdx++; selectedMot = null; renderVerset(); } }
+
+function renderNoData() {
+  document.getElementById('verset-body').innerHTML = `
+    <div class="no-data-box">
+      <div class="big">📖</div>
+      <p>L'analyse complète de cette sourate est en cours de rédaction.<br>
+      Les sourates <strong>112 (Al-Ikhlas)</strong> et <strong>113 (Al-Falaq)</strong> sont déjà disponibles.</p>
+    </div>`;
+}
+
+function showList() {
+  document.getElementById('viewer-view').style.display = 'none';
+  document.getElementById('list-view').style.display = 'block';
+  document.getElementById('stats-bar').style.display = 'flex';
+  filterSourates();
+}
+
+// Thème
+function toggleTheme() {
+  const html = document.documentElement;
+  const current = html.getAttribute('data-theme');
+  html.setAttribute('data-theme', current === 'light' ? '' : 'light');
+  localStorage.setItem('theme', current === 'light' ? '' : 'light');
+}
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+
+// Init
+renderGrid(SOURATES_META);
+</script>
+</body>
+</html>
