@@ -3057,7 +3057,7 @@ const VOCAB = [
     "profondeur": {
       "fr": "Wa-llāhu relie Allah à une affirmation : “et Allah sait”, “et Allah voit”, “et Allah est...” Cette forme rappelle que l’action humaine est toujours placée sous le savoir divin.",
       "en": "Wa-llāhu connects Allah to a statement: “and Allah knows,” “and Allah sees,” “and Allah is...” It places human action under divine knowledge.",
-      "tr": "Wa-llāhu Allah’ı bir hükme bağl"ar": “Allah bilir”, “Allah görür”, “Allah ...dır”. İnsan fiilinin ilahi bilgi altında olduğunu hatırlatır."
+      "tr": "Wa-llāhu Allah’ı bir hükme bağlar: “Allah bilir”, “Allah görür”, “Allah ...dır”. İnsan fiilinin ilahi bilgi altında olduğunu hatırlatır."
     },
     "sourates_cles": [2, 3, 8]
   },
@@ -3283,7 +3283,7 @@ const VOCAB = [
     "profondeur": {
       "fr": "Wa-allaḏīna relie une phrase à un groupe décrit par ses actes ou ses qualités. Le Coran l’utilise pour enchaîner les portraits moraux : ceux qui croient, ceux qui dépensent, ceux qui patientent.",
       "en": "Wa-allaḏīna connects a sentence to a group described by its actions or qualities. The Quran uses it to build moral portraits: those who believe, spend, or remain patient.",
-      "tr": "Wa-allaḏīna bir cümleyi davranışları veya özellikleriyle tanımlanan bir gruba bağl"ar": iman edenler, infak edenler, sabredenler."
+      "tr": "Wa-allaḏīna bir cümleyi davranışları veya özellikleriyle tanımlanan bir gruba bağlar: iman edenler, infak edenler, sabredenler."
     },
     "sourates_cles": [2, 8, 103]
   },
@@ -3331,7 +3331,7 @@ const VOCAB = [
     "profondeur": {
       "fr": "Fa-lā relie une conclusion à une interdiction ou à une négation : “donc ne fais pas”, “alors il n’y a pas”. Le fa donne une conséquence logique à la négation.",
       "en": "Fa-lā connects a conclusion to a prohibition or negation: “so do not,” “then there is no.” The fa gives logical consequence to the negation.",
-      "tr": "Fa-lā bir sonucu olumsuzluk veya yasakla bağl"ar": “öyleyse yapma”, “artık yoktur”. Fa edatı olumsuzluğa mantıksal sonuç verir."
+      "tr": "Fa-lā bir sonucu olumsuzluk veya yasakla bağlar: “öyleyse yapma”, “artık yoktur”. Fa edatı olumsuzluğa mantıksal sonuç verir."
     },
     "sourates_cles": [2, 93, 94]
   },
@@ -4045,7 +4045,7 @@ const VOCAB = [
     "profondeur": {
       "fr": "Wa-qāla relie une parole au récit : “et il dit”. Le Coran avance souvent par dialogues : Allah parle, les prophètes répondent, les peuples objectent, les croyants invoquent.",
       "en": "Wa-qāla connects a speech to the narrative: “and he said.” The Quran often moves through dialogue: Allah speaks, prophets answer, peoples object, believers supplicate.",
-      "tr": "Wa-qāla anlatıya bir söz bağl"ar": “ve dedi”. Kur’an çoğu zaman diyaloglarla ilerler: Allah konuşur, peygamberler cevap verir, kavimler itiraz eder, müminler dua eder."
+      "tr": "Wa-qāla anlatıya bir söz bağlar “ve dedi”. Kur’an çoğu zaman diyaloglarla ilerler: Allah konuşur, peygamberler cevap verir, kavimler itiraz eder, müminler dua eder."
     },
     "sourates_cles": [2, 7, 12]
   },
