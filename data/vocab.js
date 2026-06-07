@@ -2700,7 +2700,7 @@ const VOCAB = [
       88
     ]
   },
-    {
+  {
     "id": 61, 
     "ar": "مَا", 
     "translit": "mā", 
