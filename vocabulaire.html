@@ -282,7 +282,7 @@
 <nav class="navbar">
   <div class="nav-logo">القرآن</div>
   <div class="nav-links">
-    <a class="nav-link" id="nav-sourates" href="index.html" data-i18n="nav_sourates">Sourates</a>
+    <a class="nav-link" id="nav-sourates" href="sourates.html" data-i18n="nav_sourates">Sourates</a>
     <a class="nav-link active" id="nav-vocabulaire" href="vocabulaire.html" data-i18n="nav_vocabulaire">Vocabulaire</a>
   </div>
   <div class="nav-right">
@@ -573,7 +573,7 @@ window.openDetail = function(id) {
         <div class="detail-section-title">${t('voir_sourates')}</div>
         <div class="sourates-chips">
           ${w.sourates_cles.map(n => `
-            <a class="sourate-chip" href="index.html#sourate-${n}">${n} · ${SOURATES_NOMS[n]||'Sourate '+n}</a>
+            <a class="sourate-chip" href="sourates.html#sourate-${n}">${n} · ${SOURATES_NOMS[n]||'Sourate '+n}</a>
           `).join('')}
         </div>
       </div>`;
