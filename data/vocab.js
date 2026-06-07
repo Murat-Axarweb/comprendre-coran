@@ -3170,6 +3170,1462 @@ const VOCAB = [
     },
     "sourates_cles:" [96, 2, 55]
   }
+  {
+    "id:" 61, "ar:" "مَا", "translit:" "mā", "frequence:" 1010, "rang:" 61,
+    "racine:" "particule", "theme:" "grammaire",
+    "traductions:" { "fr:" "ce que / quoi / ne... pas", "en:" "what / that which / not", "tr:" "ne / şey / değil" },
+    "famille:" [
+      { "ar:" "وَمَا", "translit:" "wa-mā", "fr:" "et ce que / et ne... pas", "en:" "and what / and not", "tr:" "ve ne / ve değil" },
+      { "ar:" "بِمَا", "translit:" "bi-mā", "fr:" "par ce que / à cause de ce que", "en:" "because of what / by what", "tr:" "sebebiyle / ile" },
+      { "ar:" "عَمَّا", "translit:" "ʿammā", "fr:" "au sujet de ce que", "en:" "about what", "tr:" "hakkında" }
+    ],
+    "profondeur:" {
+      "fr:" "Mā est l’un des mots les plus souples du Coran : il peut être interrogatif, relatif ou négatif. Il faut toujours le lire avec le contexte : mā peut vouloir dire “quoi ?”, “ce que”, ou “ne... pas”.",
+      "en:" "Mā is one of the most flexible Quranic particles: it can be interrogative, relative, or negative. Its meaning depends heavily on context.",
+      "tr:" "Mā Kur’an’daki en esnek edatlardan biridir: soru, ilgi veya olumsuzluk anlamı taşıyabilir. Anlamı bağlama göre belirlenir."
+    },
+    "sourates_cles:" [2, 93, 107]
+  },
+  {
+    "id:" 62, "ar:" "لَا", "translit:" "lā", "frequence:" 812, "rang:" 62,
+    "racine:" "particule", "theme:" "grammaire",
+    "traductions:" { "fr:" "non / ne... pas", "en:" "no / not", "tr:" "hayır / değil / -me" },
+    "famille:" [
+      { "ar:" "وَلَا", "translit:" "wa-lā", "fr:" "et ne... pas / ni", "en:" "and not / nor", "tr:" "ve değil / ne de" },
+      { "ar:" "لَا إِلَٰهَ", "translit:" "lā ilāha", "fr:" "pas de divinité", "en:" "no deity", "tr:" "ilah yoktur" },
+      { "ar:" "فَلَا", "translit:" "fa-lā", "fr:" "donc ne... pas", "en:" "so do not", "tr:" "öyleyse ...me" }
+    ],
+    "profondeur:" {
+      "fr:" "Lā est la particule de négation la plus directe. Elle peut nier une idée, interdire une action, ou entrer dans la formule centrale du tawḥīd : lā ilāha illā Allāh.",
+      "en:" "Lā is the direct particle of negation. It can deny, prohibit, or appear in the central formula of tawḥīd: lā ilāha illā Allāh.",
+      "tr:" "Lā doğrudan olumsuzluk edatıdır. Bir fikri reddeder, bir eylemi yasaklar veya tevhidin temel ifadesinde geçer: lā ilāha illā Allāh."
+    },
+    "sourates_cles:" [1, 2, 109]
+  },
+  {
+    "id:" 63, "ar:" "الَّذِينَ", "translit:" "allaḏīna", "frequence:" 810, "rang:" 63,
+    "racine:" "pronom relatif", "theme:" "grammaire",
+    "traductions:" { "fr:" "ceux qui", "en:" "those who", "tr:" "onlar ki / kimseler ki" },
+    "famille:" [
+      { "ar:" "الَّذِي", "translit:" "allaḏī", "fr:" "celui qui", "en:" "the one who", "tr:" "o ki" },
+      { "ar:" "الَّتِي", "translit:" "allatī", "fr:" "celle qui", "en:" "the one which / she who", "tr:" "o ki (dişil)" },
+      { "ar:" "الَّذَانِ", "translit:" "allaḏāni", "fr:" "les deux qui", "en:" "the two who", "tr:" "iki kişi ki" }
+    ],
+    "profondeur:" {
+      "fr:" "Allaḏīna ouvre d’innombrables descriptions coraniques : ceux qui croient, ceux qui mécroient, ceux qui patientent. Le mot sert à reconnaître les groupes et leurs qualités.",
+      "en:" "Allaḏīna introduces countless Quranic descriptions: those who believe, those who disbelieve, those who are patient. It helps identify groups by their qualities.",
+      "tr:" "Allaḏīna Kur’an’da birçok topluluğu tanıtır: iman edenler, inkâr edenler, sabredenler. İnsanları özellikleriyle anlamayı sağlar."
+    },
+    "sourates_cles:" [2, 98, 103]
+  },
+  {
+    "id:" 64, "ar:" "إِلَّا", "translit:" "illā", "frequence:" 662, "rang:" 64,
+    "racine:" "particule d’exception", "theme:" "grammaire",
+    "traductions:" { "fr:" "sauf / excepté / si ce n’est", "en:" "except / unless / save", "tr:" "hariç / ancak / dışında" },
+    "famille:" [
+      { "ar:" "لَا إِلَٰهَ إِلَّا اللَّهُ", "translit:" "lā ilāha illā Allāh", "fr:" "pas de divinité sauf Allah", "en:" "no deity except Allah", "tr:" "Allah’tan başka ilah yoktur" },
+      { "ar:" "إِلَّا الَّذِينَ", "translit:" "illā allaḏīna", "fr:" "sauf ceux qui", "en:" "except those who", "tr:" "ancak onlar ki" },
+      { "ar:" "إِلَّا مَا", "translit:" "illā mā", "fr:" "sauf ce que", "en:" "except what", "tr:" "ancak ne ise" }
+    ],
+    "profondeur:" {
+      "fr:" "Illā marque l’exception. Dans la shahāda, il renverse toute fausse adoration : la négation vient d’abord, puis l’exception absolue pour Allah.",
+      "en:" "Illā marks exception. In the shahāda, it overturns all false worship: negation comes first, then the absolute exception for Allah.",
+      "tr:" "Illā istisna edatıdır. Şehadette önce bütün sahte ilahlar reddedilir, sonra istisna yalnız Allah’a yapılır."
+    },
+    "sourates_cles:" [2, 103, 109]
+  },
+  {
+    "id:" 65, "ar:" "وَلَا", "translit:" "wa-lā", "frequence:" 658, "rang:" 65,
+    "racine:" "و + لَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "et ne... pas / ni", "en:" "and not / nor", "tr:" "ve değil / ne de" },
+    "famille:" [
+      { "ar:" "وَ", "translit:" "wa", "fr:" "et", "en:" "and", "tr:" "ve" },
+      { "ar:" "لَا", "translit:" "lā", "fr:" "non / ne... pas", "en:" "no / not", "tr:" "hayır / değil" },
+      { "ar:" "فَلَا", "translit:" "fa-lā", "fr:" "donc ne... pas", "en:" "so do not", "tr:" "öyleyse ...me" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-lā combine liaison et négation. Dans Al-Fātiḥa, wa-lā introduit “ni ceux qui s’égarent”, ce qui montre que la guidance se comprend aussi par ce qu’elle évite.",
+      "en:" "Wa-lā combines connection and negation. In Al-Fātiḥa, it introduces “nor those who go astray,” showing that guidance is also understood through what it avoids.",
+      "tr:" "Wa-lā bağlaç ve olumsuzluğu birleştirir. Fâtiha’da “sapmışların yolu da değil” anlamında geçer; hidayet neyin terk edildiğiyle de anlaşılır."
+    },
+    "sourates_cles:" [1, 2, 93]
+  },
+  {
+    "id:" 66, "ar:" "وَمَا", "translit:" "wa-mā", "frequence:" 646, "rang:" 66,
+    "racine:" "و + مَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "et ce que / et ne... pas", "en:" "and what / and not", "tr:" "ve ne / ve değil" },
+    "famille:" [
+      { "ar:" "مَا", "translit:" "mā", "fr:" "ce que / ne... pas", "en:" "what / not", "tr:" "ne / değil" },
+      { "ar:" "وَ", "translit:" "wa", "fr:" "et", "en:" "and", "tr:" "ve" },
+      { "ar:" "وَمَنْ", "translit:" "wa-man", "fr:" "et celui qui", "en:" "and whoever", "tr:" "ve kim ki" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-mā est très fréquent parce qu’il relie une phrase tout en introduisant soit une négation, soit une précision. C’est une forme clé pour comprendre les enchaînements coraniques.",
+      "en:" "Wa-mā is frequent because it connects a statement while introducing either negation or clarification. It is key for following Quranic sentence flow.",
+      "tr:" "Wa-mā hem cümleyi bağlar hem de olumsuzluk ya da açıklama getirir. Kur’an’daki cümle akışını anlamak için önemlidir."
+    },
+    "sourates_cles:" [2, 93, 101]
+  },
+  {
+    "id:" 67, "ar:" "إِنَّ", "translit:" "inna", "frequence:" 609, "rang:" 67,
+    "racine:" "particule d’insistance", "theme:" "grammaire",
+    "traductions:" { "fr:" "certes / vraiment / assurément", "en:" "indeed / surely / truly", "tr:" "şüphesiz / gerçekten" },
+    "famille:" [
+      { "ar:" "إِنْ", "translit:" "in", "fr:" "si / lorsque / ne... que selon contexte", "en:" "if / whether / not according to context", "tr:" "eğer / ise" },
+      { "ar:" "أَنَّ", "translit:" "anna", "fr:" "que / certes que", "en:" "that / indeed that", "tr:" "-dığı / şüphesiz ki" },
+      { "ar:" "إِنَّمَا", "translit:" "innamā", "fr:" "seulement / en vérité seulement", "en:" "only / rather", "tr:" "ancak / sadece" }
+    ],
+    "profondeur:" {
+      "fr:" "Inna renforce une affirmation. Le Coran l’utilise pour fixer une vérité dans l’esprit : “certes”, “vraiment”, “assurément”.",
+      "en:" "Inna strengthens a statement. The Quran uses it to anchor a truth in the listener’s mind: indeed, surely, truly.",
+      "tr:" "Inna bir ifadeyi güçlendirir. Kur’an’da bir hakikati zihne yerleştirmek için kullanılır: şüphesiz, gerçekten."
+    },
+    "sourates_cles:" [2, 103, 110]
+  },
+  {
+    "id:" 68, "ar:" "يَا", "translit:" "yā", "frequence:" 350, "rang:" 68,
+    "racine:" "particule d’appel", "theme:" "grammaire",
+    "traductions:" { "fr:" "ô / eh / appel direct", "en:" "O / vocative call", "tr:" "ey / ya" },
+    "famille:" [
+      { "ar:" "يَا أَيُّهَا", "translit:" "yā ayyuhā", "fr:" "ô vous / ô toi", "en:" "O you", "tr:" "ey siz / ey" },
+      { "ar:" "يَا قَوْمِ", "translit:" "yā qawmi", "fr:" "ô mon peuple", "en:" "O my people", "tr:" "ey kavmim" },
+      { "ar:" "يَا بُنَيَّ", "translit:" "yā bunayya", "fr:" "ô mon petit fils", "en:" "O my dear son", "tr:" "ey oğulcuğum" }
+    ],
+    "profondeur:" {
+      "fr:" "Yā introduit l’appel. Il donne au Coran une dimension directe : Allah appelle, les prophètes appellent leur peuple, les hommes invoquent leur Seigneur.",
+      "en:" "Yā introduces direct address. It gives the Quran a living voice: Allah calls, prophets call their people, humans call upon their Lord.",
+      "tr:" "Yā hitap edatıdır. Kur’an’a doğrudan bir ses verir: Allah çağırır, peygamberler kavimlerine seslenir, insanlar Rablerine yönelir."
+    },
+    "sourates_cles:" [2, 12, 89]
+  },
+  {
+    "id:" 69, "ar:" "ثُمَّ", "translit:" "thumma", "frequence:" 337, "rang:" 69,
+    "racine:" "particule de succession", "theme:" "grammaire",
+    "traductions:" { "fr:" "puis / ensuite / après cela", "en:" "then / thereafter", "tr:" "sonra / ardından" },
+    "famille:" [
+      { "ar:" "فَ", "translit:" "fa", "fr:" "puis / alors immédiatement", "en:" "then / so immediately", "tr:" "hemen sonra / böylece" },
+      { "ar:" "بَعْدَ", "translit:" "baʿda", "fr:" "après", "en:" "after", "tr:" "sonra" },
+      { "ar:" "مِنْ ثَمَّ", "translit:" "min thamma", "fr:" "de là / dès lors", "en:" "from there / hence", "tr:" "oradan / bundan dolayı" }
+    ],
+    "profondeur:" {
+      "fr:" "Thumma indique une succession avec distance ou étape. Contrairement à fa, qui peut suggérer l’immédiateté, thumma laisse souvent sentir un développement progressif.",
+      "en:" "Thumma marks sequence with a step or interval. Unlike fa, which can imply immediacy, thumma often suggests progression.",
+      "tr:" "Thumma aşamalı bir sıralama bildirir. Fa hemenliği çağrıştırabilirken, thumma çoğu zaman süreç ve gelişim hissi verir."
+    },
+    "sourates_cles:" [2, 23, 75]
+  },
+  {
+    "id:" 70, "ar:" "بِهِ", "translit:" "bihī", "frequence:" 327, "rang:" 72,
+    "racine:" "بِ + هُ", "theme:" "grammaire",
+    "traductions:" { "fr:" "par lui / avec lui / en lui", "en:" "with it / by it / in it", "tr:" "onunla / onun sayesinde / onda" },
+    "famille:" [
+      { "ar:" "بِ", "translit:" "bi", "fr:" "avec / par / au moyen de", "en:" "with / by / through", "tr:" "ile / vasıtasıyla" },
+      { "ar:" "هُ", "translit:" "hu", "fr:" "lui / le", "en:" "him / it", "tr:" "onu / o" },
+      { "ar:" "بِهَا", "translit:" "bihā", "fr:" "par elle / avec elle", "en:" "with her / by it", "tr:" "onunla" }
+    ],
+    "profondeur:" {
+      "fr:" "Bihī combine la préposition bi et le pronom “lui/cela”. Selon le contexte, il peut exprimer l’instrument, la cause, l’attachement ou la croyance en quelque chose.",
+      "en:" "Bihī combines bi with the pronoun “him/it.” Depending on context, it may express instrument, cause, attachment, or belief in something.",
+      "tr:" "Bihī, bi edatı ile “o/onu” zamirinin birleşimidir. Bağlama göre araç, sebep, bağlılık veya iman anlamı verebilir."
+    },
+    "sourates_cles:" [2, 24, 112]
+  },
+  {
+    "id:" 71, "ar:" "لَهُمْ", "translit:" "lahum", "frequence:" 325, "rang:" 71,
+    "racine:" "لِ + هُمْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "à eux / pour eux / ils ont", "en:" "for them / to them / they have", "tr:" "onlara / onlar için / onların" },
+    "famille:" [
+      { "ar:" "لَهُ", "translit:" "lahu", "fr:" "à lui / pour lui", "en:" "for him / to him", "tr:" "ona / onun için" },
+      { "ar:" "لَكُمْ", "translit:" "lakum", "fr:" "à vous / pour vous", "en:" "for you / to you", "tr:" "size / sizin için" },
+      { "ar:" "لَنَا", "translit:" "lanā", "fr:" "à nous / pour nous", "en:" "for us / to us", "tr:" "bize / bizim için" }
+    ],
+    "profondeur:" {
+      "fr:" "Lahum exprime possession, attribution ou destination : “pour eux”, “à eux”. Le lām crée souvent un lien de bénéfice, de droit ou de responsabilité.",
+      "en:" "Lahum expresses possession, attribution, or destination: “for them,” “to them.” The lām often creates a link of benefit, right, or responsibility.",
+      "tr:" "Lahum sahiplik, yönelme veya tahsis bildirir: “onlara”, “onlar için”. Lām çoğu zaman fayda, hak veya sorumluluk bağı kurar."
+    },
+    "sourates_cles:" [2, 98, 107]
+  },
+  {
+    "id:" 72, "ar:" "بِمَا", "translit:" "bimā", "frequence:" 296, "rang:" 72,
+    "racine:" "بِ + مَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "par ce que / à cause de ce que / avec ce que", "en:" "because of what / by what / with what", "tr:" "sebebiyle / ile / ne ile" },
+    "famille:" [
+      { "ar:" "مَا", "translit:" "mā", "fr:" "ce que / quoi / ne... pas", "en:" "what / that which / not", "tr:" "ne / şey / değil" },
+      { "ar:" "بِهِ", "translit:" "bihī", "fr:" "par lui / avec lui", "en:" "with it / by it", "tr:" "onunla" },
+      { "ar:" "فَبِمَا", "translit:" "fa-bimā", "fr:" "alors à cause de ce que", "en:" "so because of what", "tr:" "bundan dolayı" }
+    ],
+    "profondeur:" {
+      "fr:" "Bimā introduit souvent la cause : une conséquence arrive “à cause de ce que” les gens font, disent ou cachent. C’est une forme très utile pour comprendre la logique morale du Coran.",
+      "en:" "Bimā often introduces cause: a consequence comes “because of what” people do, say, or hide. It is useful for following Quranic moral reasoning.",
+      "tr:" "Bimā çoğu zaman sebep bildirir: insanlar ne yapmış, ne söylemiş veya ne gizlemişse onun sebebiyle sonuç doğar."
+    },
+    "sourates_cles:" [2, 3, 99]
+  },
+  {
+    "id:" 73, "ar:" "لَكُمْ", "translit:" "lakum", "frequence:" 294, "rang:" 73,
+    "racine:" "لِ + كُمْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "à vous / pour vous / vous avez", "en:" "for you / to you / you have", "tr:" "size / sizin için / sizin" },
+    "famille:" [
+      { "ar:" "لَهُمْ", "translit:" "lahum", "fr:" "à eux / pour eux", "en:" "for them / to them", "tr:" "onlara / onlar için" },
+      { "ar:" "لَكَ", "translit:" "laka", "fr:" "à toi / pour toi", "en:" "for you", "tr:" "sana / senin için" },
+      { "ar:" "عَلَيْكُمْ", "translit:" "ʿalaykum", "fr:" "sur vous / contre vous", "en:" "upon you / against you", "tr:" "üzerinize / aleyhinize" }
+    ],
+    "profondeur:" {
+      "fr:" "Lakum est une forme centrale dans les adresses directes : “pour vous”, “à vous”. Elle peut indiquer un bienfait, une permission, une preuve ou une responsabilité donnée aux humains.",
+      "en:" "Lakum is central in direct address: “for you,” “to you.” It may indicate a blessing, permission, proof, or responsibility given to humans.",
+      "tr:" "Lakum doğrudan hitaplarda önemlidir: “size”, “sizin için”. Nimet, izin, delil veya sorumluluk bildirebilir."
+    },
+    "sourates_cles:" [2, 5, 109]
+  },
+  {
+    "id:" 74, "ar:" "ذَلِكَ", "translit:" "dhālika", "frequence:" 280, "rang:" 74,
+    "racine:" "pronom démonstratif", "theme:" "grammaire",
+    "traductions:" { "fr:" "cela / celui-là", "en:" "that / that one", "tr:" "bu / şu / o" },
+    "famille:" [
+      { "ar:" "هَذَا", "translit:" "hādhā", "fr:" "ceci", "en:" "this", "tr:" "bu" },
+      { "ar:" "تِلْكَ", "translit:" "tilka", "fr:" "celle-là / ces choses-là", "en:" "that / those", "tr:" "şu / o" },
+      { "ar:" "أُولَٰئِكَ", "translit:" "ulāʾika", "fr:" "ceux-là", "en:" "those", "tr:" "işte onlar" }
+    ],
+    "profondeur:" {
+      "fr:" "Dhālika désigne ce qui est montré avec distance ou grandeur. Dès le début de la sourate Al-Baqara, “dhālika al-kitāb” donne au Livre une hauteur et une autorité.",
+      "en:" "Dhālika points to something with distance or elevation. At the beginning of Al-Baqara, “dhālika al-kitāb” gives the Book majesty and authority.",
+      "tr:" "Dhālika uzaklık veya yücelik hissiyle işaret eder. Bakara’nın başındaki “dhālika al-kitāb”, Kitab’a heybet ve otorite verir."
+    },
+    "sourates_cles:" [2, 4, 31]
+  },
+  {
+    "id:" 75, "ar:" "لَهُ", "translit:" "lahu", "frequence:" 275, "rang:" 75,
+    "racine:" "لِ + هُ", "theme:" "grammaire",
+    "traductions:" { "fr:" "à lui / pour lui / il a", "en:" "for him / to him / he has", "tr:" "ona / onun için / onun" },
+    "famille:" [
+      { "ar:" "لَهُمْ", "translit:" "lahum", "fr:" "à eux / pour eux", "en:" "for them / to them", "tr:" "onlara / onlar için" },
+      { "ar:" "لَهَا", "translit:" "lahā", "fr:" "à elle / pour elle", "en:" "for her / to it", "tr:" "ona / onun için" },
+      { "ar:" "لَكَ", "translit:" "laka", "fr:" "à toi / pour toi", "en:" "for you", "tr:" "sana / senin için" }
+    ],
+    "profondeur:" {
+      "fr:" "Lahu est très important dans les formules théologiques : “à Lui appartient...” ou “pour Lui”. Il exprime la possession, l’autorité, ou l’exclusivité d’Allah.",
+      "en:" "Lahu is important in theological formulas: “to Him belongs...” or “for Him.” It expresses possession, authority, or Allah’s exclusivity.",
+      "tr:" "Lahu özellikle teolojik ifadelerde önemlidir: “O’nundur”, “O’nun içindir”. Sahiplik, otorite ve Allah’a mahsus oluş bildirir."
+    },
+    "sourates_cles:" [2, 24, 112]
+  },
+  {
+    "id:" 76, "ar:" "هُوَ", "translit:" "huwa", "frequence:" 265, "rang:" 76,
+    "racine:" "pronom personnel", "theme:" "grammaire",
+    "traductions:" { "fr:" "il / lui", "en:" "he / it", "tr:" "o" },
+    "famille:" [
+      { "ar:" "هِيَ", "translit:" "hiya", "fr:" "elle", "en:" "she / it", "tr:" "o (dişil)" },
+      { "ar:" "هُمْ", "translit:" "hum", "fr:" "eux / ils", "en:" "they", "tr:" "onlar" },
+      { "ar:" "أَنْتَ", "translit:" "anta", "fr:" "toi", "en:" "you", "tr:" "sen" }
+    ],
+    "profondeur:" {
+      "fr:" "Huwa est le pronom “il/lui”. Dans la sourate Al-Ikhlāṣ, “huwa Allāhu aḥad” concentre l’identité divine : Lui, Allah, l’Un.",
+      "en:" "Huwa is the pronoun “he/it.” In Al-Ikhlāṣ, “huwa Allāhu aḥad” concentrates divine identity: He, Allah, the One.",
+      "tr:" "Huwa “o” zamiridir. İhlâs suresinde “huwa Allāhu aḥad” ilahi kimliği yoğun biçimde verir: O, Allah, Bir."
+    },
+    "sourates_cles:" [2, 59, 112]
+  },
+  {
+    "id:" 77, "ar:" "أَوْ", "translit:" "aw", "frequence:" 264, "rang:" 77,
+    "racine:" "particule de choix", "theme:" "grammaire",
+    "traductions:" { "fr:" "ou / soit", "en:" "or / either", "tr:" "veya / ya da" },
+    "famille:" [
+      { "ar:" "إِمَّا", "translit:" "immā", "fr:" "soit / ou bien", "en:" "either / whether", "tr:" "ya / ister" },
+      { "ar:" "أَمْ", "translit:" "am", "fr:" "ou bien ? / est-ce que", "en:" "or / rather", "tr:" "yoksa / mı" },
+      { "ar:" "بَلْ", "translit:" "bal", "fr:" "plutôt / au contraire", "en:" "rather / instead", "tr:" "aksine / bilakis" }
+    ],
+    "profondeur:" {
+      "fr:" "Aw introduit une alternative. Dans le Coran, il peut ouvrir un choix légal, une comparaison, une possibilité, ou une nuance dans l’argumentation.",
+      "en:" "Aw introduces an alternative. In the Quran, it may open a legal choice, comparison, possibility, or argumentative nuance.",
+      "tr:" "Aw alternatif bildirir. Kur’an’da hüküm, karşılaştırma, ihtimal veya tartışma nüansı oluşturabilir."
+    },
+    "sourates_cles:" [2, 4, 5]
+  },
+  {
+    "id:" 78, "ar:" "قُلْ", "translit:" "qul", "frequence:" 263, "rang:" 78,
+    "racine:" "ق-و-ل", "theme:" "prophetie",
+    "traductions:" { "fr:" "dis !", "en:" "say!", "tr:" "de!" },
+    "famille:" [
+      { "ar:" "قَالَ", "translit:" "qāla", "fr:" "il a dit", "en:" "he said", "tr:" "dedi" },
+      { "ar:" "قَوْل", "translit:" "qawl", "fr:" "parole / propos", "en:" "speech / saying", "tr:" "söz" },
+      { "ar:" "يَقُولُونَ", "translit:" "yaqūlūna", "fr:" "ils disent", "en:" "they say", "tr:" "derler / diyorlar" }
+    ],
+    "profondeur:" {
+      "fr:" "Qul est l’impératif adressé au Prophète ﷺ : “Dis !”. Il transforme la révélation en parole transmise, récitée et proclamée.",
+      "en:" "Qul is the imperative addressed to the Prophet ﷺ: “Say!” It turns revelation into transmitted, recited, and proclaimed speech.",
+      "tr:" "Qul Peygamber’e ﷺ yöneltilen emirdir: “De!” Vahyi aktarılan, okunan ve ilan edilen söze dönüştürür."
+    },
+    "sourates_cles:" [109, 112, 113, 114]
+  },
+  {
+    "id:" 79, "ar:" "آمَنُوا", "translit:" "āmanū", "frequence:" 253, "rang:" 79,
+    "racine:" "أ-م-ن", "theme:" "foi",
+    "traductions:" { "fr:" "ils ont cru / ceux qui ont cru", "en:" "they believed / those who believed", "tr:" "iman ettiler / iman edenler" },
+    "famille:" [
+      { "ar:" "آمَنَ", "translit:" "āmana", "fr:" "il a cru", "en:" "he believed", "tr:" "iman etti" },
+      { "ar:" "إِيمَان", "translit:" "īmān", "fr:" "foi", "en:" "faith", "tr:" "iman" },
+      { "ar:" "مُؤْمِنُونَ", "translit:" "muʾminūn", "fr:" "croyants", "en:" "believers", "tr:" "müminler" }
+    ],
+    "profondeur:" {
+      "fr:" "Āmanū désigne les croyants au pluriel. Dans le Coran, la formule “ceux qui ont cru et accompli de bonnes œuvres” relie constamment foi et action.",
+      "en:" "Āmanū refers to believers in the plural. The Quran repeatedly links “those who believed” with righteous action.",
+      "tr:" "Āmanū çoğul olarak iman edenleri ifade eder. Kur’an’da “iman edip salih amel işleyenler” ifadesi iman ile ameli sürekli bağlar."
+    },
+    "sourates_cles:" [2, 49, 103]
+  },
+  {
+    "id:" 80, "ar:" "قَالُوا", "translit:" "qālū", "frequence:" 250, "rang:" 80,
+    "racine:" "ق-و-ل", "theme:" "prophetie",
+    "traductions:" { "fr:" "ils ont dit", "en:" "they said", "tr:" "dediler" },
+    "famille:" [
+      { "ar:" "قَالَ", "translit:" "qāla", "fr:" "il a dit", "en:" "he said", "tr:" "dedi" },
+      { "ar:" "قُلْ", "translit:" "qul", "fr:" "dis !", "en:" "say!", "tr:" "de!" },
+      { "ar:" "قَوْل", "translit:" "qawl", "fr:" "parole", "en:" "speech / saying", "tr:" "söz" }
+    ],
+    "profondeur:" {
+      "fr:" "Qālū apparaît dans les dialogues : les peuples répondent aux prophètes, les croyants parlent, les opposants argumentent. Le Coran enseigne aussi par les paroles rapportées.",
+      "en:" "Qālū appears in dialogues: peoples answer prophets, believers speak, opponents argue. The Quran also teaches through reported speech.",
+      "tr:" "Qālū diyaloglarda geçer: kavimler peygamberlere cevap verir, müminler konuşur, muhalifler tartışır. Kur’an aktarılan sözlerle de öğretir."
+    },
+    "sourates_cles:" [2, 7, 12]
+  },
+  {
+    "id:" 81, "ar:" "فِيهَا", "translit:" "fīhā", "frequence:" 241, "rang:" 81,
+    "racine:" "فِي + هَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "en elle / dedans / dans celle-ci", "en:" "in it / therein / in her", "tr:" "onda / içinde" },
+    "famille:" [
+      { "ar:" "فِي", "translit:" "fī", "fr:" "dans / en", "en:" "in / within", "tr:" "içinde" },
+      { "ar:" "فِيهِ", "translit:" "fīhi", "fr:" "en lui / dedans", "en:" "in it / in him", "tr:" "onda" },
+      { "ar:" "فِيهِمْ", "translit:" "fīhim", "fr:" "parmi eux / en eux", "en:" "among them / in them", "tr:" "onların içinde" }
+    ],
+    "profondeur:" {
+      "fr:" "Fīhā signifie “en elle / dedans”. Il est souvent utilisé pour parler de la terre, de la vie d’ici-bas, du Paradis ou de l’Enfer selon le contexte.",
+      "en:" "Fīhā means “in it / therein.” It is often used for the earth, worldly life, Paradise, or Hell depending on context.",
+      "tr:" "Fīhā “onda / içinde” demektir. Bağlama göre yer, dünya hayatı, cennet veya cehennem için kullanılabilir."
+    },
+    "sourates_cles:" [2, 55, 56]
+  },
+  {
+    "id:" 82, "ar:" "وَاللَّهُ", "translit:" "wa-llāhu", "frequence:" 239, "rang:" 82,
+    "racine:" "و + أ-ل-ه", "theme:" "allah",
+    "traductions:" { "fr:" "et Allah", "en:" "and Allah", "tr:" "ve Allah" },
+    "famille:" [
+      { "ar:" "اللَّه", "translit:" "Allāh", "fr:" "Allah / Dieu", "en:" "Allah / God", "tr:" "Allah / Tanrı" },
+      { "ar:" "بِاللَّهِ", "translit:" "bi-llāhi", "fr:" "par Allah / en Allah", "en:" "by Allah / in Allah", "tr:" "Allah ile / Allah’a" },
+      { "ar:" "لِلَّهِ", "translit:" "li-llāhi", "fr:" "à Allah / pour Allah", "en:" "to Allah / for Allah", "tr:" "Allah’a / Allah için" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-llāhu relie Allah à une affirmation : “et Allah sait”, “et Allah voit”, “et Allah est...” Cette forme rappelle que l’action humaine est toujours placée sous le savoir divin.",
+      "en:" "Wa-llāhu connects Allah to a statement: “and Allah knows,” “and Allah sees,” “and Allah is...” It places human action under divine knowledge.",
+      "tr:" "Wa-llāhu Allah’ı bir hükme bağl"ar:" “Allah bilir”, “Allah görür”, “Allah ...dır”. İnsan fiilinin ilahi bilgi altında olduğunu hatırlatır."
+    },
+    "sourates_cles:" [2, 3, 8]
+  },
+  {
+    "id:" 83, "ar:" "وَمَنْ", "translit:" "wa-man", "frequence:" 234, "rang:" 83,
+    "racine:" "و + مَنْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "et celui qui / et quiconque", "en:" "and whoever / and he who", "tr:" "ve kim / kim ki" },
+    "famille:" [
+      { "ar:" "مَنْ", "translit:" "man", "fr:" "qui / quiconque", "en:" "who / whoever", "tr:" "kim" },
+      { "ar:" "وَمَا", "translit:" "wa-mā", "fr:" "et ce que", "en:" "and what", "tr:" "ve ne" },
+      { "ar:" "فَمَنْ", "translit:" "fa-man", "fr:" "donc celui qui", "en:" "so whoever", "tr:" "öyleyse kim" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-man introduit souvent une règle générale : “et quiconque...” Le Coran s’adresse ainsi à tout lecteur, au-delà d’un seul événement historique.",
+      "en:" "Wa-man often introduces a general rule: “and whoever...” This makes the Quranic address open to every reader beyond a single historical event.",
+      "tr:" "Wa-man çoğu zaman genel bir ilke getirir: “kim ki...” Böylece Kur’an hitabı tek bir tarihî olayın ötesinde her okuyucuya açılır."
+    },
+    "sourates_cles:" [2, 4, 99]
+  },
+  {
+    "id:" 84, "ar:" "كَانُوا", "translit:" "kānū", "frequence:" 229, "rang:" 84,
+    "racine:" "ك-و-ن", "theme:" "grammaire",
+    "traductions:" { "fr:" "ils étaient / ils avaient l’habitude de", "en:" "they were / they used to", "tr:" "idiler / yaparlardı" },
+    "famille:" [
+      { "ar:" "كَانَ", "translit:" "kāna", "fr:" "il était", "en:" "he was", "tr:" "idi" },
+      { "ar:" "كُنْتُمْ", "translit:" "kuntum", "fr:" "vous étiez", "en:" "you were", "tr:" "idiniz" },
+      { "ar:" "يَكُونُونَ", "translit:" "yakūnūna", "fr:" "ils sont / seront", "en:" "they are / will be", "tr:" "olurlar / olacaklar" }
+    ],
+    "profondeur:" {
+      "fr:" "Kānū sert souvent à décrire une habitude passée : ce qu’un peuple faisait, niait, adorait ou répétait. Il aide à lire les récits comme des comportements récurrents.",
+      "en:" "Kānū often describes a past habit: what a people used to do, deny, worship, or repeat. It frames narratives as recurring behaviors.",
+      "tr:" "Kānū geçmişte süreklilik taşıyan davranışları anlatır: bir kavmin ne yaptığı, neyi inkâr ettiği veya neyi tekrar ettiği."
+    },
+    "sourates_cles:" [2, 7, 9]
+  },
+  {
+    "id:" 85, "ar:" "الْأَرْضِ", "translit:" "al-arḍi", "frequence:" 219, "rang:" 85,
+    "racine:" "أ-ر-ض", "theme:" "creation",
+    "traductions:" { "fr:" "la terre / du sol / de la terre", "en:" "the earth / the land / the ground", "tr:" "yer / yeryüzü / toprak" },
+    "famille:" [
+      { "ar:" "أَرْض", "translit:" "arḍ", "fr:" "terre / sol", "en:" "earth / land", "tr:" "yer / toprak" },
+      { "ar:" "أَرَاضٍ", "translit:" "arāḍin", "fr:" "terres / régions", "en:" "lands / territories", "tr:" "araziler" },
+      { "ar:" "السَّمَاوَات وَالْأَرْض", "translit:" "as-samāwāt wa-l-arḍ", "fr:" "les cieux et la terre", "en:" "the heavens and the earth", "tr:" "gökler ve yer" }
+    ],
+    "profondeur:" {
+      "fr:" "Al-arḍi est la forme définie de “terre”, souvent associée aux cieux. La paire “les cieux et la terre” désigne l’ensemble de la création visible.",
+      "en:" "Al-arḍi is the definite form of “earth,” often paired with the heavens. “The heavens and the earth” refers to the whole visible creation.",
+      "tr:" "Al-arḍi “yer / yeryüzü” kelimesinin belirli hâlidir ve sıkça göklerle birlikte geçer. “Gökler ve yer” görünür yaratılışın bütününü ifade eder."
+    },
+    "sourates_cles:" [2, 55, 67]
+  },
+  {
+    "id:" 86, "ar:" "إِذَا", "translit:" "idhā", "frequence:" 195, "rang:" 86,
+    "racine:" "particule temporelle", "theme:" "temps",
+    "traductions:" { "fr:" "quand / lorsque / dès que", "en:" "when / whenever", "tr:" "ne zaman / -dığı zaman" },
+    "famille:" [
+      { "ar:" "إِذْ", "translit:" "idh", "fr:" "quand / lorsque dans le passé", "en:" "when / when in the past", "tr:" "hani / olduğunda" },
+      { "ar:" "حِينَ", "translit:" "ḥīna", "fr:" "lorsque / au moment où", "en:" "when / at the time", "tr:" "zaman / vakit" },
+      { "ar:" "لَمَّا", "translit:" "lammā", "fr:" "lorsque / quand", "en:" "when / once", "tr:" "ne zaman ki" }
+    ],
+    "profondeur:" {
+      "fr:" "Idhā introduit souvent des scènes fortes : quand la terre tremble, quand vient le secours, quand le ciel se fend. Le mot prépare le lecteur à un événement décisif.",
+      "en:" "Idhā often introduces powerful scenes: when the earth shakes, when help comes, when the sky splits. It prepares the reader for a decisive event.",
+      "tr:" "Idhā güçlü sahneleri başlatır: yer sarsıldığında, yardım geldiğinde, gök yarıldığında. Okuyucuyu belirleyici bir olaya hazırlar."
+    },
+    "sourates_cles:" [81, 99, 110]
+  },
+  {
+    "id:" 87, "ar:" "هَذَا", "translit:" "hādhā", "frequence:" 190, "rang:" 87,
+    "racine:" "pronom démonstratif", "theme:" "grammaire",
+    "traductions:" { "fr:" "ceci / celui-ci", "en:" "this / this one", "tr:" "bu" },
+    "famille:" [
+      { "ar:" "ذَلِكَ", "translit:" "dhālika", "fr:" "cela / celui-là", "en:" "that", "tr:" "şu / o" },
+      { "ar:" "هَذِهِ", "translit:" "hādhihi", "fr:" "celle-ci / ceci", "en:" "this (fem.)", "tr:" "bu (dişil)" },
+      { "ar:" "هَٰؤُلَاءِ", "translit:" "hāʾulāʾi", "fr:" "ceux-ci", "en:" "these", "tr:" "bunlar" }
+    ],
+    "profondeur:" {
+      "fr:" "Hādhā désigne ce qui est proche ou présenté directement. Il sert souvent dans les dialogues : “ceci est...”, “est-ce là... ?”, “voici...”.",
+      "en:" "Hādhā points to what is near or directly presented. It often appears in dialogues: “this is...,” “is this...?”, “here is...”.",
+      "tr:" "Hādhā yakın veya doğrudan gösterilen şeyi ifade eder. Diyaloglarda sık geçer: “bu ...dır”, “bu mu?”, “işte bu”."
+    },
+    "sourates_cles:" [2, 12, 36]
+  },
+  {
+    "id:" 88, "ar:" "كَفَرُوا", "translit:" "kafarū", "frequence:" 189, "rang:" 88,
+    "racine:" "ك-ف-ر", "theme:" "foi",
+    "traductions:" { "fr:" "ils ont mécru / ils ont rejeté", "en:" "they disbelieved / they rejected", "tr:" "inkâr ettiler / küfrettiler" },
+    "famille:" [
+      { "ar:" "كَفَرَ", "translit:" "kafara", "fr:" "il a mécru / il a couvert", "en:" "he disbelieved / covered", "tr:" "inkâr etti / örttü" },
+      { "ar:" "كُفْر", "translit:" "kufr", "fr:" "mécréance / ingratitude", "en:" "disbelief / ingratitude", "tr:" "küfür / nankörlük" },
+      { "ar:" "كَافِرُونَ", "translit:" "kāfirūn", "fr:" "mécréants / rejeteurs", "en:" "disbelievers", "tr:" "kâfirler / inkârcılar" }
+    ],
+    "profondeur:" {
+      "fr:" "Kafarū est le pluriel verbal : “ils ont rejeté”. La racine k-f-r signifie aussi couvrir ou voiler : la mécréance est présentée comme un voilement de la vérité.",
+      "en:" "Kafarū is the plural verb: “they disbelieved.” The root k-f-r also means to cover or veil: disbelief is shown as covering the truth.",
+      "tr:" "Kafarū çoğul fiildir: “inkâr ettiler”. k-f-r kökü örtmek anlamı da taşır; küfür hakikatin üstünü örtmek gibidir."
+    },
+    "sourates_cles:" [2, 98, 109]
+  },
+  {
+    "id:" 89, "ar:" "كُنْتُمْ", "translit:" "kuntum", "frequence:" 188, "rang:" 89,
+    "racine:" "ك-و-ن", "theme:" "grammaire",
+    "traductions:" { "fr:" "vous étiez / vous aviez l’habitude de", "en:" "you were / you used to", "tr:" "idiniz / yapardınız" },
+    "famille:" [
+      { "ar:" "كَانَ", "translit:" "kāna", "fr:" "il était", "en:" "he was", "tr:" "idi" },
+      { "ar:" "كَانُوا", "translit:" "kānū", "fr:" "ils étaient", "en:" "they were", "tr:" "idiler" },
+      { "ar:" "كُنْ", "translit:" "kun", "fr:" "sois !", "en:" "be!", "tr:" "ol!" }
+    ],
+    "profondeur:" {
+      "fr:" "Kuntum parle directement à un groupe : “vous étiez”. Le Coran l’utilise pour rappeler l’état passé des gens, leurs prétentions ou leurs responsabilités.",
+      "en:" "Kuntum addresses a group directly: “you were.” The Quran uses it to recall people’s past state, claims, or responsibilities.",
+      "tr:" "Kuntum bir topluluğa doğrudan hitap eder: “siz idiniz”. Kur’an bunu insanların geçmiş hâlini, iddialarını veya sorumluluklarını hatırlatmak için kullanır."
+    },
+    "sourates_cles:" [2, 3, 5]
+  },
+  {
+    "id:" 90, "ar:" "عَلَيْهِمْ", "translit:" "ʿalayhim", "frequence:" 183, "rang:" 90,
+    "racine:" "عَلَى + هُمْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "sur eux / contre eux / à leur charge", "en:" "upon them / against them", "tr:" "onların üzerine / aleyhlerine" },
+    "famille:" [
+      { "ar:" "عَلَى", "translit:" "ʿalā", "fr:" "sur / au-dessus de / contre", "en:" "on / upon / against", "tr:" "üzerinde / aleyhine" },
+      { "ar:" "عَلَيْكُمْ", "translit:" "ʿalaykum", "fr:" "sur vous / à votre charge", "en:" "upon you / against you", "tr:" "üzerinize / aleyhinize" },
+      { "ar:" "عَلَيْهِ", "translit:" "ʿalayhi", "fr:" "sur lui / contre lui", "en:" "upon him / against him", "tr:" "onun üzerine / aleyhine" }
+    ],
+    "profondeur:" {
+      "fr:" "ʿAlayhim peut exprimer une charge, une conséquence ou une faveur selon le contexte. Dans Al-Fātiḥa, il apparaît dans “ceux que Tu as comblés de faveur”.",
+      "en:" "ʿAlayhim can express a burden, consequence, or favor depending on context. In Al-Fātiḥa, it appears in “those upon whom You have bestowed favor.”",
+      "tr:" "ʿAlayhim bağlama göre yük, sonuç veya nimet bildirebilir. Fâtiha’da “kendilerine nimet verdiklerin” ifadesinde geçer."
+    },
+    "sourates_cles:" [1, 2, 98]
+  }
+  {
+    "id:" 91, "ar:" "هُمْ", "translit:" "hum", "frequence:" 180, "rang:" 91,
+    "racine:" "pronom personnel", "theme:" "grammaire",
+    "traductions:" { "fr:" "eux / ils", "en:" "they / them", "tr:" "onlar" },
+    "famille:" [
+      { "ar:" "هُوَ", "translit:" "huwa", "fr:" "il / lui", "en:" "he / him", "tr:" "o" },
+      { "ar:" "هِيَ", "translit:" "hiya", "fr:" "elle", "en:" "she / her", "tr:" "o" },
+      { "ar:" "أَنْتُمْ", "translit:" "antum", "fr:" "vous", "en:" "you plural", "tr:" "siz" },
+      { "ar:" "نَحْنُ", "translit:" "naḥnu", "fr:" "nous", "en:" "we", "tr:" "biz" }
+    ],
+    "profondeur:" {
+      "fr:" "Hum est le pronom personnel de la troisième personne du pluriel : “ils” ou “eux”. Dans le Coran, il sert souvent à désigner des groupes : les croyants, les mécréants, les hypocrites, les peuples passés ou les gens du Paradis et de l’Enfer.",
+      "en:" "Hum is the third-person plural pronoun: “they” or “them.” In the Quran, it often points to groups: believers, disbelievers, hypocrites, past nations, or the people of Paradise and Hell.",
+      "tr:" "Hum üçüncü çoğul şahıs zamiridir: “onlar”. Kur’an’da müminler, inkârcılar, münafıklar, geçmiş kavimler veya cennet ve cehennem ehli gibi grupları ifade eder."
+    },
+    "sourates_cles:" [2, 98, 103]
+  },
+  {
+    "id:" 92, "ar:" "شَيْءٍ", "translit:" "shayʾin", "frequence:" 179, "rang:" 92,
+    "racine:" "ش-ي-ء", "theme:" "creation",
+    "traductions:" { "fr:" "une chose / quelque chose", "en:" "a thing / anything", "tr:" "bir şey / herhangi bir şey" },
+    "famille:" [
+      { "ar:" "شَيْء", "translit:" "shayʾ", "fr:" "chose", "en:" "thing", "tr:" "şey" },
+      { "ar:" "أَشْيَاء", "translit:" "ashyāʾ", "fr:" "choses", "en:" "things", "tr:" "şeyler" },
+      { "ar:" "كُلُّ شَيْء", "translit:" "kullu shayʾ", "fr:" "toute chose", "en:" "everything", "tr:" "her şey" }
+    ],
+    "profondeur:" {
+      "fr:" "Shayʾ désigne une chose, un élément de l’existence, même très général. L’expression “kullu shayʾ” revient souvent pour affirmer la science, la puissance ou la création d’Allah sur toute chose.",
+      "en:" "Shayʾ means a thing, something within existence, even in a very general sense. The expression “kullu shayʾ” often affirms Allah’s knowledge, power, or creation over everything.",
+      "tr:" "Shayʾ varlık içindeki herhangi bir şeyi ifade eder. “Kullu shayʾ” ifadesi Allah’ın her şey üzerindeki ilmini, kudretini ve yaratmasını vurgular."
+    },
+    "sourates_cles:" [2, 6, 36]
+  },
+  {
+    "id:" 93, "ar:" "السَّمَاوَاتِ", "translit:" "as-samāwāti", "frequence:" 175, "rang:" 93,
+    "racine:" "س-م-و", "theme:" "creation",
+    "traductions:" { "fr:" "les cieux", "en:" "the heavens", "tr:" "gökler" },
+    "famille:" [
+      { "ar:" "سَمَاء", "translit:" "samāʾ", "fr:" "ciel", "en:" "sky / heaven", "tr:" "gök / sema" },
+      { "ar:" "سَمَاوَات", "translit:" "samāwāt", "fr:" "cieux", "en:" "heavens", "tr:" "gökler" },
+      { "ar:" "سُمُوّ", "translit:" "sumuww", "fr:" "élévation", "en:" "loftiness / elevation", "tr:" "yücelik" },
+      { "ar:" "اسْم", "translit:" "ism", "fr:" "nom", "en:" "name", "tr:" "isim" }
+    ],
+    "profondeur:" {
+      "fr:" "As-samāwāt est le pluriel de samāʾ : les cieux. Dans le Coran, les cieux sont presque toujours associés à la terre : “les cieux et la terre” forment l’expression globale de la création visible.",
+      "en:" "As-samāwāt is the plural of samāʾ: the heavens. In the Quran, the heavens are often paired with the earth: “the heavens and the earth” as a complete expression of visible creation.",
+      "tr:" "As-samāwāt, samāʾ kelimesinin çoğuludur: gökler. Kur’an’da gökler çoğu zaman yer ile birlikte geçer: “gökler ve yer”, görünen yaratılışın bütününü ifade eder."
+    },
+    "sourates_cles:" [2, 55, 67]
+  },
+  {
+    "id:" 94, "ar:" "وَهُوَ", "translit:" "wa-huwa", "frequence:" 171, "rang:" 94,
+    "racine:" "و + pronom", "theme:" "grammaire",
+    "traductions:" { "fr:" "et Il / et lui", "en:" "and He / and it", "tr:" "ve O" },
+    "famille:" [
+      { "ar:" "وَ", "translit:" "wa", "fr:" "et", "en:" "and", "tr:" "ve" },
+      { "ar:" "هُوَ", "translit:" "huwa", "fr:" "il / lui", "en:" "he / it", "tr:" "o" },
+      { "ar:" "وَهُمْ", "translit:" "wa-hum", "fr:" "et eux / et ils", "en:" "and they", "tr:" "ve onlar" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-huwa combine le lien “et” avec le pronom “Il/lui”. Quand il désigne Allah, il introduit souvent une qualité divine : “et Il est Celui qui...”, “et Il sait...”, “et Il est sur toute chose puissant”.",
+      "en:" "Wa-huwa combines “and” with the pronoun “He/it.” When referring to Allah, it often introduces a divine attribute: “and He is the One who...,” “and He knows...”.",
+      "tr:" "Wa-huwa “ve” bağlacı ile “O” zamirini birleştirir. Allah için kullanıldığında çoğu zaman bir ilahi sıfatı başlatır: “O ki...”, “O bilir...”."
+    },
+    "sourates_cles:" [2, 6, 57]
+  },
+  {
+    "id:" 95, "ar:" "وَإِنْ", "translit:" "wa-in", "frequence:" 170, "rang:" 95,
+    "racine:" "و + إِنْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "et si / même si / et lorsque selon contexte", "en:" "and if / even if", "tr:" "ve eğer / ve şayet" },
+    "famille:" [
+      { "ar:" "إِنْ", "translit:" "in", "fr:" "si", "en:" "if", "tr:" "eğer" },
+      { "ar:" "وَ", "translit:" "wa", "fr:" "et", "en:" "and", "tr:" "ve" },
+      { "ar:" "فَإِنْ", "translit:" "fa-in", "fr:" "alors si", "en:" "then if", "tr:" "eğer böyleyse" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-in introduit une condition reliée à ce qui précède. Il peut ouvrir une hypothèse, une mise en garde ou une règle : “et si vous faites...”, “et si vous craignez...”.",
+      "en:" "Wa-in introduces a condition connected to what came before. It can open a hypothesis, warning, or rule: “and if you do...,” “and if you fear...”.",
+      "tr:" "Wa-in önceki cümleye bağlı bir şart getirir. Bir ihtimal, uyarı veya hüküm başlatabilir: “eğer yaparsanız...”, “eğer korkarsanız...”."
+    },
+    "sourates_cles:" [2, 4, 8]
+  },
+  {
+    "id:" 96, "ar:" "وَالَّذِينَ", "translit:" "wa-allaḏīna", "frequence:" 164, "rang:" 96,
+    "racine:" "و + pronom relatif", "theme:" "grammaire",
+    "traductions:" { "fr:" "et ceux qui", "en:" "and those who", "tr:" "ve onlar ki / ve kimseler ki" },
+    "famille:" [
+      { "ar:" "الَّذِينَ", "translit:" "allaḏīna", "fr:" "ceux qui", "en:" "those who", "tr:" "onlar ki" },
+      { "ar:" "الَّذِي", "translit:" "allaḏī", "fr:" "celui qui", "en:" "the one who", "tr:" "o ki" },
+      { "ar:" "وَالَّذِي", "translit:" "wa-allaḏī", "fr:" "et celui qui", "en:" "and the one who", "tr:" "ve o ki" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-allaḏīna relie une phrase à un groupe décrit par ses actes ou ses qualités. Le Coran l’utilise pour enchaîner les portraits moraux : ceux qui croient, ceux qui dépensent, ceux qui patientent.",
+      "en:" "Wa-allaḏīna connects a sentence to a group described by its actions or qualities. The Quran uses it to build moral portraits: those who believe, spend, or remain patient.",
+      "tr:" "Wa-allaḏīna bir cümleyi davranışları veya özellikleriyle tanımlanan bir gruba bağl"ar:" iman edenler, infak edenler, sabredenler."
+    },
+    "sourates_cles:" [2, 8, 103]
+  },
+  {
+    "id:" 97, "ar:" "لَمْ", "translit:" "lam", "frequence:" 163, "rang:" 97,
+    "racine:" "particule de négation", "theme:" "grammaire",
+    "traductions:" { "fr:" "ne... pas / n’a pas", "en:" "did not / has not", "tr:" "-medi / -madı" },
+    "famille:" [
+      { "ar:" "لَا", "translit:" "lā", "fr:" "non / ne... pas", "en:" "no / not", "tr:" "hayır / değil" },
+      { "ar:" "لَنْ", "translit:" "lan", "fr:" "ne... jamais / ne... pas dans le futur", "en:" "will not", "tr:" "asla ...meyecek" },
+      { "ar:" "لَمَّا", "translit:" "lammā", "fr:" "pas encore / lorsque", "en:" "not yet / when", "tr:" "henüz değil / ne zaman ki" }
+    ],
+    "profondeur:" {
+      "fr:" "Lam nie une action passée, même si le verbe qui suit est formellement au présent-jussif. Pour l’apprenant, c’est une clé : lam + verbe signifie généralement “n’a pas fait”.",
+      "en:" "Lam negates a past action, even though the verb after it appears in the jussive form. For learners, lam + verb usually means “did not do.”",
+      "tr:" "Lam geçmişte gerçekleşmemiş bir fiili olumsuz yapar. Ardından gelen fiil şeklen muzari olsa da anlam çoğu zaman “yapmadı”dır."
+    },
+    "sourates_cles:" [112, 105, 98]
+  },
+  {
+    "id:" 98, "ar:" "إِنَّا", "translit:" "innā", "frequence:" 156, "rang:" 98,
+    "racine:" "إِنَّ + نَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "certes Nous / vraiment Nous", "en:" "indeed We / surely We", "tr:" "şüphesiz Biz" },
+    "famille:" [
+      { "ar:" "إِنَّ", "translit:" "inna", "fr:" "certes / vraiment", "en:" "indeed / surely", "tr:" "şüphesiz" },
+      { "ar:" "نَحْنُ", "translit:" "naḥnu", "fr:" "nous", "en:" "we", "tr:" "biz" },
+      { "ar:" "إِنِّي", "translit:" "innī", "fr:" "certes moi / je", "en:" "indeed I", "tr:" "şüphesiz ben" }
+    ],
+    "profondeur:" {
+      "fr:" "Innā signifie “certes Nous”. Dans le Coran, ce “Nous” est un pluriel de majesté lorsqu’il renvoie à Allah. Il exprime grandeur, autorité et puissance divine.",
+      "en:" "Innā means “indeed We.” In the Quran, when referring to Allah, this “We” is the plural of majesty, expressing divine greatness and authority.",
+      "tr:" "Innā “şüphesiz Biz” demektir. Kur’an’da Allah için kullanıldığında bu “Biz” yücelik ve azamet ifade eden çoğuldur."
+    },
+    "sourates_cles:" [97, 108, 110]
+  },
+  {
+    "id:" 99, "ar:" "فَلَا", "translit:" "fa-lā", "frequence:" 156, "rang:" 99,
+    "racine:" "ف + لَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "alors ne... pas / donc non", "en:" "so do not / then not", "tr:" "öyleyse ...me / artık ...ma" },
+    "famille:" [
+      { "ar:" "فَ", "translit:" "fa", "fr:" "alors / puis / donc", "en:" "so / then", "tr:" "öyleyse / sonra" },
+      { "ar:" "لَا", "translit:" "lā", "fr:" "non / ne... pas", "en:" "no / not", "tr:" "hayır / değil" },
+      { "ar:" "وَلَا", "translit:" "wa-lā", "fr:" "et ne... pas / ni", "en:" "and not / nor", "tr:" "ve değil / ne de" }
+    ],
+    "profondeur:" {
+      "fr:" "Fa-lā relie une conclusion à une interdiction ou à une négation : “donc ne fais pas”, “alors il n’y a pas”. Le fa donne une conséquence logique à la négation.",
+      "en:" "Fa-lā connects a conclusion to a prohibition or negation: “so do not,” “then there is no.” The fa gives logical consequence to the negation.",
+      "tr:" "Fa-lā bir sonucu olumsuzluk veya yasakla bağl"ar:" “öyleyse yapma”, “artık yoktur”. Fa edatı olumsuzluğa mantıksal sonuç verir."
+    },
+    "sourates_cles:" [2, 93, 94]
+  },
+  {
+    "id:" 100, "ar:" "إِذْ", "translit:" "idh", "frequence:" 156, "rang:" 100,
+    "racine:" "particule temporelle", "theme:" "temps",
+    "traductions:" { "fr:" "quand / lorsque / rappelle-toi quand", "en:" "when / when at that time / remember when", "tr:" "hani / o zaman ki" },
+    "famille:" [
+      { "ar:" "إِذَا", "translit:" "idhā", "fr:" "quand / lorsque", "en:" "when / whenever", "tr:" "ne zaman" },
+      { "ar:" "وَإِذْ", "translit:" "wa-idh", "fr:" "et quand / et rappelle-toi", "en:" "and when / remember when", "tr:" "hani / ve o zaman" },
+      { "ar:" "حِينَ", "translit:" "ḥīna", "fr:" "au moment où", "en:" "at the time when", "tr:" "zamanında" }
+    ],
+    "profondeur:" {
+      "fr:" "Idh sert souvent à rappeler un événement passé : “quand ton Seigneur dit...”, “quand Nous avons sauvé...”. Il ouvre la mémoire coranique.",
+      "en:" "Idh often recalls a past event: “when your Lord said...,” “when We saved...”. It opens Quranic memory and narrative.",
+      "tr:" "Idh geçmiş bir olayı hatırlatır: “Rabbin dediğinde...”, “sizi kurtardığımızda...”. Kur’an kıssalarının hafıza kapısını açar."
+    },
+    "sourates_cles:" [2, 7, 8]
+  },
+  {
+    "id:" 101, "ar:" "عَنْ", "translit:" "ʿan", "frequence:" 153, "rang:" 101,
+    "racine:" "préposition", "theme:" "grammaire",
+    "traductions:" { "fr:" "de / au sujet de / loin de", "en:" "from / about / away from", "tr:" "-den / hakkında / uzak" },
+    "famille:" [
+      { "ar:" "عَنْهُ", "translit:" "ʿanhu", "fr:" "de lui / à son sujet", "en:" "from him / about him", "tr:" "ondan / onun hakkında" },
+      { "ar:" "عَنْهُمْ", "translit:" "ʿanhum", "fr:" "d’eux / à leur sujet", "en:" "from them / about them", "tr:" "onlardan / onlar hakkında" },
+      { "ar:" "عَمَّا", "translit:" "ʿammā", "fr:" "au sujet de ce que", "en:" "about what", "tr:" "ne hakkında" }
+    ],
+    "profondeur:" {
+      "fr:" "ʿAn marque l’éloignement, la séparation ou le sujet d’un discours. Il peut signifier “loin de”, “à propos de”, ou “de” selon le contexte.",
+      "en:" "ʿAn marks distance, separation, or the topic of speech. It may mean “away from,” “about,” or “from” depending on context.",
+      "tr:" "ʿAn uzaklaşma, ayrılma veya konu bildirir. Bağlama göre “-den”, “hakkında” veya “uzak” anlamı verir."
+    },
+    "sourates_cles:" [2, 78, 107]
+  },
+  {
+    "id:" 102, "ar:" "أَيُّهَا", "translit:" "ayyuhā", "frequence:" 150, "rang:" 102,
+    "racine:" "particule d’appel", "theme:" "grammaire",
+    "traductions:" { "fr:" "ô vous / ô toi", "en:" "O you", "tr:" "ey / ey siz" },
+    "famille:" [
+      { "ar:" "يَا أَيُّهَا", "translit:" "yā ayyuhā", "fr:" "ô vous / ô toi", "en:" "O you", "tr:" "ey siz / ey" },
+      { "ar:" "أَيُّ", "translit:" "ayyu", "fr:" "quel / lequel", "en:" "which / what", "tr:" "hangi" },
+      { "ar:" "يَا", "translit:" "yā", "fr:" "ô", "en:" "O", "tr:" "ey" }
+    ],
+    "profondeur:" {
+      "fr:" "Ayyuhā est presque toujours lié à yā dans les appels solennels : “yā ayyuhā alladhīna āmanū” — “ô vous qui avez cru”. C’est une porte d’entrée vers les versets d’ordre, d’éthique et de rappel.",
+      "en:" "Ayyuhā is often linked to yā in solemn calls: “yā ayyuhā alladhīna āmanū” — “O you who believed.” It introduces commands, ethics, and reminders.",
+      "tr:" "Ayyuhā çoğu zaman yā ile birlikte ciddi hitaplarda gelir: “yā ayyuhā alladhīna āmanū” — “Ey iman edenler”. Emir, ahlak ve hatırlatma ayetlerini başlatır."
+    },
+    "sourates_cles:" [2, 5, 49]
+  },
+  {
+    "id:" 103, "ar:" "إِنَّهُ", "translit:" "innahu", "frequence:" 147, "rang:" 103,
+    "racine:" "إِنَّ + هُ", "theme:" "grammaire",
+    "traductions:" { "fr:" "certes il / certes cela", "en:" "indeed he / indeed it", "tr:" "şüphesiz o" },
+    "famille:" [
+      { "ar:" "إِنَّ", "translit:" "inna", "fr:" "certes", "en:" "indeed", "tr:" "şüphesiz" },
+      { "ar:" "هُوَ", "translit:" "huwa", "fr:" "il / lui", "en:" "he / it", "tr:" "o" },
+      { "ar:" "إِنَّهُمْ", "translit:" "innahum", "fr:" "certes eux / ils", "en:" "indeed they", "tr:" "şüphesiz onlar" }
+    ],
+    "profondeur:" {
+      "fr:" "Innahu renforce une affirmation portant sur “lui” ou “cela”. Dans les passages théologiques, il peut introduire une vérité sur Allah, le Livre, le Jour dernier ou une réalité morale.",
+      "en:" "Innahu strengthens a statement about “he” or “it.” In theological passages, it may introduce a truth about Allah, the Book, the Last Day, or a moral reality.",
+      "tr:" "Innahu “o” hakkında güçlü bir ifade kurar. Teolojik bağlamlarda Allah, Kitap, ahiret veya ahlaki bir hakikat hakkında kesinlik bildirir."
+    },
+    "sourates_cles:" [2, 12, 96]
+  },
+  {
+    "id:" 104, "ar:" "عَلَيْكُمْ", "translit:" "ʿalaykum", "frequence:" 146, "rang:" 104,
+    "racine:" "عَلَى + كُمْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "sur vous / à votre charge / contre vous", "en:" "upon you / against you / on you", "tr:" "üzerinize / size / aleyhinize" },
+    "famille:" [
+      { "ar:" "عَلَى", "translit:" "ʿalā", "fr:" "sur / au-dessus de", "en:" "on / upon", "tr:" "üzerinde" },
+      { "ar:" "عَلَيْهِمْ", "translit:" "ʿalayhim", "fr:" "sur eux", "en:" "upon them", "tr:" "onların üzerine" },
+      { "ar:" "عَلَيْهِ", "translit:" "ʿalayhi", "fr:" "sur lui", "en:" "upon him", "tr:" "onun üzerine" }
+    ],
+    "profondeur:" {
+      "fr:" "ʿAlaykum peut exprimer une obligation, une charge, une protection ou une adresse directe. Dans le salut “as-salāmu ʿalaykum”, il signifie : que la paix soit sur vous.",
+      "en:" "ʿAlaykum can express obligation, burden, protection, or direct address. In the greeting “as-salāmu ʿalaykum,” it means: peace be upon you.",
+      "tr:" "ʿAlaykum yükümlülük, sorumluluk, koruma veya doğrudan hitap bildirebilir. “Es-selamu aleykum” ifadesinde “selam üzerinize olsun” anlamındadır."
+    },
+    "sourates_cles:" [2, 5, 24]
+  },
+  {
+    "id:" 105, "ar:" "عَلَيْهِ", "translit:" "ʿalayhi", "frequence:" 145, "rang:" 105,
+    "racine:" "عَلَى + هُ", "theme:" "grammaire",
+    "traductions:" { "fr:" "sur lui / contre lui / à sa charge", "en:" "upon him / against him / on it", "tr:" "onun üzerine / aleyhine" },
+    "famille:" [
+      { "ar:" "عَلَى", "translit:" "ʿalā", "fr:" "sur / au-dessus de", "en:" "on / upon", "tr:" "üzerinde" },
+      { "ar:" "عَلَيْكُمْ", "translit:" "ʿalaykum", "fr:" "sur vous", "en:" "upon you", "tr:" "üzerinize" },
+      { "ar:" "عَلَيْهَا", "translit:" "ʿalayhā", "fr:" "sur elle", "en:" "upon her / upon it", "tr:" "onun üzerine" }
+    ],
+    "profondeur:" {
+      "fr:" "ʿAlayhi est très fréquent dans les formules de charge ou de conséquence : une chose est “sur lui”, c’est-à-dire à sa responsabilité ou contre lui selon le contexte.",
+      "en:" "ʿAlayhi often appears in expressions of burden or consequence: something is “upon him,” meaning his responsibility or against him depending on context.",
+      "tr:" "ʿAlayhi sorumluluk veya sonuç bildiren yapılarda sık geçer: bir şey “onun üzerinedir”, yani bağlama göre onun sorumluluğu veya aleyhinedir."
+    },
+    "sourates_cles:" [2, 3, 48]
+  },
+  {
+    "id:" 106, "ar:" "مِنْهُمْ", "translit:" "minhum", "frequence:" 145, "rang:" 106,
+    "racine:" "مِن + هُمْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "d’eux / parmi eux", "en:" "from them / among them", "tr:" "onlardan / onların arasından" },
+    "famille:" [
+      { "ar:" "مِنْ", "translit:" "min", "fr:" "de / depuis / parmi", "en:" "from / among", "tr:" "-den / arasından" },
+      { "ar:" "مِنْهُ", "translit:" "minhu", "fr:" "de lui", "en:" "from him / from it", "tr:" "ondan" },
+      { "ar:" "مِنْكُمْ", "translit:" "minkum", "fr:" "de vous / parmi vous", "en:" "from you / among you", "tr:" "sizden / aranızdan" }
+    ],
+    "profondeur:" {
+      "fr:" "Minhum signifie “d’eux” ou “parmi eux”. Il permet de distinguer une partie d’un groupe : certains parmi eux croient, d’autres rejettent, certains savent, d’autres cachent.",
+      "en:" "Minhum means “from them” or “among them.” It separates a part from a group: some among them believe, others reject, some know, others conceal.",
+      "tr:" "Minhum “onlardan” veya “onların arasından” demektir. Bir topluluğun içindeki bir kısmı ayırır: bazıları iman eder, bazıları inkâr eder."
+    },
+    "sourates_cles:" [2, 3, 7]
+  },
+  {
+    "id:" 107, "ar:" "حَتَّى", "translit:" "ḥattā", "frequence:" 142, "rang:" 107,
+    "racine:" "particule de limite", "theme:" "temps",
+    "traductions:" { "fr:" "jusqu’à / afin que / jusqu’à ce que", "en:" "until / so that / up to", "tr:" "-e kadar / ta ki" },
+    "famille:" [
+      { "ar:" "إِلَى", "translit:" "ilā", "fr:" "vers / jusqu’à", "en:" "to / until", "tr:" "-e doğru / kadar" },
+      { "ar:" "لِكَيْ", "translit:" "likay", "fr:" "afin que", "en:" "so that", "tr:" "ki / amacıyla" },
+      { "ar:" "إِذَا", "translit:" "idhā", "fr:" "quand", "en:" "when", "tr:" "ne zaman" }
+    ],
+    "profondeur:" {
+      "fr:" "Ḥattā indique une limite : temporelle, logique ou morale. Elle peut signifier “jusqu’à ce que” ou “afin que”. Elle aide à comprendre le point d’arrivée d’une action.",
+      "en:" "Ḥattā marks a limit: temporal, logical, or moral. It can mean “until” or “so that,” showing the endpoint or purpose of an action.",
+      "tr:" "Ḥattā zaman, mantık veya amaç sınırı bildirir. “-e kadar” ya da “ta ki” anlamına gelir ve bir fiilin varacağı noktayı gösterir."
+    },
+    "sourates_cles:" [2, 18, 97]
+  },
+  {
+    "id:" 108, "ar:" "بِاللَّهِ", "translit:" "bi-llāhi", "frequence:" 139, "rang:" 108,
+    "racine:" "بِ + أ-ل-ه", "theme:" "allah",
+    "traductions:" { "fr:" "par Allah / en Allah / avec Allah", "en:" "by Allah / in Allah / with Allah", "tr:" "Allah ile / Allah’a / Allah sayesinde" },
+    "famille:" [
+      { "ar:" "اللَّه", "translit:" "Allāh", "fr:" "Allah / Dieu", "en:" "Allah / God", "tr:" "Allah / Tanrı" },
+      { "ar:" "لِلَّهِ", "translit:" "li-llāhi", "fr:" "à Allah / pour Allah", "en:" "to Allah / for Allah", "tr:" "Allah’a / Allah için" },
+      { "ar:" "وَاللَّهُ", "translit:" "wa-llāhu", "fr:" "et Allah", "en:" "and Allah", "tr:" "ve Allah" }
+    ],
+    "profondeur:" {
+      "fr:" "Bi-llāhi peut exprimer la foi en Allah, le serment par Allah, ou l’appui sur Allah. La préposition bi donne l’idée de lien, moyen, attachement ou accompagnement.",
+      "en:" "Bi-llāhi can express belief in Allah, swearing by Allah, or reliance upon Allah. The preposition bi suggests connection, means, attachment, or accompaniment.",
+      "tr:" "Bi-llāhi Allah’a iman, Allah adına yemin veya Allah’a dayanma anlamı verebilir. Bi edatı bağ, vasıta, bağlılık veya beraberlik ifade eder."
+    },
+    "sourates_cles:" [2, 4, 64]
+  },
+  {
+    "id:" 109, "ar:" "وَهُمْ", "translit:" "wa-hum", "frequence:" 136, "rang:" 109,
+    "racine:" "و + pronom", "theme:" "grammaire",
+    "traductions:" { "fr:" "et eux / et ils / alors qu’ils", "en:" "and they / while they", "tr:" "ve onlar / onlar ise" },
+    "famille:" [
+      { "ar:" "هُمْ", "translit:" "hum", "fr:" "eux / ils", "en:" "they / them", "tr:" "onlar" },
+      { "ar:" "وَهُوَ", "translit:" "wa-huwa", "fr:" "et lui / et Il", "en:" "and he / and it", "tr:" "ve o" },
+      { "ar:" "وَأَنْتُمْ", "translit:" "wa-antum", "fr:" "et vous", "en:" "and you", "tr:" "ve siz" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-hum signifie “et ils”, mais peut parfois se traduire par “alors qu’ils” selon la structure. Il introduit souvent une opposition entre ce que les gens font et leur état réel.",
+      "en:" "Wa-hum means “and they,” but sometimes translates as “while they” depending on structure. It often introduces a contrast between what people do and their real state.",
+      "tr:" "Wa-hum “ve onlar” demektir; bazı yapılarda “onlar ... iken” anlamına gelir. İnsanların yaptıkları ile gerçek hâlleri arasında karşıtlık kurabilir."
+    },
+    "sourates_cles:" [2, 8, 12]
+  },
+  {
+    "id:" 110, "ar:" "الرَّحْمَنِ", "translit:" "ar-raḥmāni", "frequence:" 133, "rang:" 110,
+    "racine:" "ر-ح-م", "theme:" "allah",
+    "traductions:" { "fr:" "Le Tout Miséricordieux", "en:" "The Most Gracious / The All-Merciful", "tr:" "Rahmân / Çok Merhametli" },
+    "famille:" [
+      { "ar:" "رَحْمَة", "translit:" "raḥma", "fr:" "miséricorde", "en:" "mercy", "tr:" "rahmet" },
+      { "ar:" "الرَّحِيم", "translit:" "ar-raḥīm", "fr:" "Le Très Miséricordieux", "en:" "The Most Merciful", "tr:" "Rahîm" },
+      { "ar:" "رَحِم", "translit:" "raḥim", "fr:" "utérus / lien de sang", "en:" "womb / kinship", "tr:" "rahim / akrabalık" }
+    ],
+    "profondeur:" {
+      "fr:" "Ar-Raḥmān est l’un des noms majeurs d’Allah. Il exprime une miséricorde immense, enveloppante et universelle. La sourate 55 porte ce nom et répète le rappel des bienfaits divins.",
+      "en:" "Ar-Raḥmān is one of Allah’s major names. It expresses immense, encompassing, and universal mercy. Surah 55 bears this name and repeatedly recalls divine blessings.",
+      "tr:" "Ar-Raḥmān Allah’ın en büyük isimlerinden biridir. Kuşatıcı, geniş ve evrensel rahmeti ifade eder. 55. sure bu ismi taşır ve nimetleri tekrar tekrar hatırlatır."
+    },
+    "sourates_cles:" [1, 19, 55]
+  },
+  {
+    "id:" 111, "ar:" "أُولَئِكَ", "translit:" "ulāʾika", "frequence:" 133, "rang:" 111,
+    "racine:" "pronom démonstratif", "theme:" "grammaire",
+    "traductions:" { "fr:" "ceux-là / ceux-ci", "en:" "those / those ones", "tr:" "işte onlar / şunlar" },
+    "famille:" [
+      { "ar:" "ذَلِكَ", "translit:" "dhālika", "fr:" "cela / celui-là", "en:" "that", "tr:" "şu / o" },
+      { "ar:" "هَؤُلَاءِ", "translit:" "hāʾulāʾi", "fr:" "ceux-ci", "en:" "these", "tr:" "bunlar" },
+      { "ar:" "تِلْكَ", "translit:" "tilka", "fr:" "celle-là / celles-là", "en:" "that / those", "tr:" "şu / o" }
+    ],
+    "profondeur:" {
+      "fr:" "Ulāʾika désigne un groupe avec insistance : “ceux-là”. Le Coran l’utilise souvent pour conclure un portrait : ceux-là sont les guidés, les perdants, les véridiques ou les gens du succès.",
+      "en:" "Ulāʾika points to a group emphatically: “those ones.” The Quran often uses it to conclude a moral portrait: those are guided, lost, truthful, or successful.",
+      "tr:" "Ulāʾika vurgu taşıyan bir işaret zamiridir: “işte onlar”. Kur’an’da bir ahlaki portrenin sonucunu verir: işte onlar hidayette olanlar, kaybedenler veya kurtuluşa erenlerdir."
+    },
+    "sourates_cles:" [2, 31, 98]
+  },
+  {
+    "id:" 112, "ar:" "إِنِّي", "translit:" "innī", "frequence:" 131, "rang:" 112,
+    "racine:" "إِنَّ + ي", "theme:" "grammaire",
+    "traductions:" { "fr:" "certes moi / vraiment je", "en:" "indeed I / surely I", "tr:" "şüphesiz ben" },
+    "famille:" [
+      { "ar:" "إِنَّ", "translit:" "inna", "fr:" "certes", "en:" "indeed", "tr:" "şüphesiz" },
+      { "ar:" "إِنَّا", "translit:" "innā", "fr:" "certes Nous", "en:" "indeed We", "tr:" "şüphesiz Biz" },
+      { "ar:" "أَنَا", "translit:" "anā", "fr:" "moi / je", "en:" "I", "tr:" "ben" }
+    ],
+    "profondeur:" {
+      "fr:" "Innī signifie “certes je”. Cette forme apparaît souvent dans les paroles rapportées : prophètes, croyants, anges ou serviteurs s’expriment avec certitude et engagement personnel.",
+      "en:" "Innī means “indeed I.” It often appears in reported speech: prophets, believers, angels, or servants speak with certainty and personal commitment.",
+      "tr:" "Innī “şüphesiz ben” demektir. Peygamberlerin, müminlerin, meleklerin veya kulların sözlerinde kesinlik ve şahsi bağlılık ifade eder."
+    },
+    "sourates_cles:" [2, 12, 20]
+  },
+  {
+    "id:" 113, "ar:" "وَإِذَا", "translit:" "wa-idhā", "frequence:" 130, "rang:" 113,
+    "racine:" "و + إِذَا", "theme:" "temps",
+    "traductions:" { "fr:" "et quand / et lorsque", "en:" "and when / whenever", "tr:" "ve ne zaman / olduğunda" },
+    "famille:" [
+      { "ar:" "إِذَا", "translit:" "idhā", "fr:" "quand / lorsque", "en:" "when", "tr:" "ne zaman" },
+      { "ar:" "إِذْ", "translit:" "idh", "fr:" "quand dans le passé", "en:" "when in the past", "tr:" "hani / o zaman" },
+      { "ar:" "وَإِذْ", "translit:" "wa-idh", "fr:" "et quand / rappelle-toi", "en:" "and when", "tr:" "ve hani" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-idhā relie une scène ou une condition à ce qui précède. Il est très utile pour reconnaître les passages où le Coran décrit ce qui arrive lorsqu’un événement se produit.",
+      "en:" "Wa-idhā connects a scene or condition to what came before. It is useful for recognizing passages that describe what happens when an event occurs.",
+      "tr:" "Wa-idhā önceki ifadeye bir sahne veya şart bağlar. Bir olay gerçekleştiğinde ne olacağını anlatan ayetleri tanımak için önemlidir."
+    },
+    "sourates_cles:" [81, 82, 99]
+  },
+  {
+    "id:" 114, "ar:" "مُوسَى", "translit:" "Mūsā", "frequence:" 129, "rang:" 114,
+    "racine:" "nom propre", "theme:" "prophetie",
+    "traductions:" { "fr:" "Moïse", "en:" "Moses", "tr:" "Musa" },
+    "famille:" [
+      { "ar:" "هَارُون", "translit:" "Hārūn", "fr:" "Aaron", "en:" "Aaron", "tr:" "Harun" },
+      { "ar:" "فِرْعَوْن", "translit:" "Firʿawn", "fr:" "Pharaon", "en:" "Pharaoh", "tr:" "Firavun" },
+      { "ar:" "بَنُو إِسْرَائِيل", "translit:" "Banū Isrāʾīl", "fr:" "les Enfants d’Israël", "en:" "Children of Israel", "tr:" "İsrailoğulları" }
+    ],
+    "profondeur:" {
+      "fr:" "Mūsā est l’un des prophètes les plus présents dans les récits coraniques. Son histoire concentre plusieurs thèmes : oppression, libération, révélation, confrontation avec Pharaon et éducation spirituelle d’un peuple.",
+      "en:" "Mūsā is one of the most present prophets in Quranic narratives. His story gathers key themes: oppression, liberation, revelation, confrontation with Pharaoh, and spiritual education of a people.",
+      "tr:" "Mūsā Kur’an kıssalarında en çok öne çıkan peygamberlerden biridir. Kıssası zulüm, kurtuluş, vahiy, Firavun’la mücadele ve bir kavmin manevi terbiyesi gibi temaları birleştirir."
+    },
+    "sourates_cles:" [2, 20, 28]
+  },
+  {
+    "id:" 115, "ar:" "فِيهِ", "translit:" "fīhi", "frequence:" 127, "rang:" 115,
+    "racine:" "فِي + هُ", "theme:" "grammaire",
+    "traductions:" { "fr:" "en lui / dedans / dans cela", "en:" "in it / in him / therein", "tr:" "onda / onun içinde" },
+    "famille:" [
+      { "ar:" "فِي", "translit:" "fī", "fr:" "dans / en", "en:" "in / within", "tr:" "içinde" },
+      { "ar:" "فِيهَا", "translit:" "fīhā", "fr:" "en elle / dedans", "en:" "in it / in her", "tr:" "onda" },
+      { "ar:" "فِيهِمْ", "translit:" "fīhim", "fr:" "en eux / parmi eux", "en:" "in them / among them", "tr:" "onların içinde" }
+    ],
+    "profondeur:" {
+      "fr:" "Fīhi signifie “en lui” ou “dans cela”. Dans “lā rayba fīhi” — “nul doute en lui” — il renvoie au Livre et affirme sa certitude.",
+      "en:" "Fīhi means “in it” or “in him.” In “lā rayba fīhi” — “no doubt in it” — it refers to the Book and affirms its certainty.",
+      "tr:" "Fīhi “onda / onun içinde” demektir. “Lā rayba fīhi” ifadesinde Kitab’a döner ve onda hiçbir şüphe olmadığını bildirir."
+    },
+    "sourates_cles:" [2, 10, 18]
+  },
+  {
+    "id:" 116, "ar:" "وَلَقَدْ", "translit:" "wa-laqad", "frequence:" 124, "rang:" 116,
+    "racine:" "و + لَ + قَدْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "et certes / et vraiment / assurément", "en:" "and certainly / and indeed", "tr:" "andolsun / gerçekten" },
+    "famille:" [
+      { "ar:" "قَدْ", "translit:" "qad", "fr:" "déjà / certes / peut-être selon contexte", "en:" "already / indeed / may", "tr:" "gerçekten / artık / olabilir" },
+      { "ar:" "لَقَدْ", "translit:" "laqad", "fr:" "certes / vraiment", "en:" "certainly / indeed", "tr:" "andolsun / gerçekten" },
+      { "ar:" "وَ", "translit:" "wa", "fr:" "et", "en:" "and", "tr:" "ve" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-laqad est une formule d’insistance forte. Elle introduit souvent un rappel historique ou une vérité confirmée : “et certes Nous avons...”.",
+      "en:" "Wa-laqad is a strong formula of emphasis. It often introduces a historical reminder or confirmed truth: “and certainly We have...”.",
+      "tr:" "Wa-laqad güçlü bir pekiştirme ifadesidir. Çoğu zaman tarihî bir hatırlatma veya kesin bir hakikat getirir: “andolsun Biz...”."
+    },
+    "sourates_cles:" [2, 7, 54]
+  },
+  {
+    "id:" 117, "ar:" "كُلِّ", "translit:" "kulli", "frequence:" 123, "rang:" 117,
+    "racine:" "ك-ل-ل", "theme:" "grammaire",
+    "traductions:" { "fr:" "de tout / chaque / toute", "en:" "every / each / all of", "tr:" "her / bütün / her bir" },
+    "famille:" [
+      { "ar:" "كُلّ", "translit:" "kull", "fr:" "tout / chaque", "en:" "all / every", "tr:" "her / bütün" },
+      { "ar:" "كُلُّ شَيْء", "translit:" "kullu shayʾ", "fr:" "toute chose", "en:" "everything", "tr:" "her şey" },
+      { "ar:" "كُلُّهُمْ", "translit:" "kulluhum", "fr:" "eux tous", "en:" "all of them", "tr:" "hepsi" }
+    ],
+    "profondeur:" {
+      "fr:" "Kulli est une forme de kull : tout, chaque. C’est un mot très important pour comprendre les expressions d’universalité : toute chose, chaque âme, tout peuple, toute action.",
+      "en:" "Kulli is a form of kull: all, every. It is essential for understanding universal expressions: every thing, every soul, every people, every action.",
+      "tr:" "Kulli, kull kelimesinin bir şeklidir: her, bütün. “Her şey”, “her nefis”, “her kavim”, “her amel” gibi genellik bildiren ifadeleri anlamak için önemlidir."
+    },
+    "sourates_cles:" [3, 21, 29]
+  },
+  {
+    "id:" 118, "ar:" "قَدْ", "translit:" "qad", "frequence:" 120, "rang:" 118,
+    "racine:" "particule d’aspect", "theme:" "grammaire",
+    "traductions:" { "fr:" "déjà / certes / il se peut que", "en:" "already / indeed / may", "tr:" "gerçekten / artık / olabilir" },
+    "famille:" [
+      { "ar:" "لَقَدْ", "translit:" "laqad", "fr:" "certes / vraiment", "en:" "certainly / indeed", "tr:" "andolsun / gerçekten" },
+      { "ar:" "وَلَقَدْ", "translit:" "wa-laqad", "fr:" "et certes", "en:" "and certainly", "tr:" "andolsun" },
+      { "ar:" "قَدْ أَفْلَحَ", "translit:" "qad aflaḥa", "fr:" "a certes réussi", "en:" "has certainly succeeded", "tr:" "kesinlikle kurtuluşa erdi" }
+    ],
+    "profondeur:" {
+      "fr:" "Qad change le relief d’un verbe. Avec un passé, il renforce souvent : “certes / déjà”. Avec un présent, il peut exprimer la possibilité ou la fréquence selon le contexte.",
+      "en:" "Qad changes the nuance of a verb. With a past verb, it often strengthens: “certainly / already.” With a present verb, it may express possibility or frequency.",
+      "tr:" "Qad fiilin anlamına incelik katar. Geçmiş fiille “gerçekten / artık” anlamı verir; muzari fiille ihtimal veya tekrar anlamı taşıyabilir."
+    },
+    "sourates_cles:" [23, 87, 91]
+  },
+  {
+    "id:" 119, "ar:" "الرَّحِيمِ", "translit:" "ar-raḥīmi", "frequence:" 118, "rang:" 119,
+    "racine:" "ر-ح-م", "theme:" "allah",
+    "traductions:" { "fr:" "Le Très Miséricordieux", "en:" "The Most Merciful", "tr:" "Rahîm / Çok merhamet eden" },
+    "famille:" [
+      { "ar:" "رَحْمَة", "translit:" "raḥma", "fr:" "miséricorde", "en:" "mercy", "tr:" "rahmet" },
+      { "ar:" "الرَّحْمَن", "translit:" "ar-raḥmān", "fr:" "Le Tout Miséricordieux", "en:" "The Most Gracious", "tr:" "Rahmân" },
+      { "ar:" "رَحِم", "translit:" "raḥim", "fr:" "utérus / lien de parenté", "en:" "womb / kinship", "tr:" "rahim / akrabalık" }
+    ],
+    "profondeur:" {
+      "fr:" "Ar-Raḥīm exprime une miséricorde constante, proche et durable. Avec Ar-Raḥmān, il forme l’ouverture spirituelle du Coran dans la basmala et Al-Fātiḥa.",
+      "en:" "Ar-Raḥīm expresses constant, close, and lasting mercy. Together with Ar-Raḥmān, it forms the spiritual opening of the Quran in the basmala and Al-Fātiḥa.",
+      "tr:" "Ar-Raḥīm sürekli, yakın ve kalıcı rahmeti ifade eder. Ar-Raḥmān ile birlikte besmele ve Fâtiha’da Kur’an’ın manevi açılışını oluşturur."
+    },
+    "sourates_cles:" [1, 2, 59]
+  },
+  {
+    "id:" 120, "ar:" "لِلَّهِ", "translit:" "li-llāhi", "frequence:" 116, "rang:" 120,
+    "racine:" "لِ + أ-ل-ه", "theme:" "allah",
+    "traductions:" { "fr:" "à Allah / pour Allah / appartient à Allah", "en:" "to Allah / for Allah / belongs to Allah", "tr:" "Allah’a / Allah için / Allah’ındır" },
+    "famille:" [
+      { "ar:" "اللَّه", "translit:" "Allāh", "fr:" "Allah / Dieu", "en:" "Allah / God", "tr:" "Allah / Tanrı" },
+      { "ar:" "بِاللَّهِ", "translit:" "bi-llāhi", "fr:" "par Allah / en Allah", "en:" "by Allah / in Allah", "tr:" "Allah ile / Allah’a" },
+      { "ar:" "وَاللَّهُ", "translit:" "wa-llāhu", "fr:" "et Allah", "en:" "and Allah", "tr:" "ve Allah" }
+    ],
+    "profondeur:" {
+      "fr:" "Li-llāhi signifie “à Allah”, “pour Allah” ou “appartient à Allah”. C’est une forme essentielle pour comprendre la possession divine : tout revient à Allah, tout appartient à Allah, et tout acte sincère est pour Allah.",
+      "en:" "Li-llāhi means “to Allah,” “for Allah,” or “belongs to Allah.” It is essential for understanding divine ownership: everything returns to Allah, belongs to Allah, and every sincere act is for Allah.",
+      "tr:" "Li-llāhi “Allah’a”, “Allah için” veya “Allah’ındır” anlamına gelir. İlahi mülkiyeti anlamak için temel bir ifadedir: her şey Allah’a döner, Allah’ındır ve samimi amel Allah içindir."
+    },
+    "sourates_cles:" [1, 2, 112]
+  }
+  {
+    "id:" 121, "ar:" "رَبِّكَ", "translit:" "rabbika", "frequence:" 116, "rang:" 121,
+    "racine:" "ر-ب-ب", "theme:" "allah",
+    "traductions:" { "fr:" "ton Seigneur", "en:" "your Lord", "tr:" "Rabbin" },
+    "famille:" [
+      { "ar:" "رَبّ", "translit:" "rabb", "fr:" "Seigneur / Maître / Éducateur", "en:" "Lord / Master / Sustainer", "tr:" "Rab / Terbiyeci" },
+      { "ar:" "رَبِّي", "translit:" "rabbī", "fr:" "mon Seigneur", "en:" "my Lord", "tr:" "Rabbim" },
+      { "ar:" "رَبُّكُمْ", "translit:" "rabbukum", "fr:" "votre Seigneur", "en:" "your Lord", "tr:" "Rabbiniz" },
+      { "ar:" "تَرْبِيَة", "translit:" "tarbiya", "fr:" "éducation / formation", "en:" "education / upbringing", "tr:" "terbiye / eğitim" }
+    ],
+    "profondeur:" {
+      "fr:" "Rabbika signifie “ton Seigneur”. Le mot ne désigne pas seulement un maître, mais Celui qui crée, nourrit, éduque et accompagne. Dans le Coran, cette forme rend le lien avec Allah très direct : ton Seigneur te connaît, te guide et t’élève.",
+      "en:" "Rabbika means “your Lord.” It does not only mean master, but the One who creates, nourishes, educates, and sustains. In the Quran, this form makes the bond with Allah very direct.",
+      "tr:" "Rabbika “Rabbin” demektir. Sadece efendi anlamına gelmez; yaratan, besleyen, terbiye eden ve yöneten anlamını da taşır. Kur’an’da Allah ile doğrudan bir bağ kurar."
+    },
+    "sourates_cles:" [1, 93, 96]
+  },
+  {
+    "id:" 122, "ar:" "بِسْمِ", "translit:" "bismi", "frequence:" 115, "rang:" 122,
+    "racine:" "س-م-و", "theme:" "priere",
+    "traductions:" { "fr:" "au nom de / par le nom de", "en:" "in the name of / by the name of", "tr:" "adıyla / ismiyle" },
+    "famille:" [
+      { "ar:" "اسْم", "translit:" "ism", "fr:" "nom", "en:" "name", "tr:" "isim / ad" },
+      { "ar:" "أَسْمَاء", "translit:" "asmāʾ", "fr:" "noms", "en:" "names", "tr:" "isimler" },
+      { "ar:" "بِسْمِ اللَّهِ", "translit:" "bismi llāh", "fr:" "au nom d’Allah", "en:" "in the name of Allah", "tr:" "Allah’ın adıyla" },
+      { "ar:" "سَمِيّ", "translit:" "samiyy", "fr:" "homonyme / semblable en nom", "en:" "namesake / one sharing a name", "tr:" "adaş / isim benzeri" }
+    ],
+    "profondeur:" {
+      "fr:" "Bismi ouvre la basmala : “Au nom d’Allah”. Le mot rappelle qu’une action peut commencer par un rattachement à Allah. Ce n’est pas seulement une formule : c’est placer l’acte sous une intention, une bénédiction et une orientation.",
+      "en:" "Bismi opens the basmala: “In the name of Allah.” It shows that an action can begin by being connected to Allah. It is not just a formula, but an intention and orientation.",
+      "tr:" "Bismi besmeleyi başlatır: “Allah’ın adıyla”. Bir işin Allah’a bağlanarak başlamasını ifade eder. Bu sadece bir söz değil, niyet ve yöneliştir."
+    },
+    "sourates_cles:" [1, 96, 27]
+  },
+  {
+    "id:" 123, "ar:" "الدُّنْيَا", "translit:" "ad-dunyā", "frequence:" 115, "rang:" 123,
+    "racine:" "د-ن-و", "theme:" "jugement",
+    "traductions:" { "fr:" "la vie d’ici-bas / le monde proche", "en:" "the worldly life / the lower world", "tr:" "dünya hayatı / yakın hayat" },
+    "famille:" [
+      { "ar:" "دُنْيَا", "translit:" "dunyā", "fr:" "monde d’ici-bas", "en:" "worldly life", "tr:" "dünya" },
+      { "ar:" "أَدْنَى", "translit:" "adnā", "fr:" "plus proche / plus bas", "en:" "nearer / lower", "tr:" "daha yakın / daha aşağı" },
+      { "ar:" "دَنَا", "translit:" "danā", "fr:" "il s’est approché", "en:" "he came near", "tr:" "yaklaştı" },
+      { "ar:" "آخِرَة", "translit:" "ākhira", "fr:" "l’au-delà", "en:" "the Hereafter", "tr:" "ahiret" }
+    ],
+    "profondeur:" {
+      "fr:" "Ad-dunyā vient de l’idée de proximité et de bassesse relative : c’est la vie proche, immédiate, visible. Le Coran la compare souvent à l’ākhira : l’ici-bas est court, séduisant et passager ; l’au-delà est durable.",
+      "en:" "Ad-dunyā comes from the idea of nearness and relative lowness: the immediate, visible life. The Quran often contrasts it with the ākhira: worldly life is short and passing.",
+      "tr:" "Ad-dunyā yakınlık ve aşağılık fikrinden gelir: yakın, görünen ve geçici hayat. Kur’an onu ahiretle karşılaştırır: dünya kısa, çekici ve fanidir; ahiret kalıcıdır."
+    },
+    "sourates_cles:" [2, 3, 57]
+  },
+  {
+    "id:" 124, "ar:" "إِنَّمَا", "translit:" "innamā", "frequence:" 113, "rang:" 124,
+    "racine:" "particule de restriction", "theme:" "grammaire",
+    "traductions:" { "fr:" "seulement / ne... que / en vérité", "en:" "only / merely / indeed", "tr:" "ancak / sadece / yalnızca" },
+    "famille:" [
+      { "ar:" "إِنَّ", "translit:" "inna", "fr:" "certes / vraiment", "en:" "indeed / surely", "tr:" "şüphesiz" },
+      { "ar:" "مَا", "translit:" "mā", "fr:" "ce que / ne... pas", "en:" "what / not", "tr:" "ne / değil" },
+      { "ar:" "إِلَّا", "translit:" "illā", "fr:" "sauf / excepté", "en:" "except / save", "tr:" "ancak / hariç" }
+    ],
+    "profondeur:" {
+      "fr:" "Innamā sert à limiter ou concentrer le sens : “ce n’est que”, “seulement”. Le Coran l’utilise pour clarifier une réalité, réduire une confusion ou poser une vérité essentielle.",
+      "en:" "Innamā restricts and focuses meaning: “only,” “nothing but.” The Quran uses it to clarify a reality, remove confusion, or state an essential truth.",
+      "tr:" "Innamā anlamı sınırlar ve yoğunlaştırır: “ancak”, “sadece”. Kur’an’da bir hakikati netleştirmek ve yanlış anlamayı kaldırmak için kullanılır."
+    },
+    "sourates_cles:" [4, 9, 49]
+  },
+  {
+    "id:" 125, "ar:" "بَلْ", "translit:" "bal", "frequence:" 113, "rang:" 125,
+    "racine:" "particule de correction", "theme:" "grammaire",
+    "traductions:" { "fr:" "plutôt / au contraire / mais", "en:" "rather / instead / nay", "tr:" "aksine / bilakis / fakat" },
+    "famille:" [
+      { "ar:" "لَا", "translit:" "lā", "fr:" "non / ne... pas", "en:" "no / not", "tr:" "hayır / değil" },
+      { "ar:" "أَمْ", "translit:" "am", "fr:" "ou bien / est-ce que", "en:" "or / rather", "tr:" "yoksa / mı" },
+      { "ar:" "لَكِنْ", "translit:" "lākin", "fr:" "mais / cependant", "en:" "but / however", "tr:" "fakat / ancak" }
+    ],
+    "profondeur:" {
+      "fr:" "Bal corrige ou renverse ce qui précède : “au contraire”. C’est un mot important dans l’argumentation coranique, car il sert souvent à réfuter une idée fausse et à réorienter vers la vérité.",
+      "en:" "Bal corrects or overturns what came before: “rather.” It is important in Quranic argumentation because it often refutes a false claim and redirects toward truth.",
+      "tr:" "Bal önceki ifadeyi düzeltir veya tersine çevirir: “aksine”. Kur’an’daki tartışmalarda yanlış bir iddiayı reddedip hakikate yönlendirmek için kullanılır."
+    },
+    "sourates_cles:" [2, 21, 85]
+  },
+  {
+    "id:" 126, "ar:" "مِمَّا", "translit:" "mimmā", "frequence:" 111, "rang:" 126,
+    "racine:" "مِن + مَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "de ce que / parmi ce que", "en:" "from what / of what", "tr:" "şeyden / -den / ne ise ondan" },
+    "famille:" [
+      { "ar:" "مِنْ", "translit:" "min", "fr:" "de / depuis / parmi", "en:" "from / among", "tr:" "-den / arasından" },
+      { "ar:" "مَا", "translit:" "mā", "fr:" "ce que / quoi", "en:" "what / that which", "tr:" "ne / şey" },
+      { "ar:" "بِمَا", "translit:" "bimā", "fr:" "par ce que / à cause de ce que", "en:" "because of what", "tr:" "sebebiyle" },
+      { "ar:" "عَمَّا", "translit:" "ʿammā", "fr:" "au sujet de ce que", "en:" "about what", "tr:" "ne hakkında" }
+    ],
+    "profondeur:" {
+      "fr:" "Mimmā fusionne min et mā : “de ce que”. Le Coran l’utilise souvent pour parler des bienfaits accordés, des biens dépensés, ou des choses créées par Allah.",
+      "en:" "Mimmā combines min and mā: “from what.” The Quran often uses it for blessings given, wealth spent, or things created by Allah.",
+      "tr:" "Mimmā, min ve mā birleşimidir: “şeyden / ne ise ondan”. Kur’an’da verilen nimetler, infak edilen mallar veya Allah’ın yarattıkları için sık kullanılır."
+    },
+    "sourates_cles:" [2, 8, 36]
+  },
+  {
+    "id:" 127, "ar:" "أَمْ", "translit:" "am", "frequence:" 110, "rang:" 127,
+    "racine:" "particule d’alternative", "theme:" "grammaire",
+    "traductions:" { "fr:" "ou bien / est-ce que / plutôt", "en:" "or / rather / is it that", "tr:" "yoksa / veya / mı" },
+    "famille:" [
+      { "ar:" "أَوْ", "translit:" "aw", "fr:" "ou", "en:" "or", "tr:" "veya" },
+      { "ar:" "بَلْ", "translit:" "bal", "fr:" "plutôt / au contraire", "en:" "rather / instead", "tr:" "aksine" },
+      { "ar:" "هَلْ", "translit:" "hal", "fr:" "est-ce que", "en:" "is / do", "tr:" "mi / mı" }
+    ],
+    "profondeur:" {
+      "fr:" "Am introduit souvent une alternative argumentative : “ou bien pensent-ils que... ?”. Il sert dans les questions rhétoriques et pousse le lecteur à examiner une prétention.",
+      "en:" "Am often introduces an argumentative alternative: “or do they think that...?” It appears in rhetorical questions and pushes the reader to examine a claim.",
+      "tr:" "Am çoğu zaman tartışmalı bir alternatif getirir: “yoksa sanıyorlar mı ki...?” Retorik sorularda geçer ve okuyucuyu bir iddiayı sorgulamaya çağırır."
+    },
+    "sourates_cles:" [52, 68, 76]
+  },
+  {
+    "id:" 128, "ar:" "وَلَوْ", "translit:" "wa-law", "frequence:" 108, "rang:" 128,
+    "racine:" "و + لَوْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "et si / même si / quand bien même", "en:" "even if / and if", "tr:" "ve eğer / hatta ... olsa bile" },
+    "famille:" [
+      { "ar:" "لَوْ", "translit:" "law", "fr:" "si / si seulement", "en:" "if / if only", "tr:" "eğer / keşke" },
+      { "ar:" "وَإِنْ", "translit:" "wa-in", "fr:" "et si", "en:" "and if", "tr:" "ve eğer" },
+      { "ar:" "لَوْلَا", "translit:" "lawlā", "fr:" "si ce n’était / pourquoi ne pas", "en:" "if not / why not", "tr:" "olmasaydı / neden değil" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-law introduit souvent une hypothèse forte : “même si”. Il permet d’exprimer qu’une vérité reste valable malgré une situation extrême ou une objection possible.",
+      "en:" "Wa-law often introduces a strong hypothesis: “even if.” It expresses that a truth remains valid despite an extreme case or possible objection.",
+      "tr:" "Wa-law güçlü bir şart bildirir: “hatta ... olsa bile”. Bir hakikatin zor bir durumda veya itiraza rağmen geçerli olduğunu gösterir."
+    },
+    "sourates_cles:" [2, 3, 6]
+  },
+  {
+    "id:" 129, "ar:" "وَالْأَرْضِ", "translit:" "wa-l-arḍi", "frequence:" 108, "rang:" 129,
+    "racine:" "و + أ-ر-ض", "theme:" "creation",
+    "traductions:" { "fr:" "et la terre", "en:" "and the earth", "tr:" "ve yer / ve yeryüzü" },
+    "famille:" [
+      { "ar:" "أَرْض", "translit:" "arḍ", "fr:" "terre / sol", "en:" "earth / land", "tr:" "yer / toprak" },
+      { "ar:" "الْأَرْض", "translit:" "al-arḍ", "fr:" "la terre", "en:" "the earth", "tr:" "yeryüzü" },
+      { "ar:" "السَّمَاوَاتُ وَالْأَرْض", "translit:" "as-samāwātu wa-l-arḍ", "fr:" "les cieux et la terre", "en:" "the heavens and the earth", "tr:" "gökler ve yer" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-l-arḍi apparaît dans la grande paire coranique : les cieux et la terre. Cette expression évoque l’ensemble de la création, du plus élevé au plus proche.",
+      "en:" "Wa-l-arḍi appears in the great Quranic pair: the heavens and the earth. It evokes the whole creation, from the highest to the nearest realm.",
+      "tr:" "Wa-l-arḍi Kur’an’daki büyük ikilide geçer: gökler ve yer. En yüceden en yakına kadar bütün yaratılışı hatırlatır."
+    },
+    "sourates_cles:" [2, 55, 67]
+  },
+  {
+    "id:" 130, "ar:" "يَشَاءُ", "translit:" "yashāʾu", "frequence:" 108, "rang:" 130,
+    "racine:" "ش-ي-ء", "theme:" "allah",
+    "traductions:" { "fr:" "Il veut / Il décide / Il veut que", "en:" "He wills / He wants / He decides", "tr:" "diler / ister / takdir eder" },
+    "famille:" [
+      { "ar:" "شَاءَ", "translit:" "shāʾa", "fr:" "il a voulu", "en:" "he willed", "tr:" "diledi" },
+      { "ar:" "مَشِيئَة", "translit:" "mashīʾa", "fr:" "volonté", "en:" "will", "tr:" "meşiet / irade" },
+      { "ar:" "إِنْ شَاءَ اللَّه", "translit:" "in shāʾa Allāh", "fr:" "si Allah veut", "en:" "if Allah wills", "tr:" "inşallah" },
+      { "ar:" "مَا يَشَاءُ", "translit:" "mā yashāʾu", "fr:" "ce qu’Il veut", "en:" "what He wills", "tr:" "dilediği şey" }
+    ],
+    "profondeur:" {
+      "fr:" "Yashāʾu exprime la volonté active. Quand il renvoie à Allah, il rappelle que la création, la guidance, le pardon et les dons ne sont pas mécaniques : tout dépend de Sa sagesse et de Sa volonté.",
+      "en:" "Yashāʾu expresses active will. When referring to Allah, it reminds us that creation, guidance, forgiveness, and gifts are not mechanical: all depend on His wisdom and will.",
+      "tr:" "Yashāʾu aktif iradeyi ifade eder. Allah için kullanıldığında yaratma, hidayet, bağışlama ve nimetlerin O’nun hikmeti ve iradesine bağlı olduğunu hatırlatır."
+    },
+    "sourates_cles:" [2, 3, 28]
+  },
+  {
+    "id:" 131, "ar:" "مِنْكُمْ", "translit:" "minkum", "frequence:" 105, "rang:" 131,
+    "racine:" "مِن + كُمْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "de vous / parmi vous", "en:" "from you / among you", "tr:" "sizden / aranızdan" },
+    "famille:" [
+      { "ar:" "مِنْ", "translit:" "min", "fr:" "de / parmi", "en:" "from / among", "tr:" "-den / arasından" },
+      { "ar:" "مِنْهُمْ", "translit:" "minhum", "fr:" "d’eux / parmi eux", "en:" "from them / among them", "tr:" "onlardan" },
+      { "ar:" "مِنَّا", "translit:" "minnā", "fr:" "de nous / parmi nous", "en:" "from us / among us", "tr:" "bizden" }
+    ],
+    "profondeur:" {
+      "fr:" "Minkum signifie “parmi vous”. Cette forme est importante dans les versets adressés à une communauté : le Coran distingue parfois des attitudes différentes à l’intérieur d’un même groupe.",
+      "en:" "Minkum means “among you.” It is important in verses addressed to a community: the Quran may distinguish different attitudes within the same group.",
+      "tr:" "Minkum “sizden / aranızdan” demektir. Bir topluluğa hitap eden ayetlerde önemlidir; Kur’an aynı grup içindeki farklı tavırları ayırabilir."
+    },
+    "sourates_cles:" [2, 3, 5]
+  },
+  {
+    "id:" 132, "ar:" "فَلَمَّا", "translit:" "fa-lammā", "frequence:" 101, "rang:" 132,
+    "racine:" "ف + لَمَّا", "theme:" "temps",
+    "traductions:" { "fr:" "puis lorsque / alors quand", "en:" "then when / so when", "tr:" "sonra ne zaman ki / olunca" },
+    "famille:" [
+      { "ar:" "لَمَّا", "translit:" "lammā", "fr:" "lorsque / quand", "en:" "when / once", "tr:" "ne zaman ki" },
+      { "ar:" "فَ", "translit:" "fa", "fr:" "alors / puis", "en:" "so / then", "tr:" "öyleyse / sonra" },
+      { "ar:" "إِذَا", "translit:" "idhā", "fr:" "quand / lorsque", "en:" "when", "tr:" "ne zaman" }
+    ],
+    "profondeur:" {
+      "fr:" "Fa-lammā marque un tournant dans le récit : “puis lorsque...”. Il introduit souvent le moment où une situation change, où une épreuve arrive, ou où la réponse divine se manifeste.",
+      "en:" "Fa-lammā marks a turning point in narrative: “then when...”. It often introduces the moment when a situation changes, a test arrives, or divine response appears.",
+      "tr:" "Fa-lammā kıssalarda dönüm noktası bildirir: “sonra ne zaman ki...”. Bir durumun değiştiği, imtihanın geldiği veya ilahi cevabın ortaya çıktığı anı başlatır."
+    },
+    "sourates_cles:" [7, 12, 37]
+  },
+  {
+    "id:" 133, "ar:" "عَلِيمٌ", "translit:" "ʿalīmun", "frequence:" 100, "rang:" 133,
+    "racine:" "ع-ل-م", "theme:" "allah",
+    "traductions:" { "fr:" "Savant / parfaitement connaisseur", "en:" "All-Knowing / Knowing", "tr:" "Alîm / her şeyi bilen" },
+    "famille:" [
+      { "ar:" "عِلْم", "translit:" "ʿilm", "fr:" "science / connaissance", "en:" "knowledge", "tr:" "ilim / bilgi" },
+      { "ar:" "عَلِمَ", "translit:" "ʿalima", "fr:" "il a su", "en:" "he knew", "tr:" "bildi" },
+      { "ar:" "عَالِم", "translit:" "ʿālim", "fr:" "savant", "en:" "scholar / knower", "tr:" "âlim" },
+      { "ar:" "عَلَّام", "translit:" "ʿallām", "fr:" "Connaisseur absolu", "en:" "Supreme Knower", "tr:" "çok iyi bilen" }
+    ],
+    "profondeur:" {
+      "fr:" "ʿAlīmun est souvent un attribut d’Allah : Il sait parfaitement les actes visibles, les intentions cachées, le passé, le présent et l’avenir. Rien n’échappe à Sa science.",
+      "en:" "ʿAlīmun is often an attribute of Allah: He perfectly knows visible actions, hidden intentions, past, present, and future. Nothing escapes His knowledge.",
+      "tr:" "ʿAlīmun çoğu zaman Allah’ın sıfatıdır: açık amelleri, gizli niyetleri, geçmişi, bugünü ve geleceği kusursuz bilir. Hiçbir şey ilminden kaçmaz."
+    },
+    "sourates_cles:" [2, 8, 49]
+  },
+  {
+    "id:" 134, "ar:" "عِنْدَ", "translit:" "ʿinda", "frequence:" 98, "rang:" 134,
+    "racine:" "adverbe / préposition", "theme:" "grammaire",
+    "traductions:" { "fr:" "auprès de / chez / auprès", "en:" "with / near / in the presence of", "tr:" "katında / yanında / nezdinde" },
+    "famille:" [
+      { "ar:" "عِنْدَهُ", "translit:" "ʿindahu", "fr:" "auprès de lui", "en:" "with him / in his possession", "tr:" "onun yanında / katında" },
+      { "ar:" "عِنْدَ اللَّهِ", "translit:" "ʿinda Allāh", "fr:" "auprès d’Allah", "en:" "with Allah", "tr:" "Allah katında" },
+      { "ar:" "مِنْ عِنْدِ", "translit:" "min ʿindi", "fr:" "venant de chez / de la part de", "en:" "from with / from the presence of", "tr:" "katından / tarafından" }
+    ],
+    "profondeur:" {
+      "fr:" "ʿInda signifie “auprès de”. Quand le Coran dit “auprès d’Allah”, il évoque la vraie valeur d’une chose : la récompense, la science, la décision et la mesure ultime se trouvent auprès de Lui.",
+      "en:" "ʿInda means “with / near.” When the Quran says “with Allah,” it points to the true value of a thing: reward, knowledge, decision, and final measure are with Him.",
+      "tr:" "ʿInda “yanında / katında” demektir. Kur’an’da “Allah katında” ifadesi gerçek değeri gösterir: mükâfat, ilim, hüküm ve nihai ölçü O’nun katındadır."
+    },
+    "sourates_cles:" [2, 3, 49]
+  },
+  {
+    "id:" 135, "ar:" "النَّاسِ", "translit:" "an-nāsi", "frequence:" 92, "rang:" 135,
+    "racine:" "ن-و-س / أ-ن-س", "theme:" "homme",
+    "traductions:" { "fr:" "les gens / les hommes / l’humanité", "en:" "the people / mankind", "tr:" "insanlar / halk" },
+    "famille:" [
+      { "ar:" "نَاس", "translit:" "nās", "fr:" "gens", "en:" "people", "tr:" "insanlar" },
+      { "ar:" "إِنْسَان", "translit:" "insān", "fr:" "être humain", "en:" "human being", "tr:" "insan" },
+      { "ar:" "إِنْس", "translit:" "ins", "fr:" "humains", "en:" "humans", "tr:" "insanlar" },
+      { "ar:" "أُنْس", "translit:" "uns", "fr:" "familiarité / compagnie", "en:" "familiarity / companionship", "tr:" "yakınlık / ünsiyet" }
+    ],
+    "profondeur:" {
+      "fr:" "An-nās désigne les gens, l’humanité. La dernière sourate du Coran répète ce mot trois fois : Seigneur des gens, Roi des gens, Dieu des gens. Le message coranique vise l’être humain dans sa faiblesse, sa société et son besoin de protection.",
+      "en:" "An-nās means the people, mankind. The final surah repeats it three times: Lord of mankind, King of mankind, God of mankind. The Quran addresses humans in their weakness and need for protection.",
+      "tr:" "An-nās insanlar demektir. Kur’an’ın son suresi bu kelimeyi üç kez tekrar eder: insanların Rabbi, insanların Meliki, insanların İlahı. Kur’an insanın zayıflığına ve korunma ihtiyacına seslenir."
+    },
+    "sourates_cles:" [2, 22, 114]
+  },
+  {
+    "id:" 136, "ar:" "رَبِّي", "translit:" "rabbī", "frequence:" 91, "rang:" 136,
+    "racine:" "ر-ب-ب", "theme:" "allah",
+    "traductions:" { "fr:" "mon Seigneur", "en:" "my Lord", "tr:" "Rabbim" },
+    "famille:" [
+      { "ar:" "رَبّ", "translit:" "rabb", "fr:" "Seigneur / Maître / Éducateur", "en:" "Lord / Sustainer", "tr:" "Rab / Terbiyeci" },
+      { "ar:" "رَبِّكَ", "translit:" "rabbika", "fr:" "ton Seigneur", "en:" "your Lord", "tr:" "Rabbin" },
+      { "ar:" "رَبَّنَا", "translit:" "rabbanā", "fr:" "notre Seigneur", "en:" "our Lord", "tr:" "Rabbimiz" },
+      { "ar:" "رَبُّكُمْ", "translit:" "rabbukum", "fr:" "votre Seigneur", "en:" "your Lord", "tr:" "Rabbiniz" }
+    ],
+    "profondeur:" {
+      "fr:" "Rabbī signifie “mon Seigneur”. Cette forme est intime et personnelle. Les prophètes l’utilisent souvent dans leurs invocations : elle exprime la dépendance, la confiance et la proximité avec Allah.",
+      "en:" "Rabbī means “my Lord.” This form is intimate and personal. Prophets often use it in supplication, expressing dependence, trust, and closeness to Allah.",
+      "tr:" "Rabbī “Rabbim” demektir. Samimi ve şahsi bir ifadedir. Peygamberler dualarında sıkça kullanır; Allah’a bağlılık, güven ve yakınlık bildirir."
+    },
+    "sourates_cles:" [12, 20, 26]
+  },
+  {
+    "id:" 137, "ar:" "فَإِنْ", "translit:" "fa-in", "frequence:" 89, "rang:" 137,
+    "racine:" "ف + إِنْ", "theme:" "grammaire",
+    "traductions:" { "fr:" "alors si / donc si", "en:" "so if / then if", "tr:" "eğer böyleyse / o halde eğer" },
+    "famille:" [
+      { "ar:" "إِنْ", "translit:" "in", "fr:" "si", "en:" "if", "tr:" "eğer" },
+      { "ar:" "وَإِنْ", "translit:" "wa-in", "fr:" "et si", "en:" "and if", "tr:" "ve eğer" },
+      { "ar:" "فَ", "translit:" "fa", "fr:" "alors / donc", "en:" "so / then", "tr:" "öyleyse / sonra" }
+    ],
+    "profondeur:" {
+      "fr:" "Fa-in introduit une condition qui découle de ce qui précède : “alors si...”. On le rencontre souvent dans des passages juridiques, éthiques ou argumentatifs.",
+      "en:" "Fa-in introduces a condition that follows from what came before: “so if...”. It often appears in legal, ethical, or argumentative passages.",
+      "tr:" "Fa-in önceki ifadeden doğan bir şart getirir: “öyleyse eğer...”. Hukuki, ahlaki veya tartışmalı pasajlarda sıkça görülür."
+    },
+    "sourates_cles:" [2, 4, 8]
+  },
+  {
+    "id:" 138, "ar:" "مِنْهُ", "translit:" "minhu", "frequence:" 88, "rang:" 138,
+    "racine:" "مِن + هُ", "theme:" "grammaire",
+    "traductions:" { "fr:" "de lui / de cela / venant de lui", "en:" "from him / from it", "tr:" "ondan / ondan gelen" },
+    "famille:" [
+      { "ar:" "مِنْ", "translit:" "min", "fr:" "de / depuis / parmi", "en:" "from / among", "tr:" "-den / arasından" },
+      { "ar:" "مِنْهُمْ", "translit:" "minhum", "fr:" "d’eux / parmi eux", "en:" "from them / among them", "tr:" "onlardan" },
+      { "ar:" "مِنْهَا", "translit:" "minhā", "fr:" "d’elle / de cela", "en:" "from her / from it", "tr:" "ondan" }
+    ],
+    "profondeur:" {
+      "fr:" "Minhu signifie “de lui” ou “de cela”. Il peut marquer l’origine, la provenance, la séparation ou une partie extraite d’un tout.",
+      "en:" "Minhu means “from him” or “from it.” It can mark origin, source, separation, or a part taken from a whole.",
+      "tr:" "Minhu “ondan” demektir. Köken, kaynak, ayrılma veya bir bütünden çıkan parça anlamı verebilir."
+    },
+    "sourates_cles:" [2, 4, 16]
+  },
+  {
+    "id:" 139, "ar:" "يُؤْمِنُونَ", "translit:" "yuʾminūna", "frequence:" 86, "rang:" 139,
+    "racine:" "أ-م-ن", "theme:" "foi",
+    "traductions:" { "fr:" "ils croient / ils ont foi", "en:" "they believe / they have faith", "tr:" "iman ederler / inanırlar" },
+    "famille:" [
+      { "ar:" "آمَنَ", "translit:" "āmana", "fr:" "il a cru", "en:" "he believed", "tr:" "iman etti" },
+      { "ar:" "إِيمَان", "translit:" "īmān", "fr:" "foi", "en:" "faith", "tr:" "iman" },
+      { "ar:" "مُؤْمِن", "translit:" "muʾmin", "fr:" "croyant", "en:" "believer", "tr:" "mümin" },
+      { "ar:" "أَمَانَة", "translit:" "amāna", "fr:" "confiance / dépôt", "en:" "trust", "tr:" "emanet / güven" }
+    ],
+    "profondeur:" {
+      "fr:" "Yuʾminūna signifie “ils croient”. La racine a-m-n lie la foi à la sécurité et à la confiance. Croire, dans la logique coranique, ce n’est pas seulement accepter une idée : c’est faire confiance et s’engager.",
+      "en:" "Yuʾminūna means “they believe.” The root a-m-n connects faith with safety and trust. In Quranic logic, believing is not only accepting an idea: it is trusting and committing.",
+      "tr:" "Yuʾminūna “iman ederler” demektir. a-m-n kökü imanı güven ve emniyetle bağlar. Kur’an’da iman sadece fikri kabul etmek değil, güvenmek ve bağlanmaktır."
+    },
+    "sourates_cles:" [2, 8, 23]
+  },
+  {
+    "id:" 140, "ar:" "فَمَا", "translit:" "fa-mā", "frequence:" 86, "rang:" 140,
+    "racine:" "ف + مَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "alors quoi / donc ce que / donc ne... pas", "en:" "so what / then what / so not", "tr:" "öyleyse ne / artık değil / ne ise" },
+    "famille:" [
+      { "ar:" "مَا", "translit:" "mā", "fr:" "ce que / quoi / ne... pas", "en:" "what / not", "tr:" "ne / değil" },
+      { "ar:" "فَ", "translit:" "fa", "fr:" "alors / donc", "en:" "so / then", "tr:" "öyleyse / sonra" },
+      { "ar:" "وَمَا", "translit:" "wa-mā", "fr:" "et ce que / et ne... pas", "en:" "and what / and not", "tr:" "ve ne / ve değil" }
+    ],
+    "profondeur:" {
+      "fr:" "Fa-mā est très dépendant du contexte. Il peut introduire une conséquence, une interrogation ou une négation : “alors que... ?”, “donc ce que...”, ou “alors ne... pas”.",
+      "en:" "Fa-mā depends strongly on context. It can introduce consequence, question, or negation: “so what...?”, “then what...,” or “so not...”.",
+      "tr:" "Fa-mā bağlama çok bağlıdır. Sonuç, soru veya olumsuzluk getirebilir: “öyleyse ne?”, “ne ise”, “artık ... değil”."
+    },
+    "sourates_cles:" [2, 10, 53]
+  },
+  {
+    "id:" 141, "ar:" "مِنْهَا", "translit:" "minhā", "frequence:" 86, "rang:" 141,
+    "racine:" "مِن + هَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "d’elle / de cela / depuis elle", "en:" "from her / from it", "tr:" "ondan / onun içinden" },
+    "famille:" [
+      { "ar:" "مِنْ", "translit:" "min", "fr:" "de / depuis / parmi", "en:" "from / among", "tr:" "-den / arasından" },
+      { "ar:" "مِنْهُ", "translit:" "minhu", "fr:" "de lui / de cela", "en:" "from him / from it", "tr:" "ondan" },
+      { "ar:" "فِيهَا", "translit:" "fīhā", "fr:" "en elle / dedans", "en:" "in it / in her", "tr:" "onda / içinde" }
+    ],
+    "profondeur:" {
+      "fr:" "Minhā signifie “d’elle” ou “de cela”. Il apparaît souvent avec la terre, la création, le Paradis ou une chose féminine grammaticale. Il marque l’origine, l’extraction ou la sortie.",
+      "en:" "Minhā means “from her” or “from it.” It often appears with the earth, creation, Paradise, or a grammatically feminine noun. It marks origin or extraction.",
+      "tr:" "Minhā “ondan / onun içinden” demektir. Yer, yaratılış, cennet veya gramer olarak dişil kelimelerle geçebilir. Kaynak veya çıkış bildirir."
+    },
+    "sourates_cles:" [2, 7, 20]
+  },
+  {
+    "id:" 142, "ar:" "فَإِذَا", "translit:" "fa-idhā", "frequence:" 86, "rang:" 142,
+    "racine:" "ف + إِذَا", "theme:" "temps",
+    "traductions:" { "fr:" "alors quand / puis lorsque", "en:" "then when / so when", "tr:" "sonra ne zaman / olunca" },
+    "famille:" [
+      { "ar:" "إِذَا", "translit:" "idhā", "fr:" "quand / lorsque", "en:" "when", "tr:" "ne zaman" },
+      { "ar:" "فَ", "translit:" "fa", "fr:" "alors / donc", "en:" "so / then", "tr:" "öyleyse / sonra" },
+      { "ar:" "وَإِذَا", "translit:" "wa-idhā", "fr:" "et quand", "en:" "and when", "tr:" "ve ne zaman" }
+    ],
+    "profondeur:" {
+      "fr:" "Fa-idhā introduit un événement qui surgit après une condition ou une étape : “alors lorsque...”. Dans les sourates courtes, il donne souvent un effet de scène très puissant.",
+      "en:" "Fa-idhā introduces an event that appears after a condition or stage: “then when...”. In short surahs, it often creates a powerful scene.",
+      "tr:" "Fa-idhā bir şart veya aşamadan sonra gelen olayı başlatır: “sonra olduğunda...”. Kısa surelerde güçlü bir sahne etkisi oluşturur."
+    },
+    "sourates_cles:" [81, 82, 99]
+  },
+  {
+    "id:" 143, "ar:" "وَقَالَ", "translit:" "wa-qāla", "frequence:" 85, "rang:" 143,
+    "racine:" "و + ق-و-ل", "theme:" "prophetie",
+    "traductions:" { "fr:" "et il a dit", "en:" "and he said", "tr:" "ve dedi" },
+    "famille:" [
+      { "ar:" "قَالَ", "translit:" "qāla", "fr:" "il a dit", "en:" "he said", "tr:" "dedi" },
+      { "ar:" "قُلْ", "translit:" "qul", "fr:" "dis !", "en:" "say!", "tr:" "de!" },
+      { "ar:" "قَوْل", "translit:" "qawl", "fr:" "parole / propos", "en:" "speech / saying", "tr:" "söz" },
+      { "ar:" "يَقُول", "translit:" "yaqūl", "fr:" "il dit", "en:" "he says", "tr:" "der / diyor" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-qāla relie une parole au récit : “et il dit”. Le Coran avance souvent par dialogues : Allah parle, les prophètes répondent, les peuples objectent, les croyants invoquent.",
+      "en:" "Wa-qāla connects a speech to the narrative: “and he said.” The Quran often moves through dialogue: Allah speaks, prophets answer, peoples object, believers supplicate.",
+      "tr:" "Wa-qāla anlatıya bir söz bağl"ar:" “ve dedi”. Kur’an çoğu zaman diyaloglarla ilerler: Allah konuşur, peygamberler cevap verir, kavimler itiraz eder, müminler dua eder."
+    },
+    "sourates_cles:" [2, 7, 12]
+  },
+  {
+    "id:" 144, "ar:" "وَكَانَ", "translit:" "wa-kāna", "frequence:" 84, "rang:" 144,
+    "racine:" "و + ك-و-ن", "theme:" "grammaire",
+    "traductions:" { "fr:" "et il était / et il fut", "en:" "and he was / and it was", "tr:" "ve idi / ve oldu" },
+    "famille:" [
+      { "ar:" "كَانَ", "translit:" "kāna", "fr:" "il était", "en:" "he was / it was", "tr:" "idi" },
+      { "ar:" "كَانُوا", "translit:" "kānū", "fr:" "ils étaient", "en:" "they were", "tr:" "idiler" },
+      { "ar:" "كُنْ", "translit:" "kun", "fr:" "sois !", "en:" "be!", "tr:" "ol!" },
+      { "ar:" "يَكُون", "translit:" "yakūn", "fr:" "il est / il sera", "en:" "he is / will be", "tr:" "olur / olacak" }
+    ],
+    "profondeur:" {
+      "fr:" "Wa-kāna relie une information d’état ou de passé. Quand il concerne Allah, il ne signifie pas une limite temporelle humaine, mais affirme une qualité permanente exprimée dans la langue du récit.",
+      "en:" "Wa-kāna connects a state or past description. When referring to Allah, it does not imply human temporal limitation, but affirms a permanent attribute in narrative language.",
+      "tr:" "Wa-kāna bir hâl veya geçmiş bilgisi bağlar. Allah için kullanıldığında insanî zaman sınırlaması değil, anlatı diliyle kalıcı bir sıfatı ifade eder."
+    },
+    "sourates_cles:" [2, 4, 33]
+  },
+  {
+    "id:" 145, "ar:" "دُونِ", "translit:" "dūni", "frequence:" 83, "rang:" 145,
+    "racine:" "د-و-ن", "theme:" "foi",
+    "traductions:" { "fr:" "en dehors de / autre que / au-dessous de", "en:" "besides / other than / below", "tr:" "dışında / başka / aşağısında" },
+    "famille:" [
+      { "ar:" "مِنْ دُونِ اللَّه", "translit:" "min dūni Allāh", "fr:" "en dehors d’Allah", "en:" "besides Allah", "tr:" "Allah’tan başka" },
+      { "ar:" "دُون", "translit:" "dūn", "fr:" "sans / en dessous / autre que", "en:" "besides / below / without", "tr:" "dışında / altında" },
+      { "ar:" "أَدْنَى", "translit:" "adnā", "fr:" "plus proche / inférieur", "en:" "nearer / lower", "tr:" "daha yakın / daha aşağı" }
+    ],
+    "profondeur:" {
+      "fr:" "Dūni est très important dans les passages sur le tawḥīd : “en dehors d’Allah”. Il désigne ce qui est pris comme soutien, protecteur ou divinité à la place d’Allah.",
+      "en:" "Dūni is important in passages about tawḥīd: “besides Allah.” It refers to what is taken as support, protector, or deity instead of Allah.",
+      "tr:" "Dūni tevhid ayetlerinde çok önemlidir: “Allah’tan başka”. Allah’ın yerine destek, koruyucu veya ilah edinilen şeyleri ifade eder."
+    },
+    "sourates_cles:" [2, 10, 29]
+  },
+  {
+    "id:" 146, "ar:" "لَنَا", "translit:" "lanā", "frequence:" 83, "rang:" 146,
+    "racine:" "لِ + نَا", "theme:" "grammaire",
+    "traductions:" { "fr:" "à nous / pour nous / nous avons", "en:" "for us / to us / we have", "tr:" "bize / bizim için / bizim" },
+    "famille:" [
+      { "ar:" "لَهُ", "translit:" "lahu", "fr:" "à lui / pour lui", "en:" "for him / to him", "tr:" "ona / onun için" },
+      { "ar:" "لَهُمْ", "translit:" "lahum", "fr:" "à eux / pour eux", "en:" "for them / to them", "tr:" "onlara / onlar için" },
+      { "ar:" "لَكُمْ", "translit:" "lakum", "fr:" "à vous / pour vous", "en:" "for you / to you", "tr:" "size / sizin için" }
+    ],
+    "profondeur:" {
+      "fr:" "Lanā signifie “pour nous” ou “à nous”. Il apparaît souvent dans les paroles des humains : demandes, revendications, invocations ou dialogues avec les prophètes.",
+      "en:" "Lanā means “for us” or “to us.” It often appears in human speech: requests, claims, supplications, or dialogues with prophets.",
+      "tr:" "Lanā “bize / bizim için” demektir. İnsanların sözlerinde sık geçer: talepler, iddialar, dualar veya peygamberlerle diyaloglar."
+    },
+    "sourates_cles:" [2, 7, 20]
+  },
+  {
+    "id:" 147, "ar:" "كَذَلِكَ", "translit:" "kadhālika", "frequence:" 83, "rang:" 147,
+    "racine:" "كَ + ذَلِكَ", "theme:" "grammaire",
+    "traductions:" { "fr:" "ainsi / de même / comme cela", "en:" "thus / likewise / like that", "tr:" "böylece / işte böyle" },
+    "famille:" [
+      { "ar:" "ذَلِكَ", "translit:" "dhālika", "fr:" "cela / celui-là", "en:" "that", "tr:" "şu / o" },
+      { "ar:" "كَ", "translit:" "ka", "fr:" "comme / tel que", "en:" "like / as", "tr:" "gibi" },
+      { "ar:" "هَكَذَا", "translit:" "hākadhā", "fr:" "ainsi / comme ceci", "en:" "like this / thus", "tr:" "böyle" }
+    ],
+    "profondeur:" {
+      "fr:" "Kadhālika signifie “ainsi”. Le Coran l’utilise pour montrer une manière divine d’agir : ainsi Allah expose les signes, ainsi Il ressuscite, ainsi Il guide ou égare selon Sa sagesse.",
+      "en:" "Kadhālika means “thus.” The Quran uses it to show a divine way of acting: thus Allah explains signs, resurrects, guides, or lets go astray according to His wisdom.",
+      "tr:" "Kadhālika “işte böyle / böylece” demektir. Kur’an’da Allah’ın işleyiş tarzını gösterir: ayetleri böyle açıklar, diriltmeyi böyle gösterir, hikmetiyle hidayet eder."
+    },
+    "sourates_cles:" [2, 6, 30]
+  },
+  {
+    "id:" 148, "ar:" "تَعْمَلُونَ", "translit:" "taʿmalūna", "frequence:" 83, "rang:" 148,
+    "racine:" "ع-م-ل", "theme:" "morale",
+    "traductions:" { "fr:" "vous faites / vous œuvrez / vous accomplissez", "en:" "you do / you work / you act", "tr:" "yaparsınız / amel edersiniz" },
+    "famille:" [
+      { "ar:" "عَمِلَ", "translit:" "ʿamila", "fr:" "il a fait / il a œuvré", "en:" "he did / he worked", "tr:" "amel etti / yaptı" },
+      { "ar:" "عَمَل", "translit:" "ʿamal", "fr:" "acte / œuvre", "en:" "deed / action", "tr:" "amel / iş" },
+      { "ar:" "أَعْمَال", "translit:" "aʿmāl", "fr:" "actes / œuvres", "en:" "deeds / actions", "tr:" "ameller" },
+      { "ar:" "عَامِل", "translit:" "ʿāmil", "fr:" "celui qui agit / travailleur", "en:" "worker / doer", "tr:" "amel eden / işçi" }
+    ],
+    "profondeur:" {
+      "fr:" "Taʿmalūna s’adresse directement à un groupe : “vous faites”. Le Coran rappelle souvent qu’Allah voit parfaitement ce que vous faites ; l’acte humain est donc lié à la responsabilité.",
+      "en:" "Taʿmalūna directly addresses a group: “you do.” The Quran often reminds that Allah sees what you do; human action is tied to responsibility.",
+      "tr:" "Taʿmalūna bir topluluğa doğrudan hitap eder: “yaparsınız”. Kur’an Allah’ın yaptıklarınızı gördüğünü hatırlatır; insan fiili sorumlulukla bağlantılıdır."
+    },
+    "sourates_cles:" [2, 3, 9]
+  },
+  {
+    "id:" 149, "ar:" "بَعْدِ", "translit:" "baʿdi", "frequence:" 82, "rang:" 149,
+    "racine:" "ب-ع-د", "theme:" "temps",
+    "traductions:" { "fr:" "après / après de", "en:" "after / after that", "tr:" "sonra / ardından" },
+    "famille:" [
+      { "ar:" "بَعْد", "translit:" "baʿd", "fr:" "après", "en:" "after", "tr:" "sonra" },
+      { "ar:" "مِنْ بَعْدِ", "translit:" "min baʿdi", "fr:" "après / à la suite de", "en:" "after / following", "tr:" "-den sonra" },
+      { "ar:" "بَعِيد", "translit:" "baʿīd", "fr:" "lointain", "en:" "far / distant", "tr:" "uzak" },
+      { "ar:" "أَبْعَد", "translit:" "abʿad", "fr:" "plus éloigné", "en:" "farther", "tr:" "daha uzak" }
+    ],
+    "profondeur:" {
+      "fr:" "Baʿdi marque l’après : après une preuve, après un pacte, après une révélation, après une épreuve. Il aide à comprendre la chronologie morale des versets.",
+      "en:" "Baʿdi marks what comes after: after a proof, covenant, revelation, or test. It helps understand the moral chronology of verses.",
+      "tr:" "Baʿdi “sonra” anlamı verir: delilden sonra, ahitten sonra, vahiyden sonra, imtihandan sonra. Ayetlerin ahlaki zaman sırasını anlamaya yardım eder."
+    },
+    "sourates_cles:" [2, 3, 61]
+  },
+  {
+    "id:" 150, "ar:" "يَعْلَمُونَ", "translit:" "yaʿlamūna", "frequence:" 81, "rang:" 150,
+    "racine:" "ع-ل-م", "theme:" "prophetie",
+    "traductions:" { "fr:" "ils savent / ils connaissent", "en:" "they know", "tr:" "bilirler / biliyorlar" },
+    "famille:" [
+      { "ar:" "عَلِمَ", "translit:" "ʿalima", "fr:" "il a su", "en:" "he knew", "tr:" "bildi" },
+      { "ar:" "عِلْم", "translit:" "ʿilm", "fr:" "science / connaissance", "en:" "knowledge", "tr:" "ilim / bilgi" },
+      { "ar:" "عَالِم", "translit:" "ʿālim", "fr:" "savant", "en:" "scholar / knower", "tr:" "âlim" },
+      { "ar:" "عَلِيم", "translit:" "ʿalīm", "fr:" "Savant / parfaitement connaisseur", "en:" "All-Knowing", "tr:" "Alîm" }
+    ],
+    "profondeur:" {
+      "fr:" "Yaʿlamūna signifie “ils savent”. Le Coran distingue souvent ceux qui savent vraiment, ceux qui ne savent pas, et ceux qui savent mais cachent ou refusent la vérité.",
+      "en:" "Yaʿlamūna means “they know.” The Quran often distinguishes those who truly know, those who do not know, and those who know but conceal or reject the truth.",
+      "tr:" "Yaʿlamūna “bilirler” demektir. Kur’an gerçekten bilenleri, bilmeyenleri ve bildiği halde hakikati gizleyen veya reddedenleri ayırır."
+    },
+    "sourates_cles:" [2, 6, 39]
+  }
 ];
 
 // Résumé de couverture par palier
