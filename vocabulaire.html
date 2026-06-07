@@ -282,8 +282,10 @@
 <nav class="navbar">
   <div class="nav-logo">القرآن</div>
   <div class="nav-links">
+    <a class="nav-link" id="nav-accueil" href="index.html" data-i18n="nav_accueil">Accueil</a>
     <a class="nav-link" id="nav-sourates" href="sourates.html" data-i18n="nav_sourates">Sourates</a>
     <a class="nav-link active" id="nav-vocabulaire" href="vocabulaire.html" data-i18n="nav_vocabulaire">Vocabulaire</a>
+    <a class="nav-link" id="nav-racines" href="#" data-i18n="nav_racines">Racines</a>
   </div>
   <div class="nav-right">
     <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
@@ -347,9 +349,13 @@
 <script type="module">
 import { I18N, t, initLang, setLang as setLangCore } from './data/i18n.js';
 import { VOCAB, COUVERTURE, THEMES } from './data/vocab.js';
+import { VOCAB2 } from './data/vocab2.js';
+
+// Fusionner les deux blocs de vocabulaire
+const ALL_VOCAB = [...VOCAB, ...VOCAB2];
 
 window.I18N = I18N;
-window.VOCAB = VOCAB;
+window.VOCAB = ALL_VOCAB;
 window.COUVERTURE = COUVERTURE;
 window.THEMES = THEMES;
 
@@ -431,7 +437,7 @@ window.filterByTop = function(top) {
   document.getElementById('search-vocab').value = '';
   activeTheme = '';
   renderThemeChips();
-  const filtered = VOCAB.filter(w => w.rang <= top);
+  const filtered = ALL_VOCAB.filter(w => w.rang <= top);
   renderVocab(filtered);
   document.getElementById('results-count').textContent = `${filtered.length} mots (Top ${top})`;
 }
@@ -439,7 +445,7 @@ window.filterByTop = function(top) {
 // ===== THÈME CHIPS =====
 function renderThemeChips() {
   const container = document.getElementById('theme-chips');
-  const themesPresents = [...new Set(VOCAB.map(w => w.theme))];
+  const themesPresents = [...new Set(ALL_VOCAB.map(w => w.theme))];
   container.innerHTML = themesPresents.map(theme => `
     <button class="filter-chip ${activeTheme === theme ? 'active' : ''}" onclick="toggleThemeFilter('${theme}')">
       <span class="vocab-theme-dot" style="background:${THEME_COLORS[theme]||'#666'}"></span>
@@ -459,7 +465,7 @@ window.applyFilters = function() {
   const q = document.getElementById('search-vocab').value.toLowerCase().trim();
   const sort = document.getElementById('sort-select').value;
 
-  let filtered = VOCAB.filter(w => {
+  let filtered = ALL_VOCAB.filter(w => {
     const matchQ = !q || w.ar.includes(q)
       || w.translit.toLowerCase().includes(q)
       || (w.traductions[window.LANG]||w.traductions.fr).toLowerCase().includes(q)
@@ -492,7 +498,7 @@ function renderVocab(list) {
     return;
   }
   const lang = window.LANG || 'fr';
-  const maxFreq = Math.max(...VOCAB.map(w => w.frequence));
+  const maxFreq = Math.max(...ALL_VOCAB.map(w => w.frequence));
 
   if (vue === 'grille') {
     container.className = 'vocab-grid';
@@ -530,7 +536,7 @@ function renderVocab(list) {
 
 // ===== DÉTAIL =====
 window.openDetail = function(id) {
-  const w = VOCAB.find(x => x.id === id);
+  const w = ALL_VOCAB.find(x => x.id === id);
   if (!w) return;
   selectedId = id;
   const lang = window.LANG || 'fr';
