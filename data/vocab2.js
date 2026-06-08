@@ -939,28 +939,28 @@ const VOCAB2 = [
   },
   {
     "id": 188,
-    "ar": "رَحِيمٌ",
-    "translit": "raḥīmun",
-    "frequence": 59,
+    "ar": "مَثَل",
+    "translit": "mathal",
+    "frequence": 169,
     "rang": 188,
-    "racine": "ر-ح-م",
-    "theme": "allah",
+    "racine": "م-ث-ل",
+    "theme": "prophetie",
     "traductions": {
-      "fr": "très miséricordieux / plein de miséricorde",
-      "en": "most merciful / full of mercy",
-      "tr": "çok merhametli / rahîm"
+      "fr": "parabole / exemple / similitude",
+      "en": "parable / example / similitude",
+      "tr": "mesel / örnek / benzetme"
     },
     "famille": [
-      { "ar": "رَحْمَة", "translit": "raḥma", "fr": "miséricorde", "en": "mercy", "tr": "rahmet" },
-      { "ar": "الرَّحْمَن", "translit": "ar-raḥmān", "fr": "Le Tout Miséricordieux", "en": "The Most Gracious", "tr": "Rahmân" },
-      { "ar": "الرَّحِيم", "translit": "ar-raḥīm", "fr": "Le Très Miséricordieux", "en": "The Most Merciful", "tr": "Rahîm" }
+      { "ar": "أَمْثَال", "translit": "amthāl", "fr": "paraboles / exemples (pl.)", "en": "parables / examples", "tr": "meseller / örnekler" },
+      { "ar": "مِثْل", "translit": "mithl", "fr": "semblable / pareil", "en": "like / similar", "tr": "benzer / gibi" },
+      { "ar": "مَثَّلَ", "translit": "maththala", "fr": "il a comparé / représenté", "en": "he compared / represented", "tr": "temsil etti / benzetti" }
     ],
     "profondeur": {
-      "fr": "Raḥīmun exprime une miséricorde constante et profonde. Quand il qualifie Allah, il rappelle que Sa relation aux créatures est marquée par la compassion, le pardon et l’accueil.",
-      "en": "Raḥīmun expresses constant and deep mercy. When it describes Allah, it reminds that His relation to creation is marked by compassion, forgiveness, and acceptance.",
-      "tr": "Raḥīmun sürekli ve derin merhameti ifade eder. Allah için kullanıldığında O’nun mahlûkata karşı şefkat, bağışlama ve kabul ile muamele ettiğini hatırlatır."
+      "fr": "'Allah n'a pas honte de proposer en exemple un moustique' (S.2:26). Le Coran enseigne par des images concrètes — lumière, eau, arbre, araignée, mouche. Le mathal rend visible ce qui est abstrait.",
+      "en": "'Allah is not shy to strike a parable even of a mosquito' (S.2:26). The Quran teaches through concrete images — light, water, tree, spider, fly. The mathal makes the abstract visible.",
+      "tr": "'Allah bir sivrisineği bile örnek vermekten çekinmez' (S.2:26). Kur'an somut imgelerle öğretir — ışık, su, ağaç, örümcek, sinek. Mesel, soyut olanı görünür kılar."
     },
-    "sourates_cles": [1, 2, 59]
+    "sourates_cles": [2, 14, 29]
   },
   {
     "id": 189,
