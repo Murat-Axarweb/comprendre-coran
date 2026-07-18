@@ -1020,7 +1020,7 @@ function renderNoData() {
     <div class="no-data-box">
       <div class="big">📖</div>
       <p>L'analyse complète de cette sourate est en cours de rédaction.<br>
-      Les sourates <strong>112 (Al-Ikhlas)</strong> et <strong>113 (Al-Falaq)</strong> sont déjà disponibles.</p>
+      Déjà disponibles : la <strong>Fatiha</strong> et les sourates <strong>67 à 114</strong> (juz' 29 et 30 complets).</p>
     </div>`;
 }
 
@@ -1043,6 +1043,13 @@ if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
 
 // Init
 renderGrid(SOURATES_META);
+
+// Préchargement des sourates disponibles (badges ✓ et stats)
+const DISPONIBLES = [1, ...Array.from({length: 48}, (_, k) => 67 + k)];
+Promise.all(DISPONIBLES.map(n => loadSourateData(n))).then(() => {
+  renderGrid(SOURATES_META);
+  updateStats();
+});
 </script>
 </body>
 </html>

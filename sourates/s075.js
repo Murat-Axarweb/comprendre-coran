@@ -1,0 +1,1528 @@
+const S075 = {
+  "meta": {
+    "numero": 75,
+    "nom_ar": "القيامة",
+    "nom_translit": "Al-Qiyamah",
+    "nom_fr": "La Résurrection",
+    "nom_en": "The Resurrection",
+    "nom_tr": "Kıyâme (Kıyamet)",
+    "type": "mecquoise",
+    "versets_count": 40,
+    "theme": "Le double serment par la Résurrection et l'âme qui se blâme, les bouts des doigts recomposés, et l'agonie décrite de l'intérieur",
+    "note_pedagogique": "La sourate contient une parenthèse unique (v.16-19) : en pleine description du Jugement, Dieu enseigne au Prophète comment recevoir la révélation — ne presse pas ta langue, Nous rassemblerons le texte. Le Coran documente sa propre transmission.",
+    "progression": {
+      "couche": 3,
+      "prerequis": [
+        74
+      ],
+      "suivant": [
+        76
+      ]
+    },
+    "racines_cles": [
+      "ق-و-م",
+      "ل-و-م",
+      "ب-ن-ن",
+      "ج-م-ع",
+      "س-و-ق"
+    ],
+    "traduction_note": "Traductions pédagogiques originales (FR/EN/TR) — Comprendre le Coran"
+  },
+  "versets": [
+    {
+      "numero": 1,
+      "ar": "لَا أُقْسِمُ بِيَوْمِ الْقِيَٰمَةِ",
+      "translit": "Lā uqsimu biyawmi l-qiyāmat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Non ! Je jure par le Jour de la Résurrection !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "No! I swear by the Day of Resurrection!"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Hayır! Kıyamet gününe yemin ederim!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "لَا",
+          "translit": "lā",
+          "fr": "non",
+          "racine": "particule",
+          "frequence_coran": 812
+        },
+        {
+          "ar": "أُقْسِمُ",
+          "translit": "uqsimu",
+          "fr": "jurer",
+          "racine": "ق-س-م",
+          "frequence_coran": 33
+        },
+        {
+          "ar": "بِيَوْمِ",
+          "translit": "biyawmi",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 2,
+      "ar": "وَلَا أُقْسِمُ بِالنَّفْسِ اللَّوَّامَةِ",
+      "translit": "Walā uqsimu bin-nafsi l-lawwāmat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Non ! Je jure par l'âme qui ne cesse de se blâmer !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "No! I swear by the self-reproaching soul!"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Hayır! Kendini kınayan nefse yemin ederim!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "و + لَا",
+          "frequence_coran": 658
+        },
+        {
+          "ar": "أُقْسِمُ",
+          "translit": "uqsimu",
+          "fr": "jurer",
+          "racine": "ق-س-م",
+          "frequence_coran": 33
+        },
+        {
+          "ar": "بِالنَّفْسِ",
+          "translit": "bin-nafsi",
+          "fr": "âme",
+          "racine": "ن-ف-س",
+          "frequence_coran": 298
+        }
+      ],
+      "analyse_globale": "An-nafs al-lawwāma, « l'âme qui se blâme sans cesse » : Dieu jure par la conscience morale. Entre l'âme qui commande le mal (12:53) et l'âme apaisée (89:27), voici l'étape intermédiaire — celle qui chute mais se reprend, se juge, se corrige. Le serment l'anoblit : ce va-et-vient intérieur n'est pas une faiblesse, c'est le signe de vie spirituelle.",
+      "niveau_couche": 3
+    },
+    {
+      "numero": 3,
+      "ar": "أَيَحْسَبُ الْإِنسَٰنُ أَلَّن نَّجْمَعَ عِظَامَهُ",
+      "translit": "Ayaḥsabu l-ʾinsānu allan najmaʿa ʿiẓāmahū",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "L'homme pense-t-il que Nous ne rassemblerons jamais ses os ?"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Does man think We will never gather his bones?"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İnsan, kemiklerini asla bir araya getiremeyeceğimizi mi sanıyor?"
+        }
+      },
+      "mots": [],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 4,
+      "ar": "بَلَىٰ قَٰدِرِينَ عَلَىٰ أَن نُّسَوِّيَ بَنَانَهُ",
+      "translit": "Balā qādirīna ʿalā an nusawwiya banānahū",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Mais si ! Nous sommes capables de recomposer jusqu'aux bouts de ses doigts."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Yes indeed! We are able to reshape even his fingertips."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Evet! Biz onun parmak uçlarını bile yeniden düzenlemeye kadiriz."
+        }
+      },
+      "mots": [
+        {
+          "ar": "بَلَىٰ",
+          "translit": "balā",
+          "fr": "mais si !",
+          "racine": "—",
+          "frequence_coran": 22
+        },
+        {
+          "ar": "عَلَىٰ",
+          "translit": "ʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        }
+      ],
+      "analyse_globale": "Banānah, « les bouts de ses doigts » : le défi de la résurrection est porté sur la partie la plus fine du corps — là où, précisément, se trouve l'empreinte unique de chaque individu. Le texte choisit pour preuve de la recomposition le détail que la science moderne utilisera pour l'identification.",
+      "niveau_couche": 3
+    },
+    {
+      "numero": 5,
+      "ar": "بَلْ يُرِيدُ الْإِنسَٰنُ لِيَفْجُرَ أَمَامَهُ",
+      "translit": "Bal yurīdu l-ʾinsānu liyafjura amāmahū",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "L'homme veut plutôt continuer à pécher devant lui,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "But man wishes to go on sinning ahead of him,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Fakat insan, önündeki zamanı da günahla geçirmek ister."
+        }
+      },
+      "mots": [
+        {
+          "ar": "بَلْ",
+          "translit": "bal",
+          "fr": "plutôt",
+          "racine": "particule de correction",
+          "frequence_coran": 113
+        },
+        {
+          "ar": "يُرِيدُ",
+          "translit": "yurīdu",
+          "fr": "il veut",
+          "racine": "ر-و-د",
+          "frequence_coran": 40
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 6,
+      "ar": "يَسْـءَلُ أَيَّانَ يَوْمُ الْقِيَٰمَةِ",
+      "translit": "Yasʾalu ayyāna yawmu l-qiyāmat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "il demande : « À quand le Jour de la Résurrection ? »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "asking: 'When is this Day of Resurrection?'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "'Kıyamet günü ne zamanmış?' diye sorar."
+        }
+      },
+      "mots": [
+        {
+          "ar": "يَوْمُ",
+          "translit": "yawmu",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 7,
+      "ar": "فَإِذَا بَرِقَ الْبَصَرُ",
+      "translit": "Faʾidhā bariqa l-baṣar",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Quand la vue sera éblouie,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "But when the sight is dazzled,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Göz kamaştığı,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "فَإِذَا",
+          "translit": "faʾidhā",
+          "fr": "alors quand",
+          "racine": "ف + إِذَا",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "بَرِقَ",
+          "translit": "bariqa",
+          "fr": "éclair",
+          "racine": "ب-ر-ق",
+          "frequence_coran": 6
+        },
+        {
+          "ar": "الْبَصَرُ",
+          "translit": "l-baṣaru",
+          "fr": "vue",
+          "racine": "ب-ص-ر",
+          "frequence_coran": 38
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 8,
+      "ar": "وَخَسَفَ الْقَمَرُ",
+      "translit": "Wakhasafa l-qamar",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "que la lune s'éclipsera,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "and the moon is eclipsed,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ay tutulduğu,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَخَسَفَ",
+          "translit": "wakhasafa",
+          "fr": "engloutir (dans la terre)",
+          "racine": "خ-س-ف",
+          "frequence_coran": 6
+        },
+        {
+          "ar": "الْقَمَرُ",
+          "translit": "l-qamaru",
+          "fr": "lune",
+          "racine": "ق-م-ر",
+          "frequence_coran": 27
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 9,
+      "ar": "وَجُمِعَ الشَّمْسُ وَالْقَمَرُ",
+      "translit": "Wajumiʿa sh-shamsu wal-qamar",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "que le soleil et la lune seront réunis,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "and the sun and moon are joined together,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Güneş ve ay bir araya getirildiği zaman,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَجُمِعَ",
+          "translit": "wajumiʿa",
+          "fr": "rassembler",
+          "racine": "ج-م-ع",
+          "frequence_coran": 4
+        },
+        {
+          "ar": "الشَّمْسُ",
+          "translit": "sh-shamsu",
+          "fr": "soleil",
+          "racine": "ش-م-س",
+          "frequence_coran": 33
+        },
+        {
+          "ar": "وَالْقَمَرُ",
+          "translit": "wal-qamaru",
+          "fr": "lune",
+          "racine": "ق-م-ر",
+          "frequence_coran": 27
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 10,
+      "ar": "يَقُولُ الْإِنسَٰنُ يَوْمَئِذٍ أَيْنَ الْمَفَرُّ",
+      "translit": "Yaqūlu l-ʾinsānu yawmaʾidhin ayna l-mafarr",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "l'homme dira ce jour-là : « Où fuir ? »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "man will say that Day: 'Where is the escape?'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İşte o gün insan: 'Kaçacak yer neresi?' der."
+        }
+      },
+      "mots": [
+        {
+          "ar": "يَوْمَئِذٍ",
+          "translit": "yawmaʾidhin",
+          "fr": "ce jour-là",
+          "racine": "ي-و-م + إِذْ",
+          "frequence_coran": 63
+        },
+        {
+          "ar": "أَيْنَ",
+          "translit": "ayna",
+          "fr": "où",
+          "racine": "—",
+          "frequence_coran": 4
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 11,
+      "ar": "كَلَّا لَا وَزَرَ",
+      "translit": "Kallā lā wazar",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Non ! Point de refuge :"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "By no means! There is no refuge:"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Hayır! Sığınacak yer yoktur."
+        }
+      },
+      "mots": [
+        {
+          "ar": "كَلَّا",
+          "translit": "kallā",
+          "fr": "que non !",
+          "racine": "—",
+          "frequence_coran": 8
+        },
+        {
+          "ar": "لَا",
+          "translit": "lā",
+          "fr": "non",
+          "racine": "particule",
+          "frequence_coran": 812
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 12,
+      "ar": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ الْمُسْتَقَرُّ",
+      "translit": "Ilā rabbika yawmaʾidhin l-mustaqarr",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "vers ton Seigneur, ce jour-là, est le lieu d'arrêt."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "to your Lord that Day is the place of rest."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "O gün varılacak yer ancak Rabbinin huzurudur."
+        }
+      },
+      "mots": [
+        {
+          "ar": "إِلَىٰ",
+          "translit": "ilā",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742
+        },
+        {
+          "ar": "رَبِّكَ",
+          "translit": "rabbika",
+          "fr": "ton Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 116
+        },
+        {
+          "ar": "يَوْمَئِذٍ",
+          "translit": "yawmaʾidhin",
+          "fr": "ce jour-là",
+          "racine": "ي-و-م + إِذْ",
+          "frequence_coran": 63
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 13,
+      "ar": "يُنَبَّؤُاْ الْإِنسَٰنُ يَوْمَئِذٍ بِمَا قَدَّمَ وَأَخَّرَ",
+      "translit": "Yunabbaʾu l-ʾinsānu yawmaʾidhi bimā qaddama waʾakhkhar",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "L'homme sera informé, ce jour-là, de ce qu'il a avancé et de ce qu'il a remis."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Man will be informed that Day of what he sent ahead and what he put off."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "O gün insana, önceden gönderdiği ve geriye bıraktığı her şey haber verilir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "يَوْمَئِذٍ",
+          "translit": "yawmaʾidhi",
+          "fr": "ce jour-là",
+          "racine": "ي-و-م + إِذْ",
+          "frequence_coran": 63
+        },
+        {
+          "ar": "بِمَا",
+          "translit": "bimā",
+          "fr": "par ce que",
+          "racine": "بِ + مَا",
+          "frequence_coran": 296
+        },
+        {
+          "ar": "قَدَّمَ",
+          "translit": "qaddama",
+          "fr": "avancer",
+          "racine": "ق-د-م",
+          "frequence_coran": 7
+        },
+        {
+          "ar": "وَأَخَّرَ",
+          "translit": "waʾakhkhara",
+          "fr": "dernier",
+          "racine": "أ-خ-ر",
+          "frequence_coran": 40
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 14,
+      "ar": "بَلِ الْإِنسَٰنُ عَلَىٰ نَفْسِهِ بَصِيرَةٌ",
+      "translit": "Bali l-ʾinsānu ʿalā nafsihī baṣīrat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "L'homme sera même clairvoyant contre lui-même,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Rather, man will be a witness against himself,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Doğrusu insan, kendi kendinin şahididir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "بَلِ",
+          "translit": "bali",
+          "fr": "plutôt",
+          "racine": "particule de correction",
+          "frequence_coran": 113
+        },
+        {
+          "ar": "عَلَىٰ",
+          "translit": "ʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "بَصِيرَةٌ",
+          "translit": "baṣīratun",
+          "fr": "clairvoyance",
+          "racine": "ب-ص-ر",
+          "frequence_coran": 5
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 15,
+      "ar": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُ",
+      "translit": "Walaw alqā maʿādhīrahū",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "quand bien même il présenterait ses excuses."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "even though he offers his excuses."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Mazeretlerini ortaya dökse bile."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَوْ",
+          "translit": "walaw",
+          "fr": "et si",
+          "racine": "و + لَوْ",
+          "frequence_coran": 108
+        },
+        {
+          "ar": "أَلْقَىٰ",
+          "translit": "alqā",
+          "fr": "jeter",
+          "racine": "ل-ق-ي",
+          "frequence_coran": 71
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 16,
+      "ar": "لَا تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ",
+      "translit": "Lā tuḥarrik bihī lisānaka litaʿjala bihī",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ne remue pas ta langue pour te hâter avec lui :"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Do not move your tongue with it to hasten it:"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Onu acele ezberlemek için dilini kıpırdatma!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "لَا",
+          "translit": "lā",
+          "fr": "non",
+          "racine": "particule",
+          "frequence_coran": 812
+        },
+        {
+          "ar": "بِهِ",
+          "translit": "bihī",
+          "fr": "par lui",
+          "racine": "بِ + هُ",
+          "frequence_coran": 327
+        },
+        {
+          "ar": "بِهِ",
+          "translit": "bihī",
+          "fr": "par lui",
+          "racine": "بِ + هُ",
+          "frequence_coran": 327
+        }
+      ],
+      "analyse_globale": "Le gros plan pédagogique : le Prophète, anxieux de perdre le texte, répétait pendant la descente. Correction : jamʿuhu wa-qurʾānahu ʿalaynā — « son rassemblement et sa récitation Nous incombent ». Le verset fonde la doctrine de la préservation du texte : la mémoire du messager est prise en charge par l'Auteur.",
+      "niveau_couche": 3
+    },
+    {
+      "numero": 17,
+      "ar": "إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْءَانَهُ",
+      "translit": "Inna ʿalaynā jamʿahū waqurʾānahū",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "c'est à Nous qu'il revient de le rassembler et de le réciter."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "upon Us is its gathering and its recitation."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Şüphesiz onu toplamak ve okutmak Bize aittir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "عَلَيْنَا",
+          "translit": "ʿalaynā",
+          "fr": "sur nous",
+          "racine": "عَلَى + نَا",
+          "frequence_coran": 51
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 18,
+      "ar": "فَإِذَا قَرَأْنَٰهُ فَاتَّبِعْ قُرْءَانَهُ",
+      "translit": "Faʾidhā qaraʾnāhu fattabiʿ qurʾānahū",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Quand donc Nous le récitons, suis sa récitation,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "So when We recite it, follow its recitation,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "O hâlde Biz onu okuduğumuzda sen onun okunuşunu izle."
+        }
+      },
+      "mots": [
+        {
+          "ar": "فَإِذَا",
+          "translit": "faʾidhā",
+          "fr": "alors quand",
+          "racine": "ف + إِذَا",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "فَاتَّبِعْ",
+          "translit": "fattabiʿ",
+          "fr": "suivre",
+          "racine": "ت-ب-ع",
+          "frequence_coran": 78
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 19,
+      "ar": "ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ",
+      "translit": "Thumma inna ʿalaynā bayānahū",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "puis c'est à Nous qu'il revient de l'expliciter."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "then upon Us is its clarification."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Sonra onu açıklamak da Bize aittir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "ثُمَّ",
+          "translit": "thumma",
+          "fr": "puis",
+          "racine": "particule de succession",
+          "frequence_coran": 337
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "عَلَيْنَا",
+          "translit": "ʿalaynā",
+          "fr": "sur nous",
+          "racine": "عَلَى + نَا",
+          "frequence_coran": 51
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 20,
+      "ar": "كَلَّا بَلْ تُحِبُّونَ الْعَاجِلَةَ",
+      "translit": "Kallā bal tuḥibbūna l-ʿājilat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Non ! Vous aimez plutôt l'immédiat,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "By no means! You love the fleeting present,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Hayır! Siz çabucak geçeni (dünyayı) seviyorsunuz,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "كَلَّا",
+          "translit": "kallā",
+          "fr": "que non !",
+          "racine": "—",
+          "frequence_coran": 8
+        },
+        {
+          "ar": "بَلْ",
+          "translit": "bal",
+          "fr": "plutôt",
+          "racine": "particule de correction",
+          "frequence_coran": 113
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 21,
+      "ar": "وَتَذَرُونَ الْأخِرَةَ",
+      "translit": "Watadharūna l-ʾkhirat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "et vous délaissez l'au-delà."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "and neglect the Hereafter."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ve ahireti bırakıyorsunuz."
+        }
+      },
+      "mots": [
+        {
+          "ar": "الْأخِرَةَ",
+          "translit": "l-ʾkhirata",
+          "fr": "l’au-delà",
+          "racine": "أ-خ-ر",
+          "frequence_coran": 55
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 22,
+      "ar": "وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ",
+      "translit": "Wujūhun yawmaʾidhin nāḍirat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Des visages, ce jour-là, seront resplendissants,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Faces that Day will be radiant,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "O gün birtakım yüzler aydındır,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "يَوْمَئِذٍ",
+          "translit": "yawmaʾidhin",
+          "fr": "ce jour-là",
+          "racine": "ي-و-م + إِذْ",
+          "frequence_coran": 63
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 23,
+      "ar": "إِلَىٰ رَبِّهَا نَاظِرَةٌ",
+      "translit": "Ilā rabbihā nāẓirat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "regardant vers leur Seigneur ;"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "gazing upon their Lord;"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Rablerine bakarlar."
+        }
+      },
+      "mots": [
+        {
+          "ar": "إِلَىٰ",
+          "translit": "ilā",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 24,
+      "ar": "وَوُجُوهٌ يَوْمَئِذٍ بَاسِرَةٌ",
+      "translit": "Wawujūhun yawmaʾidhi bāsirat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "et des visages, ce jour-là, seront assombris,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "and faces that Day will be gloomy,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "O gün birtakım yüzler de asıktır,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "يَوْمَئِذٍ",
+          "translit": "yawmaʾidhi",
+          "fr": "ce jour-là",
+          "racine": "ي-و-م + إِذْ",
+          "frequence_coran": 63
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 25,
+      "ar": "تَظُنُّ أَن يُفْعَلَ بِهَا فَاقِرَةٌ",
+      "translit": "Taẓunnu an yufʿala bihā fāqirat",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "pressentant qu'on va leur briser les vertèbres."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "expecting a back-breaking blow."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Bellerini büken bir felakete uğrayacaklarını sezerler."
+        }
+      },
+      "mots": [
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "بِهَا",
+          "translit": "bihā",
+          "fr": "par elle",
+          "racine": "بِ + هَا",
+          "frequence_coran": 79
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 26,
+      "ar": "كَلَّا إِذَا بَلَغَتِ التَّرَاقِيَ",
+      "translit": "Kallā idhā balaghati t-tarāqiy",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Non ! Quand l'âme atteindra les clavicules,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "By no means! When the soul reaches the collarbones,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Hayır! Can köprücük kemiklerine dayandığında,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "كَلَّا",
+          "translit": "kallā",
+          "fr": "que non !",
+          "racine": "—",
+          "frequence_coran": 8
+        },
+        {
+          "ar": "إِذَا",
+          "translit": "idhā",
+          "fr": "quand",
+          "racine": "particule temporelle",
+          "frequence_coran": 195
+        }
+      ],
+      "analyse_globale": "L'agonie filmée de l'intérieur : la remontée de l'âme jusqu'aux clavicules (tarāqī), l'entourage cherchant un guérisseur, la conscience du départ, les jambes qui se raidissent. Quatre plans serrés, sans un mot de trop — puis le travelling final : « vers ton Seigneur, ce jour-là, on est conduit ».",
+      "niveau_couche": 3
+    },
+    {
+      "numero": 27,
+      "ar": "وَقِيلَ مَنْ رَاقٍ",
+      "translit": "Waqīla man rāq",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "qu'on dira : « Qui peut guérir ? »,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "and it is said: 'Who can cure?'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "'Kim çare bulabilir?' dendiğinde,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "مَنْ",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 28,
+      "ar": "وَظَنَّ أَنَّهُ الْفِرَاقُ",
+      "translit": "Waẓanna annahu l-firāq",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "qu'il comprendra que c'est la séparation,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "and he realizes it is the parting,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ve o, bunun ayrılık olduğunu anladığında,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَظَنَّ",
+          "translit": "waẓanna",
+          "fr": "penser",
+          "racine": "ظ-ن-ن",
+          "frequence_coran": 69
+        },
+        {
+          "ar": "أَنَّهُ",
+          "translit": "annahu",
+          "fr": "certes il",
+          "racine": "إِنَّ + هُ",
+          "frequence_coran": 147
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 29,
+      "ar": "وَالْتَفَّتِ السَّاقُ بِالسَّاقِ",
+      "translit": "Wataffati s-sāqu bis-sāq",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "et que la jambe se crispera contre la jambe —"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "and leg is twisted about leg —"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Bacak bacağa dolaştığında,"
+        }
+      },
+      "mots": [],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 30,
+      "ar": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ الْمَسَاقُ",
+      "translit": "Ilā rabbika yawmaʾidhin l-masāq",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "vers ton Seigneur, ce jour-là, on sera conduit."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "to your Lord that Day is the driving."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İşte o gün sevk Rabbinedir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "إِلَىٰ",
+          "translit": "ilā",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742
+        },
+        {
+          "ar": "رَبِّكَ",
+          "translit": "rabbika",
+          "fr": "ton Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 116
+        },
+        {
+          "ar": "يَوْمَئِذٍ",
+          "translit": "yawmaʾidhin",
+          "fr": "ce jour-là",
+          "racine": "ي-و-م + إِذْ",
+          "frequence_coran": 63
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 31,
+      "ar": "فَلَا صَدَّقَ وَلَا صَلَّىٰ",
+      "translit": "Falā ṣaddaqa walā ṣallā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Il n'a ni tenu pour vrai, ni prié :"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "He neither affirmed the truth nor prayed:"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "O, ne tasdik etti ne namaz kıldı."
+        }
+      },
+      "mots": [
+        {
+          "ar": "فَلَا",
+          "translit": "falā",
+          "fr": "alors ne... pas",
+          "racine": "ف + لَا",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "و + لَا",
+          "frequence_coran": 658
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 32,
+      "ar": "وَلَٰكِن كَذَّبَ وَتَوَلَّىٰ",
+      "translit": "Walākin kadhdhaba watawallā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "il a crié au mensonge et tourné le dos,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "but denied and turned away,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Fakat yalanladı ve yüz çevirdi."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَٰكِن",
+          "translit": "walākin",
+          "fr": "mais",
+          "racine": "و + لَكِنْ",
+          "frequence_coran": 57
+        },
+        {
+          "ar": "كَذَّبَ",
+          "translit": "kadhdhaba",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 33,
+      "ar": "ثُمَّ ذَهَبَ إِلَىٰ أَهْلِهِ يَتَمَطَّىٰ",
+      "translit": "Thumma dhahaba ilā ahlihī yatamaṭṭā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "puis il est parti vers les siens en se pavanant."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "then went to his people, strutting."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Sonra çalım satarak ailesine gitti."
+        }
+      },
+      "mots": [
+        {
+          "ar": "ثُمَّ",
+          "translit": "thumma",
+          "fr": "puis",
+          "racine": "particule de succession",
+          "frequence_coran": 337
+        },
+        {
+          "ar": "ذَهَبَ",
+          "translit": "dhahaba",
+          "fr": "aller",
+          "racine": "ذ-ه-ب",
+          "frequence_coran": 7
+        },
+        {
+          "ar": "إِلَىٰ",
+          "translit": "ilā",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 34,
+      "ar": "أَوْلَىٰ لَكَ فَأَوْلَىٰ",
+      "translit": "Awlā laka faʾawlā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Malheur à toi, et encore malheur !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Woe to you, and woe!"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Yazık sana, yazık!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "لَكَ",
+          "translit": "laka",
+          "fr": "à toi",
+          "racine": "لِ + كَ",
+          "frequence_coran": 69
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 35,
+      "ar": "ثُمَّ أَوْلَىٰ لَكَ فَأَوْلَىٰ",
+      "translit": "Thumma awlā laka faʾawlā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Puis malheur à toi, et encore malheur !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Again, woe to you, and woe!"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Yine yazık sana, yazık!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "ثُمَّ",
+          "translit": "thumma",
+          "fr": "puis",
+          "racine": "particule de succession",
+          "frequence_coran": 337
+        },
+        {
+          "ar": "لَكَ",
+          "translit": "laka",
+          "fr": "à toi",
+          "racine": "لِ + كَ",
+          "frequence_coran": 69
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 36,
+      "ar": "أَيَحْسَبُ الْإِنسَٰنُ أَن يُتْرَكَ سُدًى",
+      "translit": "Ayaḥsabu l-ʾinsānu an yutraka sudanā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "L'homme pense-t-il qu'on le laissera à l'abandon ?"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Does man think he will be left aimless?"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İnsan, başıboş bırakılacağını mı sanıyor?"
+        }
+      },
+      "mots": [
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 37,
+      "ar": "أَلَمْ يَكُ نُطْفَةً مِّن مَّنِيٍّ يُمْنَىٰ",
+      "translit": "Alam yaku nuṭfatan min maniyyin yumnā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "N'était-il pas une goutte de sperme émise,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Was he not a drop of emitted fluid,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "O, dökülen meniden bir damla değil miydi?"
+        }
+      },
+      "mots": [
+        {
+          "ar": "أَلَمْ",
+          "translit": "alam",
+          "fr": "n’a-t-il pas ?",
+          "racine": "أ + لَمْ",
+          "frequence_coran": 78
+        },
+        {
+          "ar": "نُطْفَةً",
+          "translit": "nuṭfatan",
+          "fr": "goutte (de sperme)",
+          "racine": "ن-ط-ف",
+          "frequence_coran": 12
+        },
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 38,
+      "ar": "ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوَّىٰ",
+      "translit": "Thumma kāna ʿalaqatan fakhalaqa fasawwā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "puis une adhérence ? Alors Il l'a créé et proportionné,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "then a clinging clot? Then He created and fashioned him,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Sonra bir alaka oldu; derken Allah onu yarattı ve düzenledi."
+        }
+      },
+      "mots": [
+        {
+          "ar": "ثُمَّ",
+          "translit": "thumma",
+          "fr": "puis",
+          "racine": "particule de succession",
+          "frequence_coran": 337
+        },
+        {
+          "ar": "كَانَ",
+          "translit": "kāna",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360
+        },
+        {
+          "ar": "فَخَلَقَ",
+          "translit": "fakhalaqa",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 39,
+      "ar": "فَجَعَلَ مِنْهُ الزَّوْجَيْنِ الذَّكَرَ وَالْأُنثَىٰ",
+      "translit": "Fajaʿala minhu z-zawjayni dh-dhakara wal-ʾunthā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "et Il en a fait les deux éléments du couple, mâle et femelle."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "and made of him the two mates, male and female."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ondan da iki eşi, erkeği ve dişiyi var etti."
+        }
+      },
+      "mots": [
+        {
+          "ar": "فَجَعَلَ",
+          "translit": "fajaʿala",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44
+        },
+        {
+          "ar": "مِنْهُ",
+          "translit": "minhu",
+          "fr": "de lui",
+          "racine": "مِن + هُ",
+          "frequence_coran": 88
+        },
+        {
+          "ar": "الذَّكَرَ",
+          "translit": "dh-dhakara",
+          "fr": "souvenir",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 256
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 40,
+      "ar": "أَلَيْسَ ذَٰلِكَ بِقَٰدِرٍ عَلَىٰ أَن يُحْـِيَ الْمَوْتَىٰ",
+      "translit": "Alaysa dhālika biqādirin ʿalā an yuḥiya l-mawtā",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Celui-là n'est-Il pas capable de faire revivre les morts ?"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Is He not able to give life to the dead?"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Şimdi bunları yapan, ölüleri diriltmeye kadir değil midir?"
+        }
+      },
+      "mots": [
+        {
+          "ar": "ذَٰلِكَ",
+          "translit": "dhālika",
+          "fr": "cela",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 280
+        },
+        {
+          "ar": "عَلَىٰ",
+          "translit": "ʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        }
+      ],
+      "niveau_couche": 3
+    }
+  ],
+  "resume_pedagogique": {
+    "mots_cles_a_retenir": [
+      "الْقِيَٰمَة",
+      "اللَّوَّامَة",
+      "بَنَانَه",
+      "التَّرَاقِي",
+      "الْمَسَاق"
+    ],
+    "racines_a_retenir": [
+      "ق-و-م",
+      "ل-و-م",
+      "ج-م-ع",
+      "ق-ر-أ"
+    ],
+    "declic_frequence": "qaraʾa (réciter, racine ق-ر-أ ~88 occurrences — qui donne « Coran ») apparaît ici au cœur du protocole de révélation : « quand Nous le récitons, suis sa récitation » (v.18). Le mot Coran signifie littéralement « la Récitation » — un texte qui se définit par l'acte de le dire."
+  }
+};
+
+export { S075 };
