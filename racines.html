@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racines — Comprendre le Coran</title>
+  <meta name="description" content="Explorateur des racines trilitères du vocabulaire coranique : familles de mots, fréquences et dérivés.">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0f0f; --bg2: #1a1a1a; --bg3: #242424;
+      --border: #2e2e2e; --border2: #3a3a3a;
+      --text: #e8e8e8; --text2: #a0a0a0; --text3: #606060;
+      --gold: #c9a84c; --gold2: #e8c97a;
+      --green: #4a9e7a; --blue: #5b8fc9; --red: #c96b6b;
+      --radius: 10px; --radius-sm: 6px;
+    }
+    [data-theme="light"] {
+      --bg: #fafaf8; --bg2: #f0ede6; --bg3: #e8e4db;
+      --border: #d8d4cb; --border2: #c8c4bb;
+      --text: #1a1a1a; --text2: #555550; --text3: #999990;
+      --gold: #8b6914; --gold2: #a07820; --green: #2d6b50;
+      --blue: #2d5a8b; --red: #8b2d2d;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; }
+    .navbar { display: flex; align-items: center; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; background: var(--bg); }
+    .nav-logo { font-family: 'Amiri', serif; font-size: 22px; color: var(--gold); padding: 12px 20px; border-right: 1px solid var(--border); white-space: nowrap; }
+    .nav-links { display: flex; flex: 1; }
+    .nav-link { padding: 16px 18px; color: var(--text2); text-decoration: none; font-size: 14px; border-bottom: 2px solid transparent; }
+    .nav-link:hover { color: var(--text); }
+    .nav-link.active { color: var(--gold); border-bottom-color: var(--gold); }
+    .nav-right { display: flex; align-items: center; gap: 4px; padding-right: 12px; }
+    .lang-btn, .theme-btn { background: transparent; border: 1px solid var(--border); color: var(--text2); border-radius: var(--radius-sm); padding: 5px 9px; cursor: pointer; font-size: 12px; }
+    .lang-btn.active { border-color: var(--gold); color: var(--gold); }
+    .app { max-width: 1100px; margin: 0 auto; padding: 32px 20px 80px; }
+    .page-header h1 { font-size: 28px; font-weight: 600; margin-bottom: 6px; }
+    .page-header p { color: var(--text2); font-size: 14px; margin-bottom: 24px; }
+    .stats-line { display: flex; gap: 18px; color: var(--text3); font-size: 13px; margin-bottom: 18px; }
+    .stats-line b { color: var(--gold); font-weight: 600; }
+    #search-racine { width: 100%; max-width: 420px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); padding: 10px 14px; font-size: 14px; margin-bottom: 24px; }
+    #search-racine:focus { outline: none; border-color: var(--gold); }
+    .racines-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+    .racine-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; cursor: pointer; transition: border-color .15s; }
+    .racine-card:hover { border-color: var(--gold); }
+    .racine-card.open { border-color: var(--gold); grid-column: 1 / -1; }
+    .rc-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+    .rc-racine { font-family: 'Amiri', serif; font-size: 26px; color: var(--gold); direction: rtl; }
+    .rc-count { font-size: 12px; color: var(--text3); }
+    .rc-freq { font-size: 12px; color: var(--green); margin-top: 4px; }
+    .rc-words-preview { font-family: 'Amiri', serif; font-size: 17px; color: var(--text2); margin-top: 8px; direction: rtl; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+    .rc-derived { margin-top: 14px; border-top: 1px solid var(--border); padding-top: 12px; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
+    .rc-derived-title { grid-column: 1 / -1; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--text3); }
+    .derived-item { background: var(--bg3); border-radius: var(--radius-sm); padding: 10px 12px; display: flex; align-items: center; gap: 10px; }
+    .di-ar { font-family: 'Amiri', serif; font-size: 22px; color: var(--text); direction: rtl; }
+    .di-info { flex: 1; min-width: 0; }
+    .di-translit { font-size: 12px; color: var(--gold2); font-style: italic; }
+    .di-fr { font-size: 13px; color: var(--text2); }
+    .di-freq { font-size: 11px; color: var(--green); white-space: nowrap; }
+    .no-result { color: var(--text3); padding: 2rem; text-align: center; grid-column: 1/-1; }
+    @media (max-width: 640px) { .nav-logo { padding: 10px 12px; font-size: 18px; } .nav-link { padding: 12px 10px; font-size: 12px; } }
+  </style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-logo">القرآن</div>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html" data-i18n="nav_accueil">Accueil</a>
+    <a class="nav-link" href="sourates.html" data-i18n="nav_sourates">Sourates</a>
+    <a class="nav-link" href="vocabulaire.html" data-i18n="nav_vocabulaire">Vocabulaire</a>
+    <a class="nav-link active" href="racines.html" data-i18n="nav_racines">Racines</a>
+    <a class="nav-link" href="exercices.html" data-i18n="nav_exercices">Exercices</a>
+  </div>
+  <div class="nav-right">
+    <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
+    <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
+    <button class="lang-btn" onclick="setLang('tr')" id="btn-tr">TR</button>
+    <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
+  </div>
+</nav>
+
+<div class="app">
+  <div class="page-header">
+    <h1 data-i18n="racines_title">Explorateur de racines</h1>
+    <p data-i18n="racines_subtitle">Les racines trilitères et leurs familles de mots dans le Coran</p>
+  </div>
+
+  <div class="stats-line">
+    <span><b id="stat-racines">0</b> <span data-i18n="racines_count">racines</span></span>
+    <span><b id="stat-mots">0</b> <span data-i18n="racines_words">mots</span></span>
+  </div>
+
+  <input type="text" id="search-racine" data-i18n-placeholder="racines_search" placeholder="Rechercher une racine ou un mot..." oninput="renderRacines()">
+
+  <div class="racines-grid" id="racines-grid"></div>
+</div>
+
+<script type="module">
+import { I18N, t, initLang, setLang as setLangCore } from './data/i18n.js';
+import { VOCAB } from './data/vocab.js';
+import { VOCAB2 } from './data/vocab2.js';
+import { VOCAB3 } from './data/vocab3.js';
+import { VOCAB4 } from './data/vocab4.js';
+
+const ALL_VOCAB = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4];
+window.LANG = initLang();
+
+// ===== I18N / THÈME =====
+window.setLang = function(lang) { window.LANG = setLangCore(lang); renderAll(); }
+function updateLangBtns() {
+  ['fr','en','tr'].forEach(l => document.getElementById('btn-'+l).classList.toggle('active', window.LANG === l));
+}
+function applyI18n() {
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.getAttribute('data-i18n')); });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => { el.placeholder = t(el.getAttribute('data-i18n-placeholder')); });
+}
+window.toggleTheme = function() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur === 'light' ? '' : 'light');
+  localStorage.setItem('theme', cur === 'light' ? '' : 'light');
+}
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+
+// ===== GROUPEMENT PAR RACINE =====
+function isRealRoot(r) { return r && !r.startsWith('—') && r.includes('-'); }
+const ROOTS = new Map();
+for (const w of ALL_VOCAB) {
+  if (!isRealRoot(w.racine)) continue;
+  if (!ROOTS.has(w.racine)) ROOTS.set(w.racine, []);
+  ROOTS.get(w.racine).push(w);
+}
+const ROOT_LIST = [...ROOTS.entries()].map(([racine, words]) => ({
+  racine,
+  words: words.sort((a, b) => b.frequence - a.frequence),
+  totalFreq: words.reduce((a, w) => a + w.frequence, 0)
+})).sort((a, b) => b.totalFreq - a.totalFreq);
+
+let openRoot = null;
+
+// ===== RENDU =====
+window.renderRacines = function() {
+  const q = document.getElementById('search-racine').value.toLowerCase().trim();
+  const lang = window.LANG || 'fr';
+  const list = !q ? ROOT_LIST : ROOT_LIST.filter(r =>
+    r.racine.includes(q) || r.racine.replace(/-/g, '').includes(q.replace(/-/g, '')) ||
+    r.words.some(w => w.ar.includes(q) || w.translit.toLowerCase().includes(q) ||
+      (w.traductions[lang] || w.traductions.fr).toLowerCase().includes(q))
+  );
+
+  document.getElementById('stat-racines').textContent = list.length;
+  document.getElementById('stat-mots').textContent = list.reduce((a, r) => a + r.words.length, 0);
+
+  const grid = document.getElementById('racines-grid');
+  if (!list.length) { grid.innerHTML = `<div class="no-result">—</div>`; return; }
+
+  grid.innerHTML = list.map(r => {
+    const open = openRoot === r.racine;
+    const preview = r.words.slice(0, 4).map(w => w.ar).join(' · ');
+    let derivedHtml = '';
+    if (open) {
+      derivedHtml = `<div class="rc-derived">
+        <div class="rc-derived-title">${t('racines_derived')}</div>
+        ${r.words.map(w => `
+          <div class="derived-item">
+            <span class="di-ar">${w.ar}</span>
+            <span class="di-info">
+              <div class="di-translit">${w.translit}</div>
+              <div class="di-fr">${w.traductions[lang] || w.traductions.fr}</div>
+            </span>
+            <span class="di-freq">× ${w.frequence.toLocaleString()}</span>
+          </div>
+          ${(w.famille || []).map(f => `
+          <div class="derived-item" style="opacity:.75">
+            <span class="di-ar">${f.ar}</span>
+            <span class="di-info">
+              <div class="di-translit">${f.translit}</div>
+              <div class="di-fr">${f[lang] || f.fr}</div>
+            </span>
+          </div>`).join('')}
+        `).join('')}
+      </div>`;
+    }
+    return `<div class="racine-card ${open ? 'open' : ''}" onclick="toggleRoot('${r.racine}')">
+      <div class="rc-head">
+        <span class="rc-racine">${r.racine}</span>
+        <span class="rc-count">${r.words.length} ${t('racines_words')}</span>
+      </div>
+      <div class="rc-freq">× ${r.totalFreq.toLocaleString()}</div>
+      <div class="rc-words-preview">${preview}</div>
+      ${derivedHtml}
+    </div>`;
+  }).join('');
+}
+
+window.toggleRoot = function(racine) {
+  openRoot = openRoot === racine ? null : racine;
+  renderRacines();
+}
+
+window.renderAll = function() { applyI18n(); updateLangBtns(); renderRacines(); }
+renderAll();
+</script>
+</body>
+</html>

@@ -1,5 +1,37 @@
 const I18N = {
   fr: {
+    nav_exercices: "Exercices",
+    progress_title: "Ma progression",
+    progress_learned: "Appris",
+    progress_mark: "Marquer comme appris",
+    progress_words: "mots appris",
+    progress_surahs: "sourates lues",
+    progress_quiz_best: "meilleur score",
+    surah_mark_read: "Marquer comme lue",
+    surah_read: "Lue ✓",
+    exo_title: "Exercices",
+    exo_subtitle: "QCM de traduction · Identification de racines · Scores enregistrés localement",
+    exo_qcm_title: "QCM Traduction",
+    exo_qcm_desc: "Trouvez la bonne traduction du mot arabe affiché.",
+    exo_racine_title: "Trouver la racine",
+    exo_racine_desc: "Identifiez la racine trilitère du mot affiché.",
+    exo_start: "Commencer",
+    exo_next: "Suivant",
+    exo_restart: "Recommencer",
+    exo_score: "Score",
+    exo_best: "Meilleur score",
+    exo_question: "Question",
+    exo_correct: "Bonne réponse !",
+    exo_wrong: "Mauvaise réponse.",
+    exo_answer_was: "La bonne réponse était :",
+    exo_finished: "Exercice terminé !",
+    exo_range: "Plage de mots",
+    racines_title: "Explorateur de racines",
+    racines_subtitle: "Les racines trilitères et leurs familles de mots dans le Coran",
+    racines_search: "Rechercher une racine ou un mot...",
+    racines_count: "racines",
+    racines_words: "mots",
+    racines_derived: "Mots dérivés dans le vocabulaire",
     // Navigation
     nav_sourates: "Sourates",
     nav_vocabulaire: "Vocabulaire",
@@ -87,6 +119,38 @@ const I18N = {
   },
 
   en: {
+    nav_exercices: "Exercises",
+    progress_title: "My progress",
+    progress_learned: "Learned",
+    progress_mark: "Mark as learned",
+    progress_words: "words learned",
+    progress_surahs: "surahs read",
+    progress_quiz_best: "best score",
+    surah_mark_read: "Mark as read",
+    surah_read: "Read ✓",
+    exo_title: "Exercises",
+    exo_subtitle: "Translation quiz · Root identification · Scores saved locally",
+    exo_qcm_title: "Translation Quiz",
+    exo_qcm_desc: "Find the correct translation of the displayed Arabic word.",
+    exo_racine_title: "Find the root",
+    exo_racine_desc: "Identify the triliteral root of the displayed word.",
+    exo_start: "Start",
+    exo_next: "Next",
+    exo_restart: "Restart",
+    exo_score: "Score",
+    exo_best: "Best score",
+    exo_question: "Question",
+    exo_correct: "Correct!",
+    exo_wrong: "Wrong answer.",
+    exo_answer_was: "The correct answer was:",
+    exo_finished: "Exercise finished!",
+    exo_range: "Word range",
+    racines_title: "Root explorer",
+    racines_subtitle: "Triliteral roots and their word families in the Quran",
+    racines_search: "Search a root or a word...",
+    racines_count: "roots",
+    racines_words: "words",
+    racines_derived: "Derived words in the vocabulary",
     nav_sourates: "Surahs",
     nav_vocabulaire: "Vocabulary",
     nav_racines: "Roots",
@@ -166,6 +230,38 @@ const I18N = {
   },
 
   tr: {
+    nav_exercices: "Alıştırmalar",
+    progress_title: "İlerlemem",
+    progress_learned: "Öğrenildi",
+    progress_mark: "Öğrenildi olarak işaretle",
+    progress_words: "öğrenilen kelime",
+    progress_surahs: "okunan sure",
+    progress_quiz_best: "en iyi skor",
+    surah_mark_read: "Okundu olarak işaretle",
+    surah_read: "Okundu ✓",
+    exo_title: "Alıştırmalar",
+    exo_subtitle: "Çeviri testi · Kök bulma · Skorlar yerel olarak kaydedilir",
+    exo_qcm_title: "Çeviri Testi",
+    exo_qcm_desc: "Gösterilen Arapça kelimenin doğru çevirisini bulun.",
+    exo_racine_title: "Kökü bul",
+    exo_racine_desc: "Gösterilen kelimenin üç harfli kökünü belirleyin.",
+    exo_start: "Başla",
+    exo_next: "Sonraki",
+    exo_restart: "Yeniden başla",
+    exo_score: "Skor",
+    exo_best: "En iyi skor",
+    exo_question: "Soru",
+    exo_correct: "Doğru cevap!",
+    exo_wrong: "Yanlış cevap.",
+    exo_answer_was: "Doğru cevap şuydu:",
+    exo_finished: "Alıştırma bitti!",
+    exo_range: "Kelime aralığı",
+    racines_title: "Kök gezgini",
+    racines_subtitle: "Kur'an'daki üç harfli kökler ve kelime aileleri",
+    racines_search: "Kök veya kelime ara...",
+    racines_count: "kök",
+    racines_words: "kelime",
+    racines_derived: "Sözlükteki türev kelimeler",
     nav_sourates: "Sureler",
     nav_vocabulaire: "Kelimeler",
     nav_racines: "Kökler",
@@ -256,6 +352,7 @@ function initLang() {
   const saved = localStorage.getItem('lang') || 'fr';
   window.LANG = saved;
   document.documentElement.setAttribute('lang', saved);
+  return saved;
 }
 
 function setLang(lang) {
@@ -263,6 +360,7 @@ function setLang(lang) {
   localStorage.setItem('lang', lang);
   document.documentElement.setAttribute('lang', lang);
   if (typeof renderAll === 'function') renderAll();
+  return lang;
 }
 
 export { I18N, t, initLang, setLang };

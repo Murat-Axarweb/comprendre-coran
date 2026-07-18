@@ -360,10 +360,11 @@
 <!-- NAVBAR -->
 <nav class="navbar">
   <div class="nav-logo">القرآن</div>
-  <a class="nav-link active" href="sourates.html" id="nav-accueil" data-i18n="nav_accueil">Accueil</a>
+  <a class="nav-link active" href="index.html" id="nav-accueil" data-i18n="nav_accueil">Accueil</a>
   <a class="nav-link" href="sourates.html" id="nav-sourates" data-i18n="nav_sourates">Sourates</a>
   <a class="nav-link" href="vocabulaire.html" id="nav-vocabulaire" data-i18n="nav_vocabulaire">Vocabulaire</a>
-  <a class="nav-link" href="#" id="nav-racines" data-i18n="nav_racines">Racines</a>
+  <a class="nav-link" href="racines.html" id="nav-racines" data-i18n="nav_racines">Racines</a>
+  <a class="nav-link" href="exercices.html" id="nav-exercices" data-i18n="nav_exercices">Exercices</a>
   <div class="nav-right">
     <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
     <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
@@ -628,7 +629,7 @@
 const TEXTS = {
   fr: {
     nav_accueil: "Accueil", nav_sourates: "Sourates",
-    nav_vocabulaire: "Vocabulaire", nav_racines: "Racines",
+    nav_vocabulaire: "Vocabulaire", nav_racines: "Racines", nav_exercices: "Exercices",
     hero_badge: "Plateforme d'apprentissage de l'arabe coranique",
     hero_title: "Comprends le Coran,<br><strong>mot à mot, racine par racine</strong>",
     hero_subtitle: "Apprends à comprendre le Coran étape par étape : explore les sourates librement, découvre les mots essentiels, révise les racines et progresse à ton propre rythme.",
@@ -679,7 +680,7 @@ const TEXTS = {
   },
   en: {
     nav_accueil: "Home", nav_sourates: "Surahs",
-    nav_vocabulaire: "Vocabulary", nav_racines: "Roots",
+    nav_vocabulaire: "Vocabulary", nav_racines: "Roots", nav_exercices: "Exercises",
     hero_badge: "Quranic Arabic Learning Platform",
     hero_title: "Understand the Quran,<br><strong>word by word, root by root</strong>",
     hero_subtitle: "Learn to understand the Quran step by step: freely explore surahs, discover essential words, revise roots and progress at your own pace.",
@@ -730,7 +731,7 @@ const TEXTS = {
   },
   tr: {
     nav_accueil: "Ana Sayfa", nav_sourates: "Sureler",
-    nav_vocabulaire: "Kelimeler", nav_racines: "Kökler",
+    nav_vocabulaire: "Kelimeler", nav_racines: "Kökler", nav_exercices: "Alıştırmalar",
     hero_badge: "Kur'an Arapçası Öğrenme Platformu",
     hero_title: "Kur'an'ı anla,<br><strong>kelime kelime, kök kök</strong>",
     hero_subtitle: "Kur'an'ı adım adım anlamayı öğren: sureleri özgürce keşfet, temel kelimeleri keşfet, kökleri gözden geçir ve kendi hızında ilerle.",
@@ -887,6 +888,7 @@ function renderAll() {
   document.getElementById('nav-sourates').textContent = t('nav_sourates');
   document.getElementById('nav-vocabulaire').textContent = t('nav_vocabulaire');
   document.getElementById('nav-racines').textContent = t('nav_racines');
+  document.getElementById('nav-exercices').textContent = t('nav_exercices');
 
   // Hero
   document.getElementById('hero-badge').textContent = t('hero_badge');

@@ -576,6 +576,8 @@
   <a href="index.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Accueil</a>
   <a href="sourates.html" style="padding:14px 18px;font-size:13px;color:var(--gold);border-bottom:2px solid var(--gold);margin-bottom:-1px;text-decoration:none">Sourates</a>
   <a href="vocabulaire.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Vocabulaire</a>
+  <a href="racines.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Racines</a>
+  <a href="exercices.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Exercices</a>
   <div style="display:flex;align-items:center;gap:6px;margin-left:auto;padding:0 16px">
     <button onclick="setLang('fr')" id="btn-fr" style="padding:5px 10px;font-size:12px;font-weight:500;border:1px solid var(--border);border-radius:6px;color:var(--text2);cursor:pointer;background:none;font-family:'Inter',sans-serif;transition:all 0.2s">FR</button>
     <button onclick="setLang('en')" id="btn-en" style="padding:5px 10px;font-size:12px;font-weight:500;border:1px solid var(--border);border-radius:6px;color:var(--text2);cursor:pointer;background:none;font-family:'Inter',sans-serif;transition:all 0.2s">EN</button>
@@ -849,6 +851,7 @@ async function openSourate(num) {
   const typeLabel = currentS[5] === 'M' ? 'Mecquoise' : 'Médinoise';
   document.getElementById('v-meta').textContent = `Sourate ${currentS[0]} · ${typeLabel} · ${currentS[4]} versets`;
   document.getElementById('v-theme').textContent = currentS[6] || '';
+  updateReadBtn();
 
   document.getElementById('verset-body').innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text3)">Chargement...</div>';
   currentData = await loadSourateData(num);
@@ -870,7 +873,8 @@ function renderVerset() {
   }
 
   const v = currentData.versets[currentIdx];
-  const trFr = v.traductions?.fr || { auteur: 'Hamidullah', texte: v.traduction_fr || '' };
+  const uiLang = (localStorage.getItem('lang') || 'fr');
+  const trFr = v.traductions?.[uiLang] || v.traductions?.fr || { auteur: 'Hamidullah', texte: v.traduction_fr || '' };
 
   document.getElementById('verset-body').innerHTML = `
     <div class="arabic-display">${v.ar}</div>
@@ -892,6 +896,7 @@ function renderVerset() {
     <div class="tab-panel ${currentTab==='mots'?'active':''}" id="panel-mots">
       <div class="section-label">Cliquer sur un mot pour l'analyser</div>
       <div class="mots-grid" id="mots-grid">
+        ${!(v.mots||[]).length ? `<div style="color:var(--text3);padding:1rem;grid-column:1/-1">Analyse mot à mot en cours de rédaction pour ce verset.</div>` : ''}
         ${(v.mots||[]).map((m,i) => `
           <div class="mot-card" id="mot-${i}" onclick="selectMot(${i})">
             <div class="mot-ar">${m.ar}</div>
@@ -965,11 +970,11 @@ function selectMot(i) {
         <span class="freq-badge">× ${m.frequence_coran} dans le Coran</span>
       </div>
     </div>
-    <div class="famille-list">
+    ${(m.famille && m.famille.length) ? `<div class="famille-list">
       <div class="famille-list-title">Famille de mots (même racine)</div>
-      <ul>${(m.famille||[]).map(f=>`<li>${f}</li>`).join('')}</ul>
-    </div>
-    <div class="profondeur-box">${m.profondeur}</div>
+      <ul>${m.famille.map(f=>`<li>${f}</li>`).join('')}</ul>
+    </div>` : ''}
+    ${m.profondeur ? `<div class="profondeur-box">${m.profondeur}</div>` : ''}
   `;
 }
 
@@ -977,6 +982,34 @@ function setTab(tab) {
   currentTab = tab;
   selectedMot = null;
   renderVerset();
+}
+
+let ProgressMod = null;
+import('./data/progress.js').then(m => { ProgressMod = m; updateReadBtn(); }).catch(()=>{});
+
+function updateReadBtn() {
+  let btn = document.getElementById('mark-read-btn');
+  if (!btn) {
+    const host = document.getElementById('v-theme');
+    if (!host || !host.parentNode) return;
+    btn = document.createElement('button');
+    btn.id = 'mark-read-btn';
+    btn.style.cssText = 'margin-top:8px;padding:6px 14px;border-radius:20px;border:1px solid var(--gold,#c9a227);background:transparent;color:var(--gold,#c9a227);cursor:pointer;font-size:13px;';
+    btn.onclick = toggleReadSurah;
+    host.parentNode.insertBefore(btn, host.nextSibling);
+  }
+  if (!ProgressMod || !currentS) { btn.style.display = 'none'; return; }
+  btn.style.display = '';
+  const read = ProgressMod.isSurahRead(currentS[0]);
+  btn.textContent = read ? '✓ Sourate lue' : 'Marquer comme lue';
+  btn.style.background = read ? 'var(--gold,#c9a227)' : 'transparent';
+  btn.style.color = read ? '#1a1a1a' : 'var(--gold,#c9a227)';
+}
+
+function toggleReadSurah() {
+  if (!ProgressMod || !currentS) return;
+  ProgressMod.toggleSurah(currentS[0]);
+  updateReadBtn();
 }
 
 function prevV() { if (currentIdx > 0) { currentIdx--; selectedMot = null; renderVerset(); } }

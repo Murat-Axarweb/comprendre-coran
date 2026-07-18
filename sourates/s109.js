@@ -1,0 +1,367 @@
+const S109 = {
+  "meta": {
+    "numero": 109,
+    "nom_ar": "الكافرون",
+    "nom_translit": "Al-Kafirun",
+    "nom_fr": "Les Dénégateurs",
+    "nom_en": "The Disbelievers",
+    "nom_tr": "Kâfirûn",
+    "type": "mecquoise",
+    "versets_count": 6,
+    "theme": "La charte de la rupture nette : pas de compromis sur l'adoration, pas de contrainte sur autrui",
+    "note_pedagogique": "Révélée quand Quraysh proposa une alternance des cultes (un an votre dieu, un an les nôtres). La réponse est une symétrie martelée qui ferme la négociation — et fonde la coexistence : à vous votre religion, à moi la mienne.",
+    "progression": {
+      "couche": 1,
+      "prerequis": [
+        107
+      ],
+      "suivant": [
+        110
+      ]
+    },
+    "racines_cles": [
+      "ك-ف-ر",
+      "ع-ب-د",
+      "د-ي-ن"
+    ],
+    "traduction_note": "Traductions pédagogiques originales (FR/EN/TR) — Comprendre le Coran"
+  },
+  "versets": [
+    {
+      "numero": 1,
+      "ar": "قُلْ يَـٰأَيُّهَا الْكَٰفِرُونَ",
+      "translit": "Qul yāʾayyuhā l-kāfirūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Dis : ô vous les dénégateurs !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Say: O you disbelievers!"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "De ki: Ey kâfirler!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "قُلْ",
+          "translit": "qul",
+          "fr": "dis",
+          "racine": "ق-و-ل",
+          "frequence_coran": 332
+        },
+        {
+          "ar": "يَـٰأَيُّهَا",
+          "translit": "yāʾayyuhā",
+          "fr": "ô vous",
+          "racine": "— (vocatif)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "الْكَٰفِرُونَ",
+          "translit": "l-kāfirūna",
+          "fr": "les dénégateurs",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 525
+        }
+      ],
+      "niveau_couche": 1
+    },
+    {
+      "numero": 2,
+      "ar": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+      "translit": "Lā aʿbudu mā taʿbudūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Je n'adore pas ce que vous adorez,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "I do not worship what you worship,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ben sizin taptıklarınıza tapmam,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "لَا",
+          "translit": "lā",
+          "fr": "ne... pas",
+          "racine": "— (négation)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "أَعْبُدُ",
+          "translit": "aʿbudu",
+          "fr": "j'adore",
+          "racine": "ع-ب-د",
+          "frequence_coran": 275
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "ce que",
+          "racine": "— (relatif)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "تَعْبُدُونَ",
+          "translit": "taʿbudūna",
+          "fr": "vous adorez",
+          "racine": "ع-ب-د",
+          "frequence_coran": 275
+        }
+      ],
+      "analyse_globale": "Les versets 2-5 semblent se répéter mais alternent les temps : présent/futur (ce que vous adorez maintenant) et accompli (ce que vous avez adoré, votre tradition héritée). Le refus couvre ainsi le passé, le présent et l'avenir : aucune fenêtre de compromis ne reste ouverte sur l'axe du temps.",
+      "niveau_couche": 1
+    },
+    {
+      "numero": 3,
+      "ar": "وَلَا أَنتُمْ عَٰبِدُونَ مَا أَعْبُدُ",
+      "translit": "Walā antum ʿābidūna mā aʿbud",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "et vous n'êtes pas adorateurs de ce que j'adore."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "nor are you worshippers of what I worship."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Siz de benim taptığıma tapıcılar değilsiniz."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "— (négation)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "أَنتُمْ",
+          "translit": "antum",
+          "fr": "vous",
+          "racine": "— (pronom)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "عَٰبِدُونَ",
+          "translit": "ʿābidūna",
+          "fr": "êtes adorateurs",
+          "racine": "ع-ب-د",
+          "frequence_coran": 275
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "de ce que",
+          "racine": "— (relatif)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "أَعْبُدُ",
+          "translit": "aʿbudu",
+          "fr": "j'adore",
+          "racine": "ع-ب-د",
+          "frequence_coran": 275
+        }
+      ],
+      "niveau_couche": 1
+    },
+    {
+      "numero": 4,
+      "ar": "وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ",
+      "translit": "Walā anā ʿābidun mā ʿabadtum",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Je ne suis pas adorateur de ce que vous avez adoré,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Nor am I a worshipper of what you have worshipped,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ben sizin taptıklarınıza tapacak değilim,"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "— (négation)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "أَنَا",
+          "translit": "anā",
+          "fr": "moi",
+          "racine": "— (pronom)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "عَابِدٌ",
+          "translit": "ʿābidun",
+          "fr": "je suis adorateur",
+          "racine": "ع-ب-د",
+          "frequence_coran": 275
+        },
+        {
+          "ar": "مَّا",
+          "translit": "mā",
+          "fr": "de ce que",
+          "racine": "— (relatif)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "عَبَدتُّمْ",
+          "translit": "ʿabadtum",
+          "fr": "vous avez adoré",
+          "racine": "ع-ب-د",
+          "frequence_coran": 275
+        }
+      ],
+      "niveau_couche": 1
+    },
+    {
+      "numero": 5,
+      "ar": "وَلَا أَنتُمْ عَٰبِدُونَ مَا أَعْبُدُ",
+      "translit": "Walā antum ʿābidūna mā aʿbud",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "et vous n'êtes pas adorateurs de ce que j'adore."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "nor are you worshippers of what I worship."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Siz de benim taptığıma tapıcılar değilsiniz."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "— (négation)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "أَنتُمْ",
+          "translit": "antum",
+          "fr": "vous",
+          "racine": "— (pronom)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "عَٰبِدُونَ",
+          "translit": "ʿābidūna",
+          "fr": "êtes adorateurs",
+          "racine": "ع-ب-د",
+          "frequence_coran": 275
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "de ce que",
+          "racine": "— (relatif)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "أَعْبُدُ",
+          "translit": "aʿbudu",
+          "fr": "j'adore",
+          "racine": "ع-ب-د",
+          "frequence_coran": 275
+        }
+      ],
+      "niveau_couche": 1
+    },
+    {
+      "numero": 6,
+      "ar": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+      "translit": "Lakum dīnukum waliya dīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "À vous votre religion, et à moi ma religion."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "To you your religion, and to me my religion."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Sizin dininiz size, benim dinim bana."
+        }
+      },
+      "mots": [
+        {
+          "ar": "لَكُمْ",
+          "translit": "lakum",
+          "fr": "à vous",
+          "racine": "— (pronom)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "دِينُكُمْ",
+          "translit": "dīnukum",
+          "fr": "votre religion",
+          "racine": "د-ي-ن",
+          "frequence_coran": 92,
+          "famille": [
+            "دَانَ (dāna) — se soumettre, juger",
+            "دَيَّان (dayyān) — Juge suprême",
+            "يَوْم الدِّين (yawm ad-dīn) — Jour de la rétribution"
+          ],
+          "profondeur": "Dīn couvre un champ que 'religion' ne recouvre qu'en partie : la dette, le jugement, la voie de vie, la soumission. 'Lakum dīnukum wa-liya dīn' n'est pas du relativisme (tout se vaut) mais une délimitation : chacun assumera intégralement sa voie devant le Juge du yawm ad-dīn — même mot, boucle bouclée."
+        },
+        {
+          "ar": "وَلِيَ",
+          "translit": "waliya",
+          "fr": "et à moi",
+          "racine": "— (pronom)",
+          "frequence_coran": 0
+        },
+        {
+          "ar": "دِينِ",
+          "translit": "dīni",
+          "fr": "ma religion",
+          "racine": "د-ي-ن",
+          "frequence_coran": 92
+        }
+      ],
+      "niveau_couche": 1
+    }
+  ],
+  "resume_pedagogique": {
+    "mots_cles_a_retenir": [
+      "الْكَٰفِرُون",
+      "أَعْبُدُ",
+      "دِين"
+    ],
+    "racines_a_retenir": [
+      "ك-ف-ر",
+      "ع-ب-د",
+      "د-ي-ن"
+    ],
+    "declic_frequence": "ʿabada (adorer, racine ع-ب-د ~275 occurrences) apparaît ici 5 fois en 6 versets sous 4 formes différentes : le Coran épuise la conjugaison pour épuiser la question — l'adoration ne se partage pas."
+  }
+};
+
+export { S109 };

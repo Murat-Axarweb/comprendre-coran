@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vocabulaire Coranique — Racines & Fréquences</title>
-  <meta name="description" content="Apprendre les 300 mots les plus fréquents du Coran avec leurs racines, familles de mots et analyse de profondeur.">
+  <meta name="description" content="Apprendre les 1000 mots les plus fréquents du Coran avec leurs racines, familles de mots et analyse de profondeur.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -78,6 +78,14 @@
     }
     .page-header h1 { font-size: 28px; font-weight: 500; color: var(--text); }
     .page-header p { font-size: 13px; color: var(--text2); margin-top: 6px; }
+
+    /* ===== PROGRESSION ===== */
+    .learn-toggle { margin-left: auto; width: 22px; height: 22px; border-radius: 50%; border: 1px solid var(--border, #333); background: transparent; color: var(--text3, #888); font-size: 12px; cursor: pointer; line-height: 1; flex-shrink: 0; }
+    .learn-toggle.on { background: #2e7d5b; border-color: #2e7d5b; color: #fff; }
+    .vocab-card.learned { border-color: #2e7d5b55; }
+    .vocab-list-item.learned .vl-ar { opacity: 0.85; }
+    .learn-detail-btn { cursor: pointer; border: 1px dashed var(--border, #444); background: transparent; }
+    .learn-detail-btn.on { background: #2e7d5b; color: #fff; border-style: solid; border-color: #2e7d5b; }
 
     /* ===== COUVERTURE BAR ===== */
     .couverture-section { margin-bottom: 28px; }
@@ -285,7 +293,8 @@
     <a class="nav-link" id="nav-accueil" href="index.html" data-i18n="nav_accueil">Accueil</a>
     <a class="nav-link" id="nav-sourates" href="sourates.html" data-i18n="nav_sourates">Sourates</a>
     <a class="nav-link active" id="nav-vocabulaire" href="vocabulaire.html" data-i18n="nav_vocabulaire">Vocabulaire</a>
-    <a class="nav-link" id="nav-racines" href="#" data-i18n="nav_racines">Racines</a>
+    <a class="nav-link" id="nav-racines" href="racines.html" data-i18n="nav_racines">Racines</a>
+    <a class="nav-link" id="nav-exercices" href="exercices.html" data-i18n="nav_exercices">Exercices</a>
   </div>
   <div class="nav-right">
     <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
@@ -299,13 +308,19 @@
   <!-- HEADER -->
   <div class="page-header">
     <h1 data-i18n="vocab_titre">Vocabulaire Coranique</h1>
-    <p data-i18n="vocab_subtitle">300 mots essentiels · Racines · Fréquences · Familles de mots</p>
+    <p data-i18n="vocab_subtitle">1000 mots essentiels · Racines · Fréquences · Familles de mots</p>
   </div>
 
   <!-- COUVERTURE -->
   <div class="couverture-section">
     <div class="couverture-title" data-i18n="top_label">Couverture du Coran par palier</div>
     <div class="couverture-steps" id="couverture-steps"></div>
+  </div>
+
+  <!-- PROGRESSION -->
+  <div class="couverture-section" id="progress-section">
+    <div class="couverture-title"><span data-i18n="progress_title">Ma progression</span> · <span id="progress-count">0</span> / 1000</div>
+    <div class="couv-progress" style="height:8px;"><div class="couv-progress-fill" id="progress-fill" style="width:0%"></div></div>
   </div>
 
   <!-- FILTRES -->
@@ -350,9 +365,12 @@
 import { I18N, t, initLang, setLang as setLangCore } from './data/i18n.js';
 import { VOCAB, COUVERTURE, THEMES } from './data/vocab.js';
 import { VOCAB2 } from './data/vocab2.js';
+import { VOCAB3 } from './data/vocab3.js';
+import { VOCAB4 } from './data/vocab4.js';
+import * as Progress from './data/progress.js';
 
 // Fusionner les deux blocs de vocabulaire
-const ALL_VOCAB = [...VOCAB, ...VOCAB2];
+const ALL_VOCAB = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4];
 
 window.I18N = I18N;
 window.VOCAB = ALL_VOCAB;
@@ -423,7 +441,11 @@ const SOURATES_NOMS = {
 // ===== COUVERTURE =====
 function renderCouverture() {
   const container = document.getElementById('couverture-steps');
-  container.innerHTML = COUVERTURE.map(c => `
+  const COUVERTURE_ALL = [...COUVERTURE,
+    { top: 500, pct: 81, label: { fr: "Top 500 mots", en: "Top 500 words", tr: "İlk 500 kelime" } },
+    { top: 1000, pct: 89, label: { fr: "Top 1000 mots", en: "Top 1000 words", tr: "İlk 1000 kelime" } }
+  ];
+  container.innerHTML = COUVERTURE_ALL.map(c => `
     <div class="couv-step" onclick="filterByTop(${c.top})">
       <div class="couv-pct">${c.pct}%</div>
       <div class="couv-label">${c.label[window.LANG] || c.label.fr}</div>
@@ -504,10 +526,12 @@ function renderVocab(list) {
     container.className = 'vocab-grid';
     container.innerHTML = list.map(w => {
       const trad = w.traductions[lang] || w.traductions.fr;
-      return `<div class="vocab-card ${selectedId === w.id ? 'active' : ''}" onclick="openDetail(${w.id})">
+      const learned = Progress.isWordLearned(w.id);
+      return `<div class="vocab-card ${selectedId === w.id ? 'active' : ''} ${learned ? 'learned' : ''}" onclick="openDetail(${w.id})">
         <div class="vocab-card-top">
           <span class="vocab-rang">#${w.rang}</span>
           <span class="vocab-freq-badge">× ${w.frequence.toLocaleString()}</span>
+          <button class="learn-toggle ${learned ? 'on' : ''}" onclick="event.stopPropagation();toggleLearned(${w.id})" title="Marquer comme appris">✓</button>
         </div>
         <div class="vocab-ar">${w.ar}</div>
         <div class="vocab-translit">${w.translit}</div>
@@ -522,7 +546,9 @@ function renderVocab(list) {
     container.className = 'vocab-list';
     container.innerHTML = list.map(w => {
       const trad = w.traductions[lang] || w.traductions.fr;
-      return `<div class="vocab-list-item ${selectedId === w.id ? 'active' : ''}" onclick="openDetail(${w.id})">
+      const learned = Progress.isWordLearned(w.id);
+      return `<div class="vocab-list-item ${selectedId === w.id ? 'active' : ''} ${learned ? 'learned' : ''}" onclick="openDetail(${w.id})">
+        <button class="learn-toggle ${learned ? 'on' : ''}" onclick="event.stopPropagation();toggleLearned(${w.id})" title="Marquer comme appris">✓</button>
         <span class="vl-rang">#${w.rang}</span>
         <span class="vl-ar">${w.ar}</span>
         <span class="vl-translit">${w.translit}</span>
@@ -532,6 +558,22 @@ function renderVocab(list) {
       </div>`;
     }).join('');
   }
+}
+
+// ===== PROGRESSION =====
+window.toggleLearned = function(id) {
+  Progress.toggleWord(id);
+  refreshProgress();
+  applyFilters();
+  if (selectedId === id) openDetail(id);
+}
+
+function refreshProgress() {
+  const n = Progress.wordsLearnedCount();
+  const el = document.getElementById('progress-count');
+  if (el) el.textContent = n;
+  const fill = document.getElementById('progress-fill');
+  if (fill) fill.style.width = Math.min(100, n / ALL_VOCAB.length * 100) + '%';
 }
 
 // ===== DÉTAIL =====
@@ -547,10 +589,12 @@ window.openDetail = function(id) {
   document.getElementById('d-ar').textContent = w.ar;
   document.getElementById('d-translit').textContent = w.translit;
   document.getElementById('d-trad').textContent = trad;
+  const learned = Progress.isWordLearned(w.id);
   document.getElementById('d-meta').innerHTML = `
     <span class="meta-badge gold">${w.racine}</span>
     <span class="meta-badge green">× ${w.frequence.toLocaleString()} ${t('occurrences')}</span>
     <span class="meta-badge">#${w.rang}</span>
+    <button class="meta-badge learn-detail-btn ${learned ? 'on' : ''}" onclick="toggleLearned(${w.id})">${learned ? '✓ ' + t('progress_learned') : '+ ' + t('progress_mark')}</button>
   `;
 
   const freqPct = Math.min(100, Math.round(w.frequence / maxFreq * 100));
@@ -627,6 +671,7 @@ window.renderAll = function() {
 
 // ===== INIT =====
 renderAll();
+refreshProgress();
 </script>
 </body>
 </html>
