@@ -7,7 +7,7 @@ Plateforme web statique trilingue (**FR / EN / TR**) pour apprendre l'arabe cora
 ## Fonctionnalités
 
 - **Vocabulaire (1000 mots)** — les lemmes les plus fréquents du Coran, avec translittération scientifique, racine trilitère, thème, traductions FR/EN/TR, famille de mots et note de profondeur. Filtres par thème, recherche, tri, vues grille/liste, paliers de couverture du corpus (Top 10 → Top 1000).
-- **Sourates (48 disponibles)** — Fatiha + sourates 67 à 114 (juz' 29 et 30 complets) : texte arabe (rasm uthmani simplifié), translittération, traductions pédagogiques originales en 3 langues, analyse mot à mot (complète sur les sourates courtes, partielle par appariement automatique au glossaire sur les plus longues), analyses de versets et résumé pédagogique (mots clés, racines, « déclic fréquence »).
+- **Sourates (66 disponibles)** — Fatiha + sourates 50 à 114 (juz' 27, 28, 29 et 30 en quasi-totalité) : texte arabe (rasm uthmani simplifié), translittération, traductions pédagogiques originales en 3 langues, analyse mot à mot (complète sur les sourates courtes, partielle par appariement automatique au glossaire sur les plus longues), analyses de versets et résumé pédagogique (mots clés, racines, « déclic fréquence »).
 - **Racines** — explorateur des ~600 racines trilitères du glossaire : fréquence cumulée, mots dérivés et familles.
 - **Exercices** — QCM de traduction et quiz d'identification de racine (plage de mots réglable, 10 questions), scores conservés localement.
 - **Progression** — mots appris, sourates lues et meilleurs scores stockés dans `localStorage` (module `data/progress.js`).
@@ -45,13 +45,13 @@ npx serve .        # ou : python3 -m http.server
 - Translittérations générées par script (`build/extract.js`) selon une convention scientifique simplifiée — relecture humaine bienvenue.
 - Fréquences des mots 1–300 : compilées depuis les corpus classiques ; **fréquences 301–1000 : estimations à affiner**.
 - Traductions des versets : traductions pédagogiques originales « Comprendre le Coran » (non des citations de traducteurs publiés).
-- Gloses automatiques (sourates 67–102) : appariement par squelette consonantique contre le glossaire ; ~50 % des mots couverts, marge d'erreur possible sur les homographes — relecture recommandée.
+- Gloses automatiques (sourates 50–102) : appariement par squelette consonantique contre le glossaire ; ~50 % des mots couverts, marge d'erreur possible sur les homographes — relecture recommandée.
 
 ## Feuille de route (Phase 2)
 
 - Migration de la progression vers **Supabase** (comptes, synchronisation).
-- Gloses manuelles complètes pour les sourates 67–102.
-- Extension du corpus de sourates (sourates 50–66, puis les longues).
+- Gloses manuelles complètes pour les sourates 50–102.
+- Extension du corpus de sourates (36–49, puis les longues).
 - Audio verset par verset.
 
 ## Licence
