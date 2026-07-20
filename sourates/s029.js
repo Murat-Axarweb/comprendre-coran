@@ -1,0 +1,5605 @@
+const S029 = {
+  "meta": {
+    "numero": 29,
+    "nom_ar": "العنكبوت",
+    "nom_translit": "Al-'Ankabut",
+    "nom_fr": "L'Araignée",
+    "nom_en": "The Spider",
+    "nom_tr": "Ankebût (Örümcek)",
+    "type": "mecquoise",
+    "versets_count": 69,
+    "theme": "L'épreuve inévitable de la foi, la fragilité des faux appuis comparée à la toile d'araignée, la galerie des prophètes éprouvés, et l'ordre de disputer avec les gens du Livre de la meilleure manière",
+    "note_pedagogique": "La sourate de l'épreuve (fitna) : « Les hommes pensent-ils qu'on les laissera dire ‹ nous croyons › sans qu'ils soient éprouvés ? » (v.2). En son centre, l'image qui donne son nom : celui qui prend des protecteurs hors d'Allah est comme l'araignée qui se bâtit une maison — « la plus fragile des maisons » (v.41).",
+    "progression": {
+      "couche": 3,
+      "prerequis": [
+        1
+      ],
+      "suivant": [
+        30
+      ]
+    },
+    "racines_cles": [
+      "ف-ت-ن",
+      "ع-ن-ك-ب",
+      "ج-ه-د",
+      "و-ه-ن",
+      "ب-ي-ت"
+    ],
+    "traduction_note": "Traductions pédagogiques originales (FR/EN/TR) — Comprendre le Coran"
+  },
+  "versets": [
+    {
+      "numero": 1,
+      "ar": "الم",
+      "translit": "Al-m",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Alif, Lām, Mīm."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Alif, Lam, Mim."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Elif, Lâm, Mîm."
+        }
+      },
+      "mots": [
+        {
+          "ar": "الم",
+          "translit": "al-m",
+          "fr": "n’a-t-il pas ?",
+          "racine": "أ + لَمْ",
+          "frequence_coran": 78
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 2,
+      "ar": "أَحَسِبَ النَّاسُ أَن يُتْرَكُواْ أَن يَقُولُواْ ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ",
+      "translit": "Aḥasiba n-nāsu an yutrakū an yaqūlū āmannā wahum lā yuftanūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Les hommes pensent-ils qu'on les laissera dire : « Nous croyons » sans qu'ils soient éprouvés ?"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Do people think they will be left to say: 'We believe' and they will not be tested?"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İnsanlar, denenmeden, sadece 'İman ettik' demekle bırakılacaklarını mı sandılar?"
+        }
+      },
+      "mots": [
+        {
+          "ar": "النَّاسُ",
+          "translit": "n-nāsu",
+          "fr": "les gens",
+          "racine": "ن-و-س / أ-ن-س",
+          "frequence_coran": 92
+        },
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "وَهُمْ",
+          "translit": "wahum",
+          "fr": "et eux",
+          "racine": "و + pronom",
+          "frequence_coran": 136
+        },
+        {
+          "ar": "لَا",
+          "translit": "lā",
+          "fr": "non",
+          "racine": "particule",
+          "frequence_coran": 812
+        }
+      ],
+      "analyse_globale": "A-yaḥsibu n-nāsu an yutrakū an yaqūlū āmannā wa-hum lā yuftanūn : la question qui fonde la théologie de l'épreuve. La foi déclarée (āmannā) n'est qu'un point de départ ; la fitna (test, au sens du feu qui purifie l'or) est ce qui distingue le véridique du menteur. Le verset désamorce toute illusion de foi confortable : croire, c'est accepter d'être éprouvé. Et le v.3 précise que ce fut la loi de « ceux d'avant » — nul n'y échappe.",
+      "niveau_couche": 3
+    },
+    {
+      "numero": 3,
+      "ar": "وَلَقَدْ فَتَنَّا الَّذِينَ مِن قَبْلِهِمْ فَلَيَعْلَمَنَّ اللَّهُ الَّذِينَ صَدَقُواْ وَلَيَعْلَمَنَّ الْكَٰذِبِينَ",
+      "translit": "Walaqad fatannā lladhīna min qablihim falayaʿlamanna llāhu lladhīna ṣadaqū walayaʿlamanna l-kādhibīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Nous avons certes éprouvé ceux qui furent avant eux : Allah connaîtra ceux qui disent vrai et Il connaîtra les menteurs."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "But We have certainly tested those before them: so Allah will surely make evident those who are truthful, and He will surely make evident the liars."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Andolsun, Biz onlardan öncekileri de denemiştik. Allah, doğru söyleyenleri de mutlaka bilir, yalancıları da mutlaka bilir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَقَدْ",
+          "translit": "walaqad",
+          "fr": "et certes",
+          "racine": "و + لَ + قَدْ",
+          "frequence_coran": 124
+        },
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 4,
+      "ar": "أَمْ حَسِبَ الَّذِينَ يَعْمَلُونَ السَّيِّـءَاتِ أَن يَسْبِقُونَا سَاءَ مَا يَحْكُمُونَ",
+      "translit": "Am ḥasiba lladhīna yaʿmalūna s-sayyiʾāti an yasbiqūnā sāʾa mā yaḥkumūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ceux qui commettent les méfaits pensent-ils Nous devancer ? Combien est mauvais leur jugement !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Or do those who commit evil deeds think they can outrun Us? Evil is what they judge!"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Yoksa kötülük yapanlar, bizden kaçıp kurtulacaklarını mı sandılar? Ne kötü hüküm veriyorlar!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "أَمْ",
+          "translit": "am",
+          "fr": "ou bien",
+          "racine": "particule d’alternative",
+          "frequence_coran": 110
+        },
+        {
+          "ar": "حَسِبَ",
+          "translit": "ḥasiba",
+          "fr": "croire",
+          "racine": "ح-س-ب",
+          "frequence_coran": 44
+        },
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "يَعْمَلُونَ",
+          "translit": "yaʿmalūna",
+          "fr": "ils font",
+          "racine": "ع-م-ل",
+          "frequence_coran": 56
+        },
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 5,
+      "ar": "مَن كَانَ يَرْجُواْ لِقَاءَ اللَّهِ فَإِنَّ أَجَلَ اللَّهِ لَأتٍ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "translit": "Man kāna yarjū liqāʾa llāhi faʾinna ajala llāhi laʾtin wahuwa s-samīʿu l-ʿalīm",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Quiconque espère la rencontre d'Allah — le terme fixé par Allah viendra certes ; et Il est l'Audient, l'Omniscient."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Whoever hopes for the meeting with Allah — surely the term of Allah is coming; and He is the Hearing, the Knowing."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Kim Allah'a kavuşmayı umuyorsa, bilsin ki Allah'ın belirlediği o vakit mutlaka gelecektir. O, hakkıyla işitendir, hakkıyla bilendir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "مَن",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "كَانَ",
+          "translit": "kāna",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360
+        },
+        {
+          "ar": "لِقَاءَ",
+          "translit": "liqāʾa",
+          "fr": "rencontre (d'Allah)",
+          "racine": "ل-ق-ي",
+          "frequence_coran": 24
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "فَإِنَّ",
+          "translit": "faʾinna",
+          "fr": "alors si",
+          "racine": "ف + إِنْ",
+          "frequence_coran": 89
+        },
+        {
+          "ar": "أَجَلَ",
+          "translit": "ajala",
+          "fr": "terme",
+          "racine": "أ-ج-ل",
+          "frequence_coran": 56
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "وَهُوَ",
+          "translit": "wahuwa",
+          "fr": "et Il",
+          "racine": "و + pronom",
+          "frequence_coran": 171
+        },
+        {
+          "ar": "السَّمِيعُ",
+          "translit": "s-samīʿu",
+          "fr": "Audient",
+          "racine": "س-م-ع",
+          "frequence_coran": 41
+        },
+        {
+          "ar": "الْعَلِيمُ",
+          "translit": "l-ʿalīmu",
+          "fr": "Savant",
+          "racine": "ع-ل-م",
+          "frequence_coran": 100
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 6,
+      "ar": "وَمَن جَٰهَدَ فَإِنَّمَا يُجَٰهِدُ لِنَفْسِهِ إِنَّ اللَّهَ لَغَنِيٌّ عَنِ الْعَٰلَمِينَ",
+      "translit": "Waman jāhada faʾinnamā yujāhidu linafsihī inna llāha laghaniyyun ʿani l-ʿālamīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et quiconque lutte ne lutte que pour lui-même : Allah se passe assurément des mondes."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And whoever strives only strives for himself: surely Allah is free of need from the worlds."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Kim cihad ederse, ancak kendisi için cihad etmiş olur. Şüphesiz Allah, âlemlerden müstağnidir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَمَن",
+          "translit": "waman",
+          "fr": "et celui qui",
+          "racine": "و + مَنْ",
+          "frequence_coran": 234
+        },
+        {
+          "ar": "فَإِنَّمَا",
+          "translit": "faʾinnamā",
+          "fr": "seulement",
+          "racine": "particule de restriction",
+          "frequence_coran": 113
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "اللَّهَ",
+          "translit": "llāha",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "لَغَنِيٌّ",
+          "translit": "laghaniyyun",
+          "fr": "Riche",
+          "racine": "غ-ن-ي",
+          "frequence_coran": 20
+        },
+        {
+          "ar": "عَنِ",
+          "translit": "ʿani",
+          "fr": "de",
+          "racine": "préposition",
+          "frequence_coran": 153
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 7,
+      "ar": "وَالَّذِينَ ءَامَنُواْ وَعَمِلُواْ الصَّـٰلِحَٰتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّـءَاتِهِمْ وَلَنَجْزِيَنَّهُمْ أَحْسَنَ الَّذِي كَانُواْ يَعْمَلُونَ",
+      "translit": "Walladhīna āmanū waʿamilū ṣ-ṣāliḥāti lanukaffiranna ʿanhum sayyiʾātihim walanajziyannahum aḥsana lladhī kānū yaʿmalūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ceux qui croient et font le bien, Nous effacerons certes leurs méfaits, et Nous les récompenserons selon le meilleur de ce qu'ils faisaient."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And those who believe and do righteous deeds — We will surely remove from them their misdeeds, and will surely reward them according to the best of what they used to do."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İman edip salih ameller işleyenlerin kötülüklerini elbette örteceğiz ve onları, yaptıklarının en güzeliyle mükâfatlandıracağız."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَالَّذِينَ",
+          "translit": "walladhīna",
+          "fr": "et ceux qui",
+          "racine": "و + pronom relatif",
+          "frequence_coran": 164
+        },
+        {
+          "ar": "وَعَمِلُواْ",
+          "translit": "waʿamilū",
+          "fr": "et ils ont œuvré",
+          "racine": "و + ع-م-ل",
+          "frequence_coran": 53
+        },
+        {
+          "ar": "عَنْهُمْ",
+          "translit": "ʿanhum",
+          "fr": "d’eux",
+          "racine": "عَنْ + هُمْ",
+          "frequence_coran": 67
+        },
+        {
+          "ar": "أَحْسَنَ",
+          "translit": "aḥsana",
+          "fr": "bien faire",
+          "racine": "ح-س-ن",
+          "frequence_coran": 33
+        },
+        {
+          "ar": "الَّذِي",
+          "translit": "lladhī",
+          "fr": "celui qui",
+          "racine": "pronom",
+          "frequence_coran": 1464
+        },
+        {
+          "ar": "كَانُواْ",
+          "translit": "kānū",
+          "fr": "ils étaient",
+          "racine": "ك-و-ن",
+          "frequence_coran": 229
+        },
+        {
+          "ar": "يَعْمَلُونَ",
+          "translit": "yaʿmalūna",
+          "fr": "ils font",
+          "racine": "ع-م-ل",
+          "frequence_coran": 56
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 8,
+      "ar": "وَوَصَّيْنَا الْإِنسَٰنَ بِوَٰلِدَيْهِ حُسْنًا وَإِن جَٰهَدَاكَ لِتُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلَا تُطِعْهُمَا إِلَيَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
+      "translit": "Wawaṣṣaynā l-ʾinsāna biwālidayhi ḥusnan waʾin jāhadāka litushrika bī mā laysa laka bihī ʿilmun falā tuṭiʿhumā ilayya marjiʿukum faʾunabbiʾukum bimā kuntum taʿmalūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Nous avons recommandé à l'homme la bonté envers ses parents. Mais s'ils te forcent à M'associer ce dont tu n'as aucune science, ne leur obéis pas. Vers Moi est votre retour, et Je vous informerai de ce que vous faisiez."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And We have enjoined upon man goodness to his parents. But if they endeavor to make you associate with Me that of which you have no knowledge, do not obey them. To Me is your return, and I will inform you of what you used to do."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Biz insana, anne babasına iyi davranmasını emrettik. Eğer, hakkında hiçbir bilgin olmayan bir şeyi Bana ortak koşman için seninle uğraşırlarsa, onlara itaat etme! Dönüşünüz ancak Banadır. O zaman size, yaptıklarınızı haber vereceğim."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَإِن",
+          "translit": "waʾin",
+          "fr": "et si",
+          "racine": "و + إِنْ",
+          "frequence_coran": 170
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010
+        },
+        {
+          "ar": "لَيْسَ",
+          "translit": "laysa",
+          "fr": "n’est pas",
+          "racine": "verbe de négation",
+          "frequence_coran": 47
+        },
+        {
+          "ar": "لَكَ",
+          "translit": "laka",
+          "fr": "à toi",
+          "racine": "لِ + كَ",
+          "frequence_coran": 69
+        },
+        {
+          "ar": "بِهِ",
+          "translit": "bihī",
+          "fr": "par lui",
+          "racine": "بِ + هُ",
+          "frequence_coran": 327
+        },
+        {
+          "ar": "عِلْمٌ",
+          "translit": "ʿilmun",
+          "fr": "savoir",
+          "racine": "ع-ل-م",
+          "frequence_coran": 105
+        },
+        {
+          "ar": "فَلَا",
+          "translit": "falā",
+          "fr": "alors ne... pas",
+          "racine": "ف + لَا",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "بِمَا",
+          "translit": "bimā",
+          "fr": "par ce que",
+          "racine": "بِ + مَا",
+          "frequence_coran": 296
+        },
+        {
+          "ar": "كُنتُمْ",
+          "translit": "kuntum",
+          "fr": "vous étiez",
+          "racine": "ك-و-ن",
+          "frequence_coran": 188
+        },
+        {
+          "ar": "تَعْمَلُونَ",
+          "translit": "taʿmalūna",
+          "fr": "vous faites",
+          "racine": "ع-م-ل",
+          "frequence_coran": 83
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 9,
+      "ar": "وَالَّذِينَ ءَامَنُواْ وَعَمِلُواْ الصَّـٰلِحَٰتِ لَنُدْخِلَنَّهُمْ فِي الصَّـٰلِحِينَ",
+      "translit": "Walladhīna āmanū waʿamilū ṣ-ṣāliḥāti lanudkhilannahum fī ṣ-ṣāliḥīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ceux qui croient et font le bien, Nous les ferons certes entrer parmi les vertueux."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And those who believe and do righteous deeds — We will surely admit them among the righteous."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İman edip salih ameller işleyenleri elbette salihlerin arasına katacağız."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَالَّذِينَ",
+          "translit": "walladhīna",
+          "fr": "et ceux qui",
+          "racine": "و + pronom relatif",
+          "frequence_coran": 164
+        },
+        {
+          "ar": "وَعَمِلُواْ",
+          "translit": "waʿamilū",
+          "fr": "et ils ont œuvré",
+          "racine": "و + ع-م-ل",
+          "frequence_coran": 53
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 10,
+      "ar": "وَمِنَ النَّاسِ مَن يَقُولُ ءَامَنَّا بِاللَّهِ فَإِذَا أُوذِيَ فِي اللَّهِ جَعَلَ فِتْنَةَ النَّاسِ كَعَذَابِ اللَّهِ وَلَئِن جَاءَ نَصْرٌ مِّن رَّبِّكَ لَيَقُولُنَّ إِنَّا كُنَّا مَعَكُمْ أَوَلَيْسَ اللَّهُ بِأَعْلَمَ بِمَا فِي صُدُورِ الْعَٰلَمِينَ",
+      "translit": "Wamina n-nāsi man yaqūlu āmannā billāhi faʾidhā ūdhiya fī llāhi jaʿala fitnata n-nāsi kaʿadhābi llāhi walaʾin jāʾa naṣrun min rabbika layaqūlunna innā kunnā maʿakum awalaysa llāhu biʾaʿlama bimā fī ṣudūri l-ʿālamīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Parmi les hommes, il en est qui disent : « Nous croyons en Allah » ; mais dès qu'ils sont éprouvés pour Allah, ils prennent l'épreuve des hommes comme un châtiment d'Allah. Et si un secours vient de ton Seigneur, ils disent : « Nous étions avec vous ! » Allah n'est-Il pas le meilleur connaisseur du contenu des poitrines des mondes ?"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And of the people are some who say: 'We believe in Allah'; but when one of them is harmed for the sake of Allah, he considers the trial of the people as the punishment of Allah. And if victory comes from your Lord, they say: 'We were with you!' Is not Allah most knowing of what is in the breasts of the worlds?"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İnsanlardan öyleleri de vardır ki: 'Allah'a inandık' derler. Fakat Allah uğrunda bir eziyete uğratıldıklarında, insanlardan gördükleri baskıyı Allah'ın azabı gibi tutarlar. Andolsun, Rabbinden bir yardım gelecek olsa, mutlaka: 'Biz de sizinle beraberdik' derler. Allah, âlemlerin göğüslerinde olanı en iyi bilen değil mi?"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَمِنَ",
+          "translit": "wamina",
+          "fr": "et celui qui",
+          "racine": "و + مَنْ",
+          "frequence_coran": 234
+        },
+        {
+          "ar": "النَّاسِ",
+          "translit": "n-nāsi",
+          "fr": "les gens",
+          "racine": "ن-و-س / أ-ن-س",
+          "frequence_coran": 92
+        },
+        {
+          "ar": "مَن",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "بِاللَّهِ",
+          "translit": "billāhi",
+          "fr": "par Allah",
+          "racine": "بِ + أ-ل-ه",
+          "frequence_coran": 139
+        },
+        {
+          "ar": "فَإِذَا",
+          "translit": "faʾidhā",
+          "fr": "alors quand",
+          "racine": "ف + إِذَا",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "جَعَلَ",
+          "translit": "jaʿala",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44
+        },
+        {
+          "ar": "فِتْنَةَ",
+          "translit": "fitnata",
+          "fr": "épreuve",
+          "racine": "ف-ت-ن",
+          "frequence_coran": 34
+        },
+        {
+          "ar": "النَّاسِ",
+          "translit": "n-nāsi",
+          "fr": "les gens",
+          "racine": "ن-و-س / أ-ن-س",
+          "frequence_coran": 92
+        },
+        {
+          "ar": "كَعَذَابِ",
+          "translit": "kaʿadhābi",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "جَاءَ",
+          "translit": "jāʾa",
+          "fr": "il est venu",
+          "racine": "ج-ي-ء",
+          "frequence_coran": 57
+        },
+        {
+          "ar": "نَصْرٌ",
+          "translit": "naṣrun",
+          "fr": "secourir",
+          "racine": "ن-ص-ر",
+          "frequence_coran": 60
+        },
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "رَّبِّكَ",
+          "translit": "rabbika",
+          "fr": "ton Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 116
+        },
+        {
+          "ar": "إِنَّا",
+          "translit": "innā",
+          "fr": "certes Nous",
+          "racine": "إِنَّ + نَا",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "كُنَّا",
+          "translit": "kunnā",
+          "fr": "nous étions",
+          "racine": "ك-و-ن",
+          "frequence_coran": 63
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "بِأَعْلَمَ",
+          "translit": "biʾaʿlama",
+          "fr": "Je sais",
+          "racine": "ع-ل-م",
+          "frequence_coran": 55
+        },
+        {
+          "ar": "بِمَا",
+          "translit": "bimā",
+          "fr": "par ce que",
+          "racine": "بِ + مَا",
+          "frequence_coran": 296
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 11,
+      "ar": "وَلَيَعْلَمَنَّ اللَّهُ الَّذِينَ ءَامَنُواْ وَلَيَعْلَمَنَّ الْمُنَٰفِقِينَ",
+      "translit": "Walayaʿlamanna llāhu lladhīna āmanū walayaʿlamanna l-munāfiqīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah connaîtra assurément ceux qui croient, et Il connaîtra les hypocrites."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And Allah will surely make evident those who believe, and He will surely make evident the hypocrites."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah, elbette kendisine iman edenleri de bilir; elbette münafıkları da bilir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 12,
+      "ar": "وَقَالَ الَّذِينَ كَفَرُواْ لِلَّذِينَ ءَامَنُواْ اتَّبِعُواْ سَبِيلَنَا وَلْنَحْمِلْ خَطَٰيَٰكُمْ وَمَا هُم بِحَٰمِلِينَ مِنْ خَطَٰيَٰهُم مِّن شَيْءٍ إِنَّهُمْ لَكَٰذِبُونَ",
+      "translit": "Waqāla lladhīna kafarū lilladhīna āmanū ttabiʿū sabīlanā walnaḥmil khaṭāyākum wamā hum biḥāmilīna min khaṭāyāhum min shayʾin innahum lakādhibūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ceux qui mécroient disent aux croyants : « Suivez notre chemin, et nous porterons vos péchés. » Ils ne porteront rien de leurs péchés : ce sont des menteurs."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And those who disbelieve say to those who believe: 'Follow our way, and we will carry your sins.' But they will not carry anything of their sins: surely they are liars."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İnkâr edenler, iman edenlere: 'Bizim yolumuza uyun da sizin günahlarınızı biz yüklenelim' dediler. Hâlbuki onların günahlarından hiçbir şeyi yüklenecek değillerdir. Şüphesiz onlar kesinlikle yalancıdırlar."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَقَالَ",
+          "translit": "waqāla",
+          "fr": "et il a dit",
+          "racine": "و + ق-و-ل",
+          "frequence_coran": 85
+        },
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "كَفَرُواْ",
+          "translit": "kafarū",
+          "fr": "ils ont mécru",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 189
+        },
+        {
+          "ar": "لِلَّذِينَ",
+          "translit": "lilladhīna",
+          "fr": "pour ceux qui",
+          "racine": "لِ + pronom relatif",
+          "frequence_coran": 79
+        },
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "هُم",
+          "translit": "hum",
+          "fr": "eux",
+          "racine": "pronom personnel",
+          "frequence_coran": 180
+        },
+        {
+          "ar": "مِنْ",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "شَيْءٍ",
+          "translit": "shayʾin",
+          "fr": "une chose",
+          "racine": "ش-ي-ء",
+          "frequence_coran": 179
+        },
+        {
+          "ar": "إِنَّهُمْ",
+          "translit": "innahum",
+          "fr": "certes ils",
+          "racine": "إِنَّ + هُمْ",
+          "frequence_coran": 62
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 13,
+      "ar": "وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالًا مَّعَ أَثْقَالِهِمْ وَلَيُسْـءَلُنَّ يَوْمَ الْقِيَٰمَةِ عَمَّا كَانُواْ يَفْتَرُونَ",
+      "translit": "Walayaḥmilunna athqālahum waʾathqālan maʿa athqālihim walayusʾalunna yawma l-qiyāmati ʿammā kānū yaftarūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ils porteront certes leurs propres fardeaux, et d'autres fardeaux avec les leurs. Et ils seront interrogés, au Jour de la Résurrection, sur ce qu'ils inventaient."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "But they will surely carry their own burdens, and other burdens along with their burdens. And they will surely be questioned on the Day of Resurrection about what they used to invent."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Andolsun, onlar mutlaka kendi yüklerini ve o yüklerle beraber nice yükleri de taşıyacaklardır. Uydurdukları şeylerden de kıyamet günü mutlaka sorguya çekileceklerdir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "مَّعَ",
+          "translit": "maʿa",
+          "fr": "avec",
+          "racine": "préposition",
+          "frequence_coran": 58
+        },
+        {
+          "ar": "يَوْمَ",
+          "translit": "yawma",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405
+        },
+        {
+          "ar": "عَمَّا",
+          "translit": "ʿammā",
+          "fr": "au sujet de ce que",
+          "racine": "عَنْ + مَا",
+          "frequence_coran": 47
+        },
+        {
+          "ar": "كَانُواْ",
+          "translit": "kānū",
+          "fr": "ils étaient",
+          "racine": "ك-و-ن",
+          "frequence_coran": 229
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 14,
+      "ar": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا فَأَخَذَهُمُ الطُّوفَانُ وَهُمْ ظَٰلِمُونَ",
+      "translit": "Walaqad arsalnā nūḥan ilā qawmihī falabitha fīhim alfa sanatin illā khamsīna ʿāman faʾakhadhahumu ṭ-ṭūfānu wahum ẓālimūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Nous avons certes envoyé Noé vers son peuple : il demeura parmi eux mille ans moins cinquante. Le déluge les emporta alors qu'ils étaient injustes."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And We certainly sent Noah to his people, and he remained among them a thousand years minus fifty years, and the flood seized them while they were wrongdoers."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Andolsun, Biz Nûh'u kendi kavmine gönderdik de o, dokuz yüz elli yıl onların arasında kaldı. Sonunda onlar zulümlerini sürdürürken tufan kendilerini yakaladı."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَقَدْ",
+          "translit": "walaqad",
+          "fr": "et certes",
+          "racine": "و + لَ + قَدْ",
+          "frequence_coran": 124
+        },
+        {
+          "ar": "أَرْسَلْنَا",
+          "translit": "arsalnā",
+          "fr": "Nous avons envoyé",
+          "racine": "ر-س-ل",
+          "frequence_coran": 48
+        },
+        {
+          "ar": "إِلَىٰ",
+          "translit": "ilā",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742
+        },
+        {
+          "ar": "أَلْفَ",
+          "translit": "alfa",
+          "fr": "mille",
+          "racine": "أ-ل-ف",
+          "frequence_coran": 4
+        },
+        {
+          "ar": "سَنَةٍ",
+          "translit": "sanatin",
+          "fr": "année",
+          "racine": "س-ن-و",
+          "frequence_coran": 19
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "وَهُمْ",
+          "translit": "wahum",
+          "fr": "et eux",
+          "racine": "و + pronom",
+          "frequence_coran": 136
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 15,
+      "ar": "فَأَنجَيْنَٰهُ وَأَصْحَٰبَ السَّفِينَةِ وَجَعَلْنَٰهَا ءَايَةً لِّلْعَٰلَمِينَ",
+      "translit": "Faʾanjaynāhu waʾaṣḥāba s-safīnati wajaʿalnāhā āyatan lilʿālamīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Nous le sauvâmes, lui et les gens de l'arche, et Nous en fîmes un signe pour les mondes."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "But We saved him and the companions of the ship, and made it a sign for the worlds."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Biz de onu ve gemidekileri kurtardık ve bunu âlemlere bir ibret kıldık."
+        }
+      },
+      "mots": [
+        {
+          "ar": "السَّفِينَةِ",
+          "translit": "s-safīnati",
+          "fr": "navire",
+          "racine": "س-ف-ن",
+          "frequence_coran": 5
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 16,
+      "ar": "وَإِبْرَٰهِيمَ إِذْ قَالَ لِقَوْمِهِ اعْبُدُواْ اللَّهَ وَاتَّقُوهُ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+      "translit": "Waʾibrāhīma idh qāla liqawmihi ʿbudū llāha wattaqūhu dhālikum khayrun lakum in kuntum taʿlamūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et Abraham, quand il dit à son peuple : « Adorez Allah et craignez-Le : cela vaut mieux pour vous, si vous saviez."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And Abraham, when he said to his people: 'Worship Allah and fear Him: that is better for you, if you only knew.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İbrahim'i de gönderdik. Hani o, kavmine şöyle demişti: 'Allah'a kulluk edin ve O'ndan korkun! Eğer bilirseniz bu sizin için daha hayırlıdır.'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "إِذْ",
+          "translit": "idh",
+          "fr": "quand",
+          "racine": "particule temporelle",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "قَالَ",
+          "translit": "qāla",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722
+        },
+        {
+          "ar": "اللَّهَ",
+          "translit": "llāha",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "خَيْرٌ",
+          "translit": "khayrun",
+          "fr": "meilleur",
+          "racine": "خ-ي-ر",
+          "frequence_coran": 78
+        },
+        {
+          "ar": "لَّكُمْ",
+          "translit": "lakum",
+          "fr": "à vous",
+          "racine": "لِ + كُمْ",
+          "frequence_coran": 294
+        },
+        {
+          "ar": "إِن",
+          "translit": "in",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "كُنتُمْ",
+          "translit": "kuntum",
+          "fr": "vous étiez",
+          "racine": "ك-و-ن",
+          "frequence_coran": 188
+        },
+        {
+          "ar": "تَعْلَمُونَ",
+          "translit": "taʿlamūna",
+          "fr": "vous savez",
+          "racine": "ع-ل-م",
+          "frequence_coran": 55
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 17,
+      "ar": "إِنَّمَا تَعْبُدُونَ مِن دُونِ اللَّهِ أَوْثَٰنًا وَتَخْلُقُونَ إِفْكًا إِنَّ الَّذِينَ تَعْبُدُونَ مِن دُونِ اللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَابْتَغُواْ عِندَ اللَّهِ الرِّزْقَ وَاعْبُدُوهُ وَاشْكُرُواْ لَهُ إِلَيْهِ تُرْجَعُونَ",
+      "translit": "Innamā taʿbudūna min dūni llāhi awthānan watakhluqūna ifkan inna lladhīna taʿbudūna min dūni llāhi lā yamlikūna lakum rizqan fabtaghū ʿinda llāhi r-rizqa waʿbudūhu washkurū lahū ilayhi turjaʿūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Vous n'adorez, en dehors d'Allah, que des idoles, et vous forgez un mensonge. Ceux que vous adorez en dehors d'Allah ne possèdent pour vous aucune subsistance : recherchez donc la subsistance auprès d'Allah, adorez-Le et soyez-Lui reconnaissants : c'est vers Lui que vous serez ramenés."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "You only worship, besides Allah, idols, and you invent falsehood. Those you worship besides Allah do not possess for you any provision: so seek provision from Allah, worship Him, and be grateful to Him: to Him you will be returned."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "'Siz Allah'ı bırakıp ancak putlara tapıyorsunuz ve yalan uyduruyorsunuz. Allah'ı bırakıp taptıklarınızın size hiçbir rızık vermeye güçleri yetmez. Öyleyse rızkı Allah katında arayın! O'na kulluk edin ve O'na şükredin! Siz yalnız O'na döndürüleceksiniz.'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "إِنَّمَا",
+          "translit": "innamā",
+          "fr": "seulement",
+          "racine": "particule de restriction",
+          "frequence_coran": 113
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "دُونِ",
+          "translit": "dūni",
+          "fr": "en dehors de",
+          "racine": "د-و-ن",
+          "frequence_coran": 83
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "دُونِ",
+          "translit": "dūni",
+          "fr": "en dehors de",
+          "racine": "د-و-ن",
+          "frequence_coran": 83
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "لَا",
+          "translit": "lā",
+          "fr": "non",
+          "racine": "particule",
+          "frequence_coran": 812
+        },
+        {
+          "ar": "لَكُمْ",
+          "translit": "lakum",
+          "fr": "à vous",
+          "racine": "لِ + كُمْ",
+          "frequence_coran": 294
+        },
+        {
+          "ar": "رِزْقًا",
+          "translit": "rizqan",
+          "fr": "subsistance",
+          "racine": "ر-ز-ق",
+          "frequence_coran": 43
+        },
+        {
+          "ar": "عِندَ",
+          "translit": "ʿinda",
+          "fr": "auprès de",
+          "racine": "adverbe / préposition",
+          "frequence_coran": 98
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "لَهُ",
+          "translit": "lahū",
+          "fr": "à lui",
+          "racine": "لِ + هُ",
+          "frequence_coran": 275
+        },
+        {
+          "ar": "إِلَيْهِ",
+          "translit": "ilayhi",
+          "fr": "vers lui",
+          "racine": "إِلَى + هُ",
+          "frequence_coran": 76
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 18,
+      "ar": "وَإِن تُكَذِّبُواْ فَقَدْ كَذَّبَ أُمَمٌ مِّن قَبْلِكُمْ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَٰغُ الْمُبِينُ",
+      "translit": "Waʾin tukadhdhibū faqad kadhdhaba umamun min qablikum wamā ʿalā r-rasūli illā l-balāghu l-mubīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et si vous criez au mensonge, des communautés avant vous ont crié au mensonge. Il n'incombe au messager que la transmission claire."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And if you deny, then nations before you have denied. And there is nothing upon the messenger except clear conveyance."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Eğer siz yalanlarsanız bilin ki, sizden önceki birçok ümmet de yalanlamıştı. Peygambere düşen ise ancak apaçık bir tebliğdir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَإِن",
+          "translit": "waʾin",
+          "fr": "et si",
+          "racine": "و + إِنْ",
+          "frequence_coran": 170
+        },
+        {
+          "ar": "فَقَدْ",
+          "translit": "faqad",
+          "fr": "alors certes",
+          "racine": "ف + قَدْ",
+          "frequence_coran": 50
+        },
+        {
+          "ar": "كَذَّبَ",
+          "translit": "kadhdhaba",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80
+        },
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "عَلَى",
+          "translit": "ʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "الرَّسُولِ",
+          "translit": "r-rasūli",
+          "fr": "le Messager",
+          "racine": "ر-س-ل",
+          "frequence_coran": 41
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "الْبَلَٰغُ",
+          "translit": "l-balāghu",
+          "fr": "atteindre",
+          "racine": "ب-ل-غ",
+          "frequence_coran": 49
+        },
+        {
+          "ar": "الْمُبِينُ",
+          "translit": "l-mubīnu",
+          "fr": "clair",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 45
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 19,
+      "ar": "أَوَلَمْ يَرَوْاْ كَيْفَ يُبْدِئُ اللَّهُ الْخَلْقَ ثُمَّ يُعِيدُهُ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ",
+      "translit": "Awalam yaraw kayfa yubdiʾu llāhu l-khalqa thumma yuʿīduhū inna dhālika ʿalā llāhi yasīr",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "N'ont-ils pas vu comment Allah commence la création, puis la refait ? Cela est certes facile pour Allah."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Have they not seen how Allah originates creation, then repeats it? Surely that is easy for Allah."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Onlar, Allah'ın yaratmayı nasıl başlattığını, sonra onu nasıl tekrar edeceğini görmediler mi? Şüphesiz bu, Allah'a göre kolaydır."
+        }
+      },
+      "mots": [
+        {
+          "ar": "كَيْفَ",
+          "translit": "kayfa",
+          "fr": "comment ?",
+          "racine": "particule interrogative",
+          "frequence_coran": 62
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "الْخَلْقَ",
+          "translit": "l-khalqa",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261
+        },
+        {
+          "ar": "ثُمَّ",
+          "translit": "thumma",
+          "fr": "puis",
+          "racine": "particule de succession",
+          "frequence_coran": 337
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "ذَٰلِكَ",
+          "translit": "dhālika",
+          "fr": "cela",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 280
+        },
+        {
+          "ar": "عَلَى",
+          "translit": "ʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 20,
+      "ar": "قُلْ سِيرُواْ فِي الْأَرْضِ فَانظُرُواْ كَيْفَ بَدَأَ الْخَلْقَ ثُمَّ اللَّهُ يُنشِئُ النَّشْأَةَ الْأخِرَةَ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+      "translit": "Qul sīrū fī l-ʾarḍi fanẓurū kayfa badaʾa l-khalqa thumma llāhu yunshiʾu n-nashʾata l-ʾkhirata inna llāha ʿalā kulli shayʾin qadīr",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Dis : « Parcourez la terre et regardez comment Il a commencé la création. Puis Allah fera naître la génération dernière : Allah est puissant sur toute chose. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Say: 'Travel through the land and observe how He began creation. Then Allah will produce the final creation: surely Allah is over all things competent.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "De ki: 'Yeryüzünde gezip dolaşın da Allah'ın yaratmaya nasıl başladığına bakın! Sonra Allah, son yaratmayı da işte böyle yapacaktır. Şüphesiz Allah, her şeye hakkıyla gücü yetendir.'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "قُلْ",
+          "translit": "qul",
+          "fr": "dis !",
+          "racine": "ق-و-ل",
+          "frequence_coran": 263
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الْأَرْضِ",
+          "translit": "l-ʾarḍi",
+          "fr": "la terre",
+          "racine": "أ-ر-ض",
+          "frequence_coran": 219
+        },
+        {
+          "ar": "كَيْفَ",
+          "translit": "kayfa",
+          "fr": "comment ?",
+          "racine": "particule interrogative",
+          "frequence_coran": 62
+        },
+        {
+          "ar": "بَدَأَ",
+          "translit": "badaʾa",
+          "fr": "apparaître",
+          "racine": "ب-د-و",
+          "frequence_coran": 31
+        },
+        {
+          "ar": "الْخَلْقَ",
+          "translit": "l-khalqa",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261
+        },
+        {
+          "ar": "ثُمَّ",
+          "translit": "thumma",
+          "fr": "puis",
+          "racine": "particule de succession",
+          "frequence_coran": 337
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "النَّشْأَةَ",
+          "translit": "n-nashʾata",
+          "fr": "genèse",
+          "racine": "ن-ش-أ",
+          "frequence_coran": 3
+        },
+        {
+          "ar": "الْأخِرَةَ",
+          "translit": "l-ʾkhirata",
+          "fr": "l’au-delà",
+          "racine": "أ-خ-ر",
+          "frequence_coran": 55
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "اللَّهَ",
+          "translit": "llāha",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "عَلَىٰ",
+          "translit": "ʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "كُلِّ",
+          "translit": "kulli",
+          "fr": "de tout",
+          "racine": "ك-ل-ل",
+          "frequence_coran": 123
+        },
+        {
+          "ar": "شَيْءٍ",
+          "translit": "shayʾin",
+          "fr": "une chose",
+          "racine": "ش-ي-ء",
+          "frequence_coran": 179
+        },
+        {
+          "ar": "قَدِيرٌ",
+          "translit": "qadīrun",
+          "fr": "Omnipotent",
+          "racine": "ق-د-ر",
+          "frequence_coran": 45
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 21,
+      "ar": "يُعَذِّبُ مَن يَشَاءُ وَيَرْحَمُ مَن يَشَاءُ وَإِلَيْهِ تُقْلَبُونَ",
+      "translit": "Yuʿadhdhibu man yashāʾu wayarḥamu man yashāʾu waʾilayhi tuqlabūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Il châtie qui Il veut et fait miséricorde à qui Il veut ; et c'est vers Lui que vous serez ramenés."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "He punishes whom He wills and has mercy upon whom He wills; and to Him you will be returned."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Dilediğine azap eder, dilediğine de merhamet eder. Hepiniz O'na döndürüleceksiniz."
+        }
+      },
+      "mots": [
+        {
+          "ar": "مَن",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "يَشَاءُ",
+          "translit": "yashāʾu",
+          "fr": "Il veut",
+          "racine": "ش-ي-ء",
+          "frequence_coran": 108
+        },
+        {
+          "ar": "مَن",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "يَشَاءُ",
+          "translit": "yashāʾu",
+          "fr": "Il veut",
+          "racine": "ش-ي-ء",
+          "frequence_coran": 108
+        },
+        {
+          "ar": "وَإِلَيْهِ",
+          "translit": "waʾilayhi",
+          "fr": "vers lui",
+          "racine": "إِلَى + هُ",
+          "frequence_coran": 76
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 22,
+      "ar": "وَمَا أَنتُم بِمُعْجِزِينَ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَمَا لَكُم مِّن دُونِ اللَّهِ مِن وَلِيٍّ وَلَا نَصِيرٍ",
+      "translit": "Wamā antum bimuʿjizīna fī l-ʾarḍi walā fī s-samāʾi wamā lakum min dūni llāhi min waliyyin walā naṣīr",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Vous ne saurez réduire Allah à l'impuissance, ni sur terre ni au ciel ; et vous n'avez, en dehors d'Allah, ni allié ni secoureur."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And you cannot escape Him on earth or in the heaven; and you have not, besides Allah, any protector or helper."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Siz, yerde de gökte de Allah'ı âciz bırakacak değilsiniz. Sizin Allah'tan başka ne bir dostunuz ne de bir yardımcınız vardır."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "أَنتُم",
+          "translit": "antum",
+          "fr": "vous",
+          "racine": "pronom personnel",
+          "frequence_coran": 78
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الْأَرْضِ",
+          "translit": "l-ʾarḍi",
+          "fr": "la terre",
+          "racine": "أ-ر-ض",
+          "frequence_coran": 219
+        },
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "و + لَا",
+          "frequence_coran": 658
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "السَّمَاءِ",
+          "translit": "s-samāʾi",
+          "fr": "du ciel",
+          "racine": "س-م-و",
+          "frequence_coran": 81
+        },
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "لَكُم",
+          "translit": "lakum",
+          "fr": "à vous",
+          "racine": "لِ + كُمْ",
+          "frequence_coran": 294
+        },
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "دُونِ",
+          "translit": "dūni",
+          "fr": "en dehors de",
+          "racine": "د-و-ن",
+          "frequence_coran": 83
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "وَلِيٍّ",
+          "translit": "waliyyin",
+          "fr": "allié",
+          "racine": "و-ل-ي",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "و + لَا",
+          "frequence_coran": 658
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 23,
+      "ar": "وَالَّذِينَ كَفَرُواْ بِـءَايَٰتِ اللَّهِ وَلِقَائِهِ أُوْلَـٰئِكَ يَئِسُواْ مِن رَّحْمَتِي وَأُوْلَـٰئِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "translit": "Walladhīna kafarū biʾāyāti llāhi waliqāʾihī ūlāʾika yaʾisū min raḥmatī waʾūlāʾika lahum ʿadhābun alīm",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ceux qui mécroient aux signes d'Allah et à Sa rencontre : ceux-là désespèrent de Ma miséricorde, et ceux-là auront un châtiment douloureux."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And those who disbelieve in the signs of Allah and the meeting with Him — those have despaired of My mercy, and those will have a painful punishment."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah'ın âyetlerini ve O'na kavuşmayı inkâr edenler var ya, işte onlar benim rahmetimden ümitlerini kesmişlerdir. İşte onlar için elem verici bir azap vardır."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَالَّذِينَ",
+          "translit": "walladhīna",
+          "fr": "et ceux qui",
+          "racine": "و + pronom relatif",
+          "frequence_coran": 164
+        },
+        {
+          "ar": "كَفَرُواْ",
+          "translit": "kafarū",
+          "fr": "ils ont mécru",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 189
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "أُوْلَـٰئِكَ",
+          "translit": "ūlāʾika",
+          "fr": "ceux-là",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 133
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "وَأُوْلَـٰئِكَ",
+          "translit": "waʾūlāʾika",
+          "fr": "ceux-là",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 133
+        },
+        {
+          "ar": "لَهُمْ",
+          "translit": "lahum",
+          "fr": "à eux",
+          "racine": "لِ + هُمْ",
+          "frequence_coran": 325
+        },
+        {
+          "ar": "عَذَابٌ",
+          "translit": "ʿadhābun",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 24,
+      "ar": "فَمَا كَانَ جَوَابَ قَوْمِهِ إِلَّا أَن قَالُواْ اقْتُلُوهُ أَوْ حَرِّقُوهُ فَأَنجَىٰهُ اللَّهُ مِنَ النَّارِ إِنَّ فِي ذَٰلِكَ لَأيَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "translit": "Famā kāna jawāba qawmihī illā an qālū qtulūhu aw ḥarriqūhu faʾanjāhu llāhu mina n-nāri inna fī dhālika laʾyātin liqawmin yuʾminūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "La seule réponse de son peuple fut de dire : « Tuez-le, ou brûlez-le ! » Mais Allah le sauva du feu. Il y a bien là des signes pour des gens qui croient."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And the answer of his people was not except that they said: 'Kill him or burn him!' But Allah saved him from the fire. Surely in that are signs for a people who believe."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İbrahim'in kavminin cevabı ise sadece: 'Onu öldürün yahut yakın!' demek oldu. Ama Allah onu ateşten kurtardı. Şüphesiz bunda, inanan bir toplum için ibretler vardır."
+        }
+      },
+      "mots": [
+        {
+          "ar": "فَمَا",
+          "translit": "famā",
+          "fr": "alors quoi",
+          "racine": "ف + مَا",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "كَانَ",
+          "translit": "kāna",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "قَالُواْ",
+          "translit": "qālū",
+          "fr": "ils ont dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 250
+        },
+        {
+          "ar": "أَوْ",
+          "translit": "aw",
+          "fr": "ou",
+          "racine": "particule de choix",
+          "frequence_coran": 264
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "مِنَ",
+          "translit": "mina",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "النَّارِ",
+          "translit": "n-nāri",
+          "fr": "le Feu",
+          "racine": "ن-و-ر",
+          "frequence_coran": 70
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "ذَٰلِكَ",
+          "translit": "dhālika",
+          "fr": "cela",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 280
+        },
+        {
+          "ar": "لِّقَوْمٍ",
+          "translit": "liqawmin",
+          "fr": "pour un peuple",
+          "racine": "ق-و-م",
+          "frequence_coran": 51
+        },
+        {
+          "ar": "يُؤْمِنُونَ",
+          "translit": "yuʾminūna",
+          "fr": "ils croient",
+          "racine": "أ-م-ن",
+          "frequence_coran": 86
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 25,
+      "ar": "وَقَالَ إِنَّمَا اتَّخَذْتُم مِّن دُونِ اللَّهِ أَوْثَٰنًا مَّوَدَّةَ بَيْنِكُمْ فِي الْحَيَوٰةِ الدُّنْيَا ثُمَّ يَوْمَ الْقِيَٰمَةِ يَكْفُرُ بَعْضُكُم بِبَعْضٍ وَيَلْعَنُ بَعْضُكُم بَعْضًا وَمَأْوَىٰكُمُ النَّارُ وَمَا لَكُم مِّن نَّـٰصِرِينَ",
+      "translit": "Waqāla innamā ttakhadhtum min dūni llāhi awthānan mawaddata baynikum fī l-ḥayawāti d-dunyā thumma yawma l-qiyāmati yakfuru baʿḍukum bibaʿḍin wayalʿanu baʿḍukum baʿḍan wamaʾwākumu n-nāru wamā lakum min nāṣirīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Il dit : « Vous n'avez pris, en dehors d'Allah, des idoles que par affection mutuelle dans la vie d'ici-bas. Puis, au Jour de la Résurrection, vous vous renierez et vous maudirez les uns les autres ; votre refuge sera le Feu, et vous n'aurez point de secoureurs. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And he said: 'You have only taken, other than Allah, idols out of affection among you in the worldly life. Then on the Day of Resurrection you will deny one another and curse one another; and your refuge will be the Fire, and you will have no helpers.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İbrahim dedi ki: 'Sizler, sadece dünya hayatında aranızdaki sevgi bağı uğruna Allah'ı bırakıp birtakım putlar edindiniz. Sonra kıyamet gününde kiminiz kiminizi inkâr edip lânetleyecektir. Barınağınız da ateş olacaktır. Hiçbir yardımcınız da olmayacaktır.'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَقَالَ",
+          "translit": "waqāla",
+          "fr": "et il a dit",
+          "racine": "و + ق-و-ل",
+          "frequence_coran": 85
+        },
+        {
+          "ar": "إِنَّمَا",
+          "translit": "innamā",
+          "fr": "seulement",
+          "racine": "particule de restriction",
+          "frequence_coran": 113
+        },
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "دُونِ",
+          "translit": "dūni",
+          "fr": "en dehors de",
+          "racine": "د-و-ن",
+          "frequence_coran": 83
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "مَّوَدَّةَ",
+          "translit": "mawaddata",
+          "fr": "affection",
+          "racine": "و-د-د",
+          "frequence_coran": 7
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الدُّنْيَا",
+          "translit": "d-dunyā",
+          "fr": "la vie d’ici-bas",
+          "racine": "د-ن-و",
+          "frequence_coran": 115
+        },
+        {
+          "ar": "ثُمَّ",
+          "translit": "thumma",
+          "fr": "puis",
+          "racine": "particule de succession",
+          "frequence_coran": 337
+        },
+        {
+          "ar": "يَوْمَ",
+          "translit": "yawma",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405
+        },
+        {
+          "ar": "النَّارُ",
+          "translit": "n-nāru",
+          "fr": "le Feu",
+          "racine": "ن-و-ر",
+          "frequence_coran": 70
+        },
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "لَكُم",
+          "translit": "lakum",
+          "fr": "à vous",
+          "racine": "لِ + كُمْ",
+          "frequence_coran": 294
+        },
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 26,
+      "ar": "فَـءَامَنَ لَهُ لُوطٌ وَقَالَ إِنِّي مُهَاجِرٌ إِلَىٰ رَبِّي إِنَّهُ هُوَ الْعَزِيزُ الْحَكِيمُ",
+      "translit": "Faʾāmana lahū lūṭun waqāla innī muhājirun ilā rabbī innahū huwa l-ʿazīzu l-ḥakīm",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Lot crut en lui, et il dit : « J'émigre vers mon Seigneur : c'est Lui le Puissant, le Sage. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And Lot believed in him. And he said: 'I will emigrate to my Lord: surely He is the Mighty, the Wise.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Bunun üzerine Lût, ona iman etti. İbrahim: 'Ben Rabbime hicret ediyorum. Şüphesiz O, mutlak güç sahibidir, hüküm ve hikmet sahibidir' dedi."
+        }
+      },
+      "mots": [
+        {
+          "ar": "لَهُ",
+          "translit": "lahū",
+          "fr": "à lui",
+          "racine": "لِ + هُ",
+          "frequence_coran": 275
+        },
+        {
+          "ar": "لُوطٌ",
+          "translit": "lūṭun",
+          "fr": "Loth",
+          "racine": "—",
+          "frequence_coran": 27
+        },
+        {
+          "ar": "وَقَالَ",
+          "translit": "waqāla",
+          "fr": "et il a dit",
+          "racine": "و + ق-و-ل",
+          "frequence_coran": 85
+        },
+        {
+          "ar": "إِنِّي",
+          "translit": "innī",
+          "fr": "certes moi",
+          "racine": "إِنَّ + ي",
+          "frequence_coran": 131
+        },
+        {
+          "ar": "إِلَىٰ",
+          "translit": "ilā",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742
+        },
+        {
+          "ar": "رَبِّي",
+          "translit": "rabbī",
+          "fr": "mon Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 91
+        },
+        {
+          "ar": "إِنَّهُ",
+          "translit": "innahū",
+          "fr": "certes il",
+          "racine": "إِنَّ + هُ",
+          "frequence_coran": 147
+        },
+        {
+          "ar": "هُوَ",
+          "translit": "huwa",
+          "fr": "il",
+          "racine": "pronom personnel",
+          "frequence_coran": 265
+        },
+        {
+          "ar": "الْعَزِيزُ",
+          "translit": "l-ʿazīzu",
+          "fr": "Le Puissant",
+          "racine": "ع-ز-ز",
+          "frequence_coran": 46
+        },
+        {
+          "ar": "الْحَكِيمُ",
+          "translit": "l-ḥakīmu",
+          "fr": "Le Sage",
+          "racine": "ح-ك-م",
+          "frequence_coran": 42
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 27,
+      "ar": "وَوَهَبْنَا لَهُ إِسْحَٰقَ وَيَعْقُوبَ وَجَعَلْنَا فِي ذُرِّيَّتِهِ النُّبُوَّةَ وَالْكِتَٰبَ وَءَاتَيْنَٰهُ أَجْرَهُ فِي الدُّنْيَا وَإِنَّهُ فِي الْأخِرَةِ لَمِنَ الصَّـٰلِحِينَ",
+      "translit": "Wawahabnā lahū isḥāqa wayaʿqūba wajaʿalnā fī dhurriyyatihi n-nubuwwata wal-kitāba waʾātaynāhu ajrahū fī d-dunyā waʾinnahū fī l-ʾkhirati lamina ṣ-ṣāliḥīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Nous lui donnâmes Isaac et Jacob, et établîmes dans sa descendance la prophétie et le Livre. Nous lui accordâmes sa récompense ici-bas, et dans l'au-delà il sera parmi les vertueux."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And We gave him Isaac and Jacob, and placed in his descendants prophethood and the Book. And We gave him his reward in this world, and in the Hereafter he will be among the righteous."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ona İshak'ı ve Yakub'u bağışladık. Onun soyundan gelenlere de peygamberlik ve kitap verdik. Ona dünyada mükâfatını verdik. Şüphesiz o, ahirette de salihlerdendir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "لَهُ",
+          "translit": "lahū",
+          "fr": "à lui",
+          "racine": "لِ + هُ",
+          "frequence_coran": 275
+        },
+        {
+          "ar": "وَيَعْقُوبَ",
+          "translit": "wayaʿqūba",
+          "fr": "Jacob (prophète)",
+          "racine": "—",
+          "frequence_coran": 16
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الدُّنْيَا",
+          "translit": "d-dunyā",
+          "fr": "la vie d’ici-bas",
+          "racine": "د-ن-و",
+          "frequence_coran": 115
+        },
+        {
+          "ar": "وَإِنَّهُ",
+          "translit": "waʾinnahū",
+          "fr": "certes il",
+          "racine": "إِنَّ + هُ",
+          "frequence_coran": 147
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الْأخِرَةِ",
+          "translit": "l-ʾkhirati",
+          "fr": "l’au-delà",
+          "racine": "أ-خ-ر",
+          "frequence_coran": 55
+        },
+        {
+          "ar": "لَمِنَ",
+          "translit": "lamina",
+          "fr": "pour celui qui",
+          "racine": "لِ + مَنْ",
+          "frequence_coran": 55
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 28,
+      "ar": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِ إِنَّكُمْ لَتَأْتُونَ الْفَٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ الْعَٰلَمِينَ",
+      "translit": "Walūṭan idh qāla liqawmihī innakum lataʾtūna l-fāḥishata mā sabaqakum bihā min aḥadin mina l-ʿālamīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et Lot, quand il dit à son peuple : « Vous commettez la turpitude qu'aucun peuple, avant vous, dans les mondes, n'a jamais commise !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And Lot, when he said to his people: 'Indeed, you commit such immorality as no one has preceded you with from among the worlds!'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Lût'u da gönderdik. Hani o, kavmine şöyle demişti: 'Gerçekten siz, sizden önce âlemlerden hiç kimsenin yapmadığı bir hayâsızlığı işliyorsunuz.'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "إِذْ",
+          "translit": "idh",
+          "fr": "quand",
+          "racine": "particule temporelle",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "قَالَ",
+          "translit": "qāla",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010
+        },
+        {
+          "ar": "بِهَا",
+          "translit": "bihā",
+          "fr": "par elle",
+          "racine": "بِ + هَا",
+          "frequence_coran": 79
+        },
+        {
+          "ar": "مِنْ",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "أَحَدٍ",
+          "translit": "aḥadin",
+          "fr": "un",
+          "racine": "أ-ح-د",
+          "frequence_coran": 85
+        },
+        {
+          "ar": "مِّنَ",
+          "translit": "mina",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 29,
+      "ar": "أَئِنَّكُمْ لَتَأْتُونَ الرِّجَالَ وَتَقْطَعُونَ السَّبِيلَ وَتَأْتُونَ فِي نَادِيكُمُ الْمُنكَرَ فَمَا كَانَ جَوَابَ قَوْمِهِ إِلَّا أَن قَالُواْ ائْتِنَا بِعَذَابِ اللَّهِ إِن كُنتَ مِنَ الصَّـٰدِقِينَ",
+      "translit": "Aʾinnakum lataʾtūna r-rijāla wataqṭaʿūna s-sabīla wataʾtūna fī nādīkumu l-munkara famā kāna jawāba qawmihī illā an qālū ʾtinā biʿadhābi llāhi in kunta mina ṣ-ṣādiqīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Vous approchez-vous des hommes ? Vous coupez-vous la route ? Et vous commettez le blâmable dans vos assemblées ? » La seule réponse de son peuple fut de dire : « Amène-nous le châtiment d'Allah, si tu es des véridiques ! »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "'Do you indeed approach men, and cut off the road, and commit in your gatherings what is objectionable?' And the answer of his people was not except that they said: 'Bring us the punishment of Allah, if you are of the truthful!'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "'Siz hâlâ erkeklere yaklaşacak, yol kesecek ve toplantılarınızda çirkin işler yapacak mısınız?' Kavminin cevabı ise sadece: 'Eğer doğru söyleyenlerden isen, haydi Allah'ın azabını getir bize!' demek oldu."
+        }
+      },
+      "mots": [
+        {
+          "ar": "السَّبِيلَ",
+          "translit": "s-sabīla",
+          "fr": "chemin",
+          "racine": "س-ب-ل",
+          "frequence_coran": 176
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الْمُنكَرَ",
+          "translit": "l-munkara",
+          "fr": "blâmable",
+          "racine": "ن-ك-ر",
+          "frequence_coran": 16
+        },
+        {
+          "ar": "فَمَا",
+          "translit": "famā",
+          "fr": "alors quoi",
+          "racine": "ف + مَا",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "كَانَ",
+          "translit": "kāna",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "قَالُواْ",
+          "translit": "qālū",
+          "fr": "ils ont dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 250
+        },
+        {
+          "ar": "بِعَذَابِ",
+          "translit": "biʿadhābi",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "إِن",
+          "translit": "in",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "مِنَ",
+          "translit": "mina",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 30,
+      "ar": "قَالَ رَبِّ انصُرْنِي عَلَى الْقَوْمِ الْمُفْسِدِينَ",
+      "translit": "Qāla rabbi nṣurnī ʿalā l-qawmi l-mufsidīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Il dit : « Seigneur, secours-moi contre ce peuple corrupteur ! »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "He said: 'My Lord, support me against the corrupting people!'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Lût: 'Ey Rabbim! Şu bozguncu kavme karşı bana yardım et!' dedi."
+        }
+      },
+      "mots": [
+        {
+          "ar": "قَالَ",
+          "translit": "qāla",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722
+        },
+        {
+          "ar": "رَبِّ",
+          "translit": "rabbi",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980
+        },
+        {
+          "ar": "عَلَى",
+          "translit": "ʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "الْقَوْمِ",
+          "translit": "l-qawmi",
+          "fr": "mon peuple",
+          "racine": "ق-و-م",
+          "frequence_coran": 58
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 31,
+      "ar": "وَلَمَّا جَاءَتْ رُسُلُنَا إِبْرَٰهِيمَ بِالْبُشْرَىٰ قَالُواْ إِنَّا مُهْلِكُواْ أَهْلِ هَٰذِهِ الْقَرْيَةِ إِنَّ أَهْلَهَا كَانُواْ ظَٰلِمِينَ",
+      "translit": "Walammā jāʾat rusulunā ibrāhīma bil-bushrā qālū innā muhlikū ahli hādhihi l-qaryati inna ahlahā kānū ẓālimīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Quand Nos messagers vinrent à Abraham avec la bonne nouvelle, ils dirent : « Nous allons détruire les habitants de cette cité : ses habitants sont des injustes. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And when Our messengers came to Abraham with the good tidings, they said: 'Surely we will destroy the people of this city: its people have been wrongdoers.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Elçilerimiz İbrahim'e müjdeyi getirdiklerinde: 'Biz, şu memleket halkını helâk edeceğiz. Çünkü oranın halkı zalim kimselerdir' dediler."
+        }
+      },
+      "mots": [
+        {
+          "ar": "قَالُواْ",
+          "translit": "qālū",
+          "fr": "ils ont dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 250
+        },
+        {
+          "ar": "إِنَّا",
+          "translit": "innā",
+          "fr": "certes Nous",
+          "racine": "إِنَّ + نَا",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "هَٰذِهِ",
+          "translit": "hādhihi",
+          "fr": "celle-ci",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 46
+        },
+        {
+          "ar": "الْقَرْيَةِ",
+          "translit": "l-qaryati",
+          "fr": "cité",
+          "racine": "ق-ر-ي",
+          "frequence_coran": 56
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "كَانُواْ",
+          "translit": "kānū",
+          "fr": "ils étaient",
+          "racine": "ك-و-ن",
+          "frequence_coran": 229
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 32,
+      "ar": "قَالَ إِنَّ فِيهَا لُوطًا قَالُواْ نَحْنُ أَعْلَمُ بِمَن فِيهَا لَنُنَجِّيَنَّهُ وَأَهْلَهُ إِلَّا امْرَأَتَهُ كَانَتْ مِنَ الْغَٰبِرِينَ",
+      "translit": "Qāla inna fīhā lūṭan qālū naḥnu aʿlamu biman fīhā lanunajjiyannahū waʾahlahū illā mraʾatahū kānat mina l-ghābirīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Il dit : « Mais Lot y est ! » Ils dirent : « Nous savons mieux qui s'y trouve : nous le sauverons, lui et sa famille — sauf sa femme, qui sera parmi ceux qui demeurent en arrière. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "He said: 'But Lot is there!' They said: 'We know better who is in it. We will surely save him and his family, except his wife: she will be among those who remain behind.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İbrahim: 'Ama orada Lût var!' dedi. Onlar: 'Biz, orada kimlerin bulunduğunu çok iyi biliyoruz. Onu ve ailesini elbette kurtaracağız. Ancak karısı müstesna; o, geride kalanlardan olacaktır' dediler."
+        }
+      },
+      "mots": [
+        {
+          "ar": "قَالَ",
+          "translit": "qāla",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "فِيهَا",
+          "translit": "fīhā",
+          "fr": "en elle",
+          "racine": "فِي + هَا",
+          "frequence_coran": 241
+        },
+        {
+          "ar": "قَالُواْ",
+          "translit": "qālū",
+          "fr": "ils ont dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 250
+        },
+        {
+          "ar": "نَحْنُ",
+          "translit": "naḥnu",
+          "fr": "nous",
+          "racine": "pronom personnel",
+          "frequence_coran": 65
+        },
+        {
+          "ar": "أَعْلَمُ",
+          "translit": "aʿlamu",
+          "fr": "Je sais",
+          "racine": "ع-ل-م",
+          "frequence_coran": 55
+        },
+        {
+          "ar": "بِمَن",
+          "translit": "biman",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "فِيهَا",
+          "translit": "fīhā",
+          "fr": "en elle",
+          "racine": "فِي + هَا",
+          "frequence_coran": 241
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "كَانَتْ",
+          "translit": "kānat",
+          "fr": "toi",
+          "racine": "pronom personnel",
+          "frequence_coran": 55
+        },
+        {
+          "ar": "مِنَ",
+          "translit": "mina",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 33,
+      "ar": "وَلَمَّا أَن جَاءَتْ رُسُلُنَا لُوطًا سِيءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالُواْ لَا تَخَفْ وَلَا تَحْزَنْ إِنَّا مُنَجُّوكَ وَأَهْلَكَ إِلَّا امْرَأَتَكَ كَانَتْ مِنَ الْغَٰبِرِينَ",
+      "translit": "Walammā an jāʾat rusulunā lūṭan sīʾa bihim waḍāqa bihim dharʿan waqālū lā takhaf walā taḥzan innā munajjūka waʾahlaka illā mraʾataka kānat mina l-ghābirīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et quand Nos messagers vinrent à Lot, il fut affligé pour eux et se sentit incapable de les protéger. Ils dirent : « Ne crains pas et ne t'afflige pas : nous te sauverons, toi et ta famille — sauf ta femme, qui sera parmi ceux qui demeurent en arrière."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And when Our messengers came to Lot, he was distressed for them and felt unable to protect them. They said: 'Do not fear, nor grieve: we will save you and your family, except your wife: she will be among those who remain behind.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Elçilerimiz Lût'a geldiklerinde, Lût, onlar yüzünden tasalandı ve onları korumaktan âciz kaldı. Elçiler: 'Korkma, üzülme! Biz seni ve aileni kurtaracağız. Ancak karın müstesna; o, geride kalanlardan olacaktır' dediler."
+        }
+      },
+      "mots": [
+        {
+          "ar": "أَن",
+          "translit": "an",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "بِهِمْ",
+          "translit": "bihim",
+          "fr": "eux",
+          "racine": "pronom personnel",
+          "frequence_coran": 180
+        },
+        {
+          "ar": "وَضَاقَ",
+          "translit": "waḍāqa",
+          "fr": "être à l'étroit",
+          "racine": "ض-ي-ق",
+          "frequence_coran": 5
+        },
+        {
+          "ar": "بِهِمْ",
+          "translit": "bihim",
+          "fr": "eux",
+          "racine": "pronom personnel",
+          "frequence_coran": 180
+        },
+        {
+          "ar": "وَقَالُواْ",
+          "translit": "waqālū",
+          "fr": "et ils dirent",
+          "racine": "ق-و-ل",
+          "frequence_coran": 61
+        },
+        {
+          "ar": "لَا",
+          "translit": "lā",
+          "fr": "non",
+          "racine": "particule",
+          "frequence_coran": 812
+        },
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "و + لَا",
+          "frequence_coran": 658
+        },
+        {
+          "ar": "إِنَّا",
+          "translit": "innā",
+          "fr": "certes Nous",
+          "racine": "إِنَّ + نَا",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "كَانَتْ",
+          "translit": "kānat",
+          "fr": "toi",
+          "racine": "pronom personnel",
+          "frequence_coran": 55
+        },
+        {
+          "ar": "مِنَ",
+          "translit": "mina",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 34,
+      "ar": "إِنَّا مُنزِلُونَ عَلَىٰ أَهْلِ هَٰذِهِ الْقَرْيَةِ رِجْزًا مِّنَ السَّمَاءِ بِمَا كَانُواْ يَفْسُقُونَ",
+      "translit": "Innā munzilūna ʿalā ahli hādhihi l-qaryati rijzan mina s-samāʾi bimā kānū yafsuqūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Nous allons faire descendre sur les habitants de cette cité un châtiment du ciel, pour leur perversité. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "'Indeed, we will bring down on the people of this city a punishment from the sky, because they were defiantly disobedient.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "'Şüphesiz biz, bu memleket halkının üzerine, yoldan çıkmalarına karşılık gökten bir azap indireceğiz.'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "إِنَّا",
+          "translit": "innā",
+          "fr": "certes Nous",
+          "racine": "إِنَّ + نَا",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "عَلَىٰ",
+          "translit": "ʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "هَٰذِهِ",
+          "translit": "hādhihi",
+          "fr": "celle-ci",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 46
+        },
+        {
+          "ar": "الْقَرْيَةِ",
+          "translit": "l-qaryati",
+          "fr": "cité",
+          "racine": "ق-ر-ي",
+          "frequence_coran": 56
+        },
+        {
+          "ar": "مِّنَ",
+          "translit": "mina",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "السَّمَاءِ",
+          "translit": "s-samāʾi",
+          "fr": "du ciel",
+          "racine": "س-م-و",
+          "frequence_coran": 81
+        },
+        {
+          "ar": "بِمَا",
+          "translit": "bimā",
+          "fr": "par ce que",
+          "racine": "بِ + مَا",
+          "frequence_coran": 296
+        },
+        {
+          "ar": "كَانُواْ",
+          "translit": "kānū",
+          "fr": "ils étaient",
+          "racine": "ك-و-ن",
+          "frequence_coran": 229
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 35,
+      "ar": "وَلَقَد تَّرَكْنَا مِنْهَا ءَايَةً بَيِّنَةً لِّقَوْمٍ يَعْقِلُونَ",
+      "translit": "Walaqad taraknā minhā āyata bayyinatan liqawmin yaʿqilūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et Nous en avons laissé un signe évident pour des gens qui raisonnent."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And We have left of it a clear sign for a people who reason."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Andolsun ki Biz, aklını kullanacak bir kavim için oradan apaçık bir ibret bıraktık."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَقَد",
+          "translit": "walaqad",
+          "fr": "et certes",
+          "racine": "و + لَ + قَدْ",
+          "frequence_coran": 124
+        },
+        {
+          "ar": "مِنْهَا",
+          "translit": "minhā",
+          "fr": "d’elle",
+          "racine": "مِن + هَا",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "بَيِّنَةً",
+          "translit": "bayyinatan",
+          "fr": "preuve évidente",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 28
+        },
+        {
+          "ar": "لِّقَوْمٍ",
+          "translit": "liqawmin",
+          "fr": "pour un peuple",
+          "racine": "ق-و-م",
+          "frequence_coran": 51
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 36,
+      "ar": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا فَقَالَ يَٰقَوْمِ اعْبُدُواْ اللَّهَ وَارْجُواْ الْيَوْمَ الْأخِرَ وَلَا تَعْثَوْاْ فِي الْأَرْضِ مُفْسِدِينَ",
+      "translit": "Waʾilā madyana akhāhum shuʿayban faqāla yāqawmi ʿbudū llāha warjū l-yawma l-ʾkhira walā taʿthaw fī l-ʾarḍi mufsidīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et vers Madyan, leur frère Chuʿayb : il dit : « Ô mon peuple, adorez Allah, espérez le Jour dernier, et ne semez pas la corruption sur terre. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And to Madyan their brother Shu'ayb, and he said: 'O my people, worship Allah and expect the Last Day, and do not commit abuse on the earth, spreading corruption.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Medyen'e de kardeşleri Şuayb'i gönderdik. O şöyle dedi: 'Ey kavmim! Allah'a kulluk edin, ahiret gününü umun ve yeryüzünde bozgunculuk yaparak karışıklık çıkarmayın!'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَإِلَىٰ",
+          "translit": "waʾilā",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742
+        },
+        {
+          "ar": "مَدْيَنَ",
+          "translit": "madyana",
+          "fr": "Madyan (peuple)",
+          "racine": "—",
+          "frequence_coran": 10
+        },
+        {
+          "ar": "فَقَالَ",
+          "translit": "faqāla",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722
+        },
+        {
+          "ar": "اللَّهَ",
+          "translit": "llāha",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "الْيَوْمَ",
+          "translit": "l-yawma",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405
+        },
+        {
+          "ar": "الْأخِرَ",
+          "translit": "l-ʾkhira",
+          "fr": "dernier",
+          "racine": "أ-خ-ر",
+          "frequence_coran": 40
+        },
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "و + لَا",
+          "frequence_coran": 658
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الْأَرْضِ",
+          "translit": "l-ʾarḍi",
+          "fr": "la terre",
+          "racine": "أ-ر-ض",
+          "frequence_coran": 219
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 37,
+      "ar": "فَكَذَّبُوهُ فَأَخَذَتْهُمُ الرَّجْفَةُ فَأَصْبَحُواْ فِي دَارِهِمْ جَٰثِمِينَ",
+      "translit": "Fakadhdhabūhu faʾakhadhathumu r-rajfatu faʾaṣbaḥū fī dārihim jāthimīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Mais ils le traitèrent de menteur : le cataclysme les saisit, et les voilà, dans leurs demeures, gisant sans vie."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "But they denied him, so the earthquake seized them, and they became within their home fallen prostrate."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Onu yalanladılar. Bunun üzerine kendilerini o müthiş sarsıntı yakaladı da yurtlarında diz üstü çökekaldılar."
+        }
+      },
+      "mots": [
+        {
+          "ar": "الرَّجْفَةُ",
+          "translit": "r-rajfatu",
+          "fr": "tremblement",
+          "racine": "ر-ج-ف",
+          "frequence_coran": 6
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 38,
+      "ar": "وَعَادًا وَثَمُودَاْ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ وَزَيَّنَ لَهُمُ الشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ السَّبِيلِ وَكَانُواْ مُسْتَبْصِرِينَ",
+      "translit": "Waʿādan wathamūdā waqad tabayyana lakum min masākinihim wazayyana lahumu sh-shayṭānu aʿmālahum faṣaddahum ʿani s-sabīli wakānū mustabṣirīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et les ʿĀd et les Thamūd — cela vous apparaît clairement d'après leurs demeures. Satan leur avait embelli leurs œuvres et les avait détournés du chemin, bien qu'ils fussent clairvoyants."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And 'Aad and Thamud — it has become clear to you from their dwellings. And Satan made their deeds attractive to them and averted them from the path, though they were discerning."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Âd ve Semûd kavimlerini de helâk ettik. Bu, onların kalıntılarından size besbelli olmuştur. Şeytan, onlara amellerini süslü gösterip onları doğru yoldan çıkardı. Oysa onlar gören kimselerdi."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَقَد",
+          "translit": "waqad",
+          "fr": "et certes",
+          "racine": "و + قَدْ",
+          "frequence_coran": 43
+        },
+        {
+          "ar": "لَكُم",
+          "translit": "lakum",
+          "fr": "à vous",
+          "racine": "لِ + كُمْ",
+          "frequence_coran": 294
+        },
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "لَهُمُ",
+          "translit": "lahumu",
+          "fr": "à eux",
+          "racine": "لِ + هُمْ",
+          "frequence_coran": 325
+        },
+        {
+          "ar": "عَنِ",
+          "translit": "ʿani",
+          "fr": "de",
+          "racine": "préposition",
+          "frequence_coran": 153
+        },
+        {
+          "ar": "السَّبِيلِ",
+          "translit": "s-sabīli",
+          "fr": "chemin",
+          "racine": "س-ب-ل",
+          "frequence_coran": 176
+        },
+        {
+          "ar": "وَكَانُواْ",
+          "translit": "wakānū",
+          "fr": "ils étaient",
+          "racine": "ك-و-ن",
+          "frequence_coran": 229
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 39,
+      "ar": "وَقَٰرُونَ وَفِرْعَوْنَ وَهَٰمَٰنَ وَلَقَدْ جَاءَهُم مُّوسَىٰ بِالْبَيِّنَٰتِ فَاسْتَكْبَرُواْ فِي الْأَرْضِ وَمَا كَانُواْ سَٰبِقِينَ",
+      "translit": "Waqārūna wafirʿawna wahāmāna walaqad jāʾahum mūsā bil-bayyināti fastakbarū fī l-ʾarḍi wamā kānū sābiqīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et Coré, Pharaon et Hāmān : Moïse leur vint avec les preuves ; mais ils s'enflèrent d'orgueil sur terre — pourtant ils ne pouvaient Nous devancer."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And Korah, Pharaoh, and Haman: and Moses had already come to them with clear evidences, but they were arrogant in the land, and they were not to outrun Us."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Kârûn'u, Firavun'u ve Hâmân'ı da helâk ettik. Andolsun, Musa onlara apaçık deliller getirmişti de yeryüzünde büyüklük taslamışlardı. Oysa bizi geçip kaçamazlardı."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَفِرْعَوْنَ",
+          "translit": "wafirʿawna",
+          "fr": "Pharaon",
+          "racine": "nom propre",
+          "frequence_coran": 48
+        },
+        {
+          "ar": "وَلَقَدْ",
+          "translit": "walaqad",
+          "fr": "et certes",
+          "racine": "و + لَ + قَدْ",
+          "frequence_coran": 124
+        },
+        {
+          "ar": "مُّوسَىٰ",
+          "translit": "mūsā",
+          "fr": "Moïse",
+          "racine": "nom propre",
+          "frequence_coran": 129
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الْأَرْضِ",
+          "translit": "l-ʾarḍi",
+          "fr": "la terre",
+          "racine": "أ-ر-ض",
+          "frequence_coran": 219
+        },
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "كَانُواْ",
+          "translit": "kānū",
+          "fr": "ils étaient",
+          "racine": "ك-و-ن",
+          "frequence_coran": 229
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 40,
+      "ar": "فَكُلًّا أَخَذْنَا بِذَنبِهِ فَمِنْهُم مَّنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًا وَمِنْهُم مَّنْ أَخَذَتْهُ الصَّيْحَةُ وَمِنْهُم مَّنْ خَسَفْنَا بِهِ الْأَرْضَ وَمِنْهُم مَّنْ أَغْرَقْنَا وَمَا كَانَ اللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُواْ أَنفُسَهُمْ يَظْلِمُونَ",
+      "translit": "Fakullan akhadhnā bidhanbihī faminhum man arsalnā ʿalayhi ḥāṣiban waminhum man akhadhathu ṣ-ṣayḥatu waminhum man khasafnā bihi l-ʾarḍa waminhum man aghraqnā wamā kāna llāhu liyaẓlimahum walākin kānū anfusahum yaẓlimūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Chacun, Nous le saisîmes pour son péché : il en est sur qui Nous envoyâmes un ouragan de pierres, il en est que le Cri saisit, il en est que Nous fîmes engloutir par la terre, et il en est que Nous noyâmes. Ce n'est pas Allah qui les lésa, mais c'est à eux-mêmes qu'ils faisaient du tort."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "So each We seized for his sin: among them was he upon whom We sent a storm of stones, and among them was he who was seized by the blast, and among them was he whom We caused the earth to swallow, and among them was he whom We drowned. And Allah did not wrong them, but they wronged themselves."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Bunların her birini kendi günahı sebebiyle yakaladık. Kimisinin üzerine taş yağdıran bir rüzgâr gönderdik. Kimisini korkunç bir ses yakaladı. Kimisini yerin dibine geçirdik. Kimisini de suda boğduk. Allah onlara zulmediyor değildi; fakat onlar kendilerine zulmediyorlardı."
+        }
+      },
+      "mots": [
+        {
+          "ar": "فَكُلًّا",
+          "translit": "fakullan",
+          "fr": "que non !",
+          "racine": "—",
+          "frequence_coran": 8
+        },
+        {
+          "ar": "فَمِنْهُم",
+          "translit": "faminhum",
+          "fr": "d’eux",
+          "racine": "مِن + هُمْ",
+          "frequence_coran": 145
+        },
+        {
+          "ar": "مَّنْ",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "أَرْسَلْنَا",
+          "translit": "arsalnā",
+          "fr": "Nous avons envoyé",
+          "racine": "ر-س-ل",
+          "frequence_coran": 48
+        },
+        {
+          "ar": "عَلَيْهِ",
+          "translit": "ʿalayhi",
+          "fr": "sur lui",
+          "racine": "عَلَى + هُ",
+          "frequence_coran": 145
+        },
+        {
+          "ar": "وَمِنْهُم",
+          "translit": "waminhum",
+          "fr": "d’eux",
+          "racine": "مِن + هُمْ",
+          "frequence_coran": 145
+        },
+        {
+          "ar": "مَّنْ",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "الصَّيْحَةُ",
+          "translit": "ṣ-ṣayḥatu",
+          "fr": "cri (fulgurant)",
+          "racine": "ص-ي-ح",
+          "frequence_coran": 6
+        },
+        {
+          "ar": "وَمِنْهُم",
+          "translit": "waminhum",
+          "fr": "d’eux",
+          "racine": "مِن + هُمْ",
+          "frequence_coran": 145
+        },
+        {
+          "ar": "مَّنْ",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "بِهِ",
+          "translit": "bihi",
+          "fr": "par lui",
+          "racine": "بِ + هُ",
+          "frequence_coran": 327
+        },
+        {
+          "ar": "الْأَرْضَ",
+          "translit": "l-ʾarḍa",
+          "fr": "la terre",
+          "racine": "أ-ر-ض",
+          "frequence_coran": 219
+        },
+        {
+          "ar": "وَمِنْهُم",
+          "translit": "waminhum",
+          "fr": "d’eux",
+          "racine": "مِن + هُمْ",
+          "frequence_coran": 145
+        },
+        {
+          "ar": "مَّنْ",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "كَانَ",
+          "translit": "kāna",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "وَلَٰكِن",
+          "translit": "walākin",
+          "fr": "mais",
+          "racine": "و + لَكِنْ",
+          "frequence_coran": 57
+        },
+        {
+          "ar": "كَانُواْ",
+          "translit": "kānū",
+          "fr": "ils étaient",
+          "racine": "ك-و-ن",
+          "frequence_coran": 229
+        },
+        {
+          "ar": "أَنفُسَهُمْ",
+          "translit": "anfusahum",
+          "fr": "leurs âmes",
+          "racine": "ن-ف-س",
+          "frequence_coran": 49
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 41,
+      "ar": "مَثَلُ الَّذِينَ اتَّخَذُواْ مِن دُونِ اللَّهِ أَوْلِيَاءَ كَمَثَلِ الْعَنكَبُوتِ اتَّخَذَتْ بَيْتًا وَإِنَّ أَوْهَنَ الْبُيُوتِ لَبَيْتُ الْعَنكَبُوتِ لَوْ كَانُواْ يَعْلَمُونَ",
+      "translit": "Mathalu lladhīna ttakhadhū min dūni llāhi awliyāʾa kamathali l-ʿankabūti ttakhadhat baytan waʾinna awhana l-buyūti labaytu l-ʿankabūti law kānū yaʿlamūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ceux qui prennent des protecteurs en dehors d'Allah sont à l'image de l'araignée qui s'est bâti une maison : or la plus fragile des maisons est bien la maison de l'araignée. Si seulement ils savaient !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "The example of those who take protectors other than Allah is like that of the spider who takes a home: and indeed, the weakest of homes is the home of the spider. If only they knew!"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah'tan başka dostlar edinenlerin durumu, kendine bir ev edinen örümceğin durumu gibidir. Evlerin en dayanıksızı ise şüphesiz örümcek evidir. Keşke bilselerdi!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "مَثَلُ",
+          "translit": "mathalu",
+          "fr": "parabole",
+          "racine": "م-ث-ل",
+          "frequence_coran": 169
+        },
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "دُونِ",
+          "translit": "dūni",
+          "fr": "en dehors de",
+          "racine": "د-و-ن",
+          "frequence_coran": 83
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "كَمَثَلِ",
+          "translit": "kamathali",
+          "fr": "parabole",
+          "racine": "م-ث-ل",
+          "frequence_coran": 169
+        },
+        {
+          "ar": "الْعَنكَبُوتِ",
+          "translit": "l-ʿankabūti",
+          "fr": "araignée",
+          "racine": "ع-ن-ك-ب",
+          "frequence_coran": 2
+        },
+        {
+          "ar": "وَإِنَّ",
+          "translit": "waʾinna",
+          "fr": "et si",
+          "racine": "و + إِنْ",
+          "frequence_coran": 170
+        },
+        {
+          "ar": "لَبَيْتُ",
+          "translit": "labaytu",
+          "fr": "maison",
+          "racine": "ب-ي-ت",
+          "frequence_coran": 8
+        },
+        {
+          "ar": "الْعَنكَبُوتِ",
+          "translit": "l-ʿankabūti",
+          "fr": "araignée",
+          "racine": "ع-ن-ك-ب",
+          "frequence_coran": 2
+        },
+        {
+          "ar": "لَوْ",
+          "translit": "law",
+          "fr": "si",
+          "racine": "particule conditionnelle",
+          "frequence_coran": 77
+        },
+        {
+          "ar": "كَانُواْ",
+          "translit": "kānū",
+          "fr": "ils étaient",
+          "racine": "ك-و-ن",
+          "frequence_coran": 229
+        },
+        {
+          "ar": "يَعْلَمُونَ",
+          "translit": "yaʿlamūna",
+          "fr": "ils savent",
+          "racine": "ع-ل-م",
+          "frequence_coran": 81
+        }
+      ],
+      "analyse_globale": "Ka-mathali l-ʿankabūt : l'image maîtresse. Celui qui s'appuie sur autre qu'Allah est comme l'araignée bâtissant sa toile — awhanu l-buyūt, « la plus fragile des maisons ». L'ironie est double : la toile paraît une demeure, mais ne protège de rien, ne retient rien, se déchire au moindre souffle ; et elle est souvent un piège mortel pour l'araignée elle-même. Les faux appuis ont l'apparence de la solidité et la réalité du néant.",
+      "niveau_couche": 3
+    },
+    {
+      "numero": 42,
+      "ar": "إِنَّ اللَّهَ يَعْلَمُ مَا يَدْعُونَ مِن دُونِهِ مِن شَيْءٍ وَهُوَ الْعَزِيزُ الْحَكِيمُ",
+      "translit": "Inna llāha yaʿlamu mā yadʿūna min dūnihī min shayʾin wahuwa l-ʿazīzu l-ḥakīm",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah sait ce qu'ils invoquent en dehors de Lui : c'est Lui le Puissant, le Sage."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Surely Allah knows whatever thing they invoke besides Him: and He is the Mighty, the Wise."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Şüphesiz Allah, onların, kendisini bırakıp da başka ne tür şeylere taptıklarını bilir. O, mutlak güç sahibidir, hüküm ve hikmet sahibidir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "اللَّهَ",
+          "translit": "llāha",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "يَعْلَمُ",
+          "translit": "yaʿlamu",
+          "fr": "il sait",
+          "racine": "ع-ل-م",
+          "frequence_coran": 62
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "شَيْءٍ",
+          "translit": "shayʾin",
+          "fr": "une chose",
+          "racine": "ش-ي-ء",
+          "frequence_coran": 179
+        },
+        {
+          "ar": "وَهُوَ",
+          "translit": "wahuwa",
+          "fr": "et Il",
+          "racine": "و + pronom",
+          "frequence_coran": 171
+        },
+        {
+          "ar": "الْعَزِيزُ",
+          "translit": "l-ʿazīzu",
+          "fr": "Le Puissant",
+          "racine": "ع-ز-ز",
+          "frequence_coran": 46
+        },
+        {
+          "ar": "الْحَكِيمُ",
+          "translit": "l-ḥakīmu",
+          "fr": "Le Sage",
+          "racine": "ح-ك-م",
+          "frequence_coran": 42
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 43,
+      "ar": "وَتِلْكَ الْأَمْثَٰلُ نَضْرِبُهَا لِلنَّاسِ وَمَا يَعْقِلُهَا إِلَّا الْعَٰلِمُونَ",
+      "translit": "Watilka l-ʾamthālu naḍribuhā lilnnāsi wamā yaʿqiluhā illā l-ʿālimūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ces paraboles, Nous les proposons aux hommes ; mais seuls les comprennent les savants."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And these examples We present to the people, but none will understand them except those of knowledge."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İşte bu misalleri Biz, insanlar için veriyoruz. Onları ancak bilginler düşünüp anlar."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَتِلْكَ",
+          "translit": "watilka",
+          "fr": "celle-là",
+          "racine": "—",
+          "frequence_coran": 43
+        },
+        {
+          "ar": "لِلنَّاسِ",
+          "translit": "lilnnāsi",
+          "fr": "pour les gens",
+          "racine": "ن-و-س / أ-ن-س",
+          "frequence_coran": 51
+        },
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 44,
+      "ar": "خَلَقَ اللَّهُ السَّمَٰوَٰتِ وَالْأَرْضَ بِالْحَقِّ إِنَّ فِي ذَٰلِكَ لَأيَةً لِّلْمُؤْمِنِينَ",
+      "translit": "Khalaqa llāhu s-samāwāti wal-ʾarḍa bil-ḥaqqi inna fī dhālika laʾyatan lilmuʾminīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah a créé les cieux et la terre en toute vérité. Il y a bien là un signe pour les croyants."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah created the heavens and the earth in truth. Surely in that is a sign for the believers."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah, gökleri ve yeri hak ve hikmete uygun olarak yarattı. Şüphesiz bunda, inananlar için bir ibret vardır."
+        }
+      },
+      "mots": [
+        {
+          "ar": "خَلَقَ",
+          "translit": "khalaqa",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "وَالْأَرْضَ",
+          "translit": "wal-ʾarḍa",
+          "fr": "et la terre",
+          "racine": "و + أ-ر-ض",
+          "frequence_coran": 108
+        },
+        {
+          "ar": "بِالْحَقِّ",
+          "translit": "bil-ḥaqqi",
+          "fr": "avec vérité",
+          "racine": "ح-ق-ق",
+          "frequence_coran": 74
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "ذَٰلِكَ",
+          "translit": "dhālika",
+          "fr": "cela",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 280
+        },
+        {
+          "ar": "لَأيَةً",
+          "translit": "laʾyatan",
+          "fr": "verset",
+          "racine": "أ-ي-ي",
+          "frequence_coran": 382
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 45,
+      "ar": "اتْلُ مَا أُوحِيَ إِلَيْكَ مِنَ الْكِتَٰبِ وَأَقِمِ الصَّلَوٰةَ إِنَّ الصَّلَوٰةَ تَنْهَىٰ عَنِ الْفَحْشَاءِ وَالْمُنكَرِ وَلَذِكْرُ اللَّهِ أَكْبَرُ وَاللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+      "translit": "Itlu mā ūḥiya ilayka mina l-kitābi waʾaqimi ṣ-ṣalawāta inna ṣ-ṣalawāta tanhā ʿani l-faḥshāʾi wal-munkari waladhikru llāhi akbaru wallāhu yaʿlamu mā taṣnaʿūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Récite ce qui t'est révélé du Livre, et accomplis la prière : la prière préserve de la turpitude et du blâmable. Mais l'invocation d'Allah est plus grande encore ; et Allah sait ce que vous faites."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Recite what has been revealed to you of the Book and establish prayer: surely prayer prohibits immorality and wrongdoing. And the remembrance of Allah is greater; and Allah knows what you do."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Sana vahyedilen kitabı oku ve namazı dosdoğru kıl! Şüphesiz namaz, insanı hayâsızlıktan ve kötülükten alıkoyar. Allah'ı anmak, elbette en büyük ibadettir. Allah, yaptıklarınızı bilir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010
+        },
+        {
+          "ar": "إِلَيْكَ",
+          "translit": "ilayka",
+          "fr": "vers toi",
+          "racine": "إِلَى + كَ",
+          "frequence_coran": 74
+        },
+        {
+          "ar": "مِنَ",
+          "translit": "mina",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "عَنِ",
+          "translit": "ʿani",
+          "fr": "de",
+          "racine": "préposition",
+          "frequence_coran": 153
+        },
+        {
+          "ar": "وَالْمُنكَرِ",
+          "translit": "wal-munkari",
+          "fr": "blâmable",
+          "racine": "ن-ك-ر",
+          "frequence_coran": 16
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "وَاللَّهُ",
+          "translit": "wallāhu",
+          "fr": "et Allah",
+          "racine": "و + أ-ل-ه",
+          "frequence_coran": 239
+        },
+        {
+          "ar": "يَعْلَمُ",
+          "translit": "yaʿlamu",
+          "fr": "il sait",
+          "racine": "ع-ل-م",
+          "frequence_coran": 62
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010
+        }
+      ],
+      "analyse_globale": "Inna ṣ-ṣalāta tanhā ʿani l-faḥshāʾi wal-munkar : la prière « préserve de la turpitude et du blâmable ». La ṣalāt n'est pas un rite isolé mais un rempart moral : accomplie vraiment, elle transforme le comportement. Et la clause finale surprend : wa-la-dhikru Llāhi akbar — « l'invocation d'Allah est plus grande encore ». Le souvenir de Dieu qui habite la prière dépasse la prière elle-même. Le rite vise à installer une présence.",
+      "niveau_couche": 3
+    },
+    {
+      "numero": 46,
+      "ar": "وَلَا تُجَٰدِلُواْ أَهْلَ الْكِتَٰبِ إِلَّا بِالَّتِي هِيَ أَحْسَنُ إِلَّا الَّذِينَ ظَلَمُواْ مِنْهُمْ وَقُولُواْ ءَامَنَّا بِالَّذِي أُنزِلَ إِلَيْنَا وَأُنزِلَ إِلَيْكُمْ وَإِلَٰهُنَا وَإِلَٰهُكُمْ وَٰحِدٌ وَنَحْنُ لَهُ مُسْلِمُونَ",
+      "translit": "Walā tujādilū ahla l-kitābi illā billatī hiya aḥsanu illā lladhīna ẓalamū minhum waqūlū āmannā billadhī unzila ilaynā waʾunzila ilaykum waʾilāhunā waʾilāhukum wāḥidun wanaḥnu lahū muslimūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ne disputez avec les gens du Livre que de la meilleure manière — sauf ceux d'entre eux qui sont injustes. Dites : « Nous croyons en ce qui nous a été descendu et en ce qui vous a été descendu ; notre Dieu et votre Dieu ne font qu'un, et c'est à Lui que nous sommes soumis. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And do not argue with the People of the Book except in a way that is best — except for those who commit injustice among them. And say: 'We believe in what has been revealed to us and revealed to you; and our God and your God is one, and to Him we are Muslims in submission.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İçlerinden zulmedenler hariç, kitap ehliyle ancak en güzel bir yolla mücadele edin ve şöyle deyin: 'Bize indirilene de size indirilene de iman ettik. Bizim ilahımız da sizin ilahınız da birdir. Biz sadece O'na teslim olmuş kimseleriz.'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "و + لَا",
+          "frequence_coran": 658
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "بِالَّتِي",
+          "translit": "billatī",
+          "fr": "celle qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 57
+        },
+        {
+          "ar": "هِيَ",
+          "translit": "hiya",
+          "fr": "elle",
+          "racine": "pronom personnel",
+          "frequence_coran": 47
+        },
+        {
+          "ar": "أَحْسَنُ",
+          "translit": "aḥsanu",
+          "fr": "bien faire",
+          "racine": "ح-س-ن",
+          "frequence_coran": 33
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "مِنْهُمْ",
+          "translit": "minhum",
+          "fr": "d’eux",
+          "racine": "مِن + هُمْ",
+          "frequence_coran": 145
+        },
+        {
+          "ar": "بِالَّذِي",
+          "translit": "billadhī",
+          "fr": "celui qui",
+          "racine": "pronom",
+          "frequence_coran": 1464
+        },
+        {
+          "ar": "أُنزِلَ",
+          "translit": "unzila",
+          "fr": "il a été descendu",
+          "racine": "ن-ز-ل",
+          "frequence_coran": 47
+        },
+        {
+          "ar": "وَأُنزِلَ",
+          "translit": "waʾunzila",
+          "fr": "il a été descendu",
+          "racine": "ن-ز-ل",
+          "frequence_coran": 47
+        },
+        {
+          "ar": "وَنَحْنُ",
+          "translit": "wanaḥnu",
+          "fr": "nous",
+          "racine": "pronom personnel",
+          "frequence_coran": 65
+        },
+        {
+          "ar": "لَهُ",
+          "translit": "lahū",
+          "fr": "à lui",
+          "racine": "لِ + هُ",
+          "frequence_coran": 275
+        }
+      ],
+      "analyse_globale": "Wa-lā tujādilū ahla l-kitābi illā bi-llatī hiya aḥsan : la règle du dialogue interreligieux — disputer « de la meilleure manière ». Et la formule commune proposée est remarquable : « notre Dieu et votre Dieu ne font qu'un » (ilāhunā wa-ilāhukum wāḥid). Le Coran reconnaît le socle partagé avec juifs et chrétiens tout en maintenant sa spécificité. La courtoisie n'est pas concession : c'est la manière même de la vérité.",
+      "niveau_couche": 3
+    },
+    {
+      "numero": 47,
+      "ar": "وَكَذَٰلِكَ أَنزَلْنَا إِلَيْكَ الْكِتَٰبَ فَالَّذِينَ ءَاتَيْنَٰهُمُ الْكِتَٰبَ يُؤْمِنُونَ بِهِ وَمِنْ هَـٰؤُلَاءِ مَن يُؤْمِنُ بِهِ وَمَا يَجْحَدُ بِـءَايَٰتِنَا إِلَّا الْكَٰفِرُونَ",
+      "translit": "Wakadhālika anzalnā ilayka l-kitāba falladhīna ātaynāhumu l-kitāba yuʾminūna bihī wamin hāʾulāʾi man yuʾminu bihī wamā yajḥadu biʾāyātinā illā l-kāfirūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "C'est ainsi que Nous t'avons descendu le Livre. Ceux à qui Nous avons donné le Livre y croient ; et parmi ceux-ci, il en est qui y croient aussi. Seuls renient Nos signes les mécréants."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And thus We have sent down to you the Book. So those to whom We gave the Book believe in it. And among these are those who believe in it. And none reject Our signs except the disbelievers."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İşte Biz sana kitabı böyle indirdik. Kendilerine kitap verdiklerimiz ona inanırlar. Şunlardan da ona inananlar vardır. Bizim âyetlerimizi ancak kâfirler inkâr eder."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَكَذَٰلِكَ",
+          "translit": "wakadhālika",
+          "fr": "ainsi",
+          "racine": "كَ + ذَلِكَ",
+          "frequence_coran": 83
+        },
+        {
+          "ar": "إِلَيْكَ",
+          "translit": "ilayka",
+          "fr": "vers toi",
+          "racine": "إِلَى + كَ",
+          "frequence_coran": 74
+        },
+        {
+          "ar": "فَالَّذِينَ",
+          "translit": "falladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "يُؤْمِنُونَ",
+          "translit": "yuʾminūna",
+          "fr": "ils croient",
+          "racine": "أ-م-ن",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "بِهِ",
+          "translit": "bihī",
+          "fr": "par lui",
+          "racine": "بِ + هُ",
+          "frequence_coran": 327
+        },
+        {
+          "ar": "وَمِنْ",
+          "translit": "wamin",
+          "fr": "et celui qui",
+          "racine": "و + مَنْ",
+          "frequence_coran": 234
+        },
+        {
+          "ar": "هَـٰؤُلَاءِ",
+          "translit": "hāʾulāʾi",
+          "fr": "ceux-ci",
+          "racine": "—",
+          "frequence_coran": 46
+        },
+        {
+          "ar": "مَن",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "بِهِ",
+          "translit": "bihī",
+          "fr": "par lui",
+          "racine": "بِ + هُ",
+          "frequence_coran": 327
+        },
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 48,
+      "ar": "وَمَا كُنتَ تَتْلُواْ مِن قَبْلِهِ مِن كِتَٰبٍ وَلَا تَخُطُّهُ بِيَمِينِكَ إِذًا لَّارْتَابَ الْمُبْطِلُونَ",
+      "translit": "Wamā kunta tatlū min qablihī min kitābin walā takhuṭṭuhū biyamīnika idhan lartāba l-mubṭilūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Tu ne récitais avant lui aucun Livre, et tu n'en écrivais aucun de ta main droite : sinon, les tenants du faux auraient douté."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And you did not recite before it any Book, nor did you inscribe one with your right hand: otherwise the falsifiers would have had doubt."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Sen bundan önce herhangi bir kitap okumuyor ve onu sağ elinle yazmıyordun. Öyle olsaydı, batıl peşinde koşanlar mutlaka şüpheye düşerlerdi."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "و + لَا",
+          "frequence_coran": 658
+        },
+        {
+          "ar": "إِذًا",
+          "translit": "idhan",
+          "fr": "quand",
+          "racine": "particule temporelle",
+          "frequence_coran": 195
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 49,
+      "ar": "بَلْ هُوَ ءَايَٰتٌ بَيِّنَٰتٌ فِي صُدُورِ الَّذِينَ أُوتُواْ الْعِلْمَ وَمَا يَجْحَدُ بِـءَايَٰتِنَا إِلَّا الظَّـٰلِمُونَ",
+      "translit": "Bal huwa āyātu bayyinātun fī ṣudūri lladhīna ūtū l-ʿilma wamā yajḥadu biʾāyātinā illā ẓ-ẓālimūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ce sont plutôt des versets évidents dans les poitrines de ceux à qui la science a été donnée. Seuls renient Nos signes les injustes."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Rather, it is distinct verses in the breasts of those who have been given knowledge. And none reject Our signs except the wrongdoers."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Hayır! O, kendilerine ilim verilenlerin gönüllerinde apaçık olan âyetlerdir. Bizim âyetlerimizi ancak zalimler inkâr eder."
+        }
+      },
+      "mots": [
+        {
+          "ar": "بَلْ",
+          "translit": "bal",
+          "fr": "plutôt",
+          "racine": "particule de correction",
+          "frequence_coran": 113
+        },
+        {
+          "ar": "هُوَ",
+          "translit": "huwa",
+          "fr": "il",
+          "racine": "pronom personnel",
+          "frequence_coran": 265
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "أُوتُواْ",
+          "translit": "ūtū",
+          "fr": "ils ont reçu",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 47
+        },
+        {
+          "ar": "الْعِلْمَ",
+          "translit": "l-ʿilma",
+          "fr": "savoir",
+          "racine": "ع-ل-م",
+          "frequence_coran": 105
+        },
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 50,
+      "ar": "وَقَالُواْ لَوْلَا أُنزِلَ عَلَيْهِ ءَايَٰتٌ مِّن رَّبِّهِ قُلْ إِنَّمَا الْأيَٰتُ عِندَ اللَّهِ وَإِنَّمَا أَنَا نَذِيرٌ مُّبِينٌ",
+      "translit": "Waqālū lawlā unzila ʿalayhi āyātun min rabbihī qul innamā l-ʾyātu ʿinda llāhi waʾinnamā anā nadhīrun mubīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ils disent : « Que ne fait-on descendre sur lui des signes de son Seigneur ? » Dis : « Les signes ne sont qu'auprès d'Allah ; et moi, je ne suis qu'un avertisseur explicite. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "But they say: 'Why are not signs sent down to him from his Lord?' Say: 'The signs are only with Allah, and I am only a clear warner.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Dediler ki: 'Ona Rabbinden mucizeler indirilseydi ya!' De ki: 'Mucizeler ancak Allah katındadır. Ben ise sadece apaçık bir uyarıcıyım.'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَقَالُواْ",
+          "translit": "waqālū",
+          "fr": "et ils dirent",
+          "racine": "ق-و-ل",
+          "frequence_coran": 61
+        },
+        {
+          "ar": "لَوْلَا",
+          "translit": "lawlā",
+          "fr": "si ce n'était",
+          "racine": "—",
+          "frequence_coran": 75
+        },
+        {
+          "ar": "أُنزِلَ",
+          "translit": "unzila",
+          "fr": "il a été descendu",
+          "racine": "ن-ز-ل",
+          "frequence_coran": 47
+        },
+        {
+          "ar": "عَلَيْهِ",
+          "translit": "ʿalayhi",
+          "fr": "sur lui",
+          "racine": "عَلَى + هُ",
+          "frequence_coran": 145
+        },
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "رَّبِّهِ",
+          "translit": "rabbihī",
+          "fr": "son Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 44
+        },
+        {
+          "ar": "قُلْ",
+          "translit": "qul",
+          "fr": "dis !",
+          "racine": "ق-و-ل",
+          "frequence_coran": 263
+        },
+        {
+          "ar": "إِنَّمَا",
+          "translit": "innamā",
+          "fr": "seulement",
+          "racine": "particule de restriction",
+          "frequence_coran": 113
+        },
+        {
+          "ar": "عِندَ",
+          "translit": "ʿinda",
+          "fr": "auprès de",
+          "racine": "adverbe / préposition",
+          "frequence_coran": 98
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "وَإِنَّمَا",
+          "translit": "waʾinnamā",
+          "fr": "seulement",
+          "racine": "particule de restriction",
+          "frequence_coran": 113
+        },
+        {
+          "ar": "أَنَا",
+          "translit": "anā",
+          "fr": "certes Nous",
+          "racine": "إِنَّ + نَا",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "نَذِيرٌ",
+          "translit": "nadhīrun",
+          "fr": "avertisseur",
+          "racine": "ن-ذ-ر",
+          "frequence_coran": 44
+        },
+        {
+          "ar": "مُّبِينٌ",
+          "translit": "mubīnun",
+          "fr": "clair",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 45
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 51,
+      "ar": "أَوَلَمْ يَكْفِهِمْ أَنَّا أَنزَلْنَا عَلَيْكَ الْكِتَٰبَ يُتْلَىٰ عَلَيْهِمْ إِنَّ فِي ذَٰلِكَ لَرَحْمَةً وَذِكْرَىٰ لِقَوْمٍ يُؤْمِنُونَ",
+      "translit": "Awalam yakfihim annā anzalnā ʿalayka l-kitāba yutlā ʿalayhim inna fī dhālika laraḥmatan wadhikrā liqawmin yuʾminūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ne leur suffit-il pas que Nous ayons fait descendre sur toi le Livre qui leur est récité ? Il y a bien là une miséricorde et un rappel pour des gens qui croient."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And is it not sufficient for them that We revealed to you the Book which is recited to them? Surely in that is a mercy and reminder for a people who believe."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Kendilerine okunan kitabı sana indirmemiz onlara yetmedi mi? Şüphesiz bunda, inanan bir toplum için hem bir rahmet hem de bir öğüt vardır."
+        }
+      },
+      "mots": [
+        {
+          "ar": "أَنَّا",
+          "translit": "annā",
+          "fr": "certes Nous",
+          "racine": "إِنَّ + نَا",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "عَلَيْكَ",
+          "translit": "ʿalayka",
+          "fr": "sur toi",
+          "racine": "عَلَى + كَ",
+          "frequence_coran": 56
+        },
+        {
+          "ar": "عَلَيْهِمْ",
+          "translit": "ʿalayhim",
+          "fr": "sur eux",
+          "racine": "عَلَى + هُمْ",
+          "frequence_coran": 183
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "ذَٰلِكَ",
+          "translit": "dhālika",
+          "fr": "cela",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 280
+        },
+        {
+          "ar": "لَرَحْمَةً",
+          "translit": "laraḥmatan",
+          "fr": "miséricorde",
+          "racine": "ر-ح-م",
+          "frequence_coran": 339
+        },
+        {
+          "ar": "لِقَوْمٍ",
+          "translit": "liqawmin",
+          "fr": "pour un peuple",
+          "racine": "ق-و-م",
+          "frequence_coran": 51
+        },
+        {
+          "ar": "يُؤْمِنُونَ",
+          "translit": "yuʾminūna",
+          "fr": "ils croient",
+          "racine": "أ-م-ن",
+          "frequence_coran": 86
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 52,
+      "ar": "قُلْ كَفَىٰ بِاللَّهِ بَيْنِي وَبَيْنَكُمْ شَهِيدًا يَعْلَمُ مَا فِي السَّمَٰوَٰتِ وَالْأَرْضِ وَالَّذِينَ ءَامَنُواْ بِالْبَٰطِلِ وَكَفَرُواْ بِاللَّهِ أُوْلَـٰئِكَ هُمُ الْخَٰسِرُونَ",
+      "translit": "Qul kafā billāhi baynī wabaynakum shahīdan yaʿlamu mā fī s-samāwāti wal-ʾarḍi walladhīna āmanū bil-bāṭili wakafarū billāhi ūlāʾika humu l-khāsirūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Dis : « Allah suffit comme témoin entre moi et vous : Il sait ce qui est dans les cieux et sur la terre. Ceux qui croient au faux et mécroient en Allah, ceux-là sont les perdants. »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Say: 'Allah is sufficient as a witness between me and you: He knows what is in the heavens and the earth. And those who believe in falsehood and disbelieve in Allah — those are the losers.'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "De ki: 'Benimle sizin aranızda şahit olarak Allah yeter. O, göklerde ve yerde ne varsa bilir. Batıla inanıp Allah'ı inkâr edenler var ya, işte onlar hüsrana uğrayanların ta kendileridir.'"
+        }
+      },
+      "mots": [
+        {
+          "ar": "قُلْ",
+          "translit": "qul",
+          "fr": "dis !",
+          "racine": "ق-و-ل",
+          "frequence_coran": 263
+        },
+        {
+          "ar": "بِاللَّهِ",
+          "translit": "billāhi",
+          "fr": "par Allah",
+          "racine": "بِ + أ-ل-ه",
+          "frequence_coran": 139
+        },
+        {
+          "ar": "يَعْلَمُ",
+          "translit": "yaʿlamu",
+          "fr": "il sait",
+          "racine": "ع-ل-م",
+          "frequence_coran": 62
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "وَالْأَرْضِ",
+          "translit": "wal-ʾarḍi",
+          "fr": "et la terre",
+          "racine": "و + أ-ر-ض",
+          "frequence_coran": 108
+        },
+        {
+          "ar": "وَالَّذِينَ",
+          "translit": "walladhīna",
+          "fr": "et ceux qui",
+          "racine": "و + pronom relatif",
+          "frequence_coran": 164
+        },
+        {
+          "ar": "وَكَفَرُواْ",
+          "translit": "wakafarū",
+          "fr": "ils ont mécru",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 189
+        },
+        {
+          "ar": "بِاللَّهِ",
+          "translit": "billāhi",
+          "fr": "par Allah",
+          "racine": "بِ + أ-ل-ه",
+          "frequence_coran": 139
+        },
+        {
+          "ar": "أُوْلَـٰئِكَ",
+          "translit": "ūlāʾika",
+          "fr": "ceux-là",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 133
+        },
+        {
+          "ar": "هُمُ",
+          "translit": "humu",
+          "fr": "eux",
+          "racine": "pronom personnel",
+          "frequence_coran": 180
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 53,
+      "ar": "وَيَسْتَعْجِلُونَكَ بِالْعَذَابِ وَلَوْلَا أَجَلٌ مُّسَمًّى لَّجَاءَهُمُ الْعَذَابُ وَلَيَأْتِيَنَّهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
+      "translit": "Wayastaʿjilūnaka bil-ʿadhābi walawlā ajalun musammanā lajāʾahumu l-ʿadhābu walayaʾtiyannahum baghtatan wahum lā yashʿurūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ils te pressent de hâter le châtiment. N'était un terme fixé, le châtiment leur serait déjà venu ; et il leur viendra soudain, sans qu'ils ne s'en rendent compte."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And they urge you to hasten the punishment. And if not for an appointed term, the punishment would have come to them. But it will surely come to them suddenly, while they do not perceive."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Senden azabı çabucak istiyorlar. Eğer belirlenmiş bir süre olmasaydı, azap onlara mutlaka gelmiş olurdu. Fakat azap onlara, hiç farkında olmadıkları bir sırada ansızın mutlaka gelecektir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "بِالْعَذَابِ",
+          "translit": "bil-ʿadhābi",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373
+        },
+        {
+          "ar": "وَلَوْلَا",
+          "translit": "walawlā",
+          "fr": "si ce n'était",
+          "racine": "—",
+          "frequence_coran": 75
+        },
+        {
+          "ar": "أَجَلٌ",
+          "translit": "ajalun",
+          "fr": "terme",
+          "racine": "أ-ج-ل",
+          "frequence_coran": 56
+        },
+        {
+          "ar": "الْعَذَابُ",
+          "translit": "l-ʿadhābu",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373
+        },
+        {
+          "ar": "وَهُمْ",
+          "translit": "wahum",
+          "fr": "et eux",
+          "racine": "و + pronom",
+          "frequence_coran": 136
+        },
+        {
+          "ar": "لَا",
+          "translit": "lā",
+          "fr": "non",
+          "racine": "particule",
+          "frequence_coran": 812
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 54,
+      "ar": "يَسْتَعْجِلُونَكَ بِالْعَذَابِ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌ بِالْكَٰفِرِينَ",
+      "translit": "Yastaʿjilūnaka bil-ʿadhābi waʾinna jahannama lamuḥīṭatu bil-kāfirīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ils te pressent de hâter le châtiment ; or la Géhenne cerne de toutes parts les mécréants,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "They urge you to hasten the punishment. And indeed, Hell will encompass the disbelievers."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Senden azabı çabucak istiyorlar. Hâlbuki cehennem, o kâfirleri mutlaka kuşatacaktır."
+        }
+      },
+      "mots": [
+        {
+          "ar": "بِالْعَذَابِ",
+          "translit": "bil-ʿadhābi",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373
+        },
+        {
+          "ar": "وَإِنَّ",
+          "translit": "waʾinna",
+          "fr": "et si",
+          "racine": "و + إِنْ",
+          "frequence_coran": 170
+        },
+        {
+          "ar": "جَهَنَّمَ",
+          "translit": "jahannama",
+          "fr": "Jahannam",
+          "racine": "nom propre",
+          "frequence_coran": 54
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 55,
+      "ar": "يَوْمَ يَغْشَىٰهُمُ الْعَذَابُ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِمْ وَيَقُولُ ذُوقُواْ مَا كُنتُمْ تَعْمَلُونَ",
+      "translit": "Yawma yaghshāhumu l-ʿadhābu min fawqihim wamin taḥti arjulihim wayaqūlu dhūqū mā kuntum taʿmalūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "le jour où le châtiment les enveloppera d'au-dessus d'eux et de dessous leurs pieds, et où Il dira : « Goûtez ce que vous faisiez ! »"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "On the Day the punishment will cover them from above them and from below their feet, and He will say: 'Taste what you used to do!'"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "O gün azap, onları hem üstlerinden hem de ayaklarının altından saracak ve Allah: 'Yaptıklarınızın cezasını tadın!' diyecektir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "يَوْمَ",
+          "translit": "yawma",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405
+        },
+        {
+          "ar": "الْعَذَابُ",
+          "translit": "l-ʿadhābu",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "وَمِن",
+          "translit": "wamin",
+          "fr": "et celui qui",
+          "racine": "و + مَنْ",
+          "frequence_coran": 234
+        },
+        {
+          "ar": "تَحْتِ",
+          "translit": "taḥti",
+          "fr": "sous",
+          "racine": "ت-ح-ت",
+          "frequence_coran": 51
+        },
+        {
+          "ar": "مَا",
+          "translit": "mā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010
+        },
+        {
+          "ar": "كُنتُمْ",
+          "translit": "kuntum",
+          "fr": "vous étiez",
+          "racine": "ك-و-ن",
+          "frequence_coran": 188
+        },
+        {
+          "ar": "تَعْمَلُونَ",
+          "translit": "taʿmalūna",
+          "fr": "vous faites",
+          "racine": "ع-م-ل",
+          "frequence_coran": 83
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 56,
+      "ar": "يَٰعِبَادِيَ الَّذِينَ ءَامَنُواْ إِنَّ أَرْضِي وَٰسِعَةٌ فَإِيَّـٰيَ فَاعْبُدُونِ",
+      "translit": "Yāʿibādiya lladhīna āmanū inna arḍī wāsiʿatun faʾiyyāya faʿbudūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ô Mes serviteurs qui avez cru ! Ma terre est vaste : c'est Moi seul que vous devez adorer."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "O My servants who have believed! Indeed, My earth is spacious, so worship only Me."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ey iman eden kullarım! Şüphesiz benim arzım geniştir. O hâlde ancak bana kulluk edin!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "الَّذِينَ",
+          "translit": "lladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 57,
+      "ar": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ ثُمَّ إِلَيْنَا تُرْجَعُونَ",
+      "translit": "Kullu nafsin dhāʾiqatu l-mawti thumma ilaynā turjaʿūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Toute âme goûtera la mort. Puis c'est vers Nous que vous serez ramenés."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Every soul will taste death. Then to Us you will be returned."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Her can ölümü tadacaktır. Sonra da yalnız bize döndürüleceksiniz."
+        }
+      },
+      "mots": [
+        {
+          "ar": "كُلُّ",
+          "translit": "kullu",
+          "fr": "de tout",
+          "racine": "ك-ل-ل",
+          "frequence_coran": 123
+        },
+        {
+          "ar": "نَفْسٍ",
+          "translit": "nafsin",
+          "fr": "âme",
+          "racine": "ن-ف-س",
+          "frequence_coran": 298
+        },
+        {
+          "ar": "الْمَوْتِ",
+          "translit": "l-mawti",
+          "fr": "mort",
+          "racine": "م-و-ت",
+          "frequence_coran": 165
+        },
+        {
+          "ar": "ثُمَّ",
+          "translit": "thumma",
+          "fr": "puis",
+          "racine": "particule de succession",
+          "frequence_coran": 337
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 58,
+      "ar": "وَالَّذِينَ ءَامَنُواْ وَعَمِلُواْ الصَّـٰلِحَٰتِ لَنُبَوِّئَنَّهُم مِّنَ الْجَنَّةِ غُرَفًا تَجْرِي مِن تَحْتِهَا الْأَنْهَٰرُ خَٰلِدِينَ فِيهَا نِعْمَ أَجْرُ الْعَٰمِلِينَ",
+      "translit": "Walladhīna āmanū waʿamilū ṣ-ṣāliḥāti lanubawwiʾannahum mina l-jannati ghurafan tajrī min taḥtihā l-ʾanhāru khālidīna fīhā niʿma ajru l-ʿāmilīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Ceux qui croient et font le bien, Nous les installerons certes dans de hautes demeures du Paradis, sous lesquelles coulent les rivières, pour y demeurer à jamais. Quelle belle récompense pour ceux qui œuvrent,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And those who believe and do righteous deeds — We will surely settle them in lofty chambers of Paradise, beneath which rivers flow, to abide therein eternally. Excellent is the reward of the workers,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "İman edip salih ameller işleyenleri, içinde ebedî kalmak üzere altlarından ırmaklar akan cennet köşklerine yerleştireceğiz. Çalışanların mükâfatı ne güzeldir!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَالَّذِينَ",
+          "translit": "walladhīna",
+          "fr": "et ceux qui",
+          "racine": "و + pronom relatif",
+          "frequence_coran": 164
+        },
+        {
+          "ar": "وَعَمِلُواْ",
+          "translit": "waʿamilū",
+          "fr": "et ils ont œuvré",
+          "racine": "و + ع-م-ل",
+          "frequence_coran": 53
+        },
+        {
+          "ar": "مِّنَ",
+          "translit": "mina",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "الْجَنَّةِ",
+          "translit": "l-jannati",
+          "fr": "paradis",
+          "racine": "ج-ن-ن",
+          "frequence_coran": 147
+        },
+        {
+          "ar": "تَجْرِي",
+          "translit": "tajrī",
+          "fr": "elle coule",
+          "racine": "ج-ر-ي",
+          "frequence_coran": 48
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "فِيهَا",
+          "translit": "fīhā",
+          "fr": "en elle",
+          "racine": "فِي + هَا",
+          "frequence_coran": 241
+        },
+        {
+          "ar": "نِعْمَ",
+          "translit": "niʿma",
+          "fr": "oui",
+          "racine": "—",
+          "frequence_coran": 2
+        },
+        {
+          "ar": "أَجْرُ",
+          "translit": "ajru",
+          "fr": "récompense",
+          "racine": "أ-ج-ر",
+          "frequence_coran": 105
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 59,
+      "ar": "الَّذِينَ صَبَرُواْ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
+      "translit": "Alladhīna ṣabarū waʿalā rabbihim yatawakkalūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "ceux qui endurent et s'appuient sur leur Seigneur !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "who are patient and rely upon their Lord."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Onlar, sabreden ve yalnız Rablerine tevekkül eden kimselerdir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "الَّذِينَ",
+          "translit": "alladhīna",
+          "fr": "ceux qui",
+          "racine": "pronom relatif",
+          "frequence_coran": 810
+        },
+        {
+          "ar": "وَعَلَىٰ",
+          "translit": "waʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "رَبِّهِمْ",
+          "translit": "rabbihim",
+          "fr": "leur Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 80
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 60,
+      "ar": "وَكَأَيِّن مِّن دَابَّةٍ لَّا تَحْمِلُ رِزْقَهَا اللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "translit": "Wakaʾayyin min dābbatin lā taḥmilu rizqahā llāhu yarzuquhā waʾiyyākum wahuwa s-samīʿu l-ʿalīm",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Que de bêtes qui ne portent pas leur subsistance ! C'est Allah qui les nourrit, et vous aussi : Il est l'Audient, l'Omniscient."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And how many a creature carries not its own provision! Allah provides for it and for you. And He is the Hearing, the Knowing."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Nice canlılar vardır ki, rızıklarını taşımazlar. Onları da sizi de Allah rızıklandırır. O, hakkıyla işitendir, hakkıyla bilendir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "مِّن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "دَابَّةٍ",
+          "translit": "dābbatin",
+          "fr": "bête",
+          "racine": "د-ب-ب",
+          "frequence_coran": 18
+        },
+        {
+          "ar": "لَّا",
+          "translit": "lā",
+          "fr": "non",
+          "racine": "particule",
+          "frequence_coran": 812
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "وَهُوَ",
+          "translit": "wahuwa",
+          "fr": "et Il",
+          "racine": "و + pronom",
+          "frequence_coran": 171
+        },
+        {
+          "ar": "السَّمِيعُ",
+          "translit": "s-samīʿu",
+          "fr": "Audient",
+          "racine": "س-م-ع",
+          "frequence_coran": 41
+        },
+        {
+          "ar": "الْعَلِيمُ",
+          "translit": "l-ʿalīmu",
+          "fr": "Savant",
+          "racine": "ع-ل-م",
+          "frequence_coran": 100
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 61,
+      "ar": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ السَّمَٰوَٰتِ وَالْأَرْضَ وَسَخَّرَ الشَّمْسَ وَالْقَمَرَ لَيَقُولُنَّ اللَّهُ فَأَنَّىٰ يُؤْفَكُونَ",
+      "translit": "Walaʾin saʾaltahum man khalaqa s-samāwāti wal-ʾarḍa wasakhkhara sh-shamsa wal-qamara layaqūlunna llāhu faʾannā yuʾfakūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Si tu leur demandes : « Qui a créé les cieux et la terre, et assujetti le soleil et la lune ? », ils diront certes : « Allah ! » Comment donc sont-ils détournés ?"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And if you asked them: 'Who created the heavens and the earth and subjected the sun and the moon?', they would surely say: 'Allah!' Then how are they deluded?"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Andolsun, eğer onlara: 'Gökleri ve yeri kim yarattı, güneşi ve ayı hizmetinize kim verdi?' diye sorsan, mutlaka: 'Allah!' derler. O hâlde nasıl haktan döndürülüyorlar?"
+        }
+      },
+      "mots": [
+        {
+          "ar": "مَّنْ",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "خَلَقَ",
+          "translit": "khalaqa",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261
+        },
+        {
+          "ar": "وَالْأَرْضَ",
+          "translit": "wal-ʾarḍa",
+          "fr": "et la terre",
+          "racine": "و + أ-ر-ض",
+          "frequence_coran": 108
+        },
+        {
+          "ar": "وَسَخَّرَ",
+          "translit": "wasakhkhara",
+          "fr": "assujettir",
+          "racine": "س-خ-ر",
+          "frequence_coran": 25
+        },
+        {
+          "ar": "الشَّمْسَ",
+          "translit": "sh-shamsa",
+          "fr": "soleil",
+          "racine": "ش-م-س",
+          "frequence_coran": 33
+        },
+        {
+          "ar": "وَالْقَمَرَ",
+          "translit": "wal-qamara",
+          "fr": "lune",
+          "racine": "ق-م-ر",
+          "frequence_coran": 27
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "فَأَنَّىٰ",
+          "translit": "faʾannā",
+          "fr": "comment",
+          "racine": "—",
+          "frequence_coran": 4
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 62,
+      "ar": "اللَّهُ يَبْسُطُ الرِّزْقَ لِمَن يَشَاءُ مِنْ عِبَادِهِ وَيَقْدِرُ لَهُ إِنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ",
+      "translit": "Allāhu yabsuṭu r-rizqa liman yashāʾu min ʿibādihī wayaqdiru lahū inna llāha bikulli shayʾin ʿalīm",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "C'est Allah qui étend la subsistance à qui Il veut parmi Ses serviteurs, et la mesure : Allah est de toute chose Omniscient."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah extends provision for whom He wills of His servants and restricts it for him. Surely Allah is Knowing of all things."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah, kullarından dilediğine rızkı bol verir, dilediğine de kısar. Şüphesiz Allah, her şeyi hakkıyla bilendir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "اللَّهُ",
+          "translit": "allāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "لِمَن",
+          "translit": "liman",
+          "fr": "pour celui qui",
+          "racine": "لِ + مَنْ",
+          "frequence_coran": 55
+        },
+        {
+          "ar": "يَشَاءُ",
+          "translit": "yashāʾu",
+          "fr": "Il veut",
+          "racine": "ش-ي-ء",
+          "frequence_coran": 108
+        },
+        {
+          "ar": "مِنْ",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "لَهُ",
+          "translit": "lahū",
+          "fr": "à lui",
+          "racine": "لِ + هُ",
+          "frequence_coran": 275
+        },
+        {
+          "ar": "إِنَّ",
+          "translit": "inna",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609
+        },
+        {
+          "ar": "اللَّهَ",
+          "translit": "llāha",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "بِكُلِّ",
+          "translit": "bikulli",
+          "fr": "de tout",
+          "racine": "ك-ل-ل",
+          "frequence_coran": 123
+        },
+        {
+          "ar": "شَيْءٍ",
+          "translit": "shayʾin",
+          "fr": "une chose",
+          "racine": "ش-ي-ء",
+          "frequence_coran": 179
+        },
+        {
+          "ar": "عَلِيمٌ",
+          "translit": "ʿalīmun",
+          "fr": "Savant",
+          "racine": "ع-ل-م",
+          "frequence_coran": 100
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 63,
+      "ar": "وَلَئِن سَأَلْتَهُم مَّن نَّزَّلَ مِنَ السَّمَاءِ مَاءً فَأَحْيَا بِهِ الْأَرْضَ مِن بَعْدِ مَوْتِهَا لَيَقُولُنَّ اللَّهُ قُلِ الْحَمْدُ لِلَّهِ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ",
+      "translit": "Walaʾin saʾaltahum man nazzala mina s-samāʾi māʾan faʾaḥyā bihi l-ʾarḍa min baʿdi mawtihā layaqūlunna llāhu quli l-ḥamdu lillāhi bal aktharuhum lā yaʿqilūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Si tu leur demandes : « Qui a fait descendre du ciel une eau par laquelle Il fait revivre la terre après sa mort ? », ils diront certes : « Allah ! » Dis : « Louange à Allah ! » Mais la plupart d'entre eux ne raisonnent pas."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And if you asked them: 'Who sends down water from the sky and gives life thereby to the earth after its death?', they would surely say: 'Allah!' Say: 'Praise be to Allah!' But most of them do not reason."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Andolsun, eğer onlara: 'Gökten su indirip onunla yeryüzünü ölümünden sonra dirilten kimdir?' diye sorsan, mutlaka: 'Allah!' derler. De ki: 'Hamd, Allah'a mahsustur.' Fakat onların çoğu akıllarını kullanmazlar."
+        }
+      },
+      "mots": [
+        {
+          "ar": "مَّن",
+          "translit": "man",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "مِنَ",
+          "translit": "mina",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "السَّمَاءِ",
+          "translit": "s-samāʾi",
+          "fr": "du ciel",
+          "racine": "س-م-و",
+          "frequence_coran": 81
+        },
+        {
+          "ar": "فَأَحْيَا",
+          "translit": "faʾaḥyā",
+          "fr": "faire vivre",
+          "racine": "ح-ي-ي",
+          "frequence_coran": 51
+        },
+        {
+          "ar": "بِهِ",
+          "translit": "bihi",
+          "fr": "par lui",
+          "racine": "بِ + هُ",
+          "frequence_coran": 327
+        },
+        {
+          "ar": "الْأَرْضَ",
+          "translit": "l-ʾarḍa",
+          "fr": "la terre",
+          "racine": "أ-ر-ض",
+          "frequence_coran": 219
+        },
+        {
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "بَعْدِ",
+          "translit": "baʿdi",
+          "fr": "après",
+          "racine": "ب-ع-د",
+          "frequence_coran": 82
+        },
+        {
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "قُلِ",
+          "translit": "quli",
+          "fr": "dis !",
+          "racine": "ق-و-ل",
+          "frequence_coran": 263
+        },
+        {
+          "ar": "الْحَمْدُ",
+          "translit": "l-ḥamdu",
+          "fr": "louange",
+          "racine": "ح-م-د",
+          "frequence_coran": 68
+        },
+        {
+          "ar": "لِلَّهِ",
+          "translit": "lillāhi",
+          "fr": "à Allah",
+          "racine": "لِ + أ-ل-ه",
+          "frequence_coran": 116
+        },
+        {
+          "ar": "بَلْ",
+          "translit": "bal",
+          "fr": "plutôt",
+          "racine": "particule de correction",
+          "frequence_coran": 113
+        },
+        {
+          "ar": "أَكْثَرُهُمْ",
+          "translit": "aktharuhum",
+          "fr": "la plupart d’entre eux",
+          "racine": "ك-ث-ر",
+          "frequence_coran": 48
+        },
+        {
+          "ar": "لَا",
+          "translit": "lā",
+          "fr": "non",
+          "racine": "particule",
+          "frequence_coran": 812
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 64,
+      "ar": "وَمَا هَٰذِهِ الْحَيَوٰةُ الدُّنْيَا إِلَّا لَهْوٌ وَلَعِبٌ وَإِنَّ الدَّارَ الْأخِرَةَ لَهِيَ الْحَيَوَانُ لَوْ كَانُواْ يَعْلَمُونَ",
+      "translit": "Wamā hādhihi l-ḥayawātu d-dunyā illā lahwun walaʿibun waʾinna d-dāra l-ʾkhirata lahiya l-ḥayawānu law kānū yaʿlamūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Cette vie d'ici-bas n'est que divertissement et jeu ; mais la Demeure dernière, elle, est la vraie vie : s'ils savaient !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And this worldly life is nothing but amusement and play. And indeed, the Home of the Hereafter — that is the true life, if only they knew."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Bu dünya hayatı ancak bir eğlence ve oyundan ibarettir. Ahiret yurduna gelince, işte asıl hayat odur. Keşke bilselerdi!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَمَا",
+          "translit": "wamā",
+          "fr": "et ce que",
+          "racine": "و + مَا",
+          "frequence_coran": 646
+        },
+        {
+          "ar": "هَٰذِهِ",
+          "translit": "hādhihi",
+          "fr": "celle-ci",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 46
+        },
+        {
+          "ar": "الدُّنْيَا",
+          "translit": "d-dunyā",
+          "fr": "la vie d’ici-bas",
+          "racine": "د-ن-و",
+          "frequence_coran": 115
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "لَهْوٌ",
+          "translit": "lahwun",
+          "fr": "divertissement",
+          "racine": "ل-ه-و",
+          "frequence_coran": 16
+        },
+        {
+          "ar": "وَلَعِبٌ",
+          "translit": "walaʿibun",
+          "fr": "jeu",
+          "racine": "ل-ع-ب",
+          "frequence_coran": 20
+        },
+        {
+          "ar": "وَإِنَّ",
+          "translit": "waʾinna",
+          "fr": "et si",
+          "racine": "و + إِنْ",
+          "frequence_coran": 170
+        },
+        {
+          "ar": "الدَّارَ",
+          "translit": "d-dāra",
+          "fr": "demeure",
+          "racine": "د-و-ر",
+          "frequence_coran": 8
+        },
+        {
+          "ar": "الْأخِرَةَ",
+          "translit": "l-ʾkhirata",
+          "fr": "l’au-delà",
+          "racine": "أ-خ-ر",
+          "frequence_coran": 55
+        },
+        {
+          "ar": "لَهِيَ",
+          "translit": "lahiya",
+          "fr": "elle",
+          "racine": "pronom personnel",
+          "frequence_coran": 47
+        },
+        {
+          "ar": "لَوْ",
+          "translit": "law",
+          "fr": "si",
+          "racine": "particule conditionnelle",
+          "frequence_coran": 77
+        },
+        {
+          "ar": "كَانُواْ",
+          "translit": "kānū",
+          "fr": "ils étaient",
+          "racine": "ك-و-ن",
+          "frequence_coran": 229
+        },
+        {
+          "ar": "يَعْلَمُونَ",
+          "translit": "yaʿlamūna",
+          "fr": "ils savent",
+          "racine": "ع-ل-م",
+          "frequence_coran": 81
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 65,
+      "ar": "فَإِذَا رَكِبُواْ فِي الْفُلْكِ دَعَوُاْ اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى الْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
+      "translit": "Faʾidhā rakibū fī l-fulki daʿawu llāha mukhliṣīna lahu d-dīna falammā najjāhum ilā l-barri idhā hum yushrikūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Quand ils montent en bateau, ils invoquent Allah, Lui vouant un culte sincère ; puis, quand Il les sauve vers la terre ferme, voici qu'ils Lui donnent des associés,"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And when they board a ship, they call upon Allah, sincere to Him in religion; but when He delivers them to the land, at once they associate others with Him,"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Gemiye bindikleri zaman, dini yalnız Allah'a has kılarak O'na dua ederler. Fakat onları kurtarıp karaya çıkardığında, bir de bakarsın ki Allah'a ortak koşuyorlar."
+        }
+      },
+      "mots": [
+        {
+          "ar": "فَإِذَا",
+          "translit": "faʾidhā",
+          "fr": "alors quand",
+          "racine": "ف + إِذَا",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "الْفُلْكِ",
+          "translit": "l-fulki",
+          "fr": "navire",
+          "racine": "ف-ل-ك",
+          "frequence_coran": 23
+        },
+        {
+          "ar": "اللَّهَ",
+          "translit": "llāha",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "لَهُ",
+          "translit": "lahu",
+          "fr": "à lui",
+          "racine": "لِ + هُ",
+          "frequence_coran": 275
+        },
+        {
+          "ar": "الدِّينَ",
+          "translit": "d-dīna",
+          "fr": "religion",
+          "racine": "د-ي-ن",
+          "frequence_coran": 94
+        },
+        {
+          "ar": "فَلَمَّا",
+          "translit": "falammā",
+          "fr": "puis lorsque",
+          "racine": "ف + لَمَّا",
+          "frequence_coran": 101
+        },
+        {
+          "ar": "إِلَى",
+          "translit": "ilā",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742
+        },
+        {
+          "ar": "الْبَرِّ",
+          "translit": "l-barri",
+          "fr": "piété",
+          "racine": "ب-ر-ر",
+          "frequence_coran": 5
+        },
+        {
+          "ar": "إِذَا",
+          "translit": "idhā",
+          "fr": "quand",
+          "racine": "particule temporelle",
+          "frequence_coran": 195
+        },
+        {
+          "ar": "هُمْ",
+          "translit": "hum",
+          "fr": "eux",
+          "racine": "pronom personnel",
+          "frequence_coran": 180
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 66,
+      "ar": "لِيَكْفُرُواْ بِمَا ءَاتَيْنَٰهُمْ وَلِيَتَمَتَّعُواْ فَسَوْفَ يَعْلَمُونَ",
+      "translit": "Liyakfurū bimā ātaynāhum waliyatamattaʿū fasawfa yaʿlamūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "pour renier ce que Nous leur avons donné, et pour jouir. Mais bientôt ils sauront !"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "so that they may deny what We have granted them, and enjoy themselves. But they are going to know!"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Kendilerine verdiğimiz nimetlere nankörlük etsinler ve bir süre daha yararlansınlar diye böyle yaparlar. Yakında bilecekler!"
+        }
+      },
+      "mots": [
+        {
+          "ar": "بِمَا",
+          "translit": "bimā",
+          "fr": "par ce que",
+          "racine": "بِ + مَا",
+          "frequence_coran": 296
+        },
+        {
+          "ar": "فَسَوْفَ",
+          "translit": "fasawfa",
+          "fr": "particule du futur (bientôt",
+          "racine": "—",
+          "frequence_coran": 42
+        },
+        {
+          "ar": "يَعْلَمُونَ",
+          "translit": "yaʿlamūna",
+          "fr": "ils savent",
+          "racine": "ع-ل-م",
+          "frequence_coran": 81
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 67,
+      "ar": "أَوَلَمْ يَرَوْاْ أَنَّا جَعَلْنَا حَرَمًا ءَامِنًا وَيُتَخَطَّفُ النَّاسُ مِنْ حَوْلِهِمْ أَفَبِالْبَٰطِلِ يُؤْمِنُونَ وَبِنِعْمَةِ اللَّهِ يَكْفُرُونَ",
+      "translit": "Awalam yaraw annā jaʿalnā ḥaraman āminan wayutakhaṭṭafu n-nāsu min ḥawlihim afabilbāṭili yuʾminūna wabiniʿmati llāhi yakfurūn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "N'ont-ils pas vu que Nous avons établi un sanctuaire sûr, alors qu'autour d'eux les gens sont enlevés ? Croiraient-ils donc au faux et renieraient-ils le bienfait d'Allah ?"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Have they not seen that We made a safe sanctuary, while people are being taken away all around them? Then do they believe in falsehood and deny the favor of Allah?"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Çevrelerindeki insanlar kapılıp götürülürken, Bizim, onların yurdunu güvenli ve dokunulmaz bir yer kıldığımızı görmediler mi? Hâlâ batıla inanıp Allah'ın nimetini inkâr mı ediyorlar?"
+        }
+      },
+      "mots": [
+        {
+          "ar": "أَنَّا",
+          "translit": "annā",
+          "fr": "certes Nous",
+          "racine": "إِنَّ + نَا",
+          "frequence_coran": 156
+        },
+        {
+          "ar": "النَّاسُ",
+          "translit": "n-nāsu",
+          "fr": "les gens",
+          "racine": "ن-و-س / أ-ن-س",
+          "frequence_coran": 92
+        },
+        {
+          "ar": "مِنْ",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226
+        },
+        {
+          "ar": "يُؤْمِنُونَ",
+          "translit": "yuʾminūna",
+          "fr": "ils croient",
+          "racine": "أ-م-ن",
+          "frequence_coran": 86
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 68,
+      "ar": "وَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ كَذِبًا أَوْ كَذَّبَ بِالْحَقِّ لَمَّا جَاءَهُ أَلَيْسَ فِي جَهَنَّمَ مَثْوًى لِّلْكَٰفِرِينَ",
+      "translit": "Waman aẓlamu mimmani ftarā ʿalā llāhi kadhiban aw kadhdhaba bil-ḥaqqi lammā jāʾahū alaysa fī jahannama mathwanā lilkāfirīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Qui est plus injuste que celui qui forge un mensonge contre Allah, ou traite de mensonge la vérité quand elle lui vient ? N'y a-t-il pas dans la Géhenne un séjour pour les mécréants ?"
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And who is more unjust than one who invents a lie about Allah or denies the truth when it comes to him? Is there not in Hell a residence for the disbelievers?"
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Allah'a karşı yalan uyduran yahut kendisine geldiğinde gerçeği yalanlayandan daha zalim kimdir? Cehennemde kâfirler için bir yer mi yok?"
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَمَنْ",
+          "translit": "waman",
+          "fr": "et celui qui",
+          "racine": "و + مَنْ",
+          "frequence_coran": 234
+        },
+        {
+          "ar": "عَلَى",
+          "translit": "ʿalā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430
+        },
+        {
+          "ar": "اللَّهِ",
+          "translit": "llāhi",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "أَوْ",
+          "translit": "aw",
+          "fr": "ou",
+          "racine": "particule de choix",
+          "frequence_coran": 264
+        },
+        {
+          "ar": "كَذَّبَ",
+          "translit": "kadhdhaba",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80
+        },
+        {
+          "ar": "بِالْحَقِّ",
+          "translit": "bil-ḥaqqi",
+          "fr": "avec vérité",
+          "racine": "ح-ق-ق",
+          "frequence_coran": 74
+        },
+        {
+          "ar": "لَمَّا",
+          "translit": "lammā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010
+        },
+        {
+          "ar": "فِي",
+          "translit": "fī",
+          "fr": "dans",
+          "racine": "particule",
+          "frequence_coran": 4381
+        },
+        {
+          "ar": "جَهَنَّمَ",
+          "translit": "jahannama",
+          "fr": "Jahannam",
+          "racine": "nom propre",
+          "frequence_coran": 54
+        }
+      ],
+      "niveau_couche": 3
+    },
+    {
+      "numero": 69,
+      "ar": "وَالَّذِينَ جَٰهَدُواْ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا وَإِنَّ اللَّهَ لَمَعَ الْمُحْسِنِينَ",
+      "translit": "Walladhīna jāhadū fīnā lanahdiyannahum subulanā waʾinna llāha lamaʿa l-muḥsinīn",
+      "traductions": {
+        "fr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Et ceux qui luttent pour Nous, Nous les guiderons certes sur Nos chemins ; et Allah est assurément avec les bienfaisants."
+        },
+        "en": {
+          "auteur": "Comprendre le Coran",
+          "texte": "And those who strive for Us — We will surely guide them to Our ways. And indeed, Allah is with the doers of good."
+        },
+        "tr": {
+          "auteur": "Comprendre le Coran",
+          "texte": "Bizim uğrumuzda cihad edenleri, elbette yollarımıza eriştireceğiz. Şüphesiz Allah, iyilik yapanlarla beraberdir."
+        }
+      },
+      "mots": [
+        {
+          "ar": "وَالَّذِينَ",
+          "translit": "walladhīna",
+          "fr": "et ceux qui",
+          "racine": "و + pronom relatif",
+          "frequence_coran": 164
+        },
+        {
+          "ar": "وَإِنَّ",
+          "translit": "waʾinna",
+          "fr": "et si",
+          "racine": "و + إِنْ",
+          "frequence_coran": 170
+        },
+        {
+          "ar": "اللَّهَ",
+          "translit": "llāha",
+          "fr": "Allah",
+          "racine": "أ-ل-ه",
+          "frequence_coran": 2699
+        },
+        {
+          "ar": "لَمَعَ",
+          "translit": "lamaʿa",
+          "fr": "avec",
+          "racine": "préposition",
+          "frequence_coran": 58
+        }
+      ],
+      "niveau_couche": 3
+    }
+  ],
+  "resume_pedagogique": {
+    "mots_cles_a_retenir": [
+      "أَحَسِبَ النَّاس",
+      "أَوْهَن الْبُيُوت",
+      "كَبَيْتِ الْعَنكَبُوت",
+      "جَٰهَدُوا فِينَا",
+      "لَا يُفْتَنُون"
+    ],
+    "racines_a_retenir": [
+      "ف-ت-ن",
+      "ج-ه-د",
+      "و-ه-ن",
+      "ب-ي-ت"
+    ],
+    "declic_frequence": "fatana (éprouver par le feu — comme on éprouve l'or, racine ف-ت-ن ~60 occurrences) ouvre la sourate au v.2 : a-yaḥsibu n-nāsu an yutrakū... wa-hum lā yuftanūn — « les hommes pensent-ils qu'on les laissera sans être éprouvés ? » La fitna n'est pas une punition mais un test de pureté : la profession de foi doit passer au creuset avant d'être validée. Dire « je crois » n'est qu'un commencement."
+  }
+};
+
+export { S029 };
