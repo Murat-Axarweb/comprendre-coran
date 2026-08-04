@@ -250,6 +250,7 @@
       color: var(--text);
     }
     .v-meta { font-size: 12px; color: var(--text3); }
+    .s-rev { font-size: 11px; color: var(--gold); margin-top: 6px; opacity: 0.85; }
     .v-theme {
       font-size: 13px;
       color: var(--text2);
@@ -623,6 +624,10 @@
         <option value="M">Mecquoises</option>
         <option value="L">Médinoises</option>
       </select>
+      <select id="sort-filter" onchange="filterSourates()">
+        <option value="mushaf">Ordre du muṣḥaf</option>
+        <option value="revelation">Ordre de révélation</option>
+      </select>
     </div>
     <div class="sourate-grid" id="sourate-grid"></div>
   </div>
@@ -770,6 +775,21 @@ const SOURATES_META = [
   [114,"An-Nas","الناس","Les hommes",6,"L","Refuge contre le tentateur — clôture du Coran"]
 ];
 
+// Ordre chronologique de révélation (séquence standard de l'édition du Caire).
+// Clé = n° de sourate dans le muṣḥaf · valeur = rang de révélation (1 = première révélée).
+const REVELATION_ORDER = {
+  1:5, 2:87, 3:89, 4:92, 5:112, 6:55, 7:39, 8:88, 9:113, 10:51, 11:52, 12:53,
+  13:96, 14:72, 15:54, 16:70, 17:50, 18:69, 19:44, 20:45, 21:73, 22:103, 23:74, 24:102,
+  25:42, 26:47, 27:48, 28:49, 29:85, 30:84, 31:57, 32:75, 33:90, 34:58, 35:43, 36:41,
+  37:56, 38:38, 39:59, 40:60, 41:61, 42:62, 43:63, 44:64, 45:65, 46:66, 47:95, 48:111,
+  49:106, 50:34, 51:67, 52:76, 53:23, 54:37, 55:97, 56:46, 57:94, 58:105, 59:101, 60:91,
+  61:109, 62:110, 63:104, 64:108, 65:99, 66:107, 67:77, 68:2, 69:78, 70:79, 71:71, 72:40,
+  73:3, 74:4, 75:31, 76:98, 77:33, 78:80, 79:81, 80:24, 81:7, 82:82, 83:86, 84:83,
+  85:27, 86:36, 87:8, 88:68, 89:10, 90:35, 91:26, 92:9, 93:11, 94:12, 95:28, 96:1,
+  97:25, 98:100, 99:93, 100:14, 101:30, 102:16, 103:13, 104:32, 105:19, 106:29, 107:17, 108:15,
+  109:18, 110:114, 111:6, 112:22, 113:20, 114:21
+};
+
 // Registre des sourates avec données complètes
 const SOURATES_DATA = {};
 
@@ -802,7 +822,7 @@ function updateStats() {
 }
 
 // Rendu grille
-function renderGrid(list) {
+function renderGrid(list, sort = 'mushaf') {
   const grid = document.getElementById('sourate-grid');
   if (!list.length) {
     grid.innerHTML = '<div class="no-result">Aucune sourate trouvée.</div>';
@@ -812,6 +832,10 @@ function renderGrid(list) {
     const hasData = !!SOURATES_DATA[s[0]];
     const typeClass = s[5] === 'M' ? 'mecquoise' : 'medinoise';
     const typeLabel = s[5] === 'M' ? 'Mecquoise' : 'Médinoise';
+    const rev = REVELATION_ORDER[s[0]];
+    const revLine = sort === 'revelation'
+      ? `<div class="s-rev">Révélation nº${rev} · muṣḥaf nº${s[0]}</div>`
+      : '';
     return `<div class="s-card ${hasData ? 'has-data' : ''}" onclick="openSourate(${s[0]})">
       <div class="s-card-top">
         <span class="s-num">${s[0]}</span>
@@ -820,6 +844,7 @@ function renderGrid(list) {
       <div class="s-ar">${s[2]}</div>
       <div class="s-fr">${s[3]}</div>
       <div class="s-versets">${s[4]} versets${hasData ? ' · ✓ analysée' : ''}</div>
+      ${revLine}
     </div>`;
   }).join('');
 }
@@ -827,12 +852,18 @@ function renderGrid(list) {
 function filterSourates() {
   const q = document.getElementById('search').value.toLowerCase().trim();
   const type = document.getElementById('type-filter').value;
+  const sort = document.getElementById('sort-filter').value;
   const filtered = SOURATES_META.filter(s => {
     const matchQ = !q || s[1].toLowerCase().includes(q) || s[3].toLowerCase().includes(q) || s[0].toString().includes(q);
     const matchT = !type || s[5] === type;
     return matchQ && matchT;
   });
-  renderGrid(filtered);
+  if (sort === 'revelation') {
+    filtered.sort((a, b) => REVELATION_ORDER[a[0]] - REVELATION_ORDER[b[0]]);
+  } else {
+    filtered.sort((a, b) => a[0] - b[0]);
+  }
+  renderGrid(filtered, sort);
 }
 
 // Ouvrir sourate
@@ -849,7 +880,7 @@ async function openSourate(num) {
   document.getElementById('v-ar-name').textContent = currentS[2];
   document.getElementById('v-fr-name').textContent = currentS[3];
   const typeLabel = currentS[5] === 'M' ? 'Mecquoise' : 'Médinoise';
-  document.getElementById('v-meta').textContent = `Sourate ${currentS[0]} · ${typeLabel} · ${currentS[4]} versets`;
+  document.getElementById('v-meta').textContent = `Sourate ${currentS[0]} · ${typeLabel} · ${currentS[4]} versets · révélation nº${REVELATION_ORDER[currentS[0]]}`;
   document.getElementById('v-theme').textContent = currentS[6] || '';
   updateReadBtn();
 
