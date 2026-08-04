@@ -7,7 +7,7 @@ Plateforme web statique trilingue (**FR / EN / TR**) pour apprendre l'arabe cora
 ## Fonctionnalités
 
 - **Vocabulaire (1000 mots)** — les lemmes les plus fréquents du Coran, avec translittération scientifique, racine trilitère, thème, traductions FR/EN/TR, famille de mots et note de profondeur. Filtres par thème, recherche, tri, vues grille/liste, paliers de couverture du corpus (Top 10 → Top 1000).
-- **Sourates (113 disponibles)** — Fatiha + sourates 3 à 114 (d'Āl ʿImrān jusqu'à la fin) : texte arabe (rasm uthmani simplifié), translittération, traductions pédagogiques originales en 3 langues, analyse mot à mot (complète sur les sourates courtes, partielle par appariement automatique au glossaire sur les plus longues), analyses de versets et résumé pédagogique (mots clés, racines, « déclic fréquence »).
+- **Sourates (114 — Coran complet)** — de la Fatiha à an-Nās : texte arabe (rasm uthmani simplifié), translittération, traductions pédagogiques originales en 3 langues, analyse mot à mot (complète sur les sourates courtes, partielle par appariement automatique au glossaire sur les plus longues), analyses de versets et résumé pédagogique (mots clés, racines, « déclic fréquence »).
 - **Racines** — explorateur des ~600 racines trilitères du glossaire : fréquence cumulée, mots dérivés et familles.
 - **Exercices** — QCM de traduction et quiz d'identification de racine (plage de mots réglable, 10 questions), scores conservés localement.
 - **Progression** — mots appris, sourates lues et meilleurs scores stockés dans `localStorage` (module `data/progress.js`).
