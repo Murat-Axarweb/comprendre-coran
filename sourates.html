@@ -790,6 +790,125 @@ const REVELATION_ORDER = {
   109:18, 110:114, 111:6, 112:22, 113:20, 114:21
 };
 
+// Sens du nom de chaque sourate en EN/TR (le FR est déjà dans SOURATES_META[3]).
+const SOURATES_NOM = {
+  1:{en:"The Opening",tr:"Açılış"},
+  2:{en:"The Cow",tr:"İnek"},
+  3:{en:"The Family of Imran",tr:"İmran Ailesi"},
+  4:{en:"The Women",tr:"Kadınlar"},
+  5:{en:"The Table Spread",tr:"Sofra"},
+  6:{en:"The Cattle",tr:"Davarlar"},
+  7:{en:"The Heights",tr:"Yüksek Yerler"},
+  8:{en:"The Spoils of War",tr:"Ganimetler"},
+  9:{en:"The Repentance",tr:"Tövbe"},
+  10:{en:"Jonah",tr:"Yunus"},
+  11:{en:"Hud",tr:"Hûd"},
+  12:{en:"Joseph",tr:"Yusuf"},
+  13:{en:"The Thunder",tr:"Gök Gürültüsü"},
+  14:{en:"Abraham",tr:"İbrahim"},
+  15:{en:"The Rocky Tract",tr:"Hicr"},
+  16:{en:"The Bee",tr:"Arı"},
+  17:{en:"The Night Journey",tr:"Gece Yürüyüşü"},
+  18:{en:"The Cave",tr:"Mağara"},
+  19:{en:"Mary",tr:"Meryem"},
+  20:{en:"Ta-Ha",tr:"Tâ-Hâ"},
+  21:{en:"The Prophets",tr:"Peygamberler"},
+  22:{en:"The Pilgrimage",tr:"Hac"},
+  23:{en:"The Believers",tr:"Mü'minler"},
+  24:{en:"The Light",tr:"Nûr (Işık)"},
+  25:{en:"The Criterion",tr:"Furkan (Ayırıcı)"},
+  26:{en:"The Poets",tr:"Şairler"},
+  27:{en:"The Ant",tr:"Karınca"},
+  28:{en:"The Stories",tr:"Kıssalar"},
+  29:{en:"The Spider",tr:"Örümcek"},
+  30:{en:"The Romans",tr:"Rumlar (Bizanslılar)"},
+  31:{en:"Luqman",tr:"Lokman"},
+  32:{en:"The Prostration",tr:"Secde"},
+  33:{en:"The Combined Forces",tr:"Hizipler"},
+  34:{en:"Sheba",tr:"Sebe"},
+  35:{en:"The Originator",tr:"Yaratan (Fâtır)"},
+  36:{en:"Ya-Sin",tr:"Yâsîn"},
+  37:{en:"Those Ranged in Ranks",tr:"Saf Saf Dizilenler"},
+  38:{en:"Sad",tr:"Sâd"},
+  39:{en:"The Groups",tr:"Zümreler"},
+  40:{en:"The Forgiver",tr:"Bağışlayan (Ğâfir)"},
+  41:{en:"Explained in Detail",tr:"Fussilet (Açıklanmış)"},
+  42:{en:"The Consultation",tr:"Danışma (Şûrâ)"},
+  43:{en:"The Ornaments of Gold",tr:"Süsler (Zuhruf)"},
+  44:{en:"The Smoke",tr:"Duman"},
+  45:{en:"The Kneeling",tr:"Diz Çöken"},
+  46:{en:"The Sand Dunes",tr:"Ahkâf (Kum Tepeleri)"},
+  47:{en:"Muhammad",tr:"Muhammed"},
+  48:{en:"The Victory",tr:"Fetih (Zafer)"},
+  49:{en:"The Rooms",tr:"Odalar (Hucurât)"},
+  50:{en:"Qaf",tr:"Kâf"},
+  51:{en:"The Winnowing Winds",tr:"Savuran Rüzgârlar"},
+  52:{en:"The Mount",tr:"Tûr (Dağ)"},
+  53:{en:"The Star",tr:"Yıldız"},
+  54:{en:"The Moon",tr:"Ay"},
+  55:{en:"The Most Merciful",tr:"Rahmân"},
+  56:{en:"The Inevitable Event",tr:"Vâkıa (Olay)"},
+  57:{en:"The Iron",tr:"Demir"},
+  58:{en:"The Pleading Woman",tr:"Mücadele (Tartışan Kadın)"},
+  59:{en:"The Gathering",tr:"Haşr (Toplanma)"},
+  60:{en:"The Woman Tested",tr:"İmtihan Edilen Kadın"},
+  61:{en:"The Ranks",tr:"Saf"},
+  62:{en:"The Congregation",tr:"Cuma"},
+  63:{en:"The Hypocrites",tr:"Münâfıklar"},
+  64:{en:"The Mutual Disillusion",tr:"Teğâbün (Aldanış)"},
+  65:{en:"The Divorce",tr:"Boşanma (Talâk)"},
+  66:{en:"The Prohibition",tr:"Tahrîm (Yasaklama)"},
+  67:{en:"The Sovereignty",tr:"Mülk (Egemenlik)"},
+  68:{en:"The Pen",tr:"Kalem"},
+  69:{en:"The Reality",tr:"Hâkka (Gerçekleşecek)"},
+  70:{en:"The Ascending Stairways",tr:"Yükselme Yolları (Meâric)"},
+  71:{en:"Noah",tr:"Nuh"},
+  72:{en:"The Jinn",tr:"Cinler"},
+  73:{en:"The Enshrouded One",tr:"Örtünüp Bürünen (Müzzemmil)"},
+  74:{en:"The Cloaked One",tr:"Örtüsüne Bürünen (Müddessir)"},
+  75:{en:"The Resurrection",tr:"Kıyâmet"},
+  76:{en:"The Man",tr:"İnsan"},
+  77:{en:"Those Sent Forth",tr:"Gönderilenler (Mürselât)"},
+  78:{en:"The Tidings",tr:"Haber (Nebe)"},
+  79:{en:"Those Who Pull Out",tr:"Söküp Çıkaranlar (Nâziât)"},
+  80:{en:"He Frowned",tr:"Yüzünü Ekşitti (Abese)"},
+  81:{en:"The Overthrowing",tr:"Dürülme (Tekvîr)"},
+  82:{en:"The Cleaving",tr:"Yarılma (İnfitâr)"},
+  83:{en:"The Defrauding",tr:"Ölçüde Hile Yapanlar (Mutaffifîn)"},
+  84:{en:"The Splitting Open",tr:"Yarılma (İnşikâk)"},
+  85:{en:"The Mansions of the Stars",tr:"Burçlar"},
+  86:{en:"The Nightcomer",tr:"Târık (Gece Gelen)"},
+  87:{en:"The Most High",tr:"A'lâ (En Yüce)"},
+  88:{en:"The Overwhelming",tr:"Ğâşiye (Kaplayan)"},
+  89:{en:"The Dawn",tr:"Fecir (Şafak)"},
+  90:{en:"The City",tr:"Beled (Şehir)"},
+  91:{en:"The Sun",tr:"Güneş"},
+  92:{en:"The Night",tr:"Gece"},
+  93:{en:"The Morning Hours",tr:"Kuşluk Vakti (Duhâ)"},
+  94:{en:"The Relief",tr:"İnşirâh (Ferahlık)"},
+  95:{en:"The Fig",tr:"İncir"},
+  96:{en:"The Clot",tr:"Alak (Kan Pıhtısı)"},
+  97:{en:"The Night of Decree",tr:"Kadir Gecesi"},
+  98:{en:"The Clear Proof",tr:"Beyyine (Açık Kanıt)"},
+  99:{en:"The Earthquake",tr:"Zilzâl (Deprem)"},
+  100:{en:"The Courser",tr:"Âdiyât (Koşan Atlar)"},
+  101:{en:"The Calamity",tr:"Kâria (Çarpan Felaket)"},
+  102:{en:"Rivalry in Worldly Increase",tr:"Tekâsür (Çoğaltma Yarışı)"},
+  103:{en:"The Declining Day",tr:"Asr (Zaman)"},
+  104:{en:"The Traducer",tr:"Hümeze (İftiracı)"},
+  105:{en:"The Elephant",tr:"Fil"},
+  106:{en:"Quraysh",tr:"Kureyş"},
+  107:{en:"The Small Kindnesses",tr:"Mâûn (Yardım)"},
+  108:{en:"The Abundance",tr:"Kevser (Bolluk)"},
+  109:{en:"The Disbelievers",tr:"Kâfirûn (İnkârcılar)"},
+  110:{en:"The Divine Support",tr:"Nasr (Yardım)"},
+  111:{en:"The Palm Fiber",tr:"Mesed (Hurma Lifi)"},
+  112:{en:"The Sincerity",tr:"İhlâs (Samimiyet)"},
+  113:{en:"The Daybreak",tr:"Felak (Şafak)"},
+  114:{en:"Mankind",tr:"İnsanlar (Nâs)"}
+};
+
+
 // Registre des sourates avec données complètes
 const SOURATES_DATA = {};
 
@@ -811,6 +930,41 @@ let currentData = null;
 let currentIdx = 0;
 let currentTab = 'traduction';
 let selectedMot = null;
+
+// ----- Langue d'interface -----
+function currentLang() { return localStorage.getItem('lang') || 'fr'; }
+
+// Sens du nom d'une sourate dans la langue courante (repli sur le FR).
+function nomSens(num, lang) {
+  lang = lang || currentLang();
+  const meta = SOURATES_META.find(s => s[0] === num);
+  const fr = meta ? meta[3] : '';
+  if (lang === 'fr') return fr;
+  const loc = SOURATES_NOM[num];
+  return (loc && loc[lang]) || fr;
+}
+
+function updateLangBtns() {
+  const l = currentLang();
+  ['fr', 'en', 'tr'].forEach(x => {
+    const btn = document.getElementById('btn-' + x);
+    if (!btn) return;
+    btn.style.borderColor = x === l ? 'var(--gold)' : 'var(--border)';
+    btn.style.color = x === l ? 'var(--gold)' : 'var(--text2)';
+  });
+}
+
+window.setLang = function(lang) {
+  localStorage.setItem('lang', lang);
+  document.documentElement.setAttribute('lang', lang);
+  updateLangBtns();
+  filterSourates();
+  const viewerOpen = document.getElementById('viewer-view').style.display === 'block';
+  if (viewerOpen && currentS) {
+    document.getElementById('v-fr-name').textContent = nomSens(currentS[0]);
+    renderVerset();
+  }
+};
 
 // Stats
 function updateStats() {
@@ -842,7 +996,7 @@ function renderGrid(list, sort = 'mushaf') {
         <span class="s-badge ${typeClass}">${typeLabel}</span>
       </div>
       <div class="s-ar">${s[2]}</div>
-      <div class="s-fr">${s[3]}</div>
+      <div class="s-fr">${nomSens(s[0])}</div>
       <div class="s-versets">${s[4]} versets${hasData ? ' · ✓ analysée' : ''}</div>
       ${revLine}
     </div>`;
@@ -854,7 +1008,10 @@ function filterSourates() {
   const type = document.getElementById('type-filter').value;
   const sort = document.getElementById('sort-filter').value;
   const filtered = SOURATES_META.filter(s => {
-    const matchQ = !q || s[1].toLowerCase().includes(q) || s[3].toLowerCase().includes(q) || s[0].toString().includes(q);
+    const nom = SOURATES_NOM[s[0]] || {};
+    const matchQ = !q || s[1].toLowerCase().includes(q) || s[3].toLowerCase().includes(q)
+      || (nom.en && nom.en.toLowerCase().includes(q)) || (nom.tr && nom.tr.toLowerCase().includes(q))
+      || s[0].toString().includes(q);
     const matchT = !type || s[5] === type;
     return matchQ && matchT;
   });
@@ -878,7 +1035,7 @@ async function openSourate(num) {
   document.getElementById('stats-bar').style.display = 'none';
 
   document.getElementById('v-ar-name').textContent = currentS[2];
-  document.getElementById('v-fr-name').textContent = currentS[3];
+  document.getElementById('v-fr-name').textContent = nomSens(currentS[0]);
   const typeLabel = currentS[5] === 'M' ? 'Mecquoise' : 'Médinoise';
   document.getElementById('v-meta').textContent = `Sourate ${currentS[0]} · ${typeLabel} · ${currentS[4]} versets · révélation nº${REVELATION_ORDER[currentS[0]]}`;
   document.getElementById('v-theme').textContent = currentS[6] || '';
@@ -1073,6 +1230,8 @@ const savedTheme = localStorage.getItem('theme');
 if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
 
 // Init
+updateLangBtns();
+document.documentElement.setAttribute('lang', currentLang());
 renderGrid(SOURATES_META);
 
 // Préchargement des sourates disponibles (badges ✓ et stats)
