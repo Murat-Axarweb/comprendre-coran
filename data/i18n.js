@@ -33,6 +33,7 @@ const I18N = {
     racines_words: "mots",
     racines_derived: "Mots dérivés dans le vocabulaire",
     // Navigation
+    nav_accueil: "Accueil",
     nav_sourates: "Sourates",
     nav_vocabulaire: "Vocabulaire",
     nav_racines: "Racines",
@@ -190,6 +191,7 @@ const I18N = {
     racines_count: "roots",
     racines_words: "words",
     racines_derived: "Derived words in the vocabulary",
+    nav_accueil: "Home",
     nav_sourates: "Surahs",
     nav_vocabulaire: "Vocabulary",
     nav_racines: "Roots",
@@ -340,6 +342,7 @@ const I18N = {
     racines_count: "kök",
     racines_words: "kelime",
     racines_derived: "Sözlükteki türev kelimeler",
+    nav_accueil: "Ana Sayfa",
     nav_sourates: "Sureler",
     nav_vocabulaire: "Kelimeler",
     nav_racines: "Kökler",
