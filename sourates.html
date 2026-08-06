@@ -679,7 +679,9 @@ let I18N_DICT = { fr: {
   label_analyse_global: "Analyse globale du verset", wip_analyse: "Analyse en cours de rédaction.",
   label_couche: "Couche", wip_resume: "Résumé pédagogique en cours de rédaction.",
   label_motscles: "Mots clés à retenir", label_racines_retenir: "Racines à retenir",
-  label_declic: "Le déclic fréquence :"
+  label_declic: "Le déclic fréquence :",
+  nodata_title: "L'analyse complète de cette sourate est en cours de rédaction.",
+  nodata_avail: "Disponibles : les <strong>114 sourates</strong> du Coran."
 } };
 function T(key){
   const l = currentLang();
@@ -1520,8 +1522,8 @@ function renderNoData() {
   document.getElementById('verset-body').innerHTML = `
     <div class="no-data-box">
       <div class="big">📖</div>
-      <p>L'analyse complète de cette sourate est en cours de rédaction.<br>
-      Disponibles : les <strong>114 sourates</strong> du Coran.</p>
+      <p>${T('nodata_title')}<br>
+      ${T('nodata_avail')}</p>
     </div>`;
 }
 

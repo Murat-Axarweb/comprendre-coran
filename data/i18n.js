@@ -152,6 +152,8 @@ const I18N = {
     label_motscles: "Mots clés à retenir",
     label_racines_retenir: "Racines à retenir",
     label_declic: "Le déclic fréquence :",
+    nodata_title: "L'analyse complète de cette sourate est en cours de rédaction.",
+    nodata_avail: "Disponibles : les <strong>114 sourates</strong> du Coran.",
 
     // Thème toggle
     theme_clair: "Clair",
@@ -304,6 +306,8 @@ const I18N = {
     label_motscles: "Key words to remember",
     label_racines_retenir: "Roots to remember",
     label_declic: "The frequency insight:",
+    nodata_title: "The full analysis of this surah is being written.",
+    nodata_avail: "Available: all <strong>114 surahs</strong> of the Quran.",
 
     theme_clair: "Light",
     theme_sombre: "Dark",
@@ -455,6 +459,8 @@ const I18N = {
     label_motscles: "Hatırlanacak anahtar kelimeler",
     label_racines_retenir: "Hatırlanacak kökler",
     label_declic: "Sıklık ipucu:",
+    nodata_title: "Bu surenin tam analizi hazırlanıyor.",
+    nodata_avail: "Mevcut: Kur'an'ın <strong>114 suresi</strong>.",
 
     theme_clair: "Açık",
     theme_sombre: "Koyu",
