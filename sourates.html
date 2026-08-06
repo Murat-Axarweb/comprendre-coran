@@ -658,6 +658,71 @@
 
 <!-- DONNÉES SOURATES (métadonnées des 114) -->
 <script>
+// ===== i18n : dictionnaire partagé (import dynamique, compatible script classique) =====
+// Repli FR : garantit un rendu correct avant/à défaut du chargement de data/i18n.js.
+let I18N_DICT = { fr: {
+  nav_accueil: "Accueil", nav_sourates: "Sourates", nav_vocabulaire: "Vocabulaire",
+  nav_racines: "Racines", nav_exercices: "Exercices",
+  sourates_subtitle: "Comprendre le Coran verset par verset · Racines · Traduction · Analyse",
+  stat_sourates: "Sourates", stat_versets: "Versets", stat_analysees: "Versets analysés",
+  stat_couverture: "Couverture", sourates_search: "Rechercher une sourate...",
+  filter_all: "Toutes (114)", filter_meccan: "Mecquoises", filter_medinan: "Médinoises",
+  sort_mushaf: "Ordre du muṣḥaf", sort_revelation: "Ordre de révélation",
+  no_result: "Aucune sourate trouvée.", back_all: "← Toutes les sourates",
+  prev_verse: "← Précédent", next_verse: "Suivant →",
+  meccan: "Mecquoise", medinan: "Médinoise", label_sourate: "Sourate",
+  label_versets: "versets", label_analysee: "analysée", label_revelation: "révélation",
+  label_mushaf: "muṣḥaf", loading: "Chargement...", tab_traduction: "Traduction",
+  tab_mots: "Mot à mot", tab_analyse: "Analyse", tab_resume: "Résumé pédago",
+  label_traduction_fr: "Traduction française", label_click_word: "Cliquer sur un mot pour l'analyser",
+  wip_mots: "Analyse mot à mot en cours de rédaction pour ce verset.",
+  label_analyse_global: "Analyse globale du verset", wip_analyse: "Analyse en cours de rédaction.",
+  label_couche: "Couche", wip_resume: "Résumé pédagogique en cours de rédaction.",
+  label_motscles: "Mots clés à retenir", label_racines_retenir: "Racines à retenir",
+  label_declic: "Le déclic fréquence :"
+} };
+function T(key){
+  const l = currentLang();
+  return (I18N_DICT && I18N_DICT[l] && I18N_DICT[l][key])
+      || (I18N_DICT && I18N_DICT.fr && I18N_DICT.fr[key])
+      || key;
+}
+function metaLine(s){
+  const tl = s[5] === 'M' ? T('meccan') : T('medinan');
+  return `${T('label_sourate')} ${s[0]} · ${tl} · ${s[4]} ${T('label_versets')} · ${T('label_revelation')} nº${REVELATION_ORDER[s[0]]}`;
+}
+function applyStaticI18n(){
+  const nav = {'index.html':'nav_accueil','sourates.html':'nav_sourates','vocabulaire.html':'nav_vocabulaire','racines.html':'nav_racines','exercices.html':'nav_exercices'};
+  document.querySelectorAll('nav a[href]').forEach(a => { const k = nav[a.getAttribute('href')]; if (k) a.textContent = T(k); });
+  const sub = document.getElementById('subtitle-text'); if (sub) sub.textContent = T('sourates_subtitle');
+  const statKeys = ['stat_sourates','stat_versets','stat_analysees','stat_couverture'];
+  document.querySelectorAll('#stats-bar .stat-label').forEach((el,i) => { if (statKeys[i]) el.textContent = T(statKeys[i]); });
+  const search = document.getElementById('search'); if (search) search.placeholder = T('sourates_search');
+  const tf = document.getElementById('type-filter');
+  if (tf){ const o = v => tf.querySelector('option[value="' + v + '"]');
+    if (o('')) o('').textContent = T('filter_all');
+    if (o('M')) o('M').textContent = T('filter_meccan');
+    if (o('L')) o('L').textContent = T('filter_medinan'); }
+  const sf = document.getElementById('sort-filter');
+  if (sf){ const o = v => sf.querySelector('option[value="' + v + '"]');
+    if (o('mushaf')) o('mushaf').textContent = T('sort_mushaf');
+    if (o('revelation')) o('revelation').textContent = T('sort_revelation'); }
+  const back = document.querySelector('.back-btn'); if (back) back.textContent = T('back_all');
+  const bp = document.getElementById('btn-prev'); if (bp) bp.textContent = T('prev_verse');
+  const bn = document.getElementById('btn-next'); if (bn) bn.textContent = T('next_verse');
+}
+import('./data/i18n.js').then(m => {
+  I18N_DICT = m.I18N;
+  applyStaticI18n();
+  if (typeof filterSourates === 'function') filterSourates();
+  const vv = document.getElementById('viewer-view');
+  if (vv && vv.style.display === 'block' && typeof currentS !== 'undefined' && currentS){
+    document.getElementById('v-fr-name').textContent = nomSens(currentS[0]);
+    document.getElementById('v-meta').textContent = metaLine(currentS);
+    if (typeof renderVerset === 'function') renderVerset();
+  }
+}).catch(e => console.warn('i18n non chargé', e));
+
 const SOURATES_META = [
   [1,"Al-Fatiha","الفاتحة","L'ouverture",7,"L","La prière centrale, dialogue direct avec Allah"],
   [2,"Al-Baqara","البقرة","La vache",286,"L","La plus longue sourate — loi, foi, récits des prophètes"],
@@ -958,10 +1023,12 @@ window.setLang = function(lang) {
   localStorage.setItem('lang', lang);
   document.documentElement.setAttribute('lang', lang);
   updateLangBtns();
+  applyStaticI18n();
   filterSourates();
   const viewerOpen = document.getElementById('viewer-view').style.display === 'block';
   if (viewerOpen && currentS) {
     document.getElementById('v-fr-name').textContent = nomSens(currentS[0]);
+    document.getElementById('v-meta').textContent = metaLine(currentS);
     renderVerset();
   }
 };
@@ -979,16 +1046,16 @@ function updateStats() {
 function renderGrid(list, sort = 'mushaf') {
   const grid = document.getElementById('sourate-grid');
   if (!list.length) {
-    grid.innerHTML = '<div class="no-result">Aucune sourate trouvée.</div>';
+    grid.innerHTML = '<div class="no-result">' + T('no_result') + '</div>';
     return;
   }
   grid.innerHTML = list.map(s => {
     const hasData = !!SOURATES_DATA[s[0]];
     const typeClass = s[5] === 'M' ? 'mecquoise' : 'medinoise';
-    const typeLabel = s[5] === 'M' ? 'Mecquoise' : 'Médinoise';
+    const typeLabel = s[5] === 'M' ? T('meccan') : T('medinan');
     const rev = REVELATION_ORDER[s[0]];
     const revLine = sort === 'revelation'
-      ? `<div class="s-rev">Révélation nº${rev} · muṣḥaf nº${s[0]}</div>`
+      ? `<div class="s-rev">${T('label_revelation')} nº${rev} · ${T('label_mushaf')} nº${s[0]}</div>`
       : '';
     return `<div class="s-card ${hasData ? 'has-data' : ''}" onclick="openSourate(${s[0]})">
       <div class="s-card-top">
@@ -997,7 +1064,7 @@ function renderGrid(list, sort = 'mushaf') {
       </div>
       <div class="s-ar">${s[2]}</div>
       <div class="s-fr">${nomSens(s[0])}</div>
-      <div class="s-versets">${s[4]} versets${hasData ? ' · ✓ analysée' : ''}</div>
+      <div class="s-versets">${s[4]} ${T('label_versets')}${hasData ? ' · ✓ ' + T('label_analysee') : ''}</div>
       ${revLine}
     </div>`;
   }).join('');
@@ -1036,12 +1103,11 @@ async function openSourate(num) {
 
   document.getElementById('v-ar-name').textContent = currentS[2];
   document.getElementById('v-fr-name').textContent = nomSens(currentS[0]);
-  const typeLabel = currentS[5] === 'M' ? 'Mecquoise' : 'Médinoise';
-  document.getElementById('v-meta').textContent = `Sourate ${currentS[0]} · ${typeLabel} · ${currentS[4]} versets · révélation nº${REVELATION_ORDER[currentS[0]]}`;
+  document.getElementById('v-meta').textContent = metaLine(currentS);
   document.getElementById('v-theme').textContent = currentS[6] || '';
   updateReadBtn();
 
-  document.getElementById('verset-body').innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text3)">Chargement...</div>';
+  document.getElementById('verset-body').innerHTML = '<div style="padding:2rem;text-align:center;color:var(--text3)">' + T('loading') + '</div>';
   currentData = await loadSourateData(num);
   updateStats();
   renderVerset();
@@ -1069,22 +1135,22 @@ function renderVerset() {
     <div class="translit-line">${v.translit}</div>
 
     <div class="tabs">
-      <button class="tab-btn ${currentTab==='traduction'?'active':''}" onclick="setTab('traduction')">Traduction</button>
-      <button class="tab-btn ${currentTab==='mots'?'active':''}" onclick="setTab('mots')">Mot à mot</button>
-      <button class="tab-btn ${currentTab==='analyse'?'active':''}" onclick="setTab('analyse')">Analyse</button>
-      <button class="tab-btn ${currentTab==='resume'?'active':''}" onclick="setTab('resume')">Résumé pédago</button>
+      <button class="tab-btn ${currentTab==='traduction'?'active':''}" onclick="setTab('traduction')">${T('tab_traduction')}</button>
+      <button class="tab-btn ${currentTab==='mots'?'active':''}" onclick="setTab('mots')">${T('tab_mots')}</button>
+      <button class="tab-btn ${currentTab==='analyse'?'active':''}" onclick="setTab('analyse')">${T('tab_analyse')}</button>
+      <button class="tab-btn ${currentTab==='resume'?'active':''}" onclick="setTab('resume')">${T('tab_resume')}</button>
     </div>
 
     <div class="tab-panel ${currentTab==='traduction'?'active':''}" id="panel-traduction">
-      <div class="section-label">Traduction française</div>
+      <div class="section-label">${T('label_traduction_fr')}</div>
       <div class="traduction-text">${trFr.texte}</div>
       <div class="traduction-auteur">— ${trFr.auteur}</div>
     </div>
 
     <div class="tab-panel ${currentTab==='mots'?'active':''}" id="panel-mots">
-      <div class="section-label">Cliquer sur un mot pour l'analyser</div>
+      <div class="section-label">${T('label_click_word')}</div>
       <div class="mots-grid" id="mots-grid">
-        ${!(v.mots||[]).length ? `<div style="color:var(--text3);padding:1rem;grid-column:1/-1">Analyse mot à mot en cours de rédaction pour ce verset.</div>` : ''}
+        ${!(v.mots||[]).length ? `<div style="color:var(--text3);padding:1rem;grid-column:1/-1">${T('wip_mots')}</div>` : ''}
         ${(v.mots||[]).map((m,i) => `
           <div class="mot-card" id="mot-${i}" onclick="selectMot(${i})">
             <div class="mot-ar">${m.ar}</div>
@@ -1097,10 +1163,10 @@ function renderVerset() {
     </div>
 
     <div class="tab-panel ${currentTab==='analyse'?'active':''}" id="panel-analyse">
-      <div class="section-label">Analyse globale du verset</div>
+      <div class="section-label">${T('label_analyse_global')}</div>
       <div class="analyse-box">
-        ${v.analyse_globale || 'Analyse en cours de rédaction.'}
-        <div class="couche-badge">Couche ${v.niveau_couche || 1} / 5</div>
+        ${v.analyse_globale || T('wip_analyse')}
+        <div class="couche-badge">${T('label_couche')} ${v.niveau_couche || 1} / 5</div>
       </div>
     </div>
 
@@ -1111,20 +1177,20 @@ function renderVerset() {
 }
 
 function renderResume() {
-  if (!currentData || !currentData.resume_pedagogique) return '<div style="color:var(--text3);padding:1rem">Résumé pédagogique en cours de rédaction.</div>';
+  if (!currentData || !currentData.resume_pedagogique) return '<div style="color:var(--text3);padding:1rem">' + T('wip_resume') + '</div>';
   const r = currentData.resume_pedagogique;
   return `
     <div class="resume-grid">
       <div class="resume-card">
-        <div class="resume-card-title">Mots clés à retenir</div>
+        <div class="resume-card-title">${T('label_motscles')}</div>
         <div class="tag-list">${(r.mots_cles_a_retenir||[]).map(m=>`<span class="tag gold" style="font-family:'Amiri',serif;font-size:16px">${m}</span>`).join('')}</div>
       </div>
       <div class="resume-card">
-        <div class="resume-card-title">Racines à retenir</div>
+        <div class="resume-card-title">${T('label_racines_retenir')}</div>
         <div class="tag-list">${(r.racines_a_retenir||[]).map(r=>`<span class="tag gold">${r}</span>`).join('')}</div>
       </div>
       <div class="declic-box">
-        💡 <strong>Le déclic fréquence :</strong> ${r.declic_frequence || ''}
+        💡 <strong>${T('label_declic')}</strong> ${r.declic_frequence || ''}
       </div>
     </div>`;
 }
