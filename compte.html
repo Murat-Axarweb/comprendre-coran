@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compte — Comprendre le Coran</title>
+  <meta name="description" content="Connexion et synchronisation de votre progression d'apprentissage de l'arabe coranique.">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0f0f; --bg2: #1a1a1a; --bg3: #242424;
+      --border: #2e2e2e; --border2: #3a3a3a;
+      --text: #e8e8e8; --text2: #a0a0a0; --text3: #606060;
+      --gold: #c9a84c; --gold2: #e8c97a;
+      --green: #4a9e7a; --blue: #5b8fc9; --red: #c96b6b;
+      --radius: 10px; --radius-sm: 6px;
+    }
+    [data-theme="light"] {
+      --bg: #fafaf8; --bg2: #f0ede6; --bg3: #e8e4db;
+      --border: #d8d4cb; --border2: #c8c4bb;
+      --text: #1a1a1a; --text2: #555550; --text3: #999990;
+      --gold: #8b6914; --gold2: #a07820; --green: #2d6b50;
+      --blue: #2d5a8b; --red: #8b2d2d;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; }
+    .navbar { display: flex; align-items: center; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; background: var(--bg); }
+    .nav-logo { font-family: 'Amiri', serif; font-size: 22px; color: var(--gold); padding: 12px 20px; border-right: 1px solid var(--border); white-space: nowrap; }
+    .nav-links { display: flex; flex: 1; }
+    .nav-link { padding: 16px 18px; color: var(--text2); text-decoration: none; font-size: 14px; border-bottom: 2px solid transparent; }
+    .nav-link:hover { color: var(--text); }
+    .nav-link.active { color: var(--gold); border-bottom-color: var(--gold); }
+    .nav-right { display: flex; align-items: center; gap: 4px; padding-right: 12px; }
+    .lang-btn, .theme-btn { background: transparent; border: 1px solid var(--border); color: var(--text2); border-radius: var(--radius-sm); padding: 5px 9px; cursor: pointer; font-size: 12px; }
+    .lang-btn.active { border-color: var(--gold); color: var(--gold); }
+    .app { max-width: 480px; margin: 0 auto; padding: 48px 20px 80px; }
+    .page-header { text-align: center; margin-bottom: 28px; }
+    .page-header h1 { font-size: 26px; font-weight: 600; margin-bottom: 6px; }
+    .page-header p { color: var(--text2); font-size: 14px; }
+    .notice { background: var(--bg2); border: 1px solid var(--border); border-left: 3px solid var(--gold); border-radius: var(--radius-sm); padding: 12px 14px; font-size: 13px; color: var(--text2); margin-bottom: 22px; line-height: 1.5; }
+    .auth-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; }
+    .auth-tabs { display: flex; gap: 4px; margin-bottom: 22px; background: var(--bg3); border-radius: var(--radius-sm); padding: 4px; }
+    .auth-tab { flex: 1; text-align: center; padding: 8px; border-radius: var(--radius-sm); cursor: pointer; color: var(--text2); font-size: 14px; border: none; background: transparent; }
+    .auth-tab.active { background: var(--bg); color: var(--gold); font-weight: 500; }
+    .field { margin-bottom: 16px; }
+    .field label { display: block; font-size: 12px; color: var(--text3); margin-bottom: 6px; text-transform: uppercase; letter-spacing: .06em; }
+    .field input { width: 100%; background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); padding: 11px 13px; font-size: 14px; font-family: inherit; }
+    .field input:focus { outline: none; border-color: var(--gold); }
+    .auth-btn { width: 100%; background: var(--gold); color: #0f0f0f; border: none; border-radius: var(--radius-sm); padding: 12px; font-size: 14px; font-weight: 600; cursor: pointer; margin-top: 4px; }
+    .auth-btn:hover { background: var(--gold2); }
+    .auth-btn:disabled { opacity: .55; cursor: default; }
+    .auth-msg { font-size: 13px; margin-top: 14px; padding: 10px 12px; border-radius: var(--radius-sm); line-height: 1.5; display: none; }
+    .auth-msg.show { display: block; }
+    .auth-msg.err { background: rgba(201,107,107,.12); color: var(--red); border: 1px solid rgba(201,107,107,.3); }
+    .auth-msg.ok { background: rgba(74,158,122,.12); color: var(--green); border: 1px solid rgba(74,158,122,.3); }
+    .auth-switch { text-align: center; margin-top: 18px; }
+    .auth-switch button { background: none; border: none; color: var(--blue); font-size: 13px; cursor: pointer; text-decoration: underline; font-family: inherit; }
+    .profile-row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+    .profile-row:last-of-type { border-bottom: none; }
+    .profile-row .k { color: var(--text3); }
+    .profile-row .v { color: var(--text); font-weight: 500; }
+    .badge-role { font-size: 11px; padding: 2px 8px; border-radius: 20px; background: var(--bg3); color: var(--gold); text-transform: uppercase; letter-spacing: .05em; }
+    .hidden { display: none !important; }
+    @media (max-width: 640px) { .nav-logo { padding: 10px 12px; font-size: 18px; } .nav-link { padding: 12px 10px; font-size: 12px; } }
+  </style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-logo">القرآن</div>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html" data-i18n="nav_accueil">Accueil</a>
+    <a class="nav-link" href="sourates.html" data-i18n="nav_sourates">Sourates</a>
+    <a class="nav-link" href="vocabulaire.html" data-i18n="nav_vocabulaire">Vocabulaire</a>
+    <a class="nav-link" href="racines.html" data-i18n="nav_racines">Racines</a>
+    <a class="nav-link" href="exercices.html" data-i18n="nav_exercices">Exercices</a>
+    <a class="nav-link active" href="compte.html" data-i18n="nav_compte">Compte</a>
+  </div>
+  <div class="nav-right">
+    <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
+    <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
+    <button class="lang-btn" onclick="setLang('tr')" id="btn-tr">TR</button>
+    <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
+  </div>
+</nav>
+
+<div class="app">
+  <div class="page-header">
+    <h1 data-i18n="compte_title">Mon compte</h1>
+    <p data-i18n="compte_subtitle">Connexion et synchronisation de votre progression</p>
+  </div>
+
+  <div id="notice-config" class="notice hidden" data-i18n="auth_not_configured"></div>
+
+  <!-- ===== Vue formulaires (déconnecté) ===== -->
+  <div id="view-forms" class="auth-card hidden">
+    <div class="auth-tabs">
+      <button class="auth-tab active" id="tab-login" data-i18n="auth_tab_login" onclick="switchMode('login')">Connexion</button>
+      <button class="auth-tab" id="tab-signup" data-i18n="auth_tab_signup" onclick="switchMode('signup')">Inscription</button>
+    </div>
+
+    <div class="field" id="field-name">
+      <label data-i18n="auth_displayname">Nom affiché</label>
+      <input type="text" id="in-name" autocomplete="nickname" data-i18n-placeholder="auth_displayname_ph">
+    </div>
+    <div class="field">
+      <label data-i18n="auth_email">Adresse e-mail</label>
+      <input type="email" id="in-email" autocomplete="email">
+    </div>
+    <div class="field">
+      <label data-i18n="auth_password">Mot de passe</label>
+      <input type="password" id="in-pass" autocomplete="current-password">
+    </div>
+
+    <button class="auth-btn" id="btn-submit" data-i18n="auth_btn_login" onclick="doSubmit()">Se connecter</button>
+    <div class="auth-msg" id="auth-msg"></div>
+
+    <div class="auth-switch">
+      <button id="switch-link" data-i18n="auth_switch_to_signup" onclick="switchMode('signup')">Pas encore de compte ? Inscrivez-vous</button>
+    </div>
+  </div>
+
+  <!-- ===== Vue profil (connecté) ===== -->
+  <div id="view-profile" class="auth-card hidden">
+    <div class="profile-row">
+      <span class="k" data-i18n="auth_connected_as">Connecté en tant que</span>
+      <span class="v" id="p-name">—</span>
+    </div>
+    <div class="profile-row">
+      <span class="k" data-i18n="auth_email">Adresse e-mail</span>
+      <span class="v" id="p-email">—</span>
+    </div>
+    <div class="profile-row">
+      <span class="k" data-i18n="auth_role">Rôle</span>
+      <span class="v"><span class="badge-role" id="p-role">user</span></span>
+    </div>
+    <div class="profile-row">
+      <span class="k" data-i18n="auth_member_since">Membre depuis</span>
+      <span class="v" id="p-since">—</span>
+    </div>
+    <button class="auth-btn" style="margin-top:20px;background:transparent;border:1px solid var(--border);color:var(--text2)" data-i18n="auth_btn_logout" onclick="doLogout()">Se déconnecter</button>
+  </div>
+</div>
+
+<script type="module">
+import { I18N, t, initLang, setLang as setLangCore } from './data/i18n.js';
+import { isConfigured, signUp, signIn, signOut, getSession, getUser, getProfile, onAuthChange } from './data/auth.js';
+
+window.LANG = initLang();
+let mode = 'login';
+
+// ===== I18N / THÈME =====
+window.setLang = function(lang) { window.LANG = setLangCore(lang); renderAll(); };
+function updateLangBtns() {
+  ['fr','en','tr'].forEach(l => document.getElementById('btn-'+l).classList.toggle('active', window.LANG === l));
+}
+function applyI18n() {
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.getAttribute('data-i18n')); });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => { el.placeholder = t(el.getAttribute('data-i18n-placeholder')); });
+}
+window.toggleTheme = function() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur === 'light' ? '' : 'light');
+  localStorage.setItem('theme', cur === 'light' ? '' : 'light');
+};
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+
+// ===== BASCULE CONNEXION / INSCRIPTION =====
+window.switchMode = function(m) {
+  mode = m;
+  document.getElementById('tab-login').classList.toggle('active', m === 'login');
+  document.getElementById('tab-signup').classList.toggle('active', m === 'signup');
+  document.getElementById('field-name').classList.toggle('hidden', m !== 'signup');
+  document.getElementById('in-pass').setAttribute('autocomplete', m === 'signup' ? 'new-password' : 'current-password');
+  document.getElementById('btn-submit').textContent = t(m === 'signup' ? 'auth_btn_signup' : 'auth_btn_login');
+  const sl = document.getElementById('switch-link');
+  sl.textContent = t(m === 'signup' ? 'auth_switch_to_login' : 'auth_switch_to_signup');
+  sl.setAttribute('data-i18n', m === 'signup' ? 'auth_switch_to_login' : 'auth_switch_to_signup');
+  sl.setAttribute('onclick', `switchMode('${m === 'signup' ? 'login' : 'signup'}')`);
+  hideMsg();
+};
+
+function showMsg(text, kind) {
+  const el = document.getElementById('auth-msg');
+  el.textContent = text;
+  el.className = 'auth-msg show ' + kind;
+}
+function hideMsg() { document.getElementById('auth-msg').className = 'auth-msg'; }
+
+// ===== SOUMISSION =====
+window.doSubmit = async function() {
+  const email = document.getElementById('in-email').value.trim();
+  const pass = document.getElementById('in-pass').value;
+  const name = document.getElementById('in-name').value.trim();
+  if (!email || !pass) { showMsg(t('auth_err_generic'), 'err'); return; }
+  const btn = document.getElementById('btn-submit');
+  btn.disabled = true;
+  const prev = btn.textContent;
+  btn.textContent = t('auth_working');
+  hideMsg();
+  try {
+    if (mode === 'signup') {
+      const { data, error } = await signUp(email, pass, name, window.LANG);
+      if (error) { showMsg(error.message || t('auth_err_generic'), 'err'); }
+      else if (data && data.session) { await refreshView(); }
+      else { showMsg(t('auth_check_email'), 'ok'); }
+    } else {
+      const { error } = await signIn(email, pass);
+      if (error) showMsg(error.message || t('auth_err_generic'), 'err');
+      else await refreshView();
+    }
+  } catch (e) {
+    showMsg(t('auth_err_generic'), 'err');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = prev;
+  }
+};
+
+window.doLogout = async function() {
+  await signOut();
+  await refreshView();
+};
+
+// ===== ÉTAT CONNECTÉ / DÉCONNECTÉ =====
+async function refreshView() {
+  const session = await getSession();
+  const forms = document.getElementById('view-forms');
+  const profile = document.getElementById('view-profile');
+  if (session) {
+    forms.classList.add('hidden');
+    profile.classList.remove('hidden');
+    const [user, prof] = await Promise.all([getUser(), getProfile()]);
+    document.getElementById('p-name').textContent = (prof && prof.display_name) || (user && user.email) || '—';
+    document.getElementById('p-email').textContent = (user && user.email) || '—';
+    document.getElementById('p-role').textContent = (prof && prof.role) || 'user';
+    const since = prof && prof.created_at ? new Date(prof.created_at) : (user && user.created_at ? new Date(user.created_at) : null);
+    document.getElementById('p-since').textContent = since ? since.toLocaleDateString(window.LANG) : '—';
+  } else {
+    profile.classList.add('hidden');
+    forms.classList.remove('hidden');
+  }
+}
+
+// ===== RENDER =====
+function renderAll() {
+  applyI18n();
+  updateLangBtns();
+  // Le libellé du bouton/lien dépend du mode courant : on le réapplique.
+  document.getElementById('btn-submit').textContent = t(mode === 'signup' ? 'auth_btn_signup' : 'auth_btn_login');
+  const sl = document.getElementById('switch-link');
+  sl.textContent = t(mode === 'signup' ? 'auth_switch_to_login' : 'auth_switch_to_signup');
+  document.documentElement.setAttribute('lang', window.LANG);
+}
+
+// ===== INIT =====
+if (!isConfigured()) document.getElementById('notice-config').classList.remove('hidden');
+switchMode('login');
+renderAll();
+refreshView();
+onAuthChange(() => refreshView());
+</script>
+</body>
+</html>
