@@ -1,13 +1,12 @@
 // ============================================================
 // PROGRESSION — Comprendre le Coran
-// Local-first : localStorage est la source de vérité pour toutes
-// les lectures (API synchrone, inchangée). Quand l'utilisateur est
-// connecté, la progression est synchronisée avec Supabase en
-// arrière-plan (fusion à la connexion, push après chaque écriture).
-// Si Supabase n'est pas configuré ou l'utilisateur non connecté,
-// tout continue en localStorage sans aucune régression.
+// Local-first : localStorage est la source de vérité pour toutes les
+// lectures (API synchrone, inchangée). La synchro Supabase se branche
+// en arrière-plan, sans jamais bloquer le chargement de la page :
+// la librairie est chargée paresseusement (getSupabase). Si elle
+// n'arrive pas, tout continue en localStorage sans régression.
 // ============================================================
-import { supabase } from './supabase.js';
+import { getSupabase, isConfigured } from './supabase.js';
 
 const KEY = 'cc_progress_v1';
 
@@ -95,21 +94,15 @@ export function resetProgress() {
 }
 
 // ============================================================
-// SYNCHRONISATION CLOUD (Supabase)
+// SYNCHRONISATION CLOUD (paresseuse, non bloquante)
 // ============================================================
-
-// --- Abonnement : les pages peuvent se re-rendre après une synchro ---
 const _listeners = new Set();
 export function subscribe(fn) { _listeners.add(fn); return () => _listeners.delete(fn); }
 function _notify() { _listeners.forEach(fn => { try { fn(); } catch (e) {} }); }
 
-// --- Indique si la synchro cloud est disponible (Supabase configuré) ---
-export function cloudEnabled() { return !!supabase; }
+export function cloudEnabled() { return isConfigured(); }
 
-// --- Fusion d'un état distant dans l'état local (sémantique d'union) ---
-// Les ensembles « appris/lu » sont unis (on n'efface pas par absence) ;
-// l'historique de quiz est concaténé et dédupliqué ; les meilleurs
-// scores prennent le maximum. Évite toute perte à la première connexion.
+// Fusion d'un état distant dans l'état local (union — pas d'effacement par absence).
 function _merge(remote) {
   if (!remote || typeof remote !== 'object') return;
   const rw = Array.isArray(remote.wordsLearned) ? remote.wordsLearned : [];
@@ -131,44 +124,44 @@ function _merge(remote) {
   }
 }
 
-// --- Push (débouncé) de l'état local complet vers le cloud ---
 let _pushTimer = null;
 function _scheduleCloudPush() {
-  if (!supabase) return;
+  if (!isConfigured()) return;
   clearTimeout(_pushTimer);
   _pushTimer = setTimeout(_cloudPush, 800);
 }
 async function _cloudPush() {
-  if (!supabase) return;
   try {
-    const { data: { user } } = await supabase.auth.getUser();
+    const sb = await getSupabase();
+    if (!sb) return;
+    const { data: { user } } = await sb.auth.getUser();
     if (!user) return;
-    await supabase.from('user_progress').upsert(
+    await sb.from('user_progress').upsert(
       { user_id: user.id, data: progress, updated_at: new Date().toISOString() },
       { onConflict: 'user_id' }
     );
-  } catch (e) { /* hors ligne : la synchro reprendra plus tard */ }
+  } catch (e) { /* hors ligne : reprise ultérieure */ }
 }
 
-// --- Pull + fusion à la connexion (puis re-push du résultat fusionné) ---
 async function _cloudPull() {
-  if (!supabase) return;
   try {
-    const { data: { user } } = await supabase.auth.getUser();
+    const sb = await getSupabase();
+    if (!sb) return;
+    const { data: { user } } = await sb.auth.getUser();
     if (!user) return;
-    const { data, error } = await supabase
+    const { data, error } = await sb
       .from('user_progress').select('data').eq('user_id', user.id).maybeSingle();
     if (!error && data && data.data) _merge(data.data);
     _save(progress);
-    _notify();          // rafraîchit l'UI des pages abonnées
-    _cloudPush();        // renvoie l'état fusionné (inclut la progression anonyme locale)
-  } catch (e) { /* silencieux : dégradation gracieuse */ }
+    _notify();
+    _cloudPush();
+  } catch (e) { /* silencieux */ }
 }
 
-// --- Amorçage : au chargement + à chaque connexion ---
-if (supabase) {
+// Amorçage en arrière-plan (ne bloque jamais l'exécution du module).
+(async () => {
+  const sb = await getSupabase();
+  if (!sb) return;
   _cloudPull();
-  supabase.auth.onAuthStateChange((event) => {
-    if (event === 'SIGNED_IN') _cloudPull();
-  });
-}
+  sb.auth.onAuthStateChange((event) => { if (event === 'SIGNED_IN') _cloudPull(); });
+})();
