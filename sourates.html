@@ -1489,7 +1489,7 @@ function setTab(tab) {
 }
 
 let ProgressMod = null;
-import('./data/progress.js').then(m => { ProgressMod = m; updateReadBtn(); }).catch(()=>{});
+import('./data/progress.js').then(m => { ProgressMod = m; updateReadBtn(); m.subscribe(updateReadBtn); }).catch(()=>{});
 
 function updateReadBtn() {
   let btn = document.getElementById('mark-read-btn');

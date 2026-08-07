@@ -136,6 +136,7 @@ import { VOCAB2 } from './data/vocab2.js';
 import { VOCAB3 } from './data/vocab3.js';
 import { VOCAB4 } from './data/vocab4.js';
 import * as Progress from './data/progress.js';
+Progress.subscribe(refreshBests);
 
 const ALL_VOCAB = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4];
 window.LANG = initLang();
