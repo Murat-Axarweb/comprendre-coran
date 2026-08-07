@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réviser — Comprendre le Coran</title>
+  <meta name="description" content="Répétition espacée du vocabulaire coranique : révisez chaque mot au bon moment.">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0f0f; --bg2: #1a1a1a; --bg3: #242424;
+      --border: #2e2e2e; --border2: #3a3a3a;
+      --text: #e8e8e8; --text2: #a0a0a0; --text3: #606060;
+      --gold: #c9a84c; --gold2: #e8c97a;
+      --green: #4a9e7a; --blue: #5b8fc9; --red: #c96b6b; --orange: #c9924c;
+      --radius: 12px; --radius-sm: 6px;
+    }
+    [data-theme="light"] {
+      --bg: #fafaf8; --bg2: #f0ede6; --bg3: #e8e4db;
+      --border: #d8d4cb; --border2: #c8c4bb;
+      --text: #1a1a1a; --text2: #555550; --text3: #999990;
+      --gold: #8b6914; --gold2: #a07820; --green: #2d6b50;
+      --blue: #2d5a8b; --red: #8b2d2d; --orange: #8b5e14;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; }
+    .navbar { display: flex; align-items: center; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; background: var(--bg); }
+    .nav-logo { font-family: 'Amiri', serif; font-size: 22px; color: var(--gold); padding: 12px 20px; border-right: 1px solid var(--border); white-space: nowrap; }
+    .nav-links { display: flex; flex: 1; overflow-x: auto; }
+    .nav-link { padding: 16px 16px; color: var(--text2); text-decoration: none; font-size: 14px; border-bottom: 2px solid transparent; white-space: nowrap; }
+    .nav-link:hover { color: var(--text); }
+    .nav-link.active { color: var(--gold); border-bottom-color: var(--gold); }
+    .nav-right { display: flex; align-items: center; gap: 4px; padding-right: 12px; }
+    .lang-btn, .theme-btn { background: transparent; border: 1px solid var(--border); color: var(--text2); border-radius: var(--radius-sm); padding: 5px 9px; cursor: pointer; font-size: 12px; }
+    .lang-btn.active { border-color: var(--gold); color: var(--gold); }
+    .app { max-width: 620px; margin: 0 auto; padding: 40px 20px 80px; }
+    .page-header { text-align: center; margin-bottom: 30px; }
+    .page-header h1 { font-size: 26px; font-weight: 600; margin-bottom: 6px; }
+    .page-header p { color: var(--text2); font-size: 14px; }
+
+    /* --- Sélecteur de source --- */
+    .choose-label { text-align: center; color: var(--text2); font-size: 15px; margin-bottom: 18px; }
+    .source-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .source-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; cursor: pointer; text-align: left; transition: border-color .15s, transform .1s; }
+    .source-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .source-card .t { font-size: 16px; font-weight: 600; margin-bottom: 5px; }
+    .source-card .d { font-size: 12.5px; color: var(--text2); line-height: 1.45; }
+    .source-card .stat { font-size: 12px; color: var(--gold); margin-top: 10px; }
+
+    /* --- Chips thèmes --- */
+    .theme-chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 8px; }
+    .theme-chip { background: var(--bg2); border: 1px solid var(--border); color: var(--text); border-radius: 20px; padding: 8px 14px; cursor: pointer; font-size: 13px; }
+    .theme-chip:hover { border-color: var(--gold); color: var(--gold); }
+    .link-btn { background: none; border: none; color: var(--blue); cursor: pointer; font-size: 13px; text-decoration: underline; font-family: inherit; }
+    .center { text-align: center; margin-top: 22px; }
+
+    /* --- Barre de progression --- */
+    .rev-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+    .rev-count { font-size: 13px; color: var(--text2); }
+    .progress-track { height: 4px; background: var(--bg3); border-radius: 2px; margin-bottom: 26px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--gold); width: 0; transition: width .25s; }
+
+    /* --- Flashcard --- */
+    .flashcard { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 40px 26px; text-align: center; min-height: 260px; display: flex; flex-direction: column; justify-content: center; }
+    .badge { display: inline-block; font-size: 11px; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 20px; align-self: center; }
+    .badge.new { background: rgba(90,143,201,.15); color: var(--blue); }
+    .badge.review { background: rgba(201,168,76,.15); color: var(--gold); }
+    .card-ar { font-family: 'Amiri', serif; font-size: 52px; line-height: 1.3; margin-bottom: 10px; }
+    .card-translit { font-size: 16px; color: var(--text2); font-style: italic; }
+    .card-back { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--border); }
+    .card-meaning { font-size: 22px; font-weight: 500; margin-bottom: 12px; }
+    .card-root { font-family: 'Amiri', serif; font-size: 18px; color: var(--gold); }
+    .card-root .lbl { font-family: 'Inter', sans-serif; font-size: 11px; color: var(--text3); text-transform: uppercase; letter-spacing: .05em; margin-right: 8px; }
+
+    .reveal-btn { display: block; width: 100%; margin-top: 24px; background: var(--gold); color: #0f0f0f; border: none; border-radius: var(--radius-sm); padding: 14px; font-size: 15px; font-weight: 600; cursor: pointer; }
+    .reveal-btn:hover { background: var(--gold2); }
+    .rate-row { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 8px; margin-top: 24px; }
+    .rate-btn { border: 1px solid var(--border); background: var(--bg2); color: var(--text); border-radius: var(--radius-sm); padding: 13px 6px; cursor: pointer; font-size: 14px; font-weight: 500; display: flex; flex-direction: column; align-items: center; gap: 3px; }
+    .rate-btn .k { font-size: 10px; color: var(--text3); }
+    .rate-btn:hover { border-width: 1px; }
+    .rate-btn.again:hover { border-color: var(--red); color: var(--red); }
+    .rate-btn.hard:hover { border-color: var(--orange); color: var(--orange); }
+    .rate-btn.good:hover { border-color: var(--blue); color: var(--blue); }
+    .rate-btn.easy:hover { border-color: var(--green); color: var(--green); }
+
+    /* --- Vide / Fin --- */
+    .box { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 40px 26px; text-align: center; }
+    .box .big { font-size: 44px; margin-bottom: 14px; }
+    .box h2 { font-size: 20px; margin-bottom: 10px; }
+    .box p { color: var(--text2); font-size: 14px; line-height: 1.5; margin-bottom: 8px; }
+    .done-stats { display: flex; justify-content: center; gap: 30px; margin: 22px 0 26px; }
+    .done-stat .n { font-size: 30px; font-weight: 600; color: var(--gold); }
+    .done-stat .l { font-size: 12px; color: var(--text2); }
+    .box-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 6px; }
+    .btn { border-radius: var(--radius-sm); padding: 11px 20px; font-size: 14px; cursor: pointer; font-family: inherit; text-decoration: none; }
+    .btn.primary { background: var(--gold); color: #0f0f0f; border: none; font-weight: 600; }
+    .btn.ghost { background: transparent; border: 1px solid var(--border); color: var(--text2); }
+    .hidden { display: none !important; }
+    @media (max-width: 560px) {
+      .source-grid { grid-template-columns: 1fr; }
+      .card-ar { font-size: 44px; }
+      .nav-logo { padding: 10px 12px; font-size: 18px; }
+      .nav-link { padding: 12px 11px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-logo">القرآن</div>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html" data-i18n="nav_accueil">Accueil</a>
+    <a class="nav-link" href="sourates.html" data-i18n="nav_sourates">Sourates</a>
+    <a class="nav-link" href="vocabulaire.html" data-i18n="nav_vocabulaire">Vocabulaire</a>
+    <a class="nav-link" href="racines.html" data-i18n="nav_racines">Racines</a>
+    <a class="nav-link" href="exercices.html" data-i18n="nav_exercices">Exercices</a>
+    <a class="nav-link active" href="reviser.html" data-i18n="nav_reviser">Réviser</a>
+    <a class="nav-link" href="compte.html" data-i18n="nav_compte">Compte</a>
+  </div>
+  <div class="nav-right">
+    <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
+    <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
+    <button class="lang-btn" onclick="setLang('tr')" id="btn-tr">TR</button>
+    <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
+  </div>
+</nav>
+
+<div class="app">
+  <div class="page-header">
+    <h1 data-i18n="rev_title">Réviser</h1>
+    <p data-i18n="rev_subtitle">Répétition espacée — le bon mot au bon moment</p>
+  </div>
+
+  <!-- ===== Choix de la source ===== -->
+  <div id="view-setup">
+    <div class="choose-label" data-i18n="rev_choose_source">Que veux-tu réviser ?</div>
+    <div class="source-grid">
+      <button class="source-card" onclick="pickSource('learned')">
+        <div class="t" data-i18n="rev_source_learned">Mes mots appris</div>
+        <div class="d" data-i18n="rev_source_learned_d">Consolider ce que tu connais déjà</div>
+        <div class="stat" id="stat-learned"></div>
+      </button>
+      <button class="source-card" onclick="pickSource('freq')">
+        <div class="t" data-i18n="rev_source_freq">Par fréquence</div>
+        <div class="d" data-i18n="rev_source_freq_d">Les plus fréquents d'abord — apprends en devinant</div>
+      </button>
+      <button class="source-card" onclick="pickSource('theme')">
+        <div class="t" data-i18n="rev_source_theme">Par thème</div>
+        <div class="d" data-i18n="rev_source_theme_d">Réviser un champ de sens</div>
+      </button>
+      <button class="source-card" onclick="pickSource('all')">
+        <div class="t" data-i18n="rev_source_all">Tout le vocabulaire</div>
+        <div class="d" data-i18n="rev_source_all_d">Le mode ambitieux</div>
+      </button>
+    </div>
+
+    <div id="theme-picker" class="hidden">
+      <div class="choose-label" style="margin-top:26px" data-i18n="rev_pick_theme">Choisis un thème</div>
+      <div class="theme-chips" id="theme-chips"></div>
+    </div>
+  </div>
+
+  <!-- ===== Révision ===== -->
+  <div id="view-review" class="hidden">
+    <div class="rev-top">
+      <button class="link-btn" onclick="backToSetup()" data-i18n="rev_change_source">Changer de source</button>
+      <span class="rev-count"><span id="rc-remaining">0</span> <span data-i18n="rev_remaining">restantes</span></span>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+
+    <div class="flashcard">
+      <span class="badge" id="card-badge"></span>
+      <div class="card-ar" id="card-ar">—</div>
+      <div class="card-translit" id="card-translit"></div>
+      <div class="card-back hidden" id="card-back">
+        <div class="card-meaning" id="card-meaning"></div>
+        <div class="card-root"><span class="lbl" data-i18n="rev_root">Racine</span><span id="card-root"></span></div>
+      </div>
+    </div>
+
+    <button class="reveal-btn" id="reveal-btn" onclick="reveal()" data-i18n="rev_reveal">Révéler</button>
+    <div class="rate-row hidden" id="rate-row">
+      <button class="rate-btn again" onclick="rate('again')"><span data-i18n="rev_again">Encore</span><span class="k">1</span></button>
+      <button class="rate-btn hard" onclick="rate('hard')"><span data-i18n="rev_hard">Difficile</span><span class="k">2</span></button>
+      <button class="rate-btn good" onclick="rate('good')"><span data-i18n="rev_good">Bien</span><span class="k">3</span></button>
+      <button class="rate-btn easy" onclick="rate('easy')"><span data-i18n="rev_easy">Facile</span><span class="k">4</span></button>
+    </div>
+  </div>
+
+  <!-- ===== Vide ===== -->
+  <div id="view-empty" class="hidden">
+    <div class="box">
+      <div class="big">🌱</div>
+      <h2 data-i18n="rev_empty_title">Rien à réviser ici</h2>
+      <p id="empty-msg"></p>
+      <div class="box-actions" style="margin-top:18px">
+        <button class="btn ghost" onclick="backToSetup()" data-i18n="rev_change_source">Changer de source</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Fin de session ===== -->
+  <div id="view-done" class="hidden">
+    <div class="box">
+      <div class="big">✅</div>
+      <h2 data-i18n="rev_done_title">Session terminée</h2>
+      <div class="done-stats">
+        <div class="done-stat"><div class="n" id="done-reviewed">0</div><div class="l" data-i18n="rev_done_reviewed">Cartes revues</div></div>
+        <div class="done-stat"><div class="n" id="done-new">0</div><div class="l" data-i18n="rev_done_learned_new">Nouveaux mots découverts</div></div>
+      </div>
+      <div class="box-actions">
+        <button class="btn primary" onclick="backToSetup()" data-i18n="rev_restart">Nouvelle session</button>
+        <a class="btn ghost" href="index.html" data-i18n="rev_back">Retour</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module">
+import { I18N, t, initLang, setLang as setLangCore } from './data/i18n.js';
+import { VOCAB, THEMES } from './data/vocab.js';
+import { VOCAB2 } from './data/vocab2.js';
+import { VOCAB3 } from './data/vocab3.js';
+import { VOCAB4 } from './data/vocab4.js';
+import * as SRS from './data/srs.js';
+import * as Progress from './data/progress.js';
+
+const ALL = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4].slice().sort((a, b) => a.rang - b.rang);
+const BY_ID = new Map(ALL.map(w => [w.id, w]));
+const NEW_CAP = 12;
+
+window.LANG = initLang();
+
+// ===== I18N / THÈME =====
+window.setLang = function(lang) { window.LANG = setLangCore(lang); renderAll(); };
+function updateLangBtns() { ['fr','en','tr'].forEach(l => document.getElementById('btn-'+l).classList.toggle('active', window.LANG === l)); }
+function applyI18n() {
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.getAttribute('data-i18n')); });
+}
+window.toggleTheme = function() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const next = cur === 'light' ? '' : 'light';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+};
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+
+// ===== ÉTAT DE SESSION =====
+let queue = [];        // ids à voir
+let newSet = new Set();// ids « neufs » dans cette session
+let idx = 0;
+let revealed = false;
+const reviewedIds = new Set();
+let againCount = 0;
+
+function candidateIds(source, themeKey) {
+  let list;
+  if (source === 'learned') list = ALL.filter(w => Progress.isWordLearned(w.id));
+  else if (source === 'theme') list = ALL.filter(w => w.theme === themeKey);
+  else list = ALL; // freq / all → déjà trié par rang
+  return list.map(w => w.id);
+}
+
+// ===== SÉLECTION DE LA SOURCE =====
+window.pickSource = function(source) {
+  if (source === 'theme') { showThemePicker(); return; }
+  startSession(source, null);
+};
+
+function showThemePicker() {
+  const present = [...new Set(ALL.map(w => w.theme))].filter(Boolean);
+  const chips = document.getElementById('theme-chips');
+  chips.innerHTML = present.map(th =>
+    `<button class="theme-chip" onclick="startTheme('${th}')">${t('theme_' + th) || th}</button>`
+  ).join('');
+  document.getElementById('theme-picker').classList.remove('hidden');
+}
+window.startTheme = function(themeKey) { startSession('theme', themeKey); };
+
+function startSession(source, themeKey) {
+  const cand = candidateIds(source, themeKey);
+  const due = SRS.dueIds(cand);
+  const news = SRS.newIds(cand).slice(0, NEW_CAP);
+  newSet = new Set(news);
+  queue = [...due, ...news];
+  idx = 0; revealed = false; reviewedIds.clear(); againCount = 0;
+
+  if (queue.length === 0) { showEmpty(source); return; }
+  show('review');
+  renderCard();
+}
+
+// ===== RÉVISION =====
+function renderCard() {
+  revealed = false;
+  const id = queue[idx];
+  const w = BY_ID.get(id);
+  const isNew = newSet.has(id);
+  const badge = document.getElementById('card-badge');
+  badge.className = 'badge ' + (isNew ? 'new' : 'review');
+  badge.textContent = t(isNew ? 'rev_new' : 'rev_review');
+  document.getElementById('card-ar').textContent = w.ar;
+  document.getElementById('card-translit').textContent = w.translit || '';
+  document.getElementById('card-meaning').textContent = (w.traductions && w.traductions[window.LANG]) || '';
+  document.getElementById('card-root').textContent = w.racine || '';
+  document.getElementById('card-back').classList.add('hidden');
+  document.getElementById('reveal-btn').classList.remove('hidden');
+  document.getElementById('rate-row').classList.add('hidden');
+  updateProgress();
+}
+
+window.reveal = function() {
+  revealed = true;
+  document.getElementById('card-back').classList.remove('hidden');
+  document.getElementById('reveal-btn').classList.add('hidden');
+  document.getElementById('rate-row').classList.remove('hidden');
+};
+
+window.rate = function(rating) {
+  if (!revealed) return;
+  const id = queue[idx];
+  SRS.review(id, rating);
+  reviewedIds.add(id);
+  if (rating === 'again') { againCount++; queue.push(id); } // revu plus tard dans la session
+  idx++;
+  if (idx >= queue.length) { showDone(); return; }
+  renderCard();
+};
+
+function updateProgress() {
+  const remaining = queue.length - idx;
+  document.getElementById('rc-remaining').textContent = remaining;
+  const pct = queue.length ? Math.round((idx / queue.length) * 100) : 0;
+  document.getElementById('progress-fill').style.width = pct + '%';
+}
+
+// ===== VIDE / FIN =====
+function showEmpty(source) {
+  document.getElementById('empty-msg').textContent =
+    t(source === 'learned' ? 'rev_empty_learned' : 'rev_empty_generic');
+  show('empty');
+}
+function showDone() {
+  const newSeen = [...newSet].filter(id => reviewedIds.has(id)).length;
+  document.getElementById('done-reviewed').textContent = reviewedIds.size;
+  document.getElementById('done-new').textContent = newSeen;
+  show('done');
+}
+window.backToSetup = function() {
+  document.getElementById('theme-picker').classList.add('hidden');
+  show('setup');
+  refreshSetupStats();
+};
+
+// ===== NAVIGATION DE VUES =====
+function show(view) {
+  ['setup','review','empty','done'].forEach(v =>
+    document.getElementById('view-' + v).classList.toggle('hidden', v !== view));
+}
+
+function refreshSetupStats() {
+  const learned = ALL.filter(w => Progress.isWordLearned(w.id)).length;
+  const el = document.getElementById('stat-learned');
+  el.textContent = learned > 0 ? (learned + ' ' + t('rev_source_learned').toLowerCase().replace(/^mes /, '')) : '';
+}
+
+// ===== CLAVIER (bonus desktop) =====
+document.addEventListener('keydown', (e) => {
+  if (document.getElementById('view-review').classList.contains('hidden')) return;
+  if (!revealed && (e.key === ' ' || e.key === 'Enter')) { e.preventDefault(); window.reveal(); }
+  else if (revealed && ['1','2','3','4'].includes(e.key)) {
+    window.rate(['again','hard','good','easy'][+e.key - 1]);
+  }
+});
+
+// ===== RENDER GLOBAL =====
+function renderAll() {
+  applyI18n();
+  updateLangBtns();
+  document.documentElement.setAttribute('lang', window.LANG);
+  refreshSetupStats();
+  // Re-render la carte courante si on est en révision (pour la langue).
+  if (!document.getElementById('view-review').classList.contains('hidden')) {
+    const id = queue[idx];
+    if (id != null) {
+      const w = BY_ID.get(id);
+      document.getElementById('card-meaning').textContent = (w.traductions && w.traductions[window.LANG]) || '';
+      const badge = document.getElementById('card-badge');
+      badge.textContent = t(newSet.has(id) ? 'rev_new' : 'rev_review');
+    }
+  }
+}
+
+// ===== INIT =====
+show('setup');
+renderAll();
+// Rafraîchit les stats quand la synchro cloud arrive.
+SRS.subscribe(() => { if (!document.getElementById('view-setup').classList.contains('hidden')) refreshSetupStats(); });
+Progress.subscribe(refreshSetupStats);

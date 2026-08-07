@@ -579,6 +579,7 @@
   <a href="vocabulaire.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Vocabulaire</a>
   <a href="racines.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Racines</a>
   <a href="exercices.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Exercices</a>
+  <a href="reviser.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Réviser</a>
   <a href="compte.html" style="padding:14px 18px;font-size:13px;color:var(--text2);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px">Compte</a>
   <div style="display:flex;align-items:center;gap:6px;margin-left:auto;padding:0 16px">
     <button onclick="setLang('fr')" id="btn-fr" style="padding:5px 10px;font-size:12px;font-weight:500;border:1px solid var(--border);border-radius:6px;color:var(--text2);cursor:pointer;background:none;font-family:'Inter',sans-serif;transition:all 0.2s">FR</button>
@@ -663,7 +664,7 @@
 // Repli FR : garantit un rendu correct avant/à défaut du chargement de data/i18n.js.
 let I18N_DICT = { fr: {
   nav_accueil: "Accueil", nav_sourates: "Sourates", nav_vocabulaire: "Vocabulaire",
-  nav_racines: "Racines", nav_exercices: "Exercices", nav_compte: "Compte",
+  nav_racines: "Racines", nav_exercices: "Exercices", nav_reviser: "Réviser", nav_compte: "Compte",
   sourates_subtitle: "Comprendre le Coran verset par verset · Racines · Traduction · Analyse",
   stat_sourates: "Sourates", stat_versets: "Versets", stat_analysees: "Versets analysés",
   stat_couverture: "Couverture", sourates_search: "Rechercher une sourate...",
@@ -695,7 +696,7 @@ function metaLine(s){
   return `${T('label_sourate')} ${s[0]} · ${tl} · ${s[4]} ${T('label_versets')} · ${T('label_revelation')} nº${REVELATION_ORDER[s[0]]}`;
 }
 function applyStaticI18n(){
-  const nav = {'index.html':'nav_accueil','sourates.html':'nav_sourates','vocabulaire.html':'nav_vocabulaire','racines.html':'nav_racines','exercices.html':'nav_exercices','compte.html':'nav_compte'};
+  const nav = {'index.html':'nav_accueil','sourates.html':'nav_sourates','vocabulaire.html':'nav_vocabulaire','racines.html':'nav_racines','exercices.html':'nav_exercices','reviser.html':'nav_reviser','compte.html':'nav_compte'};
   document.querySelectorAll('nav a[href]').forEach(a => { const k = nav[a.getAttribute('href')]; if (k) a.textContent = T(k); });
   const sub = document.getElementById('subtitle-text'); if (sub) sub.textContent = T('sourates_subtitle');
   const statKeys = ['stat_sourates','stat_versets','stat_analysees','stat_couverture'];
