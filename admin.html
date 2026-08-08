@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administration — Comprendre le Coran</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0f0f; --bg2: #1a1a1a; --bg3: #242424;
+      --border: #2e2e2e; --border2: #3a3a3a;
+      --text: #e8e8e8; --text2: #a0a0a0; --text3: #606060;
+      --gold: #c9a84c; --gold2: #e8c97a;
+      --green: #4a9e7a; --blue: #5b8fc9; --red: #c96b6b;
+      --radius: 12px; --radius-sm: 6px;
+    }
+    [data-theme="light"] {
+      --bg: #fafaf8; --bg2: #f0ede6; --bg3: #e8e4db;
+      --border: #d8d4cb; --border2: #c8c4bb;
+      --text: #1a1a1a; --text2: #555550; --text3: #999990;
+      --gold: #8b6914; --gold2: #a07820; --green: #2d6b50;
+      --blue: #2d5a8b; --red: #8b2d2d;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; }
+    .navbar { display: flex; align-items: center; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; background: var(--bg); }
+    .nav-logo { font-family: 'Amiri', serif; font-size: 22px; color: var(--gold); padding: 12px 20px; border-right: 1px solid var(--border); white-space: nowrap; }
+    .nav-links { display: flex; flex: 1; overflow-x: auto; }
+    .nav-link { padding: 16px 16px; color: var(--text2); text-decoration: none; font-size: 14px; border-bottom: 2px solid transparent; white-space: nowrap; }
+    .nav-link:hover { color: var(--text); }
+    .nav-link.active { color: var(--gold); border-bottom-color: var(--gold); }
+    .nav-right { display: flex; align-items: center; gap: 4px; padding-right: 12px; }
+    .lang-btn, .theme-btn { background: transparent; border: 1px solid var(--border); color: var(--text2); border-radius: var(--radius-sm); padding: 5px 9px; cursor: pointer; font-size: 12px; }
+    .lang-btn.active { border-color: var(--gold); color: var(--gold); }
+    .app { max-width: 900px; margin: 0 auto; padding: 40px 20px 80px; }
+    .page-header { margin-bottom: 26px; }
+    .page-header h1 { font-size: 26px; font-weight: 600; margin-bottom: 6px; }
+    .page-header p { color: var(--text2); font-size: 14px; }
+    .box { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 40px 26px; text-align: center; }
+    .box .big { font-size: 44px; margin-bottom: 14px; }
+    .box h2 { font-size: 20px; margin-bottom: 10px; }
+    .box p { color: var(--text2); font-size: 14px; line-height: 1.55; max-width: 520px; margin: 0 auto; }
+    .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 26px; }
+    .stat { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 14px; }
+    .stat .n { font-size: 26px; font-weight: 600; color: var(--gold); }
+    .stat .l { font-size: 12px; color: var(--text2); margin-top: 4px; }
+    .stat .sub { font-size: 11px; color: var(--text3); margin-top: 6px; }
+    .section-title { font-size: 13px; color: var(--text3); text-transform: uppercase; letter-spacing: .06em; margin: 28px 0 12px; }
+    .panel { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+    .bars { display: flex; align-items: flex-end; gap: 3px; height: 120px; }
+    .bar-wrap { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; }
+    .bar { background: var(--gold); border-radius: 2px 2px 0 0; min-height: 2px; opacity: .85; }
+    .bar:hover { opacity: 1; }
+    .bars-axis { display: flex; justify-content: space-between; font-size: 11px; color: var(--text3); margin-top: 8px; }
+    .lang-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; font-size: 13px; }
+    .lang-row .code { width: 34px; color: var(--gold); font-weight: 600; text-transform: uppercase; }
+    .lang-bar { flex: 1; height: 8px; background: var(--bg3); border-radius: 4px; overflow: hidden; }
+    .lang-bar span { display: block; height: 100%; background: var(--gold); }
+    .lang-row .n { width: 40px; text-align: right; color: var(--text2); }
+    .note { font-size: 12.5px; color: var(--text3); margin-top: 22px; line-height: 1.55; }
+    .btn { border-radius: var(--radius-sm); padding: 11px 20px; font-size: 14px; cursor: pointer; font-family: inherit; text-decoration: none; display: inline-block; margin-top: 18px; }
+    .btn.ghost { background: transparent; border: 1px solid var(--border); color: var(--text2); }
+    .hidden { display: none !important; }
+    @media (max-width: 720px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-logo">القرآن</div>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html" data-i18n="nav_accueil">Accueil</a>
+    <a class="nav-link" href="sourates.html" data-i18n="nav_sourates">Sourates</a>
+    <a class="nav-link" href="vocabulaire.html" data-i18n="nav_vocabulaire">Vocabulaire</a>
+    <a class="nav-link" href="racines.html" data-i18n="nav_racines">Racines</a>
+    <a class="nav-link" href="exercices.html" data-i18n="nav_exercices">Exercices</a>
+    <a class="nav-link" href="revision.html" data-i18n="nav_reviser">Réviser</a>
+    <a class="nav-link" href="compte.html" data-i18n="nav_compte">Compte</a>
+  </div>
+  <div class="nav-right">
+    <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
+    <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
+    <button class="lang-btn" onclick="setLang('tr')" id="btn-tr">TR</button>
+    <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
+  </div>
+</nav>
+
+<div class="app">
+  <div class="page-header">
+    <h1 data-i18n="admin_title">Administration</h1>
+    <p data-i18n="admin_subtitle">Statistiques d'usage agrégées</p>
+  </div>
+
+  <!-- Chargement -->
+  <div id="view-loading" class="box">
+    <p data-i18n="admin_loading">Chargement…</p>
+  </div>
+
+  <!-- Accès refusé -->
+  <div id="view-denied" class="box hidden">
+    <div class="big">🔒</div>
+    <h2 data-i18n="admin_denied_title">Accès réservé</h2>
+    <p data-i18n="admin_denied_msg">Cette page est réservée aux administrateurs. Connectez-vous avec un compte disposant du rôle administrateur.</p>
+    <a class="btn ghost" href="compte.html" data-i18n="nav_compte">Compte</a>
+  </div>
+
+  <!-- Tableau de bord -->
+  <div id="view-dash" class="hidden">
+    <div class="grid">
+      <div class="stat"><div class="n" id="s-users">—</div><div class="l" data-i18n="admin_users">Comptes</div><div class="sub" id="s-users-sub"></div></div>
+      <div class="stat"><div class="n" id="s-active">—</div><div class="l" data-i18n="admin_active">Actifs (7 j)</div></div>
+      <div class="stat"><div class="n" id="s-words">—</div><div class="l" data-i18n="admin_words">Mots appris</div></div>
+      <div class="stat"><div class="n" id="s-surahs">—</div><div class="l" data-i18n="admin_surahs">Sourates lues</div></div>
+      <div class="stat"><div class="n" id="s-quiz">—</div><div class="l" data-i18n="admin_quiz">Sessions de quiz</div></div>
+      <div class="stat"><div class="n" id="s-cards">—</div><div class="l" data-i18n="admin_cards">Cartes de révision</div></div>
+      <div class="stat"><div class="n" id="s-srs-users">—</div><div class="l" data-i18n="admin_srs_users">Utilisateurs en révision</div></div>
+      <div class="stat"><div class="n" id="s-due">—</div><div class="l" data-i18n="admin_due">Cartes dues</div></div>
+    </div>
+
+    <div class="section-title" data-i18n="admin_signups">Inscriptions (30 derniers jours)</div>
+    <div class="panel">
+      <div class="bars" id="bars"></div>
+      <div class="bars-axis"><span id="axis-start"></span><span id="axis-end"></span></div>
+    </div>
+
+    <div class="section-title" data-i18n="admin_langs">Répartition par langue</div>
+    <div class="panel" id="langs"></div>
+
+    <p class="note" data-i18n="admin_note">Ces chiffres sont des totaux agrégés. Aucune donnée individuelle n'est accessible depuis cette page : les fonctions statistiques ne renvoient que des nombres, et les données de chaque utilisateur restent protégées.</p>
+  </div>
+</div>
+
+<script type="module">
+import { I18N, t, initLang, setLang as setLangCore } from './data/i18n.js';
+import { isAdmin, getStats, getSignupsDaily } from './data/admin.js';
+
+window.LANG = initLang();
+let stats = null, signups = [];
+
+// ===== I18N / THÈME =====
+window.setLang = function(lang) { window.LANG = setLangCore(lang); renderAll(); };
+function updateLangBtns() { ['fr','en','tr'].forEach(l => document.getElementById('btn-'+l).classList.toggle('active', window.LANG === l)); }
+function applyI18n() {
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.getAttribute('data-i18n')); });
+}
+window.toggleTheme = function() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const next = cur === 'light' ? '' : 'light';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+};
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+
+function show(view) {
+  ['loading','denied','dash'].forEach(v =>
+    document.getElementById('view-' + v).classList.toggle('hidden', v !== view));
+}
+
+function nfmt(n) {
+  const v = Number(n || 0);
+  return v.toLocaleString(window.LANG || 'fr');
+}
+
+function renderStats() {
+  if (!stats) return;
+  document.getElementById('s-users').textContent = nfmt(stats.users_total);
+  document.getElementById('s-users-sub').textContent =
+    '+' + nfmt(stats.users_last_7d) + ' / 7 j · +' + nfmt(stats.users_last_30d) + ' / 30 j';
+  document.getElementById('s-active').textContent = nfmt(stats.active_last_7d);
+  document.getElementById('s-words').textContent = nfmt(stats.words_learned_total);
+  document.getElementById('s-surahs').textContent = nfmt(stats.surahs_read_total);
+  document.getElementById('s-quiz').textContent = nfmt(stats.quiz_sessions_total);
+  document.getElementById('s-cards').textContent = nfmt(stats.srs_cards_total);
+  document.getElementById('s-srs-users').textContent = nfmt(stats.srs_users);
+  document.getElementById('s-due').textContent = nfmt(stats.srs_due_now);
+
+  // Répartition par langue
+  const lb = stats.lang_breakdown || {};
+  const total = Object.values(lb).reduce((a, b) => a + Number(b), 0) || 1;
+  const el = document.getElementById('langs');
+  const keys = Object.keys(lb);
+  el.innerHTML = keys.length === 0
+    ? `<div style="color:var(--text3);font-size:13px">${t('admin_no_data')}</div>`
+    : keys.map(k => {
+        const pct = Math.round(Number(lb[k]) / total * 100);
+        return `<div class="lang-row"><span class="code">${k}</span>
+          <span class="lang-bar"><span style="width:${pct}%"></span></span>
+          <span class="n">${nfmt(lb[k])}</span></div>`;
+      }).join('');
+}
+
+function renderSignups() {
+  const wrap = document.getElementById('bars');
+  if (!signups.length) { wrap.innerHTML = `<div style="color:var(--text3);font-size:13px">${t('admin_no_data')}</div>`; return; }
+  const max = Math.max(1, ...signups.map(d => Number(d.n)));
+  wrap.innerHTML = signups.map(d => {
+    const h = Math.round(Number(d.n) / max * 100);
+    return `<div class="bar-wrap" title="${d.day} : ${d.n}"><div class="bar" style="height:${h}%"></div></div>`;
+  }).join('');
+  const fmt = (s) => new Date(s).toLocaleDateString(window.LANG || 'fr', { day: 'numeric', month: 'short' });
+  document.getElementById('axis-start').textContent = fmt(signups[0].day);
+  document.getElementById('axis-end').textContent = fmt(signups[signups.length - 1].day);
+}
+
+function renderAll() {
+  applyI18n();
+  updateLangBtns();
+  document.documentElement.setAttribute('lang', window.LANG);
+  renderStats();
+  renderSignups();
+}
+
+// ===== INIT =====
+(async () => {
+  applyI18n();
+  updateLangBtns();
+  const ok = await isAdmin();
+  if (!ok) { show('denied'); applyI18n(); return; }
+  [stats, signups] = await Promise.all([getStats(), getSignupsDaily()]);
+  show('dash');
+  renderAll();
+})();
+</script>
+</body>
+</html>
