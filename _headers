@@ -1,0 +1,10 @@
+# Netlify — politique de cache.
+# HTML et modules JS : revalidation systématique auprès du serveur pour que
+# chaque déploiement soit pris en compte immédiatement (évite qu'un ancien
+# module reste servi par le cache navigateur, ce qui casse les imports ES).
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+/*.js
+  Cache-Control: public, max-age=0, must-revalidate
+/data/*
+  Cache-Control: public, max-age=0, must-revalidate

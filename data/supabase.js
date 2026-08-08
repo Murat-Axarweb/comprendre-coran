@@ -39,3 +39,8 @@ export function getSupabase() {
   }
   return _promise;
 }
+
+// Compat rétro : d'anciennes versions en cache peuvent encore importer
+// { supabase }. On l'exporte à null pour éviter tout crash de module ;
+// le code actuel utilise exclusivement getSupabase().
+export const supabase = null;
