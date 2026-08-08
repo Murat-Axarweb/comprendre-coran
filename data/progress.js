@@ -63,13 +63,37 @@ export function toggleSurah(n) {
 export function surahsReadCount() { return progress.surahsRead.length; }
 
 // ----- Quiz -----
-export function saveQuizResult(type, score, total) {
-  progress.quiz.history.push({ type, score, total, date: new Date().toISOString() });
+export function saveQuizResult(type, score, total, missedIds) {
+  const entry = { type, score, total, date: new Date().toISOString() };
+  if (Array.isArray(missedIds) && missedIds.length) entry.missed = missedIds.slice(0, 50);
+  progress.quiz.history.push(entry);
   if (progress.quiz.history.length > 200) progress.quiz.history.shift();
   const pct = total ? Math.round(score / total * 100) : 0;
   if (!progress.quiz.best[type] || pct > progress.quiz.best[type]) progress.quiz.best[type] = pct;
   _save(progress);
   _scheduleCloudPush();
+}
+
+// Mots les plus souvent ratés en quiz, du plus fréquent au moins fréquent.
+// Renvoie [{ id, count }]. Base de la révision ciblée des erreurs.
+export function missedWords(limit) {
+  const counts = new Map();
+  progress.quiz.history.forEach(h => {
+    (h.missed || []).forEach(id => counts.set(id, (counts.get(id) || 0) + 1));
+  });
+  const out = [...counts.entries()]
+    .map(([id, count]) => ({ id: Number(id), count }))
+    .sort((a, b) => b.count - a.count);
+  return limit ? out.slice(0, limit) : out;
+}
+
+// Statistiques par type de quiz (moyenne, nombre de sessions, dernier score).
+export function quizStats(type) {
+  const hs = progress.quiz.history.filter(h => !type || h.type === type);
+  if (!hs.length) return { sessions: 0, avg: 0, last: null, best: type ? quizBest(type) : 0 };
+  const pcts = hs.map(h => (h.total ? Math.round(h.score / h.total * 100) : 0));
+  const avg = Math.round(pcts.reduce((a, b) => a + b, 0) / pcts.length);
+  return { sessions: hs.length, avg, last: pcts[pcts.length - 1], best: type ? quizBest(type) : 0 };
 }
 
 export function quizBest(type) { return progress.quiz.best[type] || 0; }

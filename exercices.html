@@ -66,6 +66,33 @@
     .quiz-actions { display: flex; justify-content: center; gap: 12px; margin-top: 18px; }
     .quiz-final { text-align: center; padding: 20px 0; }
     .quiz-final .score-big { font-size: 44px; color: var(--gold); font-weight: 600; margin: 12px 0; }
+
+    /* ===== Historique & progression ===== */
+    .hist-section { margin-top: 34px; }
+    .hist-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; }
+    .hist-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 22px; }
+    .hist-stat { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 14px 10px; text-align: center; }
+    .hist-stat .n { font-size: 22px; font-weight: 600; color: var(--gold); }
+    .hist-stat .l { font-size: 11px; color: var(--text2); margin-top: 3px; }
+    .hist-block { margin-bottom: 22px; }
+    .hist-sub { display: flex; align-items: baseline; justify-content: space-between; font-size: 13px; color: var(--text3); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 10px; }
+    .hist-link { font-size: 12px; color: var(--blue); text-decoration: none; text-transform: none; letter-spacing: 0; }
+    .hist-link:hover { text-decoration: underline; }
+    .missed-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .missed-chip { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; display: flex; align-items: center; gap: 8px; }
+    .missed-chip .ar { font-family: 'Amiri', serif; font-size: 19px; }
+    .missed-chip .tr { font-size: 12px; color: var(--text2); }
+    .missed-chip .ct { font-size: 10px; color: var(--red); background: rgba(201,107,107,.12); border-radius: 10px; padding: 1px 6px; }
+    .hist-list { display: flex; flex-direction: column; gap: 6px; }
+    .hist-row { display: flex; align-items: center; justify-content: space-between; background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; font-size: 13px; }
+    .hist-row .date { color: var(--text2); }
+    .hist-row .mode { color: var(--text3); font-size: 11px; text-transform: uppercase; letter-spacing: .05em; }
+    .hist-row .pct { font-weight: 600; }
+    .hist-row .pct.hi { color: var(--green); }
+    .hist-row .pct.mid { color: var(--gold); }
+    .hist-row .pct.lo { color: var(--red); }
+    .hist-empty { color: var(--text2); font-size: 14px; text-align: center; padding: 20px 0; }
+    @media (max-width: 560px) { .hist-stats { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 640px) { .nav-logo { padding: 10px 12px; font-size: 18px; } .nav-link { padding: 12px 10px; font-size: 12px; } .quiz-word { font-size: 40px; } }
   </style>
 </head>
@@ -128,6 +155,28 @@
     <div class="quiz-feedback" id="quiz-feedback"></div>
     <div class="quiz-actions" id="quiz-actions"></div>
   </div>
+
+  <!-- ===== Historique & progression ===== -->
+  <div class="hist-section" id="hist-section">
+    <h2 class="hist-title" data-i18n="exo_hist_title">Ma progression</h2>
+
+    <div class="hist-stats" id="hist-stats"></div>
+
+    <div class="hist-block" id="missed-block">
+      <div class="hist-sub">
+        <span data-i18n="exo_missed_title">Mots à retravailler</span>
+        <a class="hist-link" href="revision.html" data-i18n="exo_missed_review">Réviser ces mots</a>
+      </div>
+      <div class="missed-list" id="missed-list"></div>
+    </div>
+
+    <div class="hist-block" id="hist-block">
+      <div class="hist-sub"><span data-i18n="exo_hist_recent">Sessions récentes</span></div>
+      <div class="hist-list" id="hist-list"></div>
+    </div>
+
+    <p class="hist-empty" id="hist-empty" data-i18n="exo_hist_empty">Aucune session pour l'instant — lance un quiz pour voir ta progression ici.</p>
+  </div>
 </div>
 
 <script type="module">
@@ -137,13 +186,13 @@ import { VOCAB2 } from './data/vocab2.js';
 import { VOCAB3 } from './data/vocab3.js';
 import { VOCAB4 } from './data/vocab4.js';
 import * as Progress from './data/progress.js';
-Progress.subscribe(refreshBests);
+Progress.subscribe(() => { refreshBests(); renderHistory(); });
 
 const ALL_VOCAB = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4];
 window.LANG = initLang();
 
 // ===== I18N / THÈME =====
-window.setLang = function(lang) { window.LANG = setLangCore(lang); applyI18n(); updateLangBtns(); }
+window.setLang = function(lang) { window.LANG = setLangCore(lang); applyI18n(); updateLangBtns(); renderHistory(); }
 function updateLangBtns() { ['fr','en','tr'].forEach(l => document.getElementById('btn-'+l).classList.toggle('active', window.LANG === l)); }
 function applyI18n() {
   document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.getAttribute('data-i18n')); });
@@ -164,6 +213,7 @@ let questions = [];
 let qIdx = 0;
 let score = 0;
 let answered = false;
+let missed = [];
 
 function refreshBests() {
   document.getElementById('best-qcm').textContent = Progress.quizBest('qcm');
@@ -183,7 +233,7 @@ window.startQuiz = function() {
   pool = ALL_VOCAB.filter(w => w.rang <= top);
   if (mode === 'racine') pool = pool.filter(w => w.racine && !w.racine.startsWith('—'));
   questions = shuffle(pool.slice()).slice(0, N_QUESTIONS);
-  qIdx = 0; score = 0;
+  qIdx = 0; score = 0; missed = [];
   document.getElementById('quiz-box').classList.add('active');
   document.getElementById('q-total').textContent = questions.length;
   renderQuestion();
@@ -234,7 +284,7 @@ window.answer = function(btn, ok) {
   });
   const fb = document.getElementById('quiz-feedback');
   if (ok) { score++; fb.textContent = t('exo_correct'); fb.classList.add('ok'); }
-  else { btn.classList.add('wrong'); fb.textContent = `${t('exo_wrong')} ${t('exo_answer_was')} ${correctKey}`; fb.classList.add('ko'); }
+  else { missed.push(w.id); btn.classList.add('wrong'); fb.textContent = `${t('exo_wrong')} ${t('exo_answer_was')} ${correctKey}`; fb.classList.add('ko'); }
   document.getElementById('q-score').textContent = score;
 
   const last = qIdx === questions.length - 1;
@@ -245,8 +295,9 @@ window.answer = function(btn, ok) {
 window.nextQuestion = function() { qIdx++; renderQuestion(); }
 
 window.finishQuiz = function() {
-  Progress.saveQuizResult(mode, score, questions.length);
+  Progress.saveQuizResult(mode, score, questions.length, missed);
   refreshBests();
+  renderHistory();
   const pct = Math.round(score / questions.length * 100);
   document.getElementById('quiz-body').innerHTML = `
     <div class="quiz-final">
@@ -261,11 +312,66 @@ window.finishQuiz = function() {
      <button class="btn ghost" onclick="document.getElementById('quiz-box').classList.remove('active')">✕</button>`;
 }
 
+// ===== HISTORIQUE & PROGRESSION =====
+const BY_ID = new Map(ALL_VOCAB.map(w => [w.id, w]));
+
+function renderHistory() {
+  const hist = Progress.quizHistory();
+  const empty = document.getElementById('hist-empty');
+  const hasData = hist.length > 0;
+  ['hist-stats','missed-block','hist-block'].forEach(id =>
+    document.getElementById(id).style.display = hasData ? '' : 'none');
+  empty.style.display = hasData ? 'none' : '';
+  if (!hasData) return;
+
+  // --- Statistiques globales ---
+  const g = Progress.quizStats();
+  const qcm = Progress.quizStats('qcm');
+  const rac = Progress.quizStats('racine');
+  document.getElementById('hist-stats').innerHTML = `
+    <div class="hist-stat"><div class="n">${g.sessions}</div><div class="l">${t('exo_stat_sessions')}</div></div>
+    <div class="hist-stat"><div class="n">${g.avg}%</div><div class="l">${t('exo_stat_avg')}</div></div>
+    <div class="hist-stat"><div class="n">${qcm.best}%</div><div class="l">${t('exo_stat_best_qcm')}</div></div>
+    <div class="hist-stat"><div class="n">${rac.best}%</div><div class="l">${t('exo_stat_best_racine')}</div></div>`;
+
+  // --- Mots les plus ratés ---
+  const missedTop = Progress.missedWords(12);
+  const mb = document.getElementById('missed-block');
+  if (missedTop.length === 0) { mb.style.display = 'none'; }
+  else {
+    mb.style.display = '';
+    const lang = window.LANG || 'fr';
+    document.getElementById('missed-list').innerHTML = missedTop.map(m => {
+      const w = BY_ID.get(m.id);
+      if (!w) return '';
+      const sens = (w.traductions && (w.traductions[lang] || w.traductions.fr)) || '';
+      return `<span class="missed-chip"><span class="ar">${w.ar}</span><span class="tr">${sens}</span><span class="ct">×${m.count}</span></span>`;
+    }).join('');
+  }
+
+  // --- Sessions récentes (10 dernières, plus récente en tête) ---
+  const recent = hist.slice(-10).reverse();
+  document.getElementById('hist-list').innerHTML = recent.map(h => {
+    const pct = h.total ? Math.round(h.score / h.total * 100) : 0;
+    const cls = pct >= 80 ? 'hi' : (pct >= 50 ? 'mid' : 'lo');
+    const d = new Date(h.date);
+    const date = d.toLocaleDateString(window.LANG || 'fr', { day: 'numeric', month: 'short' })
+               + ' · ' + d.toLocaleTimeString(window.LANG || 'fr', { hour: '2-digit', minute: '2-digit' });
+    const modeLabel = t(h.type === 'racine' ? 'exo_mode_racine' : 'exo_mode_qcm');
+    return `<div class="hist-row">
+      <span class="date">${date}</span>
+      <span class="mode">${modeLabel}</span>
+      <span class="pct ${cls}">${h.score}/${h.total} · ${pct}%</span>
+    </div>`;
+  }).join('');
+}
+
 // ===== INIT =====
 selectMode('qcm');
 applyI18n();
 updateLangBtns();
 refreshBests();
+renderHistory();
 </script>
 </body>
 </html>
