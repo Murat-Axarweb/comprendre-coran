@@ -592,7 +592,7 @@
     <a class="nav-link" href="racines.html">Racines</a>
     <a class="nav-link" href="exercices.html">Exercices</a>
     <a class="nav-link" href="revision.html">Réviser</a>
-    <a class="nav-link" href="compte.html">Compte</a>
+    <a class="nav-link" href="compte.html">Connexion / Inscription</a>
   </div>
   <div class="nav-right">
     <div id="lang-select"></div>
@@ -1276,7 +1276,7 @@ function nomSens(num, lang) {
 
 // --- Navigation partagée (burger + sélecteur de langue) ---
 let refreshLangSelect = function() {};
-import('./data/nav.js?v=13').then(m => {
+import('./data/nav.js?v=14').then(m => {
   refreshLangSelect = m.refreshLangSelect;
   m.initNav({ onLangChange: (code) => window.setLang(code) });
 }).catch(() => {});

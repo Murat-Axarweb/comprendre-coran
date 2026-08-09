@@ -153,7 +153,7 @@ const NAV_ITEMS = [
   { href: 'racines.html',     key: 'nav_racines',     fr: 'Racines',     en: 'Roots',      tr: 'Kökler' },
   { href: 'exercices.html',   key: 'nav_exercices',   fr: 'Exercices',   en: 'Exercises',  tr: 'Alıştırmalar' },
   { href: 'revision.html',    key: 'nav_reviser',     fr: 'Réviser',     en: 'Review',     tr: 'Tekrar' },
-  { href: 'compte.html',      key: 'nav_compte',      fr: 'Compte',      en: 'Account',    tr: 'Hesap' }
+  { href: 'compte.html',      key: 'nav_compte',      fr: 'Connexion / Inscription', en: 'Sign in / Sign up', tr: 'Giriş / Kayıt' }
 ];
 
 // Normalise un href en identifiant de page : « /sourates », « sourates.html »
