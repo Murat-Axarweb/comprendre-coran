@@ -141,6 +141,7 @@ const ACCOUNT_LABELS = {
 
 // Profil mémorisé une fois récupéré (null = déconnecté, undefined = pas encore su).
 let _profileName;
+let _authWired = false;
 
 // Applique le bon libellé. Appelée après chaque rendu de page, car les
 // fonctions applyI18n()/renderAll() des pages réécrivent le texte du lien.
@@ -156,11 +157,31 @@ async function refreshAccountLink() {
   applyAccountLabel();
   try {
     const Auth = await import('./auth.js');
-    const prof = await Auth.getProfile();
-    _profileName = prof && prof.display_name
-      ? String(prof.display_name).trim().split(' ')[0]
-      : (prof ? '' : null);
-    applyAccountLabel();
+
+    // 1) Source fiable et rapide : la session (pas besoin de la table profiles).
+    const user = await Auth.getUser();
+    if (!user) {
+      _profileName = null;
+      applyAccountLabel();
+    } else {
+      // Repli immédiat sur l'e-mail, puis affinage avec le profil.
+      _profileName = (user.email || '').split('@')[0];
+      applyAccountLabel();
+      try {
+        const prof = await Auth.getProfile();
+        if (prof && prof.display_name) {
+          _profileName = String(prof.display_name).trim().split(' ')[0];
+          applyAccountLabel();
+        }
+      } catch (e) { /* profil indisponible : on garde l'e-mail */ }
+    }
+
+    // 2) Suivre les connexions / déconnexions (y compris la restauration
+    //    de session, qui arrive souvent après le chargement de la page).
+    if (!_authWired) {
+      _authWired = true;
+      Auth.onAuthChange(() => { refreshAccountLink(); });
+    }
   } catch (e) { /* hors ligne : état déconnecté conservé */ }
 }
 
