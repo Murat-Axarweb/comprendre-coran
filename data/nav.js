@@ -139,6 +139,54 @@ const ACCOUNT_LABELS = {
   tr: { out: 'Giriş / Kayıt', in: 'Hesabım' }
 };
 
+
+// ============================================================
+// NAVBAR MUTUALISÉE
+// Une seule définition des liens pour toutes les pages : plus de
+// divergence possible entre les fichiers. La page courante est déduite
+// de l'URL. Si le balisage attendu est absent, la navbar est reconstruite.
+// ============================================================
+const NAV_ITEMS = [
+  { href: 'index.html',       key: 'nav_accueil',     fr: 'Accueil',     en: 'Home',       tr: 'Ana Sayfa' },
+  { href: 'sourates.html',    key: 'nav_sourates',    fr: 'Sourates',    en: 'Surahs',     tr: 'Sureler' },
+  { href: 'vocabulaire.html', key: 'nav_vocabulaire', fr: 'Vocabulaire', en: 'Vocabulary', tr: 'Kelimeler' },
+  { href: 'racines.html',     key: 'nav_racines',     fr: 'Racines',     en: 'Roots',      tr: 'Kökler' },
+  { href: 'exercices.html',   key: 'nav_exercices',   fr: 'Exercices',   en: 'Exercises',  tr: 'Alıştırmalar' },
+  { href: 'revision.html',    key: 'nav_reviser',     fr: 'Réviser',     en: 'Review',     tr: 'Tekrar' },
+  { href: 'compte.html',      key: 'nav_compte',      fr: 'Compte',      en: 'Account',    tr: 'Hesap' }
+];
+
+function currentPage() {
+  const f = (location.pathname.split('/').pop() || 'index.html');
+  return f === '' ? 'index.html' : f;
+}
+
+// Reconstruit la liste de liens si elle est absente ou incomplète.
+function ensureNavLinks() {
+  const bar = document.querySelector('.navbar');
+  if (!bar) return;
+  let links = bar.querySelector('.nav-links');
+  const here = currentPage();
+  if (!links) {
+    links = document.createElement('div');
+    links.className = 'nav-links';
+    const logo = bar.querySelector('.nav-logo');
+    if (logo && logo.nextSibling) bar.insertBefore(links, logo.nextSibling);
+    else bar.appendChild(links);
+  }
+  // Complète les liens manquants (sans toucher à ceux déjà présents).
+  const lang = currentLang();
+  NAV_ITEMS.forEach(item => {
+    if (links.querySelector(`a[href="${item.href}"]`)) return;
+    const a = document.createElement('a');
+    a.className = 'nav-link' + (item.href === here ? ' active' : '');
+    a.href = item.href;
+    a.textContent = item[lang] || item.fr;
+    if (item.href !== 'compte.html') a.setAttribute('data-i18n', item.key);
+    links.appendChild(a);
+  });
+}
+
 // Retrouve le lien « Compte » quel que soit le balisage de la page.
 // Plusieurs stratégies, de la plus précise à la plus tolérante : certaines
 // pages n'ont pas de .nav-links, d'autres utilisent un id, une URL absolue
@@ -183,7 +231,7 @@ export function applyAccountLabel() {
 async function refreshAccountLink() {
   applyAccountLabel();
   try {
-    const Auth = await import('./auth.js');
+    const Auth = await import(new URL('./auth.js', import.meta.url).pathname);
 
     // 1) Source fiable et rapide : la session (pas besoin de la table profiles).
     const user = await Auth.getUser();
@@ -228,6 +276,7 @@ export { refreshAccountLink };
 
 export function initNav(opts) {
   opts = opts || {};
+  ensureNavLinks();
   buildBurger();
   buildLangSelect(opts.onLangChange);
   wireGlobalClose();
