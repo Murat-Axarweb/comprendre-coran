@@ -206,4 +206,12 @@ export function initNav(opts) {
   wireGlobalClose();
   refreshAccountLink();
   guardAccountLabel();
+  // Filet de sécurité : certaines pages rendent leur contenu après initNav
+  // (rendu différé, données asynchrones). On réapplique le libellé quelques
+  // fois pendant les 3 premières secondes, puis on s'arrête.
+  let tries = 0;
+  const iv = setInterval(() => {
+    applyAccountLabel();
+    if (++tries >= 6) clearInterval(iv);
+  }, 500);
 }
