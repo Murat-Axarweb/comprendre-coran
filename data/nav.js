@@ -164,7 +164,10 @@ function currentPage() {
 }
 
 // Reconstruit la liste de liens si elle est absente ou incomplète.
+let _navBuilt = false;
 function ensureNavLinks() {
+  if (_navBuilt) return;
+  _navBuilt = true;
   const bar = document.querySelector('.navbar');
   if (!bar) return;
   let links = bar.querySelector('.nav-links');
@@ -176,16 +179,26 @@ function ensureNavLinks() {
     if (logo && logo.nextSibling) bar.insertBefore(links, logo.nextSibling);
     else bar.appendChild(links);
   }
-  // Complète les liens manquants (sans toucher à ceux déjà présents).
+  // Liens DÉJÀ présents, comparés sur le nom de fichier (getAttribute renvoie
+  // la valeur brute ; la propriété .href, elle, serait absolue et ne
+  // correspondrait jamais — c'est ce qui provoquait des doublons).
+  const present = new Set();
+  links.querySelectorAll('a[href]').forEach(a => {
+    const h = (a.getAttribute('href') || '').split('?')[0].split('#')[0];
+    present.add(h.split('/').pop());
+  });
+
+  // Complète uniquement ce qui manque réellement.
   const lang = currentLang();
   NAV_ITEMS.forEach(item => {
-    if (links.querySelector(`a[href="${item.href}"]`)) return;
+    if (present.has(item.href)) return;
     const a = document.createElement('a');
     a.className = 'nav-link' + (item.href === here ? ' active' : '');
-    a.href = item.href;
+    a.setAttribute('href', item.href);      // valeur brute, pas absolue
     a.textContent = item[lang] || item.fr;
     if (item.href !== 'compte.html') a.setAttribute('data-i18n', item.key);
     links.appendChild(a);
+    present.add(item.href);
   });
 }
 
