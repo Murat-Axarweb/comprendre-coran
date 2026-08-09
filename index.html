@@ -248,6 +248,19 @@
 
     /* ===== PROGRESSION PALIERS ===== */
     .paliers { display: flex; flex-direction: column; gap: 12px; }
+    /* ===== Ma progression ===== */
+    .mp-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .mp-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 20px 18px; }
+    .mp-n { font-size: 32px; font-weight: 600; color: var(--gold); line-height: 1.1; }
+    .mp-l { font-size: 13px; color: var(--text2); margin-top: 4px; }
+    .mp-bar { height: 5px; background: var(--bg3); border-radius: 3px; margin-top: 12px; overflow: hidden; }
+    .mp-fill { height: 100%; background: var(--gold); width: 0; border-radius: 3px; transition: width .4s; }
+    .mp-sub { font-size: 11.5px; color: var(--text3); margin-top: 7px; }
+    .mp-cta { display: inline-block; margin-top: 12px; font-size: 12.5px; color: var(--blue); text-decoration: none; }
+    .mp-cta:hover { text-decoration: underline; }
+    @media (max-width: 820px) { .mp-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 420px) { .mp-grid { grid-template-columns: 1fr; } }
+
     .palier {
       display: flex; align-items: center; gap: 16px;
       background: var(--bg2); border: 1px solid var(--border);
@@ -361,13 +374,15 @@
 <!-- NAVBAR -->
 <nav class="navbar">
   <div class="nav-logo">القرآن</div>
-  <a class="nav-link active" href="index.html" id="nav-accueil" data-i18n="nav_accueil">Accueil</a>
-  <a class="nav-link" href="sourates.html" id="nav-sourates" data-i18n="nav_sourates">Sourates</a>
-  <a class="nav-link" href="vocabulaire.html" id="nav-vocabulaire" data-i18n="nav_vocabulaire">Vocabulaire</a>
-  <a class="nav-link" href="racines.html" id="nav-racines" data-i18n="nav_racines">Racines</a>
-  <a class="nav-link" href="exercices.html" id="nav-exercices" data-i18n="nav_exercices">Exercices</a>
-  <a class="nav-link" href="revision.html" id="nav-reviser" data-i18n="nav_reviser">Réviser</a>
-  <a class="nav-link" href="compte.html" id="nav-compte" data-i18n="nav_compte">Compte</a>
+  <div class="nav-links">
+    <a class="nav-link active" href="index.html" id="nav-accueil" data-i18n="nav_accueil">Accueil</a>
+    <a class="nav-link" href="sourates.html" id="nav-sourates" data-i18n="nav_sourates">Sourates</a>
+    <a class="nav-link" href="vocabulaire.html" id="nav-vocabulaire" data-i18n="nav_vocabulaire">Vocabulaire</a>
+    <a class="nav-link" href="racines.html" id="nav-racines" data-i18n="nav_racines">Racines</a>
+    <a class="nav-link" href="exercices.html" id="nav-exercices" data-i18n="nav_exercices">Exercices</a>
+    <a class="nav-link" href="revision.html" id="nav-reviser" data-i18n="nav_reviser">Réviser</a>
+    <a class="nav-link" href="compte.html" id="nav-compte" data-i18n="nav_compte">Compte</a>
+  </div>
   <div class="nav-right">
     <div id="lang-select"></div>
     <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
@@ -482,6 +497,39 @@
     </div>
     <div id="dd-famille" style="margin-bottom:10px"></div>
     <div id="dd-profondeur" style="font-size:14px;color:var(--text2);line-height:1.75;background:var(--bg3);border-left:3px solid var(--gold);padding:12px 14px"></div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ===== MA PROGRESSION (visible seulement si l'utilisateur a commencé) ===== -->
+<div class="section" id="my-progress" style="display:none">
+  <h2 class="section-title" id="mp-title">Ma progression</h2>
+  <p class="section-sub" id="mp-sub">Reprends là où tu t'es arrêté.</p>
+  <div class="mp-grid">
+    <div class="mp-card">
+      <div class="mp-n" id="mp-words">0</div>
+      <div class="mp-l" id="mp-words-l">Mots appris</div>
+      <div class="mp-bar"><div class="mp-fill" id="mp-words-bar"></div></div>
+      <div class="mp-sub" id="mp-words-sub"></div>
+    </div>
+    <div class="mp-card">
+      <div class="mp-n" id="mp-surahs">0</div>
+      <div class="mp-l" id="mp-surahs-l">Sourates lues</div>
+      <div class="mp-bar"><div class="mp-fill" id="mp-surahs-bar"></div></div>
+      <div class="mp-sub" id="mp-surahs-sub"></div>
+    </div>
+    <div class="mp-card">
+      <div class="mp-n" id="mp-due">0</div>
+      <div class="mp-l" id="mp-due-l">Cartes à réviser</div>
+      <div class="mp-sub" id="mp-due-sub"></div>
+      <a class="mp-cta" href="revision.html" id="mp-due-cta">Réviser maintenant</a>
+    </div>
+    <div class="mp-card">
+      <div class="mp-n" id="mp-quiz">0</div>
+      <div class="mp-l" id="mp-quiz-l">Sessions de quiz</div>
+      <div class="mp-sub" id="mp-quiz-sub"></div>
+    </div>
   </div>
 </div>
 
@@ -625,12 +673,19 @@
   <div id="footer-text">Plateforme d'apprentissage de l'arabe coranique · Contenu pédagogique et linguistique</div>
 </footer>
 
-<script>
+<script type="module">
+import { initNav, refreshLangSelect } from './data/nav.js';
+import * as Progress from './data/progress.js';
+import * as SRS from './data/srs-engine.js';
 // ===== DONNÉES I18N LÉGÈRES (inline pour la page d'accueil) =====
 const TEXTS = {
   fr: {
     nav_accueil: "Accueil", nav_sourates: "Sourates",
     nav_vocabulaire: "Vocabulaire", nav_racines: "Racines", nav_exercices: "Exercices", nav_reviser: "Réviser", nav_compte: "Compte",
+    mp_title: "Ma progression", mp_sub: "Reprends là où tu t'es arrêté.",
+    mp_words: "Mots appris", mp_surahs: "Sourates lues", mp_due: "Cartes à réviser", mp_quiz: "Sessions de quiz",
+    mp_of_1000: "des 1000 mots", mp_of_114: "des 114 sourates",
+    mp_cards_total: "cartes au total", mp_best: "Record :", mp_due_cta: "Réviser maintenant",
     hero_badge: "Plateforme d'apprentissage de l'arabe coranique",
     hero_title: "Comprends le Coran,<br><strong>mot à mot, racine par racine</strong>",
     hero_subtitle: "Apprends à comprendre le Coran étape par étape : explore les sourates librement, découvre les mots essentiels, révise les racines et progresse à ton propre rythme.",
@@ -682,6 +737,10 @@ const TEXTS = {
   en: {
     nav_accueil: "Home", nav_sourates: "Surahs",
     nav_vocabulaire: "Vocabulary", nav_racines: "Roots", nav_exercices: "Exercises", nav_reviser: "Review", nav_compte: "Account",
+    mp_title: "My progress", mp_sub: "Pick up where you left off.",
+    mp_words: "Words learned", mp_surahs: "Surahs read", mp_due: "Cards to review", mp_quiz: "Quiz sessions",
+    mp_of_1000: "of the 1000 words", mp_of_114: "of the 114 surahs",
+    mp_cards_total: "cards in total", mp_best: "Best:", mp_due_cta: "Review now",
     hero_badge: "Quranic Arabic Learning Platform",
     hero_title: "Understand the Quran,<br><strong>word by word, root by root</strong>",
     hero_subtitle: "Learn to understand the Quran step by step: freely explore surahs, discover essential words, revise roots and progress at your own pace.",
@@ -733,6 +792,10 @@ const TEXTS = {
   tr: {
     nav_accueil: "Ana Sayfa", nav_sourates: "Sureler",
     nav_vocabulaire: "Kelimeler", nav_racines: "Kökler", nav_exercices: "Alıştırmalar", nav_reviser: "Tekrar", nav_compte: "Hesap",
+    mp_title: "İlerlemem", mp_sub: "Kaldığın yerden devam et.",
+    mp_words: "Öğrenilen kelimeler", mp_surahs: "Okunan sureler", mp_due: "Tekrar edilecek kartlar", mp_quiz: "Test oturumları",
+    mp_of_1000: "1000 kelimenin", mp_of_114: "114 surenin",
+    mp_cards_total: "toplam kart", mp_best: "Rekor:", mp_due_cta: "Şimdi tekrar et",
     hero_badge: "Kur'an Arapçası Öğrenme Platformu",
     hero_title: "Kur'an'ı anla,<br><strong>kelime kelime, kök kök</strong>",
     hero_subtitle: "Kur'an'ı adım adım anlamayı öğren: sureleri özgürce keşfet, temel kelimeleri keşfet, kökleri gözden geçir ve kendi hızında ilerle.",
@@ -801,11 +864,6 @@ let selectedMot = null;
 
 // ===== LANGUE =====
 // --- Navigation partagée (burger + sélecteur de langue) ---
-let refreshLangSelect = function() {};
-import('./data/nav.js').then(m => {
-  refreshLangSelect = m.refreshLangSelect;
-  m.initNav({ onLangChange: (code) => window.setLang(code) });
-}).catch(() => {});
 
 function t(key) { return (TEXTS[LANG] && TEXTS[LANG][key]) || TEXTS.fr[key] || key; }
 
@@ -881,6 +939,51 @@ function renderPaliers() {
       <div class="palier-pct">${p.pct}%</div>
     </div>
   `).join('');
+}
+
+// ===== MA PROGRESSION (données réelles de l'utilisateur) =====
+const TOTAL_MOTS = 1000, TOTAL_SOURATES = 114;
+
+function renderMyProgress() {
+  const s = Progress.getSummary();
+  const srs = SRS.stats();
+  const started = s.words > 0 || s.surahs > 0 || s.quizzes > 0 || srs.total > 0;
+  const sec = document.getElementById('my-progress');
+  sec.style.display = started ? '' : 'none';
+  if (!started) return;
+
+  // Libellés (traduits)
+  document.getElementById('mp-title').textContent = t('mp_title');
+  document.getElementById('mp-sub').textContent = t('mp_sub');
+  document.getElementById('mp-words-l').textContent = t('mp_words');
+  document.getElementById('mp-surahs-l').textContent = t('mp_surahs');
+  document.getElementById('mp-due-l').textContent = t('mp_due');
+  document.getElementById('mp-quiz-l').textContent = t('mp_quiz');
+  document.getElementById('mp-due-cta').textContent = t('mp_due_cta');
+
+  // Mots appris
+  const wPct = Math.min(100, Math.round(s.words / TOTAL_MOTS * 100));
+  document.getElementById('mp-words').textContent = s.words;
+  document.getElementById('mp-words-bar').style.width = wPct + '%';
+  document.getElementById('mp-words-sub').textContent = wPct + '% ' + t('mp_of_1000');
+
+  // Sourates lues
+  const sPct = Math.min(100, Math.round(s.surahs / TOTAL_SOURATES * 100));
+  document.getElementById('mp-surahs').textContent = s.surahs;
+  document.getElementById('mp-surahs-bar').style.width = sPct + '%';
+  document.getElementById('mp-surahs-sub').textContent = sPct + '% ' + t('mp_of_114');
+
+  // Cartes à réviser
+  document.getElementById('mp-due').textContent = srs.due;
+  document.getElementById('mp-due-sub').textContent =
+    srs.total > 0 ? (srs.total + ' ' + t('mp_cards_total')) : '';
+  document.getElementById('mp-due-cta').style.display = srs.due > 0 ? '' : 'none';
+
+  // Quiz
+  document.getElementById('mp-quiz').textContent = s.quizzes;
+  const bestQcm = Progress.quizBest('qcm');
+  document.getElementById('mp-quiz-sub').textContent =
+    s.quizzes > 0 ? (t('mp_best') + ' ' + bestQcm + '%') : '';
 }
 
 // ===== RENDER ALL =====
@@ -975,11 +1078,16 @@ function renderAll() {
   // Composants dynamiques
   renderMotsDemo();
   renderPaliers();
+  renderMyProgress();
 }
 
 // ===== INIT =====
 document.documentElement.setAttribute('lang', LANG);
+initNav({ onLangChange: (code) => window.setLang(code) });
 renderAll();
+// Rafraîchit la progression quand la synchro cloud arrive.
+Progress.subscribe(renderMyProgress);
+SRS.subscribe(renderMyProgress);
 </script>
 </body>
 </html>
