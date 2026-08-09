@@ -139,6 +139,33 @@ const ACCOUNT_LABELS = {
   tr: { out: 'Giriş / Kayıt', in: 'Hesabım' }
 };
 
+// Retrouve le lien « Compte » quel que soit le balisage de la page.
+// Plusieurs stratégies, de la plus précise à la plus tolérante : certaines
+// pages n'ont pas de .nav-links, d'autres utilisent un id, une URL absolue
+// ou un href relatif différent.
+function findAccountLink() {
+  const sels = [
+    '.nav-links a[href="compte.html"]',
+    '.navbar a[href="compte.html"]',
+    'a#nav-compte',
+    'nav a[href="compte.html"]',
+    'a[href="compte.html"]',
+    'a[href="./compte.html"]',
+    'a[href="/compte.html"]'
+  ];
+  for (const sel of sels) {
+    const el = document.querySelector(sel);
+    if (el) return el;
+  }
+  // Dernier recours : n'importe quel lien dont l'URL finit par compte.html
+  const all = document.querySelectorAll('a[href]');
+  for (const a of all) {
+    const h = a.getAttribute('href') || '';
+    if (h.split('?')[0].split('#')[0].endsWith('compte.html')) return a;
+  }
+  return null;
+}
+
 // Profil mémorisé une fois récupéré (null = déconnecté, undefined = pas encore su).
 let _profileName;
 let _authWired = false;
@@ -146,7 +173,7 @@ let _authWired = false;
 // Applique le bon libellé. Appelée après chaque rendu de page, car les
 // fonctions applyI18n()/renderAll() des pages réécrivent le texte du lien.
 export function applyAccountLabel() {
-  const link = document.querySelector('.nav-links a[href="compte.html"]');
+  const link = findAccountLink();
   if (!link) return;
   const L = ACCOUNT_LABELS[currentLang()] || ACCOUNT_LABELS.fr;
   link.removeAttribute('data-i18n');
@@ -187,7 +214,7 @@ async function refreshAccountLink() {
 
 // Réapplique le libellé après tout rendu de la page (protection contre l'écrasement).
 function guardAccountLabel() {
-  const link = document.querySelector('.nav-links a[href="compte.html"]');
+  const link = findAccountLink();
   if (!link || typeof MutationObserver === 'undefined') return;
   const obs = new MutationObserver(() => {
     const L = ACCOUNT_LABELS[currentLang()] || ACCOUNT_LABELS.fr;
