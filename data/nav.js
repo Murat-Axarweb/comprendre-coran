@@ -134,9 +134,9 @@ function wireGlobalClose() {
 // Déconnecté : « Connexion / Inscription ». Connecté : « Mon compte (Prénom) ».
 // Chargé paresseusement : n'empêche jamais la nav de fonctionner.
 const ACCOUNT_LABELS = {
-  fr: { out: 'Connexion / Inscription', in: 'Mon compte' },
-  en: { out: 'Sign in / Sign up', in: 'My account' },
-  tr: { out: 'Giriş / Kayıt', in: 'Hesabım' }
+  fr: { out: 'Connexion / Inscription', in: 'Mon compte', neutral: 'Compte' },
+  en: { out: 'Sign in / Sign up', in: 'My account', neutral: 'Account' },
+  tr: { out: 'Giriş / Kayıt', in: 'Hesabım', neutral: 'Hesap' }
 };
 
 
@@ -236,7 +236,27 @@ function findAccountLink() {
 }
 
 // Profil mémorisé une fois récupéré (null = déconnecté, undefined = pas encore su).
-let _profileName;
+// Prénom mémorisé localement pour que le libellé soit correct DÈS le premier
+// affichage des pages suivantes, sans clignotement
+// (« Connexion / Inscription » → « (email) » → « (Prénom) »).
+// La valeur reste vérifiée en arrière-plan à chaque page.
+const NAME_KEY = 'cc_account_name';
+
+function rememberedName() {
+  try {
+    const v = localStorage.getItem(NAME_KEY);
+    return v === null ? undefined : (v === '' ? null : v);
+  } catch (e) { return undefined; }
+}
+function rememberName(name) {
+  try {
+    if (name === null) localStorage.removeItem(NAME_KEY);
+    else localStorage.setItem(NAME_KEY, name);
+  } catch (e) {}
+}
+
+// undefined = inconnu (première visite), null = déconnecté, chaîne = prénom.
+let _profileName = rememberedName();
 let _authWired = false;
 
 // Applique le bon libellé. Appelée après chaque rendu de page, car les
@@ -244,9 +264,19 @@ let _authWired = false;
 export function applyAccountLabel() {
   const link = findAccountLink();
   if (!link) return;
+  // La mémoire locale fait autorité (partagée entre onglets, survit aux
+  // changements de page) : on la relit avant d'afficher.
+  const stored = rememberedName();
+  if (stored !== _profileName) _profileName = stored;
   const L = ACCOUNT_LABELS[currentLang()] || ACCOUNT_LABELS.fr;
   link.removeAttribute('data-i18n');
-  link.textContent = _profileName ? `${L.in} (${_profileName})` : L.out;
+  if (_profileName === undefined) {
+    // État inconnu (toute première visite) : libellé neutre, sans affirmer
+    // à tort que la personne est déconnectée.
+    link.textContent = L.neutral;
+  } else {
+    link.textContent = _profileName ? `${L.in} (${_profileName})` : L.out;
+  }
 }
 
 async function refreshAccountLink() {
@@ -254,29 +284,31 @@ async function refreshAccountLink() {
   try {
     const Auth = await import(new URL('./auth.js', import.meta.url).pathname);
 
-    // 1) Source fiable et rapide : la session (pas besoin de la table profiles).
+    // 1) Vérification en arrière-plan. On ne modifie l'affichage QUE si le
+    //    résultat diffère de ce qui est déjà à l'écran : pas de clignotement.
     const user = await Auth.getUser();
     if (!user) {
-      _profileName = null;
-      applyAccountLabel();
-    } else {
-      // Repli immédiat sur l'e-mail, puis affinage avec le profil.
-      _profileName = (user.email || '').split('@')[0];
-      applyAccountLabel();
-      try {
-        const prof = await Auth.getProfile();
-        if (prof && prof.display_name) {
-          _profileName = String(prof.display_name).trim().split(' ')[0];
-          applyAccountLabel();
-        }
-      } catch (e) { /* profil indisponible : on garde l'e-mail */ }
+      // Plus de session : on oublie le prénom mémorisé (déconnexion faite
+      // ici, dans un autre onglet, ou session expirée).
+      if (_profileName !== null) { _profileName = null; rememberName(null); applyAccountLabel(); }
+      return;
     }
+    let name = null;
+    try {
+      const prof = await Auth.getProfile();
+      if (prof && prof.display_name) name = String(prof.display_name).trim().split(' ')[0];
+    } catch (e) { /* profil indisponible */ }
+    if (!name) name = (user.email || '').split('@')[0];   // repli si display_name vide
+    if (name !== _profileName) { _profileName = name; rememberName(name); applyAccountLabel(); }
 
     // 2) Suivre les connexions / déconnexions (y compris la restauration
     //    de session, qui arrive souvent après le chargement de la page).
     if (!_authWired) {
       _authWired = true;
-      Auth.onAuthChange(() => { refreshAccountLink(); });
+      Auth.onAuthChange((session) => {
+        if (!session) { _profileName = null; rememberName(null); applyAccountLabel(); }
+        refreshAccountLink();
+      });
     }
   } catch (e) { /* hors ligne : état déconnecté conservé */ }
 }

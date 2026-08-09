@@ -26,6 +26,9 @@ export async function signIn(email, password) {
 }
 
 export async function signOut() {
+  // Oublie le prénom mémorisé pour la navbar (voir data/nav.js) : sans cela,
+  // la page suivante afficherait encore « Mon compte (Prénom) ».
+  try { localStorage.removeItem('cc_account_name'); } catch (e) {}
   const sb = await getSupabase();
   if (!sb) return NOT_CONFIGURED;
   return await sb.auth.signOut();
