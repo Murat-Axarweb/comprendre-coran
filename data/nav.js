@@ -250,9 +250,16 @@ function rememberedName() {
 }
 function rememberName(name) {
   try {
-    if (name === null) localStorage.removeItem(NAME_KEY);
+    // null = déconnecté : on l'ENREGISTRE (chaîne vide) au lieu d'effacer la
+    // clé, sinon l'état serait relu comme « inconnu » au prochain affichage.
+    if (name === null) localStorage.setItem(NAME_KEY, '');
     else localStorage.setItem(NAME_KEY, name);
   } catch (e) {}
+}
+
+// Efface toute trace (utilisé nulle part par défaut ; utile pour un reset).
+function forgetName() {
+  try { localStorage.removeItem(NAME_KEY); } catch (e) {}
 }
 
 // undefined = inconnu (première visite), null = déconnecté, chaîne = prénom.
@@ -266,7 +273,9 @@ let _authWired = false;
 // diverger (une divergence provoquait une boucle infinie de réécritures).
 function expectedAccountLabel() {
   const L = ACCOUNT_LABELS[currentLang()] || ACCOUNT_LABELS.fr;
-  if (_profileName === undefined) return L.neutral;
+  // État inconnu (tout premier chargement) : on affiche « Connexion /
+  // Inscription », le cas le plus fréquent. Dès qu'une session est connue,
+  // la valeur mémorisée prend le relais sans clignotement.
   return _profileName ? `${L.in} (${_profileName})` : L.out;
 }
 
