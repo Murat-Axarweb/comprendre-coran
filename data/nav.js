@@ -156,11 +156,18 @@ const NAV_ITEMS = [
   { href: 'compte.html',      key: 'nav_compte',      fr: 'Compte',      en: 'Account',    tr: 'Hesap' }
 ];
 
+// Normalise un href en identifiant de page : « /sourates », « sourates.html »
+// et « /sourates.html » donnent tous « sourates ». Indispensable car Netlify
+// sert les pages sans l'extension .html.
+function pageKey(href) {
+  let h = String(href || '').split('?')[0].split('#')[0];
+  h = h.split('/').pop() || 'index';
+  h = h.replace(/\.html$/i, '');
+  return h === '' ? 'index' : h;
+}
+
 function currentPage() {
-  try {
-    const f = (location.pathname.split('/').pop() || 'index.html');
-    return f === '' ? 'index.html' : f;
-  } catch (e) { return 'index.html'; }
+  try { return pageKey(location.pathname); } catch (e) { return 'index'; }
 }
 
 // Reconstruit la liste de liens si elle est absente ou incomplète.
@@ -183,22 +190,20 @@ function ensureNavLinks() {
   // la valeur brute ; la propriété .href, elle, serait absolue et ne
   // correspondrait jamais — c'est ce qui provoquait des doublons).
   const present = new Set();
-  links.querySelectorAll('a[href]').forEach(a => {
-    const h = (a.getAttribute('href') || '').split('?')[0].split('#')[0];
-    present.add(h.split('/').pop());
-  });
+  links.querySelectorAll('a[href]').forEach(a => present.add(pageKey(a.getAttribute('href'))));
 
   // Complète uniquement ce qui manque réellement.
   const lang = currentLang();
   NAV_ITEMS.forEach(item => {
-    if (present.has(item.href)) return;
+    const key = pageKey(item.href);
+    if (present.has(key)) return;
     const a = document.createElement('a');
-    a.className = 'nav-link' + (item.href === here ? ' active' : '');
+    a.className = 'nav-link' + (key === here ? ' active' : '');
     a.setAttribute('href', item.href);      // valeur brute, pas absolue
     a.textContent = item[lang] || item.fr;
     if (item.href !== 'compte.html') a.setAttribute('data-i18n', item.key);
     links.appendChild(a);
-    present.add(item.href);
+    present.add(key);
   });
 }
 
@@ -214,17 +219,18 @@ function findAccountLink() {
     'nav a[href="compte.html"]',
     'a[href="compte.html"]',
     'a[href="./compte.html"]',
-    'a[href="/compte.html"]'
+    'a[href="/compte.html"]',
+    'a[href="/compte"]',
+    'a[href="compte"]'
   ];
   for (const sel of sels) {
     const el = document.querySelector(sel);
     if (el) return el;
   }
-  // Dernier recours : n'importe quel lien dont l'URL finit par compte.html
+  // Dernier recours : tout lien pointant vers la page compte, avec ou sans .html
   const all = document.querySelectorAll('a[href]');
   for (const a of all) {
-    const h = a.getAttribute('href') || '';
-    if (h.split('?')[0].split('#')[0].endsWith('compte.html')) return a;
+    if (pageKey(a.getAttribute('href')) === 'compte') return a;
   }
   return null;
 }
