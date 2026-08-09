@@ -354,6 +354,7 @@
       .verset-arabic { padding: 16px; font-size: 22px; }
     }
   </style>
+  <link rel="stylesheet" href="./data/nav.css">
 </head>
 <body>
 
@@ -368,9 +369,7 @@
   <a class="nav-link" href="revision.html" id="nav-reviser" data-i18n="nav_reviser">Réviser</a>
   <a class="nav-link" href="compte.html" id="nav-compte" data-i18n="nav_compte">Compte</a>
   <div class="nav-right">
-    <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
-    <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
-    <button class="lang-btn" onclick="setLang('tr')" id="btn-tr">TR</button>
+    <div id="lang-select"></div>
     <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
   </div>
 </nav>
@@ -801,6 +800,13 @@ let LANG = localStorage.getItem('lang') || 'fr';
 let selectedMot = null;
 
 // ===== LANGUE =====
+// --- Navigation partagée (burger + sélecteur de langue) ---
+let refreshLangSelect = function() {};
+import('./data/nav.js').then(m => {
+  refreshLangSelect = m.refreshLangSelect;
+  m.initNav({ onLangChange: (code) => window.setLang(code) });
+}).catch(() => {});
+
 function t(key) { return (TEXTS[LANG] && TEXTS[LANG][key]) || TEXTS.fr[key] || key; }
 
 window.setLang = function(lang) {
@@ -810,11 +816,7 @@ window.setLang = function(lang) {
   renderAll();
 }
 
-function updateLangBtns() {
-  ['fr','en','tr'].forEach(l => {
-    document.getElementById('btn-'+l).classList.toggle('active', LANG === l);
-  });
-}
+function updateLangBtns() { refreshLangSelect(); }
 
 // ===== THÈME =====
 window.toggleTheme = function() {

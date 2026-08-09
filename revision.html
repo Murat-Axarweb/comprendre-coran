@@ -103,6 +103,7 @@
       .nav-link { padding: 12px 11px; font-size: 13px; }
     }
   </style>
+  <link rel="stylesheet" href="./data/nav.css">
 </head>
 <body>
 <nav class="navbar">
@@ -117,9 +118,7 @@
     <a class="nav-link" href="compte.html" data-i18n="nav_compte">Compte</a>
   </div>
   <div class="nav-right">
-    <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
-    <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
-    <button class="lang-btn" onclick="setLang('tr')" id="btn-tr">TR</button>
+    <div id="lang-select"></div>
     <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
   </div>
 </nav>
@@ -217,6 +216,7 @@
 
 <script type="module">
 import { I18N, t, initLang, setLang as setLangCore } from './data/i18n.js';
+import { initNav, refreshLangSelect } from './data/nav.js';
 import { VOCAB, THEMES } from './data/vocab.js';
 import { VOCAB2 } from './data/vocab2.js';
 import { VOCAB3 } from './data/vocab3.js';
@@ -232,7 +232,7 @@ window.LANG = initLang();
 
 // ===== I18N / THÈME =====
 window.setLang = function(lang) { window.LANG = setLangCore(lang); renderAll(); };
-function updateLangBtns() { ['fr','en','tr'].forEach(l => document.getElementById('btn-'+l).classList.toggle('active', window.LANG === l)); }
+function updateLangBtns() { refreshLangSelect(); }
 function applyI18n() {
   document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.getAttribute('data-i18n')); });
 }
@@ -393,6 +393,7 @@ function renderAll() {
 
 // ===== INIT =====
 show('setup');
+initNav({ onLangChange: (code) => window.setLang(code) });
 renderAll();
 // Rafraîchit les stats quand la synchro cloud arrive.
 SRS.subscribe(() => { if (!document.getElementById('view-setup').classList.contains('hidden')) refreshSetupStats(); });
