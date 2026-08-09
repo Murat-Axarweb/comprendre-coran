@@ -157,8 +157,10 @@ const NAV_ITEMS = [
 ];
 
 function currentPage() {
-  const f = (location.pathname.split('/').pop() || 'index.html');
-  return f === '' ? 'index.html' : f;
+  try {
+    const f = (location.pathname.split('/').pop() || 'index.html');
+    return f === '' ? 'index.html' : f;
+  } catch (e) { return 'index.html'; }
 }
 
 // Reconstruit la liste de liens si elle est absente ou incomplète.
@@ -276,12 +278,13 @@ export { refreshAccountLink };
 
 export function initNav(opts) {
   opts = opts || {};
-  ensureNavLinks();
-  buildBurger();
-  buildLangSelect(opts.onLangChange);
-  wireGlobalClose();
-  refreshAccountLink();
-  guardAccountLabel();
+  // Chaque étape est isolée : si l'une échoue, les autres fonctionnent quand même.
+  try { ensureNavLinks(); } catch (e) { console.warn('[nav] ensureNavLinks', e); }
+  try { buildBurger(); } catch (e) { console.warn('[nav] buildBurger', e); }
+  try { buildLangSelect(opts.onLangChange); } catch (e) { console.warn('[nav] buildLangSelect', e); }
+  try { wireGlobalClose(); } catch (e) {}
+  try { refreshAccountLink(); } catch (e) { console.warn('[nav] account', e); }
+  try { guardAccountLabel(); } catch (e) {}
   // Filet de sécurité : certaines pages rendent leur contenu après initNav
   // (rendu différé, données asynchrones). On réapplique le libellé quelques
   // fois pendant les 3 premières secondes, puis on s'arrête.
