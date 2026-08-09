@@ -75,6 +75,7 @@ export function refreshLangSelect() {
   document.querySelectorAll('.lang-option').forEach(o => {
     o.classList.toggle('active', o.getAttribute('data-lang') === lang);
   });
+  refreshAccountLink();
 }
 
 function closeBurger() {
@@ -129,9 +130,39 @@ function wireGlobalClose() {
   });
 }
 
+// ----- Lien « Compte » dynamique -----
+// Déconnecté : « Connexion / Inscription ». Connecté : « Mon compte (Prénom) ».
+// Chargé paresseusement : n'empêche jamais la nav de fonctionner.
+const ACCOUNT_LABELS = {
+  fr: { out: 'Connexion / Inscription', in: 'Mon compte' },
+  en: { out: 'Sign in / Sign up', in: 'My account' },
+  tr: { out: 'Giriş / Kayıt', in: 'Hesabım' }
+};
+
+async function refreshAccountLink() {
+  const link = document.querySelector('.nav-links a[href="compte.html"]');
+  if (!link) return;
+  const lang = currentLang();
+  const L = ACCOUNT_LABELS[lang] || ACCOUNT_LABELS.fr;
+  // Par défaut (et si Supabase est indisponible) : état déconnecté.
+  link.textContent = L.out;
+  link.removeAttribute('data-i18n'); // évite que l'i18n de la page l'écrase
+  try {
+    const Auth = await import('./auth.js');
+    const prof = await Auth.getProfile();
+    if (prof) {
+      const name = (prof.display_name || '').trim().split(' ')[0];
+      link.textContent = name ? `${L.in} (${name})` : L.in;
+    }
+  } catch (e) { /* hors ligne : on garde l'état déconnecté */ }
+}
+
+export { refreshAccountLink };
+
 export function initNav(opts) {
   opts = opts || {};
   buildBurger();
   buildLangSelect(opts.onLangChange);
   wireGlobalClose();
+  refreshAccountLink();
 }

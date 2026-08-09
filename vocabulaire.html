@@ -335,6 +335,7 @@
       <option value="freq_asc" data-i18n="sort_freq_asc">Moins fréquent d'abord</option>
       <option value="rang" data-i18n="sort_alpha">Par rang</option>
     </select>
+    <button class="filter-chip" id="btn-hide-learned" onclick="toggleHideLearned()" data-i18n="hide_learned">Masquer les mots appris</button>
     <div class="vue-switcher">
       <button class="vue-btn active" id="btn-vue-grille" onclick="setVue('grille')">⊞</button>
       <button class="vue-btn" id="btn-vue-liste" onclick="setVue('liste')">☰</button>
@@ -413,6 +414,7 @@ if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
 // ===== ÉTAT =====
 let vue = 'grille';
 let activeTheme = '';
+let hideLearned = localStorage.getItem('cc_hide_learned') === '1';
 let selectedId = null;
 const THEME_COLORS = {
   allah:'#c9a84c', foi:'#5b8fc9', prophetie:'#9b7fc9',
@@ -482,6 +484,20 @@ window.toggleThemeFilter = function(theme) {
 }
 
 // ===== FILTRES =====
+window.toggleHideLearned = function() {
+  hideLearned = !hideLearned;
+  localStorage.setItem('cc_hide_learned', hideLearned ? '1' : '0');
+  updateHideLearnedBtn();
+  applyFilters();
+}
+
+function updateHideLearnedBtn() {
+  const b = document.getElementById('btn-hide-learned');
+  if (!b) return;
+  b.classList.toggle('active', hideLearned);
+  b.textContent = t(hideLearned ? 'show_learned' : 'hide_learned');
+}
+
 window.applyFilters = function() {
   const q = document.getElementById('search-vocab').value.toLowerCase().trim();
   const sort = document.getElementById('sort-select').value;
@@ -492,7 +508,8 @@ window.applyFilters = function() {
       || (w.traductions[window.LANG]||w.traductions.fr).toLowerCase().includes(q)
       || w.racine.includes(q);
     const matchT = !activeTheme || w.theme === activeTheme;
-    return matchQ && matchT;
+    const matchL = !hideLearned || !Progress.isWordLearned(w.id);
+    return matchQ && matchT && matchL;
   });
 
   if (sort === 'freq_desc') filtered.sort((a,b) => b.frequence - a.frequence);
@@ -660,6 +677,7 @@ window.closeDetail = function() {
 // ===== RENDER ALL =====
 window.renderAll = function() {
   applyI18n();
+  updateHideLearnedBtn();
   renderCouverture();
   renderThemeChips();
   applyFilters();

@@ -150,6 +150,14 @@
       grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
       gap: 10px;
     }
+    .s-read-check { position: absolute; top: 10px; right: 10px; width: 22px; height: 22px; border-radius: 50%;
+      background: var(--green); color: #fff; font-size: 12px; display: flex; align-items: center; justify-content: center; }
+    .s-card.is-read { border-color: var(--green); }
+    .s-card.is-read .s-ar { opacity: .82; }
+    #btn-hide-read { background: transparent; border: 1px solid var(--border); color: var(--text2);
+      border-radius: 6px; padding: 9px 14px; cursor: pointer; font-size: 13px; font-family: inherit; white-space: nowrap; }
+    #btn-hide-read:hover { border-color: var(--gold); color: var(--gold); }
+    #btn-hide-read.active { border-color: var(--gold); color: var(--gold); background: rgba(201,168,76,.1); }
     .s-card {
       background: var(--bg2);
       border: 1px solid var(--border);
@@ -631,6 +639,7 @@
         <option value="mushaf">Ordre du muṣḥaf</option>
         <option value="revelation">Ordre de révélation</option>
       </select>
+      <button id="btn-hide-read" onclick="toggleHideRead()">Masquer les sourates lues</button>
     </div>
     <div class="sourate-grid" id="sourate-grid"></div>
   </div>
@@ -666,6 +675,7 @@
 let I18N_DICT = { fr: {
   nav_accueil: "Accueil", nav_sourates: "Sourates", nav_vocabulaire: "Vocabulaire",
   nav_racines: "Racines", nav_exercices: "Exercices", nav_reviser: "Réviser", nav_compte: "Compte",
+  hide_read: "Masquer les sourates lues", show_read: "Afficher toutes les sourates", label_lu: "Lu",
   sourates_subtitle: "Comprendre le Coran verset par verset · Racines · Traduction · Analyse",
   stat_sourates: "Sourates", stat_versets: "Versets", stat_analysees: "Versets analysés",
   stat_couverture: "Couverture", sourates_search: "Rechercher une sourate...",
@@ -1316,7 +1326,9 @@ function renderGrid(list, sort = 'mushaf') {
     const revLine = sort === 'revelation'
       ? `<div class="s-rev">${T('label_revelation')} nº${rev} · ${T('label_mushaf')} nº${s[0]}</div>`
       : '';
-    return `<div class="s-card ${hasData ? 'has-data' : ''}" onclick="openSourate(${s[0]})">
+    const isRead = ProgressMod && ProgressMod.isSurahRead(s[0]);
+    return `<div class="s-card ${hasData ? 'has-data' : ''} ${isRead ? 'is-read' : ''}" style="position:relative" onclick="openSourate(${s[0]})">
+      ${isRead ? '<span class="s-read-check" title="' + T('label_lu') + '">✓</span>' : ''}
       <div class="s-card-top">
         <span class="s-num">${s[0]}</span>
         <span class="s-badge ${typeClass}">${typeLabel}</span>
@@ -1329,6 +1341,22 @@ function renderGrid(list, sort = 'mushaf') {
   }).join('');
 }
 
+let hideRead = localStorage.getItem('cc_hide_read') === '1';
+
+window.toggleHideRead = function() {
+  hideRead = !hideRead;
+  localStorage.setItem('cc_hide_read', hideRead ? '1' : '0');
+  updateHideReadBtn();
+  filterSourates();
+};
+
+function updateHideReadBtn() {
+  const b = document.getElementById('btn-hide-read');
+  if (!b) return;
+  b.classList.toggle('active', hideRead);
+  b.textContent = T(hideRead ? 'show_read' : 'hide_read');
+}
+
 function filterSourates() {
   const q = document.getElementById('search').value.toLowerCase().trim();
   const type = document.getElementById('type-filter').value;
@@ -1339,7 +1367,8 @@ function filterSourates() {
       || (nom.en && nom.en.toLowerCase().includes(q)) || (nom.tr && nom.tr.toLowerCase().includes(q))
       || s[0].toString().includes(q);
     const matchT = !type || s[5] === type;
-    return matchQ && matchT;
+    const matchR = !hideRead || !(ProgressMod && ProgressMod.isSurahRead(s[0]));
+    return matchQ && matchT && matchR;
   });
   if (sort === 'revelation') {
     filtered.sort((a, b) => REVELATION_ORDER[a[0]] - REVELATION_ORDER[b[0]]);
@@ -1498,7 +1527,13 @@ function setTab(tab) {
 }
 
 let ProgressMod = null;
-import('./data/progress.js').then(m => { ProgressMod = m; updateReadBtn(); m.subscribe(updateReadBtn); }).catch(()=>{});
+import('./data/progress.js').then(m => {
+  ProgressMod = m;
+  updateReadBtn();
+  updateHideReadBtn();
+  filterSourates();                                  // affiche les coches dès le chargement
+  m.subscribe(() => { updateReadBtn(); filterSourates(); });  // et après synchro cloud
+}).catch(()=>{});
 
 function updateReadBtn() {
   let btn = document.getElementById('mark-read-btn');
@@ -1523,6 +1558,7 @@ function toggleReadSurah() {
   if (!ProgressMod || !currentS) return;
   ProgressMod.toggleSurah(currentS[0]);
   updateReadBtn();
+  filterSourates();   // met à jour la coche dans la liste
 }
 
 function prevV() { if (currentIdx > 0) { currentIdx--; selectedMot = null; renderVerset(); } }
