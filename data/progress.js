@@ -19,11 +19,14 @@ function _load() {
         wordsLearned: Array.isArray(p.wordsLearned) ? p.wordsLearned : [],
         surahsRead: Array.isArray(p.surahsRead) ? p.surahsRead : [],
         quiz: p.quiz && typeof p.quiz === 'object' ? p.quiz : { history: [], best: {} },
-        lastVisit: p.lastVisit || null
+        lastVisit: p.lastVisit || null,
+        streak: p.streak || 0,
+        bestStreak: p.bestStreak || 0,
+        lastDay: p.lastDay || null
       };
     }
   } catch (e) { /* localStorage indisponible ou corrompu */ }
-  return { wordsLearned: [], surahsRead: [], quiz: { history: [], best: {} }, lastVisit: null };
+  return { wordsLearned: [], surahsRead: [], quiz: { history: [], best: {} }, lastVisit: null, streak: 0, bestStreak: 0, lastDay: null };
 }
 
 function _save(p) {
@@ -31,8 +34,27 @@ function _save(p) {
 }
 
 const progress = _load();
+// --- Série de jours consécutifs (streak) ---
+(function updateStreak() {
+  const today = new Date().toISOString().slice(0, 10);
+  const last = progress.lastDay || null;
+  if (last !== today) {
+    if (last) {
+      const diff = Math.round((Date.parse(today) - Date.parse(last)) / 86400000);
+      progress.streak = diff === 1 ? (progress.streak || 0) + 1 : 1;
+    } else {
+      progress.streak = 1;
+    }
+    progress.lastDay = today;
+    if (!progress.bestStreak || progress.streak > progress.bestStreak) progress.bestStreak = progress.streak;
+  }
+})();
 progress.lastVisit = new Date().toISOString();
 _save(progress);
+
+// Série de jours consécutifs de visite.
+export function getStreak() { return progress.streak || 0; }
+export function getBestStreak() { return progress.bestStreak || 0; }
 
 // ----- Mots -----
 export function isWordLearned(id) { return progress.wordsLearned.includes(id); }
@@ -133,6 +155,8 @@ function _merge(remote) {
   const rs = Array.isArray(remote.surahsRead) ? remote.surahsRead : [];
   progress.wordsLearned = Array.from(new Set([...progress.wordsLearned, ...rw]));
   progress.surahsRead = Array.from(new Set([...progress.surahsRead, ...rs]));
+  if (remote.bestStreak && remote.bestStreak > (progress.bestStreak || 0)) progress.bestStreak = remote.bestStreak;
+  if (remote.streak && remote.lastDay === progress.lastDay && remote.streak > (progress.streak || 0)) progress.streak = remote.streak;
   if (remote.quiz && typeof remote.quiz === 'object') {
     const seen = new Set(progress.quiz.history.map(h => h.type + '|' + h.date));
     (remote.quiz.history || []).forEach(h => {

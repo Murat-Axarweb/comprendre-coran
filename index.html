@@ -425,6 +425,8 @@
 
 <hr class="divider">
 
+<div id="dashboard-anchor"></div>
+
 <!-- ===== CONCEPT ===== -->
 <div class="section">
   <h2 class="section-title" id="concept-title">Une approche différente</h2>
@@ -502,39 +504,6 @@
 
 <hr class="divider">
 
-<!-- ===== MA PROGRESSION (visible seulement si l'utilisateur a commencé) ===== -->
-<div class="section" id="my-progress" style="display:none">
-  <h2 class="section-title" id="mp-title">Ma progression</h2>
-  <p class="section-sub" id="mp-sub">Reprends là où tu t'es arrêté.</p>
-  <div class="mp-grid">
-    <div class="mp-card">
-      <div class="mp-n" id="mp-words">0</div>
-      <div class="mp-l" id="mp-words-l">Mots appris</div>
-      <div class="mp-bar"><div class="mp-fill" id="mp-words-bar"></div></div>
-      <div class="mp-sub" id="mp-words-sub"></div>
-    </div>
-    <div class="mp-card">
-      <div class="mp-n" id="mp-surahs">0</div>
-      <div class="mp-l" id="mp-surahs-l">Sourates lues</div>
-      <div class="mp-bar"><div class="mp-fill" id="mp-surahs-bar"></div></div>
-      <div class="mp-sub" id="mp-surahs-sub"></div>
-    </div>
-    <div class="mp-card">
-      <div class="mp-n" id="mp-due">0</div>
-      <div class="mp-l" id="mp-due-l">Cartes à réviser</div>
-      <div class="mp-sub" id="mp-due-sub"></div>
-      <a class="mp-cta" href="revision.html" id="mp-due-cta">Réviser maintenant</a>
-    </div>
-    <div class="mp-card">
-      <div class="mp-n" id="mp-quiz">0</div>
-      <div class="mp-l" id="mp-quiz-l">Sessions de quiz</div>
-      <div class="mp-sub" id="mp-quiz-sub"></div>
-    </div>
-  </div>
-</div>
-
-<hr class="divider">
-
 <!-- ===== PALIERS FRÉQUENCE ===== -->
 <div class="section">
   <h2 class="section-title" id="freq-title">Le système de fréquence</h2>
@@ -578,8 +547,8 @@
 
 <hr class="divider">
 
-<!-- ===== SIMULATION TABLEAU DE BORD ===== -->
-<div class="section">
+<!-- ===== TABLEAU DE BORD (reel si connecte, sinon apercu) ===== -->
+<div class="section" id="dashboard-section">
   <h2 class="section-title" id="dashboard-title">Ton tableau de bord (bientôt)</h2>
   <p class="section-sub" id="dashboard-sub">Voici à quoi ressemblera ton espace personnel une fois connecté.</p>
   <div class="parcours-demo">
@@ -593,7 +562,7 @@
       </div>
     </div>
     <div class="parcours-tasks">
-      <div class="parcours-task">
+      <div class="parcours-task" id="task1" data-href="revision.html">
         <div class="task-icon vocab">📚</div>
         <div class="task-text">
           <div id="task1-text">Réviser 5 mots</div>
@@ -601,7 +570,7 @@
         </div>
         <span class="task-badge">5 min</span>
       </div>
-      <div class="parcours-task">
+      <div class="parcours-task" id="task2" data-href="vocabulaire.html">
         <div class="task-icon racine">🌱</div>
         <div class="task-text">
           <div id="task2-text">Apprendre 3 nouveaux mots</div>
@@ -609,15 +578,15 @@
         </div>
         <span class="task-badge">8 min</span>
       </div>
-      <div class="parcours-task">
+      <div class="parcours-task" id="task3" data-href="sourates.html">
         <div class="task-icon verset">📖</div>
         <div class="task-text">
           <div id="task3-text">Analyser Al-Fatiha · verset 3</div>
-          <div class="task-sub">الرَّحْمَٰنِ الرَّحِيمِ</div>
+          <div class="task-sub" id="task3-sub">الرَّحْمَٰنِ الرَّحِيمِ</div>
         </div>
         <span class="task-badge">10 min</span>
       </div>
-      <div class="parcours-task">
+      <div class="parcours-task" id="task4" data-href="exercices.html">
         <div class="task-icon quiz">🎯</div>
         <div class="task-text">
           <div id="task4-text">Quiz rapide · 5 questions</div>
@@ -628,19 +597,19 @@
     </div>
     <div class="parcours-stats">
       <div class="ps-item">
-        <div class="ps-num">42</div>
+        <div class="ps-num" id="ps1-num">42</div>
         <div class="ps-label" id="ps1">Mots appris</div>
       </div>
       <div class="ps-item">
-        <div class="ps-num">11</div>
+        <div class="ps-num" id="ps2-num">11</div>
         <div class="ps-label" id="ps2">Racines vues</div>
       </div>
       <div class="ps-item">
-        <div class="ps-num">78%</div>
+        <div class="ps-num" id="ps3-num">78%</div>
         <div class="ps-label" id="ps3">Réussite</div>
       </div>
       <div class="ps-item">
-        <div class="ps-num">🔥 7</div>
+        <div class="ps-num" id="ps4-num">🔥 7</div>
         <div class="ps-label" id="ps4">Jours de suite</div>
       </div>
     </div>
@@ -677,11 +646,29 @@
 import { initNav, refreshLangSelect } from './data/nav.js';
 import * as Progress from './data/progress.js';
 import * as SRS from './data/srs-engine.js';
+import { VOCAB } from './data/vocab.js';
+import { VOCAB2 } from './data/vocab2.js';
+import { VOCAB3 } from './data/vocab3.js';
+import { VOCAB4 } from './data/vocab4.js';
+const ALL_VOCAB_LIST = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4].sort((a,b)=>a.rang-b.rang);
+const ALL_VOCAB_MAP = new Map(ALL_VOCAB_LIST.map(w => [w.id, w]));
 // ===== DONNÉES I18N LÉGÈRES (inline pour la page d'accueil) =====
 const TEXTS = {
   fr: {
     nav_accueil: "Accueil", nav_sourates: "Sourates",
     nav_vocabulaire: "Vocabulaire", nav_racines: "Racines", nav_exercices: "Exercices", nav_reviser: "Réviser", nav_compte: "Compte",
+    dashboard_title_real: "Ton tableau de bord", dashboard_sub_real: "Reprends là où tu t'es arrêté.",
+    welcome_hello: "Bonne continuation,", welcome_hello_anon: "Bonne continuation !",
+    welcome_demo: "Bonne continuation, Murat !", welcome_sub_demo: "Aujourd'hui · Session 14",
+    today: "Aujourd'hui", streak_days: "{n} jours de suite",
+    task1_demo: "Réviser 5 mots", task2_demo: "Apprendre 3 nouveaux mots",
+    task3_demo: "Analyser Al-Fatiha · verset 3", task4_demo: "Quiz rapide · 5 questions",
+    task_review_n: "Réviser {n} mots", task_review_none: "Rien à réviser aujourd'hui",
+    task_review_none_sub: "Reviens demain — tes cartes reviendront au bon moment",
+    task_review_start: "Commence une session de révision",
+    task_learn_new: "Apprendre un nouveau mot", task_learn_done: "Tous les mots sont appris !",
+    task_read_surah: "Lire la sourate {n}", task_quiz: "Quiz rapide",
+    task_quiz_first: "Teste-toi pour la première fois",
     mp_title: "Ma progression", mp_sub: "Reprends là où tu t'es arrêté.",
     mp_words: "Mots appris", mp_surahs: "Sourates lues", mp_due: "Cartes à réviser", mp_quiz: "Sessions de quiz",
     mp_of_1000: "des 1000 mots", mp_of_114: "des 114 sourates",
@@ -737,6 +724,18 @@ const TEXTS = {
   en: {
     nav_accueil: "Home", nav_sourates: "Surahs",
     nav_vocabulaire: "Vocabulary", nav_racines: "Roots", nav_exercices: "Exercises", nav_reviser: "Review", nav_compte: "Account",
+    dashboard_title_real: "Your dashboard", dashboard_sub_real: "Pick up where you left off.",
+    welcome_hello: "Keep it up,", welcome_hello_anon: "Keep it up!",
+    welcome_demo: "Keep it up, Murat!", welcome_sub_demo: "Today · Session 14",
+    today: "Today", streak_days: "{n}-day streak",
+    task1_demo: "Review 5 words", task2_demo: "Learn 3 new words",
+    task3_demo: "Analyse Al-Fatiha · verse 3", task4_demo: "Quick quiz · 5 questions",
+    task_review_n: "Review {n} words", task_review_none: "Nothing to review today",
+    task_review_none_sub: "Come back tomorrow — your cards return at the right time",
+    task_review_start: "Start a review session",
+    task_learn_new: "Learn a new word", task_learn_done: "All words learned!",
+    task_read_surah: "Read surah {n}", task_quiz: "Quick quiz",
+    task_quiz_first: "Test yourself for the first time",
     mp_title: "My progress", mp_sub: "Pick up where you left off.",
     mp_words: "Words learned", mp_surahs: "Surahs read", mp_due: "Cards to review", mp_quiz: "Quiz sessions",
     mp_of_1000: "of the 1000 words", mp_of_114: "of the 114 surahs",
@@ -792,6 +791,18 @@ const TEXTS = {
   tr: {
     nav_accueil: "Ana Sayfa", nav_sourates: "Sureler",
     nav_vocabulaire: "Kelimeler", nav_racines: "Kökler", nav_exercices: "Alıştırmalar", nav_reviser: "Tekrar", nav_compte: "Hesap",
+    dashboard_title_real: "Kontrol panelin", dashboard_sub_real: "Kaldığın yerden devam et.",
+    welcome_hello: "Devam et,", welcome_hello_anon: "Devam et!",
+    welcome_demo: "Devam et, Murat!", welcome_sub_demo: "Bugün · 14. oturum",
+    today: "Bugün", streak_days: "{n} gün üst üste",
+    task1_demo: "5 kelime tekrar et", task2_demo: "3 yeni kelime öğren",
+    task3_demo: "Fâtiha · 3. ayeti incele", task4_demo: "Hızlı test · 5 soru",
+    task_review_n: "{n} kelime tekrar et", task_review_none: "Bugün tekrar edilecek bir şey yok",
+    task_review_none_sub: "Yarın tekrar gel — kartların doğru zamanda dönecek",
+    task_review_start: "Bir tekrar oturumu başlat",
+    task_learn_new: "Yeni bir kelime öğren", task_learn_done: "Tüm kelimeler öğrenildi!",
+    task_read_surah: "{n}. sureyi oku", task_quiz: "Hızlı test",
+    task_quiz_first: "İlk kez kendini dene",
     mp_title: "İlerlemem", mp_sub: "Kaldığın yerden devam et.",
     mp_words: "Öğrenilen kelimeler", mp_surahs: "Okunan sureler", mp_due: "Tekrar edilecek kartlar", mp_quiz: "Test oturumları",
     mp_of_1000: "1000 kelimenin", mp_of_114: "114 surenin",
@@ -941,49 +952,115 @@ function renderPaliers() {
   `).join('');
 }
 
-// ===== MA PROGRESSION (données réelles de l'utilisateur) =====
-const TOTAL_MOTS = 1000, TOTAL_SOURATES = 114;
+// ===== TABLEAU DE BORD =====
+// Deux états : « réel » quand l'utilisateur a une progression (les chiffres
+// et les tâches viennent de ses données), « aperçu » sinon (la maquette
+// d'origine, avec la mention « bientôt »).
+const TOTAL_MOTS = 1000;
+let dashUser = null;
 
-function renderMyProgress() {
-  const s = Progress.getSummary();
+function pickWords(ids, n) {
+  const out = [];
+  for (const id of ids.slice(0, n)) {
+    const w = ALL_VOCAB_MAP.get(id);
+    if (w) out.push(w.ar);
+  }
+  return out.join(' · ');
+}
+
+function renderDashboard() {
+  const sum = Progress.getSummary();
   const srs = SRS.stats();
-  const started = s.words > 0 || s.surahs > 0 || s.quizzes > 0 || srs.total > 0;
-  const sec = document.getElementById('my-progress');
-  sec.style.display = started ? '' : 'none';
-  if (!started) return;
+  const real = sum.words > 0 || sum.surahs > 0 || sum.quizzes > 0 || srs.total > 0;
 
-  // Libellés (traduits)
-  document.getElementById('mp-title').textContent = t('mp_title');
-  document.getElementById('mp-sub').textContent = t('mp_sub');
-  document.getElementById('mp-words-l').textContent = t('mp_words');
-  document.getElementById('mp-surahs-l').textContent = t('mp_surahs');
-  document.getElementById('mp-due-l').textContent = t('mp_due');
-  document.getElementById('mp-quiz-l').textContent = t('mp_quiz');
-  document.getElementById('mp-due-cta').textContent = t('mp_due_cta');
+  const title = document.getElementById('dashboard-title');
+  const sub = document.getElementById('dashboard-sub');
 
-  // Mots appris
-  const wPct = Math.min(100, Math.round(s.words / TOTAL_MOTS * 100));
-  document.getElementById('mp-words').textContent = s.words;
-  document.getElementById('mp-words-bar').style.width = wPct + '%';
-  document.getElementById('mp-words-sub').textContent = wPct + '% ' + t('mp_of_1000');
+  if (!real) {
+    // --- Aperçu (non connecté / pas encore commencé) : maquette d'origine ---
+    title.textContent = t('dashboard_title');
+    sub.textContent = t('dashboard_sub');
+    document.getElementById('welcome-text').textContent = t('welcome_demo');
+    document.getElementById('welcome-sub').textContent = t('welcome_sub_demo');
+    document.getElementById('ps1-num').textContent = '42';
+    document.getElementById('ps2-num').textContent = '11';
+    document.getElementById('ps3-num').textContent = '78%';
+    document.getElementById('ps4-num').textContent = '🔥 7';
+    document.getElementById('task1-text').textContent = t('task1_demo');
+    document.getElementById('task2-text').textContent = t('task2_demo');
+    document.getElementById('task3-text').textContent = t('task3_demo');
+    document.getElementById('task4-text').textContent = t('task4_demo');
+    [1,2,3,4].forEach(i => { const el = document.getElementById('task'+i); if (el) el.style.cursor = 'default'; });
+    return;
+  }
 
-  // Sourates lues
-  const sPct = Math.min(100, Math.round(s.surahs / TOTAL_SOURATES * 100));
-  document.getElementById('mp-surahs').textContent = s.surahs;
-  document.getElementById('mp-surahs-bar').style.width = sPct + '%';
-  document.getElementById('mp-surahs-sub').textContent = sPct + '% ' + t('mp_of_114');
+  // --- Réel ---
+  // Remonte le tableau de bord juste sous le hero (une seule fois).
+  const anchor = document.getElementById('dashboard-anchor');
+  const sec = document.getElementById('dashboard-section');
+  if (anchor && sec && !sec._moved) {
+    anchor.parentNode.insertBefore(sec, anchor.nextSibling);
+    sec._moved = true;
+  }
 
-  // Cartes à réviser
-  document.getElementById('mp-due').textContent = srs.due;
-  document.getElementById('mp-due-sub').textContent =
-    srs.total > 0 ? (srs.total + ' ' + t('mp_cards_total')) : '';
-  document.getElementById('mp-due-cta').style.display = srs.due > 0 ? '' : 'none';
+  const name = (dashUser && dashUser.name) ? dashUser.name : '';
+  title.textContent = t('dashboard_title_real');
+  sub.textContent = t('dashboard_sub_real');
+  document.getElementById('welcome-text').textContent =
+    name ? (t('welcome_hello') + ' ' + name + ' !') : t('welcome_hello_anon');
+  const streak = Progress.getStreak();
+  document.getElementById('welcome-sub').textContent =
+    t('today') + (streak > 1 ? (' · ' + t('streak_days').replace('{n}', streak)) : '');
 
-  // Quiz
-  document.getElementById('mp-quiz').textContent = s.quizzes;
-  const bestQcm = Progress.quizBest('qcm');
-  document.getElementById('mp-quiz-sub').textContent =
-    s.quizzes > 0 ? (t('mp_best') + ' ' + bestQcm + '%') : '';
+  // Statistiques
+  const racinesVues = new Set();
+  ALL_VOCAB_LIST.forEach(w => {
+    if (w.racine && !String(w.racine).startsWith('—') && Progress.isWordLearned(w.id)) racinesVues.add(w.racine);
+  });
+  const hist = Progress.quizHistory();
+  const reussite = hist.length
+    ? Math.round(hist.reduce((a, h) => a + (h.total ? h.score / h.total * 100 : 0), 0) / hist.length)
+    : 0;
+  document.getElementById('ps1-num').textContent = sum.words;
+  document.getElementById('ps2-num').textContent = racinesVues.size;
+  document.getElementById('ps3-num').textContent = reussite + '%';
+  document.getElementById('ps4-num').textContent = '🔥 ' + streak;
+
+  // Tâches du jour, adaptées à l'état réel
+  const dueIds = SRS.dueIds(ALL_VOCAB_LIST.map(w => w.id));
+  const t1 = document.getElementById('task1-text');
+  const t1s = document.getElementById('task1-sub');
+  if (dueIds.length > 0) {
+    t1.textContent = t('task_review_n').replace('{n}', dueIds.length);
+    t1s.textContent = pickWords(dueIds, 5);
+  } else {
+    t1.textContent = t('task_review_none');
+    t1s.textContent = srs.total > 0 ? t('task_review_none_sub') : t('task_review_start');
+  }
+
+  const nextWord = ALL_VOCAB_LIST.find(w => !Progress.isWordLearned(w.id));
+  document.getElementById('task2-text').textContent = t('task_learn_new');
+  document.getElementById('task2-sub').textContent = nextWord
+    ? (nextWord.ar + ' · ' + (nextWord.traductions[LANG] || nextWord.traductions.fr))
+    : t('task_learn_done');
+
+  const nextSurah = [...Array(114).keys()].map(i => i + 1).find(n => !Progress.isSurahRead(n)) || 1;
+  document.getElementById('task3-text').textContent = t('task_read_surah').replace('{n}', nextSurah);
+  document.getElementById('task3-sub').textContent = sum.surahs + ' / 114';
+
+  document.getElementById('task4-text').textContent = t('task_quiz');
+  document.getElementById('task4-sub').textContent = hist.length
+    ? (t('mp_best') + ' ' + Progress.quizBest('qcm') + '%')
+    : t('task_quiz_first');
+
+  // Tâches cliquables
+  [1,2,3,4].forEach(i => {
+    const el = document.getElementById('task' + i);
+    if (!el || el._wired) return;
+    el.style.cursor = 'pointer';
+    el.addEventListener('click', () => { location.href = el.getAttribute('data-href'); });
+    el._wired = true;
+  });
 }
 
 // ===== RENDER ALL =====
@@ -1078,16 +1155,22 @@ function renderAll() {
   // Composants dynamiques
   renderMotsDemo();
   renderPaliers();
-  renderMyProgress();
+  renderDashboard();
 }
 
 // ===== INIT =====
 document.documentElement.setAttribute('lang', LANG);
 initNav({ onLangChange: (code) => window.setLang(code) });
 renderAll();
-// Rafraîchit la progression quand la synchro cloud arrive.
-Progress.subscribe(renderMyProgress);
-SRS.subscribe(renderMyProgress);
+// Rafraîchit le tableau de bord quand la synchro cloud arrive.
+Progress.subscribe(renderDashboard);
+SRS.subscribe(renderDashboard);
+
+// Récupère le prénom affiché si l'utilisateur est connecté (sans bloquer la page).
+import('./data/auth.js').then(async (Auth) => {
+  const prof = await Auth.getProfile();
+  if (prof && prof.display_name) { dashUser = { name: prof.display_name }; renderDashboard(); }
+}).catch(() => {});
 </script>
 </body>
 </html>
