@@ -31,40 +31,6 @@
     a { text-decoration: none; color: inherit; }
     button { font-family: 'Inter', sans-serif; cursor: pointer; border: none; background: none; color: inherit; }
 
-    /* ===== NAVBAR ===== */
-    .navbar {
-      display: flex; align-items: center;
-      border-bottom: 1px solid var(--border);
-      background: var(--bg); position: sticky; top: 0; z-index: 100;
-      padding: 0 24px;
-    }
-    .nav-logo {
-      font-family: 'Amiri', serif; font-size: 24px;
-      color: var(--gold); padding: 12px 20px 12px 0;
-      border-right: 1px solid var(--border); margin-right: 4px;
-    }
-    .nav-link {
-      padding: 15px 16px; font-size: 13px; color: var(--text2);
-      border-bottom: 2px solid transparent; margin-bottom: -1px;
-      transition: color 0.2s; white-space: nowrap;
-    }
-    .nav-link:hover { color: var(--text); }
-    .nav-link.active { color: var(--gold); border-bottom-color: var(--gold); }
-    .nav-right { display: flex; align-items: center; gap: 6px; margin-left: auto; }
-    .lang-btn {
-      padding: 5px 10px; font-size: 12px; font-weight: 500;
-      border: 1px solid var(--border); border-radius: var(--radius-sm);
-      color: var(--text2); transition: all 0.2s; background: none; cursor: pointer;
-      font-family: 'Inter', sans-serif;
-    }
-    .lang-btn:hover, .lang-btn.active { border-color: var(--gold); color: var(--gold); background: var(--goldbg); }
-    .theme-btn {
-      padding: 5px 10px; font-size: 13px;
-      border: 1px solid var(--border); border-radius: var(--radius-sm);
-      color: var(--text2); transition: all 0.2s; background: none; cursor: pointer;
-    }
-    .theme-btn:hover { border-color: var(--gold); color: var(--gold); }
-
     /* ===== SECTIONS ===== */
     .section { padding: 80px 24px; max-width: 1000px; margin: 0 auto; }
     .section-sm { padding: 60px 24px; max-width: 1000px; margin: 0 auto; }
@@ -359,9 +325,7 @@
       .modes-grid { grid-template-columns: 1fr; }
       .parcours-stats { grid-template-columns: repeat(2, 1fr); }
       .hero-stats { gap: 20px; }
-      .navbar { padding: 0 12px; }
-      .nav-logo { font-size: 20px; padding: 10px 12px 10px 0; }
-      .nav-link { padding: 12px 10px; font-size: 12px; }
+
       .section, .section-sm { padding: 50px 16px; }
       .mots-demo { padding: 16px; }
       .verset-arabic { padding: 16px; font-size: 22px; }
@@ -643,7 +607,7 @@
 </footer>
 
 <script type="module">
-import { initNav, refreshLangSelect } from './data/nav.js?v=8';
+import { initNav, refreshLangSelect } from './data/nav.js?v=9';
 import * as Progress from './data/progress.js';
 import * as SRS from './data/srs-engine.js';
 import { VOCAB } from './data/vocab.js';
