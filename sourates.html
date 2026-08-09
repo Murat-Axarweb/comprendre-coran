@@ -150,8 +150,10 @@
       grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
       gap: 10px;
     }
-    .s-read-check { position: absolute; top: 10px; right: 10px; width: 22px; height: 22px; border-radius: 50%;
-      background: var(--green); color: #fff; font-size: 12px; display: flex; align-items: center; justify-content: center; }
+    .s-card-badges { display: flex; align-items: center; gap: 5px; }
+    .s-read-check { width: 17px; height: 17px; border-radius: 50%; flex-shrink: 0;
+      background: var(--green); color: #fff; font-size: 10px; line-height: 1;
+      display: inline-flex; align-items: center; justify-content: center; }
     .s-card.is-read { border-color: var(--green); }
     .s-card.is-read .s-ar { opacity: .82; }
     #btn-hide-read { background: transparent; border: 1px solid var(--border); color: var(--text2);
@@ -707,7 +709,9 @@ function metaLine(s){
   return `${T('label_sourate')} ${s[0]} · ${tl} · ${s[4]} ${T('label_versets')} · ${T('label_revelation')} nº${REVELATION_ORDER[s[0]]}`;
 }
 function applyStaticI18n(){
-  const nav = {'index.html':'nav_accueil','sourates.html':'nav_sourates','vocabulaire.html':'nav_vocabulaire','racines.html':'nav_racines','exercices.html':'nav_exercices','revision.html':'nav_reviser','compte.html':'nav_compte'};
+  // compte.html volontairement exclu : son libellé est géré par data/nav.js
+  // (« Connexion / Inscription » ou « Mon compte (Prénom) »).
+  const nav = {'index.html':'nav_accueil','sourates.html':'nav_sourates','vocabulaire.html':'nav_vocabulaire','racines.html':'nav_racines','exercices.html':'nav_exercices','revision.html':'nav_reviser'};
   document.querySelectorAll('nav a[href]').forEach(a => { const k = nav[a.getAttribute('href')]; if (k) a.textContent = T(k); });
   const sub = document.getElementById('subtitle-text'); if (sub) sub.textContent = T('sourates_subtitle');
   const statKeys = ['stat_sourates','stat_versets','stat_analysees','stat_couverture'];
@@ -1327,11 +1331,13 @@ function renderGrid(list, sort = 'mushaf') {
       ? `<div class="s-rev">${T('label_revelation')} nº${rev} · ${T('label_mushaf')} nº${s[0]}</div>`
       : '';
     const isRead = ProgressMod && ProgressMod.isSurahRead(s[0]);
-    return `<div class="s-card ${hasData ? 'has-data' : ''} ${isRead ? 'is-read' : ''}" style="position:relative" onclick="openSourate(${s[0]})">
-      ${isRead ? '<span class="s-read-check" title="' + T('label_lu') + '">✓</span>' : ''}
+    return `<div class="s-card ${hasData ? 'has-data' : ''} ${isRead ? 'is-read' : ''}" onclick="openSourate(${s[0]})">
       <div class="s-card-top">
         <span class="s-num">${s[0]}</span>
-        <span class="s-badge ${typeClass}">${typeLabel}</span>
+        <span class="s-card-badges">
+          ${isRead ? '<span class="s-read-check" title="' + T('label_lu') + '">✓</span>' : ''}
+          <span class="s-badge ${typeClass}">${typeLabel}</span>
+        </span>
       </div>
       <div class="s-ar">${s[2]}</div>
       <div class="s-fr">${nomSens(s[0])}</div>
