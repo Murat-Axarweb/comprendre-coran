@@ -261,6 +261,15 @@ let _authWired = false;
 
 // Applique le bon libellé. Appelée après chaque rendu de page, car les
 // fonctions applyI18n()/renderAll() des pages réécrivent le texte du lien.
+// Libellé attendu pour l'état courant. UNE SEULE définition, utilisée à la
+// fois pour l'affichage et pour la surveillance : elles ne peuvent plus
+// diverger (une divergence provoquait une boucle infinie de réécritures).
+function expectedAccountLabel() {
+  const L = ACCOUNT_LABELS[currentLang()] || ACCOUNT_LABELS.fr;
+  if (_profileName === undefined) return L.neutral;
+  return _profileName ? `${L.in} (${_profileName})` : L.out;
+}
+
 export function applyAccountLabel() {
   const link = findAccountLink();
   if (!link) return;
@@ -268,15 +277,10 @@ export function applyAccountLabel() {
   // changements de page) : on la relit avant d'afficher.
   const stored = rememberedName();
   if (stored !== _profileName) _profileName = stored;
-  const L = ACCOUNT_LABELS[currentLang()] || ACCOUNT_LABELS.fr;
   link.removeAttribute('data-i18n');
-  if (_profileName === undefined) {
-    // État inconnu (toute première visite) : libellé neutre, sans affirmer
-    // à tort que la personne est déconnectée.
-    link.textContent = L.neutral;
-  } else {
-    link.textContent = _profileName ? `${L.in} (${_profileName})` : L.out;
-  }
+  const want = expectedAccountLabel();
+  // N'écrire que si nécessaire : évite de déclencher inutilement l'observateur.
+  if (link.textContent !== want) link.textContent = want;
 }
 
 async function refreshAccountLink() {
@@ -317,10 +321,13 @@ async function refreshAccountLink() {
 function guardAccountLabel() {
   const link = findAccountLink();
   if (!link || typeof MutationObserver === 'undefined') return;
+  let fixes = 0;
   const obs = new MutationObserver(() => {
-    const L = ACCOUNT_LABELS[currentLang()] || ACCOUNT_LABELS.fr;
-    const expected = _profileName ? `${L.in} (${_profileName})` : L.out;
-    if (link.textContent !== expected) applyAccountLabel();
+    if (link.textContent === expectedAccountLabel()) return;
+    // Garde-fou : au-delà de 20 corrections, on cesse de surveiller plutôt
+    // que de risquer une boucle qui figerait la page.
+    if (++fixes > 20) { obs.disconnect(); return; }
+    applyAccountLabel();
   });
   obs.observe(link, { childList: true, characterData: true, subtree: true });
 }
