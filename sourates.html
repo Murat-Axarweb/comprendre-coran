@@ -584,7 +584,7 @@
 <body>
 <!-- NAVBAR -->
 <nav class="navbar">
-  <div class="nav-logo">القرآن</div>
+  <a class="nav-logo" href="index.html" aria-label="Comprendre le Coran — accueil">القرآن</a>
   <div class="nav-links">
     <a class="nav-link" href="index.html">Accueil</a>
     <a class="nav-link active" href="sourates.html">Sourates</a>
@@ -1276,7 +1276,7 @@ function nomSens(num, lang) {
 
 // --- Navigation partagée (burger + sélecteur de langue) ---
 let refreshLangSelect = function() {};
-import('./data/nav.js?v=9').then(m => {
+import('./data/nav.js?v=10').then(m => {
   refreshLangSelect = m.refreshLangSelect;
   m.initNav({ onLangChange: (code) => window.setLang(code) });
 }).catch(() => {});
