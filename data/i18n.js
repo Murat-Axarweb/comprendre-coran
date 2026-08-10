@@ -90,16 +90,12 @@ const I18N = {
     site_subtitle: "Comprendre le Coran · Traduction · Racines · Vocabulaire",
 
     // Stats
-    stat_sourates: "Sourates",
-    stat_versets: "Versets",
     stat_analyses: "Versets analysés",
-    stat_couverture: "Couverture",
     stat_mots: "Mots",
     stat_racines: "Racines",
 
     // Liste sourates
     search_placeholder: "Rechercher une sourate...",
-    filter_all: "Toutes (114)",
     filter_mecquoise: "Mecquoises",
     filter_medinoise: "Médinoises",
     type_mecquoise: "Mecquoise",
@@ -111,10 +107,6 @@ const I18N = {
     back_label: "← Toutes les sourates",
     verset_label: "Verset",
     sur_label: "/",
-    tab_traduction: "Traduction",
-    tab_mots: "Mot à mot",
-    tab_analyse: "Analyse",
-    tab_resume: "Résumé pédago",
     click_mot: "Cliquer sur un mot pour l'analyser",
     traduction_par: "—",
     couche_label: "Couche",
@@ -296,15 +288,11 @@ const I18N = {
 
     site_subtitle: "Understanding the Quran · Translation · Roots · Vocabulary",
 
-    stat_sourates: "Surahs",
-    stat_versets: "Verses",
     stat_analyses: "Analysed Verses",
-    stat_couverture: "Coverage",
     stat_mots: "Words",
     stat_racines: "Roots",
 
     search_placeholder: "Search a surah...",
-    filter_all: "All (114)",
     filter_mecquoise: "Meccan",
     filter_medinoise: "Medinan",
     type_mecquoise: "Meccan",
@@ -315,10 +303,6 @@ const I18N = {
     back_label: "← All surahs",
     verset_label: "Verse",
     sur_label: "/",
-    tab_traduction: "Translation",
-    tab_mots: "Word by word",
-    tab_analyse: "Analysis",
-    tab_resume: "Learning summary",
     click_mot: "Click on a word to analyse it",
     traduction_par: "—",
     couche_label: "Layer",
@@ -497,15 +481,11 @@ const I18N = {
 
     site_subtitle: "Kur'an'ı Anlamak · Çeviri · Kökler · Kelimeler",
 
-    stat_sourates: "Sure",
-    stat_versets: "Ayet",
     stat_analyses: "Analiz Edilen Ayetler",
-    stat_couverture: "Kapsam",
     stat_mots: "Kelimeler",
     stat_racines: "Kökler",
 
     search_placeholder: "Sure ara...",
-    filter_all: "Tümü (114)",
     filter_mecquoise: "Mekki",
     filter_medinoise: "Medeni",
     type_mecquoise: "Mekki",
@@ -516,10 +496,6 @@ const I18N = {
     back_label: "← Tüm Sureler",
     verset_label: "Ayet",
     sur_label: "/",
-    tab_traduction: "Çeviri",
-    tab_mots: "Kelime kelime",
-    tab_analyse: "Analiz",
-    tab_resume: "Öğrenme özeti",
     click_mot: "Analiz için bir kelimeye tıklayın",
     traduction_par: "—",
     couche_label: "Katman",
