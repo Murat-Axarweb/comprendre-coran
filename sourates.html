@@ -1242,6 +1242,12 @@ function themeSens(s, lang) {
 // Registre des sourates avec données complètes
 const SOURATES_DATA = {};
 
+// Manifeste : numéro de sourate -> nombre de versets analysés. Chargé seul
+// au démarrage (quelques Ko) ; les fichiers de données complets ne sont
+// importés qu'à l'ouverture d'une sourate.
+let SOURATES_MANIFEST = null;
+let TOTAL_ANALYSES = 0;
+
 // Chargement dynamique des données
 async function loadSourateData(num) {
   if (SOURATES_DATA[num]) return SOURATES_DATA[num];
@@ -1308,9 +1314,7 @@ window.setLang = function(lang) {
 
 // Stats
 function updateStats() {
-  const analysees = Object.values(SOURATES_DATA)
-    .filter(d => d)
-    .reduce((acc, d) => acc + (d.versets ? d.versets.length : 0), 0);
+  const analysees = TOTAL_ANALYSES;
   document.getElementById('stat-analysees').textContent = analysees;
   document.getElementById('stat-pct').textContent = Math.round(analysees / 6236 * 100) + '%';
 }
@@ -1323,7 +1327,7 @@ function renderGrid(list, sort = 'mushaf') {
     return;
   }
   grid.innerHTML = list.map(s => {
-    const hasData = !!SOURATES_DATA[s[0]];
+    const hasData = SOURATES_MANIFEST ? (SOURATES_MANIFEST[s[0]] > 0) : false;
     const typeClass = s[5] === 'M' ? 'mecquoise' : 'medinoise';
     const typeLabel = s[5] === 'M' ? T('meccan') : T('medinan');
     const rev = REVELATION_ORDER[s[0]];
@@ -1601,12 +1605,15 @@ updateLangBtns();
 document.documentElement.setAttribute('lang', currentLang());
 renderGrid(SOURATES_META);
 
-// Préchargement des sourates disponibles (badges ✓ et stats)
-const DISPONIBLES = Array.from({length: 114}, (_, k) => 1 + k);
-Promise.all(DISPONIBLES.map(n => loadSourateData(n))).then(() => {
+// Chargement du seul manifeste (quelques Ko) pour les badges ✓ et les
+// compteurs. Avant, cette ligne importait les 114 fichiers de données,
+// soit ~15 Mo de JavaScript, uniquement pour connaître 114 nombres.
+import('./sourates/manifest.js').then(m => {
+  SOURATES_MANIFEST = m.SOURATES_MANIFEST;
+  TOTAL_ANALYSES = m.TOTAL_ANALYSES;
   renderGrid(SOURATES_META);
   updateStats();
-});
+}).catch(() => { /* manifeste indisponible : la liste reste utilisable */ });
 </script>
 </body>
 </html>
