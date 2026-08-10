@@ -49,8 +49,19 @@ function writeName(name) {
   try { localStorage.setItem(NAME_KEY, name || ''); } catch (e) {}
 }
 
+// ATTENTION — ne pas remplacer par un simple querySelector sur
+// a[href="compte.html"] : Netlify sert les pages sans extension (« Pretty
+// URLs »), si bien que le href vu par le navigateur est « /compte » en
+// production alors que le dépôt contient « compte.html ». On compare donc
+// le nom de page, sans extension ni chemin.
 function accountLink() {
-  return document.querySelector('.nav-links a[href="compte.html"]');
+  const liens = document.querySelectorAll('.nav-links a[href]');
+  for (const a of liens) {
+    const href = (a.getAttribute('href') || '').split('?')[0].split('#')[0];
+    const page = href.split('/').pop().replace(/\.html$/i, '');
+    if (page === 'compte') return a;
+  }
+  return null;
 }
 
 export function applyAccountLabel() {

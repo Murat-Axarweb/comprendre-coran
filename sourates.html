@@ -1282,7 +1282,7 @@ function nomSens(num, lang) {
 
 // --- Navigation partagée (burger + sélecteur de langue) ---
 let refreshLangSelect = function() {};
-import('./data/nav.js?v=15').then(m => {
+import('./data/nav.js?v=16').then(m => {
   refreshLangSelect = m.refreshLangSelect;
   m.initNav({ onLangChange: (code) => window.setLang(code) });
 }).catch(() => {});
