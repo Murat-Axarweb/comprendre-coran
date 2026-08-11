@@ -65,3 +65,41 @@ Concrètement, cela n'empêche rien aujourd'hui — les données sont
 versionnées et complètes. C'est une limite à connaître si l'on veut un
 jour retravailler le contenu rédactionnel d'une sourate hors de cette
 plage : il faudra d'abord créer son `content/cNNN.js`.
+
+---
+
+## Relire et corriger le contenu
+
+Chaque sourate a un fichier source dans `content/` : `c001.js` à `c114.js`.
+Ce sont des fichiers texte lisibles, prévus pour être relus et corrigés
+sans outil particulier.
+
+### Ce qu'on peut y modifier
+
+| Champ | Contenu |
+|---|---|
+| `nom_fr`, `nom_en`, `nom_tr` | noms de la sourate |
+| `theme` | thème affiché sous le titre |
+| `note` | note pédagogique |
+| `racines` | racines clés |
+| `resume` | mots et racines à retenir, « déclic fréquence » |
+| `mots` | gloses mot à mot — `[mot arabe, traduction, racine, fréquence]` |
+| `analyses` | analyse d'un verset, par numéro |
+
+Tous les mots d'un verset ne sont pas glosés : seuls ceux listés
+apparaissent dans le lecteur. Ajouter une ligne suffit à en gloser un
+nouveau, à condition de respecter l'ordre des mots du verset.
+
+### Après modification
+
+```bash
+node build/build_surah.js 12     # régénère sourates/s012.js
+npm run validate                  # vérifie le corpus
+```
+
+### Ce qu'on ne modifie pas ici
+
+Les **traductions de versets** ne figurent pas dans ces fichiers : elles
+proviennent de traducteurs publiés (Hamidullah, Saheeh International,
+Diyanet) et doivent être reproduites sans modification. `build_surah.js`
+les préserve automatiquement lors de la régénération.

@@ -72,26 +72,80 @@ function traductionsExistantes(n) {
   } catch (e) { return null; }
 }
 
+// Marquage des groupes de versets déjà présent dans sourates/sNNN.js.
+function groupesExistantsDe(n) {
+  const f = path.join(__dirname, '..', 'sourates', 's' + String(n).padStart(3, '0') + '.js');
+  if (!fs.existsSync(f)) return null;
+  try {
+    const src = fs.readFileSync(f, 'utf8');
+    const i = src.indexOf('{');
+    if (i < 0) return null;
+    let prof = 0, j = i, ds = false, ec = false;
+    for (; j < src.length; j++) {
+      const c = src[j];
+      if (ds) { if (ec) ec = false; else if (c === '\\') ec = true; else if (c === '"') ds = false; continue; }
+      if (c === '"') ds = true; else if (c === '{') prof++; else if (c === '}' && --prof === 0) break;
+    }
+    const data = JSON.parse(src.slice(i, j + 1));
+    const out = {};
+    (data.versets || []).forEach(v => { if (v.groupes) out[v.numero] = v.groupes; });
+    return Object.keys(out).length ? out : null;
+  } catch (e) { return null; }
+}
+
 function buildSurah(n) {
   const content = require('./content/c' + String(n).padStart(3, '0') + '.js');
   const dejaTraduit = traductionsExistantes(n);
+  const groupesExistants = groupesExistantsDe(n);
   const b = base[n];
   if (!b) throw new Error('base manquante ' + n);
-  if (content.t.length !== b.verses.length) throw new Error(`s${n}: ${content.t.length} traductions pour ${b.verses.length} versets`);
+  // Le champ « t » est facultatif : les traductions viennent désormais de
+  // sourates/sNNN.js (sources externes préservées par traductionsExistantes).
+  // On ne le contrôle que s'il est renseigné.
+  const aTraductions = Array.isArray(content.t) && content.t.length > 0;
+  if (aTraductions && content.t.length !== b.verses.length) {
+    throw new Error(`s${n}: ${content.t.length} traductions pour ${b.verses.length} versets`);
+  }
+  if (!aTraductions && !dejaTraduit) {
+    throw new Error(`s${n}: ni traductions dans content/, ni sourates/s${String(n).padStart(3,'0')}.js existant`);
+  }
 
   const versets = b.verses.map((v, vi) => {
-    const [fr, en, tr] = content.t[vi];
+    const [fr, en, tr] = aTraductions ? content.t[vi] : ['', '', ''];
     let mots = [];
     const manual = content.mots && content.mots[v.n];
     if (manual) {
-      if (manual.length !== v.words.length) {
+      // Deux formats acceptés :
+      //  - historique : une glose par mot, dans l'ordre, [texte, racine, fréq]
+      //  - étendu     : [motArabe, texte, racine, fréq] — permet de ne gloser
+      //                 qu'une partie des mots, ce qui est le cas courant
+      //                 (57 % du corpus est glosé).
+      const etendu = manual.length > 0 && manual[0].length === 4;
+      if (!etendu && manual.length !== v.words.length) {
         throw new Error(`s${n} v${v.n}: ${manual.length} gloses pour ${v.words.length} mots — [${v.words.map(w => w.tr).join(' | ')}]`);
       }
-      mots = v.words.map((w, wi) => {
-        const [gfr, racine, freq] = manual[wi];
-        const note = content.motNotes && content.motNotes[v.n + '_' + wi];
-        return { ar: w.ar, translit: w.tr, fr: gfr, racine, frequence_coran: freq, ...(note || {}) };
-      });
+      if (etendu) {
+        // On suit l'ordre des mots du verset et on consomme les gloses
+        // fournies : un mot sans glose est simplement omis.
+        const file = manual.slice();
+        mots = [];
+        v.words.forEach((w, wi) => {
+          if (file.length && file[0][0] === w.ar) {
+            const [, gfr, racine, freq] = file.shift();
+            const note = content.motNotes && content.motNotes[v.n + '_' + wi];
+            mots.push({ ar: w.ar, translit: w.tr, fr: gfr, racine, frequence_coran: freq, ...(note || {}) });
+          }
+        });
+        if (file.length) {
+          throw new Error(`s${n} v${v.n}: ${file.length} glose(s) sans mot correspondant — première : ${file[0][0]}`);
+        }
+      } else {
+        mots = v.words.map((w, wi) => {
+          const [gfr, racine, freq] = manual[wi];
+          const note = content.motNotes && content.motNotes[v.n + '_' + wi];
+          return { ar: w.ar, translit: w.tr, fr: gfr, racine, frequence_coran: freq, ...(note || {}) };
+        });
+      }
     } else if (content.autogloss !== false) {
       mots = v.words.map(w => {
         const hit = autoGloss(w.ar);
@@ -112,7 +166,10 @@ function buildSurah(n) {
       },
       mots,
       ...(content.analyses && content.analyses[v.n] ? { analyse_globale: content.analyses[v.n] } : {}),
-      niveau_couche: content.couche || 2
+      niveau_couche: content.couche || 2,
+      // Marquage des versets rendus en bloc par une traduction : posé par
+      // scripts/mark-translation-groups.mjs, il doit survivre au rebuild.
+      ...(groupesExistants && groupesExistants[v.n] ? { groupes: groupesExistants[v.n] } : {})
     };
   });
 

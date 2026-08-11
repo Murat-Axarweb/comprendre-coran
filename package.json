@@ -16,6 +16,7 @@
     "validate:nav": "node scripts/validate-nav.mjs",
     "build:manifest": "node scripts/build-manifest.mjs",
     "build:base": "node build/extract.js --tout",
+    "build:content": "node scripts/extract-content.mjs --appliquer",
     "translations:check": "node scripts/import-translations.mjs --verifier",
     "translations:import": "node scripts/import-translations.mjs --appliquer",
     "translations:groups": "node scripts/mark-translation-groups.mjs --appliquer"
