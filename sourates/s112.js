@@ -4,6 +4,8 @@ const S112 = {
     nom_ar: "الإخلاص",
     nom_translit: "Al-Ikhlas",
     nom_fr: "La sincérité",
+    nom_en: "The Sincerity",
+    nom_tr: "İhlâs (Samimiyet)",
     type: "mecquoise",
     versets_count: 4,
     theme: "L'unicité absolue d'Allah — le tawhid en 4 versets",

@@ -4,6 +4,8 @@ const S113 = {
     nom_ar: "الفلق",
     nom_translit: "Al-Falaq",
     nom_fr: "L'aube",
+    nom_en: "The Daybreak",
+    nom_tr: "Felak (Şafak)",
     type: "mecquoise",
     versets_count: 5,
     theme: "Chercher refuge auprès d'Allah contre les maux de la création",

@@ -1426,7 +1426,13 @@ function renderVerset() {
 
   const v = currentData.versets[currentIdx];
   const uiLang = (localStorage.getItem('lang') || 'fr');
-  const trFr = v.traductions?.[uiLang] || v.traductions?.fr || { auteur: 'Hamidullah', texte: v.traduction_fr || '' };
+  // Quelques sourates n'ont pas encore de traduction dans les trois langues.
+  // On se replie alors sur l'anglais (langue de secours la plus large) puis
+  // sur le français, plutôt que de laisser la zone vide.
+  const trFr = v.traductions?.[uiLang]
+            || v.traductions?.en
+            || v.traductions?.fr
+            || { auteur: '', texte: v.traduction_fr || '' };
 
   document.getElementById('verset-body').innerHTML = `
     <div class="arabic-display">${v.ar}</div>
