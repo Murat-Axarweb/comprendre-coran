@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S108 = {
   "meta": {
     "numero": 108,
@@ -34,16 +36,16 @@ const S108 = {
       "translit": "Innā aʿṭaynāka l-kawthar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nous t'avons certes donné l'Abondance."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Nous t'avons certes, accordé l'Abondance"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "We have surely given you Abundance."
+          "auteur": "Saheeh International",
+          "texte": "Indeed, We have granted you, [O Muhammad], al-Kawthar"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Şüphesiz Biz sana Kevser'i verdik."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Doğrusu sana pek çok nimet vermişizdir"
         }
       },
       "mots": [
@@ -78,16 +80,16 @@ const S108 = {
       "translit": "Faṣalli lirabbika wanḥar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Prie donc ton Seigneur et sacrifie."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Accomplis la Salât pour ton Seigneur et sacrifie"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "So pray to your Lord and sacrifice."
+          "auteur": "Saheeh International",
+          "texte": "So pray to your Lord and sacrifice [to Him alone]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Öyleyse Rabbin için namaz kıl ve kurban kes."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyse Rabbin için namaz kıl, kurban kes"
         }
       },
       "mots": [
@@ -121,16 +123,16 @@ const S108 = {
       "translit": "Inna shāniʾaka huwa l-ʾabtar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Celui qui te hait — c'est lui l'amputé de tout avenir."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Celui qui te hait sera certes, sans postérité"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Indeed your enemy is the one cut off."
+          "auteur": "Saheeh International",
+          "texte": "Indeed, your enemy is the one cut off"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Asıl sana kin besleyendir soyu kesik olan."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Doğrusu adı sanı ortadan kalkacak olan, sana kin tutan kimsedir"
         }
       },
       "mots": [

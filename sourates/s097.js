@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S097 = {
   "meta": {
     "numero": 97,
@@ -34,16 +36,16 @@ const S097 = {
       "translit": "Innā anzalnāhu fī laylati l-qadr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nous l'avons certes fait descendre durant la Nuit de la Destinée."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Nous l'avons certes, fait descendre (le Coran) pendant la nuit d'Al-Qadr"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "We surely sent it down during the Night of Decree."
+          "auteur": "Saheeh International",
+          "texte": "Indeed, We sent the Qur'an down during the Night of Decree"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Şüphesiz Biz onu Kadir gecesinde indirdik."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir"
         }
       },
       "mots": [
@@ -98,16 +100,16 @@ const S097 = {
       "translit": "Wamā adrāka mā laylatu l-qadr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et qui te dira ce qu'est la Nuit de la Destinée ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et qui te dira ce qu'est la nuit d'Al-Qadr"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And what will make you know what the Night of Decree is?"
+          "auteur": "Saheeh International",
+          "texte": "And what can make you know what is the Night of Decree"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kadir gecesinin ne olduğunu sana ne bildirdi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kadir gecesinin ne olduğunu sen bilir misin"
         }
       },
       "mots": [
@@ -155,16 +157,16 @@ const S097 = {
       "translit": "Laylatu l-qadri khayrun min alfi shahr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "La Nuit de la Destinée vaut mieux que mille mois."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "La nuit d'Al-Qadr est meilleure que mille mois"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The Night of Decree is better than a thousand months."
+          "auteur": "Saheeh International",
+          "texte": "The Night of Decree is better than a thousand months"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kadir gecesi bin aydan daha hayırlıdır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kadir gecesi bin aydan hayırlıdır"
         }
       },
       "mots": [
@@ -219,16 +221,16 @@ const S097 = {
       "translit": "Tanazzalu l-malāʾikatu war-rūḥu fīhā biʾidhni rabbihim min kulli amr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Les anges et l'Esprit y descendent, avec la permission de leur Seigneur, pour tout ordre."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Durant celle-ci descendent les Anges ainsi que l'Esprit, par permission de leur Seigneur pour tout ordre"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The angels and the Spirit descend therein, by their Lord's permission, with every decree."
+          "auteur": "Saheeh International",
+          "texte": "The angels and the Spirit descend therein by permission of their Lord for every matter"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Melekler ve Ruh, Rablerinin izniyle her iş için o gece iner."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler"
         }
       },
       "mots": [
@@ -304,16 +306,16 @@ const S097 = {
       "translit": "Salāmun hiya ḥattā maṭlaʿi l-fajr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Paix elle est, jusqu'au lever de l'aube."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Elle est paix et salut jusqu'à l'apparition de l'aube"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Peace it is, until the break of dawn."
+          "auteur": "Saheeh International",
+          "texte": "Peace it is until the emergence of dawn"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O gece, tan yeri ağarıncaya kadar esenliktir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gece, tan yerinin ağarmasına kadar bir esenliktir"
         }
       },
       "mots": [

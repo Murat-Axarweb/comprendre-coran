@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S095 = {
   "meta": {
     "numero": 95,
@@ -35,16 +37,16 @@ const S095 = {
       "translit": "Wat-tīni waz-zaytūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par le figuier et l'olivier !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Par le figuier et l'olivier"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the fig and the olive!"
+          "auteur": "Saheeh International",
+          "texte": "By the fig and the olive"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İncire ve zeytine andolsun!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İncir ve zeytine and olsun"
         }
       },
       "mots": [
@@ -72,16 +74,16 @@ const S095 = {
       "translit": "Waṭūri sīnīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par le mont Sinaï !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et par le Mont Sînîn"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By Mount Sinai!"
+          "auteur": "Saheeh International",
+          "texte": "And [by] Mount Sinai"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sina dağına!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "And olsun Sina dağına"
         }
       },
       "mots": [
@@ -101,16 +103,16 @@ const S095 = {
       "translit": "Wahādhā l-baladi l-ʾamīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et par cette cité sûre !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et par cette Cité sûre"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And by this secure city!"
+          "auteur": "Saheeh International",
+          "texte": "And [by] this secure city [Makkah]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve bu güvenli beldeye!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "And olsun bu güvenli Mekke şehrine ki"
         }
       },
       "mots": [
@@ -137,16 +139,16 @@ const S095 = {
       "translit": "Laqad khalaqnā l-ʾinsāna fī aḥsani taqwīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nous avons certes créé l'homme dans la plus belle stature,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Nous avons certes créé l'homme dans la forme la plus parfaite"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "We surely created man in the finest stature,"
+          "auteur": "Saheeh International",
+          "texte": "We have certainly created man in the best of stature"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Biz insanı en güzel biçimde yarattık,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Biz insanı en güzel şekilde yarattık"
         }
       },
       "mots": [
@@ -181,16 +183,16 @@ const S095 = {
       "translit": "Thumma radadnāhu asfala sāfilīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "puis Nous l'avons ramené au plus bas des degrés —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ensuite, Nous l'avons ramené au niveau le plus bas"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "then We reduced him to the lowest of the low —"
+          "auteur": "Saheeh International",
+          "texte": "Then We return him to the lowest of the low"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sonra onu aşağıların aşağısına çevirdik —"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sonra onu aşağıların en aşağısı kıldık"
         }
       },
       "mots": [
@@ -210,16 +212,16 @@ const S095 = {
       "translit": "Illā lladhīna āmanū waʿamilū ṣ-ṣāliḥāti falahum ajrun ghayru mamnūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "sauf ceux qui croient et accomplissent les œuvres bonnes : à eux une récompense jamais interrompue."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "sauf ceux qui croient et accomplissent les bonnes œuvres: ceux-là auront une récompense jamais interrompue"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "except those who believe and do righteous deeds: theirs is an unfailing reward."
+          "auteur": "Saheeh International",
+          "texte": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ancak iman edip salih amel işleyenler müstesna: onlar için kesintisiz bir mükâfat vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Yalnız, inanıp yararlı iş işleyenler bunun dışındadır. Onlara kesintisiz ecir vardır"
         }
       },
       "mots": [
@@ -274,16 +276,16 @@ const S095 = {
       "translit": "Famā yukadhdhibuka baʿdu bid-dīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Après cela, qu'est-ce qui te fait encore démentir la Rétribution ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Après cela, qu'est-ce qui te fait traiter la rétribution de mensonge"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then what makes you still deny the Judgment?"
+          "auteur": "Saheeh International",
+          "texte": "So what yet causes you to deny the Recompense"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Öyleyse bundan sonra sana dini yalanlatan nedir?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, sana dini yalan saydırtan nedir"
         }
       },
       "mots": [
@@ -317,16 +319,16 @@ const S095 = {
       "translit": "Alaysa llāhu biʾaḥkami l-ḥākimīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah n'est-Il pas le plus juste des juges ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Allah n'est-Il pas le plus sage des Juges"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Is not Allah the most just of judges?"
+          "auteur": "Saheeh International",
+          "texte": "Is not Allah the most just of judges"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah hâkimlerin hâkimi değil midir?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah, hükmedenlerin en iyi hükmedeni değil midir"
         }
       },
       "mots": [

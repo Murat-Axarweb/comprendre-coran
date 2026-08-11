@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S101 = {
   "meta": {
     "numero": 101,
@@ -35,16 +37,16 @@ const S101 = {
       "translit": "Al-qāriʿat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Le Fracas !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Le fracas"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The Striking Calamity!"
+          "auteur": "Saheeh International",
+          "texte": "The Striking Calamity"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kâria!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Gürültü koparacak olan"
         }
       },
       "mots": [
@@ -64,16 +66,16 @@ const S101 = {
       "translit": "Mā l-qāriʿat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Qu'est-ce que le Fracas ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Qu'est-ce que le fracas"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "What is the Striking Calamity?"
+          "auteur": "Saheeh International",
+          "texte": "What is the Striking Calamity"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nedir o Kâria?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Nedir o gürültü koparacak olan"
         }
       },
       "mots": [
@@ -100,16 +102,16 @@ const S101 = {
       "translit": "Wamā adrāka mā l-qāriʿat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et qui te dira ce qu'est le Fracas ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et qui te dira ce qu'est le fracas"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And what will make you know what the Striking Calamity is?"
+          "auteur": "Saheeh International",
+          "texte": "And what can make you know what is the Striking Calamity"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kâria'nın ne olduğunu sana ne bildirdi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gürültü koparacak olanın ne olduğunu sen bilir misin"
         }
       },
       "mots": [
@@ -143,16 +145,16 @@ const S101 = {
       "translit": "Yawma yakūnu n-nāsu kal-farāshi l-mabthūth",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Le jour où les hommes seront comme papillons dispersés,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "C'est le jour où les gens seront comme des papillons éparpillés"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The Day people will be like scattered moths,"
+          "auteur": "Saheeh International",
+          "texte": "It is the Day when people will be like moths, dispersed"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O gün insanlar, dağılmış kelebekler gibi olurlar,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gün insanlar, ateş etrafında çırpınıp dökülen pervaneye dönecekler"
         }
       },
       "mots": [
@@ -180,16 +182,16 @@ const S101 = {
       "translit": "Watakūnu l-jibālu kal-ʿihni l-manfūsh",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et les montagnes comme laine cardée."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et les montagnes comme de la laine cardée"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and the mountains like carded wool."
+          "auteur": "Saheeh International",
+          "texte": "And the mountains will be like wool, fluffed up"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Dağlar da atılmış renkli yün gibi olur."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Dağlar, atılmış renkli yüne benzeyecekler"
         }
       },
       "mots": [],
@@ -201,16 +203,16 @@ const S101 = {
       "translit": "Faʾammā man thaqulat mawāzīnuhū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Alors, celui dont la balance sera lourde"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "quant à celui dont la balance sera lourde"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then as for him whose scales are heavy,"
+          "auteur": "Saheeh International",
+          "texte": "Then as for one whose scales are heavy [with good deeds]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Artık kimin tartıları ağır gelirse,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır"
         }
       },
       "mots": [
@@ -237,16 +239,16 @@ const S101 = {
       "translit": "Fahuwa fī ʿīshatin rāḍiyat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "sera dans une vie qui le comblera."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "il sera dans une vie agréable"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "he will be in a pleasant life."
+          "auteur": "Saheeh International",
+          "texte": "He will be in a pleasant life"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte o, hoşnut edici bir hayat içindedir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır"
         }
       },
       "mots": [
@@ -273,16 +275,16 @@ const S101 = {
       "translit": "Waʾammā man khaffat mawāzīnuhū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et celui dont la balance sera légère"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et quant à celui dont la balance sera légère"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "But as for him whose scales are light,"
+          "auteur": "Saheeh International",
+          "texte": "But as for one whose scales are light"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kimin de tartıları hafif gelirse,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Tartıları hafif gelenler ise"
         }
       },
       "mots": [
@@ -309,16 +311,16 @@ const S101 = {
       "translit": "Faʾummuhū hāwiyat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "aura pour refuge un abîme."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "sa mère [destination] est un abîme très profond"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "his refuge will be an abyss."
+          "auteur": "Saheeh International",
+          "texte": "His refuge will be an abyss"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onun anası (varacağı yer) Hâviye'dir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onların yeri bir çukurdur"
         }
       },
       "mots": [],
@@ -331,16 +333,16 @@ const S101 = {
       "translit": "Wamā adrāka mā hiyah",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et qui te dira ce que c'est ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et qui te dira ce que c'est"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And what will make you know what that is?"
+          "auteur": "Saheeh International",
+          "texte": "And what can make you know what that is"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onun ne olduğunu sana ne bildirdi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O çukurun ne olduğunu sen bilir misin"
         }
       },
       "mots": [
@@ -367,16 +369,16 @@ const S101 = {
       "translit": "Nārun ḥāmiyat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Un feu ardent !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "C'est un Feu ardent"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "A blazing fire!"
+          "auteur": "Saheeh International",
+          "texte": "It is a Fire, intensely hot"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kızgın bir ateştir!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, kızgın bir ateştir"
         }
       },
       "mots": [

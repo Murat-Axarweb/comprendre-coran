@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S098 = {
   "meta": {
     "numero": 98,
@@ -35,16 +37,16 @@ const S098 = {
       "translit": "Lam yakuni lladhīna kafarū min ahli l-kitābi wal-mushrikīna munfakkīna ḥattā taʾtiyahumu l-bayyinat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Les négateurs parmi les Gens du Livre et les associateurs n'allaient pas cesser avant que ne leur vienne la Preuve évidente :"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Les infidèles parmi les gens du Livre, ainsi que les Associateurs, ne cesseront pas de mécroire jusqu'à ce que leur vienne la Preuve évidente"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The disbelievers among the People of the Book and the polytheists were not to desist until the Clear Evidence came to them:"
+          "auteur": "Saheeh International",
+          "texte": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kitap ehlinden ve müşriklerden inkâr edenler, kendilerine apaçık delil gelinceye kadar ayrılacak değillerdi:"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kitap ehlinden ve ortak koşanlardan inkarcılar, kendilerine apaçık bir belge, içinde kesin ve en doğru hükümlerin bulunduğu arınmış sahifeleri okuyan, Allah katından bir Peygamber gelene kadar dinlerinden vazgeçecek değillerdi"
         }
       },
       "mots": [
@@ -106,16 +108,16 @@ const S098 = {
       "translit": "Rasūlun mina llāhi yatlū ṣuḥufan muṭahharat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "un messager d'Allah récitant des feuillets purifiés,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "un Messager, de la part d'Allah, qui leur récite des feuilles purifiées"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "a Messenger from Allah reciting purified scrolls,"
+          "auteur": "Saheeh International",
+          "texte": "A Messenger from Allah, reciting purified scriptures"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah'tan bir elçi, tertemiz sahifeleri okuyor,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kitap ehlinden ve ortak koşanlardan inkarcılar, kendilerine apaçık bir belge, içinde kesin ve en doğru hükümlerin bulunduğu arınmış sahifeleri okuyan, Allah katından bir Peygamber gelene kadar dinlerinden vazgeçecek değillerdi"
         }
       },
       "mots": [
@@ -149,16 +151,16 @@ const S098 = {
       "translit": "Fīhā kutubun qayyimat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "contenant des écrits d'une parfaite droiture."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "dans lesquelles se trouvent des prescriptions d'une rectitude parfaite"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "containing upright writings."
+          "auteur": "Saheeh International",
+          "texte": "Within which are correct writings"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İçlerinde dosdoğru hükümler bulunan."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kitap ehlinden ve ortak koşanlardan inkarcılar, kendilerine apaçık bir belge, içinde kesin ve en doğru hükümlerin bulunduğu arınmış sahifeleri okuyan, Allah katından bir Peygamber gelene kadar dinlerinden vazgeçecek değillerdi"
         }
       },
       "mots": [
@@ -178,16 +180,16 @@ const S098 = {
       "translit": "Wamā tafarraqa lladhīna ūtū l-kitāba illā min baʿdi mā jāʾathumu l-bayyinat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et ceux qui avaient reçu le Livre ne se sont divisés qu'après que la Preuve leur fut venue."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et ceux à qui le Livre a été donné ne se sont divisés qu'après que la preuve leur fut venue"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And those given the Book did not divide until after the Clear Evidence had come to them."
+          "auteur": "Saheeh International",
+          "texte": "Nor did those who were given the Scripture become divided until after there had come to them clear evidence"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kitap verilenler, ancak kendilerine apaçık delil geldikten sonra ayrılığa düştüler."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ama, kendilerine kitap verilenler, onlara apaçık belge geldikten sonra ayrılığa düştüler"
         }
       },
       "mots": [
@@ -256,16 +258,16 @@ const S098 = {
       "translit": "Wamā umirū illā liyaʿbudū llāha mukhliṣīna lahu d-dīna ḥunafāʾa wayuqīmū ṣ-ṣalawāta wayuʾtū z-zakawāta wadhālika dīnu l-qayyimat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il ne leur était pourtant ordonné que d'adorer Allah en Lui vouant le culte pur, en monothéistes sincères, d'accomplir la prière et de donner la zakat : voilà la religion de la droiture."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il ne leur a été commandé, cependant, que d'adorer Allah, Lui vouant un culte exclusif, d'accomplir la Salât et d'acquitter la Zakât. Et voilà la religion de droiture"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yet they were only commanded to worship Allah, devoting religion purely to Him as true monotheists, to establish prayer and give zakat: that is the upright religion."
+          "auteur": "Saheeh International",
+          "texte": "And they were not commanded except to worship Allah, [being] sincere to Him in religion, inclining to truth, and to establish prayer and to give zakah. And that is the correct religion"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Oysa onlara ancak dini yalnız O'na has kılarak, hanîfler olarak Allah'a kulluk etmeleri, namazı kılmaları ve zekâtı vermeleri emredilmişti. İşte dosdoğru din budur."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Oysa onlar, doğruya yönelerek, dini yalnız Allah'a has kılarak O'na kulluk etmek, namazı kılmak ve zekatı vermekle emrolunmuşlardı. Dosdoğru olan din de budur"
         }
       },
       "mots": [
@@ -328,16 +330,16 @@ const S098 = {
       "translit": "Inna lladhīna kafarū min ahli l-kitābi wal-mushrikīna fī nāri jahannama khālidīna fīhā ūlāʾika hum sharru l-bariyyat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Les négateurs parmi les Gens du Livre et les associateurs seront dans le feu de la Géhenne, pour y demeurer éternellement : ceux-là sont les pires des créatures."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Les infidèles parmi les gens du Livre, ainsi que les Associateurs iront au feu de l'Enfer, pour y demeurer éternellement. De toute la création, ce sont eux les pires"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The disbelievers among the People of the Book and the polytheists will be in the fire of Hell, abiding therein: those are the worst of creatures."
+          "auteur": "Saheeh International",
+          "texte": "Indeed, they who disbelieved among the People of the Scripture and the polytheists will be in the fire of Hell, abiding eternally therein. Those are the worst of creatures"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kitap ehlinden ve müşriklerden inkâr edenler, içinde ebedî kalmak üzere cehennem ateşindedirler. İşte onlar yaratılmışların en kötüsüdür."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kitap ehlinden ve ortak koşanlardan inkar edenler, şüphesiz içinde temelli kalacakları cehennem ateşindedirler. İşte bunlar, yaratıkların en kötüsüdürler"
         }
       },
       "mots": [
@@ -434,16 +436,16 @@ const S098 = {
       "translit": "Inna lladhīna āmanū waʿamilū ṣ-ṣāliḥāti ūlāʾika hum khayru l-bariyyat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ceux qui croient et accomplissent les œuvres bonnes — ceux-là sont les meilleures des créatures."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quant à ceux qui croient et accomplissent les bonnes œuvres, ce sont les meilleurs de toute la création"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Those who believe and do righteous deeds — those are the best of creatures."
+          "auteur": "Saheeh International",
+          "texte": "Indeed, they who have believed and done righteous deeds - those are the best of creatures"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İman edip salih ameller işleyenler ise — işte onlar yaratılmışların en hayırlısıdır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Fakat, inanıp yararlı iş işleyenler, işte onlar da, yaratıkların en iyileridirler"
         }
       },
       "mots": [
@@ -498,16 +500,16 @@ const S098 = {
       "translit": "Jazāʾuhum ʿinda rabbihim jannātu ʿadnin tajrī min taḥtihā l-ʾanhāru khālidīna fīhā abadan raḍiya llāhu ʿanhum waraḍū ʿanhu dhālika liman khashiya rabbahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Leur récompense auprès de leur Seigneur : les jardins d'Éden sous lesquels coulent les rivières, où ils demeureront éternellement, à jamais. Allah est satisfait d'eux et ils sont satisfaits de Lui. Voilà pour quiconque craint son Seigneur."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Leur récompense auprès d'Allah sera les Jardins de séjour, sous lesquels coulent les ruisseaux, pour y demeurer éternellement. Allah les agrée et ils L'agréent. Telle sera [la récompense] de celui qui craint son Seigneur"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Their reward with their Lord: gardens of Eden beneath which rivers flow, abiding therein forever. Allah is pleased with them and they are pleased with Him. That is for whoever fears his Lord."
+          "auteur": "Saheeh International",
+          "texte": "Their reward with Allah will be gardens of perpetual residence beneath which rivers flow, wherein they will abide forever, Allah being pleased with them and they with Him. That is for whoever has feared his Lord"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rableri katında mükâfatları, altından ırmaklar akan Adn cennetleridir; orada ebedî kalacaklardır. Allah onlardan razı olmuş, onlar da O'ndan razı olmuşlardır. İşte bu, Rabbinden korkan kimse içindir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onların Rableri katındaki mükafatı, içinde temelli ve sonsuz kalacakları, içlerinden ırmaklar akan Adn cennetleridir. Allah onlardan razıdır. Onlar da Allah'tan razıdır. Bu, Rabbinden korkan kimseyedir"
         }
       },
       "mots": [

@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S104 = {
   "meta": {
     "numero": 104,
@@ -34,16 +36,16 @@ const S104 = {
       "translit": "Waylun likulli humazatin lumazat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Malheur à tout calomniateur, dénigreur acharné,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Malheur à tout calomniateur diffamateur"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Woe to every slanderer and backbiter,"
+          "auteur": "Saheeh International",
+          "texte": "Woe to every scorner and mocker"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Arkadan çekiştiren, kaş göz işaretiyle alay eden herkesin vay hâline!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Mal toplayarak onu tekrar tekrar sayan, diliyle çekiştirip alay eden kimsenin vay haline"
         }
       },
       "mots": [
@@ -85,16 +87,16 @@ const S104 = {
       "translit": "Alladhī jamaʿa mālan waʿaddadahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qui a amassé une fortune et ne cesse de la compter,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui amasse une fortune et la compte"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "who has gathered wealth and keeps counting it,"
+          "auteur": "Saheeh International",
+          "texte": "Who collects wealth and [continuously] counts it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O ki mal toplamış ve onu sayıp durmaktadır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Mal toplayarak onu tekrar tekrar sayan, diliyle çekiştirip alay eden kimsenin vay haline"
         }
       },
       "mots": [
@@ -135,16 +137,16 @@ const S104 = {
       "translit": "Yaḥsabu anna mālahū akhladahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "pensant que sa fortune le rendra immortel !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "pensant que sa fortune l'immortalisera"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "thinking his wealth will make him immortal!"
+          "auteur": "Saheeh International",
+          "texte": "He thinks that his wealth will make him immortal"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Malının kendisini ebedî kılacağını sanır!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Malının kendisini ölümsüz kılacağını sanır"
         }
       },
       "mots": [
@@ -185,16 +187,16 @@ const S104 = {
       "translit": "Kallā layunbadhanna fī l-ḥuṭamat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Que non ! Il sera précipité dans la Hutama."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Mais non! Il sera certes, jeté dans la Hutamah"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By no means! He will surely be flung into the Crusher."
+          "auteur": "Saheeh International",
+          "texte": "No! He will surely be thrown into the Crusher"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hayır! Andolsun o, Hutame'ye atılacaktır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Hayır; o, and olsun ki, Hutame'ye atılacaktır"
         }
       },
       "mots": [
@@ -235,16 +237,16 @@ const S104 = {
       "translit": "Wamā adrāka mā l-ḥuṭamat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et qui te dira ce qu'est la Hutama ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et qui te dira ce qu'est la Hutamah"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And what will make you know what the Crusher is?"
+          "auteur": "Saheeh International",
+          "texte": "And what can make you know what is the Crusher"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hutame'nin ne olduğunu sana ne bildirdi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Hutame'nin ne olduğunu sen bilir misin"
         }
       },
       "mots": [
@@ -285,16 +287,16 @@ const S104 = {
       "translit": "Nāru llāhi l-mūqadat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Le feu d'Allah, attisé,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Le Feu attisé d'Allah"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The kindled fire of Allah,"
+          "auteur": "Saheeh International",
+          "texte": "It is the fire of Allah, [eternally] fueled"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah'ın tutuşturulmuş ateşidir,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, yüreklere çökecek olan, Allah'ın tutuşturulmuş ateşidir"
         }
       },
       "mots": [
@@ -328,16 +330,16 @@ const S104 = {
       "translit": "Allatī taṭṭaliʿu ʿalā l-ʾafʾidat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qui monte jusqu'aux cœurs."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui monte jusqu'aux cœurs"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "which rises over the hearts."
+          "auteur": "Saheeh International",
+          "texte": "Which mounts directed at the hearts"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O, kalplere işler."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, yüreklere çökecek olan, Allah'ın tutuşturulmuş ateşidir"
         }
       },
       "mots": [
@@ -383,16 +385,16 @@ const S104 = {
       "translit": "Innahā ʿalayhim muʾṣadat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il se refermera sur eux,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il se refermera sur eux"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "It will be closed in upon them,"
+          "auteur": "Saheeh International",
+          "texte": "Indeed, Hellfire will be closed down upon them"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O, üzerlerine kapatılmıştır,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlar, uzun sütunlar arasında, her yönden o ateşle kapatılmışlardır"
         }
       },
       "mots": [
@@ -426,16 +428,16 @@ const S104 = {
       "translit": "Fī ʿamadin mumaddadat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "en colonnes étendues."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "en colonnes (de flammes) étendues"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "in outstretched columns."
+          "auteur": "Saheeh International",
+          "texte": "In extended columns"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Uzatılmış sütunlar arasında."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlar, uzun sütunlar arasında, her yönden o ateşle kapatılmışlardır"
         }
       },
       "mots": [

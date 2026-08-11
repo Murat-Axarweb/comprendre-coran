@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S102 = {
   "meta": {
     "numero": 102,
@@ -35,16 +37,16 @@ const S102 = {
       "translit": "Alhākumu t-takāthur",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "La course à l'accumulation vous a distraits,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "La course aux richesses vous distrait"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rivalry in increase has diverted you,"
+          "auteur": "Saheeh International",
+          "texte": "Competition in [worldly] increase diverts you"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Çoğaltma yarışı sizi oyaladı,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki, mezarları ziyaretle oradakileri de sayacak kadar oldunuz"
         }
       },
       "mots": [],
@@ -56,16 +58,16 @@ const S102 = {
       "translit": "Ḥattā zurtumu l-maqābir",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "jusqu'à ce que vous visitiez les cimetières."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "jusqu'à ce que vous visitiez les tombes"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "until you visit the graves."
+          "auteur": "Saheeh International",
+          "texte": "Until you visit the graveyards"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ta ki kabirleri ziyaret edinceye dek."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki, mezarları ziyaretle oradakileri de sayacak kadar oldunuz"
         }
       },
       "mots": [
@@ -86,16 +88,16 @@ const S102 = {
       "translit": "Kallā sawfa taʿlamūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Mais non ! Vous saurez bientôt !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Mais non! Vous saurez bientôt"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "But no! You will soon know!"
+          "auteur": "Saheeh International",
+          "texte": "No! You are going to know"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hayır! Yakında bileceksiniz!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Hayır; öyle olmayın; yakında bileceksiniz"
         }
       },
       "mots": [
@@ -129,16 +131,16 @@ const S102 = {
       "translit": "Thumma kallā sawfa taʿlamūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Encore une fois, non ! Vous saurez bientôt !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "(Encore une fois)! Vous saurez bientôt"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Again, no! You will soon know!"
+          "auteur": "Saheeh International",
+          "texte": "Then no! You are going to know"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yine hayır! Yakında bileceksiniz!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Hayır; gözünüzü açın; yakında bileceksiniz"
         }
       },
       "mots": [
@@ -179,16 +181,16 @@ const S102 = {
       "translit": "Kallā law taʿlamūna ʿilma l-yaqīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Non ! Si vous saviez d'un savoir certain..."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Sûrement! Si vous saviez de science certaine"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "No! If only you knew with certain knowledge..."
+          "auteur": "Saheeh International",
+          "texte": "No! If you only knew with knowledge of certainty"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hayır! Kesin bir bilgiyle bilseydiniz..."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Dikkat edin, şayet yaptığınızın sonucunu kesin olarak bir bilseniz"
         }
       },
       "mots": [
@@ -237,16 +239,16 @@ const S102 = {
       "translit": "Latarawunna l-jaḥīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Vous verrez très certainement la Fournaise !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Vous verrez, certes, la Fournaise"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "You will surely see the Blaze!"
+          "auteur": "Saheeh International",
+          "texte": "You will surely see the Hellfire"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Andolsun cehennemi mutlaka göreceksiniz!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "And olsun ki, cehennemi göreceksiniz"
         }
       },
       "mots": [
@@ -266,16 +268,16 @@ const S102 = {
       "translit": "Thumma latarawunnahā ʿayna l-yaqīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Puis vous la verrez de l'œil de la certitude."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Puis, vous la verrez certes, avec l'œil de la certitude"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then you will surely see it with the eye of certainty."
+          "auteur": "Saheeh International",
+          "texte": "Then you will surely see it with the eye of certainty"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sonra onu kesin gözle (ayne'l-yakîn) göreceksiniz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "And olsun ki, onu gözünüzle kesin olarak göreceksiniz"
         }
       },
       "mots": [
@@ -309,16 +311,16 @@ const S102 = {
       "translit": "Thumma latusʾalunna yawmaʾidhin ʿani n-naʿīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Puis, ce jour-là, vous serez interrogés sur les délices."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Puis, assurément, vous serez interrogés, ce jour-là, sur les délices"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then, that Day, you will surely be asked about the delights."
+          "auteur": "Saheeh International",
+          "texte": "Then you will surely be asked that Day about pleasure"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sonra o gün nimetlerden mutlaka sorguya çekileceksiniz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sonra o gün, size verilmiş olan her nimetten sorguya çekileceksiniz"
         }
       },
       "mots": [

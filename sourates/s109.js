@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S109 = {
   "meta": {
     "numero": 109,
@@ -33,16 +35,16 @@ const S109 = {
       "translit": "Qul yāʾayyuhā l-kāfirūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Dis : ô vous les dénégateurs !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Dis: «O vous les infidèles"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Say: O you disbelievers!"
+          "auteur": "Saheeh International",
+          "texte": "Say, \"O disbelievers"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "De ki: Ey kâfirler!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "De ki: \"Ey inkarcılar"
         }
       },
       "mots": [
@@ -76,16 +78,16 @@ const S109 = {
       "translit": "Lā aʿbudu mā taʿbudūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Je n'adore pas ce que vous adorez,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Je n'adore pas ce que vous adorez"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "I do not worship what you worship,"
+          "auteur": "Saheeh International",
+          "texte": "I do not worship what you worship"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ben sizin taptıklarınıza tapmam,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ben sizin taptıklarınıza tapmam"
         }
       },
       "mots": [
@@ -127,16 +129,16 @@ const S109 = {
       "translit": "Walā antum ʿābidūna mā aʿbud",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et vous n'êtes pas adorateurs de ce que j'adore."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et vous n'êtes pas adorateurs de ce que j'adore"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "nor are you worshippers of what I worship."
+          "auteur": "Saheeh International",
+          "texte": "Nor are you worshippers of what I worship"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Siz de benim taptığıma tapıcılar değilsiniz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Benim taptığıma da sizler tapmazsınız"
         }
       },
       "mots": [
@@ -184,16 +186,16 @@ const S109 = {
       "translit": "Walā anā ʿābidun mā ʿabadtum",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Je ne suis pas adorateur de ce que vous avez adoré,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Je ne suis pas adorateur de ce que vous adorez"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nor am I a worshipper of what you have worshipped,"
+          "auteur": "Saheeh International",
+          "texte": "Nor will I be a worshipper of what you worship"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ben sizin taptıklarınıza tapacak değilim,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ben de sizin taptığınıza tapacak değilim"
         }
       },
       "mots": [
@@ -241,16 +243,16 @@ const S109 = {
       "translit": "Walā antum ʿābidūna mā aʿbud",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et vous n'êtes pas adorateurs de ce que j'adore."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et vous n'êtes pas adorateurs de ce que j'adore"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "nor are you worshippers of what I worship."
+          "auteur": "Saheeh International",
+          "texte": "Nor will you be worshippers of what I worship"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Siz de benim taptığıma tapıcılar değilsiniz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Benim taptığıma da sizler tapmıyorsunuz"
         }
       },
       "mots": [
@@ -298,16 +300,16 @@ const S109 = {
       "translit": "Lakum dīnukum waliya dīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "À vous votre religion, et à moi ma religion."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "A vous votre religion, et à moi ma religion»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "To you your religion, and to me my religion."
+          "auteur": "Saheeh International",
+          "texte": "For you is your religion, and for me is my religion"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sizin dininiz size, benim dinim bana."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sizin dininiz size, benim dinim banadır"
         }
       },
       "mots": [

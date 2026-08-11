@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S105 = {
   "meta": {
     "numero": 105,
@@ -34,16 +36,16 @@ const S105 = {
       "translit": "Alam tara kayfa faʿala rabbuka biʾaṣḥābi l-fīl",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "N'as-tu pas vu comment ton Seigneur a agi envers les gens de l'Éléphant ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "N'as-tu pas vu comment ton Seigneur a agi envers les gens de l'Eléphant"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Have you not seen how your Lord dealt with the people of the Elephant?"
+          "auteur": "Saheeh International",
+          "texte": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rabbinin fil sahiplerine ne yaptığını görmedin mi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Fil sahiplerine Rabbinin ne ettiğini görmedin mi"
         }
       },
       "mots": [
@@ -106,16 +108,16 @@ const S105 = {
       "translit": "Alam yajʿal kaydahum fī taḍlīl",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "N'a-t-Il pas fait tourner leur stratagème en pure perte ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "N'a-t-Il pas rendu leur ruse complètement vaine"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Did He not turn their plot into utter ruin?"
+          "auteur": "Saheeh International",
+          "texte": "Did He not make their plan into misguidance"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onların tuzağını boşa çıkarmadı mı?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onların düzenlerini boşa çıkarmadı mı"
         }
       },
       "mots": [
@@ -163,16 +165,16 @@ const S105 = {
       "translit": "Waʾarsala ʿalayhim ṭayran abābīl",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il a envoyé contre eux des oiseaux par nuées,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et envoyé sur eux des oiseaux par volées"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "He sent against them birds in flocks,"
+          "auteur": "Saheeh International",
+          "texte": "And He sent against them birds in flocks"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Üzerlerine sürü sürü kuşlar gönderdi,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi"
         }
       },
       "mots": [
@@ -213,16 +215,16 @@ const S105 = {
       "translit": "Tarmīhim biḥijāratin min sijjīl",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qui leur lançaient des pierres d'argile,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui leur lançaient des pierres d'argile"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "pelting them with stones of baked clay,"
+          "auteur": "Saheeh International",
+          "texte": "Striking them with stones of hard clay"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onlara pişkin çamurdan taşlar atıyorlardı."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi"
         }
       },
       "mots": [
@@ -263,16 +265,16 @@ const S105 = {
       "translit": "Fajaʿalahum kaʿaṣfin maʾkūl",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et Il les a rendus semblables à un champ dévoré."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et Il les a rendus semblables à une paille mâchée"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and He made them like devoured stubble."
+          "auteur": "Saheeh International",
+          "texte": "And He made them like eaten straw"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Böylece onları yenmiş ekin yaprağı gibi yaptı."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sonunda onları, yenilmiş ekin gibi yaptı"
         }
       },
       "mots": [

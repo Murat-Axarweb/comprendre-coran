@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S075 = {
   "meta": {
     "numero": 75,
@@ -35,16 +37,16 @@ const S075 = {
       "translit": "Lā uqsimu biyawmi l-qiyāmat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Non ! Je jure par le Jour de la Résurrection !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Non!... Je jure par le Jour de la Résurrection"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "No! I swear by the Day of Resurrection!"
+          "auteur": "Saheeh International",
+          "texte": "I swear by the Day of Resurrection"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hayır! Kıyamet gününe yemin ederim!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kıyamet gününe yemin ederim"
         }
       },
       "mots": [
@@ -78,16 +80,16 @@ const S075 = {
       "translit": "Walā uqsimu bin-nafsi l-lawwāmat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Non ! Je jure par l'âme qui ne cesse de se blâmer !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Mais non!, Je jure par l'âme qui ne cesse de se blâmer"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "No! I swear by the self-reproaching soul!"
+          "auteur": "Saheeh International",
+          "texte": "And I swear by the reproaching soul [to the certainty of resurrection]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hayır! Kendini kınayan nefse yemin ederim!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ve nedamet çeken nefse yemin ederim"
         }
       },
       "mots": [
@@ -122,16 +124,16 @@ const S075 = {
       "translit": "Ayaḥsabu l-ʾinsānu allan najmaʿa ʿiẓāmahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "L'homme pense-t-il que Nous ne rassemblerons jamais ses os ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "L'homme, pense-t-il que Nous ne réunirons jamais ses os"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Does man think We will never gather his bones?"
+          "auteur": "Saheeh International",
+          "texte": "Does man think that We will not assemble his bones"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İnsan, kemiklerini asla bir araya getiremeyeceğimizi mi sanıyor?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsan, kemiklerini bir araya toplayamayız mı sanıyor"
         }
       },
       "mots": [],
@@ -143,16 +145,16 @@ const S075 = {
       "translit": "Balā qādirīna ʿalā an nusawwiya banānahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Mais si ! Nous sommes capables de recomposer jusqu'aux bouts de ses doigts."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Mais si! Nous sommes Capable de remettre à leur place les extrémités de ses doigts"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yes indeed! We are able to reshape even his fingertips."
+          "auteur": "Saheeh International",
+          "texte": "Yes. [We are] Able [even] to proportion his fingertips"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Evet! Biz onun parmak uçlarını bile yeniden düzenlemeye kadiriz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Evet, Biz onu, parmak uçlarına varıncaya kadar bütün incelikleriyle yeniden yapmaya kadiriz"
         }
       },
       "mots": [
@@ -187,16 +189,16 @@ const S075 = {
       "translit": "Bal yurīdu l-ʾinsānu liyafjura amāmahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "L'homme veut plutôt continuer à pécher devant lui,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "L'homme voudrait plutôt continuer à vivre en libertin"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "But man wishes to go on sinning ahead of him,"
+          "auteur": "Saheeh International",
+          "texte": "But man desires to continue in sin"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Fakat insan, önündeki zamanı da günahla geçirmek ister."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ama, insanoğlu gelecekte de suç işlemek ister de: \"Kıyamet günü ne zamanmış! \" der"
         }
       },
       "mots": [
@@ -223,16 +225,16 @@ const S075 = {
       "translit": "Yasʾalu ayyāna yawmu l-qiyāmat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "il demande : « À quand le Jour de la Résurrection ? »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il interroge: «A quand, le Jour de la Résurrection?»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "asking: 'When is this Day of Resurrection?'"
+          "auteur": "Saheeh International",
+          "texte": "He asks, \"When is the Day of Resurrection"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'Kıyamet günü ne zamanmış?' diye sorar."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ama, insanoğlu gelecekte de suç işlemek ister de: \"Kıyamet günü ne zamanmış! \" der"
         }
       },
       "mots": [
@@ -252,16 +254,16 @@ const S075 = {
       "translit": "Faʾidhā bariqa l-baṣar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand la vue sera éblouie,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lorsque la vue sera éblouie"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "But when the sight is dazzled,"
+          "auteur": "Saheeh International",
+          "texte": "So when vision is dazzled"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Göz kamaştığı,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Gözün kamaştığı, ayın tutulduğu, güneş ve ayın bir araya getirildiği zaman, işte o gün insan: \"kaçacak yer nerede?\" der"
         }
       },
       "mots": [
@@ -295,16 +297,16 @@ const S075 = {
       "translit": "Wakhasafa l-qamar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "que la lune s'éclipsera,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et que la lune s'éclipsera"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and the moon is eclipsed,"
+          "auteur": "Saheeh International",
+          "texte": "And the moon darkens"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ay tutulduğu,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Gözün kamaştığı, ayın tutulduğu, güneş ve ayın bir araya getirildiği zaman, işte o gün insan: \"kaçacak yer nerede?\" der"
         }
       },
       "mots": [
@@ -331,16 +333,16 @@ const S075 = {
       "translit": "Wajumiʿa sh-shamsu wal-qamar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "que le soleil et la lune seront réunis,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et que le soleil et la lune seront réunis"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and the sun and moon are joined together,"
+          "auteur": "Saheeh International",
+          "texte": "And the sun and the moon are joined"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Güneş ve ay bir araya getirildiği zaman,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Gözün kamaştığı, ayın tutulduğu, güneş ve ayın bir araya getirildiği zaman, işte o gün insan: \"kaçacak yer nerede?\" der"
         }
       },
       "mots": [
@@ -374,16 +376,16 @@ const S075 = {
       "translit": "Yaqūlu l-ʾinsānu yawmaʾidhin ayna l-mafarr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "l'homme dira ce jour-là : « Où fuir ? »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "l'homme, ce jour-là, dira: «Où fuir?»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "man will say that Day: 'Where is the escape?'"
+          "auteur": "Saheeh International",
+          "texte": "Man will say on that Day, \"Where is the [place of] escape"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte o gün insan: 'Kaçacak yer neresi?' der."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Gözün kamaştığı, ayın tutulduğu, güneş ve ayın bir araya getirildiği zaman, işte o gün insan: \"kaçacak yer nerede?\" der"
         }
       },
       "mots": [
@@ -410,16 +412,16 @@ const S075 = {
       "translit": "Kallā lā wazar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Non ! Point de refuge :"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Non! Point de refuge"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By no means! There is no refuge:"
+          "auteur": "Saheeh International",
+          "texte": "No! There is no refuge"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hayır! Sığınacak yer yoktur."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Hayır; hayır; bir sığınak yoktur"
         }
       },
       "mots": [
@@ -446,16 +448,16 @@ const S075 = {
       "translit": "Ilā rabbika yawmaʾidhin l-mustaqarr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "vers ton Seigneur, ce jour-là, est le lieu d'arrêt."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Vers ton Seigneur sera, ce jour-là, le retour"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "to your Lord that Day is the place of rest."
+          "auteur": "Saheeh International",
+          "texte": "To your Lord, that Day, is the [place of] permanence"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O gün varılacak yer ancak Rabbinin huzurudur."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gün, sen, Rabbinin huzuruna varıp durursun"
         }
       },
       "mots": [
@@ -489,16 +491,16 @@ const S075 = {
       "translit": "Yunabbaʾu l-ʾinsānu yawmaʾidhi bimā qaddama waʾakhkhar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "L'homme sera informé, ce jour-là, de ce qu'il a avancé et de ce qu'il a remis."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "L'homme sera informé ce jour-là de ce qu'il aura avancé et de ce qu'il aura remis à plus tard"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Man will be informed that Day of what he sent ahead and what he put off."
+          "auteur": "Saheeh International",
+          "texte": "Man will be informed that Day of what he sent ahead and kept back"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O gün insana, önceden gönderdiği ve geriye bıraktığı her şey haber verilir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gün, insanoğluna önde ve sonda yaptığı ne varsa bildirilir"
         }
       },
       "mots": [
@@ -539,16 +541,16 @@ const S075 = {
       "translit": "Bali l-ʾinsānu ʿalā nafsihī baṣīrat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "L'homme sera même clairvoyant contre lui-même,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Mais l'homme sera un témoin perspicace contre lui-même"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rather, man will be a witness against himself,"
+          "auteur": "Saheeh International",
+          "texte": "Rather, man, against himself, will be a witness"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Doğrusu insan, kendi kendinin şahididir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Özürlerini sayıp dökse de, insanoğlu, artık kendi kendinin şahididir"
         }
       },
       "mots": [
@@ -582,16 +584,16 @@ const S075 = {
       "translit": "Walaw alqā maʿādhīrahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "quand bien même il présenterait ses excuses."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "quand même il présenterait ses excuses"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "even though he offers his excuses."
+          "auteur": "Saheeh International",
+          "texte": "Even if he presents his excuses"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Mazeretlerini ortaya dökse bile."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Özürlerini sayıp dökse de, insanoğlu, artık kendi kendinin şahididir"
         }
       },
       "mots": [
@@ -618,16 +620,16 @@ const S075 = {
       "translit": "Lā tuḥarrik bihī lisānaka litaʿjala bihī",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ne remue pas ta langue pour te hâter avec lui :"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ne remue pas ta langue pour hâter sa récitation"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Do not move your tongue with it to hasten it:"
+          "auteur": "Saheeh International",
+          "texte": "Move not your tongue with it, [O Muhammad], to hasten with recitation of the Qur'an"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onu acele ezberlemek için dilini kıpırdatma!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Cebrail sana Kuran okurken, unutmamak için acele edip onunla beraber söyleme, yalnız dinle"
         }
       },
       "mots": [
@@ -662,16 +664,16 @@ const S075 = {
       "translit": "Inna ʿalaynā jamʿahū waqurʾānahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "c'est à Nous qu'il revient de le rassembler et de le réciter."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Son rassemblement (dans ton cœur et sa fixation dans ta mémoire) Nous incombent, ainsi que la façon de le réciter"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "upon Us is its gathering and its recitation."
+          "auteur": "Saheeh International",
+          "texte": "Indeed, upon Us is its collection [in your heart] and [to make possible] its recitation"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Şüphesiz onu toplamak ve okutmak Bize aittir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Doğrusu o vahyolunanı kalbine yerleştirmek ve onu sana okutturmak Bize düşer"
         }
       },
       "mots": [
@@ -698,16 +700,16 @@ const S075 = {
       "translit": "Faʾidhā qaraʾnāhu fattabiʿ qurʾānahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand donc Nous le récitons, suis sa récitation,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quand donc Nous le récitons, suis sa récitation"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "So when We recite it, follow its recitation,"
+          "auteur": "Saheeh International",
+          "texte": "So when We have recited it [through Gabriel], then follow its recitation"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Biz onu okuduğumuzda sen onun okunuşunu izle."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Biz onu Cebrail'e okuttuğumuz zaman, onun okumasını dinle"
         }
       },
       "mots": [
@@ -734,16 +736,16 @@ const S075 = {
       "translit": "Thumma inna ʿalaynā bayānahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "puis c'est à Nous qu'il revient de l'expliciter."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "A Nous, ensuite incombera son explication"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "then upon Us is its clarification."
+          "auteur": "Saheeh International",
+          "texte": "Then upon Us is its clarification [to you]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sonra onu açıklamak da Bize aittir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sonra onu sana açıklamak Bize düşer"
         }
       },
       "mots": [
@@ -777,16 +779,16 @@ const S075 = {
       "translit": "Kallā bal tuḥibbūna l-ʿājilat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Non ! Vous aimez plutôt l'immédiat,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Mais vous aimez plutôt [la vie] éphémère"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By no means! You love the fleeting present,"
+          "auteur": "Saheeh International",
+          "texte": "No! But you love the immediate"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hayır! Siz çabucak geçeni (dünyayı) seviyorsunuz,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Hayır, hayır! Sizler, çabuk elde edeceğiniz dünya nimetlerini seversiniz"
         }
       },
       "mots": [
@@ -813,16 +815,16 @@ const S075 = {
       "translit": "Watadharūna l-ʾkhirat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et vous délaissez l'au-delà."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et vous délaissez l'au-delà"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and neglect the Hereafter."
+          "auteur": "Saheeh International",
+          "texte": "And leave the Hereafter"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve ahireti bırakıyorsunuz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ahireti bırakırsınız"
         }
       },
       "mots": [
@@ -842,16 +844,16 @@ const S075 = {
       "translit": "Wujūhun yawmaʾidhin nāḍirat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Des visages, ce jour-là, seront resplendissants,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ce jour-là, il y aura des visages resplendissants"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Faces that Day will be radiant,"
+          "auteur": "Saheeh International",
+          "texte": "[Some] faces, that Day, will be radiant"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O gün birtakım yüzler aydındır,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gün bir takım yüzler Rablerine bakıp parlayacaktır"
         }
       },
       "mots": [
@@ -871,16 +873,16 @@ const S075 = {
       "translit": "Ilā rabbihā nāẓirat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "regardant vers leur Seigneur ;"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui regarderont leur Seigneur"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "gazing upon their Lord;"
+          "auteur": "Saheeh International",
+          "texte": "Looking at their Lord"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rablerine bakarlar."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gün bir takım yüzler Rablerine bakıp parlayacaktır"
         }
       },
       "mots": [
@@ -900,16 +902,16 @@ const S075 = {
       "translit": "Wawujūhun yawmaʾidhi bāsirat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et des visages, ce jour-là, seront assombris,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et il y aura ce jour-là, des visages assombris"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and faces that Day will be gloomy,"
+          "auteur": "Saheeh International",
+          "texte": "And [some] faces, that Day, will be contorted"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O gün birtakım yüzler de asıktır,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gün bir takım yüzler de asıktır"
         }
       },
       "mots": [
@@ -929,16 +931,16 @@ const S075 = {
       "translit": "Taẓunnu an yufʿala bihā fāqirat",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "pressentant qu'on va leur briser les vertèbres."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui s'attendent à subir une catastrophe"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "expecting a back-breaking blow."
+          "auteur": "Saheeh International",
+          "texte": "Expecting that there will be done to them [something] backbreaking"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Bellerini büken bir felakete uğrayacaklarını sezerler."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kendisinin belkemiğinin kırılacağını sanır"
         }
       },
       "mots": [
@@ -965,16 +967,16 @@ const S075 = {
       "translit": "Kallā idhā balaghati t-tarāqiy",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Non ! Quand l'âme atteindra les clavicules,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Mais non! Quand [l'âme] en arrive aux clavicules"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By no means! When the soul reaches the collarbones,"
+          "auteur": "Saheeh International",
+          "texte": "No! When the soul has reached the collar bones"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hayır! Can köprücük kemiklerine dayandığında,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Dikkat edin; can boğaza gelip köprücük kemiklerine dayandığı zaman: \"Çare bulan yok mudur?\" denir"
         }
       },
       "mots": [
@@ -1002,16 +1004,16 @@ const S075 = {
       "translit": "Waqīla man rāq",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qu'on dira : « Qui peut guérir ? »,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et qu'on dit: «Qui est exorciseur?»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and it is said: 'Who can cure?'"
+          "auteur": "Saheeh International",
+          "texte": "And it is said, \"Who will cure [him]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'Kim çare bulabilir?' dendiğinde,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Dikkat edin; can boğaza gelip köprücük kemiklerine dayandığı zaman: \"Çare bulan yok mudur?\" denir"
         }
       },
       "mots": [
@@ -1031,16 +1033,16 @@ const S075 = {
       "translit": "Waẓanna annahu l-firāq",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qu'il comprendra que c'est la séparation,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et qu'il [l'agonisant] est convaincu que c'est la séparation (la mort)"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and he realizes it is the parting,"
+          "auteur": "Saheeh International",
+          "texte": "And the dying one is certain that it is the [time of] separation"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve o, bunun ayrılık olduğunu anladığında,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Artık ayrılık vaktinin geldiğini sanır"
         }
       },
       "mots": [
@@ -1067,16 +1069,16 @@ const S075 = {
       "translit": "Wataffati s-sāqu bis-sāq",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et que la jambe se crispera contre la jambe —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et que la jambe s'enlace à la jambe"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and leg is twisted about leg —"
+          "auteur": "Saheeh International",
+          "texte": "And the leg is wound about the leg"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Bacak bacağa dolaştığında,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bacaklar birbirine dolaşır"
         }
       },
       "mots": [],
@@ -1088,16 +1090,16 @@ const S075 = {
       "translit": "Ilā rabbika yawmaʾidhin l-masāq",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "vers ton Seigneur, ce jour-là, on sera conduit."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "c'est vers ton Seigneur, ce jour-là que tu seras conduit"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "to your Lord that Day is the driving."
+          "auteur": "Saheeh International",
+          "texte": "To your Lord, that Day, will be the procession"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte o gün sevk Rabbinedir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gün sevk Rabbin huzurunadır"
         }
       },
       "mots": [
@@ -1131,16 +1133,16 @@ const S075 = {
       "translit": "Falā ṣaddaqa walā ṣallā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il n'a ni tenu pour vrai, ni prié :"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Mais il n'a ni cru, ni fait la Salât"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "He neither affirmed the truth nor prayed:"
+          "auteur": "Saheeh International",
+          "texte": "And the disbeliever had not believed, nor had he prayed"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O, ne tasdik etti ne namaz kıldı."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, Peygamberi doğrulamamış, namaz kılmamış, ama yalanlayıp yüz çevirmiş, sonra da salına salına kendinden yana olanlara gitmişti"
         }
       },
       "mots": [
@@ -1167,16 +1169,16 @@ const S075 = {
       "translit": "Walākin kadhdhaba watawallā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "il a crié au mensonge et tourné le dos,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "par contre, il a démenti et tourné le dos"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "but denied and turned away,"
+          "auteur": "Saheeh International",
+          "texte": "But [instead], he denied and turned away"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Fakat yalanladı ve yüz çevirdi."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, Peygamberi doğrulamamış, namaz kılmamış, ama yalanlayıp yüz çevirmiş, sonra da salına salına kendinden yana olanlara gitmişti"
         }
       },
       "mots": [
@@ -1203,16 +1205,16 @@ const S075 = {
       "translit": "Thumma dhahaba ilā ahlihī yatamaṭṭā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "puis il est parti vers les siens en se pavanant."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "puis il s'en est allé vers sa famille, marchant avec orgueil"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "then went to his people, strutting."
+          "auteur": "Saheeh International",
+          "texte": "And then he went to his people, swaggering [in pride]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sonra çalım satarak ailesine gitti."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, Peygamberi doğrulamamış, namaz kılmamış, ama yalanlayıp yüz çevirmiş, sonra da salına salına kendinden yana olanlara gitmişti"
         }
       },
       "mots": [
@@ -1246,16 +1248,16 @@ const S075 = {
       "translit": "Awlā laka faʾawlā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Malheur à toi, et encore malheur !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "«Malheur à toi, malheur!»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Woe to you, and woe!"
+          "auteur": "Saheeh International",
+          "texte": "Woe to you, and woe"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yazık sana, yazık!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sana yazıklar olsun, yazıklar"
         }
       },
       "mots": [
@@ -1275,16 +1277,16 @@ const S075 = {
       "translit": "Thumma awlā laka faʾawlā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Puis malheur à toi, et encore malheur !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et encore malheur à toi, malheur"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Again, woe to you, and woe!"
+          "auteur": "Saheeh International",
+          "texte": "Then woe to you, and woe"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yine yazık sana, yazık!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Daha ne olsun, sana yazıklar olsun, yazıklar"
         }
       },
       "mots": [
@@ -1311,16 +1313,16 @@ const S075 = {
       "translit": "Ayaḥsabu l-ʾinsānu an yutraka sudanā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "L'homme pense-t-il qu'on le laissera à l'abandon ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "L'homme pense-t-il qu'on le laissera sans obligation à observer"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Does man think he will be left aimless?"
+          "auteur": "Saheeh International",
+          "texte": "Does man think that he will be left neglected"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İnsan, başıboş bırakılacağını mı sanıyor?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsanoğlu kendisinin başıboş bırakılacağını mı sanır"
         }
       },
       "mots": [
@@ -1340,16 +1342,16 @@ const S075 = {
       "translit": "Alam yaku nuṭfatan min maniyyin yumnā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "N'était-il pas une goutte de sperme émise,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "N'était-il pas une goutte de sperme éjaculé"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Was he not a drop of emitted fluid,"
+          "auteur": "Saheeh International",
+          "texte": "Had he not been a sperm from semen emitted"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O, dökülen meniden bir damla değil miydi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, katılan bir meni damlası değil miydi"
         }
       },
       "mots": [
@@ -1383,16 +1385,16 @@ const S075 = {
       "translit": "Thumma kāna ʿalaqatan fakhalaqa fasawwā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "puis une adhérence ? Alors Il l'a créé et proportionné,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et ensuite une adhérence Puis [Allah] l'a créée et formée harmonieusement"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "then a clinging clot? Then He created and fashioned him,"
+          "auteur": "Saheeh International",
+          "texte": "Then he was a clinging clot, and [Allah] created [his form] and proportioned [him]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sonra bir alaka oldu; derken Allah onu yarattı ve düzenledi."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sonra kan pıhtısı olmuş, sonra Allah onu yaratıp şekil vermişti"
         }
       },
       "mots": [
@@ -1426,16 +1428,16 @@ const S075 = {
       "translit": "Fajaʿala minhu z-zawjayni dh-dhakara wal-ʾunthā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et Il en a fait les deux éléments du couple, mâle et femelle."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "puis en a fait alors les deux éléments de couple: le mâle et la femelle"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and made of him the two mates, male and female."
+          "auteur": "Saheeh International",
+          "texte": "And made of him two mates, the male and the female"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ondan da iki eşi, erkeği ve dişiyi var etti."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ondan, erkek, dişi iki cins yaratmıştı"
         }
       },
       "mots": [
@@ -1469,16 +1471,16 @@ const S075 = {
       "translit": "Alaysa dhālika biqādirin ʿalā an yuḥiya l-mawtā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Celui-là n'est-Il pas capable de faire revivre les morts ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Celui-là [Allah] n'est-Il pas capable de faire revivre les morts"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Is He not able to give life to the dead?"
+          "auteur": "Saheeh International",
+          "texte": "Is not that [Creator] Able to give life to the dead"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Şimdi bunları yapan, ölüleri diriltmeye kadir değil midir?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bunları yapan Allah'ın ölüleri diriltmeye gücü yetmez mi? Elbette yeter"
         }
       },
       "mots": [

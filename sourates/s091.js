@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S091 = {
   "meta": {
     "numero": 91,
@@ -35,16 +37,16 @@ const S091 = {
       "translit": "Wash-shamsi waḍuḥāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par le soleil et sa clarté montante !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Par le soleil et par sa clarté"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the sun and its brightness!"
+          "auteur": "Saheeh International",
+          "texte": "By the sun and its brightness"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Güneşe ve aydınlığına andolsun!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Güneşe ve onun ışığına"
         }
       },
       "mots": [
@@ -64,16 +66,16 @@ const S091 = {
       "translit": "Wal-qamari idhā talāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par la lune quand elle le suit !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et par la lune quand elle le suit"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the moon as it follows it!"
+          "auteur": "Saheeh International",
+          "texte": "And [by] the moon when it follows it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onu izlediğinde aya!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ardından gelmekte olan aya"
         }
       },
       "mots": [
@@ -100,16 +102,16 @@ const S091 = {
       "translit": "Wan-nahāri idhā jallāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par le jour quand il le fait resplendir !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et par le jour quand il l'éclaire"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the day as it displays it!"
+          "auteur": "Saheeh International",
+          "texte": "And [by] the day when it displays it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onu ortaya koyduğunda gündüze!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onu ortaya koyan gündüze"
         }
       },
       "mots": [
@@ -136,16 +138,16 @@ const S091 = {
       "translit": "Wallayli idhā yaghshāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par la nuit quand elle le couvre !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et par la nuit quand elle l'enveloppe"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the night as it veils it!"
+          "auteur": "Saheeh International",
+          "texte": "And [by] the night when it covers it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onu örttüğünde geceye!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onu bürüyen geceye"
         }
       },
       "mots": [
@@ -165,16 +167,16 @@ const S091 = {
       "translit": "Was-samāʾi wamā banāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par le ciel et Celui qui l'a bâti !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et par le ciel et Celui qui l'a construit"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the sky and He who built it!"
+          "auteur": "Saheeh International",
+          "texte": "And [by] the sky and He who constructed it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Göğe ve onu bina edene!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Göğe ve onu yapana"
         }
       },
       "mots": [
@@ -201,16 +203,16 @@ const S091 = {
       "translit": "Wal-ʾarḍi wamā ṭaḥāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par la terre et Celui qui l'a étendue !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et par la terre et Celui qui l'a étendue"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the earth and He who spread it!"
+          "auteur": "Saheeh International",
+          "texte": "And [by] the earth and He who spread it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yere ve onu yayana!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Yere ve onu yayana"
         }
       },
       "mots": [
@@ -237,16 +239,16 @@ const S091 = {
       "translit": "Wanafsin wamā sawwāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par l'âme et Celui qui l'a modelée,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et par l'âme et Celui qui l'a harmonieusement façonnée"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the soul and He who fashioned it,"
+          "auteur": "Saheeh International",
+          "texte": "And [by] the soul and He who proportioned it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nefse ve onu düzenleyene!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kişiye ve onu şekillendirene"
         }
       },
       "mots": [
@@ -274,16 +276,16 @@ const S091 = {
       "translit": "Faʾalhamahā fujūrahā wataqwāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "puis lui a inspiré son libertinage et sa piété !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et lui a alors inspiré son immoralité, de même que sa piété"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "then inspired it with its wickedness and its righteousness!"
+          "auteur": "Saheeh International",
+          "texte": "And inspired it [with discernment of] its wickedness and its righteousness"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sonra da ona kötülüğünü ve takvasını ilham edene!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sonra da ona iyilik ve kötülük kabiliyeti verene and olsun ki"
         }
       },
       "mots": [],
@@ -295,16 +297,16 @@ const S091 = {
       "translit": "Qad aflaḥa man zakkāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "A certes réussi celui qui la purifie,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "A réussi, certes, celui qui la purifie"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Successful indeed is he who purifies it,"
+          "auteur": "Saheeh International",
+          "texte": "He has succeeded who purifies it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onu arındıran gerçekten kurtulmuştur,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kendini arıtan saadete ermiştir"
         }
       },
       "mots": [
@@ -332,16 +334,16 @@ const S091 = {
       "translit": "Waqad khāba man dassāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et a certes échoué celui qui l'enfouit."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et est perdu, certes, celui qui la corrompt"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and failed indeed is he who buries it."
+          "auteur": "Saheeh International",
+          "texte": "And he has failed who instills it [with corruption]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onu karanlığa gömen ise ziyana uğramıştır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kendini fenalıklara gömen kimse de ziyana uğramıştır"
         }
       },
       "mots": [
@@ -368,16 +370,16 @@ const S091 = {
       "translit": "Kadhdhabat thamūdu biṭaghwāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Les Thamud, dans leur transgression, ont crié au mensonge,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Les Thamûd, par leur transgression, ont crié au mensonge"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Thamud denied in their transgression,"
+          "auteur": "Saheeh International",
+          "texte": "Thamud denied [their prophet] by reason of their transgression"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Semûd kavmi azgınlığı yüzünden yalanladı,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Semud milleti, içlerinden en azgını ileri atılınca, azgınlığı yüzünden peygamberleri yalanladı"
         }
       },
       "mots": [
@@ -397,16 +399,16 @@ const S091 = {
       "translit": "Idhi nbaʿatha ashqāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "quand le plus misérable d'entre eux se leva."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "lorsque le plus misérable d'entre eux se leva (pour tuer la chamelle)"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "when the most wretched of them rose up."
+          "auteur": "Saheeh International",
+          "texte": "When the most wretched of them was sent forth"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "En azgınları ayaklandığında."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Semud milleti, içlerinden en azgını ileri atılınca, azgınlığı yüzünden peygamberleri yalanladı"
         }
       },
       "mots": [
@@ -426,16 +428,16 @@ const S091 = {
       "translit": "Faqāla lahum rasūlu llāhi nāqata llāhi wasuqyāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Le messager d'Allah leur avait dit : « La chamelle d'Allah ! Laissez-la boire ! »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Le Messager d'Allah leur avait dit: «La chamelle d'Allah! Laissez-la boire"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The Messenger of Allah told them: \"The she-camel of Allah! Let her drink!\""
+          "auteur": "Saheeh International",
+          "texte": "And the messenger of Allah [Salih] said to them, \"[Do not harm] the she-camel of Allah or [prevent her from] her drink"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah'ın elçisi onlara 'Allah'ın devesine ve onun su içme hakkına dokunmayın!' demişti."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah'ın peygamberi onlara, Allah'ın devesini göstermiş ve: \"Allah'ın bu devesine ve onun su hakkına dokunmayın\" demişti"
         }
       },
       "mots": [
@@ -491,16 +493,16 @@ const S091 = {
       "translit": "Fakadhdhabūhu faʿaqarūhā fadamdama ʿalayhim rabbuhum bidhanbihim fasawwāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Mais ils le traitèrent de menteur et la sacrifièrent. Leur Seigneur les écrasa alors pour leur péché, et Il nivela tout —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Mais, ils le traitèrent de menteur, et la tuèrent. Leur Seigneur les détruisit donc, pour leur péché et étendit Son châtiment sur tous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "But they denied him and hamstrung her. So their Lord crushed them for their sin and leveled it —"
+          "auteur": "Saheeh International",
+          "texte": "But they denied him and hamstrung her. So their Lord brought down upon them destruction for their sin and made it equal [upon all of them]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ama onu yalanladılar ve deveyi kestiler. Rableri de günahları yüzünden onları helâk edip yerle bir etti —"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onu yalanladılar ve deveyi boğazladılar. Bunun üzerine Rableri, suçlarından dolayı onların üzerine katmerli azap indirdi; yerle bir etti onları"
         }
       },
       "mots": [
@@ -527,16 +529,16 @@ const S091 = {
       "translit": "Walā yakhāfu ʿuqbāhā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "sans craindre aucune suite."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et Allah n'a aucune crainte des conséquences"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and He fears not the consequence."
+          "auteur": "Saheeh International",
+          "texte": "And He does not fear the consequence thereof"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O, bunun sonucundan korkacak değildir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bu işin sonundan O'nun korkusu yoktur"
         }
       },
       "mots": [

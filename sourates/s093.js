@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S093 = {
   "meta": {
     "numero": 93,
@@ -35,16 +37,16 @@ const S093 = {
       "translit": "Waḍ-ḍuḥā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par la clarté du matin !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Par le Jour Montant"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the morning brightness!"
+          "auteur": "Saheeh International",
+          "texte": "By the morning brightness"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kuşluk vaktine andolsun!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kuşluk vaktine and olsun"
         }
       },
       "mots": [
@@ -64,16 +66,16 @@ const S093 = {
       "translit": "Wallayli idhā sajā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et par la nuit quand elle s'étend !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et par la nuit quand elle couvre tout"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And by the night when it settles!"
+          "auteur": "Saheeh International",
+          "texte": "And [by] the night when it covers with darkness"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve sükûna erdiğinde geceye!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sükun erdiği zaman geceye and olsun ki"
         }
       },
       "mots": [
@@ -93,16 +95,16 @@ const S093 = {
       "translit": "Mā waddaʿaka rabbuka wamā qalā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ton Seigneur ne t'a pas quitté, et Il ne t'a pas pris en aversion."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ton Seigneur ne t'a ni abandonné, ni détesté"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Your Lord has not forsaken you, nor does He despise you."
+          "auteur": "Saheeh International",
+          "texte": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rabbin seni terk etmedi ve sana darılmadı."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Rabbin seni ne bıraktı ve ne de sana darıldı"
         }
       },
       "mots": [
@@ -137,16 +139,16 @@ const S093 = {
       "translit": "Walalʾkhiratu khayrun laka mina l-ʾūlā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "La vie dernière est certes meilleure pour toi que la première."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "La vie dernière t'est, certes, meilleure que la vie présente"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Surely the Hereafter is better for you than the first life."
+          "auteur": "Saheeh International",
+          "texte": "And the Hereafter is better for you than the first [life]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Elbette âhiret senin için dünyadan daha hayırlıdır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Doğrusu ahiret senin için dünyadan daha hayırlıdır"
         }
       },
       "mots": [
@@ -180,16 +182,16 @@ const S093 = {
       "translit": "Walasawfa yuʿṭīka rabbuka fatarḍā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ton Seigneur te donnera bientôt, et tu seras satisfait."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ton Seigneur t'accordera certes [Ses faveurs], et alors tu seras satisfait"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Your Lord will surely give you, and you will be well pleased."
+          "auteur": "Saheeh International",
+          "texte": "And your Lord is going to give you, and you will be satisfied"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rabbin sana verecek ve sen hoşnut olacaksın."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Rabbin şüphesiz sana verecek ve sen de hoşnut olacaksın"
         }
       },
       "mots": [
@@ -209,16 +211,16 @@ const S093 = {
       "translit": "Alam yajidka yatīman faʾāwā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ne t'a-t-Il pas trouvé orphelin ? Alors Il t'a accueilli."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ne t'a-t-Il pas trouvé orphelin? Alors Il t'a accueilli"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Did He not find you an orphan and shelter you?"
+          "auteur": "Saheeh International",
+          "texte": "Did He not find you an orphan and give [you] refuge"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Seni yetim bulup barındırmadı mı?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Seni öksüz bulup da barındırmadı mı"
         }
       },
       "mots": [
@@ -239,16 +241,16 @@ const S093 = {
       "translit": "Wawajadaka ḍāllan fahadā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il t'a trouvé cherchant ta voie : alors Il t'a guidé."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ne t'a-t-Il pas trouvé égaré? Alors Il t'a guidé"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And He found you seeking, and guided you."
+          "auteur": "Saheeh International",
+          "texte": "And He found you lost and guided [you]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Seni yol arar bulup doğru yola iletmedi mi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Seni şaşırmış bulup, doğru yola eriştirmedi mi"
         }
       },
       "mots": [
@@ -268,16 +270,16 @@ const S093 = {
       "translit": "Wawajadaka ʿāʾilan faʾaghnā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il t'a trouvé pauvre : alors Il t'a enrichi."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ne t'a-t-Il pas trouvé pauvre? Alors Il t'a enrichi"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And He found you in need, and enriched you."
+          "auteur": "Saheeh International",
+          "texte": "And He found you poor and made [you] self-sufficient"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Seni yoksul bulup zengin etmedi mi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Seni fakir bulup zenginleştirmedi mi"
         }
       },
       "mots": [],
@@ -289,16 +291,16 @@ const S093 = {
       "translit": "Faʾammā l-yatīma falā taqhar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quant à l'orphelin, ne le brime donc pas."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quant à l'orphelin, donc, ne le maltraite pas"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "So as for the orphan, do not oppress him."
+          "auteur": "Saheeh International",
+          "texte": "So as for the orphan, do not oppress [him]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Öyleyse yetimi ezme!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyse sakın öksüze kötü muamele etme"
         }
       },
       "mots": [
@@ -332,16 +334,16 @@ const S093 = {
       "translit": "Waʾammā s-sāʾila falā tanhar",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quant au demandeur, ne le repousse pas."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quant au demandeur, ne le repousse pas"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And as for the asker, do not repel him."
+          "auteur": "Saheeh International",
+          "texte": "And as for the petitioner, do not repel [him]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İsteyeni azarlama!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ve sakın bir şey isteyeni azarlama"
         }
       },
       "mots": [
@@ -375,16 +377,16 @@ const S093 = {
       "translit": "Waʾammā biniʿmati rabbika faḥaddith",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et quant au bienfait de ton Seigneur, proclame-le."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et quant au bienfait de ton Seigneur, proclame-le"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And as for the favor of your Lord, proclaim it."
+          "auteur": "Saheeh International",
+          "texte": "But as for the favor of your Lord, report [it]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rabbinin nimetini ise anlat da anlat!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Yalnızca Rabbinin nimetini anlat"
         }
       },
       "mots": [

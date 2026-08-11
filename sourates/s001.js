@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S001 = {
   "meta": {
     "numero": 1,
@@ -35,16 +37,16 @@ const S001 = {
       "translit": "Bismi llāhi r-raḥmāni r-raḥīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Au nom d'Allah, le Tout-Miséricordieux, le Très-Miséricordieux."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "In the name of Allah, the Most Merciful, the Ever-Merciful."
+          "auteur": "Saheeh International",
+          "texte": "In the name of Allah, the Entirely Merciful, the Especially Merciful"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rahmân ve Rahîm olan Allah'ın adıyla."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Rahman ve Rahim olan Allah'ın adıyla"
         }
       },
       "mots": [
@@ -86,16 +88,16 @@ const S001 = {
       "translit": "Al-ḥamdu lillāhi rabbi l-ʿālamīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "La louange est à Allah, Seigneur des mondes,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Louange à Allah, Seigneur de l'univers"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "All praise belongs to Allah, Lord of the worlds,"
+          "auteur": "Saheeh International",
+          "texte": "[All] praise is [due] to Allah, Lord of the worlds"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hamd, âlemlerin Rabbi Allah'adır,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Hamd, Alemlerin Rabbi Allah'a mahsustur"
         }
       },
       "mots": [
@@ -142,16 +144,16 @@ const S001 = {
       "translit": "Ar-raḥmāni r-raḥīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "le Tout-Miséricordieux, le Très-Miséricordieux,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Le Tout Miséricordieux, le Très Miséricordieux"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "the Most Merciful, the Ever-Merciful,"
+          "auteur": "Saheeh International",
+          "texte": "The Entirely Merciful, the Especially Merciful"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O Rahmân'dır, Rahîm'dir,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O Rahman ve Rahim'dir"
         }
       },
       "mots": [
@@ -178,16 +180,16 @@ const S001 = {
       "translit": "Māliki yawmi d-dīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Maître du Jour de la rétribution."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Maître du Jour de la rétribution"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Master of the Day of Judgment."
+          "auteur": "Saheeh International",
+          "texte": "Sovereign of the Day of Recompense"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "din gününün Mâlikidir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Din Gününün sahibidir"
         }
       },
       "mots": [
@@ -221,16 +223,16 @@ const S001 = {
       "translit": "Iyyāka naʿbudu waʾiyyāka nastaʿīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "C'est Toi que nous adorons, et c'est Toi dont nous implorons l'aide."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "C'est Toi [Seul] que nous adorons, et c'est Toi [Seul] dont nous implorons secours"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "You alone we worship, and You alone we ask for help."
+          "auteur": "Saheeh International",
+          "texte": "It is You we worship and You we ask for help"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yalnız Sana kulluk eder, yalnız Senden yardım dileriz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ancak Sana kulluk eder ve yalnız Senden yardım dileriz"
         }
       },
       "mots": [
@@ -278,16 +280,16 @@ const S001 = {
       "translit": "Ihdinā ṣ-ṣirāṭa l-mustaqīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Guide-nous sur le chemin droit,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Guide-nous dans le droit chemin"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Guide us along the straight path,"
+          "auteur": "Saheeh International",
+          "texte": "Guide us to the straight path"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Bizi dosdoğru yola ilet,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bizi doğru yola eriştir"
         }
       },
       "mots": [
@@ -327,16 +329,16 @@ const S001 = {
       "translit": "Ṣirāṭa lladhīna anʿamta ʿalayhim ghayri l-maghḍūbi ʿalayhim walā ḍ-ḍāllīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "le chemin de ceux que Tu as comblés de bienfaits, non de ceux qui ont encouru la colère, ni des égarés."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "le chemin de ceux que Tu as comblés de faveurs, non pas de ceux qui ont encouru Ta colère, ni des égarés"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "the path of those You have blessed, not of those who earned wrath, nor of those astray."
+          "auteur": "Saheeh International",
+          "texte": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nimet verdiklerinin yoluna; gazaba uğrayanların ve sapanların yoluna değil."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Nimete erdirdiğin kimselerin yoluna; gazaba uğrayanların, ya da sapıtanların yoluna değil"
         }
       },
       "mots": [

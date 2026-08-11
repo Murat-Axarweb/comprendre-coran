@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S103 = {
   "meta": {
     "numero": 103,
@@ -35,16 +37,16 @@ const S103 = {
       "translit": "Wal-ʿaṣr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par le Temps !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Par le Temps"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By Time!"
+          "auteur": "Saheeh International",
+          "texte": "By time"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Asra (zamana) andolsun!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İkindi vaktine (Asra; çağa) and olsun ki"
         }
       },
       "mots": [
@@ -64,16 +66,16 @@ const S103 = {
       "translit": "Inna l-ʾinsāna lafī khusr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "L'homme est certes en perdition,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "L'homme est certes, en perdition"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Surely man is in loss,"
+          "auteur": "Saheeh International",
+          "texte": "Indeed, mankind is in loss"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İnsan gerçekten hüsran içindedir,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsan hiç şüphesiz hüsran içindedir"
         }
       },
       "mots": [
@@ -115,16 +117,16 @@ const S103 = {
       "translit": "Illā lladhīna āmanū waʿamilū ṣ-ṣāliḥāti watawāṣaw bil-ḥaqqi watawāṣaw biṣ-ṣabr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "sauf ceux qui croient, accomplissent les œuvres bonnes, se recommandent mutuellement la vérité et se recommandent mutuellement la patience."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "sauf ceux qui croient et accomplissent les bonnes œuvres, s'enjoignent mutuellement la vérité et s'enjoignent mutuellement l'endurance"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "except those who believe, do righteous deeds, urge one another to truth, and urge one another to patience."
+          "auteur": "Saheeh International",
+          "texte": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ancak iman edip salih ameller işleyenler, birbirlerine hakkı tavsiye edenler ve sabrı tavsiye edenler müstesna."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır"
         }
       },
       "mots": [

@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S111 = {
   "meta": {
     "numero": 111,
@@ -35,16 +37,16 @@ const S111 = {
       "translit": "Tabbat yadā abī lahabin watabb",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Que périssent les deux mains d'Abu Lahab, et que lui-même périsse !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Que périssent les deux mains d'Abû-Lahab et que lui-même périsse"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "May the hands of Abu Lahab perish, and may he perish!"
+          "auteur": "Saheeh International",
+          "texte": "May the hands of Abu Lahab be ruined, and ruined is he"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ebu Leheb'in iki eli kurusun — kendisi de helâk oldu!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ebu Leheb'in elleri kurusun; kurudu da"
         }
       },
       "mots": [
@@ -93,16 +95,16 @@ const S111 = {
       "translit": "Mā aghnā ʿanhu māluhū wamā kasab",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sa fortune ne lui a servi de rien, ni tout ce qu'il a acquis."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Sa fortune ne lui sert à rien, ni ce qu'il a acquis"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "His wealth availed him nothing, nor all he earned."
+          "auteur": "Saheeh International",
+          "texte": "His wealth will not avail him or that which he gained"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Malı da kazandıkları da ona fayda vermedi."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Malı ve kazandığı kendisine fayda vermedi"
         }
       },
       "mots": [
@@ -157,16 +159,16 @@ const S111 = {
       "translit": "Sayaṣlā nāran dhāta lahab",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il brûlera dans un feu aux flammes ardentes,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il sera brûlé dans un Feu plein de flammes"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "He will burn in a flaming fire,"
+          "auteur": "Saheeh International",
+          "texte": "He will [enter to] burn in a Fire of [blazing] flame"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Alevli bir ateşe girecektir o,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Alevli ateşe yaslanacaktır"
         }
       },
       "mots": [
@@ -207,16 +209,16 @@ const S111 = {
       "translit": "Wamraʾatuhū ḥammālata l-ḥaṭab",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "ainsi que sa femme, la porteuse de bois,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "de même sa femme, la porteuse de bois"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and his wife, the carrier of firewood,"
+          "auteur": "Saheeh International",
+          "texte": "And his wife [as well] - the carrier of firewood"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Karısı da — odun taşıyıcısı olarak,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır"
         }
       },
       "mots": [
@@ -250,16 +252,16 @@ const S111 = {
       "translit": "Fī jīdihā ḥablun min masad",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "à son cou, une corde de fibres."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "à son cou, une corde de fibres"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "with a rope of palm fibre around her neck."
+          "auteur": "Saheeh International",
+          "texte": "Around her neck is a rope of [twisted] fiber"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Boynunda bükülmüş liften bir ip olduğu hâlde."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır"
         }
       },
       "mots": [

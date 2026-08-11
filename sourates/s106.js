@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S106 = {
   "meta": {
     "numero": 106,
@@ -35,16 +37,16 @@ const S106 = {
       "translit": "Liʾīlāfi quraysh",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Pour le pacte de Quraysh,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "A cause du pacte des Coraïch"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "For the covenant of Quraysh,"
+          "auteur": "Saheeh International",
+          "texte": "For the accustomed security of the Quraysh"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kureyş'in emniyeti (alışkanlık kazandırılması) için,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kureyş kabilesinin yaz ve kış yolculuklarında uzlaşması ve anlaşması sağlanmıştır"
         }
       },
       "mots": [
@@ -77,16 +79,16 @@ const S106 = {
       "translit": "Īlāfihim riḥlata sh-shitāʾi waṣ-ṣayf",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "leur pacte des voyages d'hiver et d'été :"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "De leur pacte [concernant] les voyages d'hiver et d'été"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "their covenant of the winter and summer journeys:"
+          "auteur": "Saheeh International",
+          "texte": "Their accustomed security [in] the caravan of winter and summer"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kış ve yaz yolculuklarına alıştırılmaları için —"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kureyş kabilesinin yaz ve kış yolculuklarında uzlaşması ve anlaşması sağlanmıştır"
         }
       },
       "mots": [
@@ -127,16 +129,16 @@ const S106 = {
       "translit": "Falyaʿbudū rabba hādhā l-bayt",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qu'ils adorent donc le Seigneur de cette Maison,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Qu'ils adorent donc le Seigneur de cette Maison [la Ka'ba]"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "let them worship the Lord of this House,"
+          "auteur": "Saheeh International",
+          "texte": "Let them worship the Lord of this House"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Öyleyse bu Ev'in Rabbine kulluk etsinler."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyse kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in (Kabe'nin) Rabbine kulluk etsinler"
         }
       },
       "mots": [
@@ -177,16 +179,16 @@ const S106 = {
       "translit": "Alladhī aṭʿamahum min jūʿin waʾāmanahum min khawf",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qui les a nourris contre la faim et rassurés contre la peur."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui les a nourris contre la faim et rassurés de la crainte"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "who fed them against hunger and secured them against fear."
+          "auteur": "Saheeh International",
+          "texte": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O ki onları açlıktan doyurdu ve korkudan güvene kavuşturdu."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyse kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in (Kabe'nin) Rabbine kulluk etsinler"
         }
       },
       "mots": [

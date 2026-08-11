@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S055 = {
   "meta": {
     "numero": 55,
@@ -35,16 +37,16 @@ const S055 = {
       "translit": "Ar-raḥmān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Le Tout-Miséricordieux"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Le Tout Miséricordieux"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
+          "auteur": "Saheeh International",
           "texte": "The Most Merciful"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rahmân,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Rahman olan Allah Kuran'ı öğretti"
         }
       },
       "mots": [
@@ -64,16 +66,16 @@ const S055 = {
       "translit": "ʿAllama l-qurʾān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "a enseigné le Coran,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il a enseigné le Coran"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "taught the Quran,"
+          "auteur": "Saheeh International",
+          "texte": "Taught the Qur'an"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kur'an'ı öğretti."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Rahman olan Allah Kuran'ı öğretti"
         }
       },
       "mots": [
@@ -93,16 +95,16 @@ const S055 = {
       "translit": "Khalaqa l-ʾinsān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "a créé l'homme,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il a créé l'homme"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "created man,"
+          "auteur": "Saheeh International",
+          "texte": "Created man"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İnsanı yarattı."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsanı yarattı, ona konuşmayı öğretti"
         }
       },
       "mots": [
@@ -122,16 +124,16 @@ const S055 = {
       "translit": "ʿAllamahu l-bayān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "lui a enseigné l'expression claire."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il lui a appris à s'exprimer clairement"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "taught him clear expression."
+          "auteur": "Saheeh International",
+          "texte": "[And] taught him eloquence"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ona beyanı (açıkça anlatmayı) öğretti."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsanı yarattı, ona konuşmayı öğretti"
         }
       },
       "mots": [
@@ -151,16 +153,16 @@ const S055 = {
       "translit": "Ash-shamsu wal-qamaru biḥusbān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Le soleil et la lune suivent un calcul,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Le soleil et la lune [évoluent] selon un calcul [minutieux]"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The sun and the moon follow a reckoning,"
+          "auteur": "Saheeh International",
+          "texte": "The sun and the moon [move] by precise calculation"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Güneş ve ay bir hesaba göredir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Güneş ve ayın hareketleri bir hesaba göredir"
         }
       },
       "mots": [
@@ -187,16 +189,16 @@ const S055 = {
       "translit": "Wan-najmu wash-shajaru yasjudān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et l'étoile et l'arbre se prosternent."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et l'herbe et les arbres se prosternent"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and the star and the tree prostrate."
+          "auteur": "Saheeh International",
+          "texte": "And the stars and trees prostrate"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yıldızlar ve ağaçlar secde ederler."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bitkiler ve ağaçlar O'nun buyruğuna boyun eğerler"
         }
       },
       "mots": [
@@ -216,16 +218,16 @@ const S055 = {
       "translit": "Was-samāʾa rafaʿahā wawaḍaʿa l-mīzān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Le ciel, Il l'a élevé ; et Il a posé la balance —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et quant au ciel, Il l'a élevé bien haut. Et Il a établi la balance"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And the sky He raised; and He set the balance —"
+          "auteur": "Saheeh International",
+          "texte": "And the heaven He raised and imposed the balance"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Göğü yükseltti ve mizanı (dengeyi) koydu."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, göğü yükseltmiştir; tartıyı koymuştur"
         }
       },
       "mots": [
@@ -260,16 +262,16 @@ const S055 = {
       "translit": "Allā taṭghaw fī l-mīzān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "afin que vous ne fraudiez pas dans la pesée :"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "afin que vous ne transgressiez pas dans la pesée"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "that you not transgress in the balance:"
+          "auteur": "Saheeh International",
+          "texte": "That you not transgress within the balance"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Tartıda haddi aşmayın diye."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Artık tartıda tecavüz etmeyin"
         }
       },
       "mots": [
@@ -303,16 +305,16 @@ const S055 = {
       "translit": "Waʾaqīmū l-wazna bil-qisṭi walā tukhsirū l-mīzān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "établissez le poids avec équité et ne faussez pas la balance."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Donnez [toujours] le poids exact et ne faussez pas la pesée"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "so establish weight in justice and do not shortchange the balance."
+          "auteur": "Saheeh International",
+          "texte": "And establish weight in justice and do not make deficient the balance"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Tartıyı adaletle yapın, teraziyi eksik tutmayın!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Tartmayı doğru yapın, tartıyı eksik tutmayın"
         }
       },
       "mots": [
@@ -353,16 +355,16 @@ const S055 = {
       "translit": "Wal-ʾarḍa waḍaʿahā lilʾanām",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et la terre, Il l'a disposée pour les créatures :"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quant à la terre, Il l'a étendue pour les êtres vivants"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And the earth He laid out for the creatures:"
+          "auteur": "Saheeh International",
+          "texte": "And the earth He laid [out] for the creatures"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yeryüzünü de canlılar için O koydu."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah, yeri yaratıkları için meydana getirmiştir"
         }
       },
       "mots": [
@@ -382,16 +384,16 @@ const S055 = {
       "translit": "Fīhā fākihatun wan-nakhlu dhātu l-ʾakmām",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "s'y trouvent fruits et palmiers aux régimes gainés,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "il s'y trouve des fruits, et aussi les palmiers aux fruits recouverts d'enveloppes"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "in it are fruit and palm trees with sheathed clusters,"
+          "auteur": "Saheeh International",
+          "texte": "Therein is fruit and palm trees having sheaths [of dates]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Orada meyveler ve salkımlı hurma ağaçları vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Orada meyveler, salkımlı hurma ağaçları, kabuklu taneler, güzel kokulu otlar vardır"
         }
       },
       "mots": [
@@ -418,16 +420,16 @@ const S055 = {
       "translit": "Wal-ḥabbu dhū l-ʿaṣfi war-rayḥān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "le grain dans son épi, et la plante odorante."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "tout comme les grains dans leurs balles, et les plantes aromatiques"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and grain with husks, and fragrant herbs."
+          "auteur": "Saheeh International",
+          "texte": "And grain having husks and scented plants"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yapraklı taneler ve hoş kokulu bitkiler vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Orada meyveler, salkımlı hurma ağaçları, kabuklu taneler, güzel kokulu otlar vardır"
         }
       },
       "mots": [
@@ -447,16 +449,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey insanlar ve cinler! Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -469,16 +471,16 @@ const S055 = {
       "translit": "Khalaqa l-ʾinsāna min ṣalṣālin kal-fakhkhār",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il a créé l'homme d'argile sonnante comme la poterie,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il a crée l'homme d'argile sonnante comme la poterie"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "He created man from dry clay like pottery,"
+          "auteur": "Saheeh International",
+          "texte": "He created man from clay like [that of] pottery"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İnsanı, pişmiş çamur gibi kuru balçıktan yarattı."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, insanı pişmiş çamur gibi kuru balçıktan yaratmıştır"
         }
       },
       "mots": [
@@ -505,16 +507,16 @@ const S055 = {
       "translit": "Wakhalaqa l-jānna min mārijin min nār",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et Il a créé les djinns d'un feu pur sans fumée."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et Il a créé les djinns de la flamme d'un feu sans fumée"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and He created the jinn from a smokeless flame of fire."
+          "auteur": "Saheeh International",
+          "texte": "And He created the jinn from a smokeless flame of fire"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Cinleri de dumansız ateş alevinden yarattı."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Cinleri de yalın bir alevden yaratmıştır"
         }
       },
       "mots": [
@@ -555,16 +557,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken; Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -576,16 +578,16 @@ const S055 = {
       "translit": "Rabbu l-mashriqayni warabbu l-maghribayn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Seigneur des deux orients et Seigneur des deux occidents !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Seigneur des deux Levants et Seigneur des deux Couchants"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lord of the two easts and Lord of the two wests!"
+          "auteur": "Saheeh International",
+          "texte": "[He is] Lord of the two sunrises and Lord of the two sunsets"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O, iki doğunun ve iki batının Rabbidir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O, iki doğunun Rabbidir, iki batının Rabbidir"
         }
       },
       "mots": [
@@ -612,16 +614,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -633,16 +635,16 @@ const S055 = {
       "translit": "Maraja l-baḥrayni yaltaqiyān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il a lâché les deux mers qui se rencontrent :"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il a donné libre cours aux deux mers pour se rencontrer"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "He released the two seas, meeting together:"
+          "auteur": "Saheeh International",
+          "texte": "He released the two seas, meeting [side by side]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İki denizi birbirine kavuşmak üzere salıvermiştir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Acı ve tatlı sulu iki denizi birbirine kavuşmamak üzere salıvermiştir"
         }
       },
       "mots": [],
@@ -654,16 +656,16 @@ const S055 = {
       "translit": "Baynahumā barzakhun lā yabghiyān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "entre elles une barrière qu'elles ne franchissent pas."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "il y a entre elles une barrière qu'elles ne dépassent pas"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "between them a barrier they do not transgress."
+          "auteur": "Saheeh International",
+          "texte": "Between them is a barrier [so] neither of them transgresses"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Aralarında bir engel vardır; birbirine karışmazlar."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Aralarında bir engel vardır; birbirinin sınırını aşamazlar"
         }
       },
       "mots": [
@@ -690,16 +692,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -711,16 +713,16 @@ const S055 = {
       "translit": "Yakhruju minhumā l-luʾluʾu wal-marjān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "D'elles deux sortent la perle et le corail."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "De ces deux [mers] sortent la perle et le corail"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "From both emerge pearl and coral."
+          "auteur": "Saheeh International",
+          "texte": "From both of them emerge pearl and coral"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İkisinden de inci ve mercan çıkar."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bu iki denizden de inci ve mercan çıkar"
         }
       },
       "mots": [
@@ -747,16 +749,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -768,16 +770,16 @@ const S055 = {
       "translit": "Walahu l-jawāri l-munshaʾātu fī l-baḥri kal-ʾaʿlām",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "À Lui les vaisseaux élevés sur la mer comme des montagnes."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "A Lui appartiennent les vaisseaux élevés sur la mer comme des montagnes"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "His are the ships raised on the sea like mountains."
+          "auteur": "Saheeh International",
+          "texte": "And to Him belong the ships [with sails] elevated in the sea like mountains"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Denizde dağlar gibi yükselen gemiler de O'nundur."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Denizde yürüyen dağlar gibi gemiler O'nundur"
         }
       },
       "mots": [
@@ -818,16 +820,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -839,16 +841,16 @@ const S055 = {
       "translit": "Kullu man ʿalayhā fān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Tout ce qui est sur elle est périssable,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Tout ce qui est sur elle [la terre] doit disparaître"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "All upon it will perish,"
+          "auteur": "Saheeh International",
+          "texte": "Everyone upon the earth will perish"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yeryüzünde bulunan her şey fânidir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Yeryüzünde bulunan her şey fanidir"
         }
       },
       "mots": [
@@ -890,16 +892,16 @@ const S055 = {
       "translit": "Wayabqā wajhu rabbika dhū l-jalāli wal-ʾikrām",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et demeure la Face de ton Seigneur, pleine de majesté et de munificence."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "[Seule] subsistera La Face [Wajh] de ton Seigneur, plein de majesté et de noblesse"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and there remains the Face of your Lord, full of majesty and honor."
+          "auteur": "Saheeh International",
+          "texte": "And there will remain the Face of your Lord, Owner of Majesty and Honor"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ancak azamet ve ikram sahibi Rabbinin zâtı bâki kalacaktır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir"
         }
       },
       "mots": [
@@ -926,16 +928,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -947,16 +949,16 @@ const S055 = {
       "translit": "Yasʾaluhū man fī s-samāwāti wal-ʾarḍi kulla yawmin huwa fī shaʾn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "L'implorent tous ceux qui sont dans les cieux et sur la terre : chaque jour, Il est à l'œuvre."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ceux qui sont dans les cieux et la terre L'implorent. Chaque jour, Il accomplit une œuvre nouvelle"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "All in the heavens and the earth beseech Him: every day He is engaged in some matter."
+          "auteur": "Saheeh International",
+          "texte": "Whoever is within the heavens and earth asks Him; every day He is bringing about a matter"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Göklerde ve yerde bulunan herkes O'ndan ister. O, her an yeni bir iştedir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Göklerde ve yerde olan kimseler her şeyi O'ndan isterler; O her an kainata tasarruf etmektedir"
         }
       },
       "mots": [
@@ -1018,16 +1020,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1039,16 +1041,16 @@ const S055 = {
       "translit": "Sanafrughu lakum ayyuha th-thaqalān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nous allons bientôt Nous consacrer à vous, ô les deux charges !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Nous allons bientôt entreprendre votre jugement, ô vous les deux charges [hommes et djinns]"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "We will soon attend to you, O you two burdened hosts!"
+          "auteur": "Saheeh International",
+          "texte": "We will attend to you, O prominent beings"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yakında size de yöneleceğiz, ey insan ve cin toplulukları!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey insan ve cin toplulukları! Sizin de hesabınızı ele alacağız"
         }
       },
       "mots": [
@@ -1068,16 +1070,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1089,16 +1091,16 @@ const S055 = {
       "translit": "Yāmaʿshara l-jinni wal-ʾinsi ini staṭaʿtum an tanfudhū min aqṭāri s-samāwāti wal-ʾarḍi fanfudhū lā tanfudhūna illā bisulṭān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ô assemblée des djinns et des hommes ! Si vous pouvez percer au-delà des régions des cieux et de la terre, percez donc ! Vous ne percerez qu'avec une autorité."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "O peuple de djinns et d'hommes! Si vous pouvez sortir du domaine des cieux et de la terre, alors faites-le. Mais vous ne pourrez en sortir qu'à l'aide d'un pouvoir [illimité]"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O company of jinn and men! If you can pass beyond the regions of the heavens and the earth, then pass! You will not pass except with authority."
+          "auteur": "Saheeh International",
+          "texte": "O company of jinn and mankind, if you are able to pass beyond the regions of the heavens and the earth, then pass. You will not pass except by authority [from Allah]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ey cin ve insan toplulukları! Göklerin ve yerin çevresinden geçip gitmeye gücünüz yetiyorsa geçin! Ama üstün bir güç olmadan geçemezsiniz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey cin ve insan toplulukları! Göklerin ve yerin çevresini aşıp geçmeye gücünüz yetiyorsa geçin! Ama Allah'ın verdiği bir güç olmaksızın geçemezsiniz ki"
         }
       },
       "mots": [
@@ -1167,16 +1169,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1188,16 +1190,16 @@ const S055 = {
       "translit": "Yursalu ʿalaykumā shuwāẓun min nārin wanuḥāsun falā tantaṣirān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Seront envoyés contre vous un jet de feu et du cuivre fondu, et vous ne serez pas secourus."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il sera lancé contre vous un jet de feu et de fumée [ou de cuivre fondu], et vous ne serez pas secourus"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "There will be sent against you a flash of fire and molten brass, and you will not be helped."
+          "auteur": "Saheeh International",
+          "texte": "There will be sent upon you a flame of fire and smoke, and you will not defend yourselves"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Üzerinize ateşten alev ve erimiş bakır gönderilir de yardım göremezsiniz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey insanlar ve cinler! Üzerinize dumansız bir alev ve ateşsiz bir duman gönderilir de kurtulamazsınız"
         }
       },
       "mots": [
@@ -1231,16 +1233,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1252,16 +1254,16 @@ const S055 = {
       "translit": "Faʾidhā nshaqqati s-samāʾu fakānat wardatan kad-dihān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand le ciel se fendra et deviendra rose comme le cuir rouge —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Puis quand le ciel se fendra et deviendra alors écarlate comme le cuir rouge"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "When the sky splits open and becomes rose-red like tanned hide —"
+          "auteur": "Saheeh International",
+          "texte": "And when the heaven is split open and becomes rose-colored like oil"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Gök yarılıp da kızarmış yağ renginde gül gibi olduğu zaman —"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Gök yarılıp da, gül gibi kızardığı, yağ gibi eridiği zaman haliniz nice olur"
         }
       },
       "mots": [
@@ -1288,16 +1290,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1309,16 +1311,16 @@ const S055 = {
       "translit": "Fayawmaʾidhin lā yusʾalu ʿan dhanbihī insun walā jānn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ce jour-là, ni homme ni djinn ne sera interrogé sur son péché."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Alors, ni aux hommes ni aux djinns, on ne posera des questions à propos de leurs péchés"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "That Day neither man nor jinn will be asked about his sin."
+          "auteur": "Saheeh International",
+          "texte": "Then on that Day none will be asked about his sin among men or jinn"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte o gün ne insana ne de cine günahı sorulur."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gün ne insana ve ne cine suçu sorulur"
         }
       },
       "mots": [
@@ -1366,16 +1368,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1387,16 +1389,16 @@ const S055 = {
       "translit": "Yuʿrafu l-mujrimūna bisīmāhum fayuʾkhadhu bin-nawāṣī wal-ʾaqdām",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Les criminels seront reconnus à leurs marques : on les saisira par les toupets et les pieds."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "On reconnaîtra les criminels à leurs traits. Ils seront donc saisis par les toupets et les pieds"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "The criminals will be known by their marks: they will be seized by forelocks and feet."
+          "auteur": "Saheeh International",
+          "texte": "The criminals will be known by their marks, and they will be seized by the forelocks and the feet"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Suçlular simalarından tanınır; perçemlerinden ve ayaklarından yakalanırlar."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Suçlular simalarından tanınırlar da, alın saçlarından ve ayaklarından yakalanırlar"
         }
       },
       "mots": [],
@@ -1408,16 +1410,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1429,16 +1431,16 @@ const S055 = {
       "translit": "Hādhihī jahannamu llatī yukadhdhibu bihā l-mujrimūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Voici la Géhenne que les criminels traitaient de mensonge :"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Voilà l'Enfer que les criminels traitaient de mensonge"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "This is Hell which the criminals denied:"
+          "auteur": "Saheeh International",
+          "texte": "This is Hell, which the criminals deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte bu, suçluların yalanladığı cehennemdir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İşte suçluların yalanladıkları cehennem budur"
         }
       },
       "mots": [
@@ -1479,16 +1481,16 @@ const S055 = {
       "translit": "Yaṭūfūna baynahā wabayna ḥamīmin ān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "ils tourneront entre elle et une eau bouillante au comble de l'ardeur."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ils feront le va-et-vient entre lui (l'Enfer) et une eau bouillante extrêmement chaude"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "they will circle between it and scalding water at boiling point."
+          "auteur": "Saheeh International",
+          "texte": "They will go around between it and scalding water, heated [to the utmost degree]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onlar, cehennemle kaynar su arasında dolaşıp dururlar."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlar, cehennem ateşiyle kaynar su arasında dolaşır dururlar"
         }
       },
       "mots": [
@@ -1515,16 +1517,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1536,16 +1538,16 @@ const S055 = {
       "translit": "Waliman khāfa maqāma rabbihī jannatān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Mais pour qui aura craint la station de son Seigneur, il y aura deux jardins —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et pour celui qui aura craint de comparaître devant son Seigneur, il y aura deux jardins"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "But for whoever feared the standing before his Lord are two gardens —"
+          "auteur": "Saheeh International",
+          "texte": "But for he who has feared the position of his Lord are two gardens"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rabbinin huzurunda durmaktan korkan kimseye iki cennet vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Rabbine karşı durmaktan korkan kimseye iki cennet vardır"
         }
       },
       "mots": [
@@ -1579,16 +1581,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1600,16 +1602,16 @@ const S055 = {
       "translit": "Dhawātā afnān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "aux branches déployées —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Aux branches touffues"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "with spreading branches —"
+          "auteur": "Saheeh International",
+          "texte": "Having [spreading] branches"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İkisi de çeşitli ağaçlarla, dallarla doludur."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bu iki cennet türlü ağaçlarla doludur"
         }
       },
       "mots": [],
@@ -1621,16 +1623,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1642,16 +1644,16 @@ const S055 = {
       "translit": "Fīhimā ʿaynāni tajriyān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "où coulent deux sources —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ils y trouveront deux sources courantes"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "in both are two flowing springs —"
+          "auteur": "Saheeh International",
+          "texte": "In both of them are two springs, flowing"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İkisinde de akıp giden iki pınar vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bu cennetlerden akan iki kaynak vardır"
         }
       },
       "mots": [],
@@ -1663,16 +1665,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1684,16 +1686,16 @@ const S055 = {
       "translit": "Fīhimā min kulli fākihatin zawjān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "où il y a de chaque fruit deux espèces —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ils contiennent deux espèces de chaque fruit"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "in both are two kinds of every fruit —"
+          "auteur": "Saheeh International",
+          "texte": "In both of them are of every fruit, two kinds"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İkisinde de her meyveden çift çift vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bu cennetlerde türlü meyveden çift çift vardır"
         }
       },
       "mots": [
@@ -1720,16 +1722,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1741,16 +1743,16 @@ const S055 = {
       "translit": "Muttakiʾīna ʿalā furushi baṭāʾinuhā min istabraqin wajanā l-jannatayni dān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Accoudés sur des tapis doublés de brocart, les fruits des deux jardins à portée de main —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ils seront accoudés sur des tapis doublés de brocart, et les fruits des deux jardins seront à leur portée (pour être cueillis)"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Reclining on carpets lined with brocade, the fruit of both gardens within reach —"
+          "auteur": "Saheeh International",
+          "texte": "[They are] reclining on beds whose linings are of silk brocade, and the fruit of the two gardens is hanging low"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Astarları kalın atlastan döşeklere yaslanırlar. İki cennetin meyveleri de yakındır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Orada, örtüleri parlak atlastan yataklara yaslanırlar; iki cennetin meyvelerini de kolayca toplarlar"
         }
       },
       "mots": [
@@ -1777,16 +1779,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1798,16 +1800,16 @@ const S055 = {
       "translit": "Fīhinna qāṣirātu ṭ-ṭarfi lam yaṭmithhunna insun qablahum walā jānn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Là, des vierges au regard chaste, que ni homme ni djinn n'aura touchées avant eux —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ils y trouveront [les houris] aux regards chastes, qu'avant eux aucun homme ou djinn n'aura déflorées"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "In them are maidens of modest gaze, untouched before them by man or jinn —"
+          "auteur": "Saheeh International",
+          "texte": "In them are women limiting [their] glances, untouched before them by man or jinni"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Oralarda bakışlarını yalnız eşlerine çevirmiş, daha önce ne insan ne cin dokunmuş eşler vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Orada, bakışlarını yalnız eşlerine çevirmiş, daha önce ne insan ve ne de cinlerin dokunmuş olduğu eşler vardır"
         }
       },
       "mots": [
@@ -1841,16 +1843,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1862,16 +1864,16 @@ const S055 = {
       "translit": "Kaʾannahunna l-yāqūtu wal-marjān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "semblables au rubis et au corail —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Elles seront [aussi belles] que le rubis et le corail"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "as if they were rubies and coral —"
+          "auteur": "Saheeh International",
+          "texte": "As if they were rubies and coral"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sanki onlar yakut ve mercandır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlar yakut ve mercan gibidirler"
         }
       },
       "mots": [],
@@ -1883,16 +1885,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1904,16 +1906,16 @@ const S055 = {
       "translit": "Hal jazāʾu l-ʾiḥsāni illā l-ʾiḥsān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "La récompense du bien est-elle autre chose que le bien ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Y a-t-il d'autre récompense pour le bien, que le bien"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Is the reward of excellence anything but excellence?"
+          "auteur": "Saheeh International",
+          "texte": "Is the reward for good [anything] but good"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İyiliğin karşılığı iyilikten başka bir şey midir?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İyiliğin karşılığı ancak iyilik değil midir"
         }
       },
       "mots": [
@@ -1962,16 +1964,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -1983,16 +1985,16 @@ const S055 = {
       "translit": "Wamin dūnihimā jannatān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et en deçà des deux, deux autres jardins —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "En deçà de ces deux jardins il y aura deux autres jardins"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And besides those two are two other gardens —"
+          "auteur": "Saheeh International",
+          "texte": "And below them both [in excellence] are two [other] gardens"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Bu ikisinden başka iki cennet daha vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bu iki cennetten başka iki cennet daha vardır"
         }
       },
       "mots": [
@@ -2012,16 +2014,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -2033,16 +2035,16 @@ const S055 = {
       "translit": "Mudhāmmatān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "d'un vert profond —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ils sont d'un vert sombre"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "dark green —"
+          "auteur": "Saheeh International",
+          "texte": "Dark green [in color]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yemyeşildirler."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Renkleri koyu yeşildir"
         }
       },
       "mots": [],
@@ -2054,16 +2056,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -2075,16 +2077,16 @@ const S055 = {
       "translit": "Fīhimā ʿaynāni naḍḍākhatān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "où jaillissent deux sources abondantes —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Dans lesquelles il y aura deux sources jaillissantes"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "in both are two gushing springs —"
+          "auteur": "Saheeh International",
+          "texte": "In both of them are two springs, spouting"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İkisinde de durmadan fışkıran iki pınar vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İkisinde de durmadan fışkıran iki kaynak vardır"
         }
       },
       "mots": [],
@@ -2096,16 +2098,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -2117,16 +2119,16 @@ const S055 = {
       "translit": "Fīhimā fākihatun wanakhlun warummān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "où il y a fruits, palmiers et grenadiers —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ils contiennent des fruits, des palmiers, et des grenadiers"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "in both are fruits, palm trees, and pomegranates —"
+          "auteur": "Saheeh International",
+          "texte": "In both of them are fruit and palm trees and pomegranates"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İkisinde de meyveler, hurmalar ve narlar vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İkisinde de türlü türlü meyveler, hurmalıklar ve nar ağaçları vardır"
         }
       },
       "mots": [
@@ -2146,16 +2148,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -2167,16 +2169,16 @@ const S055 = {
       "translit": "Fīhinna khayrātun ḥisān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "où il y a des compagnes vertueuses et belles —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Là, il y aura des vertueuses et des belles"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "in them are maidens good and beautiful —"
+          "auteur": "Saheeh International",
+          "texte": "In them are good and beautiful women"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Oralarda huyu güzel, yüzü güzel eşler vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Oralarda iyi huylu güzel kadınlar vardır"
         }
       },
       "mots": [],
@@ -2188,16 +2190,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -2209,16 +2211,16 @@ const S055 = {
       "translit": "Ḥūrun maqṣūrātun fī l-khiyām",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "houris retirées dans les pavillons —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Des houris cloîtrées dans les tentes"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "maidens sheltered in pavilions —"
+          "auteur": "Saheeh International",
+          "texte": "Fair ones reserved in pavilions"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Çadırlara kapanmış hurilerdir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Çadırlar içinde ceylan gözlüler vardır"
         }
       },
       "mots": [
@@ -2245,16 +2247,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -2266,16 +2268,16 @@ const S055 = {
       "translit": "Lam yaṭmithhunna insun qablahum walā jānn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "que ni homme ni djinn n'aura touchées avant eux —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qu'avant eux aucun homme ou djinn n'a déflorées"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "untouched before them by man or jinn —"
+          "auteur": "Saheeh International",
+          "texte": "Untouched before them by man or jinni"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onlara daha önce ne bir insan ne de bir cin dokunmuştur."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlara daha önce insan da, cin de dokunmamıştır"
         }
       },
       "mots": [
@@ -2309,16 +2311,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -2330,16 +2332,16 @@ const S055 = {
       "translit": "Muttakiʾīna ʿalā rafrafin khuḍrin waʿabqariyyin ḥisān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Accoudés sur des coussins verts et de splendides tapis —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ils seront accoudés sur des coussins verts et des tapis épais et jolis"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Reclining on green cushions and splendid carpets —"
+          "auteur": "Saheeh International",
+          "texte": "Reclining on green cushions and beautiful fine carpets"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yeşil yastıklara ve güzel döşemelere yaslanırlar."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Cennetlikler orada yeşil yastıklara ve harikulade işlemeli döşeklere yaslanırlar"
         }
       },
       "mots": [
@@ -2359,16 +2361,16 @@ const S055 = {
       "translit": "Fabiʾayyi ālāʾi rabbikumā tukadhdhibān",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous tous deux ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lequel donc des bienfaits de votre Seigneur nierez-vous"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then which of the favors of your Lord will you both deny?"
+          "auteur": "Saheeh International",
+          "texte": "So which of the favors of your Lord would you deny"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O hâlde Rabbinizin hangi nimetlerini yalanlıyorsunuz?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
       "mots": [],
@@ -2380,16 +2382,16 @@ const S055 = {
       "translit": "Tabāraka smu rabbika dhī l-jalāli wal-ʾikrām",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Béni soit le nom de ton Seigneur, plein de majesté et de munificence !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Béni soit le Nom de ton Seigneur, Plein de Majesté et de Munificence"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Blessed is the name of your Lord, full of majesty and honor!"
+          "auteur": "Saheeh International",
+          "texte": "Blessed is the name of your Lord, Owner of Majesty and Honor"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Azamet ve ikram sahibi Rabbinin adı ne yücedir!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Büyük ve pek cömert olan Rabbinin adı ne yücedir"
         }
       },
       "mots": [

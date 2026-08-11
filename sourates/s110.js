@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S110 = {
   "meta": {
     "numero": 110,
@@ -35,16 +37,16 @@ const S110 = {
       "translit": "Idhā jāʾa naṣru llāhi wal-fatḥ",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand viennent le secours d'Allah et la victoire,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lorsque vient le secours d'Allah ainsi que la victoire"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "When the help of Allah comes, and the victory,"
+          "auteur": "Saheeh International",
+          "texte": "When the victory of Allah has come and the conquest"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah'ın yardımı ve fetih geldiğinde,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir"
         }
       },
       "mots": [
@@ -92,16 +94,16 @@ const S110 = {
       "translit": "Waraʾayta n-nāsa yadkhulūna fī dīni llāhi afwājā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et que tu vois les gens entrer par vagues dans la religion d'Allah,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et que tu vois les gens entrer en foule dans la religion d'Allah"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and you see the people entering the religion of Allah in throngs,"
+          "auteur": "Saheeh International",
+          "texte": "And you see the people entering into the religion of Allah in multitudes"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve insanların dalga dalga Allah'ın dinine girdiklerini gördüğünde,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir"
         }
       },
       "mots": [
@@ -163,16 +165,16 @@ const S110 = {
       "translit": "Fasabbiḥ biḥamdi rabbika wastaghfirhu innahū kāna tawwābā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "alors célèbre la louange de ton Seigneur et implore Son pardon — Il est certes Celui qui accueille sans cesse le repentir."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "alors, par la louange, célèbre la gloire de ton Seigneur et implore Son pardon. Car c'est Lui le grand Accueillant au repentir"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "then glorify your Lord with praise and seek His forgiveness — He is ever Accepting of repentance."
+          "auteur": "Saheeh International",
+          "texte": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Rabbini hamd ile tesbih et ve O'ndan bağışlanma dile. Şüphesiz O, tövbeleri çok kabul edendir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir"
         }
       },
       "mots": [

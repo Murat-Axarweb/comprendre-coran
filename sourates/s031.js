@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S031 = {
   "meta": {
     "numero": 31,
@@ -35,16 +37,16 @@ const S031 = {
       "translit": "Al-m",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Alif, Lām, Mīm."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Alif, Lâm, Mîm"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Alif, Lam, Mim."
+          "auteur": "Saheeh International",
+          "texte": "Alif, Lam, Meem"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Elif, Lâm, Mîm."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Elif, Lam, Mim"
         }
       },
       "mots": [
@@ -64,16 +66,16 @@ const S031 = {
       "translit": "Tilka āyātu l-kitābi l-ḥakīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Voici les versets du Livre plein de sagesse,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Voici les versets du Livre plein de sagesse"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "These are the verses of the wise Book,"
+          "auteur": "Saheeh International",
+          "texte": "These are verses of the wise Book"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte bunlar, o hikmet dolu kitabın âyetleridir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bunlar, iyi davranan kimseler için rahmet ve doğru yol rehberi olan hikmetli Kitap'ın ayetleridir"
         }
       },
       "mots": [
@@ -100,16 +102,16 @@ const S031 = {
       "translit": "Hudanā waraḥmatan lilmuḥsinīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "guidance et miséricorde pour les bienfaisants,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "c'est un guide et une miséricorde aux bienfaisants"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "as guidance and mercy for the doers of good,"
+          "auteur": "Saheeh International",
+          "texte": "As guidance and mercy for the doers of good"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İyilik yapanlar için bir hidayet ve rahmet olarak."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bunlar, iyi davranan kimseler için rahmet ve doğru yol rehberi olan hikmetli Kitap'ın ayetleridir"
         }
       },
       "mots": [
@@ -136,16 +138,16 @@ const S031 = {
       "translit": "Alladhīna yuqīmūna ṣ-ṣalawāta wayuʾtūna z-zakawāta wahum bil-ʾkhirati hum yūqinūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qui accomplissent la prière, acquittent la zakat, et croient fermement en l'au-delà."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui accomplissent la Salât, acquittent la Zakât et qui croient avec certitude en l'au-delà"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "who establish prayer, give zakat, and are certain of the Hereafter."
+          "auteur": "Saheeh International",
+          "texte": "Who establish prayer and give zakah, and they, of the Hereafter, are certain [in faith]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onlar, namazı dosdoğru kılan, zekâtı veren ve ahirete de kesin olarak inanan kimselerdir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O kimseler namazı kılarlar, zekatı verirler; ahirete de yakinen inanırlar"
         }
       },
       "mots": [
@@ -186,16 +188,16 @@ const S031 = {
       "translit": "Ūlāʾika ʿalā hudanā min rabbihim waʾūlāʾika humu l-mufliḥūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ceux-là sont sur une guidance de leur Seigneur, et ceux-là sont les triomphants."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ceux-là sont sur le chemin droit de leur Seigneur et ce sont eux les bienheureux"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Those are upon guidance from their Lord, and those are the successful."
+          "auteur": "Saheeh International",
+          "texte": "Those are on [right] guidance from their Lord, and it is those who are the successful"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte onlar, Rablerinden gelen bir hidayet üzeredirler ve işte onlar kurtuluşa erenlerdir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İşte onlar Rablerinin yolunda olanlardır, işte onlar saadete erenlerdir"
         }
       },
       "mots": [
@@ -264,16 +266,16 @@ const S031 = {
       "translit": "Wamina n-nāsi man yashtarī lahwa l-ḥadīthi liyuḍilla ʿan sabīli llāhi bighayri ʿilmin wayattakhidhahā huzuwan ūlāʾika lahum ʿadhābun muhīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Parmi les hommes, il en est qui achètent des discours frivoles pour égarer du chemin d'Allah, sans science, et le tourner en dérision : ceux-là auront un châtiment avilissant."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et, parmi les hommes, il est [quelqu'un] qui, dénué de science, achète de plaisants discours pour égarer hors du chemin d'Allah et pour le prendre en raillerie. Ceux-là subiront un châtiment avilissant"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And among the people is he who buys idle talk to mislead from the way of Allah, without knowledge, and takes it in mockery: those will have a humiliating punishment."
+          "auteur": "Saheeh International",
+          "texte": "And of the people is he who buys the amusement of speech to mislead [others] from the way of Allah without knowledge and who takes it in ridicule. Those will have a humiliating punishment"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İnsanlardan öylesi vardır ki, bilgisizce Allah'ın yolundan saptırmak ve o yolu alaya almak için boş sözü satın alır. İşte onlar için aşağılayıcı bir azap vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsanlar arasında, bir bilgisi olmadığı halde Allah yolundan saptırmak için gerçeği boş sözlerle değişenler ve Allah yolunu alaya alanlar vardır. İşte alçaltıcı azap bunlar içindir"
         }
       },
       "mots": [
@@ -377,16 +379,16 @@ const S031 = {
       "translit": "Waʾidhā tutlā ʿalayhi āyātunā wallā mustakbiran kaʾan lam yasmaʿhā kaʾanna fī udhunayhi waqran fabashshirhu biʿadhābin alīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand Nos versets lui sont récités, il tourne le dos avec orgueil, comme s'il ne les avait pas entendus, comme s'il y avait une surdité dans ses oreilles : annonce-lui donc un châtiment douloureux."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et quand on lui récite Nos versets, il tourne le dos avec orgueil, comme s'il ne les avait point entendus, comme s'il y avait un poids dans ses oreilles. Fais-lui donc l'annonce d'un châtiment douloureux"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And when Our verses are recited to him, he turns away arrogantly, as if he had not heard them, as if in his ears was deafness: so give him tidings of a painful punishment."
+          "auteur": "Saheeh International",
+          "texte": "And when our verses are recited to him, he turns away arrogantly as if he had not heard them, as if there was in his ears deafness. So give him tidings of a painful punishment"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ona âyetlerimiz okunduğunda, sanki onları işitmemiş, sanki kulaklarında bir ağırlık varmış gibi büyüklük taslayarak yüz çevirir. İşte ona elem verici bir azabı müjdele!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ayetlerimiz sapık kimseye okunduğu zaman sanki kulaklarında ağırlık var da işitmiyormuş gibi büyüklenerek sırt çevirir. İşte ona can yakıcı azabı müjde et"
         }
       },
       "mots": [
@@ -455,16 +457,16 @@ const S031 = {
       "translit": "Inna lladhīna āmanū waʿamilū ṣ-ṣāliḥāti lahum jannātu n-naʿīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ceux qui croient et font le bien auront les Jardins du délice,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ceux qui croient et accomplissent les bonnes œuvres auront les Jardins des délices"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Surely those who believe and do righteousness will have the Gardens of Pleasure,"
+          "auteur": "Saheeh International",
+          "texte": "Indeed, those who believe and do righteous deeds - for them are the Gardens of Pleasure"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Şüphesiz iman edip salih ameller işleyenler için Naîm cennetleri vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnanıp yararlı iş işleyenler için, Allah'ın vadi gereğince temelli kalacakları nimet cennetleri vardır. O; güçlüdür, hakim'dir"
         }
       },
       "mots": [
@@ -512,16 +514,16 @@ const S031 = {
       "translit": "Khālidīna fīhā waʿda llāhi ḥaqqan wahuwa l-ʿazīzu l-ḥakīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "où ils demeureront à jamais — promesse d'Allah, en toute vérité. Il est le Puissant, le Sage."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "pour y demeurer éternellement, - c'est en vérité une promesse d'Allah-. C'est Lui le Puissant, le Sage"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "abiding therein forever — the promise of Allah in truth. And He is the Mighty, the Wise."
+          "auteur": "Saheeh International",
+          "texte": "Wherein they abide eternally; [it is] the promise of Allah [which is] truth. And He is the Exalted in Might, the Wise"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onlar orada ebedî kalacaklardır. Allah'ın vaadi gerçektir. O, mutlak güç sahibidir, hüküm ve hikmet sahibidir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnanıp yararlı iş işleyenler için, Allah'ın vadi gereğince temelli kalacakları nimet cennetleri vardır. O; güçlüdür, hakim'dir"
         }
       },
       "mots": [
@@ -576,16 +578,16 @@ const S031 = {
       "translit": "Khalaqa s-samāwāti bighayri ʿamadin tarawnahā waʾalqā fī l-ʾarḍi rawāsiya an tamīda bikum wabaththa fīhā min kulli dābbatin waʾanzalnā mina s-samāʾi māʾan faʾanbatnā fīhā min kulli zawjin karīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il a créé les cieux sans piliers que vous puissiez voir. Il a jeté sur la terre des ancrages, de peur qu'elle ne branle avec vous ; et Il y a disséminé toutes sortes de bêtes. Nous avons fait descendre du ciel une eau, et fait pousser dans la terre toute espèce généreuse."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il a créé les cieux sans piliers que vous puissiez voir; et Il a enfoncé des montagnes fermes dans la terre pour l'empêcher de basculer avec vous; et Il y a propagé des animaux de toute espèce. Et du ciel, Nous avons fait descendre une eau, avec laquelle Nous avons fait pousser des plantes productives par couples de toute espèce"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "He created the heavens without pillars that you can see. And He cast into the earth firm mountains, lest it shake with you; and He dispersed therein all kinds of creatures. And We sent down water from the sky, and made grow therein every noble kind."
+          "auteur": "Saheeh International",
+          "texte": "He created the heavens without pillars that you see and has cast into the earth firmly set mountains, lest it should shift with you, and dispersed therein from every creature. And We sent down rain from the sky and made grow therein [plants] of every noble kind"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah, gökleri gördüğünüz herhangi bir direk olmadan yükseltti. Yeryüzüne de, sizi sarsmasın diye sabit dağlar yerleştirdi ve orada her türlü canlıyı yaydı. Gökten su indirip orada her türden güzel bitki bitirdik."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah gökleri gördüğünüz gibi direksiz yaratmış, sizi sallar diye yeryüzüne sabit dağlar koymuş; orada her türlü canlıyı yaymıştır. Gökten su indirip orada her hoş çiftten yetiştirmişizdir"
         }
       },
       "mots": [
@@ -724,16 +726,16 @@ const S031 = {
       "translit": "Hādhā khalqu llāhi faʾarūnī mādhā khalaqa lladhīna min dūnihī bali ẓ-ẓālimūna fī ḍalālin mubīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Voilà la création d'Allah : montrez-moi donc ce qu'ont créé ceux qui sont en dehors de Lui ! Non ! Les injustes sont dans un égarement évident."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "«Voilà la création d'Allah. Montrez-Moi donc ce qu'ont créé, ceux qui sont en dehors de Lui?» Mais les injustes sont dans un égarement évident"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "This is the creation of Allah: so show me what those besides Him have created! Rather, the wrongdoers are in clear error."
+          "auteur": "Saheeh International",
+          "texte": "This is the creation of Allah. So show Me what those other than Him have created. Rather, the wrongdoers are in clear error"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte bu, Allah'ın yarattığıdır. Şimdi bana O'ndan başkalarının ne yarattığını gösterin! Hayır! Zalimler apaçık bir sapıklık içindedirler."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İşte bu Allah'ın yaratışıdır. Ondan başkasının ne yarattığını Bana gösterin. Hayır; gösteremezler, zalimler apaçık sapıklık içindedir"
         }
       },
       "mots": [
@@ -816,16 +818,16 @@ const S031 = {
       "translit": "Walaqad ātaynā luqmāna l-ḥikmata ani shkur lillāhi waman yashkur faʾinnamā yashkuru linafsihī waman kafara faʾinna llāha ghaniyyun ḥamīd",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nous avons donné à Luqmān la sagesse : « Sois reconnaissant envers Allah ! Quiconque est reconnaissant l'est pour lui-même ; et quiconque est ingrat... Allah est certes le Riche, le Digne de louange. »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Nous avons effectivement donné à Luqmân la sagesse: «Sois reconnaissant à Allah, car quiconque est reconnaissant, n'est reconnaissant que pour soi-même; quant à celui qui est ingrat... En vérité, Allah se dispense de tout, et Il est digne de louange»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And We certainly gave Luqman wisdom: 'Be grateful to Allah! And whoever is grateful is grateful for his own soul; and whoever is ungrateful — surely Allah is the Free of need, the Praiseworthy.'"
+          "auteur": "Saheeh International",
+          "texte": "And We had certainly given Luqman wisdom [and said], \"Be grateful to Allah.\" And whoever is grateful is grateful for [the benefit of] himself. And whoever denies [His favor] - then indeed, Allah is Free of need and Praiseworthy"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Andolsun, Biz Lokman'a: 'Allah'a şükret!' diye hikmet verdik. Kim şükrederse, ancak kendisi için şükretmiş olur. Kim de nankörlük ederse, bilsin ki Allah hiçbir şeye muhtaç değildir, övülmeye lâyıktır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "And olsun ki, Lokman'a, Allah'a şükretmesi için hikmet verdik. Şükreden kimse ancak kendisi için şükretmiş olur. Nankörlük eden ise, bilsin ki, Allah her şeyden müstağnidir, övülmeğe layık olandır"
         }
       },
       "mots": [
@@ -923,16 +925,16 @@ const S031 = {
       "translit": "Waʾidh qāla luqmānu libnihī wahuwa yaʿiẓuhū yābunayya lā tushrik billāhi inna sh-shirka laẓulmun ʿaẓīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et quand Luqmān dit à son fils, en l'exhortant : « Ô mon fils, n'associe rien à Allah : l'association est certes une injustice immense. »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et lorsque Luqmân dit à son fils tout en l'exhortant: «O mon fils, ne donne pas d'associé à Allah, car l'association à [Allah] est vraiment une injustice énorme.»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And when Luqman said to his son, while instructing him: 'O my son, do not associate anything with Allah: surely association is a great injustice.'"
+          "auteur": "Saheeh International",
+          "texte": "And [mention, O Muhammad], when Luqman said to his son while he was instructing him, \"O my son, do not associate [anything] with Allah. Indeed, association [with him] is great injustice"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hani Lokman, oğluna öğüt vererek: 'Yavrucuğum! Allah'a ortak koşma! Çünkü ortak koşmak, gerçekten büyük bir zulümdür' demişti."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Lokman, oğluna öğüt vererek: \"Ey oğulcuğum! Allah'a eş koşma, doğrusu eş koşmak büyük zulümdür\" demişti"
         }
       },
       "mots": [
@@ -1008,16 +1010,16 @@ const S031 = {
       "translit": "Wawaṣṣaynā l-ʾinsāna biwālidayhi ḥamalathu ummuhū wahnan ʿalā wahnin wafiṣāluhū fī ʿāmayni ani shkur lī waliwālidayka ilayya l-maṣīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nous avons recommandé à l'homme au sujet de ses parents — sa mère l'a porté, subissant peine sur peine, et son sevrage a lieu à deux ans — : « Sois reconnaissant envers Moi et envers tes parents : vers Moi est la destination."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Nous avons commandé à l'homme [la bienfaisance envers] ses père et mère; sa mère l'a porté [subissant pour lui] peine sur peine: son sevrage a lieu à deux ans. «Sois reconnaissant envers Moi ainsi qu'envers tes parents. Vers Moi est la destination"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And We have enjoined upon man concerning his parents — his mother carried him, weakness upon weakness, and his weaning is in two years — : 'Be grateful to Me and to your parents: to Me is the destination.'"
+          "auteur": "Saheeh International",
+          "texte": "And We have enjoined upon man [care] for his parents. His mother carried him, [increasing her] in weakness upon weakness, and his weaning is in two years. Be grateful to Me and to your parents; to Me is the [final] destination"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Biz insana, anne babasına iyi davranmasını emrettik. Annesi onu, güçsüzlük üstüne güçsüzlükle karnında taşımıştır. Onun sütten kesilmesi de iki yıl içindedir. 'Bana ve anne babana şükret!' diye emrettik. Dönüş yalnız Banadır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Biz insana, ana ve babasına karşı iyi davranmasını tavsiye etmişizdir. Annesi onu, güçsüzlükten güçsüzlüğe uğrayarak karnında taşımıştı. Çocuğun sütten kesilmesi iki yıl içinde olur. Bana ve ana babana şükret diye tavsiyede bulunmuşuzdur. Dönüş Bana'dır"
         }
       },
       "mots": [
@@ -1066,16 +1068,16 @@ const S031 = {
       "translit": "Waʾin jāhadāka ʿalā an tushrika bī mā laysa laka bihī ʿilmun falā tuṭiʿhumā waṣāḥibhumā fī d-dunyā maʿrūfan wattabiʿ sabīla man anāba ilayya thumma ilayya marjiʿukum faʾunabbiʾukum bimā kuntum taʿmalūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Mais s'ils te forcent à M'associer ce dont tu n'as aucune science, ne leur obéis pas ; et accompagne-les ici-bas avec bienveillance. Suis le chemin de celui qui revient à Moi. Puis, vers Moi sera votre retour, et Je vous informerai de ce que vous faisiez. »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et si tous deux te forcent à M'associer ce dont tu n'as aucune connaissance, alors ne leur obéis pas; mais reste avec eux ici-bas de façon convenable. Et suis le sentier de celui qui se tourne vers Moi. Vers Moi, ensuite, est votre retour, et alors Je vous informerai de ce que vous faisiez»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "But if they strive to make you associate with Me that of which you have no knowledge, do not obey them; and accompany them in this world with kindness. And follow the way of one who turns back to Me. Then to Me is your return, and I will inform you of what you used to do.'"
+          "auteur": "Saheeh International",
+          "texte": "But if they endeavor to make you associate with Me that of which you have no knowledge, do not obey them but accompany them in [this] world with appropriate kindness and follow the way of those who turn back to Me [in repentance]. Then to Me will be your return, and I will inform you about what you used to do"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Eğer, hakkında hiçbir bilgin olmayan bir şeyi Bana ortak koşman için seninle uğraşırlarsa, onlara itaat etme! Fakat dünyada onlarla iyi geçin! Bana yönelenlerin yoluna uy! Sonunda dönüşünüz ancak Banadır. O zaman size, yaptıklarınızı haber vereceğim."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey insanoğlu! Ana baba, seni, körü körüne Bana ortak koşman için zorlarlarsa, onlara itaat etme; dünya işlerinde onlarla güzel geçin; Bana yönelen kimsenin yoluna uy; sonunda dönüşünüz Bana'dır. O zaman, yaptıklarınızı size bildiririm"
         }
       },
       "mots": [
@@ -1221,16 +1223,16 @@ const S031 = {
       "translit": "Yābunayya innahā in taku mithqāla ḥabbatin min khardalin fatakun fī ṣakhratin aw fī s-samāwāti aw fī l-ʾarḍi yaʾti bihā llāhu inna llāha laṭīfun khabīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "« Ô mon fils, quand il s'agirait du poids d'un grain de moutarde, caché dans un rocher, dans les cieux ou dans la terre, Allah le fera venir : Allah est Subtil, Parfaitement-Informé."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "«O mon enfant, fût-ce le poids d'un grain de moutarde, au fond d'un rocher, ou dans les cieux ou dans la terre, Allah le fera venir. Allah est infiniment Doux et Parfaitement Connaisseur"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'O my son, even if it were the weight of a mustard seed, hidden within a rock, or in the heavens, or in the earth, Allah will bring it forth: surely Allah is Subtle, Aware.'"
+          "auteur": "Saheeh International",
+          "texte": "[And Luqman said], \"O my son, indeed if wrong should be the weight of a mustard seed and should be within a rock or [anywhere] in the heavens or in the earth, Allah will bring it forth. Indeed, Allah is Subtle and Acquainted"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'Yavrucuğum! Yaptığın iş bir hardal tanesi ağırlığında olsa da bir kayanın içinde, göklerde yahut yerin içinde bulunsa, Allah onu getirir. Şüphesiz Allah en gizli şeyleri bilendir, her şeyden hakkıyla haberdardır.'"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Lokman: \"Ey oğulcuğum! İşlediğin şey, bir hardal tanesi ağırlığınca olsa da, bir kayanın içinde veya göklerde yahut yerin derinliklerinde bulunsa, Allah onu getirip meydana kor. Doğrusu Allah Latif'tir, haberdardır"
         }
       },
       "mots": [
@@ -1348,16 +1350,16 @@ const S031 = {
       "translit": "Yābunayya aqimi ṣ-ṣalawāta waʾmur bil-maʿrūfi wanha ʿani l-munkari waṣbir ʿalā mā aṣābaka inna dhālika min ʿazmi l-ʾumūr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ô mon fils, accomplis la prière, ordonne le convenable, interdis le blâmable, et endure ce qui t'atteint : cela relève de la fermeté dans les affaires."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "O mon enfant accomplis la Salât, commande le convenable, interdis le blâmable et endure ce qui t'arrive avec patience. Telle est la résolution à prendre dans toute entreprise"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you: surely that is of the matters requiring resolve.'"
+          "auteur": "Saheeh International",
+          "texte": "O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you. Indeed, [all] that is of the matters [requiring] determination"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'Yavrucuğum! Namazı dosdoğru kıl! İyiliği emret, kötülükten alıkoy! Başına gelene sabret! Çünkü bunlar, kararlılık gerektiren işlerdendir.'"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey oğulcuğum! Namazı kıl, uygun olanı buyurup fenalığı önle, başına gelene sabret; doğrusu bunlar, azmedilmeğe değer işlerdir"
         }
       },
       "mots": [
@@ -1447,16 +1449,16 @@ const S031 = {
       "translit": "Walā tuṣaʿʿir khaddaka lilnnāsi walā tamshi fī l-ʾarḍi maraḥan inna llāha lā yuḥibbu kulla mukhtālin fakhūr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ne détourne pas ton visage des gens par mépris, et ne marche pas sur terre avec insolence : Allah n'aime aucun présomptueux plein de gloriole."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et ne détourne pas ton visage des hommes, et ne foule pas la terre avec arrogance: car Allah n'aime pas le présomptueux plein de gloriole"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'And do not turn your cheek away from people in contempt, and do not walk through the earth exultantly: surely Allah does not like any self-deluded boaster.'"
+          "auteur": "Saheeh International",
+          "texte": "And do not turn your cheek [in contempt] toward people and do not walk through the earth exultantly. Indeed, Allah does not like everyone self-deluded and boastful"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'Küçümseyerek insanlardan yüz çevirme ve yeryüzünde böbürlenerek yürüme! Çünkü Allah, kendini beğenip böbürlenen hiç kimseyi sevmez.'"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsanları küçümseyip yüz çevirme, yeryüzünde böbürlenerek yürüme; Allah, kendini beğenip övünen hiç kimseyi şüphesiz ki sevmez"
         }
       },
       "mots": [
@@ -1540,16 +1542,16 @@ const S031 = {
       "translit": "Waqṣid fī mashyika waghḍuḍ min ṣawtika inna ankara l-ʾaṣwāti laṣawtu l-ḥamīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sois modéré dans ta démarche, et baisse de ta voix : la plus détestable des voix est bien la voix des ânes. »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Sois modeste dans ta démarche, et baisse ta voix, car la plus détestée des voix, c'est bien la voix des ânes»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'And be moderate in your pace, and lower your voice: surely the most disagreeable of voices is the voice of donkeys.'"
+          "auteur": "Saheeh International",
+          "texte": "And be moderate in your pace and lower your voice; indeed, the most disagreeable of sounds is the voice of donkeys"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "'Yürüyüşünde ölçülü ol! Sesini alçalt! Çünkü seslerin en çirkini, herhâlde eşeklerin sesidir.'"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Yürüyüşünde tabii ol; sesini kıs. Seslerin en çirkini şüphesiz merkeblerin sesidir"
         }
       },
       "mots": [
@@ -1590,16 +1592,16 @@ const S031 = {
       "translit": "Alam taraw anna llāha sakhkhara lakum mā fī s-samāwāti wamā fī l-ʾarḍi waʾasbagha ʿalaykum niʿamahū ẓāhiratan wabāṭinatan wamina n-nāsi man yujādilu fī llāhi bighayri ʿilmin walā hudanā walā kitābin munīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ne voyez-vous pas qu'Allah vous a soumis ce qui est dans les cieux et sur la terre, et a comblé sur vous Ses bienfaits, apparents et cachés ? Et parmi les hommes, il en est qui disputent au sujet d'Allah sans science, sans guidance et sans Livre lumineux."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ne voyez-vous pas qu'Allah vous a assujetti ce qui est dans les cieux et sur la terre? Et Il vous a comblés de Ses bienfaits apparents et cachés. Et parmi les gens, il y en a qui disputent à propos d'Allah, sans science, ni guidée, ni Livre éclairant"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Do you not see that Allah has subjected to you what is in the heavens and the earth, and lavished upon you His favors, apparent and hidden? Yet among the people is he who disputes about Allah without knowledge, guidance, or an enlightening Book."
+          "auteur": "Saheeh International",
+          "texte": "Do you not see that Allah has made subject to you whatever is in the heavens and whatever is in the earth and amply bestowed upon you His favors, [both] apparent and unapparent? But of the people is he who disputes about Allah without knowledge or guidance or an enlightening Book [from Him]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Görmediniz mi, Allah göklerde ve yerde olanları emrinize vermiş; açık ve gizli olarak nimetlerini üzerinize bol bol yağdırmıştır. İnsanlardan öylesi de vardır ki, hiçbir bilgisi, yol göstericisi ve aydınlatıcı bir kitabı olmadan Allah hakkında tartışır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah'ın göklerde olanları da, yerde olanları da buyruğunuz altına verdiğini, nimetlerini açık ve gizli olarak size bolca ihsan ettiğini görmez misiniz? İnsanlardan, Allah hakkında hiçbir bilgisi olmadan, doğruluk rehberi ve aydınlatıcı bir Kitap bulunmadan tartışanlar vardır"
         }
       },
       "mots": [
@@ -1759,16 +1761,16 @@ const S031 = {
       "translit": "Waʾidhā qīla lahumu ttabiʿū mā anzala llāhu qālū bal nattabiʿu mā wajadnā ʿalayhi ābāʾanā awalaw kāna sh-shayṭānu yadʿūhum ilā ʿadhābi s-saʿīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand on leur dit : « Suivez ce qu'Allah a fait descendre », ils disent : « Non ! Nous suivrons plutôt ce sur quoi nous avons trouvé nos pères. » Et si Satan les appelait au châtiment de la Fournaise ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et quand on leur dit: «Suivez ce qu'Allah a fait descendre», ils disent: «Nous suivons plutôt ce sur quoi nous avons trouvé nos ancêtres». Est-ce donc même si le Diable les appelait au châtiment de la fournaise"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And when it is said to them: 'Follow what Allah has revealed', they say: 'Rather, we will follow that on which we found our fathers.' Even if Satan was calling them to the punishment of the Blaze?"
+          "auteur": "Saheeh International",
+          "texte": "And when it is said to them, \"Follow what Allah has revealed,\" they say, \"Rather, we will follow that upon which we found our fathers.\" Even if Satan was inviting them to the punishment of the Blaze"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onlara: 'Allah'ın indirdiğine uyun!' denildiğinde: 'Hayır! Biz atalarımızı üzerinde bulduğumuz yola uyarız' derler. Şeytan, kendilerini alevli ateşin azabına çağırıyor olsa da mı?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlara, \"Allah'ın indirdiğine uyun\" denince: \"Babalarımızı üzerinde bulduğumuz yola uyarız\" derler. Ya şeytan, babalarını alevli ateşin azabına çağırmışsa"
         }
       },
       "mots": [
@@ -1872,16 +1874,16 @@ const S031 = {
       "translit": "Waman yuslim wajhahū ilā llāhi wahuwa muḥsinun faqadi stamsaka bil-ʿurwati l-wuthqā waʾilā llāhi ʿāqibatu l-ʾumūr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quiconque soumet son visage à Allah tout en faisant le bien s'est saisi de l'anse la plus solide. Et c'est vers Allah que revient l'issue de toute affaire."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et quiconque soumet son être à Allah, tout en étant bienfaisant, s'accroche réellement à l'anse la plus ferme. La fin de toute chose appartient à Allah"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And whoever submits his face to Allah while being a doer of good has grasped the most trustworthy handhold. And to Allah is the outcome of all matters."
+          "auteur": "Saheeh International",
+          "texte": "And whoever submits his face to Allah while he is a doer of good - then he has grasped the most trustworthy handhold. And to Allah will be the outcome of [all] matters"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kim iyilik yaparak kendini Allah'a teslim ederse, şüphesiz en sağlam kulpa tutunmuş olur. Bütün işlerin sonu Allah'a varır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İyilik yaparak kendini Allah'a veren kimse, şüphesiz en sağlam kulpa sarılmış olur. İşlerin sonucu Allah'a aittir"
         }
       },
       "mots": [
@@ -1950,16 +1952,16 @@ const S031 = {
       "translit": "Waman kafara falā yaḥzunka kufruhū ilaynā marjiʿuhum fanunabbiʾuhum bimā ʿamilū inna llāha ʿalīmu bidhāti ṣ-ṣudūr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et quiconque mécroit, que sa mécréance ne t'afflige pas : vers Nous est leur retour, et Nous les informerons de ce qu'ils faisaient. Allah connaît parfaitement le contenu des poitrines."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Celui qui a mécru, que sa mécréance ne t'afflige pas: vers Nous sera leur retour et Nous les informerons de ce qu'ils faisaient. Allah connaît bien le contenu des poitrines"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And whoever disbelieves, let not his disbelief grieve you: to Us is their return, and We will inform them of what they did. Surely Allah is Knowing of what is within the breasts."
+          "auteur": "Saheeh International",
+          "texte": "And whoever has disbelieved - let not his disbelief grieve you. To Us is their return, and We will inform them of what they did. Indeed, Allah is Knowing of that within the breasts"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kim de inkâr ederse, onun inkârı seni üzmesin! Onların dönüşü ancak Bizedir. Biz de onlara yaptıklarını haber veririz. Şüphesiz Allah, kalplerin özünü hakkıyla bilendir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnkar edenin inkarcılığı seni üzmesin; onların dönüşü Bize'dir; o zaman, yaptıklarını kendilerine haber veririz. Allah, kalblerde olanı şüphesiz bilir"
         }
       },
       "mots": [
@@ -2021,16 +2023,16 @@ const S031 = {
       "translit": "Numattiʿuhum qalīlan thumma naḍṭarruhum ilā ʿadhābin ghalīẓ",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nous leur donnons jouissance pour un peu de temps, puis Nous les contraindrons à un châtiment rigoureux."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Nous leur donnons de la jouissance pour peu de temps; ensuite Nous les forcerons vers un dur châtiment"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "We grant them enjoyment for a little, then We will force them into a severe punishment."
+          "auteur": "Saheeh International",
+          "texte": "We grant them enjoyment for a little; then We will force them to a massive punishment"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onları biraz faydalandırırız. Sonra da onları ağır bir azaba sürükleriz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onları az bir süre geçindiririz, sonra da ağır bir azaba sürükleriz"
         }
       },
       "mots": [
@@ -2071,16 +2073,16 @@ const S031 = {
       "translit": "Walaʾin saʾaltahum man khalaqa s-samāwāti wal-ʾarḍa layaqūlunna llāhu quli l-ḥamdu lillāhi bal aktharuhum lā yaʿlamūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Si tu leur demandes : « Qui créa les cieux et la terre ? », ils diront certes : « Allah ! » Dis : « Louange à Allah ! » Mais la plupart d'entre eux ne savent pas."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Si tu leur demandes: «Qui a créé les cieux et la terre?», ils diront, certes: «Allah!» Dis: «Louange à Allah!». Mais la plupart d'entre eux ne savent pas"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And if you ask them: 'Who created the heavens and the earth?', they will surely say: 'Allah!' Say: 'Praise be to Allah!' But most of them do not know."
+          "auteur": "Saheeh International",
+          "texte": "And if you asked them, \"Who created the heavens and earth?\" they would surely say, \"Allah.\" Say, \"[All] praise is [due] to Allah \"; but most of them do not know"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Andolsun, onlara: 'Gökleri ve yeri kim yarattı?' diye sorsan, mutlaka: 'Allah!' derler. De ki: 'Hamd, Allah'a mahsustur.' Fakat onların çoğu bilmezler."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "And olsun ki onlara: \"Gökleri ve yeri yaratan kimdir?\" diye sorsan, \"Allah'tır\" derler. De ki: \"Hamd Allah'a mahsustur\", ama çoğu bilmezler"
         }
       },
       "mots": [
@@ -2170,16 +2172,16 @@ const S031 = {
       "translit": "Lillāhi mā fī s-samāwāti wal-ʾarḍi inna llāha huwa l-ghaniyyu l-ḥamīd",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "À Allah appartient ce qui est dans les cieux et sur la terre : Allah est le Riche, le Digne de louange."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "A Allah appartient tout ce qui est dans les cieux et en terre. Allah est Celui qui se suffit à Lui-même, Il est Le Digne de louange"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "To Allah belongs whatever is in the heavens and the earth: surely Allah is the Free of need, the Praiseworthy."
+          "auteur": "Saheeh International",
+          "texte": "To Allah belongs whatever is in the heavens and earth. Indeed, Allah is the Free of need, the Praiseworthy"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Göklerde ve yerde ne varsa Allah'ındır. Şüphesiz Allah, hiçbir şeye muhtaç değildir, övülmeye lâyıktır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Göklerde ve yerde olanlar Allah'ındır. Şüphesiz Allah müstağnidir, övülmeğe layıktır"
         }
       },
       "mots": [
@@ -2255,16 +2257,16 @@ const S031 = {
       "translit": "Walaw annamā fī l-ʾarḍi min shajaratin aqlāmun wal-baḥru yamudduhū min baʿdihī sabʿatu abḥurin mā nafidat kalimātu llāhi inna llāha ʿazīzun ḥakīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Si tous les arbres de la terre étaient des calames, et si la mer, grossie de sept autres mers, était de l'encre, les paroles d'Allah ne s'épuiseraient pas : Allah est certes Puissant, Sage."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quand bien même tous les arbres de la terre se changeraient en calames [plumes pour écrire], quand bien même l'océan serait un océan d'encre où conflueraient sept autres océans, les paroles d'Allah ne s'épuiseraient pas. Car Allah est Puissant et Sage"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And if all the trees on earth were pens, and the sea, replenished by seven more seas, were ink, the words of Allah would not be exhausted: surely Allah is Mighty, Wise."
+          "auteur": "Saheeh International",
+          "texte": "And if whatever trees upon the earth were pens and the sea [was ink], replenished thereafter by seven [more] seas, the words of Allah would not be exhausted. Indeed, Allah is Exalted in Might and Wise"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Eğer yeryüzündeki ağaçlar kalem, deniz de arkasından yedi deniz katılarak mürekkep olsa, yine de Allah'ın kelimeleri tükenmez. Şüphesiz Allah, mutlak güç sahibidir, hüküm ve hikmet sahibidir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Eğer yeryüzündeki ağaçlar kalem olsa, denizler mürekkep olsa ve yedi misli deniz de yedekte bulunup yazılsa yine de Allah'ın sözleri bitmezdi. Doğrusu Allah güçlüdür, hakim'dir"
         }
       },
       "mots": [
@@ -2362,16 +2364,16 @@ const S031 = {
       "translit": "Mā khalqukum walā baʿthukum illā kanafsin wāḥidatin inna llāha samīʿu baṣīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Votre création et votre résurrection, à tous, ne sont que comme celles d'une seule âme : Allah est certes Audient, Clairvoyant."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Votre création et votre résurrection [à tous] sont [aussi faciles à Allah] que s'il s'agissait d'une seule âme. Certes Allah est Audient et Clairvoyant"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Your creation and your resurrection, all of you, are but as that of a single soul: surely Allah is Hearing, Seeing."
+          "auteur": "Saheeh International",
+          "texte": "Your creation and your resurrection will not be but as that of a single soul. Indeed, Allah is Hearing and Seeing"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sizin yaratılmanız da diriltilmeniz de ancak tek bir kişinin yaratılması ve diriltilmesi gibidir. Şüphesiz Allah hakkıyla işitendir, hakkıyla görendir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey insanlar! Sizin yaratılmanız ve tekrar dirilmeniz tek bir nefsin yaratılması ve tekrar diriltilmesi gibidir. Şüphesiz Allah işitendir, görendir"
         }
       },
       "mots": [
@@ -2440,16 +2442,16 @@ const S031 = {
       "translit": "Alam tara anna llāha yūliju llayla fī n-nahāri wayūliju n-nahāra fī llayli wasakhkhara sh-shamsa wal-qamara kullun yajrī ilā ajalin musammanā waʾanna llāha bimā taʿmalūna khabīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "N'as-tu pas vu qu'Allah fait pénétrer la nuit dans le jour et le jour dans la nuit, qu'Il a assujetti le soleil et la lune, chacun courant vers un terme fixé, et qu'Allah est parfaitement informé de ce que vous faites ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "N'as-tu pas vu qu'Allah fait pénétrer la nuit dans le jour, et qu'il fait pénétrer le jour dans la nuit, et qu'Il a assujetti le soleil et la lune chacun poursuivant sa course jusqu'à un terme fixé? Et Allah est Parfaitement Connaisseur de ce que vous faites"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Do you not see that Allah merges the night into the day and the day into the night, and has subjected the sun and the moon, each running for an appointed term, and that Allah is aware of what you do?"
+          "auteur": "Saheeh International",
+          "texte": "Do you not see that Allah causes the night to enter the day and causes the day to enter the night and has subjected the sun and the moon, each running [its course] for a specified term, and that Allah, with whatever you do, is Acquainted"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Görmedin mi, Allah geceyi gündüze, gündüzü de geceye katar. Güneşi ve ayı da buyruğu altına almıştır. Her biri belli bir süreye kadar akıp gider. Şüphesiz Allah, yaptıklarınızdan hakkıyla haberdardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah'ın geceyi gündüze ve gündüzü geceye kattığını, her biri belirli bir süreye kadar hareket edecek olan güneşi ve ayı buyruk altında tuttuğunu; Allah'ın, yaptıklarınızdan haberdar olduğunu bilmez misin"
         }
       },
       "mots": [
@@ -2588,16 +2590,16 @@ const S031 = {
       "translit": "Dhālika biʾanna llāha huwa l-ḥaqqu waʾanna mā yadʿūna min dūnihi l-bāṭilu waʾanna llāha huwa l-ʿaliyyu l-kabīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il en est ainsi parce qu'Allah est la Vérité, et que ce qu'ils invoquent en dehors de Lui est le faux, et parce qu'Allah est le Très-Haut, le Grand."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Il en est ainsi parce qu'Allah est la Vérité, et que tout ce qu'ils invoquent en dehors de Lui est le Faux, et qu'Allah, c'est Lui le Haut, le Grand"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "That is because Allah is the Truth, and what they invoke besides Him is falsehood, and because Allah is the Most High, the Grand."
+          "auteur": "Saheeh International",
+          "texte": "That is because Allah is the Truth, and that what they call upon other than Him is falsehood, and because Allah is the Most High, the Grand"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Bu böyledir. Çünkü Allah, hakkın ta kendisidir. O'nu bırakıp da yalvardıkları ise batılın ta kendisidir. Şüphesiz Allah, yücedir, büyüktür."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bu, Allah'ın hak olmasından ve O'ndan başka taptıkları şeylerin batıl olmasındandır. Doğrusu Allah yücedir, büyüktür"
         }
       },
       "mots": [
@@ -2701,16 +2703,16 @@ const S031 = {
       "translit": "Alam tara anna l-fulka tajrī fī l-baḥri biniʿmati llāhi liyuriyakum min āyātihī inna fī dhālika laʾyātin likulli ṣabbārin shakūr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "N'as-tu pas vu que le vaisseau vogue sur la mer par la grâce d'Allah, pour qu'Il vous montre de Ses signes ? Il y a bien là des signes pour tout être endurant, reconnaissant."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "N'as-tu pas vu que c'est par la grâce d'Allah que le vaisseau vogue dans la mer, afin qu'Il vous fasse voir de Ses merveilles? Il y a en cela des preuves pour tout homme patient et reconnaissant"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Do you not see that the ships sail through the sea by the grace of Allah, that He may show you of His signs? Surely in that are signs for every steadfast, grateful one."
+          "auteur": "Saheeh International",
+          "texte": "Do you not see that ships sail through the sea by the favor of Allah that He may show you of His signs? Indeed in that are signs for everyone patient and grateful"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Görmedin mi, gemiler, Allah'ın nimetiyle denizde akıp gidiyor. Bu, O'nun bazı âyetlerini size göstermesi içindir. Şüphesiz bunda çok sabreden, çok şükreden herkes için ibretler vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Gemilerin denizde Allah'ın lütfuyla yürüdüğünü görmez misin? Allah böylece size varlığının delillerini gösterir. Bunlarda, pek sabırlı ve çok şükreden kimselerin hepsine dersler vardır"
         }
       },
       "mots": [
@@ -2814,16 +2816,16 @@ const S031 = {
       "translit": "Waʾidhā ghashiyahum mawjun kaẓ-ẓulali daʿawu llāha mukhliṣīna lahu d-dīna falammā najjāhum ilā l-barri faminhum muqtaṣidun wamā yajḥadu biʾāyātinā illā kullu khattārin kafūr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand une vague les recouvre comme des ombres, ils invoquent Allah, Lui vouant un culte sincère ; puis, lorsqu'Il les sauve vers la terre ferme, certains d'entre eux restent mitigés. Seul renie Nos signes tout perfide ingrat."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quand une vague les recouvre comme des ombres, ils invoquent Allah, vouant leur culte exclusivement à Lui; et lorsqu'Il les sauve, en les ramenant vers la terre ferme, certains d'entre eux deviennent réticents; mais, seul le grand traître et le grand ingrat renient Nos signes"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And when waves cover them like canopies, they call upon Allah, sincere to Him in religion; but when He delivers them to land, some of them are moderate. And none rejects Our signs except every treacherous ingrate."
+          "auteur": "Saheeh International",
+          "texte": "And when waves come over them like canopies, they supplicate Allah, sincere to Him in religion. But when He delivers them to the land, there are [some] of them who are moderate [in faith]. And none rejects Our signs except everyone treacherous and ungrateful"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Dalgalar, gölgelikler gibi onları kuşattığında, dini yalnız Allah'a has kılarak O'na yalvarırlar. Fakat Allah, onları kurtarıp karaya çıkardığında, içlerinden bir kısmı orta yolu tutar. Bizim âyetlerimizi ancak nankör hainler inkâr eder."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Dağlar gibi dalgalar insanları kuşattığı zaman, dini tamamen Allah'a has kılarak O'na yalvarırlar; onları karaya çıkararak kurtardığında, içlerinden bir kısmı doğru yolda kalır. Zaten ayetlerimizi bilerek ancak hain nankörler inkar eder"
         }
       },
       "mots": [
@@ -2920,16 +2922,16 @@ const S031 = {
       "translit": "Yāʾayyuhā n-nāsu ttaqū rabbakum wakhshaw yawman lā yajzī wālidun ʿan waladihī walā mawlūdun huwa jāzin ʿan wālidihī shayʾan inna waʿda llāhi ḥaqqun falā taghurrannakumu l-ḥayawātu d-dunyā walā yaghurrannakum billāhi l-gharūr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ô hommes ! Craignez votre Seigneur, et redoutez un jour où nul père ne suffira à son enfant, ni nul enfant à son père en rien. La promesse d'Allah est vérité : que la vie d'ici-bas ne vous trompe pas, et que le grand trompeur ne vous trompe pas au sujet d'Allah."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "O hommes! Craignez votre Seigneur et redoutez un jour où le père ne répondra en quoi que ce soit pour son enfant, ni l'enfant pour son père. La promesse d'Allah est vérité. Que la vie présente ne vous trompe donc pas, et que le Trompeur (Satan) ne vous induise pas en erreur sur Allah"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O mankind! Fear your Lord, and dread a Day when no father will avail his child, nor any child will avail his father at all. Surely the promise of Allah is true: so let not the worldly life deceive you, nor let the deceiver deceive you about Allah."
+          "auteur": "Saheeh International",
+          "texte": "O mankind, fear your Lord and fear a Day when no father will avail his son, nor will a son avail his father at all. Indeed, the promise of Allah is truth, so let not the worldly life delude you and be not deceived about Allah by the Deceiver"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ey insanlar! Rabbinizden korkun! Hiçbir babanın çocuğuna hiçbir yararının olmayacağı, hiçbir çocuğun da babasına hiçbir yararının olmayacağı günden çekinin! Şüphesiz Allah'ın vaadi gerçektir. Sakın dünya hayatı sizi aldatmasın; o aldatıcı şeytan da Allah hakkında sizi kandırmasın!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey insanlar! Rabbinize karşı gelmekten sakının. Babanın oğlu, oğulun da babası için bir şey ödeyemeyeceği günden korkun. Allah'ın verdiği söz şüphesiz gerçektir. Dünya hayatı sakın sizi aldatmasın. Allah'ın affına güvendirerek şeytan sizi ayartmasın"
         }
       },
       "mots": [
@@ -3054,16 +3056,16 @@ const S031 = {
       "translit": "Inna llāha ʿindahū ʿilmu s-sāʿati wayunazzilu l-ghaytha wayaʿlamu mā fī l-ʾarḥāmi wamā tadrī nafsun mādhā taksibu ghadan wamā tadrī nafsu biʾayyi arḍin tamūtu inna llāha ʿalīmun khabīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "La science de l'Heure est certes auprès d'Allah. C'est Lui qui fait descendre la pluie, et Il sait ce qui est dans les matrices. Nulle âme ne sait ce qu'elle acquerra demain, et nulle âme ne sait sur quelle terre elle mourra. Allah est certes Omniscient, Parfaitement-Informé."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "La connaissance de l'Heure est auprès d'Allah; et c'est Lui qui fait tomber la pluie salvatrice; et Il sait ce qu'il y a dans les matrices. Et personne ne sait ce qu'il acquerra demain, et personne ne sait dans quelle terre il mourra. Certes, Allah est Omniscient et Parfaitement Connaisseur"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Surely with Allah is the knowledge of the Hour. And He sends down the rain, and He knows what is in the wombs. And no soul knows what it will earn tomorrow, and no soul knows in what land it will die. Surely Allah is Knowing, Aware."
+          "auteur": "Saheeh International",
+          "texte": "Indeed, Allah [alone] has knowledge of the Hour and sends down the rain and knows what is in the wombs. And no soul perceives what it will earn tomorrow, and no soul perceives in what land it will die. Indeed, Allah is Knowing and Acquainted"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kıyametin ne zaman kopacağı bilgisi şüphesiz yalnızca Allah katındadır. Yağmuru O yağdırır, rahimlerde olanı O bilir. Hiç kimse yarın ne kazanacağını bilemez. Hiç kimse hangi yerde öleceğini de bilemez. Şüphesiz Allah, hakkıyla bilendir, her şeyden haberdardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kıyamet saatini bilmek ancak Allah'a mahsustur. Yağmuru O indirir, rahimlerde bulunanı O bilir, kimse yarın ne kazanacağını bilmez ve hiç kimse nerede öleceğini bilemez. Allah şüphesiz bilendir, her şeyden haberdardır"
         }
       },
       "mots": [

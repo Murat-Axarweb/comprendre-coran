@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S099 = {
   "meta": {
     "numero": 99,
@@ -35,16 +37,16 @@ const S099 = {
       "translit": "Idhā zulzilati l-ʾarḍu zilzālahā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand la terre sera secouée de son séisme,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quand la terre tremblera d'un violent tremblement"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "When the earth is shaken with its quaking,"
+          "auteur": "Saheeh International",
+          "texte": "When the earth is shaken with its [final] earthquake"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yer o dehşetli sarsıntıyla sarsıldığında,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman"
         }
       },
       "mots": [
@@ -71,16 +73,16 @@ const S099 = {
       "translit": "Waʾakhrajati l-ʾarḍu athqālahā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et que la terre rejettera ses fardeaux,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et que la terre fera sortir ses fardeaux"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and the earth discharges its burdens,"
+          "auteur": "Saheeh International",
+          "texte": "And the earth discharges its burdens"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yer ağırlıklarını dışarı attığında,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman"
         }
       },
       "mots": [
@@ -100,16 +102,16 @@ const S099 = {
       "translit": "Waqāla l-ʾinsānu mā lahā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et que l'homme dira : « Qu'a-t-elle ? »,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et que l'homme dira: «Qu'a-t-elle?»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and man says: \"What is with it?\","
+          "auteur": "Saheeh International",
+          "texte": "And man says, \"What is [wrong] with it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve insan 'Ona ne oluyor?' dediğinde,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman"
         }
       },
       "mots": [
@@ -143,16 +145,16 @@ const S099 = {
       "translit": "Yawmaʾidhin tuḥaddithu akhbārahā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "ce jour-là, elle racontera son histoire,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "ce jour-là, elle contera son histoire"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "that Day it will relate its news,"
+          "auteur": "Saheeh International",
+          "texte": "That Day, it will report its news"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte o gün yer, haberlerini anlatır,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İşte o gün, yer, Rabbinin ona vahyetmesiyle kendi haberlerini anlatır"
         }
       },
       "mots": [
@@ -173,16 +175,16 @@ const S099 = {
       "translit": "Biʾanna rabbaka awḥā lahā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "parce que ton Seigneur le lui aura inspiré."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "selon ce que ton Seigneur lui aura révélé [ordonné]"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "because your Lord inspired it."
+          "auteur": "Saheeh International",
+          "texte": "Because your Lord has commanded it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Çünkü Rabbin ona vahyetmiştir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İşte o gün, yer, Rabbinin ona vahyetmesiyle kendi haberlerini anlatır"
         }
       },
       "mots": [
@@ -223,16 +225,16 @@ const S099 = {
       "translit": "Yawmaʾidhin yaṣduru n-nāsu ashtātan liyuraw aʿmālahum",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ce jour-là, les hommes surgiront par groupes séparés, pour que leur soient montrées leurs œuvres."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ce jour-là, les gens sortiront séparément pour que leur soient montrées leurs œuvres"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "That Day people will proceed in scattered groups to be shown their deeds."
+          "auteur": "Saheeh International",
+          "texte": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O gün insanlar, amelleri kendilerine gösterilsin diye bölük bölük çıkarlar."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "O gün insanlar işlerinin kendilerine gösterilmesi için bölük bölük dönerler"
         }
       },
       "mots": [
@@ -259,16 +261,16 @@ const S099 = {
       "translit": "Faman yaʿmal mithqāla dharratin khayran yarahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quiconque aura fait le poids d'un atome de bien le verra,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quiconque fait un bien fût-ce du poids d'un atome, le verra"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "So whoever does an atom's weight of good will see it,"
+          "auteur": "Saheeh International",
+          "texte": "So whoever does an atom's weight of good will see it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kim zerre ağırlığınca hayır yapmışsa onu görür,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kim zerre kadar iyilik yapmışsa onu görür"
         }
       },
       "mots": [
@@ -296,16 +298,16 @@ const S099 = {
       "translit": "Waman yaʿmal mithqāla dharratin sharran yarahū",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et quiconque aura fait le poids d'un atome de mal le verra."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et quiconque fait un mal fût-ce du poids d'un atome, le verra"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and whoever does an atom's weight of evil will see it."
+          "auteur": "Saheeh International",
+          "texte": "And whoever does an atom's weight of evil will see it"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kim de zerre ağırlığınca şer yapmışsa onu görür."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kim de zerre kadar kötülük yapmışsa onu görür"
         }
       },
       "mots": [

@@ -7,7 +7,7 @@ Plateforme web statique trilingue (**FR / EN / TR**) pour apprendre l'arabe cora
 ## Fonctionnalités
 
 - **Vocabulaire (1000 mots)** — les lemmes les plus fréquents du Coran, avec translittération scientifique, racine trilitère, thème, traductions FR/EN/TR, famille de mots et note de profondeur. Filtres par thème, recherche, tri, vues grille/liste, paliers de couverture du corpus (Top 10 → Top 1000).
-- **Sourates (114 — Coran complet)** — de la Fatiha à an-Nās : texte arabe (rasm uthmani simplifié), translittération, traductions pédagogiques originales en 3 langues, analyse mot à mot (complète sur les sourates courtes, partielle par appariement automatique au glossaire sur les plus longues), analyses de versets et résumé pédagogique (mots clés, racines, « déclic fréquence »).
+- **Sourates (114 — Coran complet)** — de la Fatiha à an-Nās : texte arabe (rasm uthmani simplifié), translittération, traductions de référence en 3 langues (Hamidullah, Saheeh International, Diyanet), analyse mot à mot (complète sur les sourates courtes, partielle par appariement automatique au glossaire sur les plus longues), analyses de versets et résumé pédagogique (mots clés, racines, « déclic fréquence »).
 - **Racines** — explorateur des ~600 racines trilitères du glossaire : fréquence cumulée, mots dérivés et familles.
 - **Exercices** — QCM de traduction et quiz d'identification de racine (plage de mots réglable, 10 questions), scores conservés localement.
 - **Progression** — mots appris, sourates lues et meilleurs scores stockés dans `localStorage` (module `data/progress.js`).
@@ -44,7 +44,11 @@ npx serve .        # ou : python3 -m http.server
 - Texte arabe et découpage issus du rasm uthmani (tanzil via quran-json), signes de pause retirés.
 - Translittérations générées par script (`build/extract.js`) selon une convention scientifique simplifiée — relecture humaine bienvenue.
 - Fréquences des mots 1–300 : compilées depuis les corpus classiques ; **fréquences 301–1000 : estimations à affiner**.
-- Traductions des versets : traductions pédagogiques originales « Comprendre le Coran » (non des citations de traducteurs publiés).
+- Traductions des versets : traductions publiées de référence, reproduites sans modification —
+  **français** Muhammad Hamidullah · **anglais** Saheeh International · **turc** Diyanet İşleri Başkanlığı.
+  Source : [quran-json](https://github.com/risan/quran-json) (données [Tanzil.net](https://tanzil.net)).
+  Conditions Tanzil : usage non commercial, reproduction verbatim, source indiquée et lien vers tanzil.net.
+  Le nom du traducteur est affiché sous chaque verset, et l'attribution figure en pied de page.
 - Gloses automatiques (sourates 36–102) : appariement par squelette consonantique contre le glossaire ; ~50 % des mots couverts, marge d'erreur possible sur les homographes — relecture recommandée.
 
 ## Feuille de route (Phase 2)

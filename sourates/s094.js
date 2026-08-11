@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S094 = {
   "meta": {
     "numero": 94,
@@ -35,16 +37,16 @@ const S094 = {
       "translit": "Alam nashraḥ laka ṣadrak",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "N'avons-Nous pas ouvert ta poitrine ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "N'avons-Nous pas ouvert pour toi ta poitrine"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Did We not expand your chest for you?"
+          "auteur": "Saheeh International",
+          "texte": "Did We not expand for you, [O Muhammad], your breast"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Senin göğsünü açıp genişletmedik mi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Senin gönlünü açmadık mı"
         }
       },
       "mots": [
@@ -72,16 +74,16 @@ const S094 = {
       "translit": "Wawaḍaʿnā ʿanka wizrak",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et déposé loin de toi ton fardeau,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et ne t'avons-Nous pas déchargé du fardeau"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And removed from you your burden,"
+          "auteur": "Saheeh International",
+          "texte": "And We removed from you your burden"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve yükünü üzerinden indirmedik mi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Belini büken yükünü üzerinden almadık mı"
         }
       },
       "mots": [],
@@ -93,16 +95,16 @@ const S094 = {
       "translit": "Alladhī anqaḍa ẓahrak",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qui pesait sur ton dos ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui accablait ton dos"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "which weighed down your back?"
+          "auteur": "Saheeh International",
+          "texte": "Which had weighed upon your back"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O, belini büken yükünü!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Belini büken yükünü üzerinden almadık mı"
         }
       },
       "mots": [
@@ -122,16 +124,16 @@ const S094 = {
       "translit": "Warafaʿnā laka dhikrak",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et n'avons-Nous pas élevé ta renommée ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et exalté pour toi ta renommée"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And raised high your renown?"
+          "auteur": "Saheeh International",
+          "texte": "And raised high for you your repute"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Senin şanını yüceltmedik mi?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Senin şanını yükseltmedik mi"
         }
       },
       "mots": [
@@ -152,16 +154,16 @@ const S094 = {
       "translit": "Faʾinna maʿa l-ʿusri yusrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Car avec la difficulté est une facilité."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "A côté de la difficulté est, certes, une facilité"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "So surely with hardship comes ease."
+          "auteur": "Saheeh International",
+          "texte": "For indeed, with hardship [will be] ease"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Demek ki zorlukla beraber bir kolaylık vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Elbette güçlükle beraber şüphesiz bir kolaylık vardır"
         }
       },
       "mots": [
@@ -195,16 +197,16 @@ const S094 = {
       "translit": "Inna maʿa l-ʿusri yusrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Oui, avec la difficulté est une facilité."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "A côté de la difficulté est, certes, une facilité"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Surely with hardship comes ease."
+          "auteur": "Saheeh International",
+          "texte": "Indeed, with hardship [will be] ease"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Evet, zorlukla beraber bir kolaylık vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Gerçekten, güçlükle beraber bir kolaylık vardır"
         }
       },
       "mots": [
@@ -238,16 +240,16 @@ const S094 = {
       "translit": "Faʾidhā faraghta fanṣab",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand tu es libéré, alors redresse-toi dans l'effort,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Quand tu te libères, donc, lève-toi"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "So when you are free, stand up in devotion,"
+          "auteur": "Saheeh International",
+          "texte": "So when you have finished [your duties], then stand up [for worship]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Öyleyse boş kaldığında hemen yeni bir işe koyul,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öyleyse, bir işi bitirince diğerine giriş"
         }
       },
       "mots": [
@@ -268,16 +270,16 @@ const S094 = {
       "translit": "Waʾilā rabbika farghab",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et vers ton Seigneur, porte tout ton désir."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et à ton Seigneur aspire"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and to your Lord direct your longing."
+          "auteur": "Saheeh International",
+          "texte": "And to your Lord direct [your] longing"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve yalnız Rabbine yönel!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ve ümit edeceğini yalnız Rabbinden iste"
         }
       },
       "mots": [

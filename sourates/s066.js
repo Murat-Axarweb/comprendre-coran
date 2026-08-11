@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S066 = {
   "meta": {
     "numero": 66,
@@ -35,16 +37,16 @@ const S066 = {
       "translit": "Yāʾayyuhā n-nabiyyu lima tuḥarrimu mā aḥalla llāhu laka tabtaghī marḍāta azwājika wallāhu ghafūrun raḥīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite, recherchant l'agrément de tes épouses ? Allah est Pardonneur, Très-Miséricordieux."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "O Prophète! Pourquoi, en recherchant l'agrément de tes femmes, t'interdis-tu ce qu'Allah t'a rendu licite? Et Allah est Pardonneur, Très Miséricordieux"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O Prophet! Why do you forbid what Allah has made lawful for you, seeking the approval of your wives? And Allah is Forgiving, Merciful."
+          "auteur": "Saheeh International",
+          "texte": "O Prophet, why do you prohibit [yourself from] what Allah has made lawful for you, seeking the approval of your wives? And Allah is Forgiving and Merciful"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ey Peygamber! Eşlerinin rızasını arayarak Allah'ın sana helâl kıldığı şeyi niçin sen kendine haram ediyorsun? Allah çok bağışlayandır, çok merhamet edendir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Eşlerinin rızasını gözeterek, Allah'ın sana helal kıldığı şeyi niçin kendine yasak ediyorsun? Allah bağışlayandır, acıyandır"
         }
       },
       "mots": [
@@ -106,16 +108,16 @@ const S066 = {
       "translit": "Qad faraḍa llāhu lakum taḥillata aymānikum wallāhu mawlākum wahuwa l-ʿalīmu l-ḥakīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah vous a prescrit le moyen de délier vos serments. Allah est votre Maître — et c'est Lui l'Omniscient, le Sage."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Allah vous a prescrit certes, de vous libérer de vos serments. Allah est votre Maître; et c'est Lui l'Omniscient, le Sage"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah has ordained for you the dissolution of your oaths. Allah is your Protector — and He is the Knowing, the Wise."
+          "auteur": "Saheeh International",
+          "texte": "Allah has already ordained for you [Muslims] the dissolution of your oaths. And Allah is your protector, and He is the Knowing, the Wise"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah, yeminlerinizi çözmeyi size meşru kılmıştır. Allah sizin dostunuzdur. O, hakkıyla bilendir, hüküm ve hikmet sahibidir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah şüphesiz size, yeminlerinizi keffaretle geri almanızı meşru kılmıştır. Allah sizin dostunuzdur. O, bilendir, Hakim'dir"
         }
       },
       "mots": [
@@ -184,16 +186,16 @@ const S066 = {
       "translit": "Waʾidh asarra n-nabiyyu ilā baʿḍi azwājihī ḥadīthan falammā nabbaʾat bihī waʾaẓharahu llāhu ʿalayhi ʿarrafa baʿḍahū waʾaʿraḍa ʿan baʿḍin falammā nabbaʾahā bihī qālat man anbaʾaka hādhā qāla nabbaʾaniya l-ʿalīmu l-khabīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand le Prophète confia un propos à l'une de ses épouses, et qu'elle le divulgua, Allah le lui dévoila : il en fit connaître une partie et en tut une autre. Quand il l'en informa, elle dit : « Qui t'en a informé ? » Il dit : « M'en a informé l'Omniscient, le Parfaitement-Informé. »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Lorsque le Prophète confia un secret à l'une de ses épouses et qu'elle l'eut divulgué et qu'Allah l'en eut informé, celui-ci en fit connaître une partie et passa sur une partie. Puis, quand il l'en eut informée elle dit: «Qui t'en a donné nouvelle?» Il dit: «C'est l'Omniscient, le Parfaitement Connaisseur qui m'en a avisé»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And when the Prophet confided a statement to one of his wives, and she disclosed it, Allah revealed it to him: he made known part of it and passed over part. When he informed her of it, she said: 'Who told you this?' He said: 'I was informed by the Knowing, the All-Aware.'"
+          "auteur": "Saheeh International",
+          "texte": "And [remember] when the Prophet confided to one of his wives a statement; and when she informed [another] of it and Allah showed it to him, he made known part of it and ignored a part. And when he informed her about it, she said, \"Who told you this?\" He said, \"I was informed by the Knowing, the Acquainted"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Hani Peygamber, eşlerinden birine gizli bir söz söylemişti. Fakat eşi o sözü başkasına haber verip Allah da bunu Peygambere açıklayınca, Peygamber bunun bir kısmını bildirmiş, bir kısmından da vazgeçmişti. Peygamber bunu ona haber verince eşi: 'Bunu sana kim bildirdi?' dedi. Peygamber: 'Bunu bana, hakkıyla bilen ve hakkıyla haberdar olan Allah haber verdi' dedi."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Peygamber, eşlerinden birine gizlice bir söz söylemişti. O, bunu Peygamberin diğer bir eşine haber verince, Allah da Peygambere durumu bildirmiş, o da bir kısmını yüzüne vurmuş bir kısmını yüzüne vurmaktan geri durmuştu. Eşine, gizlice söylediği şeyibaşkasına nakletmiş olduğunu bildirince, eşi: \"Bunu sana kim haber verdi?\" demiş, o da: \"Bana, herşeyi bilen ve herşeyden haberdar olan Allah haber verdi\" demişti"
         }
       },
       "mots": [
@@ -325,16 +327,16 @@ const S066 = {
       "translit": "In tatūbā ilā llāhi faqad ṣaghat qulūbukumā waʾin taẓāharā ʿalayhi faʾinna llāha huwa mawlāhu wajibrīlu waṣāliḥu l-muʾminīna wal-malāʾikatu baʿda dhālika ẓahīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Si vous revenez toutes deux à Allah... car vos cœurs ont bien dévié. Mais si vous vous liguez contre lui — alors Allah est son Maître, ainsi que Gabriel et les vertueux parmi les croyants ; et les anges, par surcroît, sont ses soutiens."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Si vous vous repentez à Allah c'est que vos cœurs ont fléchi. Mais si vous vous soutenez l'une l'autre contre le Prophète, alors ses alliés seront Allah, Gabriel et les vertueux d'entre les croyants, et les Anges sont par surcroît [son] soutien"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "If you both turn to Allah in repentance — for your hearts have indeed inclined. But if you support one another against him — then surely Allah is his Protector, and Gabriel and the righteous believers; and the angels besides are his supporters."
+          "auteur": "Saheeh International",
+          "texte": "If you two [wives] repent to Allah, [it is best], for your hearts have deviated. But if you cooperate against him - then indeed Allah is his protector, and Gabriel and the righteous of the believers and the angels, moreover, are [his] assistants"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Eğer ikiniz de Allah'a tövbe ederseniz ne iyi! Çünkü kalpleriniz kaydı. Ama ona karşı birbirinize arka çıkarsanız bilin ki Allah onun dostudur; Cebrail de, müminlerin salihleri de. Bunların ardından melekler de ona destektir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey Peygamber'in eşleri! Eğer ikiniz de Allah'a tevbe ederseniz, kaymış olan kalpleriniz düzelmiş olur. Eğer eşinizin aleyhinde yardımlaşarak bir şey yapmağa kalkarsanız, bilin ki Allah onun dostu, bundan başka Cebrail, iyi müminler ve melekler de yardımcısıdır"
         }
       },
       "mots": [
@@ -438,16 +440,16 @@ const S066 = {
       "translit": "ʿAsā rabbuhū in ṭallaqakunna an yubdilahū azwājan khayran minkunna muslimātin muʾminātin qānitātin tāʾibātin ʿābidātin sāʾiḥātin thayyibātin waʾabkārā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Il se peut que son Seigneur, s'il vous répudie, lui donne en échange des épouses meilleures que vous : soumises, croyantes, dévouées, repentantes, adoratrices, jeûneuses — déjà mariées ou vierges."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "S'Il vous répudie, il se peut que son Seigneur lui donne en échange des épouses meilleures que vous, musulmanes, croyantes, obéissantes, repentantes, adoratrices, jeûneuses, déjà mariées ou vierges"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Perhaps his Lord, if he divorced you, would give him in exchange wives better than you: submitting, believing, devout, repentant, worshipping, given to fasting — previously married or virgins."
+          "auteur": "Saheeh International",
+          "texte": "Perhaps his Lord, if he divorced you [all], would substitute for him wives better than you - submitting [to Allah], believing, devoutly obedient, repentant, worshipping, and traveling - [ones] previously married and virgins"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Eğer o sizi boşarsa, olur ki Rabbi ona sizin yerinize sizden daha hayırlı, Müslüman, mümin, itaatkâr, tövbekâr, ibadet eden, oruç tutan dul ve bakire eşler verir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey Peygamber'in eşleri! Eğer o sizi boşarsa, Rabbi ona; sizden daha iyi olan, kendini Allah'a veren, inanan, boyun eğen, tevbe eden, kulluk eden, oruç tutan, dul ve bakire eşler verebilir"
         }
       },
       "mots": [
@@ -488,16 +490,16 @@ const S066 = {
       "translit": "Yāʾayyuhā lladhīna āmanū qū anfusakum waʾahlīkum nāran waqūduhā n-nāsu wal-ḥijāratu ʿalayhā malāʾikatun ghilāẓun shidādun lā yaʿṣūna llāha mā amarahum wayafʿalūna mā yuʾmarūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ô vous qui croyez ! Préservez vos personnes et vos familles d'un Feu dont le combustible est les hommes et les pierres, sur lequel veillent des anges rudes et sévères, qui ne désobéissent jamais à Allah en ce qu'Il commande et font ce qui leur est ordonné."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "O vous qui avez cru! Préservez vos personnes et vos familles, d'un Feu dont le combustible sera les gens et les pierres, surveillé par des Anges rudes, durs, ne désobéissant jamais à Allah en ce qu'Il leur commande, et faisant strictement ce qu'on leur ordonne"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O you who believe! Protect yourselves and your families from a Fire whose fuel is people and stones, over which are stern and severe angels, who never disobey Allah in what He commands and do what they are ordered."
+          "auteur": "Saheeh International",
+          "texte": "O you who have believed, protect yourselves and your families from a Fire whose fuel is people and stones, over which are [appointed] angels, harsh and severe; they do not disobey Allah in what He commands them but do what they are commanded"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ey iman edenler! Kendinizi ve ailenizi, yakıtı insanlar ve taşlar olan ateşten koruyun! Onun başında, Allah'ın kendilerine verdiği emirlere karşı gelmeyen ve emredildiklerini yapan çetin ve sert melekler vardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey inananlar! Kendinizi ve çoluk çocuğunuzu cehennem ateşinden koruyun; onun yakıtı, insanlar ve taşlardır; görevlileri, Allah'ın kendilerine verdiği emirlere baş kaldırmayan, kendilerine buyrulanları yerine getiren pek haşin meleklerdir"
         }
       },
       "mots": [
@@ -567,16 +569,16 @@ const S066 = {
       "translit": "Yāʾayyuhā lladhīna kafarū lā taʿtadhirū l-yawma innamā tujzawna mā kuntum taʿmalūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ô vous qui avez mécru ! Ne vous excusez pas aujourd'hui : vous n'êtes rétribués que pour ce que vous faisiez."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "O vous qui avez mécru! Ne vous excusez pas aujourd'hui. Vous ne serez rétribués que selon ce que vous œuvriez"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O you who disbelieved! Make no excuses today: you are only repaid for what you used to do."
+          "auteur": "Saheeh International",
+          "texte": "O you who have disbelieved, make no excuses that Day. You will only be recompensed for what you used to do"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ey inkâr edenler! Bugün özür dilemeyin! Siz ancak yaptıklarınızın cezasını çekeceksiniz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey inkar edenler! Bugün özür beyan etmeyin, ancak işlediklerinizin karşılığını görmektesiniz\" denir"
         }
       },
       "mots": [
@@ -645,16 +647,16 @@ const S066 = {
       "translit": "Yāʾayyuhā lladhīna āmanū tūbū ilā llāhi tawbatan naṣūḥan ʿasā rabbukum an yukaffira ʿankum sayyiʾātikum wayudkhilakum jannātin tajrī min taḥtihā l-ʾanhāru yawma lā yukhzī llāhu n-nabiyya walladhīna āmanū maʿahū nūruhum yasʿā bayna aydīhim wabiʾaymānihim yaqūlūna rabbanā atmim lanā nūranā waghfir lanā innaka ʿalā kulli shayʾin qadīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ô vous qui croyez ! Revenez à Allah d'un repentir sincère. Il se peut que votre Seigneur vous efface vos méfaits et vous fasse entrer en des Jardins sous lesquels coulent les rivières — le jour où Allah n'humiliera ni le Prophète ni ceux qui ont cru avec lui. Leur lumière courra devant eux et à leur droite, et ils diront : « Seigneur, parachève pour nous notre lumière et pardonne-nous : Tu es puissant sur toute chose ! »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "O vous qui avez cru! Repentez-vous à Allah d'un repentir sincère. Il se peut que votre Seigneur vous efface vos fautes et qu'Il vous fasse entrer dans des Jardins sous lesquels coulent les ruisseaux, le jour où Allah épargnera l'ignominie au Prophète et à ceux qui croient avec lui. Leur lumière courra devant eux et à leur droite; ils diront: «Seigneur, parfais-nous notre lumière et pardonne-nous. Car Tu es Omnipotent»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O you who believe! Turn to Allah in sincere repentance. Perhaps your Lord will remove your misdeeds and admit you into Gardens beneath which rivers flow — on the Day Allah will not disgrace the Prophet and those who believed with him. Their light will run before them and on their right, and they will say: 'Our Lord, perfect for us our light and forgive us: surely You have power over all things!'"
+          "auteur": "Saheeh International",
+          "texte": "O you who have believed, repent to Allah with sincere repentance. Perhaps your Lord will remove from you your misdeeds and admit you into gardens beneath which rivers flow [on] the Day when Allah will not disgrace the Prophet and those who believed with him. Their light will proceed before them and on their right; they will say, \"Our Lord, perfect for us our light and forgive us. Indeed, You are over all things competent"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ey iman edenler! Allah'a içtenlikle tövbe edin! Umulur ki Rabbiniz kötülüklerinizi örter ve sizi, Allah'ın peygamberi ve onunla birlikte iman edenleri utandırmayacağı günde, içlerinden ırmaklar akan cennetlere koyar. Onların nurları önlerinde ve sağlarında koşar. Şöyle derler: 'Rabbimiz! Nurumuzu tamamla ve bizi bağışla! Şüphesiz Sen her şeye hakkıyla gücü yetensin.'"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey inananlar! Yürekten tevbe ederek Allah'a dönün ki, Rabbiniz kötülüklerinizi örtsün, sizi, içlerinden ırmaklar akan cennetlere koysun. Allah'ın Peygamberini ve onunla beraber olan müminleri utandırmayacağı o gün, ışıkları önlerinde ve defterleri sağlarından verilmiş olarak yürürler ve: \"Rabbimiz! Işığımızı tamamla, bizi bağışla, doğrusu Sen herşeye Kadir'sin\" derler"
         }
       },
       "mots": [
@@ -836,16 +838,16 @@ const S066 = {
       "translit": "Yāʾayyuhā n-nabiyyu jāhidi l-kuffāra wal-munāfiqīna waghluẓ ʿalayhim wamaʾwāhum jahannamu wabiʾsa l-maṣīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ô Prophète ! Lutte contre les mécréants et les hypocrites, et sois rude envers eux. Leur refuge est la Géhenne — et quelle détestable destination !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "O Prophète! Mène la lutte contre les mécréants et les hypocrites et sois rude à leur égard. Leur refuge sera l'Enfer, et quelle mauvaise destination"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O Prophet! Strive against the disbelievers and the hypocrites, and be firm with them. Their refuge is Hell — and what a wretched destination!"
+          "auteur": "Saheeh International",
+          "texte": "O Prophet, strive against the disbelievers and the hypocrites and be harsh upon them. And their refuge is Hell, and wretched is the destination"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ey Peygamber! Kâfirlere ve münafıklara karşı cihat et, onlara sert davran! Onların varacağı yer cehennemdir. Ne kötü bir dönüş yeridir orası!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey Peygamber! İnkarcılarla ve ikiyüzlülerle savaş; onlara karşı sert davran. Onların varacakları yer cehennemdir, ne kötü dönüştür"
         }
       },
       "mots": [
@@ -886,16 +888,16 @@ const S066 = {
       "translit": "Ḍaraba llāhu mathalan lilladhīna kafarū mraʾata nūḥin wamraʾata lūṭin kānatā taḥta ʿabdayni min ʿibādinā ṣāliḥayni fakhānatāhumā falam yughniyā ʿanhumā mina llāhi shayʾan waqīla dkhulā n-nāra maʿa d-dākhilīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah a proposé en exemple, pour ceux qui mécroient, la femme de Noé et la femme de Lot : elles étaient sous deux de Nos vertueux serviteurs et les trahirent — mais ils ne leur servirent en rien contre Allah. Il fut dit : « Entrez au Feu, toutes deux, avec ceux qui entrent ! »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Allah a cité en parabole pour ceux qui ont mécru la femme de Noé et la femme de Lot. Elles étaient sous l'autorité de deux vertueux de Nos serviteurs. Toutes deux les trahirent et ils ne furent d'aucune aide pour [ces deux femmes] vis-à-vis d'Allah. Et il [leur] fut dit: «Entrez au Feu toutes les deux, avec ceux qui y entrent»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah presents an example for those who disbelieve: the wife of Noah and the wife of Lot: they were under two of Our righteous servants and betrayed them — but they availed them nothing against Allah. And it was said: 'Enter the Fire, both of you, with those who enter!'"
+          "auteur": "Saheeh International",
+          "texte": "Allah presents an example of those who disbelieved: the wife of Noah and the wife of Lot. They were under two of Our righteous servants but betrayed them, so those prophets did not avail them from Allah at all, and it was said, \"Enter the Fire with those who enter"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah, inkâr edenlere Nûh'un karısı ile Lût'un karısını örnek verdi. Bu ikisi, kullarımızdan iki salih kulun nikâhı altındaydılar; ama onlara hainlik ettiler. Kocaları, Allah'tan gelen hiçbir şeyi onlardan savamadı. Onlara: 'Haydi girenlerle birlikte siz de ateşe girin!' denildi."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah, inkar edenlere, Nuh'un karısıyla Lut'un karısını misal gösterir: Onlar, kullarımızdan iki iyi kulun nikahı altında iken onlara karşı hainlik edip inkarlarını gizlemişlerdi de iki peygamber Allah'tan gelen azabı onlardan savamamışlardı. O iki kadına: \"Cehenneme girenlerle beraber siz de girin\" dendi"
         }
       },
       "mots": [
@@ -1000,16 +1002,16 @@ const S066 = {
       "translit": "Waḍaraba llāhu mathalan lilladhīna āmanū mraʾata firʿawna idh qālat rabbi bni lī ʿindaka baytan fī l-jannati wanajjinī min firʿawna waʿamalihī wanajjinī mina l-qawmi ẓ-ẓālimīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et Allah a proposé en exemple, pour ceux qui croient, la femme de Pharaon, quand elle dit : « Seigneur, bâtis-moi une demeure auprès de Toi dans le Jardin, sauve-moi de Pharaon et de ses œuvres, et sauve-moi du peuple injuste ! »"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et Allah a cité en parabole pour ceux qui croient, la femme de Pharaon, quand elle dit «Seigneur, construis-moi auprès de Toi une maison dans le Paradis, et sauve-moi de Pharaon et de son œuvre; et sauve-moi des gens injustes»"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And Allah presents an example for those who believe: the wife of Pharaoh, when she said: 'My Lord, build for me a house with You in the Garden, save me from Pharaoh and his deeds, and save me from the wrongdoing people!'"
+          "auteur": "Saheeh International",
+          "texte": "And Allah presents an example of those who believed: the wife of Pharaoh, when she said, \"My Lord, build for me near You a house in Paradise and save me from Pharaoh and his deeds and save me from the wrongdoing people"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah, iman edenlere de Firavun'un karısını örnek verdi. Hani o: 'Rabbim! Bana katında, cennette bir ev yap! Beni Firavun'dan ve onun yaptıklarından kurtar! Beni zalimler topluluğundan kurtar!' demişti."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah, inanlara Firavun'un karısını misal gösterir: O: \"Rabbim! Katından bana cennette bir ev yap; beni Firavun'dan ve onun işlediklerinden kurtar; beni zalim milletten kurtar\" demişti"
         }
       },
       "mots": [
@@ -1113,16 +1115,16 @@ const S066 = {
       "translit": "Wamaryama bnata ʿimrāna llatī aḥṣanat farjahā fanafakhnā fīhi min rūḥinā waṣaddaqat bikalimāti rabbihā wakutubihī wakānat mina l-qānitīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Et Marie, fille de ʿImrān, qui garda sa chasteté : Nous insufflâmes alors en elle de Notre Esprit. Elle tint pour vraies les paroles de son Seigneur et Ses Livres, et fut du nombre des dévoués."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "De même, Marie, la fille d''Imran qui avait préservé sa virginité; Nous y insufflâmes alors de Notre Esprit. Elle avait déclaré véridiques les paroles de son Seigneur ainsi que Ses Livres: elle fut parmi les dévoués"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "And Mary, daughter of Imran, who guarded her chastity: so We breathed into her of Our Spirit. And she affirmed the words of her Lord and His Books, and was of the devoutly obedient."
+          "auteur": "Saheeh International",
+          "texte": "And [the example of] Mary, the daughter of 'Imran, who guarded her chastity, so We blew into [her garment] through Our angel, and she believed in the words of her Lord and His scriptures and was of the devoutly obedient"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İffetini koruyan İmrân kızı Meryem'i de örnek verdi. Biz ona ruhumuzdan üfledik. O, Rabbinin kelimelerini ve kitaplarını tasdik etti ve içtenlikle itaat edenlerden oldu."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Mahrem yerini korumuş olan İmran kızı Meryem de bir misaldir. Ona ruhumuzdan üflemiştik; Rabbinin sözlerini ve kitablarını tasdik etmişti; o, Bize gönülden itaat edenlerdendi"
         }
       },
       "mots": [

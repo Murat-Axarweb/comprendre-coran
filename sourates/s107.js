@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S107 = {
   "meta": {
     "numero": 107,
@@ -35,16 +37,16 @@ const S107 = {
       "translit": "Araʾayta lladhī yukadhdhibu bid-dīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "As-tu vu celui qui dément la Rétribution ?"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Vois-tu celui qui traite de mensonge la Rétribution"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Have you seen the one who denies the Judgment?"
+          "auteur": "Saheeh International",
+          "texte": "Have you seen the one who denies the Recompense"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Dini (hesap gününü) yalanlayanı gördün mü?"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Dini yalan sayanı gördün mü"
         }
       },
       "mots": [
@@ -85,16 +87,16 @@ const S107 = {
       "translit": "Fadhālika lladhī yaduʿʿu l-yatīm",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "C'est celui-là qui repousse l'orphelin,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "C'est bien lui qui repousse l'orphelin"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "It is he who pushes away the orphan,"
+          "auteur": "Saheeh International",
+          "texte": "For that is the one who drives away the orphan"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte o, yetimi itip kakar,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur"
         }
       },
       "mots": [
@@ -135,16 +137,16 @@ const S107 = {
       "translit": "Walā yaḥuḍḍu ʿalā ṭaʿāmi l-miskīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et n'encourage pas à nourrir le pauvre."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et qui n'encourage point à nourrir le pauvre"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and does not urge the feeding of the poor."
+          "auteur": "Saheeh International",
+          "texte": "And does not encourage the feeding of the poor"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Yoksulu doyurmaya teşvik etmez."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur"
         }
       },
       "mots": [
@@ -192,16 +194,16 @@ const S107 = {
       "translit": "Fawaylun lilmuṣallīn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Malheur donc à ceux qui prient,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Malheur donc, à ceux qui prient"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "So woe to those who pray,"
+          "auteur": "Saheeh International",
+          "texte": "So woe to those who pray"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Vay o namaz kılanların hâline ki,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Vay o namaz kılanların haline ki"
         }
       },
       "mots": [
@@ -228,16 +230,16 @@ const S107 = {
       "translit": "Alladhīna hum ʿan ṣalātihim sāhūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "tout en étant négligents de leur prière,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "tout en négligeant (et retardant) leur Salât"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "while being heedless of their prayer,"
+          "auteur": "Saheeh International",
+          "texte": "[But] who are heedless of their prayer"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onlar namazlarından gafildirler,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlar kıldıkları namazdan gafildirler"
         }
       },
       "mots": [
@@ -290,16 +292,16 @@ const S107 = {
       "translit": "Alladhīna hum yurāʾūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qui font tout pour être vus,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui sont pleins d'ostentation"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "those who make a show of it,"
+          "auteur": "Saheeh International",
+          "texte": "Those who make show [of their deeds]"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onlar gösteriş yaparlar,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlar gösteriş yaparlar"
         }
       },
       "mots": [
@@ -333,16 +335,16 @@ const S107 = {
       "translit": "Wayamnaʿūna l-māʿūn",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et refusent l'aide élémentaire."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et refusent l'ustensile (à celui qui en a besoin)"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and withhold small kindnesses."
+          "auteur": "Saheeh International",
+          "texte": "And withhold [simple] assistance"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve en basit yardımı bile esirgerler."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlar basit şeyleri dahi vermezler"
         }
       },
       "mots": [

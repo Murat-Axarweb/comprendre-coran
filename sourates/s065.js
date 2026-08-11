@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S065 = {
   "meta": {
     "numero": 65,
@@ -35,16 +37,16 @@ const S065 = {
       "translit": "Yāʾayyuhā n-nabiyyu idhā ṭallaqtumu n-nisāʾa faṭalliqūhunna liʿiddatihinna waʾaḥṣū l-ʿiddata wattaqū llāha rabbakum lā tukhrijūhunna min buyūtihinna walā yakhrujna illā an yaʾtīna bifāḥishatin mubayyinatin watilka ḥudūdu llāhi waman yataʿadda ḥudūda llāhi faqad ẓalama nafsahū lā tadrī laʿalla llāha yuḥdithu baʿda dhālika amrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ô Prophète ! Quand vous répudiez les femmes, répudiez-les au terme de leur délai, et comptez le délai. Craignez Allah votre Seigneur : ne les expulsez pas de leurs demeures, et qu'elles n'en sortent pas — sauf si elles commettent une turpitude avérée. Voilà les limites d'Allah : quiconque transgresse les limites d'Allah se fait tort à lui-même. Tu ne sais pas : il se peut qu'Allah suscite après cela quelque chose de nouveau."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "O Prophète! Quand vous répudiez les femmes, répudiez-les conformément à leur période d'attente prescrite; et comptez la période; et craignez Allah votre Seigneur. Ne les faites pas sortir de leurs maisons, et qu'elles n'en sortent pas, à moins qu'elles n'aient commis une turpitude prouvée. Telles sont les lois d'Allah. Quiconque cependant transgresse les lois d'Allah, se fait du tort à lui-même. Tu ne sais pas si d'ici là Allah ne suscitera pas quelque chose de nouveau"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "O Prophet! When you divorce women, divorce them at their prescribed period, and count the period. Fear Allah your Lord: do not expel them from their homes, nor let them leave — unless they commit a clear indecency. These are the limits of Allah: whoever transgresses the limits of Allah has wronged himself. You do not know: perhaps Allah will bring about something new after that."
+          "auteur": "Saheeh International",
+          "texte": "O Prophet, when you [Muslims] divorce women, divorce them for [the commencement of] their waiting period and keep count of the waiting period, and fear Allah, your Lord. Do not turn them out of their [husbands'] houses, nor should they [themselves] leave [during that period] unless they are committing a clear immorality. And those are the limits [set by] Allah. And whoever transgresses the limits of Allah has certainly wronged himself. You know not; perhaps Allah will bring about after that a [different] matter"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ey Peygamber! Kadınları boşayacağınızda, onları iddetlerini gözeterek boşayın ve iddeti sayın! Rabbiniz olan Allah'tan korkun! Apaçık bir hayâsızlık yapmaları dışında onları evlerinden çıkarmayın; kendileri de çıkmasınlar. Bunlar Allah'ın sınırlarıdır. Kim Allah'ın sınırlarını aşarsa, şüphesiz kendine zulmetmiş olur. Bilemezsin, olur ki Allah bundan sonra yeni bir durum ortaya çıkarır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ey Peygamber! Kadınları boşayacağınızda, onları, iddetlerini gözeterek boşayın ve iddeti sayın; Rabbiniz olan Allah'tan sakının; onları, apaçık bir hayasızlık yapmaları hali bir yana evlerinden çıkarmayın, onlar da çıkmasınlar. Bunlar, Allah'ın sınırlarıdır. Allah'ın sınırlarını kim aşarsa, şüphesiz, kendine yazık etmiş olur. Bilmezsin, olur ki, Allah bunun ardından bir hal meydana getirir"
         }
       },
       "mots": [
@@ -219,16 +221,16 @@ const S065 = {
       "translit": "Faʾidhā balaghna ajalahunna faʾamsikūhunna bimaʿrūfin aw fāriqūhunna bimaʿrūfin waʾashhidū dhaway ʿadlin minkum waʾaqīmū sh-shahādata lillāhi dhālikum yūʿaẓu bihī man kāna yuʾminu billāhi wal-yawmi l-ʾkhiri waman yattaqi llāha yajʿal lahū makhrajā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Quand elles atteignent leur terme, retenez-les convenablement ou séparez-vous d'elles convenablement. Prenez à témoin deux hommes intègres d'entre vous, et acquittez-vous du témoignage pour Allah. Voilà ce à quoi est exhorté quiconque croit en Allah et au Jour dernier. Et quiconque craint Allah, Il lui donne une issue,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Puis quand elles atteignent le terme prescrit, retenez-les de façon convenable, ou séparez-vous d'elles de façon convenable; et prenez deux hommes intègres parmi vous comme témoins. Et acquittez-vous du témoignage envers Allah. Voilà ce à quoi est exhorté celui qui croit en Allah et au Jour dernier. Et quiconque craint Allah, Il Lui donnera une issue favorable"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Then when they reach their term, retain them honorably or part from them honorably. And call to witness two just men among you, and establish the testimony for Allah. That is the admonition for whoever believes in Allah and the Last Day. And whoever fears Allah — He will make for him a way out,"
+          "auteur": "Saheeh International",
+          "texte": "And when they have [nearly] fulfilled their term, either retain them according to acceptable terms or part with them according to acceptable terms. And bring to witness two just men from among you and establish the testimony for [the acceptance of] Allah. That is instructed to whoever should believe in Allah and the Last day. And whoever fears Allah - He will make for him a way out"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Boşanan kadınlar iddetlerinin sonuna varınca, onları güzelce tutun yahut onlardan güzelce ayrılın! İçinizden iki adil kimseyi şahit tutun ve şahitliği Allah için yapın! İşte bununla, Allah'a ve ahiret gününe inanan kimselere öğüt verilmektedir. Kim Allah'tan korkarsa, Allah ona bir çıkış yolu açar."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kadınların iddet süreleri biteceğinde, onları ya uygun bir şekilde alıkoyun, ya da onlardan ayrılın; içinizden de iki adil şahit getirin; şahidliği Allah için yapın; işte bu, Allah'a ve ahiret gününe inanan kimseye verilen öğüttür. Allah, kendisine karşı gelmekten sakınan kimseye kurtuluş yolu sağlar, ona beklemediği yerden rızık verir. Allah'a güvenen kimseye O yeter. Allah, buyruğunu yerine getirendir. Allah her şey için bir ölçü var etmiştir"
         }
       },
       "mots": [
@@ -354,16 +356,16 @@ const S065 = {
       "translit": "Wayarzuqhu min ḥaythu lā yaḥtasibu waman yatawakkal ʿalā llāhi fahuwa ḥasbuhū inna llāha bālighu amrihī qad jaʿala llāhu likulli shayʾin qadrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et Il le pourvoit par où il ne s'y attendait pas. Quiconque s'appuie sur Allah — Il lui suffit. Allah accomplit Son ordre : Allah a assigné une mesure à toute chose."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et lui accordera Ses dons par [des moyens] sur lesquels il ne comptait pas. Et quiconque place sa confiance en Allah, Il [Allah] lui suffit. Allah atteint ce qu'Il Se propose, et Allah a assigné une mesure à chaque chose"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and provide for him from where he does not expect. And whoever relies upon Allah — He is sufficient for him. Surely Allah accomplishes His purpose: Allah has set a measure for all things."
+          "auteur": "Saheeh International",
+          "texte": "And will provide for him from where he does not expect. And whoever relies upon Allah - then He is sufficient for him. Indeed, Allah will accomplish His purpose. Allah has already set for everything a [decreed] extent"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Onu beklemediği yerden rızıklandırır. Kim Allah'a tevekkül ederse, O kendisine yeter. Şüphesiz Allah, emrini yerine getirendir. Allah her şey için bir ölçü koymuştur."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kadınların iddet süreleri biteceğinde, onları ya uygun bir şekilde alıkoyun, ya da onlardan ayrılın; içinizden de iki adil şahit getirin; şahidliği Allah için yapın; işte bu, Allah'a ve ahiret gününe inanan kimseye verilen öğüttür. Allah, kendisine karşı gelmekten sakınan kimseye kurtuluş yolu sağlar, ona beklemediği yerden rızık verir. Allah'a güvenen kimseye O yeter. Allah, buyruğunu yerine getirendir. Allah her şey için bir ölçü var etmiştir"
         }
       },
       "mots": [
@@ -481,16 +483,16 @@ const S065 = {
       "translit": "Wallāʾī yaʾisna mina l-maḥīḍi min nisāʾikum ini rtabtum faʿiddatuhunna thalāthatu ashhurin wallāʾī lam yaḥiḍna waʾūlātu l-ʾaḥmāli ajaluhunna an yaḍaʿna ḥamlahunna waman yattaqi llāha yajʿal lahū min amrihī yusrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Celles de vos femmes qui n'espèrent plus leurs menstrues : si vous avez un doute, leur délai est de trois mois — de même pour celles qui n'ont pas encore de menstrues. Et celles qui sont enceintes : leur terme est leur délivrance. Quiconque craint Allah, Il lui facilite les choses."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Si vous avez des doutes à propos (de la période d'attente) de vos femmes qui n'espèrent plus avoir de règles, leur délai est de trois mois. De même pour celles qui n'ont pas encore de règles. Et quant à celles qui sont enceintes, leur période d'attente se terminera à leur accouchement. Quiconque craint Allah cependant, Il lui facilite les choses"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Those of your women who no longer expect menstruation: if in doubt, their period is three months — likewise for those who have not menstruated. And those who are pregnant: their term is their delivery. And whoever fears Allah — He will ease his affair for him."
+          "auteur": "Saheeh International",
+          "texte": "And those who no longer expect menstruation among your women - if you doubt, then their period is three months, and [also for] those who have not menstruated. And for those who are pregnant, their term is until they give birth. And whoever fears Allah - He will make for him of his matter ease"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kadınlarınızdan âdetten kesilmiş olanlarla henüz âdet görmeyenler hususunda tereddüt ederseniz, onların bekleme süresi üç aydır. Hamile olanların bekleme süresi ise doğum yapmalarıyla sona erer. Kim Allah'tan korkarsa, Allah ona işinde kolaylık verir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Kadınlarınızdan ay hali görmekten kesilenler ile henüz ay hali görmemiş olanların iddetleri hususunda şüpheye düşerseniz, bilin ki, onların iddet beklemesi üç aydır; gebe olanların iddeti, doğurmaları ile tamamlanır. Allah, buyruğuna karşı gelmekten sakınan kimseye işinde kolaylık verir"
         }
       },
       "mots": [
@@ -566,16 +568,16 @@ const S065 = {
       "translit": "Dhālika amru llāhi anzalahū ilaykum waman yattaqi llāha yukaffir ʿanhu sayyiʾātihī wayuʿẓim lahū ajrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Tel est l'ordre d'Allah qu'Il a fait descendre vers vous. Quiconque craint Allah, Il lui efface ses méfaits et lui grandit sa récompense."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Tel est le commandement d'Allah qu'Il a fait descendre vers vous. Quiconque craint Allah cependant, Il lui efface ses fautes et lui accorde une grosse récompense"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "That is the command of Allah He has sent down to you. And whoever fears Allah — He will remove his misdeeds and magnify his reward."
+          "auteur": "Saheeh International",
+          "texte": "That is the command of Allah, which He has sent down to you; and whoever fears Allah - He will remove for him his misdeeds and make great for him his reward"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İşte bu, Allah'ın size indirdiği emridir. Kim Allah'tan korkarsa, Allah onun kötülüklerini örter ve mükâfatını büyütür."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Bu, Allah'ın size indirmiş olduğu buyruğudur. Kim Allah'ın buyruğuna karşı gelmekten sakınırsa, O, onun kötülüklerini örter, ecrini büyültür"
         }
       },
       "mots": [
@@ -630,16 +632,16 @@ const S065 = {
       "translit": "Askinūhunna min ḥaythu sakantum min wujdikum walā tuḍārrūhunna lituḍayyiqū ʿalayhinna waʾin kunna ūlāti ḥamlin faʾanfiqū ʿalayhinna ḥattā yaḍaʿna ḥamlahunna faʾin arḍaʿna lakum faʾātūhunna ujūrahunna waʾtamirū baynakum bimaʿrūfin waʾin taʿāsartum fasaturḍiʿu lahū ukhrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Logez-les là où vous logez, selon vos moyens, et ne leur nuisez pas pour les mettre à l'étroit. Si elles sont enceintes, dépensez pour elles jusqu'à leur délivrance ; si elles allaitent pour vous, donnez-leur leur rétribution — et concertez-vous convenablement. Si vous rencontrez des difficultés mutuelles, une autre allaitera pour lui."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Et faites que ces femmes habitent où vous habitez, et suivant vos moyens. Et ne cherchez pas à leur nuire en les contraignant à vivre à l'étroit. Et si elles sont enceintes, pourvoyez à leurs besoins jusqu'à ce qu'elles aient accouché. Puis, si elles allaitent [l'enfant né] de vous, donnez-leur leurs salaires. Et concertez vous [à ce sujet] de façon convenable. Et si vous rencontrez des difficultés réciproques, alors, une autre allaitera pour lui"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "House them where you dwell, according to your means, and do not harm them to constrict them. If they are pregnant, spend on them until they deliver; and if they nurse for you, give them their payment — and consult together honorably. But if you find mutual difficulty, another woman will nurse for him."
+          "auteur": "Saheeh International",
+          "texte": "Lodge them [in a section] of where you dwell out of your means and do not harm them in order to oppress them. And if they should be pregnant, then spend on them until they give birth. And if they breastfeed for you, then give them their payment and confer among yourselves in the acceptable way; but if you are in discord, then there may breastfeed for the father another woman"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Boşadığınız kadınları, gücünüz ölçüsünde oturduğunuz yerin bir bölümünde oturtun! Onları sıkıştırmak için kendilerine zarar vermeye kalkışmayın! Eğer hamile iseler, doğum yapıncaya kadar nafakalarını verin! Sizin için çocuğu emzirirlerse, onlara ücretlerini verin ve aranızda güzellikle danışıp anlaşın! Eğer güçlükle karşılaşırsanız, çocuğu baba hesabına başka bir kadın emzirecektir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Boşadığınız, fakat iddeti dolmamış kadınları gücünüz nispetinde, kendi oturduğunuz yerde oturtun. Onları sıkıntıya sokmak için zarar vermeye kalkışmayın. Eğer hamile iseler, doğurmalarına kadar nafakalarını verin. Çocuğu sizin için emzirirlerse, onlara ücretlerini ödeyin; aranızda uygun bir şekilde anlaşın; eğer güçlükle karşılaşırsanız çocuğu başka bir kadın emzirebilir"
         }
       },
       "mots": [
@@ -743,16 +745,16 @@ const S065 = {
       "translit": "Liyunfiq dhū saʿatin min saʿatihī waman qudira ʿalayhi rizquhū falyunfiq mimmā ātāhu llāhu lā yukallifu llāhu nafsan illā mā ātāhā sayajʿalu llāhu baʿda ʿusrin yusrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Que celui qui est aisé dépense selon son aisance ; et que celui dont les moyens sont restreints dépense selon ce qu'Allah lui a donné. Allah n'impose à aucune âme que selon ce qu'Il lui a donné : Allah fera succéder l'aisance à la gêne."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Que celui qui est aisé dépense de sa fortune; et que celui dont les biens sont restreints dépense selon ce qu'Allah lui a accordé. Allah n'impose à personne que selon ce qu'Il lui a donné, et Allah fera succéder l'aisance à la gêne"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Let the wealthy spend from his wealth; and let him whose provision is restricted spend from what Allah has given him. Allah does not burden any soul beyond what He has given it: Allah will bring ease after hardship."
+          "auteur": "Saheeh International",
+          "texte": "Let a man of wealth spend from his wealth, and he whose provision is restricted - let him spend from what Allah has given him. Allah does not charge a soul except [according to] what He has given it. Allah will bring about, after hardship, ease"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İmkânı geniş olan, imkânına göre nafaka versin! Rızkı daralmış olan da Allah'ın kendisine verdiğinden versin! Allah, hiç kimseyi kendisine verdiğinden fazlasıyla yükümlü tutmaz. Allah, güçlükten sonra kolaylık verecektir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Varlıklı olan kimse, nafakayı varlığına göre versin; rızkı ancak kendisine yetecek kadar verilmiş olan kimse, Allah'ın kendisine verdiğinden versin; Allah kimseye, verdiği rızkı aşan bir yük yüklemez. Allah, güçlükten sonra kolaylık verir"
         }
       },
       "mots": [
@@ -850,16 +852,16 @@ const S065 = {
       "translit": "Wakaʾayyin min qaryatin ʿatat ʿan amri rabbihā warusulihī faḥāsabnāhā ḥisāban shadīdan waʿadhdhabnāhā ʿadhāban nukrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Que de cités se sont insurgées contre l'ordre de leur Seigneur et de Ses messagers ! Nous leur avons alors demandé des comptes sévères et les avons châtiées d'un châtiment inouï."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Que de cités ont refusé avec insolence le commandement de leur Seigneur et de Ses messagers! Nous leur en demandâmes compte avec sévérité, et les châtiâmes d'un châtiment inouï"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "How many a town defied the command of its Lord and His messengers! So We took it to severe account and punished it with a terrible punishment."
+          "auteur": "Saheeh International",
+          "texte": "And how many a city was insolent toward the command of its Lord and His messengers, so We took it to severe account and punished it with a terrible punishment"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Nice şehirler var ki Rablerinin ve elçilerinin emrine başkaldırdı; Biz de onları çetin bir hesaba çektik ve görülmemiş bir azapla cezalandırdık."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Rablerinin ve O'nun peygamberlerinin buyruğundan çıkan nice kasabalar halkını Biz, çetin bir hesaba çekmiş, onları, görülmedik bir azaba uğratmışızdır"
         }
       },
       "mots": [
@@ -900,16 +902,16 @@ const S065 = {
       "translit": "Fadhāqat wabāla amrihā wakāna ʿāqibatu amrihā khusrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Elles ont goûté les conséquences de leur conduite, et leur affaire s'est soldée par la perdition."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Elles goûtèrent donc la conséquence de leur comportement. Et le résultat final de leurs actions fut [leur] perdition"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "So they tasted the consequence of their affair, and the outcome of their affair was loss."
+          "auteur": "Saheeh International",
+          "texte": "And it tasted the bad consequence of its affair, and the outcome of its affair was loss"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Böylece yaptıklarının cezasını tattılar ve işlerinin sonu tam bir hüsran oldu."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Onlar, işlerinin karşılığını tattılar; işlerinin sonu hüsran oldu"
         }
       },
       "mots": [
@@ -936,16 +938,16 @@ const S065 = {
       "translit": "Aʿadda llāhu lahum ʿadhāban shadīdan fattaqū llāha yāʾūlī l-ʾalbābi lladhīna āmanū qad anzala llāhu ilaykum dhikrā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah leur a préparé un châtiment terrible. Craignez donc Allah, ô doués d'intelligence qui avez cru : Allah a fait descendre vers vous un Rappel,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Allah a préparé pour eux un dur châtiment. Craignez Allah donc, ô vous qui êtes doués d'intelligence, vous qui avez la foi. Certes, Allah a fait descendre vers vous un rappel"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah has prepared for them a severe punishment. So fear Allah, O people of understanding who have believed: Allah has sent down to you a Reminder,"
+          "auteur": "Saheeh International",
+          "texte": "Allah has prepared for them a severe punishment; so fear Allah, O you of understanding who have believed. Allah has sent down to you the Qur'an"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah onlara çetin bir azap hazırlamıştır. O hâlde ey iman etmiş akıl sahipleri, Allah'tan korkun! Allah size gerçekten bir zikir (Kur'an) indirmiştir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Allah onlara çetin bir azap hazırlamıştır. Ey inanmış olan akıl sahipleri! Allah'tan sakının; Allah size Kuran'ı indirmiştir"
         }
       },
       "mots": [
@@ -1007,16 +1009,16 @@ const S065 = {
       "translit": "Rasūlan yatlū ʿalaykum āyāti llāhi mubayyinātin liyukhrija lladhīna āmanū waʿamilū ṣ-ṣāliḥāti mina ẓ-ẓulumāti ilā n-nūri waman yuʾmin billāhi wayaʿmal ṣāliḥan yudkhilhu jannātin tajrī min taḥtihā l-ʾanhāru khālidīna fīhā abadan qad aḥsana llāhu lahū rizqā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "un Messager qui vous récite les versets explicites d'Allah, pour faire sortir des ténèbres vers la lumière ceux qui croient et font le bien. Quiconque croit en Allah et fait le bien, Il le fera entrer en des Jardins sous lesquels coulent les rivières, où ils demeureront à jamais : Allah lui a fait belle attribution !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "un Messager qui vous récite les versets d'Allah comme preuves claires, afin de faire sortir ceux qui croient et accomplissent les bonnes œuvres des ténèbres à la lumière. Et quiconque croit en Allah et fait le bien, Il le fait entrer aux Jardins sous lesquels coulent les ruisseaux, pour y demeurer éternellement. Allah lui a fait une belle attribution"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "a Messenger reciting to you the clear verses of Allah, to bring those who believe and do righteousness from darkness into light. And whoever believes in Allah and does righteousness — He will admit him into Gardens beneath which rivers flow, abiding there forever: Allah has made excellent provision for him!"
+          "auteur": "Saheeh International",
+          "texte": "[He sent] a Messenger [Muhammad] reciting to you the distinct verses of Allah that He may bring out those who believe and do righteous deeds from darknesses into the light. And whoever believes in Allah and does righteousness - He will admit him into gardens beneath which rivers flow to abide therein forever. Allah will have perfected for him a provision"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "İman edip salih amel işleyenleri karanlıklardan aydınlığa çıkarmak için size Allah'ın apaçık âyetlerini okuyan bir peygamber göndermiştir. Kim Allah'a inanır ve salih amel işlerse, Allah onu içlerinden ırmaklar akan, ebedî kalacakları cennetlere koyar. Allah ona gerçekten güzel bir rızık vermiştir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnanıp yararlı işler işleyenleri karanlıklardan aydınlığa çıkarmak üzere, size Allah'ın apaçık ayetlerini okuyan bir Peygamber göndermiştir. Kim Allah'a inanır ve yararlı iş işlerse, Allah onu, içinde temelli ve sonsuz kalınacak, içlerinden ırmaklarakan cennetlere koyar. Allah ona gerçekten güzel rızık vermiştir"
         }
       },
       "mots": [
@@ -1162,16 +1164,16 @@ const S065 = {
       "translit": "Allāhu lladhī khalaqa sabʿa samāwātin wamina l-ʾarḍi mithlahunna yatanazzalu l-ʾamru baynahunna litaʿlamū anna llāha ʿalā kulli shayʾin qadīrun waʾanna llāha qad aḥāṭa bikulli shayʾin ʿilmā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah est Celui qui a créé sept cieux, et de la terre leur semblable. L'ordre descend entre eux — afin que vous sachiez qu'Allah est puissant sur toute chose, et qu'Allah embrasse toute chose de Sa science."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Allah qui a créé sept cieux et autant de terres. Entre eux [Son] commandement descend, afin que vous sachiez qu'Allah est en vérité Omnipotent et qu'Allah a embrassé toute chose de [Son] savoir"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah is He who created seven heavens, and of the earth their like. The command descends between them — that you may know that Allah has power over all things, and that Allah encompasses all things in knowledge."
+          "auteur": "Saheeh International",
+          "texte": "It is Allah who has created seven heavens and of the earth, the like of them. [His] command descends among them so you may know that Allah is over all things competent and that Allah has encompassed all things in knowledge"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Allah, yedi göğü ve yerden de onların benzerini yaratandır. Emir bunlar arasında iner ki, Allah'ın her şeye kadir olduğunu ve Allah'ın her şeyi ilmiyle kuşattığını bilesiniz."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Yedi göğü ve yerden de bir o kadarını yaratan Allah'tır, Allah'ın herşeye Kadir olduğunu ve Allah'ın ilminin herşeyi kuşattığını bilmeniz için Allah'ın buyruğu bunlar arasında iner durur"
         }
       },
       "mots": [

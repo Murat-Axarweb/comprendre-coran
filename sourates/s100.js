@@ -1,3 +1,5 @@
+// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)
+// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.
 const S100 = {
   "meta": {
     "numero": 100,
@@ -35,16 +37,16 @@ const S100 = {
       "translit": "Wal-ʿādiyāti ḍabḥā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Par les coursiers haletants,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Par les coursiers qui halètent"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "By the chargers panting,"
+          "auteur": "Saheeh International",
+          "texte": "By the racers, panting"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Soluk soluğa koşan atlara andolsun,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "And olsun Allah yolunda koştukça koşanlara"
         }
       },
       "mots": [],
@@ -56,16 +58,16 @@ const S100 = {
       "translit": "Fal-mūriyāti qadḥā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qui font jaillir des étincelles,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui font jaillir des étincelles"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "striking sparks of fire,"
+          "auteur": "Saheeh International",
+          "texte": "And the producers of sparks [when] striking"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Kıvılcımlar saçanlara,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "And olsun kıvılcımlar saçanlara"
         }
       },
       "mots": [],
@@ -77,16 +79,16 @@ const S100 = {
       "translit": "Fal-mughīrāti ṣubḥā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "qui chargent à l'aube,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "qui attaquent au matin"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "raiding at dawn,"
+          "auteur": "Saheeh International",
+          "texte": "And the chargers at dawn"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Sabah vakti baskın yapanlara,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Sabah sabah akına çıkanlara"
         }
       },
       "mots": [],
@@ -98,16 +100,16 @@ const S100 = {
       "translit": "Faʾatharna bihī naqʿā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "y soulèvent un nuage de poussière,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et font ainsi voler la poussière"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "raising a trail of dust,"
+          "auteur": "Saheeh International",
+          "texte": "Stirring up thereby [clouds of] dust"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Orada toz duman kaldıranlara,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Ve tozu dumana katanlara"
         }
       },
       "mots": [
@@ -127,16 +129,16 @@ const S100 = {
       "translit": "Fawasaṭna bihī jamʿā",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et pénètrent au cœur d'une troupe !"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et pénètrent au centre de la troupe ennemie"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "storming into the midst of a host!"
+          "auteur": "Saheeh International",
+          "texte": "Arriving thereby in the center collectively"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve topluluğun ortasına dalanlara!"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Düşman topluluğunun içine dalanlara ki"
         }
       },
       "mots": [
@@ -156,16 +158,16 @@ const S100 = {
       "translit": "Inna l-ʾinsāna lirabbihī lakanūd",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "L'homme est certes très ingrat envers son Seigneur —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "L'homme est, certes, ingrat envers son Seigneur"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Surely man is ungrateful to his Lord —"
+          "auteur": "Saheeh International",
+          "texte": "Indeed mankind, to his Lord, is ungrateful"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Gerçekten insan Rabbine karşı çok nankördür —"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsan gerçekten Rabbine karşı pek nankördür"
         }
       },
       "mots": [
@@ -193,16 +195,16 @@ const S100 = {
       "translit": "Waʾinnahū ʿalā dhālika lashahīd",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et il en est certes lui-même témoin —"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et pourtant, il est certes, témoin de cela"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and surely he himself is a witness to it —"
+          "auteur": "Saheeh International",
+          "texte": "And indeed, he is to that a witness"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve kendisi de buna elbette şahittir —"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Doğrusu kendisi de bunların hepsine şahittir"
         }
       },
       "mots": [
@@ -243,16 +245,16 @@ const S100 = {
       "translit": "Waʾinnahū liḥubbi l-khayri lashadīd",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et il est certes ardent dans l'amour des biens."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et pour l'amour des richesses il est certes ardent"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and surely he is intense in his love of wealth."
+          "auteur": "Saheeh International",
+          "texte": "And indeed he is, in love of wealth, intense"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve o, mal sevgisinde gerçekten çok şiddetlidir."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Gerçekten mala da pek düşkündür"
         }
       },
       "mots": [
@@ -293,16 +295,16 @@ const S100 = {
       "translit": "Afalā yaʿlamu idhā buʿthira mā fī l-qubūr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ne sait-il donc pas ? Quand sera bouleversé ce qui est dans les tombes,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "Ne sait-il donc pas que lorsque ce qui est dans les tombes sera bouleversé"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Does he not know? When what is in the graves is overturned,"
+          "auteur": "Saheeh International",
+          "texte": "But does he not know that when the contents of the graves are scattered"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Bilmez mi? Kabirlerdekiler dışarı çıkarıldığında,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsan, kabirlerde bulunanların çıkarılacağı ve kalblerde olanların ortaya konulacağı bir zamanın geleceğini bilmez mi"
         }
       },
       "mots": [
@@ -358,16 +360,16 @@ const S100 = {
       "translit": "Waḥuṣṣila mā fī ṣ-ṣudūr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "et que sera dévoilé ce qui est dans les poitrines,"
+          "auteur": "Muhammad Hamidullah",
+          "texte": "et que sera dévoilé ce qui est dans les poitrines"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "and what is in the breasts is laid bare,"
+          "auteur": "Saheeh International",
+          "texte": "And that within the breasts is obtained"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Ve göğüslerdekiler ortaya konulduğunda,"
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "İnsan, kabirlerde bulunanların çıkarılacağı ve kalblerde olanların ortaya konulacağı bir zamanın geleceğini bilmez mi"
         }
       },
       "mots": [
@@ -394,16 +396,16 @@ const S100 = {
       "translit": "Inna rabbahum bihim yawmaʾidhin lakhabīr",
       "traductions": {
         "fr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "ce jour-là, leur Seigneur sera parfaitement informé d'eux."
+          "auteur": "Muhammad Hamidullah",
+          "texte": "ce jour-là, certes, leur Seigneur sera Parfaitement Connaisseur d'eux"
         },
         "en": {
-          "auteur": "Comprendre le Coran",
-          "texte": "surely that Day their Lord will be fully aware of them."
+          "auteur": "Saheeh International",
+          "texte": "Indeed, their Lord with them, that Day, is [fully] Acquainted"
         },
         "tr": {
-          "auteur": "Comprendre le Coran",
-          "texte": "Şüphesiz o gün Rableri onlardan tam olarak haberdardır."
+          "auteur": "Diyanet İşleri Başkanlığı",
+          "texte": "Doğrusu Rableri o gün onların her şeyinden haberdardır"
         }
       },
       "mots": [
