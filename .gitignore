@@ -1,0 +1,10 @@
+# Dépendances (réinstallables avec npm install)
+node_modules/
+package-lock.json
+
+# Archives de travail
+*.tgz
+
+# Fichiers système
+.DS_Store
+Thumbs.db

@@ -1,6 +1,12 @@
 // Convertit le texte uthmanien de quran-json en orthographe simplifiée + translittération scientifique
 const fs = require('fs');
-const quran = require('/home/claude/package/dist/quran.json');
+const path = require('path');
+// Source des données : paquet npm quran-json. Installer avec :
+//   npm pack quran-json && tar xzf quran-json-*.tgz
+// puis lancer depuis la racine du dépôt, ou définir QURAN_JSON.
+const QURAN_JSON = process.env.QURAN_JSON
+  || path.join(__dirname, '..', 'node_modules', 'quran-json', 'dist', 'quran.json');
+const quran = require(QURAN_JSON);
 
 // --- 1. Uthmani -> orthographe simplifiée (style des fichiers existants) ---
 function simplify(t) {
@@ -140,7 +146,11 @@ function translitVerse(ar) {
 }
 
 // --- Extraction ---
-const NEEDED = [1, ...Array.from({length:34},(_,k)=>78+k)]; // 1, 78..111
+// Sourates à extraire. Par défaut celles déjà présentes dans base.json ;
+// passer des numéros en arguments pour en traiter d'autres :
+//   node build/extract.js 12 36 55
+const args = process.argv.slice(2).map(Number).filter(n => n >= 1 && n <= 114);
+const NEEDED = args.length ? args : [1, ...Array.from({length:34},(_,k)=>78+k)];
 const base = {};
 for (const n of NEEDED) {
   const s = quran.find(x => x.id === n);
@@ -156,7 +166,7 @@ for (const n of NEEDED) {
       return { n: v.id, ar: simplify(v.text), translit: translitVerse(v.text), words };
     }) };
 }
-fs.writeFileSync('/home/claude/build/base.json', JSON.stringify(base, null, 1));
+fs.writeFileSync(path.join(__dirname, 'base.json'), JSON.stringify(base, null, 1));
 
 // Validation : comparer S112 avec le fichier existant
 const s112 = quran.find(x=>x.id===112);

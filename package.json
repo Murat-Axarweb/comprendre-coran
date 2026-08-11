@@ -1,0 +1,29 @@
+{
+  "name": "comprendre-coran",
+  "version": "1.0.0",
+  "description": "Plateforme d'apprentissage de l'arabe coranique — site statique trilingue (FR/EN/TR)",
+  "type": "module",
+  "private": true,
+  "homepage": "https://comprendre-coran.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Murat-Axarweb/comprendre-coran.git"
+  },
+  "scripts": {
+    "validate": "npm run validate:corpus && npm run validate:i18n && npm run validate:nav",
+    "validate:corpus": "node scripts/validate-corpus.mjs",
+    "validate:i18n": "node scripts/validate-i18n.mjs",
+    "validate:nav": "node scripts/validate-nav.mjs",
+    "build:manifest": "node scripts/build-manifest.mjs",
+    "translations:check": "node scripts/import-translations.mjs --verifier",
+    "translations:import": "node scripts/import-translations.mjs --appliquer",
+    "translations:groups": "node scripts/mark-translation-groups.mjs --appliquer"
+  },
+  "devDependencies": {
+    "quran-json": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

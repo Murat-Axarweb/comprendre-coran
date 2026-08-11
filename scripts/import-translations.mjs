@@ -31,7 +31,9 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const appliquer = args.includes('--appliquer');
 const iSource = args.indexOf('--source');
-const dist = iSource >= 0 ? args[iSource + 1] : '/home/claude/package/dist';
+// Par défaut : le paquet installé par npm install. --source permet
+// d'indiquer un autre dossier dist/.
+const dist = iSource >= 0 ? args[iSource + 1] : join(root, 'node_modules', 'quran-json', 'dist');
 
 const SOURCES = {
   fr: { fichier: 'quran_fr.json', auteur: 'Muhammad Hamidullah' },

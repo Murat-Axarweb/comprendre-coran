@@ -1,5 +1,6 @@
 // Génère sourates/sNNN.js à partir de base.json + fichiers de contenu build/content/cNNN.js
 const fs = require('fs');
+const path = require('path');
 const base = require('./base.json');
 
 // --- Charger tout le vocabulaire (1000 mots) pour l'auto-glossaire ---
@@ -38,8 +39,42 @@ function autoGloss(arWord) {
 
 function esc(s) { return String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"'); }
 
+// Traductions déjà présentes dans sourates/sNNN.js. Elles proviennent de
+// traducteurs publiés (Hamidullah, Saheeh International, Diyanet) et NE
+// DOIVENT PAS être écrasées par les anciennes traductions de content/.
+// Voir scripts/import-translations.mjs.
+function traductionsExistantes(n) {
+  const f = path.join(__dirname, '..', 'sourates', 's' + String(n).padStart(3, '0') + '.js');
+  if (!fs.existsSync(f)) return null;
+  try {
+    const src = fs.readFileSync(f, 'utf8');
+    // Délimitation par comptage d'accolades : lastIndexOf('};') tomberait
+    // sur une occurrence interne aux données et casserait la lecture.
+    const i = src.indexOf('{');
+    if (i < 0) return null;
+    let prof = 0, j = i, dansChaine = false, echap = false;
+    for (; j < src.length; j++) {
+      const c = src[j];
+      if (dansChaine) {
+        if (echap) echap = false;
+        else if (c === '\\') echap = true;
+        else if (c === '"') dansChaine = false;
+        continue;
+      }
+      if (c === '"') dansChaine = true;
+      else if (c === '{') prof++;
+      else if (c === '}' && --prof === 0) break;
+    }
+    const data = JSON.parse(src.slice(i, j + 1));
+    const out = {};
+    (data.versets || []).forEach(v => { out[v.numero] = v.traductions; });
+    return Object.keys(out).length ? out : null;
+  } catch (e) { return null; }
+}
+
 function buildSurah(n) {
   const content = require('./content/c' + String(n).padStart(3, '0') + '.js');
+  const dejaTraduit = traductionsExistantes(n);
   const b = base[n];
   if (!b) throw new Error('base manquante ' + n);
   if (content.t.length !== b.verses.length) throw new Error(`s${n}: ${content.t.length} traductions pour ${b.verses.length} versets`);
@@ -68,7 +103,9 @@ function buildSurah(n) {
       numero: v.n,
       ar: v.ar,
       translit: v.translit,
-      traductions: {
+      // Priorité aux traductions de référence déjà installées ; celles de
+      // content/ ne servent que si la sourate n'existe pas encore.
+      traductions: (dejaTraduit && dejaTraduit[v.n]) || {
         fr: { auteur: 'Comprendre le Coran', texte: fr },
         en: { auteur: 'Comprendre le Coran', texte: en },
         tr: { auteur: 'Comprendre le Coran', texte: tr }
@@ -106,8 +143,14 @@ function buildSurah(n) {
   };
 
   const constName = 'S' + String(n).padStart(3, '0');
-  const js = 'const ' + constName + ' = ' + JSON.stringify(S, null, 2) + ';\n\nexport { ' + constName + ' };\n';
-  const out = '../sourates/s' + String(n).padStart(3, '0') + '.js';
+  // En-tête d'attribution : exigé par les conditions d'utilisation de
+  // Tanzil.net, il doit figurer dans tout fichier contenant ces traductions.
+  const entete = dejaTraduit
+    ? '// Traductions : Hamidullah (fr), Saheeh International (en), Diyanet (tr)\n'
+      + '// Source : quran-json / Tanzil.net — reproduction verbatim, usage non commercial.\n'
+    : '';
+  const js = entete + 'const ' + constName + ' = ' + JSON.stringify(S, null, 2) + ';\n\nexport { ' + constName + ' };\n';
+  const out = path.join(__dirname, '..', 'sourates', 's' + String(n).padStart(3, '0') + '.js');
   fs.writeFileSync(out, js);
   const nGloss = versets.reduce((a, v) => a + v.mots.length, 0);
   const nWords = b.verses.reduce((a, v) => a + v.words.length, 0);

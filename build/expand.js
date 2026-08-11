@@ -1,6 +1,7 @@
 // Transforme les lignes compactes en fichiers vocab3.js / vocab4.js au schéma exact du projet
 // Format : id|ar|translit|freq|racine|theme|fr|en|tr|famille(ar~translit~fr~en~tr;...)|prof_fr|prof_en|prof_tr|sourates
 const fs = require('fs');
+const path = require('path');
 const THEMES = ["allah","foi","prophetie","creation","homme","morale","jugement","priere","communaute","temps","grammaire"];
 const existing = require('./existing.json');
 const seenAr = new Map(existing.map(w => [w.ar, w.id]));
@@ -57,8 +58,8 @@ function emit(list, constName, file, range) {
   fs.writeFileSync(file, header);
 }
 
-const a = parse('/home/claude/build/v3.txt');
-const b = parse('/home/claude/build/v4.txt');
+const a = parse(path.join(__dirname, 'v3.txt'));
+const b = parse(path.join(__dirname, 'v4.txt'));
 const all = [...a.out, ...b.out].sort((x,y)=>x.id-y.id);
 const chk = check(all);
 const allErrors = [...a.errors, ...b.errors, ...chk.errors];

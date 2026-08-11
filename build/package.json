@@ -1,0 +1,4 @@
+{
+  "//": "Les scripts de ce dossier sont écrits en CommonJS (require). Ce fichier les isole du reste du projet, dont les scripts sont des modules ES (.mjs).",
+  "type": "commonjs"
+}

@@ -1,6 +1,9 @@
 // Convertit le texte uthmanien de quran-json en orthographe simplifiée + translittération scientifique
 const fs = require('fs');
-const quran = require('/home/claude/package/dist/quran.json');
+const path = require('path');
+const QURAN_JSON = process.env.QURAN_JSON
+  || path.join(__dirname, '..', 'node_modules', 'quran-json', 'dist', 'quran.json');
+const quran = require(QURAN_JSON);
 
 // --- 1. Uthmani -> orthographe simplifiée (style des fichiers existants) ---
 function simplify(t) {
@@ -141,7 +144,7 @@ function translitVerse(ar) {
 
 // --- Extraction ---
 const NEEDED = [2]; // regénération ciblée al-Baqara
-const base = JSON.parse(fs.readFileSync('/home/claude/comprendre-coran/build/base.json','utf8'));
+const base = JSON.parse(fs.readFileSync(path.join(__dirname, 'base.json'),'utf8'));
 for (const n of NEEDED) {
   const s = quran.find(x => x.id === n);
   base[n] = { name: s.transliteration, ar_name: s.name, total: s.total_verses,
@@ -156,7 +159,7 @@ for (const n of NEEDED) {
       return { n: v.id, ar: simplify(v.text), translit: translitVerse(v.text), words };
     }) };
 }
-fs.writeFileSync('/home/claude/comprendre-coran/build/base.json', JSON.stringify(base, null, 1));
+fs.writeFileSync(path.join(__dirname, 'base.json'), JSON.stringify(base, null, 1));
 console.log('base.json fusionné : sourate 2 total='+base[2].total+' verses='+base[2].verses.length);
 
 // (validation désactivée)

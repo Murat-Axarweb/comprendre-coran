@@ -1,9 +1,52 @@
 # Chaîne de build
 
-- `extract.js` — télécharge/lit le texte uthmani (quran-json), produit `base.json` (texte simplifié + translittération + tokens par mot) pour les sourates 1 et 78-114.
-- `v3.txt`, `v4.txt` — vocabulaire 301-1000 au format pipe 14 champs.
-- `expand.js` — parse + contrôle qualité → génère `../data/vocab3.js` et `../data/vocab4.js`.
-- `content/cNNN.js` — contenu rédactionnel par sourate (traductions FR/EN/TR, gloses, analyses, résumé).
-- `build_surah.js` — fusionne `content/cNNN.js` + `base.json` → `../sourates/sNNN.js`, avec auto-glossaire par squelette consonantique contre les 1000 mots. Usage : `node build_surah.js 78 79 80`.
+Scripts de génération du corpus. **Aucun n'est nécessaire au fonctionnement
+du site** : les données sont versionnées dans `sourates/` et `data/`. Ils ne
+servent qu'à régénérer ou étendre le corpus.
 
-Note : les chemins dans `expand.js` et `build_surah.js` pointent vers le dépôt ; les exécuter depuis ce dossier.
+## Mise en route
+
+```bash
+npm install          # installe quran-json (source du texte coranique)
+```
+
+Tous les chemins sont relatifs au dépôt : aucune configuration machine
+n'est requise. La variable d'environnement `QURAN_JSON` permet d'indiquer
+un autre fichier source si besoin.
+
+## Scripts
+
+| Fichier | Rôle |
+|---|---|
+| `extract.js` | Lit le texte uthmani et produit `base.json` (texte simplifié, translittération, découpage par mot). Sourates par défaut : 1 et 78-111 ; sinon passer les numéros en arguments — `node build/extract.js 12 36 55`. |
+| `extract_s2.js` | Même chose pour les sourates longues, en complétant `base.json`. |
+| `v3.txt`, `v4.txt` | Vocabulaire 301-1000, format pipe à 14 champs. |
+| `expand.js` | Contrôle et convertit ces fichiers en `data/vocab3.js` et `data/vocab4.js`. |
+| `content/cNNN.js` | Contenu rédactionnel par sourate : gloses, analyses, résumé. |
+| `build_surah.js` | Fusionne `content/cNNN.js` + `base.json` → `sourates/sNNN.js`. Usage : `node build_surah.js 78 79 80`. |
+
+## Traductions des versets — important
+
+Les traductions présentes dans `content/cNNN.js` sont **d'anciennes
+traductions non sourcées**, conservées pour l'historique.
+
+Le corpus utilise désormais des traductions publiées de référence
+(Hamidullah, Saheeh International, Diyanet), installées par
+`scripts/import-translations.mjs`. `build_surah.js` **relit et préserve**
+les traductions déjà présentes dans `sourates/sNNN.js` : régénérer une
+sourate n'écrase donc pas ces traductions.
+
+Après toute régénération, lancer :
+
+```bash
+npm run validate          # corpus, i18n, navbars
+npm run build:manifest    # met à jour sourates/manifest.js
+npm run translations:groups   # remarque les groupes de versets
+```
+
+## Couverture actuelle
+
+`base.json` et `content/` ne couvrent que 36 sourates (1, 2 et 78-111),
+état antérieur du projet. Les 114 sourates sont complètes dans
+`sourates/`, mais 78 d'entre elles ne sont pas régénérables par cette
+chaîne en l'état.
