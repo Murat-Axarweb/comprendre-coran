@@ -7,8 +7,12 @@ servent qu'à régénérer ou étendre le corpus.
 ## Mise en route
 
 ```bash
-npm install          # installe quran-json (source du texte coranique)
+npm install            # installe quran-json (source du texte coranique)
+npm run build:base     # génère build/base.json pour les 114 sourates (~1 s)
 ```
+
+`base.json` n'est pas versionné : il se régénère en une seconde et pèse
+7,6 Mo. Il n'est utilisé que par cette chaîne, jamais par le site.
 
 Tous les chemins sont relatifs au dépôt : aucune configuration machine
 n'est requise. La variable d'environnement `QURAN_JSON` permet d'indiquer
@@ -18,7 +22,7 @@ un autre fichier source si besoin.
 
 | Fichier | Rôle |
 |---|---|
-| `extract.js` | Lit le texte uthmani et produit `base.json` (texte simplifié, translittération, découpage par mot). Sourates par défaut : 1 et 78-111 ; sinon passer les numéros en arguments — `node build/extract.js 12 36 55`. |
+| `extract.js` | Lit le texte uthmani et produit `base.json` (texte simplifié, translittération, découpage par mot). `--tout` traite les 114 sourates ; sinon passer des numéros — `node build/extract.js 12 36 55`. Les sourates déjà présentes sont conservées, le fichier est complété et non écrasé. |
 | `extract_s2.js` | Même chose pour les sourates longues, en complétant `base.json`. |
 | `v3.txt`, `v4.txt` | Vocabulaire 301-1000, format pipe à 14 champs. |
 | `expand.js` | Contrôle et convertit ces fichiers en `data/vocab3.js` et `data/vocab4.js`. |
@@ -44,9 +48,20 @@ npm run build:manifest    # met à jour sourates/manifest.js
 npm run translations:groups   # remarque les groupes de versets
 ```
 
-## Couverture actuelle
+## Couverture
 
-`base.json` et `content/` ne couvrent que 36 sourates (1, 2 et 78-111),
-état antérieur du projet. Les 114 sourates sont complètes dans
-`sourates/`, mais 78 d'entre elles ne sont pas régénérables par cette
-chaîne en l'état.
+`base.json` couvre les **114 sourates** (`npm run build:base`) : texte
+arabe, translittération et découpage mot à mot sont donc régénérables
+intégralement.
+
+`content/` ne couvre en revanche que 36 sourates (1, 2 et 78-111). Ces
+fichiers contiennent le travail rédactionnel — gloses manuelles, analyses
+de versets, résumés pédagogiques — qui ne peut pas être généré
+automatiquement. Pour les 78 autres sourates, ce contenu existe dans
+`sourates/` mais n'a pas de fichier source correspondant : `build_surah.js`
+ne peut donc pas les reconstruire à l'identique.
+
+Concrètement, cela n'empêche rien aujourd'hui — les données sont
+versionnées et complètes. C'est une limite à connaître si l'on veut un
+jour retravailler le contenu rédactionnel d'une sourate hors de cette
+plage : il faudra d'abord créer son `content/cNNN.js`.

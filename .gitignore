@@ -2,6 +2,10 @@
 node_modules/
 package-lock.json
 
+# Fichier intermédiaire de build : régénéré en une seconde par
+# `npm run build:base`, inutile de le versionner (7,6 Mo).
+build/base.json
+
 # Archives de travail
 *.tgz
 

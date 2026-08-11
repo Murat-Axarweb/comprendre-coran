@@ -150,8 +150,15 @@ function translitVerse(ar) {
 // passer des numéros en arguments pour en traiter d'autres :
 //   node build/extract.js 12 36 55
 const args = process.argv.slice(2).map(Number).filter(n => n >= 1 && n <= 114);
-const NEEDED = args.length ? args : [1, ...Array.from({length:34},(_,k)=>78+k)];
-const base = {};
+// --tout : les 114 sourates d'un coup.
+const NEEDED = process.argv.includes('--tout')
+  ? Array.from({length:114}, (_, k) => k + 1)
+  : (args.length ? args : [1, ...Array.from({length:34},(_,k)=>78+k)]);
+
+// On COMPLÈTE base.json au lieu de l'écraser : sans cela, extraire une
+// sourate isolée supprimait toutes les autres.
+const BASE_PATH = path.join(__dirname, 'base.json');
+const base = fs.existsSync(BASE_PATH) ? JSON.parse(fs.readFileSync(BASE_PATH, 'utf8')) : {};
 for (const n of NEEDED) {
   const s = quran.find(x => x.id === n);
   base[n] = { name: s.transliteration, ar_name: s.name, total: s.total_verses,
