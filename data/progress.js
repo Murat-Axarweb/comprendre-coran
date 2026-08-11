@@ -1,46 +1,113 @@
 // ============================================================
 // PROGRESSION — Comprendre le Coran
+// ------------------------------------------------------------
 // Local-first : localStorage est la source de vérité pour toutes les
-// lectures (API synchrone, inchangée). La synchro Supabase se branche
-// en arrière-plan, sans jamais bloquer le chargement de la page :
-// la librairie est chargée paresseusement (getSupabase). Si elle
-// n'arrive pas, tout continue en localStorage sans régression.
+// lectures (API synchrone). La synchronisation Supabase se fait en
+// arrière-plan, sans jamais bloquer le chargement d'une page.
+//
+// CHAQUE ÉTAT EST HORODATÉ. Auparavant la fusion faisait l'union des
+// listes : retirer un mot sur le téléphone était annulé dès que le PC,
+// qui l'avait encore, se synchronisait. Désormais chaque mot et chaque
+// sourate portent la date de leur dernier changement, et c'est la
+// modification la plus récente qui l'emporte — y compris un retrait.
 // ============================================================
 import { getSupabase, isConfigured } from './supabase.js';
 
 const KEY = 'cc_progress_v1';
+
+// ----- Structure interne -----
+// words  : { "42": { v: true, t: 1786312542000 } }
+// surahs : { "2":  { v: true, t: 1786312542000 } }
+function _vide() {
+  return { words: {}, surahs: {}, quiz: { history: [], best: {} },
+           lastVisit: null, streak: 0, bestStreak: 0, lastDay: null };
+}
+
+// Convertit une ancienne liste d'identifiants en états horodatés. La date
+// 0 signifie « antérieur à tout changement connu » : ces valeurs ne
+// peuvent donc jamais écraser une modification datée.
+function _depuisListe(liste) {
+  const out = {};
+  (Array.isArray(liste) ? liste : []).forEach(id => { out[String(id)] = { v: true, t: 0 }; });
+  return out;
+}
+
+function _normaliserEtats(obj) {
+  const out = {};
+  if (obj && typeof obj === 'object') {
+    for (const [k, e] of Object.entries(obj)) {
+      if (e && typeof e === 'object') out[String(k)] = { v: !!e.v, t: Number(e.t) || 0 };
+    }
+  }
+  return out;
+}
 
 function _load() {
   try {
     const raw = localStorage.getItem(KEY);
     if (raw) {
       const p = JSON.parse(raw);
-      return {
-        wordsLearned: Array.isArray(p.wordsLearned) ? p.wordsLearned : [],
-        surahsRead: Array.isArray(p.surahsRead) ? p.surahsRead : [],
-        quiz: p.quiz && typeof p.quiz === 'object' ? p.quiz : { history: [], best: {} },
-        lastVisit: p.lastVisit || null,
-        streak: p.streak || 0,
-        bestStreak: p.bestStreak || 0,
-        lastDay: p.lastDay || null
-      };
+      const base = _vide();
+      // Format horodaté si présent, sinon migration depuis les listes.
+      base.words  = p.words  ? _normaliserEtats(p.words)  : _depuisListe(p.wordsLearned);
+      base.surahs = p.surahs ? _normaliserEtats(p.surahs) : _depuisListe(p.surahsRead);
+      if (p.quiz && typeof p.quiz === 'object') {
+        base.quiz = { history: Array.isArray(p.quiz.history) ? p.quiz.history : [],
+                      best: (p.quiz.best && typeof p.quiz.best === 'object') ? p.quiz.best : {} };
+      }
+      base.lastVisit  = p.lastVisit || null;
+      base.streak     = p.streak || 0;
+      base.bestStreak = p.bestStreak || 0;
+      base.lastDay    = p.lastDay || null;
+      return base;
     }
   } catch (e) { /* localStorage indisponible ou corrompu */ }
-  return { wordsLearned: [], surahsRead: [], quiz: { history: [], best: {} }, lastVisit: null, streak: 0, bestStreak: 0, lastDay: null };
+  return _vide();
 }
 
-function _save(p) {
-  try { localStorage.setItem(KEY, JSON.stringify(p)); } catch (e) { /* quota / privé */ }
+// Identifiants actuellement « vrais », pour l'API et la rétrocompatibilité.
+function _actifs(etats) {
+  return Object.keys(etats).filter(k => etats[k].v).map(Number).sort((a, b) => a - b);
+}
+
+// L'objet écrit sur disque et dans le cloud contient AUSSI les anciennes
+// listes : un appareil resté sur la version précédente continue de
+// fonctionner, et la fonction SQL admin_stats() (qui compte la longueur
+// de wordsLearned) reste valide.
+function _serialiser() {
+  return {
+    words: progress.words,
+    surahs: progress.surahs,
+    wordsLearned: _actifs(progress.words),
+    surahsRead: _actifs(progress.surahs),
+    quiz: progress.quiz,
+    lastVisit: progress.lastVisit,
+    streak: progress.streak,
+    bestStreak: progress.bestStreak,
+    lastDay: progress.lastDay
+  };
+}
+
+function _save() {
+  try { localStorage.setItem(KEY, JSON.stringify(_serialiser())); } catch (e) { /* quota / privé */ }
 }
 
 const progress = _load();
-// --- Série de jours consécutifs (streak) ---
-(function updateStreak() {
-  const today = new Date().toISOString().slice(0, 10);
-  const last = progress.lastDay || null;
-  if (last !== today) {
-    if (last) {
-      const diff = Math.round((Date.parse(today) - Date.parse(last)) / 86400000);
+
+// ----- Série de jours consécutifs -----
+// Date LOCALE du navigateur : avec une date UTC, une session à 01 h 30 à
+// Istanbul serait comptée la veille et casserait la série.
+function _jourLocal(d) {
+  d = d || new Date();
+  const p = n => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
+(function majSerie() {
+  const today = _jourLocal();
+  if (progress.lastDay !== today) {
+    if (progress.lastDay) {
+      const diff = Math.round((Date.parse(today) - Date.parse(progress.lastDay)) / 86400000);
       progress.streak = diff === 1 ? (progress.streak || 0) + 1 : 1;
     } else {
       progress.streak = 1;
@@ -50,39 +117,44 @@ const progress = _load();
   }
 })();
 progress.lastVisit = new Date().toISOString();
-_save(progress);
+_save();
 
-// Série de jours consécutifs de visite.
 export function getStreak() { return progress.streak || 0; }
 export function getBestStreak() { return progress.bestStreak || 0; }
 
 // ----- Mots -----
-export function isWordLearned(id) { return progress.wordsLearned.includes(id); }
+export function isWordLearned(id) {
+  const e = progress.words[String(id)];
+  return !!(e && e.v);
+}
 
 export function toggleWord(id) {
-  const i = progress.wordsLearned.indexOf(id);
-  if (i >= 0) progress.wordsLearned.splice(i, 1);
-  else progress.wordsLearned.push(id);
-  _save(progress);
+  const k = String(id);
+  const etait = isWordLearned(id);
+  progress.words[k] = { v: !etait, t: Date.now() };
+  _save();
   _scheduleCloudPush();
-  return i < 0; // true si désormais appris
+  return !etait;
 }
 
-export function wordsLearnedCount() { return progress.wordsLearned.length; }
+export function wordsLearnedCount() { return _actifs(progress.words).length; }
 
 // ----- Sourates -----
-export function isSurahRead(n) { return progress.surahsRead.includes(n); }
-
-export function toggleSurah(n) {
-  const i = progress.surahsRead.indexOf(n);
-  if (i >= 0) progress.surahsRead.splice(i, 1);
-  else progress.surahsRead.push(n);
-  _save(progress);
-  _scheduleCloudPush();
-  return i < 0;
+export function isSurahRead(n) {
+  const e = progress.surahs[String(n)];
+  return !!(e && e.v);
 }
 
-export function surahsReadCount() { return progress.surahsRead.length; }
+export function toggleSurah(n) {
+  const k = String(n);
+  const etait = isSurahRead(n);
+  progress.surahs[k] = { v: !etait, t: Date.now() };
+  _save();
+  _scheduleCloudPush();
+  return !etait;
+}
+
+export function surahsReadCount() { return _actifs(progress.surahs).length; }
 
 // ----- Quiz -----
 export function saveQuizResult(type, score, total, missedIds) {
@@ -92,12 +164,11 @@ export function saveQuizResult(type, score, total, missedIds) {
   if (progress.quiz.history.length > 200) progress.quiz.history.shift();
   const pct = total ? Math.round(score / total * 100) : 0;
   if (!progress.quiz.best[type] || pct > progress.quiz.best[type]) progress.quiz.best[type] = pct;
-  _save(progress);
+  _save();
   _scheduleCloudPush();
 }
 
 // Mots les plus souvent ratés en quiz, du plus fréquent au moins fréquent.
-// Renvoie [{ id, count }]. Base de la révision ciblée des erreurs.
 export function missedWords(limit) {
   const counts = new Map();
   progress.quiz.history.forEach(h => {
@@ -109,7 +180,6 @@ export function missedWords(limit) {
   return limit ? out.slice(0, limit) : out;
 }
 
-// Statistiques par type de quiz (moyenne, nombre de sessions, dernier score).
 export function quizStats(type) {
   const hs = progress.quiz.history.filter(h => !type || h.type === type);
   if (!hs.length) return { sessions: 0, avg: 0, last: null, best: type ? quizBest(type) : 0 };
@@ -121,26 +191,28 @@ export function quizStats(type) {
 export function quizBest(type) { return progress.quiz.best[type] || 0; }
 export function quizHistory() { return progress.quiz.history.slice(); }
 
-// ----- Résumé global -----
 export function getSummary() {
   return {
-    words: progress.wordsLearned.length,
-    surahs: progress.surahsRead.length,
+    words: wordsLearnedCount(),
+    surahs: surahsReadCount(),
     quizzes: progress.quiz.history.length,
     best: { ...progress.quiz.best }
   };
 }
 
 export function resetProgress() {
-  progress.wordsLearned = [];
-  progress.surahsRead = [];
+  const now = Date.now();
+  // On date le retrait, sinon la synchronisation ferait revenir les états
+  // encore présents sur les autres appareils.
+  Object.keys(progress.words).forEach(k => { progress.words[k] = { v: false, t: now }; });
+  Object.keys(progress.surahs).forEach(k => { progress.surahs[k] = { v: false, t: now }; });
   progress.quiz = { history: [], best: {} };
-  _save(progress);
+  _save();
   _scheduleCloudPush();
 }
 
 // ============================================================
-// SYNCHRONISATION CLOUD (paresseuse, non bloquante)
+// SYNCHRONISATION CLOUD
 // ============================================================
 const _listeners = new Set();
 export function subscribe(fn) { _listeners.add(fn); return () => _listeners.delete(fn); }
@@ -148,15 +220,25 @@ function _notify() { _listeners.forEach(fn => { try { fn(); } catch (e) {} }); }
 
 export function cloudEnabled() { return isConfigured(); }
 
-// Fusion d'un état distant dans l'état local (union — pas d'effacement par absence).
+// Fusion élément par élément : la modification la plus récente gagne.
+function _fusionnerEtats(local, distant) {
+  for (const [k, r] of Object.entries(distant || {})) {
+    const l = local[k];
+    if (!l || (r.t || 0) > (l.t || 0)) local[k] = { v: !!r.v, t: Number(r.t) || 0 };
+  }
+}
+
 function _merge(remote) {
   if (!remote || typeof remote !== 'object') return;
-  const rw = Array.isArray(remote.wordsLearned) ? remote.wordsLearned : [];
-  const rs = Array.isArray(remote.surahsRead) ? remote.surahsRead : [];
-  progress.wordsLearned = Array.from(new Set([...progress.wordsLearned, ...rw]));
-  progress.surahsRead = Array.from(new Set([...progress.surahsRead, ...rs]));
+
+  // Format horodaté si disponible ; sinon anciennes listes, datées à 0
+  // pour ne jamais écraser un changement local daté.
+  _fusionnerEtats(progress.words,  remote.words  ? _normaliserEtats(remote.words)  : _depuisListe(remote.wordsLearned));
+  _fusionnerEtats(progress.surahs, remote.surahs ? _normaliserEtats(remote.surahs) : _depuisListe(remote.surahsRead));
+
   if (remote.bestStreak && remote.bestStreak > (progress.bestStreak || 0)) progress.bestStreak = remote.bestStreak;
   if (remote.streak && remote.lastDay === progress.lastDay && remote.streak > (progress.streak || 0)) progress.streak = remote.streak;
+
   if (remote.quiz && typeof remote.quiz === 'object') {
     const seen = new Set(progress.quiz.history.map(h => h.type + '|' + h.date));
     (remote.quiz.history || []).forEach(h => {
@@ -172,23 +254,35 @@ function _merge(remote) {
   }
 }
 
+// ----- Envoi (débouncé, avec reprise en cas d'échec) -----
 let _pushTimer = null;
-function _scheduleCloudPush() {
+let _retard = 0;
+const DELAIS_REPRISE = [5000, 15000, 60000];
+
+function _scheduleCloudPush(delai) {
   if (!isConfigured()) return;
   clearTimeout(_pushTimer);
-  _pushTimer = setTimeout(_cloudPush, 800);
+  _pushTimer = setTimeout(_cloudPush, delai === undefined ? 800 : delai);
 }
+function _reprogrammer() {
+  const d = DELAIS_REPRISE[Math.min(_retard, DELAIS_REPRISE.length - 1)];
+  _retard++;
+  _scheduleCloudPush(d);
+}
+
 async function _cloudPush() {
   try {
     const sb = await getSupabase();
     if (!sb) return;
     const { data: { user } } = await sb.auth.getUser();
     if (!user) return;
-    await sb.from('user_progress').upsert(
-      { user_id: user.id, data: progress, updated_at: new Date().toISOString() },
+    const { error } = await sb.from('user_progress').upsert(
+      { user_id: user.id, data: _serialiser(), updated_at: new Date().toISOString() },
       { onConflict: 'user_id' }
     );
-  } catch (e) { /* hors ligne : reprise ultérieure */ }
+    if (error) { _reprogrammer(); return; }
+    _retard = 0;
+  } catch (e) { _reprogrammer(); }
 }
 
 async function _cloudPull() {
@@ -200,10 +294,10 @@ async function _cloudPull() {
     const { data, error } = await sb
       .from('user_progress').select('data').eq('user_id', user.id).maybeSingle();
     if (!error && data && data.data) _merge(data.data);
-    _save(progress);
+    _save();
     _notify();
     _cloudPush();
-  } catch (e) { /* silencieux */ }
+  } catch (e) { /* silencieux : dégradation gracieuse */ }
 }
 
 // Amorçage en arrière-plan (ne bloque jamais l'exécution du module).

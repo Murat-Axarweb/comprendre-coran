@@ -89,10 +89,21 @@ const _dirty = new Set();
 function _markDirty(id) { _dirty.add(Number(id)); _schedulePush(); }
 
 let _pushTimer = null;
-function _schedulePush() {
+let _retard = 0;                          // index dans DELAIS_REPRISE
+const DELAIS_REPRISE = [5000, 15000, 60000];
+
+function _schedulePush(delai) {
   if (!isConfigured()) return;
   clearTimeout(_pushTimer);
-  _pushTimer = setTimeout(_flush, 800);
+  _pushTimer = setTimeout(_flush, delai === undefined ? 800 : delai);
+}
+
+// Reprogramme un envoi après un échec, en espaçant les tentatives
+// (5 s, 15 s, puis toutes les minutes) pour ne pas marteler le réseau.
+function _reprogrammer() {
+  const delai = DELAIS_REPRISE[Math.min(_retard, DELAIS_REPRISE.length - 1)];
+  _retard++;
+  _schedulePush(delai);
 }
 function _rowFromCard(userId, id) {
   const c = cards[id]; if (!c) return null;
@@ -106,15 +117,26 @@ function _rowFromCard(userId, id) {
 }
 async function _flush() {
   if (_dirty.size === 0) return;
+  // Les identifiants ne sont retirés de la file QU'APRÈS confirmation de
+  // l'écriture : une coupure réseau ne fait donc plus perdre de révisions.
+  const ids = [..._dirty];
   try {
     const sb = await getSupabase();
     if (!sb) return;
     const { data: { user } } = await sb.auth.getUser();
-    if (!user) return;
-    const ids = [..._dirty]; _dirty.clear();
+    if (!user) return;                     // déconnecté : on garde la file
     const rows = ids.map(id => _rowFromCard(user.id, id)).filter(Boolean);
-    if (rows.length) await sb.from('srs_cards').upsert(rows, { onConflict: 'user_id,word_id' });
-  } catch (e) { /* hors ligne : reprise ultérieure */ }
+    if (!rows.length) { ids.forEach(id => _dirty.delete(id)); return; }
+
+    const { error } = await sb.from('srs_cards').upsert(rows, { onConflict: 'user_id,word_id' });
+    if (error) { _reprogrammer(); return; }
+
+    ids.forEach(id => _dirty.delete(id));  // succès confirmé
+    _retard = 0;
+    if (_dirty.size > 0) _schedulePush();  // cartes notées pendant l'envoi
+  } catch (e) {
+    _reprogrammer();                        // hors ligne : nouvelle tentative
+  }
 }
 
 function _mergeRow(row) {
