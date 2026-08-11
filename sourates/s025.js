@@ -80,7 +80,14 @@ const S025 = {
         }
       ],
       "analyse_globale": "Tabāraka lladhī nazzala l-furqāna : la sourate s'ouvre et se referme (v.61) sur tabāraka — « béni, source débordante de bien ». Et le Coran y est nommé furqān, « ce qui sépare » : le critère qui tranche le vrai du faux, le juste de l'injuste. Recevoir le Coran, c'est recevoir une capacité de discernement. Le mot dit l'inverse de la confusion morale : là où les passions brouillent tout (v.43), la révélation donne des lignes claires.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -186,7 +193,14 @@ const S025 = {
           "frequence_coran": 179
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -583,7 +597,14 @@ const S025 = {
           "frequence_coran": 48
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 7,
+          "fin": 8,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 8,
@@ -675,7 +696,14 @@ const S025 = {
           "frequence_coran": 662
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 7,
+          "fin": 8,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 9,
@@ -1906,7 +1934,14 @@ const S025 = {
           "frequence_coran": 41
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 27,
+          "fin": 29,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 28,
@@ -1935,7 +1970,14 @@ const S025 = {
           "frequence_coran": 163
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 27,
+          "fin": 29,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 29,
@@ -1999,7 +2041,14 @@ const S025 = {
           "frequence_coran": 84
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 27,
+          "fin": 29,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 30,
@@ -2989,7 +3038,14 @@ const S025 = {
           "frequence_coran": 145
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 45,
+          "fin": 46,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 46,
@@ -3018,7 +3074,14 @@ const S025 = {
           "frequence_coran": 337
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 45,
+          "fin": 46,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 47,
@@ -3153,7 +3216,14 @@ const S025 = {
           "frequence_coran": 81
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 48,
+          "fin": 49,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 49,
@@ -3196,7 +3266,14 @@ const S025 = {
           "frequence_coran": 46
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 48,
+          "fin": 49,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 50,
@@ -4242,7 +4319,14 @@ const S025 = {
           "frequence_coran": 1360
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 65,
+          "fin": 66,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 66,
@@ -4263,7 +4347,14 @@ const S025 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 65,
+          "fin": 66,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 67,

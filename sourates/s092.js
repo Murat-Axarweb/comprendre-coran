@@ -217,7 +217,14 @@ const S092 = {
         }
       ],
       "analyse_globale": "Les versets 5-10 posent deux triades symétriques : donner + craindre Dieu + confirmer la belle promesse → facilité ; retenir + se croire autosuffisant + démentir → difficulté. Le pivot n'est pas la richesse mais le rapport à elle : aʿṭā (il donne) contre bakhila (il retient).",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 6,
@@ -246,7 +253,14 @@ const S092 = {
           "frequence_coran": 9
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 7,
@@ -267,7 +281,14 @@ const S092 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -310,7 +331,14 @@ const S092 = {
           "frequence_coran": 12
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 10,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 9,
@@ -346,7 +374,14 @@ const S092 = {
           "frequence_coran": 9
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 10,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 10,
@@ -367,7 +402,14 @@ const S092 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 10,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 11,
@@ -539,7 +581,14 @@ const S092 = {
           "frequence_coran": 662
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 16,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 16,
@@ -575,7 +624,14 @@ const S092 = {
           "frequence_coran": 80
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 16,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 17,
@@ -604,7 +660,14 @@ const S092 = {
           "frequence_coran": 74
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 18,
@@ -633,7 +696,14 @@ const S092 = {
           "frequence_coran": 1464
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 19,
@@ -683,7 +753,14 @@ const S092 = {
           "frequence_coran": 144
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 20,
@@ -727,7 +804,14 @@ const S092 = {
         }
       ],
       "analyse_globale": "Illā btighāʾa wajhi rabbihi l-aʿlā : donner 'sans que personne n'ait sur soi de bienfait à rendre' — la charité pure, sans dette sociale, sans calcul de retour. La tradition y voit Abu Bakr rachetant les esclaves persécutés. Le v.21 scelle : wa-la-sawfa yarḍā, 'il sera satisfait' — la même satisfaction promise au Prophète (93:5).",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 21,

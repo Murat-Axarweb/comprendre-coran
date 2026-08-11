@@ -59,7 +59,14 @@ const S083 = {
         }
       ],
       "analyse_globale": "Taṭfīf : réduire la mesure d'un rien — le mot vient de ṭafīf, l'infime. La fraude visée n'est pas le vol massif mais le grappillage systématique, jugé assez grave pour ouvrir une sourate par wayl (malheur). L'asymétrie est le cœur du délit : exiger plein pour soi, donner incomplet aux autres — une définition qui dépasse largement le commerce.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -109,7 +116,14 @@ const S083 = {
           "frequence_coran": 92
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -152,7 +166,14 @@ const S083 = {
           "frequence_coran": 264
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -195,7 +216,14 @@ const S083 = {
           "frequence_coran": 62
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 5,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 5,
@@ -231,7 +259,14 @@ const S083 = {
           "frequence_coran": 107
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,
@@ -868,7 +903,14 @@ const S083 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 20,
+          "fin": 21,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 21,
@@ -889,7 +931,14 @@ const S083 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 20,
+          "fin": 21,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 22,
@@ -932,7 +981,14 @@ const S083 = {
           "frequence_coran": 17
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 22,
+          "fin": 23,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 23,
@@ -961,7 +1017,14 @@ const S083 = {
           "frequence_coran": 1430
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 22,
+          "fin": 23,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 24,
@@ -1026,7 +1089,14 @@ const S083 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 26,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 26,
@@ -1062,7 +1132,14 @@ const S083 = {
           "frequence_coran": 280
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 26,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 27,
@@ -1091,7 +1168,14 @@ const S083 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 27,
+          "fin": 28,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 28,
@@ -1120,7 +1204,14 @@ const S083 = {
           "frequence_coran": 79
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 27,
+          "fin": 28,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 29,
@@ -1407,7 +1498,14 @@ const S083 = {
           "frequence_coran": 1430
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 35,
+          "fin": 36,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 36,
@@ -1450,7 +1548,14 @@ const S083 = {
           "frequence_coran": 229
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 35,
+          "fin": 36,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

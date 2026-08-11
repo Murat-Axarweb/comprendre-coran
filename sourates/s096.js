@@ -152,7 +152,14 @@ const S096 = {
           "frequence_coran": 116
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 5,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 4,
@@ -195,7 +202,14 @@ const S096 = {
           "frequence_coran": 6
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -245,7 +259,14 @@ const S096 = {
           "frequence_coran": 62
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,
@@ -282,7 +303,14 @@ const S096 = {
         }
       ],
       "analyse_globale": "An raʾāhu staghnā : la racine de toute tyrannie selon le Coran — se voir autosuffisant. Le mot vise l'illusion de ne dépendre de rien : ni de Dieu, ni des autres, ni du réel. Le v.8 répond en un vers : le retour est vers ton Seigneur — l'autosuffisance est une erreur de calcul.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 7,
@@ -311,7 +339,14 @@ const S096 = {
           "frequence_coran": 609
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -383,7 +418,14 @@ const S096 = {
           "frequence_coran": 1464
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 9,
+          "fin": 10,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 10,
@@ -412,7 +454,14 @@ const S096 = {
           "frequence_coran": 195
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 9,
+          "fin": 10,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 11,
@@ -462,7 +511,14 @@ const S096 = {
           "frequence_coran": 46
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 13,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 12,
@@ -505,7 +561,14 @@ const S096 = {
           "frequence_coran": 158
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 13,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 13,
@@ -541,7 +604,14 @@ const S096 = {
           "frequence_coran": 80
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 13,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 14,

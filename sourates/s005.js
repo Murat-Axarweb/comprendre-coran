@@ -9866,7 +9866,14 @@ const S005 = {
           "frequence_coran": 58
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 83,
+          "fin": 84,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 84,
@@ -9965,7 +9972,14 @@ const S005 = {
           "frequence_coran": 58
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 83,
+          "fin": 84,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 85,
@@ -13554,7 +13568,14 @@ const S005 = {
         }
       ],
       "analyse_globale": "A-anta qulta li-n-nāsi ttakhidhūnī wa-ummiya ilāhayni min dūni Llāh : « est-ce toi qui as dit aux gens : prenez-moi, ainsi que ma mère, pour deux divinités ? » Le grand dialogue final. Au Jour du Jugement, Dieu interroge Jésus sur sa divinisation — et Jésus la récuse absolument : subḥānaka, « gloire à Toi », suivi d'une humilité vertigineuse : « Tu sais ce qu'il y a en moi, et je ne sais pas ce qu'il y a en Toi ». La créature ne peut prétendre égaler le Créateur, fût-elle le Messie. Jésus rappelle son seul message : « adorez Allah, mon Seigneur et le vôtre ». Et il s'efface jusqu'au bout : « si Tu les châties, ce sont Tes serviteurs ; si Tu leur pardonnes, c'est Toi le Puissant » — remettant même le sort de ceux qui l'ont divinisé à la seule miséricorde de Dieu.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 116,
+          "fin": 117,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 117,
@@ -13716,7 +13737,14 @@ const S005 = {
           "frequence_coran": 35
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 116,
+          "fin": 117,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 118,

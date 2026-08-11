@@ -200,7 +200,14 @@ const S008 = {
         }
       ],
       "analyse_globale": "Innamā l-muʾminūna lladhīna idhā dhukira Llāhu wajilat qulūbuhum : « les croyants ne sont que ceux dont les cœurs frémissent quand Allah est mentionné ». La définition existentielle de la foi : non un statut mais une sensibilité. Trois signes vitaux : le cœur qui frémit (wajilat) au rappel de Dieu, la foi qui s'ACCROÎT (zādathum īmānan) à l'écoute des versets — l'īmān est donc dynamique, il monte et descend —, et la confiance (tawakkul) placée dans le Seigneur. Le critère du cœur vivant est sa capacité d'être ému par le divin ; le cœur mort entend sans tressaillir.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -236,7 +243,14 @@ const S008 = {
           "frequence_coran": 111
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -541,7 +555,14 @@ const S008 = {
           "frequence_coran": 48
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 7,
+          "fin": 8,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 8,
@@ -584,7 +605,14 @@ const S008 = {
           "frequence_coran": 41
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 7,
+          "fin": 8,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 9,
@@ -1570,7 +1598,14 @@ const S008 = {
           "frequence_coran": 42
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 20,
+          "fin": 21,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 21,
@@ -1627,7 +1662,14 @@ const S008 = {
           "frequence_coran": 812
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 20,
+          "fin": 21,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 22,
@@ -2917,7 +2959,14 @@ const S008 = {
           "frequence_coran": 54
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 37,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 37,
@@ -3016,7 +3065,14 @@ const S008 = {
           "frequence_coran": 180
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 37,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 38,
@@ -4394,7 +4450,14 @@ const S008 = {
           "frequence_coran": 373
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 50,
+          "fin": 51,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 51,
@@ -4458,7 +4521,14 @@ const S008 = {
           "frequence_coran": 315
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 50,
+          "fin": 51,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 52,
@@ -4904,7 +4974,14 @@ const S008 = {
           "frequence_coran": 812
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 56,
+          "fin": 57,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 57,
@@ -4968,7 +5045,14 @@ const S008 = {
           "frequence_coran": 46
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 56,
+          "fin": 57,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 58,
@@ -5436,7 +5520,14 @@ const S008 = {
           "frequence_coran": 1464
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 62,
+          "fin": 63,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 63,
@@ -5570,7 +5661,14 @@ const S008 = {
           "frequence_coran": 147
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 62,
+          "fin": 63,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 64,
@@ -5747,7 +5845,14 @@ const S008 = {
           "frequence_coran": 812
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 65,
+          "fin": 66,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 66,
@@ -5860,7 +5965,14 @@ const S008 = {
           "frequence_coran": 58
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 65,
+          "fin": 66,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 67,

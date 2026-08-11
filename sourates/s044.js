@@ -79,7 +79,14 @@ const S044 = {
           "frequence_coran": 45
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -130,7 +137,14 @@ const S044 = {
         }
       ],
       "analyse_globale": "Laylatun mubāraka : la nuit bénie — croisée avec 97:1 (« Nous l'avons fait descendre dans la Nuit du Destin ») et 2:185 (« le mois de Ramadan où fut descendu le Coran »), elle situe la descente initiale du Livre. Le v.4 en donne la fonction : yufraqu — la nuit du grand tri, où les décrets de l'année se détaillent. Une nuit d'archivage cosmique, offerte chaque année à la prière des veilleurs.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -173,7 +187,14 @@ const S044 = {
           "frequence_coran": 166
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 5,
@@ -216,7 +237,14 @@ const S044 = {
           "frequence_coran": 63
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,
@@ -287,7 +315,14 @@ const S044 = {
           "frequence_coran": 100
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 7,
@@ -344,7 +379,14 @@ const S044 = {
           "frequence_coran": 188
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -501,7 +543,14 @@ const S044 = {
           "frequence_coran": 45
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 11,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 11,
@@ -544,7 +593,14 @@ const S044 = {
           "frequence_coran": 373
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 11,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 12,
@@ -644,7 +700,14 @@ const S044 = {
           "frequence_coran": 45
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 14,
@@ -687,7 +750,14 @@ const S044 = {
           "frequence_coran": 5
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 15,
@@ -1202,7 +1272,14 @@ const S044 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 27,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 26,
@@ -1238,7 +1315,14 @@ const S044 = {
           "frequence_coran": 27
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 27,
@@ -1281,7 +1365,14 @@ const S044 = {
           "frequence_coran": 241
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 28,
@@ -1418,7 +1509,14 @@ const S044 = {
           "frequence_coran": 373
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 30,
+          "fin": 31,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 31,
@@ -1475,7 +1573,14 @@ const S044 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 30,
+          "fin": 31,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 32,
@@ -1618,7 +1723,14 @@ const S044 = {
           "frequence_coran": 51
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 34,
+          "fin": 36,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 35,
@@ -1675,7 +1787,14 @@ const S044 = {
           "frequence_coran": 65
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 34,
+          "fin": 36,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 36,
@@ -1711,7 +1830,14 @@ const S044 = {
           "frequence_coran": 188
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 34,
+          "fin": 36,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 37,
@@ -2111,7 +2237,14 @@ const S044 = {
           "frequence_coran": 3
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 43,
+          "fin": 46,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 44,
@@ -2140,7 +2273,14 @@ const S044 = {
           "frequence_coran": 24
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 43,
+          "fin": 46,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 45,
@@ -2169,7 +2309,14 @@ const S044 = {
           "frequence_coran": 4381
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 43,
+          "fin": 46,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 46,
@@ -2198,7 +2345,14 @@ const S044 = {
           "frequence_coran": 20
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 43,
+          "fin": 46,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 47,
@@ -2241,7 +2395,14 @@ const S044 = {
           "frequence_coran": 43
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 47,
+          "fin": 50,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 48,
@@ -2298,7 +2459,14 @@ const S044 = {
           "frequence_coran": 20
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 47,
+          "fin": 50,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 49,
@@ -2349,7 +2517,14 @@ const S044 = {
         }
       ],
       "analyse_globale": "Dhuq innaka anta l-ʿazīzu l-karīm : « Goûte ! Toi, le puissant, le noble ! » — l'ironie eschatologique la plus mordante du texte, adressée (rapporte-t-on) à Abū Jahl qui se vantait d'être « le plus puissant et le plus noble » de la vallée. Les titres d'ici-bas, récités au Feu, deviennent la sentence elle-même.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 47,
+          "fin": 50,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 50,
@@ -2406,7 +2581,14 @@ const S044 = {
           "frequence_coran": 327
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 47,
+          "fin": 50,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 51,
@@ -2456,7 +2638,14 @@ const S044 = {
           "frequence_coran": 17
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 51,
+          "fin": 52,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 52,
@@ -2485,7 +2674,14 @@ const S044 = {
           "frequence_coran": 4381
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 51,
+          "fin": 52,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 53,
@@ -2657,7 +2853,14 @@ const S044 = {
           "frequence_coran": 43
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 56,
+          "fin": 57,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 57,
@@ -2714,7 +2917,14 @@ const S044 = {
           "frequence_coran": 107
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 56,
+          "fin": 57,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 58,
@@ -2750,7 +2960,14 @@ const S044 = {
           "frequence_coran": 46
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 58,
+          "fin": 59,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 59,
@@ -2779,7 +2996,14 @@ const S044 = {
           "frequence_coran": 62
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 58,
+          "fin": 59,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

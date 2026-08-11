@@ -231,7 +231,14 @@ const S101 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 7,
@@ -267,7 +274,14 @@ const S101 = {
           "frequence_coran": 4381
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,

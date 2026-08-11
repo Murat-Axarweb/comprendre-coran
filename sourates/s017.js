@@ -193,7 +193,14 @@ const S017 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -257,7 +264,14 @@ const S017 = {
           "frequence_coran": 1360
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -655,7 +669,14 @@ const S017 = {
           "frequence_coran": 325
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 9,
+          "fin": 10,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 10,
@@ -719,7 +740,14 @@ const S017 = {
           "frequence_coran": 325
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 9,
+          "fin": 10,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 11,
@@ -3413,7 +3441,14 @@ const S017 = {
           "frequence_coran": 264
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 50,
+          "fin": 51,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 51,
@@ -3533,7 +3568,14 @@ const S017 = {
           "frequence_coran": 609
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 50,
+          "fin": 51,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 52,
@@ -7777,7 +7819,14 @@ const S017 = {
           "frequence_coran": 183
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 107,
+          "fin": 108,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 108,
@@ -7841,7 +7890,14 @@ const S017 = {
           "frequence_coran": 72
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 107,
+          "fin": 108,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 109,

@@ -86,7 +86,14 @@ const S110 = {
           "frequence_coran": 38
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -157,7 +164,14 @@ const S110 = {
           "frequence_coran": 5
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -235,7 +249,14 @@ const S110 = {
         }
       ],
       "analyse_globale": "Au sommet de la réussite, trois ordres : glorifier, louer, demander pardon. La logique coranique inverse le réflexe humain : plus le succès est grand, plus l'humilité doit croître — car le succès vient de Dieu (v.1 : 'le secours d'Allah'), non de soi.",
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

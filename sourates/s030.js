@@ -88,7 +88,14 @@ const S030 = {
         }
       ],
       "analyse_globale": "Ghulibati r-Rūm : la prophétie la plus vérifiable du Coran. Les Byzantins, écrasés par les Perses vers 614, « vaincront à leur tour dans quelques années » (biḍʿ sinīn : entre 3 et 9 ans) — accompli à Ninive en 627. Détail linguistique célèbre : le même verbe ghalaba peut se lire à l'actif ou au passif, et la tradition rapporte qu'Abū Bakr paria sur l'accomplissement. Une religion qui date sa propre prédiction prend un risque que les mythes évitent.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 5,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -145,7 +152,14 @@ const S030 = {
           "frequence_coran": 82
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -223,7 +237,14 @@ const S030 = {
           "frequence_coran": 63
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -294,7 +315,14 @@ const S030 = {
           "frequence_coran": 118
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,
@@ -1153,7 +1181,14 @@ const S030 = {
           "frequence_coran": 8
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 18,
@@ -1210,7 +1245,14 @@ const S030 = {
           "frequence_coran": 8
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 19,
@@ -2374,7 +2416,14 @@ const S030 = {
           "frequence_coran": 49
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 31,
+          "fin": 32,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 32,
@@ -2438,7 +2487,14 @@ const S030 = {
           "frequence_coran": 296
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 31,
+          "fin": 32,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 33,
@@ -2558,7 +2614,14 @@ const S030 = {
           "frequence_coran": 80
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 34,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 34,
@@ -2601,7 +2664,14 @@ const S030 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 34,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 35,
@@ -3847,7 +3917,14 @@ const S030 = {
           "frequence_coran": 180
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 48,
+          "fin": 49,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 49,
@@ -3918,7 +3995,14 @@ const S030 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 48,
+          "fin": 49,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 50,

@@ -246,7 +246,14 @@ const S086 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 7,
@@ -282,7 +289,14 @@ const S086 = {
           "frequence_coran": 70
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -318,7 +332,14 @@ const S086 = {
           "frequence_coran": 1430
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 9,
@@ -348,7 +369,14 @@ const S086 = {
         }
       ],
       "analyse_globale": "Yawma tublā s-sarāʾir : 'le jour où les secrets seront testés'. Sarīra désigne ce qu'on ne confie à personne. La résurrection coranique n'est pas qu'un retour des corps (v.5-8) : c'est une mise à nu des intériorités — le vrai contenu de chacun enfin manifesté.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 10,
@@ -441,7 +469,14 @@ const S086 = {
           "frequence_coran": 79
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 12,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 12,
@@ -470,7 +505,14 @@ const S086 = {
           "frequence_coran": 108
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 12,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 13,

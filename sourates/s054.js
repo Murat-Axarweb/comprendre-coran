@@ -66,7 +66,14 @@ const S054 = {
         }
       ],
       "analyse_globale": "« La lune s'est fendue » : la tradition rapporte le prodige montré aux Mecquois qui réclamaient un signe — et leur réponse est consignée au v.2 : « magie persistante ». Le miracle ne convainc pas qui a décidé de ne pas croire : la sourate en tire toute sa pédagogie, remplaçant le prodige visuel par le rappel mémorisable.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -102,7 +109,14 @@ const S054 = {
           "frequence_coran": 8
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -310,7 +324,14 @@ const S054 = {
           "frequence_coran": 62
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 7,
+          "fin": 8,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 8,
@@ -360,7 +381,14 @@ const S054 = {
           "frequence_coran": 12
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 7,
+          "fin": 8,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 9,
@@ -568,7 +596,14 @@ const S054 = {
           "frequence_coran": 1430
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 14,
@@ -625,7 +660,14 @@ const S054 = {
           "frequence_coran": 525
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 15,
@@ -855,7 +897,14 @@ const S054 = {
           "frequence_coran": 405
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 20,
@@ -898,7 +947,14 @@ const S054 = {
           "frequence_coran": 20
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 21,
@@ -1070,7 +1126,14 @@ const S054 = {
           "frequence_coran": 4381
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 24,
+          "fin": 25,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 25,
@@ -1127,7 +1190,14 @@ const S054 = {
           "frequence_coran": 265
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 24,
+          "fin": 25,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 26,
@@ -1535,7 +1605,14 @@ const S054 = {
           "frequence_coran": 8
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 34,
+          "fin": 35,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 35,
@@ -1592,7 +1669,14 @@ const S054 = {
           "frequence_coran": 75
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 34,
+          "fin": 35,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 36,
@@ -2395,7 +2479,14 @@ const S054 = {
           "frequence_coran": 54
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 54,
+          "fin": 55,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 55,
@@ -2431,7 +2522,14 @@ const S054 = {
           "frequence_coran": 98
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 54,
+          "fin": 55,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

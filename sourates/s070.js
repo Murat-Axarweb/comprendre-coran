@@ -72,7 +72,14 @@ const S070 = {
           "frequence_coran": 373
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -108,7 +115,14 @@ const S070 = {
           "frequence_coran": 275
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -151,7 +165,14 @@ const S070 = {
           "frequence_coran": 2
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -437,7 +458,14 @@ const S070 = {
           "frequence_coran": 63
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 14,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 12,
@@ -458,7 +486,14 @@ const S070 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 13,
@@ -487,7 +522,14 @@ const S070 = {
           "frequence_coran": 57
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 14,
@@ -544,7 +586,14 @@ const S070 = {
           "frequence_coran": 337
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 15,
@@ -573,7 +622,14 @@ const S070 = {
           "frequence_coran": 8
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 18,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 16,
@@ -594,7 +650,14 @@ const S070 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 18,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 17,
@@ -630,7 +693,14 @@ const S070 = {
           "frequence_coran": 7
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 18,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 18,
@@ -659,7 +729,14 @@ const S070 = {
           "frequence_coran": 4
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 18,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 19,
@@ -798,7 +875,14 @@ const S070 = {
         }
       ],
       "analyse_globale": "L'exception commence par la prière et finit par la prière (v.23 : constants dans leur prière ; v.34 : veillent sur leur prière) : l'ordonnance est encadrée par le rythme. Entre les deux : le partage codifié, la fidélité aux dépôts, la parole droite — la stabilité intérieure passe par des structures extérieures régulières.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 22,
+          "fin": 27,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 23,
@@ -841,7 +925,14 @@ const S070 = {
           "frequence_coran": 1430
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 22,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 24,
@@ -884,7 +975,14 @@ const S070 = {
           "frequence_coran": 287
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 22,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 25,
@@ -920,7 +1018,14 @@ const S070 = {
           "frequence_coran": 4
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 22,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 26,
@@ -963,7 +1068,14 @@ const S070 = {
           "frequence_coran": 94
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 22,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 27,
@@ -1020,7 +1132,14 @@ const S070 = {
           "frequence_coran": 80
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 22,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 28,
@@ -1106,7 +1225,14 @@ const S070 = {
           "frequence_coran": 180
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 29,
+          "fin": 30,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 30,
@@ -1170,7 +1296,14 @@ const S070 = {
           "frequence_coran": 147
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 29,
+          "fin": 30,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 31,
@@ -1428,7 +1561,14 @@ const S070 = {
           "frequence_coran": 189
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 37,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 37,
@@ -1478,7 +1618,14 @@ const S070 = {
           "frequence_coran": 13
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 37,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 38,
@@ -1649,7 +1796,14 @@ const S070 = {
           "frequence_coran": 156
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 40,
+          "fin": 41,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 41,
@@ -1706,7 +1860,14 @@ const S070 = {
           "frequence_coran": 65
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 40,
+          "fin": 41,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 42,
@@ -1792,7 +1953,14 @@ const S070 = {
           "frequence_coran": 742
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 43,
+          "fin": 44,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 44,
@@ -1849,7 +2017,14 @@ const S070 = {
           "frequence_coran": 229
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 43,
+          "fin": 44,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

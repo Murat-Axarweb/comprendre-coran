@@ -94,7 +94,14 @@ const S072 = {
         }
       ],
       "analyse_globale": "« Un Coran étonnant » (qurʾānan ʿajaban) : le premier commentaire du Coran par des non-humains est esthétique avant d'être doctrinal — l'étonnement précède la foi (v.2 : « nous y avons cru »). Le texte modélise ainsi l'itinéraire qu'il attend : écouter, s'étonner, adhérer.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -151,7 +158,14 @@ const S072 = {
           "frequence_coran": 72
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -971,7 +985,14 @@ const S072 = {
           "frequence_coran": 1430
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 16,
+          "fin": 17,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 17,
@@ -1028,7 +1049,14 @@ const S072 = {
           "frequence_coran": 44
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 16,
+          "fin": 17,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 18,
@@ -1697,7 +1725,14 @@ const S072 = {
           "frequence_coran": 234
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 27,
+          "fin": 28,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 28,
@@ -1775,7 +1810,14 @@ const S072 = {
           "frequence_coran": 179
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 27,
+          "fin": 28,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

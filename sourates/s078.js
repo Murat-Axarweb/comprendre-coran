@@ -93,7 +93,14 @@ const S078 = {
           "frequence_coran": 107
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -136,7 +143,14 @@ const S078 = {
           "frequence_coran": 127
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -252,7 +266,14 @@ const S078 = {
         }
       ],
       "analyse_globale": "Les versets 6-16 forment un poème de la providence en neuf dons appariés : terre-berceau / montagnes-piquets, sommeil-repos / nuit-vêtement / jour-subsistance, sept cieux / lampe solaire, eau / grains-jardins. L'argument est implicite mais écrasant : l'univers entier est aménagé POUR vous — et vous doutez que son Aménageur puisse vous rappeler ?",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 7,
@@ -273,7 +294,14 @@ const S078 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -436,7 +464,14 @@ const S078 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 16,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 15,
@@ -465,7 +500,14 @@ const S078 = {
           "frequence_coran": 327
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 16,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 16,
@@ -486,7 +528,14 @@ const S078 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 16,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 17,
@@ -665,7 +714,14 @@ const S078 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 22,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 22,
@@ -686,7 +742,14 @@ const S078 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 22,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 23,
@@ -758,7 +821,14 @@ const S078 = {
           "frequence_coran": 658
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 24,
+          "fin": 26,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 25,
@@ -787,7 +857,14 @@ const S078 = {
           "frequence_coran": 662
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 24,
+          "fin": 26,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 26,
@@ -816,7 +893,14 @@ const S078 = {
           "frequence_coran": 42
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 24,
+          "fin": 26,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 27,
@@ -981,7 +1065,14 @@ const S078 = {
           "frequence_coran": 609
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 31,
+          "fin": 34,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 32,
@@ -1002,7 +1093,14 @@ const S078 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 31,
+          "fin": 34,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 33,
@@ -1023,7 +1121,14 @@ const S078 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 31,
+          "fin": 34,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 34,
@@ -1044,7 +1149,14 @@ const S078 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 31,
+          "fin": 34,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 35,

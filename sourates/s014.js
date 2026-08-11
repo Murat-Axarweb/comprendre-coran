@@ -121,7 +121,14 @@ const S014 = {
           "frequence_coran": 17
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -227,7 +234,14 @@ const S014 = {
           "frequence_coran": 52
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -1506,7 +1520,14 @@ const S014 = {
           "frequence_coran": 80
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 14,
@@ -1556,7 +1577,14 @@ const S014 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 15,
@@ -2533,7 +2561,14 @@ const S014 = {
         }
       ],
       "analyse_globale": "Kalimatan ṭayyibatan ka-shajaratin ṭayyiba : la parabole de la bonne parole comparée à un bel arbre. Trois traits : sa racine est ferme (aṣluhā thābit) — ancrée en profondeur, elle ne vacille pas ; ses branches montent au ciel — elle relie la terre au haut ; elle donne son fruit « en toute saison » — utile sans cesse. La kalima ṭayyiba (souvent identifiée à la profession de foi) est cette parole qui structure une vie : enracinée dans la conviction, tournée vers Dieu, féconde en actes. Le v.26 lui oppose la mauvaise parole, arbre déraciné « sans stabilité » — le mensonge n'a pas d'ancrage et ne dure pas.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 24,
+          "fin": 25,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 25,
@@ -2597,7 +2632,14 @@ const S014 = {
           "frequence_coran": 46
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 24,
+          "fin": 25,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 26,
@@ -2838,7 +2880,14 @@ const S014 = {
           "frequence_coran": 8
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 28,
+          "fin": 29,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 29,
@@ -2867,7 +2916,14 @@ const S014 = {
           "frequence_coran": 54
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 28,
+          "fin": 29,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 30,
@@ -3199,7 +3255,14 @@ const S014 = {
           "frequence_coran": 294
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 32,
+          "fin": 33,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 33,
@@ -3270,7 +3333,14 @@ const S014 = {
           "frequence_coran": 50
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 32,
+          "fin": 33,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 34,
@@ -4129,7 +4199,14 @@ const S014 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 44,
+          "fin": 45,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 45,
@@ -4200,7 +4277,14 @@ const S014 = {
           "frequence_coran": 294
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 44,
+          "fin": 45,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 46,
@@ -4314,7 +4398,14 @@ const S014 = {
           "frequence_coran": 2699
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 47,
+          "fin": 48,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 48,
@@ -4379,7 +4470,14 @@ const S014 = {
         }
       ],
       "analyse_globale": "Yawma tubaddalu l-arḍu ghayra l-arḍi : « le jour où la terre sera remplacée par une autre terre ». Image de la refonte totale du cosmos au Jugement : non seulement les êtres ressuscitent, mais le cadre lui-même est renouvelé. La terre et les cieux actuels laissent place à une création autre, sur laquelle les hommes comparaissent devant « Allah, l'Unique, le Dominateur » (al-Wāḥid al-Qahhār). Le verset répond à ceux qui doutent de la résurrection : Celui qui peut remplacer la terre entière peut a fortiori recréer les hommes. La transformation cosmique encadre la comparution : rien de l'ancien monde ne subsiste pour s'y dérober.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 47,
+          "fin": 48,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 49,

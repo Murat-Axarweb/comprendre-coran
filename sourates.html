@@ -363,6 +363,18 @@
       color: var(--text);
       line-height: 1.8;
     }
+    .groupe-note {
+      font-size: 12px; color: var(--gold); margin-bottom: 10px;
+      letter-spacing: .04em; text-transform: uppercase;
+    }
+    .groupe-renvoi {
+      color: var(--text2); font-size: 14px; line-height: 1.6;
+      background: var(--bg3); border-radius: 8px; padding: 14px 16px;
+    }
+    .groupe-lien {
+      background: none; border: none; padding: 0; font: inherit;
+      color: var(--blue); cursor: pointer; text-decoration: underline;
+    }
     .traduction-auteur {
       font-size: 12px;
       color: var(--text3);
@@ -677,6 +689,8 @@
 let I18N_DICT = { fr: {
   nav_accueil: "Accueil", nav_sourates: "Sourates", nav_vocabulaire: "Vocabulaire",
   nav_racines: "Racines", nav_exercices: "Exercices", nav_reviser: "Réviser", nav_compte: "Compte",
+  label_versets_groupes: "Versets", label_verset: "verset",
+  groupe_voir: "Traduction commune à ce groupe de versets — voir le",
   hide_read: "Masquer les sourates lues", show_read: "Afficher toutes les sourates", label_lu: "Lu",
   sourates_subtitle: "Comprendre le Coran verset par verset · Racines · Traduction · Analyse",
   stat_sourates: "Sourates", stat_versets: "Versets", stat_analysees: "Versets analysés",
@@ -1434,6 +1448,15 @@ function renderVerset() {
             || v.traductions?.fr
             || { auteur: '', texte: v.traduction_fr || '' };
 
+  // Certaines traductions rendent plusieurs versets liés en un seul bloc
+  // (le turc de Diyanet notamment). Le champ « groupes », posé par
+  // scripts/mark-translation-groups.mjs, permet de l'indiquer clairement
+  // au lieu de répéter le même texte d'un verset à l'autre.
+  const groupe = v.groupes?.[uiLang] || null;
+  const groupeLabel = groupe
+    ? `${T('label_versets_groupes')} ${groupe.debut}–${groupe.fin}`
+    : '';
+
   document.getElementById('verset-body').innerHTML = `
     <div class="arabic-display">${v.ar}</div>
     <div class="translit-line">${v.translit}</div>
@@ -1447,8 +1470,11 @@ function renderVerset() {
 
     <div class="tab-panel ${currentTab==='traduction'?'active':''}" id="panel-traduction">
       <div class="section-label">${T('label_traduction_fr')}</div>
-      <div class="traduction-text">${trFr.texte}</div>
-      <div class="traduction-auteur">— ${trFr.auteur}</div>
+      ${groupe ? `<div class="groupe-note">${groupeLabel}</div>` : ''}
+      ${groupe && !groupe.principal
+        ? `<div class="groupe-renvoi">${T('groupe_voir')} <button class="groupe-lien" onclick="allerAuVerset(${groupe.debut})">${T('label_verset')} ${groupe.debut}</button></div>`
+        : `<div class="traduction-text">${trFr.texte}</div>
+           <div class="traduction-auteur">— ${trFr.auteur}</div>`}
     </div>
 
     <div class="tab-panel ${currentTab==='mots'?'active':''}" id="panel-mots">
@@ -1576,6 +1602,12 @@ function toggleReadSurah() {
   updateReadBtn();
   filterSourates();   // met à jour la coche dans la liste
 }
+
+// Aller directement à un verset (utilisé par le renvoi des groupes).
+window.allerAuVerset = function(numero) {
+  const idx = currentData.versets.findIndex(v => v.numero === numero);
+  if (idx >= 0) { currentIdx = idx; selectedMot = null; renderVerset(); }
+};
 
 function prevV() { if (currentIdx > 0) { currentIdx--; selectedMot = null; renderVerset(); } }
 function nextV() { if (currentIdx < currentS[4]-1) { currentIdx++; selectedMot = null; renderVerset(); } }

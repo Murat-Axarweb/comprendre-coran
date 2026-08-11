@@ -71,7 +71,14 @@ const S106 = {
           "frequence_coran": 1
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -121,7 +128,14 @@ const S106 = {
           "frequence_coran": 1
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -171,7 +185,14 @@ const S106 = {
           "frequence_coran": 71
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 4,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 4,
@@ -243,7 +264,14 @@ const S106 = {
         }
       ],
       "analyse_globale": "Faim et peur : les deux insécurités primordiales de toute société humaine. Le verset les nomme dans l'ordre exact des besoins (subsistance puis sécurité) et attribue leur résolution à Dieu seul — fondement d'une gratitude qui devient culte.",
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 4,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

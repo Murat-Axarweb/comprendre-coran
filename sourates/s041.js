@@ -100,7 +100,14 @@ const S041 = {
           "frequence_coran": 118
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 5,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -136,7 +143,14 @@ const S041 = {
           "frequence_coran": 81
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -179,7 +193,14 @@ const S041 = {
           "frequence_coran": 812
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -251,7 +272,14 @@ const S041 = {
         }
       ],
       "analyse_globale": "L'auto-diagnostic des récusants : cœurs sous akinna (enveloppes), oreilles lourdes, voile entre les deux camps. Trois barrières qu'ils revendiquent eux-mêmes — le refus se décrit comme imperméabilité choisie. Le v.44 y répondra en miroir : le même texte est guérison pour l'un, surdité pour l'autre. Le récepteur détermine la réception.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,
@@ -2328,7 +2356,14 @@ const S041 = {
         }
       ],
       "analyse_globale": "Qālū rabbunā Llāhu thumma staqāmū : dire « notre Seigneur est Allah » PUIS tenir droit — le thumma (puis) porte tout le poids : la profession dure une seconde, l'istiqāma dure une vie. La récompense est le message angélique aux deux interdits du cœur : lā takhāfū (peur du futur), lā taḥzanū (tristesse du passé).",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 30,
+          "fin": 32,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 31,
@@ -2427,7 +2462,14 @@ const S041 = {
           "frequence_coran": 1010
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 30,
+          "fin": 32,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 32,
@@ -2463,7 +2505,14 @@ const S041 = {
           "frequence_coran": 51
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 30,
+          "fin": 32,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 33,
@@ -3285,7 +3334,14 @@ const S041 = {
           "frequence_coran": 147
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 41,
+          "fin": 42,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 42,
@@ -3363,7 +3419,14 @@ const S041 = {
           "frequence_coran": 17
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 41,
+          "fin": 42,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 43,

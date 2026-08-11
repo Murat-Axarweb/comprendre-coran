@@ -244,7 +244,14 @@ const S111 = {
           "frequence_coran": 2
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 5,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 5,
@@ -301,7 +308,14 @@ const S111 = {
           "frequence_coran": 1
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 5,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

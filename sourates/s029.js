@@ -116,7 +116,14 @@ const S029 = {
         }
       ],
       "analyse_globale": "A-yaḥsibu n-nāsu an yutrakū an yaqūlū āmannā wa-hum lā yuftanūn : la question qui fonde la théologie de l'épreuve. La foi déclarée (āmannā) n'est qu'un point de départ ; la fitna (test, au sens du feu qui purifie l'or) est ce qui distingue le véridique du menteur. Le verset désamorce toute illusion de foi confortable : croire, c'est accepter d'être éprouvé. Et le v.3 précise que ce fut la loi de « ceux d'avant » — nul n'y échappe.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -173,7 +180,14 @@ const S029 = {
           "frequence_coran": 810
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -1569,7 +1583,14 @@ const S029 = {
           "frequence_coran": 45
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 20,
+          "fin": 21,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 21,
@@ -1626,7 +1647,14 @@ const S029 = {
           "frequence_coran": 76
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 20,
+          "fin": 21,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 22,
@@ -2737,7 +2765,14 @@ const S029 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 34,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 34,
@@ -2815,7 +2850,14 @@ const S029 = {
           "frequence_coran": 229
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 34,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 35,
@@ -4476,7 +4518,14 @@ const S029 = {
           "frequence_coran": 54
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 54,
+          "fin": 55,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 55,
@@ -4554,7 +4603,14 @@ const S029 = {
           "frequence_coran": 83
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 54,
+          "fin": 55,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 56,
@@ -4725,7 +4781,14 @@ const S029 = {
           "frequence_coran": 105
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 58,
+          "fin": 59,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 59,
@@ -4768,7 +4831,14 @@ const S029 = {
           "frequence_coran": 80
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 58,
+          "fin": 59,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 60,
@@ -5348,7 +5418,14 @@ const S029 = {
           "frequence_coran": 180
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 65,
+          "fin": 66,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 66,
@@ -5391,7 +5468,14 @@ const S029 = {
           "frequence_coran": 81
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 65,
+          "fin": 66,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 67,

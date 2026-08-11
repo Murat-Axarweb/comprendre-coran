@@ -50,7 +50,14 @@ const S073 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 4,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -86,7 +93,14 @@ const S073 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 4,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -129,7 +143,14 @@ const S073 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 4,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -173,7 +194,14 @@ const S073 = {
         }
       ],
       "analyse_globale": "Rattil il-qurʾāna tartīlā : l'ordre fondateur de toute la science de la récitation. Tartīl désigne l'agencement soigné, perle après perle — réciter lentement pour que le sens ait le temps de descendre. La nuit fournit le silence, le tartīl fournit le rythme : les deux conditions de l'imprégnation.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 4,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -511,7 +539,14 @@ const S073 = {
           "frequence_coran": 609
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 12,
+          "fin": 13,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 13,
@@ -532,7 +567,14 @@ const S073 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 12,
+          "fin": 13,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 14,

@@ -144,7 +144,14 @@ const S085 = {
           "frequence_coran": 93
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 5,
@@ -173,7 +180,14 @@ const S085 = {
           "frequence_coran": 70
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,
@@ -216,7 +230,14 @@ const S085 = {
           "frequence_coran": 51
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 7,
@@ -266,7 +287,14 @@ const S085 = {
           "frequence_coran": 78
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -338,7 +366,14 @@ const S085 = {
         }
       ],
       "analyse_globale": "Wa-mā naqamū minhum illā an yuʾminū : 'ils ne leur reprochaient QUE de croire'. Le verset isole la persécution religieuse à l'état pur — aucun crime, aucune faute, la foi seule comme chef d'accusation. Le Coran en fait le paradigme de toutes les oppressions de conscience.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 9,
@@ -423,7 +458,14 @@ const S085 = {
           "frequence_coran": 35
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 10,
@@ -709,7 +751,14 @@ const S085 = {
         }
       ],
       "analyse_globale": "Al-Wadūd : le Très-Aimant — nom divin rare (2 occurrences), placé ici, au cœur d'une sourate de martyre. Aux torturés du fossé, la révélation ne promet pas d'abord la vengeance mais révèle un Dieu qui aime. Ghafūr + Wadūd : le pardon même pour les bourreaux repentis (v.10 : 'puis ne se repentent pas' — la porte reste ouverte).",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 15,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 15,
@@ -738,7 +787,14 @@ const S085 = {
           "frequence_coran": 43
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 15,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 16,
@@ -810,7 +866,14 @@ const S085 = {
           "frequence_coran": 23
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 18,
@@ -846,7 +909,14 @@ const S085 = {
           "frequence_coran": 26
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 19,
@@ -975,7 +1045,14 @@ const S085 = {
           "frequence_coran": 265
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 22,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 22,
@@ -1011,7 +1088,14 @@ const S085 = {
           "frequence_coran": 6
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 22,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

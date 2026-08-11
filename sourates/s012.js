@@ -818,7 +818,14 @@ const S012 = {
           "frequence_coran": 275
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 12,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 12,
@@ -854,7 +861,14 @@ const S012 = {
           "frequence_coran": 275
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 12,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 13,
@@ -1081,7 +1095,14 @@ const S012 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 16,
+          "fin": 17,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 17,
@@ -1173,7 +1194,14 @@ const S012 = {
           "frequence_coran": 63
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 16,
+          "fin": 17,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 18,
@@ -1981,7 +2009,14 @@ const S012 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 27,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 27,
@@ -2045,7 +2080,14 @@ const S012 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 28,
@@ -2123,7 +2165,14 @@ const S012 = {
           "frequence_coran": 107
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 28,
+          "fin": 29,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 29,
@@ -2180,7 +2229,14 @@ const S012 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 28,
+          "fin": 29,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 30,
@@ -6986,7 +7042,14 @@ const S012 = {
           "frequence_coran": 156
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 82,
+          "fin": 84,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 83,
@@ -7106,7 +7169,14 @@ const S012 = {
           "frequence_coran": 42
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 82,
+          "fin": 84,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 84,
@@ -7177,7 +7247,14 @@ const S012 = {
           "frequence_coran": 265
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 82,
+          "fin": 84,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 85,
@@ -7873,7 +7950,14 @@ const S012 = {
         }
       ],
       "analyse_globale": "Lā tathrība ʿalaykumu l-yawm : « nul reproche contre vous aujourd'hui ». Le sommet moral du récit. Joseph, au faîte du pouvoir, face aux frères qui l'ont jeté au puits et vendu : pas un mot de blâme. Le tathrīb (reproche appuyé, remontrance humiliante) est écarté d'emblée — et Joseph ajoute la prière : « qu'Allah vous pardonne ». Le pardon complet ne rappelle pas la faute ; il libère l'offenseur de sa honte. Le Prophète reprit ces mots exacts à la conquête de La Mecque envers ceux qui l'avaient persécuté. Pardonner au sommet de la force, voilà la vraie grandeur — le contraire de la vengeance des vainqueurs.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 92,
+          "fin": 93,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 93,
@@ -7916,7 +8000,14 @@ const S012 = {
           "frequence_coran": 72
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 92,
+          "fin": 93,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 94,
@@ -8800,7 +8891,14 @@ const S012 = {
           "frequence_coran": 136
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 102,
+          "fin": 103,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 103,
@@ -8843,7 +8941,14 @@ const S012 = {
           "frequence_coran": 108
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 102,
+          "fin": 103,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 104,

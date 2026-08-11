@@ -239,7 +239,14 @@ const S082 = {
         }
       ],
       "analyse_globale": "Yā ayyuhā l-insānu mā gharraka bi-rabbika l-karīm : les commentateurs notent que le verset contient sa propre excuse — 'c'est Ta générosité qui m'a trompé', pourrait répondre l'homme. Mais présumer du pardon pour continuer la faute, c'est précisément confondre karam (générosité) et indifférence : le v.9 corrige — le vrai problème est le déni de la Rétribution.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 8,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 7,
@@ -268,7 +275,14 @@ const S082 = {
           "frequence_coran": 1464
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 8,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -311,7 +325,14 @@ const S082 = {
           "frequence_coran": 56
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 8,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 9,
@@ -391,7 +412,14 @@ const S082 = {
         }
       ],
       "analyse_globale": "Kirāman kātibīn : les scribes sont dits 'nobles' — la surveillance divine n'est pas policière mais honorable. Détail des versets : ils 'savent' (yaʿlamūna) ce que vous faites, pas seulement l'écrivent : rien de mécanique, une connaissance vivante de chaque acte, contexte compris.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 12,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 11,
@@ -412,7 +440,14 @@ const S082 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 12,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 12,
@@ -448,7 +483,14 @@ const S082 = {
           "frequence_coran": 1010
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 12,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 13,

@@ -50,7 +50,14 @@ const S102 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -80,7 +87,14 @@ const S102 = {
         }
       ],
       "analyse_globale": "Ḥattā zurtum al-maqābir : 'jusqu'à ce que vous VISITIEZ les cimetières' — le verbe zāra (visiter) est saisissant : même mort, l'homme n'est qu'en visite au cimetière, en transit vers autre chose. Certains commentateurs y lisent aussi l'ironie : la course dure littéralement jusqu'à la tombe.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,

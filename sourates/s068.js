@@ -66,7 +66,14 @@ const S068 = {
         }
       ],
       "analyse_globale": "Le serment fondateur : par la plume et « ce qu'ils inscrivent ». Dans une société orale, où le Prophète lui-même ne sait pas écrire, la révélation prête serment par l'écriture — annonçant une civilisation du livre. La lettre isolée Nūn qui précède reste un mystère assumé du texte.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -123,7 +130,14 @@ const S068 = {
           "frequence_coran": 5
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -238,7 +252,14 @@ const S068 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 6,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 6,
@@ -259,7 +280,14 @@ const S068 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 6,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 7,
@@ -438,7 +466,14 @@ const S068 = {
           "frequence_coran": 123
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 14,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 11,
@@ -459,7 +494,14 @@ const S068 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 12,
@@ -488,7 +530,14 @@ const S068 = {
           "frequence_coran": 78
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 13,
@@ -524,7 +573,14 @@ const S068 = {
           "frequence_coran": 280
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 14,
@@ -567,7 +623,14 @@ const S068 = {
           "frequence_coran": 86
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 15,
@@ -690,7 +753,14 @@ const S068 = {
         }
       ],
       "analyse_globale": "La parabole des gens du jardin est un miroir tendu aux Mecquois : comme eux, les propriétaires excluent les pauvres de la richesse reçue. La nuit du fléau tombe pendant qu'ils dorment sur leur plan parfait — et le seul mot qui manquait à leur serment était l'exception : in shāʾa Llāh.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 18,
@@ -719,7 +789,14 @@ const S068 = {
           "frequence_coran": 658
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 19,
@@ -769,7 +846,14 @@ const S068 = {
           "frequence_coran": 136
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 20,
@@ -790,7 +874,14 @@ const S068 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 21,
@@ -811,7 +902,14 @@ const S068 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 22,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 22,
@@ -861,7 +959,14 @@ const S068 = {
           "frequence_coran": 188
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 22,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 23,
@@ -890,7 +995,14 @@ const S068 = {
           "frequence_coran": 136
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 23,
+          "fin": 24,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 24,
@@ -947,7 +1059,14 @@ const S068 = {
           "frequence_coran": 23
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 23,
+          "fin": 24,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 25,
@@ -1019,7 +1138,14 @@ const S068 = {
           "frequence_coran": 156
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 27,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 27,
@@ -1055,7 +1181,14 @@ const S068 = {
           "frequence_coran": 65
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 28,
@@ -1797,7 +1930,14 @@ const S068 = {
           "frequence_coran": 156
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 42,
+          "fin": 43,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 43,
@@ -1854,7 +1994,14 @@ const S068 = {
           "frequence_coran": 136
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 42,
+          "fin": 43,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 44,
@@ -2226,7 +2373,14 @@ const S068 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 50,
+          "fin": 51,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 51,
@@ -2304,7 +2458,14 @@ const S068 = {
           "frequence_coran": 5
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 50,
+          "fin": 51,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 52,

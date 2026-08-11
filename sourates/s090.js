@@ -79,7 +79,14 @@ const S090 = {
           "frequence_coran": 7
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -122,7 +129,14 @@ const S090 = {
           "frequence_coran": 7
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -353,7 +367,14 @@ const S090 = {
           "frequence_coran": 275
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 9,
@@ -374,7 +395,14 @@ const S090 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 10,
@@ -553,7 +581,14 @@ const S090 = {
           "frequence_coran": 405
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 16,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 15,
@@ -574,7 +609,14 @@ const S090 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 16,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 16,
@@ -603,7 +645,14 @@ const S090 = {
           "frequence_coran": 264
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 16,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 17,

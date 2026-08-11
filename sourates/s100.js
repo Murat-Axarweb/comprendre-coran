@@ -352,7 +352,14 @@ const S100 = {
         }
       ],
       "analyse_globale": "Buʿthira mā fī l-qubūr / ḥuṣṣila mā fī ṣ-ṣudūr : deux dévoilements parallèles — les tombes rendront les corps, les poitrines rendront les secrets. La rime arabe (qubūr/ṣudūr) lie les deux exhumations : celle des morts et celle des intentions.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 9,
+          "fin": 10,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 10,
@@ -388,7 +395,14 @@ const S100 = {
           "frequence_coran": 4381
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 9,
+          "fin": 10,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 11,

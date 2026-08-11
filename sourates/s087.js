@@ -546,7 +546,14 @@ const S087 = {
         }
       ],
       "analyse_globale": "Qad aflaḥa man tazakkā : écho direct de 91:9 (qad aflaḥa man zakkāhā). La purification s'y précise en deux actes : dhakara sma rabbihi (le rappel du Nom) et ṣallā (la prière). Formule que la tradition applique aussi à la zakat al-fitr et à la prière de l'Aïd — d'où la récitation de cette sourate aux fêtes.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 15,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 15,
@@ -589,7 +596,14 @@ const S087 = {
           "frequence_coran": 44
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 14,
+          "fin": 15,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 16,
@@ -711,7 +725,14 @@ const S087 = {
           "frequence_coran": 6
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 18,
+          "fin": 19,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 19,
@@ -747,7 +768,14 @@ const S087 = {
           "frequence_coran": 129
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 18,
+          "fin": 19,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

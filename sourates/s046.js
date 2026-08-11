@@ -1727,7 +1727,14 @@ const S046 = {
           "frequence_coran": 662
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 18,
@@ -1840,7 +1847,14 @@ const S046 = {
           "frequence_coran": 229
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 18,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 19,
@@ -2372,7 +2386,14 @@ const S046 = {
         }
       ],
       "analyse_globale": "ʿĀriḍun mumṭirunā : « un nuage qui va nous donner la pluie ! » Le peuple assoiffé lit le châtiment comme une bénédiction — dernière et fatale erreur d'interprétation. Le verset est une leçon d'herméneutique existentielle : nos désirs dictent nos lectures, et l'objet le plus désiré peut porter la destruction.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 24,
+          "fin": 25,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 25,
@@ -2443,7 +2464,14 @@ const S046 = {
           "frequence_coran": 58
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 24,
+          "fin": 25,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 26,

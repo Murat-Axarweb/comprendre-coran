@@ -2693,7 +2693,14 @@ const S042 = {
           "frequence_coran": 1010
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 26,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 26,
@@ -2757,7 +2764,14 @@ const S042 = {
           "frequence_coran": 52
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 26,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 27,
@@ -3523,7 +3537,14 @@ const S042 = {
           "frequence_coran": 80
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 38,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 37,
@@ -3580,7 +3601,14 @@ const S042 = {
           "frequence_coran": 180
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 38,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 38,
@@ -3638,7 +3666,14 @@ const S042 = {
         }
       ],
       "analyse_globale": "Le portrait communautaire en quatre traits : réponse à Dieu, prière, shūrā, dépense. La consultation est enchâssée entre deux piliers cultuels — statut remarquable pour un principe de gouvernance. Amruhum : LEURS affaires, à eux ; shūrā baynahum : entre eux, horizontalement. Ni autocratie ni chaos : la décision collective comme acte de piété.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 38,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 39,
@@ -5039,7 +5074,14 @@ const S042 = {
           "frequence_coran": 39
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 52,
+          "fin": 53,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 53,
@@ -5138,7 +5180,14 @@ const S042 = {
           "frequence_coran": 2699
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 52,
+          "fin": 53,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

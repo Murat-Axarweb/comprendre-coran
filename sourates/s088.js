@@ -229,7 +229,14 @@ const S088 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 7,
@@ -279,7 +286,14 @@ const S088 = {
           "frequence_coran": 7
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -580,7 +594,14 @@ const S088 = {
         }
       ],
       "analyse_globale": "A-fa-lā yanẓurūna ilā l-ibil : pourquoi le chameau en tête de liste, avant le ciel ? Pour l'Arabe du désert, le chameau est le miracle quotidien : il porte, nourrit, abreuve, endure — un vaisseau biologique parfaitement adapté. Le Coran commence l'école du regard par ce qu'on a sous les yeux.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 20,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 18,
@@ -623,7 +644,14 @@ const S088 = {
           "frequence_coran": 62
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 20,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 19,
@@ -659,7 +687,14 @@ const S088 = {
           "frequence_coran": 62
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 20,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 20,
@@ -702,7 +737,14 @@ const S088 = {
           "frequence_coran": 62
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 17,
+          "fin": 20,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 21,
@@ -818,7 +860,14 @@ const S088 = {
           "frequence_coran": 525
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 23,
+          "fin": 24,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 24,
@@ -854,7 +903,14 @@ const S088 = {
           "frequence_coran": 373
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 23,
+          "fin": 24,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 25,

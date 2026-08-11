@@ -127,7 +127,14 @@ const S113 = {
         }
       ],
       "analyse_globale": "L'ouverture pose le cadre : un 'je' actif qui cherche refuge, auprès d'un Seigneur précis (de l'aube), image de la lumière qui vainc le noir. Tout le reste de la sourate détaille 'contre quoi' ce refuge est demandé.",
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 5,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -199,7 +206,14 @@ const S113 = {
         }
       ],
       "analyse_globale": "Le verset 2 pose une protection générale avant les protections spécifiques. Structure pédagogique : d'abord le cadre large (tout ce qu'Il a créé), puis zoom sur trois menaces précises (vv. 3, 4, 5).",
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -279,7 +293,14 @@ const S113 = {
         }
       ],
       "analyse_globale": "La nuit n'est pas passive — elle 's'étend', elle 'pénètre'. Le Coran personnalise les forces naturelles pour en montrer la puissance. Protection demandée non contre la nuit elle-même mais contre ce qu'elle permet et cache.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -339,7 +360,14 @@ const S113 = {
         }
       ],
       "analyse_globale": "Ce verset ancre la sourate dans la réalité culturelle de l'Arabie du VIIe siècle tout en posant un principe universel : il existe des influences invisibles et malveillantes. La protection n'est pas dans l'ignorance de ces réalités mais dans le refuge auprès d'Allah.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -399,7 +427,14 @@ const S113 = {
         }
       ],
       "analyse_globale": "La sourate se clôt sur le danger le plus humain : l'envie. Après les forces cosmiques (nuit), occultes (sorcellerie), elle ramène au quotidien — le voisin, le collègue, le proche qui désire notre perte. Du cosmique à l'intime en 5 versets.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 5,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

@@ -124,7 +124,14 @@ const S081 = {
           "frequence_coran": 130
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 4,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 4,
@@ -153,7 +160,14 @@ const S081 = {
           "frequence_coran": 130
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 4,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -269,7 +283,14 @@ const S081 = {
           "frequence_coran": 130
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 9,
@@ -298,7 +319,14 @@ const S081 = {
           "frequence_coran": 39
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 10,
@@ -514,7 +542,14 @@ const S081 = {
           "frequence_coran": 33
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 16,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 16,
@@ -535,7 +570,14 @@ const S081 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 16,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 17,
@@ -650,7 +692,14 @@ const S081 = {
           "frequence_coran": 27
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 21,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 20,
@@ -693,7 +742,14 @@ const S081 = {
           "frequence_coran": 43
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 21,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 21,
@@ -722,7 +778,14 @@ const S081 = {
           "frequence_coran": 337
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 21,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 22,
@@ -967,7 +1030,14 @@ const S081 = {
           "frequence_coran": 256
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 27,
+          "fin": 28,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 28,
@@ -1017,7 +1087,14 @@ const S081 = {
           "frequence_coran": 609
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 27,
+          "fin": 28,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 29,

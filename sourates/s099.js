@@ -65,7 +65,14 @@ const S099 = {
           "frequence_coran": 219
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -94,7 +101,14 @@ const S099 = {
           "frequence_coran": 219
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -137,7 +151,14 @@ const S099 = {
           "frequence_coran": 51
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -167,7 +188,14 @@ const S099 = {
         }
       ],
       "analyse_globale": "Tuḥaddithu akhbārahā : la terre 'racontera ses nouvelles'. Le sol que nous foulons est présenté comme un enregistreur : chaque pas, chaque acte commis à sa surface fait partie de son témoignage. L'écologie coranique a une dimension morale — la terre n'oublie rien.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 5,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 5,
@@ -217,7 +245,14 @@ const S099 = {
           "frequence_coran": 51
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 4,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,

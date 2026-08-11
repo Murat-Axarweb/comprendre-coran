@@ -126,7 +126,14 @@ const S114 = {
         }
       ],
       "analyse_globale": "Même structure d'ouverture qu'Al-Falaq mais destinataire différent : non plus le Seigneur de l'aube mais le Seigneur DES HOMMES. On passe du cosmique à l'humain.",
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 6,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -176,7 +183,14 @@ const S114 = {
         }
       ],
       "analyse_globale": "Deux mots, un attribut divin complet. Malik ajoute la dimension du pouvoir souverain à celle du soin (Rabb). Un roi protège ses sujets différemment d'un père qui nourrit ses enfants.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 6,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -224,7 +238,14 @@ const S114 = {
         }
       ],
       "analyse_globale": "La triple invocation (vv.1-3) est un chef-d'œuvre de concision théologique. Six mots, trois dimensions de la relation Allah-humanité. Les versets suivants basculent : de Qui protège à contre quoi.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 6,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -284,7 +305,14 @@ const S114 = {
         }
       ],
       "analyse_globale": "L'ennemi nommé ici n'est pas un objet ni un phénomène mais une entité intelligente avec une stratégie : approcher, chuchoter, reculer. L'ennemi le plus subtil est celui qu'on ne voit pas mais qu'on entend dedans.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 6,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -363,7 +391,14 @@ const S114 = {
         }
       ],
       "analyse_globale": "Le lieu du danger est révélé : la poitrine, siège du cœur et des décisions. Le mal ne vient pas de l'extérieur mais s'infiltre de l'intérieur. La protection contre un ennemi intérieur est aussi intérieure : le dhikr, le souvenir d'Allah.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 6,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,
@@ -421,7 +456,14 @@ const S114 = {
         }
       ],
       "analyse_globale": "Clôture magistrale du Coran : le tentateur peut être djinn ou humain — peut-être ton voisin, ton collègue. Du cosmique à l'intime. Et avec ce dernier mot — an-nās — le Coran entier se referme sur l'humanité qu'il a accompagnée du premier au dernier verset.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 6,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

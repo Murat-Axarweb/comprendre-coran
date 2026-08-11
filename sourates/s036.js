@@ -79,7 +79,14 @@ const S036 = {
           "frequence_coran": 42
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 4,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -115,7 +122,14 @@ const S036 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 4,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -151,7 +165,14 @@ const S036 = {
           "frequence_coran": 39
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 4,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -194,7 +215,14 @@ const S036 = {
           "frequence_coran": 118
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 6,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 6,
@@ -230,7 +258,14 @@ const S036 = {
           "frequence_coran": 180
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 6,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 7,
@@ -906,7 +941,14 @@ const S036 = {
           "frequence_coran": 156
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 16,
+          "fin": 17,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 17,
@@ -963,7 +1005,14 @@ const S036 = {
           "frequence_coran": 45
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 16,
+          "fin": 17,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 18,
@@ -1414,7 +1463,14 @@ const S036 = {
           "frequence_coran": 81
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 27,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 27,
@@ -1471,7 +1527,14 @@ const S036 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 28,
@@ -1556,7 +1619,14 @@ const S036 = {
           "frequence_coran": 63
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 28,
+          "fin": 29,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 29,
@@ -1620,7 +1690,14 @@ const S036 = {
           "frequence_coran": 180
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 28,
+          "fin": 29,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 30,
@@ -2340,7 +2417,14 @@ const S036 = {
           "frequence_coran": 23
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 41,
+          "fin": 42,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 42,
@@ -2383,7 +2467,14 @@ const S036 = {
           "frequence_coran": 1010
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 41,
+          "fin": 42,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 43,
@@ -3436,7 +3527,14 @@ const S036 = {
           "frequence_coran": 150
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 59,
+          "fin": 61,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 60,
@@ -3507,7 +3605,14 @@ const S036 = {
           "frequence_coran": 45
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 59,
+          "fin": 61,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 61,
@@ -3550,7 +3655,14 @@ const S036 = {
           "frequence_coran": 39
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 59,
+          "fin": 61,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 62,
@@ -4364,7 +4476,14 @@ const S036 = {
           "frequence_coran": 45
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 77,
+          "fin": 78,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 78,
@@ -4436,7 +4555,14 @@ const S036 = {
         }
       ],
       "analyse_globale": "Le duel final : un homme brandit un os friable — « qui fera revivre CELA ? » Le texte appelle son geste un oubli : nasiya khalqahu, « il a oublié sa propre création ». La réponse tient en une symétrie : Celui de la première fois fera la deuxième. Puis l'argument de l'arbre vert (v.80) : du végétal gorgé d'eau, Il tire le feu — les contraires cohabitent dans Sa création. Et le sceau (v.82) : kun fa-yakūn. Toute la sourate convergeait vers ce verbe.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 77,
+          "fin": 78,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 79,

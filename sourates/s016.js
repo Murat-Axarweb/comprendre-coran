@@ -1115,7 +1115,14 @@ const S016 = {
           "frequence_coran": 59
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 16,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 16,
@@ -1144,7 +1151,14 @@ const S016 = {
           "frequence_coran": 180
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 16,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 17,
@@ -3071,7 +3085,14 @@ const S016 = {
           "frequence_coran": 81
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 38,
+          "fin": 39,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 39,
@@ -3142,7 +3163,14 @@ const S016 = {
           "frequence_coran": 229
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 38,
+          "fin": 39,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 40,
@@ -3447,7 +3475,14 @@ const S016 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 43,
+          "fin": 44,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 44,
@@ -3518,7 +3553,14 @@ const S016 = {
           "frequence_coran": 39
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 43,
+          "fin": 44,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 45,
@@ -3660,7 +3702,14 @@ const S016 = {
           "frequence_coran": 180
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 46,
+          "fin": 47,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 47,
@@ -3717,7 +3766,14 @@ const S016 = {
           "frequence_coran": 11
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 46,
+          "fin": 47,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 48,
@@ -4249,7 +4305,14 @@ const S016 = {
           "frequence_coran": 80
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 54,
+          "fin": 55,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 55,
@@ -4292,7 +4355,14 @@ const S016 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 54,
+          "fin": 55,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 56,
@@ -5419,7 +5489,14 @@ const S016 = {
         }
       ],
       "analyse_globale": "Wa-awḥā rabbuka ilā n-naḥl : « ton Seigneur a inspiré à l'abeille ». Le mot waḥy — la même racine que la révélation prophétique — est employé pour l'instinct de l'abeille : une inspiration inscrite dans sa nature, qui la guide à bâtir ses cellules et butiner. Et le miel qui en sort porte « une guérison pour les hommes » (fīhi shifāʾun li-n-nās, v.69). L'abeille devient signe : la créature la plus humble, guidée par une sagesse qu'elle ne comprend pas, produit un remède. Toute la création obéit à un ordre caché ; l'homme, doté de raison, saura-t-il en faire autant ?",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 68,
+          "fin": 69,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 69,
@@ -5553,7 +5630,14 @@ const S016 = {
           "frequence_coran": 39
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 68,
+          "fin": 69,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 70,

@@ -200,7 +200,14 @@ const S071 = {
           "frequence_coran": 2699
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 4,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 4,
@@ -313,7 +320,14 @@ const S071 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 4,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -573,7 +587,14 @@ const S071 = {
         }
       ],
       "analyse_globale": "L'istighfar (demande de pardon) promis avec des effets matériels : pluie, richesses, enfants, jardins, rivières. Le pardon n'est pas ici qu'une affaire intérieure — la sourate lie la restauration spirituelle à la prospérité écologique et sociale. Umar citait ce passage en priant pour la pluie.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 11,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 11,
@@ -609,7 +630,14 @@ const S071 = {
           "frequence_coran": 146
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 11,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 12,
@@ -967,7 +995,14 @@ const S071 = {
           "frequence_coran": 219
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 20,
@@ -996,7 +1031,14 @@ const S071 = {
           "frequence_coran": 86
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 21,
@@ -1067,7 +1109,14 @@ const S071 = {
           "frequence_coran": 662
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 22,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 22,
@@ -1088,7 +1137,14 @@ const S071 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 22,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 23,

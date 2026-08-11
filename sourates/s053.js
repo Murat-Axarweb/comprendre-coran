@@ -245,7 +245,14 @@ const S053 = {
           "frequence_coran": 52
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 6,
@@ -266,7 +273,14 @@ const S053 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 7,
@@ -295,7 +309,14 @@ const S053 = {
           "frequence_coran": 171
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -525,7 +546,14 @@ const S053 = {
           "frequence_coran": 124
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 14,
@@ -561,7 +589,14 @@ const S053 = {
           "frequence_coran": 3
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 15,
@@ -755,7 +790,14 @@ const S053 = {
       },
       "mots": [],
       "analyse_globale": "Les trois déesses mecquoises citées par leurs noms — al-Lāt, al-ʿUzzā, Manāt — puis désarmées en un verset : « ce ne sont que des noms ». La critique coranique de l'idolâtrie est nominaliste : derrière le nom vénéré, aucune réalité, aucune autorité descendue — que la conjecture (ẓann) et le désir (hawā), les deux mots-clés de la sourate.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 20,
@@ -776,7 +818,14 @@ const S053 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 21,
@@ -1620,7 +1669,14 @@ const S053 = {
           "frequence_coran": 9
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 31,
+          "fin": 32,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 32,
@@ -1776,7 +1832,14 @@ const S053 = {
         }
       ],
       "analyse_globale": "« Ne prétendez pas vous-mêmes à la pureté » (fa-lā tuzakkū anfusakum) : au cœur d'un passage sur le pardon, l'interdit de l'auto-certification spirituelle. Celui qui connaît l'homme depuis la terre et l'utérus est seul juge de la piété — l'humilité est ici une conséquence directe de l'embryologie.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 31,
+          "fin": 32,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 33,
@@ -1805,7 +1868,14 @@ const S053 = {
           "frequence_coran": 1464
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 34,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 34,
@@ -1841,7 +1911,14 @@ const S053 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 34,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 35,
@@ -1948,7 +2025,14 @@ const S053 = {
           "frequence_coran": 129
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 37,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 37,
@@ -1977,7 +2061,14 @@ const S053 = {
           "frequence_coran": 1464
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 37,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 38,
@@ -2308,7 +2399,14 @@ const S053 = {
           "frequence_coran": 256
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 45,
+          "fin": 46,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 46,
@@ -2358,7 +2456,14 @@ const S053 = {
           "frequence_coran": 5
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 45,
+          "fin": 46,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 47,
@@ -2509,7 +2614,14 @@ const S053 = {
           "frequence_coran": 147
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 50,
+          "fin": 51,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 51,
@@ -2538,7 +2650,14 @@ const S053 = {
           "frequence_coran": 86
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 50,
+          "fin": 51,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 52,
@@ -2630,7 +2749,14 @@ const S053 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 53,
+          "fin": 54,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 54,
@@ -2659,7 +2785,14 @@ const S053 = {
           "frequence_coran": 1010
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 53,
+          "fin": 54,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 55,

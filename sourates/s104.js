@@ -79,7 +79,14 @@ const S104 = {
         }
       ],
       "analyse_globale": "Humaza et lumaza : deux formes intensives quasi-synonymes — celui qui blesse par gestes et allusions (humaza) et celui qui blesse par la langue (lumaza). Le doublement du mot mime la répétition compulsive de la moquerie.",
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -129,7 +136,14 @@ const S104 = {
           "frequence_coran": 57
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -322,7 +336,14 @@ const S104 = {
           "frequence_coran": 11
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 7,
@@ -377,7 +398,14 @@ const S104 = {
           "profondeur": "Al-af'ida désigne le cœur en tant que siège brûlant des émotions et des choix (la racine évoque le feu, fa'd = griller). Le feu de la Hutama atteint précisément l'organe qui a choisi l'avarice et la moquerie : le châtiment remonte à la source de la faute."
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 6,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -420,7 +448,14 @@ const S104 = {
           "frequence_coran": 2
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 9,
@@ -463,7 +498,14 @@ const S104 = {
           "frequence_coran": 32
         }
       ],
-      "niveau_couche": 1
+      "niveau_couche": 1,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 9,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

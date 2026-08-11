@@ -79,7 +79,14 @@ const S043 = {
           "frequence_coran": 45
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -115,7 +122,14 @@ const S043 = {
           "frequence_coran": 59
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -635,7 +649,14 @@ const S043 = {
           "frequence_coran": 1010
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 12,
+          "fin": 14,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 13,
@@ -748,7 +769,14 @@ const S043 = {
           "frequence_coran": 275
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 12,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 14,
@@ -791,7 +819,14 @@ const S043 = {
           "frequence_coran": 72
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 12,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 15,
@@ -1581,7 +1616,14 @@ const S043 = {
           "frequence_coran": 111
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 27,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 27,
@@ -1624,7 +1666,14 @@ const S043 = {
           "frequence_coran": 47
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 27,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 28,
@@ -2059,7 +2108,14 @@ const S043 = {
         }
       ],
       "analyse_globale": "Les toits d'argent : Dieu donnerait aux mécréants des palais entiers de métal précieux — tant la richesse pèse peu à Ses yeux — si le spectacle ne risquait pas d'unir l'humanité dans l'erreur (assimiler fortune et faveur divine). Le verset est la dévaluation la plus radicale du critère économique : ce que le monde entier convoite ne vaut pas, au ciel, une aile de moustique.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 35,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 34,
@@ -2088,7 +2144,14 @@ const S043 = {
           "frequence_coran": 51
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 35,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 35,
@@ -2166,7 +2229,14 @@ const S043 = {
           "frequence_coran": 116
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 35,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 36,
@@ -2351,7 +2421,14 @@ const S043 = {
           "frequence_coran": 5
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 38,
+          "fin": 39,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 39,
@@ -2408,7 +2485,14 @@ const S043 = {
           "frequence_coran": 373
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 38,
+          "fin": 39,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 40,
@@ -2515,7 +2599,14 @@ const S043 = {
           "frequence_coran": 145
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 41,
+          "fin": 42,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 42,
@@ -2565,7 +2656,14 @@ const S043 = {
           "frequence_coran": 183
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 41,
+          "fin": 42,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 43,
@@ -5278,7 +5376,14 @@ const S043 = {
           "frequence_coran": 86
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 88,
+          "fin": 89,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 89,
@@ -5335,7 +5440,14 @@ const S043 = {
           "frequence_coran": 81
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 88,
+          "fin": 89,
+          "principal": false
+        }
+      }
     }
   ],
   "resume_pedagogique": {

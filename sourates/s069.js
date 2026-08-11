@@ -496,7 +496,14 @@ const S069 = {
           "frequence_coran": 4381
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 12,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 12,
@@ -540,7 +547,14 @@ const S069 = {
         }
       ],
       "analyse_globale": "« Qu'une oreille attentive le retienne » (udhunun wāʿiya) : le déluge n'est pas raconté pour l'archéologie mais pour la mémoire. Le Coran définit ici son propre mode de transmission : un événement devient rappel quand une oreille consent à le porter.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 11,
+          "fin": 12,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 13,
@@ -590,7 +604,14 @@ const S069 = {
           "frequence_coran": 10
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 15,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 14,
@@ -619,7 +640,14 @@ const S069 = {
           "frequence_coran": 219
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 15,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 15,
@@ -655,7 +683,14 @@ const S069 = {
           "frequence_coran": 3
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 15,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 16,
@@ -828,7 +863,14 @@ const S069 = {
         }
       ],
       "analyse_globale": "La scène du livre tendu est d'une psychologie fine : le sauvé ne dit pas « j'ai réussi » mais « je savais que je rencontrerais mon compte » (v.20) — c'est la conscience anticipée du bilan, vécue dès ici-bas, qui a produit le bilan favorable.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 20,
@@ -864,7 +906,14 @@ const S069 = {
           "frequence_coran": 131
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 19,
+          "fin": 20,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 21,
@@ -900,7 +949,14 @@ const S069 = {
           "frequence_coran": 4381
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 23,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 22,
@@ -936,7 +992,14 @@ const S069 = {
           "frequence_coran": 147
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 23,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 23,
@@ -957,7 +1020,14 @@ const S069 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 21,
+          "fin": 23,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 24,
@@ -1036,7 +1106,14 @@ const S069 = {
           "frequence_coran": 163
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 29,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 26,
@@ -1072,7 +1149,14 @@ const S069 = {
           "frequence_coran": 1010
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 29,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 27,
@@ -1101,7 +1185,14 @@ const S069 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 29,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 28,
@@ -1130,7 +1221,14 @@ const S069 = {
           "frequence_coran": 1010
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 29,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 29,
@@ -1159,7 +1257,14 @@ const S069 = {
           "frequence_coran": 68
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 29,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 30,
@@ -1459,7 +1564,14 @@ const S069 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 37,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 37,
@@ -1495,7 +1607,14 @@ const S069 = {
           "frequence_coran": 662
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 36,
+          "fin": 37,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 38,
@@ -1538,7 +1657,14 @@ const S069 = {
           "frequence_coran": 296
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 38,
+          "fin": 40,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 39,
@@ -1574,7 +1700,14 @@ const S069 = {
           "frequence_coran": 812
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 38,
+          "fin": 40,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 40,
@@ -1624,7 +1757,14 @@ const S069 = {
           "frequence_coran": 27
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 38,
+          "fin": 40,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 41,
@@ -1825,7 +1965,14 @@ const S069 = {
         }
       ],
       "analyse_globale": "Les versets 44-47 répondent à l'accusation de fabrication par un argument de véracité radicale : si le Messager inventait, il serait exécuté par Celui-là même dont il se réclame. La transmission du texte engage la vie du transmetteur — garantie suprême de fidélité.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 44,
+          "fin": 46,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 45,
@@ -1861,7 +2008,14 @@ const S069 = {
           "frequence_coran": 71
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 44,
+          "fin": 46,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 46,
@@ -1897,7 +2051,14 @@ const S069 = {
           "frequence_coran": 88
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 44,
+          "fin": 46,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 47,

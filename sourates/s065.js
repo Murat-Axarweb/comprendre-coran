@@ -348,7 +348,14 @@ const S065 = {
         }
       ],
       "analyse_globale": "La promesse centrale, répétée en variantes tout au long : issue (makhraj, v.2), subsistance inattendue (v.3), facilité (yusr, v.4), effacement et récompense (v.5). Cinq mentions de la taqwā dans une sourate de douze versets : le message est que la crainte de Dieu n'est pas un supplément spirituel au droit — elle est la condition de fonctionnement du droit.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 3,
@@ -475,7 +482,14 @@ const S065 = {
           "frequence_coran": 179
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 2,
+          "fin": 3,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,

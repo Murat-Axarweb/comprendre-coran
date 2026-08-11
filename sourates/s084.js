@@ -65,7 +65,14 @@ const S084 = {
           "frequence_coran": 81
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -86,7 +93,14 @@ const S084 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -122,7 +136,14 @@ const S084 = {
           "frequence_coran": 219
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 5,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 4,
@@ -158,7 +179,14 @@ const S084 = {
           "frequence_coran": 241
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -179,7 +207,14 @@ const S084 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 3,
+          "fin": 5,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,
@@ -259,7 +294,14 @@ const S084 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 7,
+          "fin": 9,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 8,
@@ -289,7 +331,14 @@ const S084 = {
         }
       ],
       "analyse_globale": "Ḥisāban yasīrā : le 'compte facile'. Le hadith précise : c'est la simple présentation (ʿarḍ) des actes, sans interrogatoire serré — 'car celui dont le compte est discuté est perdu'. La prière prophétique 'Allāhumma ḥāsibnī ḥisāban yasīrā' vient de ce verset.",
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 7,
+          "fin": 9,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 9,
@@ -318,7 +367,14 @@ const S084 = {
           "frequence_coran": 742
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 7,
+          "fin": 9,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 10,
@@ -361,7 +417,14 @@ const S084 = {
           "frequence_coran": 24
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 12,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 11,
@@ -390,7 +453,14 @@ const S084 = {
           "frequence_coran": 42
         }
       ],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 12,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 12,
@@ -411,7 +481,14 @@ const S084 = {
         }
       },
       "mots": [],
-      "niveau_couche": 2
+      "niveau_couche": 2,
+      "groupes": {
+        "tr": {
+          "debut": 10,
+          "fin": 12,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 13,

@@ -51,7 +51,14 @@ const S077 = {
       },
       "mots": [],
       "analyse_globale": "Les cinq serments d'ouverture (envoyées, tempétueuses, déployantes, séparatrices, déposeuses de rappel) se lisent des vents ou des anges — les deux lectures coexistent depuis les premiers commentateurs. La grammaire les unit : dans les deux cas, des forces missionnées, invisibles dans leur cause, visibles dans leurs effets.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 7,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -72,7 +79,14 @@ const S077 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -93,7 +107,14 @@ const S077 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 4,
@@ -114,7 +135,14 @@ const S077 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 5,
@@ -135,7 +163,14 @@ const S077 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 6,
@@ -164,7 +199,14 @@ const S077 = {
           "frequence_coran": 264
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 7,
@@ -200,7 +242,14 @@ const S077 = {
           "frequence_coran": 24
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 7,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 8,
@@ -490,7 +539,14 @@ const S077 = {
           "frequence_coran": 78
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 16,
+          "fin": 17,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 17,
@@ -519,7 +575,14 @@ const S077 = {
           "frequence_coran": 337
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 16,
+          "fin": 17,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 18,
@@ -620,7 +683,14 @@ const S077 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 20,
+          "fin": 22,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 21,
@@ -649,7 +719,14 @@ const S077 = {
           "frequence_coran": 4381
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 20,
+          "fin": 22,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 22,
@@ -678,7 +755,14 @@ const S077 = {
           "frequence_coran": 742
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 20,
+          "fin": 22,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 23,
@@ -779,7 +863,14 @@ const S077 = {
           "frequence_coran": 219
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 26,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 26,
@@ -800,7 +891,14 @@ const S077 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 25,
+          "fin": 26,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 27,
@@ -951,7 +1049,14 @@ const S077 = {
           "frequence_coran": 33
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 30,
+          "fin": 31,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 31,
@@ -994,7 +1099,14 @@ const S077 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 30,
+          "fin": 31,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 32,
@@ -1015,7 +1127,14 @@ const S077 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 32,
+          "fin": 33,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 33,
@@ -1044,7 +1163,14 @@ const S077 = {
           "frequence_coran": 147
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 32,
+          "fin": 33,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 34,

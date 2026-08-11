@@ -314,7 +314,14 @@ const S028 = {
         }
       ],
       "analyse_globale": "Wa-nurīdu an namunna ʿalā lladhīna stuḍʿifū fī l-arḍ : le programme divin d'inversion. Allah veut favoriser « ceux qui ont été rendus faibles » (mustaḍʿafīn) — en faire des imams (guides) et des héritiers. Face à Pharaon qui « divise son peuple en clans » (v.4) pour mieux dominer, la volonté divine renverse la pyramide : l'histoire de Moïse est la démonstration que la tyrannie, si assurée soit-elle, porte en elle sa propre défaite.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 6,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 6,
@@ -385,7 +392,14 @@ const S028 = {
           "frequence_coran": 229
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 6,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 7,
@@ -2849,7 +2863,14 @@ const S028 = {
           "frequence_coran": 609
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 34,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 34,
@@ -2892,7 +2913,14 @@ const S028 = {
           "frequence_coran": 609
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 33,
+          "fin": 34,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 35,
@@ -6350,7 +6378,14 @@ const S028 = {
           "frequence_coran": 39
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 76,
+          "fin": 77,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 77,
@@ -6506,7 +6541,14 @@ const S028 = {
         }
       ],
       "analyse_globale": "Le conseil au riche Coré, en équilibre parfait : wa-btaghi fīmā ātāka Llāhu d-dāra l-ākhira wa-lā tansa naṣībaka mina d-dunyā — chercher l'au-delà par ses biens SANS oublier sa part d'ici-bas. Ni ascétisme qui méprise le monde, ni matérialisme qui l'idolâtre. Puis : « fais le bien comme Allah t'a fait du bien » — la richesse est un flux reçu à faire circuler, pas un stock à thésauriser. Coré refuse cette vision et périt de son « je l'ai gagné par ma science » (v.78).",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 76,
+          "fin": 77,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 78,

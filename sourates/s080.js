@@ -51,7 +51,14 @@ const S080 = {
       },
       "mots": [],
       "analyse_globale": "Le texte parle du Prophète à la troisième personne (« il s'est renfrogné ») avant de passer au tutoiement (v.3) : la mise à distance grammaticale adoucit le blâme tout en le rendant public pour toujours. Ibn Umm Maktum devint plus tard muezzin de Médine — le Prophète l'accueillait par : « Bienvenue à celui pour qui mon Seigneur m'a réprimandé. »",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 2,
@@ -87,7 +94,14 @@ const S080 = {
           "frequence_coran": 33
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 1,
+          "fin": 2,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 3,
@@ -181,7 +195,14 @@ const S080 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 6,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 6,
@@ -217,7 +238,14 @@ const S080 = {
           "frequence_coran": 275
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 5,
+          "fin": 6,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 7,
@@ -296,7 +324,14 @@ const S080 = {
           "frequence_coran": 3226
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 10,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 9,
@@ -325,7 +360,14 @@ const S080 = {
           "frequence_coran": 171
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 10,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 10,
@@ -354,7 +396,14 @@ const S080 = {
           "frequence_coran": 55
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 8,
+          "fin": 10,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 11,
@@ -462,7 +511,14 @@ const S080 = {
           "frequence_coran": 6
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 14,
@@ -483,7 +539,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 13,
+          "fin": 14,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 15,
@@ -504,7 +567,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 16,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 16,
@@ -525,7 +595,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 15,
+          "fin": 16,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 17,
@@ -885,7 +962,14 @@ const S080 = {
           "frequence_coran": 219
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 31,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 27,
@@ -914,7 +998,14 @@ const S080 = {
           "frequence_coran": 241
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 31,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 28,
@@ -935,7 +1026,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 31,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 29,
@@ -956,7 +1054,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 31,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 30,
@@ -977,7 +1082,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 31,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 31,
@@ -998,7 +1110,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 26,
+          "fin": 31,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 32,
@@ -1093,7 +1212,14 @@ const S080 = {
         }
       ],
       "analyse_globale": "La fuite devant le frère, la mère, le père, l'épouse, les fils : l'ordre remonte les liens du plus lointain au plus intime. Le Jour du Jugement défait une à une les solidarités qui structuraient l'ici-bas — chacun devient un dossier individuel.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 34,
+          "fin": 36,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 35,
@@ -1114,7 +1240,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 34,
+          "fin": 36,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 36,
@@ -1135,7 +1268,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 34,
+          "fin": 36,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 37,
@@ -1208,7 +1348,14 @@ const S080 = {
         }
       ],
       "analyse_globale": "Le diptyque final des visages (rayonnants / poussiéreux) reprend le diptyque initial (le notable / l'aveugle) : la sourate s'ouvre sur une hiérarchie sociale erronée et se ferme sur la seule hiérarchie vraie, celle des visages au Jour dernier.",
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 38,
+          "fin": 39,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 39,
@@ -1229,7 +1376,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 38,
+          "fin": 39,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 40,
@@ -1265,7 +1419,14 @@ const S080 = {
           "frequence_coran": 51
         }
       ],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 40,
+          "fin": 41,
+          "principal": true
+        }
+      }
     },
     {
       "numero": 41,
@@ -1286,7 +1447,14 @@ const S080 = {
         }
       },
       "mots": [],
-      "niveau_couche": 3
+      "niveau_couche": 3,
+      "groupes": {
+        "tr": {
+          "debut": 40,
+          "fin": 41,
+          "principal": false
+        }
+      }
     },
     {
       "numero": 42,
