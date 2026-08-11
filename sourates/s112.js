@@ -19,7 +19,8 @@ const S112 = {
     },
     traductions: {
       fr: { auteur: "Hamidullah", texte: "Dis : 'Il est Allah, Unique. Allah, le Seul à être imploré en toute chose. Il n'a pas engendré, n'a pas été engendré non plus. Et nul n'est égal à Lui.'" },
-      en: { auteur: "Pickthall", texte: "Say: He is Allah, the One! Allah, the eternally Besought of all! He begetteth not nor was begotten. And there is none comparable unto Him." }
+      en: { auteur: "Pickthall", texte: "Say: He is Allah, the One! Allah, the eternally Besought of all! He begetteth not nor was begotten. And there is none comparable unto Him." },
+      tr: { auteur: "Comprendre le Coran", texte: "De ki: O, Allah'tır, birdir. Allah Samed'dir: her şey O'na muhtaçtır, O ise hiçbir şeye muhtaç değildir. O, doğurmamıştır ve doğurulmamıştır. Hiçbir şey O'na denk değildir." }
     },
     racines_cles: ["أ-ح-د", "ص-م-د", "و-ل-د", "ك-ف-أ"],
     mots_frequents_coran: ["الله", "أحد", "قل"]
@@ -32,7 +33,8 @@ const S112 = {
       translit: "Qul huwa llāhu aḥad",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Dis : 'Il est Allah, Unique.'" },
-        en: { auteur: "Pickthall", texte: "Say: He is Allah, the One!" }
+        en: { auteur: "Pickthall", texte: "Say: He is Allah, the One!" },
+        tr: { auteur: "Comprendre le Coran", texte: "De ki: O, Allah'tır, birdir." }
       },
       mots: [
         {
@@ -100,7 +102,8 @@ const S112 = {
       translit: "allāhu ṣ-ṣamad",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Allah, le Seul à être imploré en toute chose." },
-        en: { auteur: "Pickthall", texte: "Allah, the eternally Besought of all!" }
+        en: { auteur: "Pickthall", texte: "Allah, the eternally Besought of all!" },
+        tr: { auteur: "Comprendre le Coran", texte: "Allah Samed'dir: her şey O'na muhtaçtır, O ise hiçbir şeye muhtaç değildir." }
       },
       mots: [
         {
@@ -138,7 +141,8 @@ const S112 = {
       translit: "lam yalid wa-lam yūlad",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Il n'a pas engendré, n'a pas été engendré non plus." },
-        en: { auteur: "Pickthall", texte: "He begetteth not nor was begotten." }
+        en: { auteur: "Pickthall", texte: "He begetteth not nor was begotten." },
+        tr: { auteur: "Comprendre le Coran", texte: "O, doğurmamıştır ve doğurulmamıştır." }
       },
       mots: [
         {
@@ -203,7 +207,8 @@ const S112 = {
       translit: "wa-lam yakun lahū kufuwan aḥad",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Et nul n'est égal à Lui." },
-        en: { auteur: "Pickthall", texte: "And there is none comparable unto Him." }
+        en: { auteur: "Pickthall", texte: "And there is none comparable unto Him." },
+        tr: { auteur: "Comprendre le Coran", texte: "Hiçbir şey O'na denk değildir." }
       },
       mots: [
         {

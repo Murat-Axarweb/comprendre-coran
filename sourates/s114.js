@@ -14,7 +14,8 @@ const S114 = {
     progression: { couche: 1, prerequis: [112, 113], suivant: [1] },
     traductions: {
       fr: { auteur: "Hamidullah", texte: "Dis : Je cherche refuge auprès du Seigneur des hommes, Roi des hommes, Dieu des hommes, contre le mal du tentateur furtif, qui souffle le mal dans les poitrines des hommes, qu'il soit parmi les djinns ou parmi les hommes." },
-      en: { auteur: "Pickthall", texte: "Say: I seek refuge in the Lord of mankind, The King of mankind, The God of mankind, From the evil of the sneaking whisperer, Who whispereth in the hearts of mankind, Of the jinn and of mankind." }
+      en: { auteur: "Pickthall", texte: "Say: I seek refuge in the Lord of mankind, The King of mankind, The God of mankind, From the evil of the sneaking whisperer, Who whispereth in the hearts of mankind, Of the jinn and of mankind." },
+      tr: { auteur: "Comprendre le Coran", texte: "De ki: İnsanların Rabbine sığınırım, insanların Melikine, insanların İlahına; sinsice vesvese verenin şerrinden; o ki insanların göğüslerine vesvese verir; cinlerden olsun, insanlardan olsun." }
     },
     racines_cles: ["ع-و-ذ", "ر-ب-ب", "م-ل-ك", "أ-ل-ه", "و-س-و-س", "ج-ن-ن"],
     mots_frequents_coran: ["النَّاس", "رَبّ", "قُلْ", "شَرّ"]
@@ -27,7 +28,8 @@ const S114 = {
       translit: "qul aʿūḏu bi-rabbi n-nās",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Dis : Je cherche refuge auprès du Seigneur des hommes." },
-        en: { auteur: "Pickthall", texte: "Say: I seek refuge in the Lord of mankind." }
+        en: { auteur: "Pickthall", texte: "Say: I seek refuge in the Lord of mankind." },
+        tr: { auteur: "Comprendre le Coran", texte: "De ki: İnsanların Rabbine sığınırım," }
       },
       mots: [
         {
@@ -64,7 +66,8 @@ const S114 = {
       translit: "maliki n-nās",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Roi des hommes." },
-        en: { auteur: "Pickthall", texte: "The King of mankind." }
+        en: { auteur: "Pickthall", texte: "The King of mankind." },
+        tr: { auteur: "Comprendre le Coran", texte: "İnsanların Melikine (hükümdarına)," }
       },
       mots: [
         {
@@ -89,7 +92,8 @@ const S114 = {
       translit: "ilāhi n-nās",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Dieu des hommes." },
-        en: { auteur: "Pickthall", texte: "The God of mankind." }
+        en: { auteur: "Pickthall", texte: "The God of mankind." },
+        tr: { auteur: "Comprendre le Coran", texte: "İnsanların İlahına," }
       },
       mots: [
         {
@@ -114,7 +118,8 @@ const S114 = {
       translit: "min šarri l-waswāsi l-ḫannās",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Contre le mal du tentateur furtif." },
-        en: { auteur: "Pickthall", texte: "From the evil of the sneaking whisperer." }
+        en: { auteur: "Pickthall", texte: "From the evil of the sneaking whisperer." },
+        tr: { auteur: "Comprendre le Coran", texte: "Sinsice vesvese verenin şerrinden," }
       },
       mots: [
         {
@@ -145,7 +150,8 @@ const S114 = {
       translit: "allaḏī yuwaswisu fī ṣudūri n-nās",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Qui souffle le mal dans les poitrines des hommes." },
-        en: { auteur: "Pickthall", texte: "Who whispereth in the hearts of mankind." }
+        en: { auteur: "Pickthall", texte: "Who whispereth in the hearts of mankind." },
+        tr: { auteur: "Comprendre le Coran", texte: "O ki insanların göğüslerine vesvese verir," }
       },
       mots: [
         {
@@ -187,7 +193,8 @@ const S114 = {
       translit: "mina l-jinnati wa-n-nās",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Qu'il soit parmi les djinns ou parmi les hommes." },
-        en: { auteur: "Pickthall", texte: "Of the jinn and of mankind." }
+        en: { auteur: "Pickthall", texte: "Of the jinn and of mankind." },
+        tr: { auteur: "Comprendre le Coran", texte: "Cinlerden olsun, insanlardan olsun." }
       },
       mots: [
         {

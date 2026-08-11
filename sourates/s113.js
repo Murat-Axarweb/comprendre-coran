@@ -19,7 +19,8 @@ const S113 = {
     },
     traductions: {
       fr: { auteur: "Hamidullah", texte: "Dis : Je cherche refuge auprès du Seigneur de l'aube, contre le mal de ce qu'Il a créé, et contre le mal de l'obscurité quand elle s'étend, et contre le mal de celles qui soufflent sur les nœuds, et contre le mal de l'envieux quand il envie." },
-      en: { auteur: "Pickthall", texte: "Say: I seek refuge in the Lord of the Daybreak, From the evil of that which He created, From the evil of the darkness when it is intense, And from the evil of malignant witchcraft, And from the evil of the envier when he envieth." }
+      en: { auteur: "Pickthall", texte: "Say: I seek refuge in the Lord of the Daybreak, From the evil of that which He created, From the evil of the darkness when it is intense, And from the evil of malignant witchcraft, And from the evil of the envier when he envieth." },
+      tr: { auteur: "Comprendre le Coran", texte: "De ki: Şafağın Rabbine sığınırım, yarattığı şeylerin şerrinden, karanlık çöktüğünde gecenin şerrinden, düğümlere üfleyenlerin şerrinden ve haset ettiğinde hasetçinin şerrinden." }
     },
     racines_cles: ["ع-و-ذ", "ف-ل-ق", "ش-ر-ر", "خ-ل-ق", "ح-س-د"],
     mots_frequents_coran: ["قُلْ", "شَرّ", "رَبّ"]
@@ -32,7 +33,8 @@ const S113 = {
       translit: "qul aʿūḏu bi-rabbi l-falaq",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Dis : Je cherche refuge auprès du Seigneur de l'aube." },
-        en: { auteur: "Pickthall", texte: "Say: I seek refuge in the Lord of the Daybreak." }
+        en: { auteur: "Pickthall", texte: "Say: I seek refuge in the Lord of the Daybreak." },
+        tr: { auteur: "Comprendre le Coran", texte: "De ki: Şafağın Rabbine sığınırım," }
       },
       mots: [
         {
@@ -101,7 +103,8 @@ const S113 = {
       translit: "min šarri mā ḫalaqa",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Contre le mal de ce qu'Il a créé." },
-        en: { auteur: "Pickthall", texte: "From the evil of that which He created." }
+        en: { auteur: "Pickthall", texte: "From the evil of that which He created." },
+        tr: { auteur: "Comprendre le Coran", texte: "Yarattığı şeylerin şerrinden," }
       },
       mots: [
         {
@@ -164,7 +167,8 @@ const S113 = {
       translit: "wa-min šarri ġāsiqin iḏā waqab",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Et contre le mal de l'obscurité quand elle s'étend." },
-        en: { auteur: "Pickthall", texte: "From the evil of the darkness when it is intense." }
+        en: { auteur: "Pickthall", texte: "From the evil of the darkness when it is intense." },
+        tr: { auteur: "Comprendre le Coran", texte: "Karanlık çöktüğünde gecenin şerrinden," }
       },
       mots: [
         {
@@ -235,7 +239,8 @@ const S113 = {
       translit: "wa-min šarri n-naffāṯāti fī l-ʿuqad",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Et contre le mal de celles qui soufflent sur les nœuds." },
-        en: { auteur: "Pickthall", texte: "And from the evil of malignant witchcraft." }
+        en: { auteur: "Pickthall", texte: "And from the evil of malignant witchcraft." },
+        tr: { auteur: "Comprendre le Coran", texte: "Düğümlere üfleyenlerin şerrinden," }
       },
       mots: [
         {
@@ -286,7 +291,8 @@ const S113 = {
       translit: "wa-min šarri ḥāsidin iḏā ḥasad",
       traductions: {
         fr: { auteur: "Hamidullah", texte: "Et contre le mal de l'envieux quand il envie." },
-        en: { auteur: "Pickthall", texte: "And from the evil of the envier when he envieth." }
+        en: { auteur: "Pickthall", texte: "And from the evil of the envier when he envieth." },
+        tr: { auteur: "Comprendre le Coran", texte: "Ve haset ettiğinde hasetçinin şerrinden." }
       },
       mots: [
         {
