@@ -28,7 +28,7 @@ const S008 = {
       "س-ل-م",
       "ن-ص-ر"
     ],
-    "traduction_note": "Traductions pédagogiques originales (FR/EN/TR) — Comprendre le Coran"
+    "traduction_note": "Hamidullah (fr) · Saheeh International (en) · Diyanet İşleri Başkanlığı (tr) — via Tanzil.net"
   },
   "versets": [
     {

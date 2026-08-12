@@ -24,7 +24,7 @@
     "translations:groups": "node scripts/mark-translation-groups.mjs --appliquer"
   },
   "devDependencies": {
-    "quran-json": "^3.1.2"
+    "quran-json": "3.1.2"
   },
   "engines": {
     "node": ">=18"

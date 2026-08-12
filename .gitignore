@@ -1,6 +1,8 @@
 # Dépendances (réinstallables avec npm install)
 node_modules/
-package-lock.json
+# package-lock.json est VERSIONNE : il garantit qu'un meme commit produit
+# les memes donnees, ce qui compte particulierement pour un corpus religieux
+# genere automatiquement.
 
 # Fichier intermédiaire de build : régénéré en une seconde par
 # `npm run build:base`, inutile de le versionner (7,6 Mo).

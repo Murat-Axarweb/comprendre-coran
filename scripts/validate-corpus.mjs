@@ -89,6 +89,24 @@ for (const f of fichiers) {
   totalVersets += attendu;
 }
 
+// ----- Attribution des traductions -----
+// Le corpus utilise des traductions publiées ; une régénération mal
+// configurée pourrait réintroduire l'ancienne mention « traductions
+// originales », devenue fausse et trompeuse sur un contenu coranique.
+{
+  const { readFileSync } = await import('node:fs');
+  const fautifs = [];
+  for (const f of fichiers) {
+    const src = readFileSync(join(dossier, f), 'utf8');
+    if (src.includes('Traductions pédagogiques originales')) fautifs.push(f);
+  }
+  if (fautifs.length) {
+    err(`${fautifs.length} fichier(s) annoncent des « traductions pédagogiques originales », `
+      + `mention obsolète depuis l'intégration des traductions publiées → ${fautifs.slice(0, 5).join(', ')}`
+      + (fautifs.length > 5 ? '…' : ''));
+  }
+}
+
 // Total canonique du Coran.
 if (totalVersets !== 6236) err(`total de ${totalVersets} versets au lieu de 6236`);
 

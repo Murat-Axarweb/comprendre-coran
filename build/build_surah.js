@@ -187,7 +187,12 @@ function buildSurah(n) {
       note_pedagogique: content.note || '',
       progression: { couche: content.couche || 2, prerequis: content.prerequis || [], suivant: content.suivant || [] },
       racines_cles: content.racines || [],
-      traduction_note: 'Traductions pédagogiques originales (FR/EN/TR) — Comprendre le Coran'
+      // Attribution réelle : voir scripts/import-translations.mjs. Cette note
+      // annonçait encore des traductions originales, ce qui est faux depuis
+      // l'intégration des traductions publiées.
+      traduction_note: dejaTraduit
+        ? 'Hamidullah (fr) · Saheeh International (en) · Diyanet İşleri Başkanlığı (tr) — via Tanzil.net'
+        : 'Traductions à intégrer'
     },
     versets,
     ...(content.resume ? {
