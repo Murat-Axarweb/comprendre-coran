@@ -1,0 +1,45 @@
+name: validate
+
+# Les validateurs et les tests existent, mais rien n'obligeait à les
+# exécuter avant un push. Ce workflow les rend impossibles à oublier.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    name: Validation et tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      # npm ci installe exactement les versions du package-lock.json :
+      # un même commit produit ainsi toujours les mêmes données.
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Corpus, i18n, navigation, textes en dur, CSS
+        run: npm run validate
+
+      - name: Tests de synchronisation
+        run: npm test
+
+      # Contrôle de reproductibilité : le manifeste versionné doit
+      # correspondre au corpus. S'il diverge, c'est qu'on a modifié une
+      # sourate sans relancer la génération.
+      - name: Le manifeste est-il à jour ?
+        run: |
+          cp sourates/manifest.js /tmp/manifest-versionne.js
+          npm run build:manifest
+          if ! diff -q /tmp/manifest-versionne.js sourates/manifest.js > /dev/null; then
+            echo "::error::sourates/manifest.js n'est pas à jour — lancer : npm run build:manifest"
+            diff /tmp/manifest-versionne.js sourates/manifest.js || true
+            exit 1
+          fi
+          echo "manifeste à jour"
