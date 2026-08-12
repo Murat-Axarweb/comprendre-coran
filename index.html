@@ -7,29 +7,10 @@
   <meta name="description" content="Apprends à comprendre le Coran étape par étape : explore les sourates librement, découvre les mots essentiels, révise les racines et progresse avec des exercices adaptés.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./data/theme.css">
   <style>
-    :root {
-      --bg: #0f0f0f; --bg2: #1a1a1a; --bg3: #242424; --bg4: #2e2e2e;
-      --border: #2e2e2e; --border2: #3a3a3a;
-      --text: #e8e8e8; --text2: #a0a0a0; --text3: #606060;
-      --gold: #c9a84c; --gold2: #e8c97a; --goldbg: rgba(201,168,76,0.08);
-      --green: #4a9e7a; --greenbg: rgba(74,158,122,0.08);
-      --blue: #5b8fc9; --bluebg: rgba(91,143,201,0.08);
-      --radius: 12px; --radius-sm: 7px; --radius-lg: 18px;
-    }
-    [data-theme="light"] {
-      --bg: #fafaf8; --bg2: #f0ede6; --bg3: #e8e4db; --bg4: #dedad1;
-      --border: #d8d4cb; --border2: #c8c4bb;
-      --text: #1a1a1a; --text2: #555550; --text3: #999990;
-      --gold: #8b6914; --gold2: #a07820; --goldbg: rgba(139,105,20,0.08);
-      --green: #2d6b50; --greenbg: rgba(45,107,80,0.08);
-      --blue: #2d5a8b; --bluebg: rgba(45,90,139,0.08);
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 15px; line-height: 1.6; overflow-x: hidden; }
+
     a { text-decoration: none; color: inherit; }
-    button { font-family: 'Inter', sans-serif; cursor: pointer; border: none; background: none; color: inherit; }
 
     /* ===== SECTIONS ===== */
     .section { padding: 80px 24px; max-width: 1000px; margin: 0 auto; }
@@ -85,7 +66,7 @@
     .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
     .btn-primary {
       padding: 14px 28px; font-size: 15px; font-weight: 500;
-      background: var(--gold); color: #0f0f0f;
+      background: var(--gold); color: var(--on-gold);
       border-radius: var(--radius-sm); transition: all 0.2s;
       font-family: 'Inter', sans-serif; cursor: pointer; border: none;
     }

@@ -7,28 +7,9 @@
   <meta name="description" content="Apprendre les 1000 mots les plus fréquents du Coran avec leurs racines, familles de mots et analyse de profondeur.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./data/theme.css">
   <style>
-    :root {
-      --bg: #0f0f0f; --bg2: #1a1a1a; --bg3: #242424;
-      --border: #2e2e2e; --border2: #3a3a3a;
-      --text: #e8e8e8; --text2: #a0a0a0; --text3: #606060;
-      --gold: #c9a84c; --gold2: #e8c97a;
-      --green: #4a9e7a; --blue: #5b8fc9; --red: #c96b6b;
-      --radius: 10px; --radius-sm: 6px;
-    }
-    [data-theme="light"] {
-      --bg: #fafaf8; --bg2: #f0ede6; --bg3: #e8e4db;
-      --border: #d8d4cb; --border2: #c8c4bb;
-      --text: #1a1a1a; --text2: #555550; --text3: #999990;
-      --gold: #8b6914; --gold2: #a07820; --green: #2d6b50;
-      --blue: #2d5a8b; --red: #8b2d2d;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 15px; line-height: 1.6; }
-    button { font-family: 'Inter', sans-serif; cursor: pointer; border: none; background: none; color: inherit; }
-    input, select { font-family: 'Inter', sans-serif; background: var(--bg2); border: 1px solid var(--border); color: var(--text); border-radius: var(--radius-sm); padding: 8px 12px; font-size: 14px; outline: none; transition: border-color 0.2s; }
-    input:focus, select:focus { border-color: var(--gold); }
+
     select option { background: var(--bg2); }
     .app { max-width: 960px; margin: 0 auto; padding: 0 16px 80px; }
 
@@ -225,6 +206,9 @@
     .no-result { text-align: center; padding: 3rem; color: var(--text3); font-size: 14px; grid-column: 1/-1; }
 
     /* Couleurs par thème */
+    /* Couleurs d'identification des thèmes de vocabulaire : volontairement
+       en dur, elles ne suivent pas le thème clair/sombre car elles servent
+       à distinguer les catégories, pas à s'adapter à l'ambiance. */
     .theme-allah { background: #c9a84c; }
     .theme-foi { background: #5b8fc9; }
     .theme-prophetie { background: #9b7fc9; }

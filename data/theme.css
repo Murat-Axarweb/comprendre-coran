@@ -1,0 +1,111 @@
+/* ============================================================
+   THÈME PARTAGÉ — Comprendre le Coran
+   ------------------------------------------------------------
+   Source unique des couleurs, arrondis et styles de base des 8 pages.
+   Chaque page redéfinissait auparavant ces variables dans son propre
+   <style> : deux d'entre elles avaient déjà divergé (--radius valait
+   10px sur cinq pages et 12px sur trois, --radius-sm 6px ou 7px).
+
+   Chargé AVANT le <style> de chaque page : une page peut donc encore
+   surcharger une règle si elle a un besoin particulier.
+
+   scripts/validate-css.mjs vérifie qu'aucune page ne redéfinit ces
+   variables de son côté.
+   ============================================================ */
+
+:root {
+  /* Fonds, du plus sombre au plus clair */
+  --bg:  #0f0f0f;
+  --bg2: #1a1a1a;
+  --bg3: #242424;
+  --bg4: #2e2e2e;
+
+  /* Bordures */
+  --border:  #2e2e2e;
+  --border2: #3a3a3a;
+
+  /* Textes, du plus contrasté au plus discret */
+  --text:  #e8e8e8;
+  --text2: #a0a0a0;
+  --text3: #606060;
+
+  /* Couleur d'accent : or */
+  --gold:   #c9a84c;
+  --gold2:  #e8c97a;
+  --goldbg: rgba(201, 168, 76, 0.08);
+
+  /* Couleurs de sens : réussite, information, avertissement, erreur */
+  --green:   #4a9e7a;
+  --greenbg: rgba(74, 158, 122, 0.08);
+  --blue:    #5b8fc9;
+  --bluebg:  rgba(91, 143, 201, 0.08);
+  --orange:  #c9924c;
+  --red:     #c96b6b;
+
+  /* Texte posé sur un fond d'accent (or). Volontairement identique dans
+     les deux thèmes : le fond doré reste clair, le texte doit rester foncé. */
+  --on-gold: #0f0f0f;
+
+  /* Arrondis */
+  --radius-sm: 6px;
+  --radius:    10px;
+  --radius-lg: 18px;
+}
+
+[data-theme="light"] {
+  --bg:  #fafaf8;
+  --bg2: #f0ede6;
+  --bg3: #e8e4db;
+  --bg4: #dedad1;
+
+  --border:  #d8d4cb;
+  --border2: #c8c4bb;
+
+  --text:  #1a1a1a;
+  --text2: #555550;
+  --text3: #999990;
+
+  --gold:   #8b6914;
+  --gold2:  #a07820;
+  --goldbg: rgba(139, 105, 20, 0.08);
+
+  --green:   #2d6b50;
+  --greenbg: rgba(45, 107, 80, 0.08);
+  --blue:    #2d5a8b;
+  --bluebg:  rgba(45, 90, 139, 0.08);
+  --orange:  #8b5e14;
+  --red:     #8b2d2d;
+  --on-gold: #0f0f0f;
+}
+
+/* ----- Réinitialisation et bases ----- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: 'Inter', sans-serif;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.hidden { display: none !important; }
