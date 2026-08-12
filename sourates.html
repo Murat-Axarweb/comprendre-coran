@@ -395,6 +395,10 @@
     .famille-list {
       margin: 10px 0;
     }
+    .provenance-note {
+      margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border);
+      font-size: 11.5px; color: var(--text3); line-height: 1.5; cursor: help;
+    }
     .famille-list-title {
       font-size: 11px;
       font-weight: 600;
@@ -637,6 +641,9 @@ let I18N_DICT = { fr: {
   nav_racines: "Racines", nav_exercices: "Exercices", nav_reviser: "Réviser", nav_compte: "Compte",
   label_versets_groupes: "Versets", label_verset: "verset",
   label_verset_num: "Verset", label_dans_coran: "dans le Coran",
+  sourate_lue: "Sourate lue", marquer_lue: "Marquer comme lue",
+  prov_gloses: "Analyse mot à mot générée automatiquement",
+  prov_gloses_detail: "Appariement par squelette consonantique contre le glossaire — marge d'erreur possible sur les homographes.",
   label_famille_mots: "Famille de mots (même racine)",
   groupe_voir: "Traduction commune à ce groupe de versets — voir le",
   hide_read: "Masquer les sourates lues", show_read: "Afficher toutes les sourates", label_lu: "Lu",
@@ -1507,6 +1514,9 @@ function selectMot(i) {
       <ul>${m.famille.map(f=>`<li>${f}</li>`).join('')}</ul>
     </div>` : ''}
     ${m.profondeur ? `<div class="profondeur-box">${m.profondeur}</div>` : ''}
+    <div class="provenance-note" title="${T('prov_gloses_detail')}">
+      ⓘ ${T('prov_gloses')}
+    </div>
   `;
 }
 
@@ -1539,7 +1549,7 @@ function updateReadBtn() {
   if (!ProgressMod || !currentS) { btn.style.display = 'none'; return; }
   btn.style.display = '';
   const read = ProgressMod.isSurahRead(currentS[0]);
-  btn.textContent = read ? '✓ Sourate lue' : 'Marquer comme lue';
+  btn.textContent = read ? ('✓ ' + T('sourate_lue')) : T('marquer_lue');
   btn.style.background = read ? 'var(--gold,#c9a227)' : 'transparent';
   btn.style.color = read ? '#1a1a1a' : 'var(--gold,#c9a227)';
 }

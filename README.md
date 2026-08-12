@@ -39,6 +39,24 @@ npx serve .        # ou : python3 -m http.server
 
 (Les modules ES exigent un serveur HTTP — ouvrir les fichiers en `file://` ne fonctionne pas.)
 
+## Provenance et fiabilité des données
+
+`data/provenance.js` documente, type par type, l'origine de chaque donnée et
+son niveau de fiabilité. Ces informations sont affichées sur le site : en pied
+de page (récapitulatif) et sous chaque analyse de mot (mention « généré
+automatiquement »).
+
+| Niveau | Types concernés |
+|---|---|
+| **Source publiée** — reproduit sans modification | texte arabe, traductions, métadonnées |
+| **Rédigé pour ce site** | fréquences, analyses de versets, thèmes et résumés |
+| **Généré automatiquement** — non relu, à vérifier | translittération, analyse mot à mot, racines |
+
+Ces niveaux décrivent la **manière dont chaque donnée a été produite**, pas un
+audit ligne à ligne : une donnée générée peut être exacte, une donnée rédigée
+peut contenir une erreur. Le champ `revu` de `data/provenance.js` passera à
+`true`, type par type, à mesure que des relectures seront effectuées.
+
 ## Notes sur les données
 
 - Texte arabe et découpage issus du rasm uthmani (tanzil via quran-json), signes de pause retirés.
