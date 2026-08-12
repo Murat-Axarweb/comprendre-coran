@@ -13,7 +13,22 @@
 // ============================================================
 import { getSupabase, isConfigured } from './supabase.js';
 
-const KEY = 'cc_progress_v1';
+// ============================================================
+// ESPACES DE STOCKAGE PAR UTILISATEUR
+// ------------------------------------------------------------
+// Une clé unique était partagée par tous les comptes d'un même
+// navigateur : après une déconnexion, la progression du compte
+// précédent était chargée puis poussée vers le compte suivant.
+// Chaque compte a désormais son propre espace, et l'espace anonyme
+// reste distinct. Aucune fusion n'a lieu sans choix explicite.
+// ============================================================
+const KEY_PREFIX = 'cc_progress_v2';
+const KEY_LEGACY = 'cc_progress_v1';
+const ANON = 'anonymous';
+
+let _ns = ANON;                       // espace courant
+const cleDe = (ns) => `${KEY_PREFIX}:${ns}`;
+const cleFusion = (uid) => `cc_merged_progress:${uid}`;
 
 // ----- Structure interne -----
 // words  : { "42": { v: true, t: 1786312542000 } }
@@ -42,9 +57,15 @@ function _normaliserEtats(obj) {
   return out;
 }
 
-function _load() {
+function _load(ns) {
+  ns = ns || _ns;
   try {
-    const raw = localStorage.getItem(KEY);
+    // Migration unique de l'ancienne clé globale vers l'espace anonyme.
+    if (ns === ANON && !localStorage.getItem(cleDe(ANON))) {
+      const legacy = localStorage.getItem(KEY_LEGACY);
+      if (legacy) localStorage.setItem(cleDe(ANON), legacy);
+    }
+    const raw = localStorage.getItem(cleDe(ns));
     if (raw) {
       const p = JSON.parse(raw);
       const base = _vide();
@@ -89,10 +110,10 @@ function _serialiser() {
 }
 
 function _save() {
-  try { localStorage.setItem(KEY, JSON.stringify(_serialiser())); } catch (e) { /* quota / privé */ }
+  try { localStorage.setItem(cleDe(_ns), JSON.stringify(_serialiser())); } catch (e) { /* quota / privé */ }
 }
 
-const progress = _load();
+let progress = _load();
 
 // ----- Série de jours consécutifs -----
 // Date LOCALE du navigateur : avec une date UTC, une session à 01 h 30 à
@@ -103,7 +124,7 @@ function _jourLocal(d) {
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
 }
 
-(function majSerie() {
+function _majSerie() {
   const today = _jourLocal();
   if (progress.lastDay !== today) {
     if (progress.lastDay) {
@@ -115,7 +136,9 @@ function _jourLocal(d) {
     progress.lastDay = today;
     if (!progress.bestStreak || progress.streak > progress.bestStreak) progress.bestStreak = progress.streak;
   }
-})();
+}
+
+_majSerie();
 progress.lastVisit = new Date().toISOString();
 _save();
 
@@ -300,10 +323,76 @@ async function _cloudPull() {
   } catch (e) { /* silencieux : dégradation gracieuse */ }
 }
 
+// ============================================================
+// BASCULE D'ESPACE
+// ============================================================
+// Change d'espace de stockage et recharge l'état correspondant. Aucune
+// donnée n'est transportée d'un espace à l'autre : c'est précisément ce
+// qui provoquait la fuite entre comptes.
+function _basculer(ns) {
+  if (ns === _ns) return false;
+  clearTimeout(_pushTimer);          // annule un envoi préparé pour l'ancien espace
+  _ns = ns;
+  progress = _load(ns);
+  progress.lastVisit = new Date().toISOString();
+  _majSerie();
+  _save();
+  _notify();
+  return true;
+}
+
+// L'espace anonyme contient-il quelque chose à proposer à la fusion ?
+export function progressionAnonymeDisponible() {
+  if (_ns === ANON) return false;
+  try {
+    if (localStorage.getItem(cleFusion(_ns))) return false;   // déjà proposé
+    const raw = localStorage.getItem(cleDe(ANON));
+    if (!raw) return false;
+    const p = JSON.parse(raw);
+    // Les deux formats coexistent après migration : on ne compte qu'une fois.
+    const mots = p.words ? Object.values(p.words).filter(e => e && e.v).length
+                         : (p.wordsLearned || []).length;
+    const sourates = p.surahs ? Object.values(p.surahs).filter(e => e && e.v).length
+                              : (p.surahsRead || []).length;
+    const quiz = ((p.quiz || {}).history || []).length;
+    return (mots + sourates + quiz) > 0 ? { mots, sourates, quiz } : false;
+  } catch (e) { return false; }
+}
+
+// Fusionne l'espace anonyme dans le compte courant. Sur choix explicite
+// de la personne uniquement, et une seule fois.
+export function fusionnerProgressionAnonyme() {
+  if (_ns === ANON) return false;
+  try {
+    const raw = localStorage.getItem(cleDe(ANON));
+    if (raw) _merge(JSON.parse(raw));
+    localStorage.setItem(cleFusion(_ns), new Date().toISOString());
+    _save(); _notify(); _scheduleCloudPush();
+    return true;
+  } catch (e) { return false; }
+}
+
+// Refuse la fusion : on ne la reproposera plus pour ce compte.
+export function refuserProgressionAnonyme() {
+  if (_ns === ANON) return;
+  try { localStorage.setItem(cleFusion(_ns), 'refuse'); } catch (e) {}
+}
+
 // Amorçage en arrière-plan (ne bloque jamais l'exécution du module).
 (async () => {
   const sb = await getSupabase();
   if (!sb) return;
+  try {
+    const { data: { user } } = await sb.auth.getUser();
+    if (user) _basculer(user.id);
+  } catch (e) { /* session indisponible : on reste en anonyme */ }
   _cloudPull();
-  sb.auth.onAuthStateChange((event) => { if (event === 'SIGNED_IN') _cloudPull(); });
+  sb.auth.onAuthStateChange((event, session) => {
+    if (event === 'SIGNED_IN' && session && session.user) {
+      _basculer(session.user.id);
+      _cloudPull();
+    } else if (event === 'SIGNED_OUT') {
+      _basculer(ANON);              // l'état du compte quitté n'est plus en mémoire
+    }
+  });
 })();

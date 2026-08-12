@@ -6,22 +6,35 @@
 // ============================================================
 import { getSupabase, isConfigured } from './supabase.js';
 
-const KEY = 'cc_srs_v1';
+// Espaces de stockage par utilisateur : voir data/progress.js pour le
+// détail. Une clé unique faisait passer les cartes d'un compte à l'autre
+// sur un même navigateur.
+const KEY_PREFIX = 'cc_srs_v2';
+const KEY_LEGACY = 'cc_srs_v1';
+const ANON = 'anonymous';
+
+let _ns = ANON;
+const cleDe = (ns) => `${KEY_PREFIX}:${ns}`;
 const DAY = 86400000;
 
 export const RATINGS = ['again', 'hard', 'good', 'easy'];
 const QUALITY = { again: 1, hard: 3, good: 4, easy: 5 };
 
-function _load() {
+function _load(ns) {
+  ns = ns || _ns;
   try {
-    const raw = localStorage.getItem(KEY);
+    if (ns === ANON && !localStorage.getItem(cleDe(ANON))) {
+      const legacy = localStorage.getItem(KEY_LEGACY);
+      if (legacy) localStorage.setItem(cleDe(ANON), legacy);
+    }
+    const raw = localStorage.getItem(cleDe(ns));
     if (raw) { const o = JSON.parse(raw); if (o && typeof o === 'object') return o; }
   } catch (e) {}
   return {};
 }
-function _save() { try { localStorage.setItem(KEY, JSON.stringify(cards)); } catch (e) {} }
+function _save() { try { localStorage.setItem(cleDe(_ns), JSON.stringify(cards)); } catch (e) {} }
 
-let cards = _load();
+let cards = _load();   // espace anonyme au démarrage, basculé si session
 
 const _listeners = new Set();
 export function subscribe(fn) { _listeners.add(fn); return () => _listeners.delete(fn); }
@@ -170,9 +183,43 @@ async function _cloudPull() {
 }
 
 // Amorçage en arrière-plan (ne bloque jamais l'exécution du module).
+// Change d'espace : les cartes de l'ancien compte sont abandonnées, et la
+// file d'envoi vidée pour ne rien pousser vers le mauvais compte.
+function _basculer(ns) {
+  if (ns === _ns) return;
+  clearTimeout(_pushTimer);
+  _dirty.clear();
+  _ns = ns;
+  cards = _load(ns);
+  _notify();
+}
+
+// Fusionne les cartes anonymes dans le compte courant (choix explicite).
+export function fusionnerCartesAnonymes() {
+  if (_ns === ANON) return false;
+  try {
+    const raw = localStorage.getItem(cleDe(ANON));
+    if (!raw) return false;
+    const anon = JSON.parse(raw);
+    Object.entries(anon).forEach(([id, c]) => {
+      const l = cards[id];
+      if (!l || (c.last || 0) > (l.last || 0)) { cards[id] = c; _dirty.add(Number(id)); }
+    });
+    _save(); _notify(); _schedulePush();
+    return true;
+  } catch (e) { return false; }
+}
+
 (async () => {
   const sb = await getSupabase();
   if (!sb) return;
+  try {
+    const { data: { user } } = await sb.auth.getUser();
+    if (user) _basculer(user.id);
+  } catch (e) { /* session indisponible */ }
   _cloudPull();
-  sb.auth.onAuthStateChange((event) => { if (event === 'SIGNED_IN') _cloudPull(); });
+  sb.auth.onAuthStateChange((event, session) => {
+    if (event === 'SIGNED_IN' && session && session.user) { _basculer(session.user.id); _cloudPull(); }
+    else if (event === 'SIGNED_OUT') _basculer(ANON);
+  });
 })();
