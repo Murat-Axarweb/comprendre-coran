@@ -65,6 +65,15 @@ with controles as (
   select 'fonctions is_admin / admin_stats',
          (select count(*) from pg_proc p join pg_namespace n on n.oid=p.pronamespace
            where n.nspname='public' and p.proname in ('is_admin','admin_stats')) = 2
+  -- Vérifie la VERSION de la fonction, pas seulement son existence : sans la
+  -- migration 006, admin_stats applique jsonb_array_length sans contrôle de
+  -- type, et un seul document mal formé suffit à rendre le panneau
+  -- d'administration inutilisable.
+  union all
+  select 'admin_stats tolérant aux documents mal formés',
+         coalesce((select prosrc like '%jsonb_typeof(data->''wordsLearned'') = ''array''%'
+                     from pg_proc p join pg_namespace n on n.oid=p.pronamespace
+                    where n.nspname='public' and p.proname='admin_stats' limit 1), false)
 
   -- 7. Contraintes de validité
   union all
