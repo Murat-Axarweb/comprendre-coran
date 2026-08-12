@@ -34,7 +34,7 @@ const cleFusion = (uid) => `cc_merged_progress:${uid}`;
 // words  : { "42": { v: true, t: 1786312542000 } }
 // surahs : { "2":  { v: true, t: 1786312542000 } }
 function _vide() {
-  return { words: {}, surahs: {}, quiz: { history: [], best: {} },
+  return { words: {}, surahs: {}, quiz: { history: [], best: {} }, quizResetAt: 0,
            lastVisit: null, streak: 0, bestStreak: 0, lastDay: null };
 }
 
@@ -76,6 +76,7 @@ function _load(ns) {
         base.quiz = { history: Array.isArray(p.quiz.history) ? p.quiz.history : [],
                       best: (p.quiz.best && typeof p.quiz.best === 'object') ? p.quiz.best : {} };
       }
+      base.quizResetAt = Number(p.quizResetAt) || 0;
       base.lastVisit  = p.lastVisit || null;
       base.streak     = p.streak || 0;
       base.bestStreak = p.bestStreak || 0;
@@ -102,6 +103,7 @@ function _serialiser() {
     wordsLearned: _actifs(progress.words),
     surahsRead: _actifs(progress.surahs),
     quiz: progress.quiz,
+    quizResetAt: progress.quizResetAt || 0,
     lastVisit: progress.lastVisit,
     streak: progress.streak,
     bestStreak: progress.bestStreak,
@@ -180,8 +182,17 @@ export function toggleSurah(n) {
 export function surahsReadCount() { return _actifs(progress.surahs).length; }
 
 // ----- Quiz -----
+// Identifiant de session : la date seule ne suffit pas comme clé de
+// déduplication, deux sessions enregistrées dans la même milliseconde
+// se confondraient lors d'une fusion entre appareils.
+let _seqQuiz = 0;
+function _idSession() {
+  _seqQuiz = (_seqQuiz + 1) % 1000;
+  return `${Date.now().toString(36)}${_seqQuiz.toString(36)}${Math.random().toString(36).slice(2, 6)}`;
+}
+
 export function saveQuizResult(type, score, total, missedIds) {
-  const entry = { type, score, total, date: new Date().toISOString() };
+  const entry = { id: _idSession(), type, score, total, date: new Date().toISOString() };
   if (Array.isArray(missedIds) && missedIds.length) entry.missed = missedIds.slice(0, 50);
   progress.quiz.history.push(entry);
   if (progress.quiz.history.length > 200) progress.quiz.history.shift();
@@ -229,7 +240,10 @@ export function resetProgress() {
   // encore présents sur les autres appareils.
   Object.keys(progress.words).forEach(k => { progress.words[k] = { v: false, t: now }; });
   Object.keys(progress.surahs).forEach(k => { progress.surahs[k] = { v: false, t: now }; });
+  // Le vidage des quiz est daté : sans cela, la fusion réintroduisait les
+  // sessions encore présentes sur les autres appareils.
   progress.quiz = { history: [], best: {} };
+  progress.quizResetAt = now;
   _save();
   _scheduleCloudPush();
 }
@@ -263,17 +277,30 @@ function _merge(remote) {
   if (remote.streak && remote.lastDay === progress.lastDay && remote.streak > (progress.streak || 0)) progress.streak = remote.streak;
 
   if (remote.quiz && typeof remote.quiz === 'object') {
-    const seen = new Set(progress.quiz.history.map(h => h.type + '|' + h.date));
+    // Le reset le plus récent des deux côtés fait autorité : toute session
+    // antérieure est écartée, y compris celles déjà présentes localement.
+    const resetAt = Math.max(progress.quizResetAt || 0, Number(remote.quizResetAt) || 0);
+    if (resetAt > (progress.quizResetAt || 0)) progress.quizResetAt = resetAt;
+    if (resetAt > 0) {
+      progress.quiz.history = progress.quiz.history.filter(h => Date.parse(h.date) > resetAt);
+    }
+    const cle = (h) => h.id || (h.type + '|' + h.date);   // repli : sessions d'avant l'identifiant
+    const seen = new Set(progress.quiz.history.map(cle));
     (remote.quiz.history || []).forEach(h => {
-      const k = h.type + '|' + h.date;
+      if (resetAt > 0 && !(Date.parse(h.date) > resetAt)) return;   // antérieure au reset
+      const k = cle(h);
       if (!seen.has(k)) { progress.quiz.history.push(h); seen.add(k); }
     });
     progress.quiz.history.sort((a, b) => (a.date < b.date ? -1 : 1));
     if (progress.quiz.history.length > 200) progress.quiz.history = progress.quiz.history.slice(-200);
-    const rb = remote.quiz.best || {};
-    Object.keys(rb).forEach(t => {
-      if (!progress.quiz.best[t] || rb[t] > progress.quiz.best[t]) progress.quiz.best[t] = rb[t];
-    });
+    // Après un reset, les records distants antérieurs ne doivent pas revenir.
+    const memeReset = (Number(remote.quizResetAt) || 0) >= (progress.quizResetAt || 0);
+    if (memeReset) {
+      const rb = remote.quiz.best || {};
+      Object.keys(rb).forEach(t => {
+        if (!progress.quiz.best[t] || rb[t] > progress.quiz.best[t]) progress.quiz.best[t] = rb[t];
+      });
+    }
   }
 }
 
@@ -299,6 +326,9 @@ async function _cloudPush() {
     if (!sb) return;
     const { data: { user } } = await sb.auth.getUser();
     if (!user) return;
+    // Jamais d'envoi avant d'avoir lu le cloud au moins une fois : sinon un
+    // état local ancien écraserait des données distantes plus récentes.
+    if (!_pullReussi) return;
     const { error } = await sb.from('user_progress').upsert(
       { user_id: user.id, data: _serialiser(), updated_at: new Date().toISOString() },
       { onConflict: 'user_id' }
@@ -308,19 +338,49 @@ async function _cloudPush() {
   } catch (e) { _reprogrammer(); }
 }
 
+// Vrai une fois qu'une lecture cloud a abouti pour l'espace courant.
+// Tant qu'elle n'a pas eu lieu, l'état local n'a pas été confronté au
+// cloud : l'envoyer écraserait des données distantes potentiellement
+// plus récentes. Une lecture en erreur n'est PAS un cloud vide.
+let _pullReussi = false;
+let _pullRetard = 0;
+
+export function pullEffectue() { return _pullReussi; }
+
 async function _cloudPull() {
+  let sb;
   try {
-    const sb = await getSupabase();
+    sb = await getSupabase();
     if (!sb) return;
     const { data: { user } } = await sb.auth.getUser();
     if (!user) return;
+
     const { data, error } = await sb
       .from('user_progress').select('data').eq('user_id', user.id).maybeSingle();
-    if (!error && data && data.data) _merge(data.data);
+
+    if (error) {
+      // Échec de lecture : on ne fusionne rien, on n'envoie rien, on réessaie.
+      const d = DELAIS_REPRISE[Math.min(_pullRetard, DELAIS_REPRISE.length - 1)];
+      _pullRetard++;
+      setTimeout(_cloudPull, d);
+      return;
+    }
+
+    // Succès : avec donnée (fusion) ou sans donnée (compte neuf).
+    if (data && data.data) _merge(data.data);
+    _pullReussi = true;
+    _pullRetard = 0;
     _save();
     _notify();
     _cloudPush();
-  } catch (e) { /* silencieux : dégradation gracieuse */ }
+  } catch (e) {
+    // Réseau indisponible : même règle, on réessaie sans rien envoyer.
+    if (sb) {
+      const d = DELAIS_REPRISE[Math.min(_pullRetard, DELAIS_REPRISE.length - 1)];
+      _pullRetard++;
+      setTimeout(_cloudPull, d);
+    }
+  }
 }
 
 // ============================================================
@@ -332,6 +392,8 @@ async function _cloudPull() {
 function _basculer(ns) {
   if (ns === _ns) return false;
   clearTimeout(_pushTimer);          // annule un envoi préparé pour l'ancien espace
+  _pullReussi = false;               // le nouvel espace n'a pas encore été confronté au cloud
+  _pullRetard = 0;
   _ns = ns;
   progress = _load(ns);
   progress.lastVisit = new Date().toISOString();
