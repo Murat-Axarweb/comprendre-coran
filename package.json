@@ -11,6 +11,7 @@
   },
   "scripts": {
     "validate": "npm run validate:corpus && npm run validate:i18n && npm run validate:nav && npm run validate:hardcoded && npm run validate:css",
+    "test": "node scripts/test-sync.mjs",
     "validate:corpus": "node scripts/validate-corpus.mjs",
     "validate:i18n": "node scripts/validate-i18n.mjs",
     "validate:nav": "node scripts/validate-nav.mjs",
