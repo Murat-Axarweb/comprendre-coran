@@ -422,7 +422,7 @@ window.filterByTop = function(top) {
   renderThemeChips();
   const filtered = ALL_VOCAB.filter(w => w.rang <= top);
   renderVocab(filtered);
-  document.getElementById('results-count').textContent = `${filtered.length} mots (Top ${top})`;
+  document.getElementById('results-count').textContent = `${filtered.length} ${t('vocab_resultats')} ${top})`;
 }
 
 // ===== THÈME CHIPS =====
@@ -476,7 +476,7 @@ window.applyFilters = function() {
   else if (sort === 'freq_asc') filtered.sort((a,b) => a.frequence - b.frequence);
   else filtered.sort((a,b) => a.rang - b.rang);
 
-  document.getElementById('results-count').textContent = `${filtered.length} mot${filtered.length>1?'s':''}`;
+  document.getElementById('results-count').textContent = `${filtered.length} ${t(filtered.length > 1 ? 'vocab_mots' : 'vocab_mot')}`;
   renderVocab(filtered);
 }
 
@@ -492,7 +492,7 @@ window.setVue = function(v) {
 function renderVocab(list) {
   const container = document.getElementById('vocab-container');
   if (!list.length) {
-    container.innerHTML = `<div class="no-result">Aucun mot trouvé.</div>`;
+    container.innerHTML = `<div class="no-result">${t('vocab_aucun_mot')}</div>`;
     return;
   }
   const lang = window.LANG || 'fr';

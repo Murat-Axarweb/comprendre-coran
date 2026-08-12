@@ -690,6 +690,8 @@ let I18N_DICT = { fr: {
   nav_accueil: "Accueil", nav_sourates: "Sourates", nav_vocabulaire: "Vocabulaire",
   nav_racines: "Racines", nav_exercices: "Exercices", nav_reviser: "Réviser", nav_compte: "Compte",
   label_versets_groupes: "Versets", label_verset: "verset",
+  label_verset_num: "Verset", label_dans_coran: "dans le Coran",
+  label_famille_mots: "Famille de mots (même racine)",
   groupe_voir: "Traduction commune à ce groupe de versets — voir le",
   hide_read: "Masquer les sourates lues", show_read: "Afficher toutes les sourates", label_lu: "Lu",
   sourates_subtitle: "Comprendre le Coran verset par verset · Racines · Traduction · Analyse",
@@ -1428,7 +1430,7 @@ async function openSourate(num) {
 // Rendu verset
 function renderVerset() {
   const total = currentS[4];
-  document.getElementById('v-counter').textContent = `Verset ${currentIdx + 1} / ${total}`;
+  document.getElementById('v-counter').textContent = `${T('label_verset_num')} ${currentIdx + 1} / ${total}`;
   document.getElementById('btn-prev').disabled = currentIdx === 0;
   document.getElementById('btn-next').disabled = currentIdx === total - 1;
   document.getElementById('v-progress-fill').style.width = ((currentIdx + 1) / total * 100) + '%';
@@ -1551,11 +1553,11 @@ function selectMot(i) {
       </div>
       <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end">
         <span class="racine-badge">${m.racine}</span>
-        <span class="freq-badge">× ${m.frequence_coran} dans le Coran</span>
+        <span class="freq-badge">× ${m.frequence_coran} ${T('label_dans_coran')}</span>
       </div>
     </div>
     ${(m.famille && m.famille.length) ? `<div class="famille-list">
-      <div class="famille-list-title">Famille de mots (même racine)</div>
+      <div class="famille-list-title">${T('label_famille_mots')}</div>
       <ul>${m.famille.map(f=>`<li>${f}</li>`).join('')}</ul>
     </div>` : ''}
     ${m.profondeur ? `<div class="profondeur-box">${m.profondeur}</div>` : ''}
