@@ -27,7 +27,7 @@
   /* Textes, du plus contrasté au plus discret */
   --text:  #e8e8e8;
   --text2: #a0a0a0;
-  --text3: #606060;
+  --text3: #7c7c7c;   /* contraste WCAG AA : 4.59 sur --bg */
 
   /* Couleur d'accent : or */
   --gold:   #c9a84c;
@@ -63,7 +63,7 @@
 
   --text:  #1a1a1a;
   --text2: #555550;
-  --text3: #999990;
+  --text3: #73736d;   /* contraste WCAG AA : 4.56 sur --bg */
 
   --gold:   #8b6914;
   --gold2:  #a07820;

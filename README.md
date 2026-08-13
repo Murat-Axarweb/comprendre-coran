@@ -39,6 +39,13 @@ npx serve .        # ou : python3 -m http.server
 
 (Les modules ES exigent un serveur HTTP — ouvrir les fichiers en `file://` ne fonctionne pas.)
 
+## Licences
+
+Les traductions des versets proviennent de sources publiées soumises aux
+conditions de [Tanzil.net](https://tanzil.net) : **usage non commercial**,
+reproduction sans modification, attribution requise. Voir
+[LICENSING.md](LICENSING.md) pour le détail des droits et des dépendances.
+
 ## Provenance et fiabilité des données
 
 `data/provenance.js` documente, type par type, l'origine de chaque donnée et

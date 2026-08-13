@@ -15,7 +15,13 @@
 const SUPABASE_URL = 'https://dktyvexclitlooatwawu.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRrdHl2ZXhjbGl0bG9vYXR3YXd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODYwMzIzNjksImV4cCI6MjEwMTYwODM2OX0.nRMaedgWUzJyw04Jvjq2i-h2l5N6i3cv6nCPiIq5_TQ';
 
-const CDN = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
+// Version FIGÉE, et non « @2 » : cette plage acceptait n'importe quelle
+// version future publiée sur le CDN, donc du code tiers non vérifié exécuté
+// sur le site. Une v3 est en préparation, ce qui rendait le risque concret.
+// Mise à jour : changer ce numéro, puis vérifier la connexion et la
+// synchronisation avant de déployer.
+const SUPABASE_VERSION = '2.112.3';
+const CDN = `https://cdn.jsdelivr.net/npm/@supabase/supabase-js@${SUPABASE_VERSION}/+esm`;
 
 // Vrai une fois les deux constantes renseignées.
 export function isConfigured() {

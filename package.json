@@ -10,13 +10,14 @@
     "url": "https://github.com/Murat-Axarweb/comprendre-coran.git"
   },
   "scripts": {
-    "validate": "npm run validate:corpus && npm run validate:i18n && npm run validate:nav && npm run validate:hardcoded && npm run validate:css",
+    "validate": "npm run validate:corpus && npm run validate:i18n && npm run validate:nav && npm run validate:hardcoded && npm run validate:css && npm run validate:headers",
     "test": "node scripts/test-sync.mjs",
     "validate:corpus": "node scripts/validate-corpus.mjs",
     "validate:i18n": "node scripts/validate-i18n.mjs",
     "validate:nav": "node scripts/validate-nav.mjs",
     "validate:hardcoded": "node scripts/validate-hardcoded.mjs",
     "validate:css": "node scripts/validate-css.mjs",
+    "validate:headers": "node scripts/validate-headers.mjs",
     "build:manifest": "node scripts/build-manifest.mjs",
     "build:base": "node build/extract.js --tout",
     "build:content": "node scripts/extract-content.mjs --appliquer",

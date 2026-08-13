@@ -78,6 +78,39 @@ for (const page of pages) {
   }
 }
 
+// ----- 5. Contraste des couleurs de texte (WCAG AA) -----
+// Une couleur trop pâle reste lisible pour qui a une bonne vue et devient
+// illisible pour les autres : le défaut ne se voit pas à la relecture.
+function luminance(hex) {
+  const h = hex.replace('#', '');
+  const [r, g, b] = [0, 2, 4].map(i => parseInt(h.slice(i, i + 2), 16) / 255);
+  const f = c => (c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4));
+  return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
+}
+function contraste(a, b) {
+  const [l1, l2] = [luminance(a), luminance(b)].sort((x, y) => y - x);
+  return (l1 + 0.05) / (l2 + 0.05);
+}
+function variables(bloc) {
+  const m = new RegExp(bloc.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*\\{([^}]*)\\}', 's').exec(theme);
+  const out = {};
+  if (m) for (const v of m[1].matchAll(/(--[a-z0-9-]+)\s*:\s*(#[0-9a-f]{6})/gi)) out[v[1]] = v[2];
+  return out;
+}
+const TEXTES = ['--text', '--text2', '--text3', '--gold', '--green', '--blue', '--red'];
+for (const [nom, bloc] of [['sombre', ':root'], ['clair', '[data-theme="light"]']]) {
+  const v = variables(bloc);
+  if (!v['--bg']) continue;
+  for (const t of TEXTES) {
+    if (!v[t]) continue;
+    const r = contraste(v[t], v['--bg']);
+    if (r < 4.5) {
+      console.error(`✗ thème ${nom} : ${t} contraste ${r.toFixed(2)} sur --bg, sous le seuil WCAG AA de 4.5`);
+      erreurs++;
+    }
+  }
+}
+
 console.log('');
 if (erreurs === 0) {
   console.log(`✓ CSS valide — ${pages.length} pages, thème unique dans data/theme.css (${declarees.size} variables).`);

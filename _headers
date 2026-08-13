@@ -1,10 +1,57 @@
-# Netlify — politique de cache.
-# HTML et modules JS : revalidation systématique auprès du serveur pour que
-# chaque déploiement soit pris en compte immédiatement (évite qu'un ancien
-# module reste servi par le cache navigateur, ce qui casse les imports ES).
+# ============================================================
+# En-têtes HTTP — Comprendre le Coran (Netlify)
+# ============================================================
+
+/*
+  # ----- Sécurité -----
+
+  # Empêche l'affichage du site dans une iframe d'un autre domaine
+  # (détournement de clic : un site tiers superpose une page invisible
+  # pour faire cliquer l'utilisateur là où il ne le croit pas).
+  X-Frame-Options: DENY
+
+  # Empêche le navigateur de deviner un type de contenu autre que celui
+  # annoncé — un fichier de données ne peut pas être exécuté comme script.
+  X-Content-Type-Options: nosniff
+
+  # Ne transmet pas l'adresse de la page consultée aux sites externes.
+  # Sur un site de lecture du Coran, la page consultée est une donnée
+  # personnelle : rien n'indique à un tiers quelle sourate est lue.
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Aucune de ces fonctions n'est utilisée : on les refuse explicitement.
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=()
+
+  # HSTS : impose HTTPS pendant un an. Netlify redirige déjà, cet en-tête
+  # évite en plus la toute première requête en clair lors des visites
+  # suivantes.
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+  # ----- Politique de contenu -----
+  # Limite les origines autorisées aux quatre réellement utilisées.
+  # 'unsafe-inline' est nécessaire pour les gestionnaires onclick et les
+  # blocs <style> des pages ; le retirer suppose de les externaliser au
+  # préalable, sans quoi le site cesse de fonctionner.
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://dktyvexclitlooatwawu.supabase.co https://cdn.jsdelivr.net; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+
+# ============================================================
+# Cache
+# ------------------------------------------------------------
+# HTML et modules JS : revalidation systématique, pour que chaque
+# déploiement soit pris en compte immédiatement. Sans cela, un ancien
+# module servi par le cache casse les imports ES du reste de la page.
+# ============================================================
+
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
+
 /*.js
   Cache-Control: public, max-age=0, must-revalidate
+
 /data/*
   Cache-Control: public, max-age=0, must-revalidate
+
+# Les fichiers de sourates ne changent qu'à une régénération du corpus :
+# une journée de cache évite de retélécharger jusqu'à 1 Mo par consultation.
+/sourates/*
+  Cache-Control: public, max-age=86400
