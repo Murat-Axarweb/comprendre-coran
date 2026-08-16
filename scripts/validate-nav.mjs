@@ -25,7 +25,9 @@ import { dirname, join } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const pages = readdirSync(root).filter(f => f.endsWith('.html')).sort();
-const SANS_ENTREE_MENU = ['admin.html'];   // page non référencée dans le menu
+// Pages volontairement absentes du menu : l'administration (réservée) et
+// la page de sources (accessible depuis le pied de page).
+const SANS_ENTREE_MENU = ['admin.html', 'sources.html'];
 let erreurs = 0;
 
 function navbar(html) {

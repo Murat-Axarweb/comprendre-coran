@@ -8,6 +8,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./data/theme.css">
   <style>
+    .footer { border-top: 1px solid var(--border); padding: 24px; text-align: center; font-size: 12px; color: var(--text3); }
+    .footer-links { margin-top: 10px; font-size: 12.5px; }
+    .footer-links a { color: var(--text2); text-decoration: none; border-bottom: 1px solid var(--border); padding-bottom: 1px; }
+    .footer-links a:hover { color: var(--gold); border-bottom-color: var(--gold); }
 
     .app { max-width: 480px; margin: 0 auto; padding: 48px 20px 80px; }
     .page-header { text-align: center; margin-bottom: 28px; }
@@ -235,5 +239,8 @@ initNav({ onLangChange: (code) => window.setLang(code) });
 refreshView();
 onAuthChange(() => refreshView());
 </script>
+<footer class="footer">
+  <div class="footer-links"><a href="sources.html" data-i18n="footer_sources_link">Voir nos sources</a></div>
+</footer>
 </body>
 </html>

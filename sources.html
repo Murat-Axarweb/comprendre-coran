@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos sources — Comprendre le Coran</title>
+  <meta name="description" content="Origine et fiabilité des données du site : traductions, texte arabe, analyse morphologique et contenu pédagogique.">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./data/theme.css">
+  <style>
+    .footer { border-top: 1px solid var(--border); padding: 24px; text-align: center; font-size: 12px; color: var(--text3); }
+    .footer-links { margin-top: 10px; font-size: 12.5px; }
+    .footer-links a { color: var(--text2); text-decoration: none; border-bottom: 1px solid var(--border); padding-bottom: 1px; }
+    .footer-links a:hover { color: var(--gold); border-bottom-color: var(--gold); }
+    .app { max-width: 780px; margin: 0 auto; padding: 40px 20px 80px; }
+    .page-header h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; }
+    .page-header p { color: var(--text2); font-size: 15px; margin-bottom: 8px; }
+
+    .intro { background: var(--bg2); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+             border-radius: var(--radius-sm); padding: 16px 18px; font-size: 14px; line-height: 1.65;
+             color: var(--text2); margin: 24px 0 32px; }
+
+    .section { margin-bottom: 34px; }
+    .section h2 { font-size: 17px; font-weight: 600; color: var(--gold); margin-bottom: 6px; }
+    .section .lead { color: var(--text2); font-size: 14px; margin-bottom: 14px; }
+
+    .card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius);
+            padding: 18px; margin-bottom: 12px; }
+    .card .titre { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+    .card .meta { font-size: 12.5px; color: var(--text3); margin-bottom: 8px; }
+    .card .desc { font-size: 13.5px; color: var(--text2); line-height: 1.6; }
+    .card a { color: var(--blue); }
+
+    .niveau { display: inline-block; font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em;
+              padding: 2px 8px; border-radius: 20px; margin-left: 8px; vertical-align: middle; }
+    .niveau.source  { background: var(--greenbg); color: var(--green); }
+    .niveau.redige  { background: var(--goldbg);  color: var(--gold); }
+    .niveau.genere  { background: var(--bluebg);  color: var(--blue); }
+
+    .legende { display: flex; flex-wrap: wrap; gap: 18px; font-size: 13px; color: var(--text2);
+               background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius);
+               padding: 16px 18px; margin-bottom: 30px; }
+    .legende div { flex: 1 1 200px; line-height: 1.55; }
+
+    .note { font-size: 13px; color: var(--text3); line-height: 1.6; margin-top: 10px; }
+    .note a { color: var(--text2); }
+
+    table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 10px; }
+    th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { color: var(--text3); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
+
+    @media (max-width: 560px) { .legende div { flex: 1 1 100%; } }
+  </style>
+</head>
+<body>
+<nav class="navbar">
+  <a class="nav-logo" href="index.html" aria-label="Comprendre le Coran — accueil">القرآن</a>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html" data-i18n="nav_accueil">Accueil</a>
+    <a class="nav-link" href="sourates.html" data-i18n="nav_sourates">Sourates</a>
+    <a class="nav-link" href="vocabulaire.html" data-i18n="nav_vocabulaire">Vocabulaire</a>
+    <a class="nav-link" href="racines.html" data-i18n="nav_racines">Racines</a>
+    <a class="nav-link" href="exercices.html" data-i18n="nav_exercices">Exercices</a>
+    <a class="nav-link" href="revision.html" data-i18n="nav_reviser">Réviser</a>
+    <a class="nav-link" href="compte.html">Connexion / Inscription</a>
+  </div>
+  <div class="nav-right">
+    <div id="lang-select"></div>
+    <button class="theme-btn" onclick="toggleTheme()">☀/☾</button>
+  </div>
+</nav>
+
+<div class="app">
+  <div class="page-header">
+    <h1 id="t-titre">Nos sources</h1>
+    <p id="t-sous">D'où vient chaque donnée du site, et quel crédit lui accorder.</p>
+  </div>
+
+  <div class="intro" id="t-intro">
+    Apprendre à comprendre le Coran suppose de savoir sur quoi l'on s'appuie. Cette page
+    indique, pour chaque type de contenu, son origine et son niveau de fiabilité — y compris
+    lorsque ce niveau est imparfait.
+  </div>
+
+  <div class="legende">
+    <div><span class="niveau source" id="t-n1">Source publiée</span><br><span id="t-d1">Provient d'une source publiée et identifiée, reproduite sans modification.</span></div>
+    <div><span class="niveau redige" id="t-n2">Rédigé pour ce site</span><br><span id="t-d2">Contenu pédagogique écrit pour cette plateforme.</span></div>
+    <div><span class="niveau genere" id="t-n3">Généré automatiquement</span><br><span id="t-d3">Produit par un traitement, sans relecture systématique.</span></div>
+  </div>
+
+  <!-- ===== TRADUCTIONS ===== -->
+  <div class="section">
+    <h2 id="t-h-trad">Traductions des versets <span class="niveau source">Source publiée</span></h2>
+    <p class="lead" id="t-l-trad">Trois traductions de référence, reproduites sans aucune modification.</p>
+    <div class="card">
+      <table>
+        <tr><th id="t-th-lang">Langue</th><th id="t-th-trad">Traducteur</th></tr>
+        <tr><td>Français</td><td>Muhammad Hamidullah</td></tr>
+        <tr><td>English</td><td>Saheeh International</td></tr>
+        <tr><td>Türkçe</td><td>Diyanet İşleri Başkanlığı</td></tr>
+      </table>
+      <p class="note" id="t-note-trad">
+        Distribuées par le <a href="https://tanzil.net" target="_blank" rel="noopener">projet Tanzil</a>.
+        Usage non commercial, reproduction à l'identique, attribution requise.
+        Le nom du traducteur est rappelé sous chaque verset.
+      </p>
+    </div>
+  </div>
+
+  <!-- ===== TEXTE ARABE ===== -->
+  <div class="section">
+    <h2 id="t-h-ar">Texte arabe <span class="niveau source">Source publiée</span></h2>
+    <div class="card">
+      <div class="titre">Rasm uthmani simplifié</div>
+      <div class="meta" id="t-m-ar">Projet Tanzil, via quran-json</div>
+      <div class="desc" id="t-d-ar">
+        Texte vérifié, repris sans modification. La numérotation des sourates et des versets,
+        ainsi que le classement mecquois / médinois, ont été contrôlés contre cette même source.
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ANALYSE MOT A MOT ===== -->
+  <div class="section">
+    <h2 id="t-h-morph">Analyse mot à mot <span class="niveau genere">Généré automatiquement</span></h2>
+    <p class="lead" id="t-l-morph">Le point le plus délicat, et celui qui mérite le plus d'explications.</p>
+    <div class="card">
+      <div class="titre">Quranic Arabic Corpus</div>
+      <div class="meta">Kais Dukes, université de Leeds — GNU GPL —
+        <a href="http://corpus.quran.com" target="_blank" rel="noopener">corpus.quran.com</a></div>
+      <div class="desc" id="t-d-morph">
+        L'arabe étant une langue flexionnelle, un même mot prend de nombreuses formes.
+        Pour savoir quelle entrée du glossaire s'applique à un mot du texte, nous utilisons
+        la forme de dictionnaire (le lemme) fournie par ce corpus linguistique.
+        <strong>Aucune traduction n'en est reprise</strong> : les gloses affichées sont celles
+        du glossaire de ce site.
+      </div>
+      <p class="note" id="t-note-morph">
+        Un rattachement n'est retenu que si les racines concordent ; les cas ambigus sont écartés,
+        car une glose fausse serait plus dommageable qu'une glose absente. Environ trois mots sur
+        quatre sont ainsi analysés. Une marge d'erreur subsiste sur les homographes partageant une
+        même racine : les analyses ainsi produites sont signalées comme générées automatiquement.
+      </p>
+    </div>
+  </div>
+
+  <!-- ===== CONTENU PEDAGOGIQUE ===== -->
+  <div class="section">
+    <h2 id="t-h-ped">Contenu pédagogique <span class="niveau redige">Rédigé pour ce site</span></h2>
+    <div class="card">
+      <div class="titre" id="t-t-ped">Glossaire, analyses de versets, thèmes et résumés</div>
+      <div class="desc" id="t-d-ped">
+        Le glossaire des mots les plus fréquents, les analyses de versets, les notes
+        pédagogiques et les résumés sont rédigés pour cette plateforme. Ils proposent une
+        lecture destinée à l'apprentissage et ne constituent pas un commentaire religieux
+        (tafsir).
+      </div>
+      <p class="note" id="t-note-ped">
+        Les fréquences des mots au-delà du rang 300 sont des estimations, encore à affiner.
+        Les translittérations sont produites automatiquement et n'ont pas été relues
+        systématiquement.
+      </p>
+    </div>
+  </div>
+
+  <!-- ===== POURQUOI ===== -->
+  <div class="section">
+    <h2 id="t-h-why">Pourquoi cette page</h2>
+    <div class="card">
+      <div class="desc" id="t-d-why">
+        Une partie de ces données est produite par traitement automatique. Nous préférons
+        l'indiquer clairement plutôt que de laisser croire à une exactitude uniforme. Les
+        contenus signalés comme générés sont ceux à vérifier en priorité : ils sont
+        progressivement relus, et cette page sera mise à jour à mesure de ces relectures.
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div id="footer-text">Plateforme d'apprentissage de l'arabe coranique · Contenu pédagogique et linguistique</div>
+  <div class="footer-links"><a href="sources.html" data-i18n="footer_sources_link">Voir nos sources</a></div>
+</footer>
+
+<script type="module">
+import { I18N, t, initLang, setLang as setLangCore } from './data/i18n.js';
+import { initNav, refreshLangSelect } from './data/nav.js?v=16';
+
+window.LANG = initLang();
+
+window.setLang = function (lang) { window.LANG = setLangCore(lang); renderAll(); };
+function updateLangBtns() { refreshLangSelect(); }
+
+window.toggleTheme = function () {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const next = cur === 'light' ? '' : 'light';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+};
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+
+// Les textes de cette page sont nombreux et propres à elle : on les applique
+// par identifiant plutôt que d'alourdir le dictionnaire partagé.
+function renderAll() {
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.getAttribute('data-i18n')); });
+  const cles = ['t-titre','t-sous','t-intro','t-n1','t-d1','t-n2','t-d2','t-n3','t-d3',
+                't-h-trad','t-l-trad','t-th-lang','t-th-trad','t-note-trad',
+                't-h-ar','t-m-ar','t-d-ar','t-h-morph','t-l-morph','t-d-morph','t-note-morph',
+                't-h-ped','t-t-ped','t-d-ped','t-note-ped','t-h-why','t-d-why','footer-text'];
+  cles.forEach(id => {
+    const el = document.getElementById(id);
+    const val = t('src_' + id.replace(/-/g, '_'));
+    if (el && val && !val.startsWith('src_')) el.innerHTML = val;
+  });
+  document.documentElement.setAttribute('lang', window.LANG);
+  updateLangBtns();
+}
+
+initNav({ onLangChange: (code) => window.setLang(code) });
+renderAll();
+</script>
+</body>
+</html>
