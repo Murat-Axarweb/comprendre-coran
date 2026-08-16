@@ -46,6 +46,14 @@ for (const page of pages) {
     erreurs++;
   }
 
+  // Une page qui affiche la barre de navigation doit charger nav.css,
+  // sans quoi le menu burger et le sélecteur de langue perdent leur mise
+  // en forme — la navigation devient inutilisable sur mobile.
+  if (html.includes('class="navbar"') && !html.includes('data/nav.css')) {
+    console.error(`✗ ${page} : affiche la navbar mais ne charge pas data/nav.css`);
+    erreurs++;
+  }
+
   const m = /<style>([\s\S]*?)<\/style>/.exec(html);
   if (!m) continue;
   const css = m[1];
