@@ -99,17 +99,12 @@ const S114 = {
           "profondeur": "Même verbe qu'en Al-Falaq (113). La double répétition du refuge dans deux sourates consécutives crée une double protection — comme deux portes fermées contre le mal."
         },
         {
-          "ar": "بِرَبِّ",
-          "translit": "bi-rabbi",
-          "fr": "auprès du Seigneur de",
+          "ar": "بِرَبِّ",
+          "translit": "birabbi",
+          "fr": "Seigneur",
           "racine": "ر-ب-ب",
-          "famille": [
-            "رَبّ (rabb) — seigneur, nourricier",
-            "تَرْبِيَة (tarbiya) — éducation",
-            "مُرَبِّي (murabbī) — éducateur"
-          ],
           "frequence_coran": 980,
-          "profondeur": "Premier des trois attributs divins de la sourate. Rabb évoque la relation de soin et de nourrissement — avant d'être Roi ou Dieu, Allah est Celui qui prend soin."
+          "auto": true
         },
         {
           "ar": "النَّاسِ",
@@ -267,29 +262,20 @@ const S114 = {
       },
       "mots": [
         {
-          "ar": "مِن شَرِّ",
-          "translit": "min šarr",
-          "fr": "contre le mal de",
-          "racine": "ش-ر-ر",
-          "famille": [
-            "شَرّ (šarr) — mal",
-            "أَشَرّ (ašarr) — pire",
-            "شِرِّير (širrīr) — malfaisant"
-          ],
-          "frequence_coran": 84,
-          "profondeur": "Même formule min šarr qu'en Al-Falaq. Le refuge demandé auprès du Seigneur/Roi/Dieu est maintenant dirigé contre un ennemi précis et nommé."
+          "ar": "مِن",
+          "translit": "min",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226,
+          "auto": true
         },
         {
-          "ar": "الْوَسْوَاسِ",
-          "translit": "al-waswās",
-          "fr": "le chuchoteur / le tentateur",
-          "racine": "و-س-و-س",
-          "famille": [
-            "وَسْوَسَ (waswasa) — chuchoter, souffler des doutes",
-            "وَسْوَسَة (waswasa) — chuchotement"
-          ],
-          "frequence_coran": 2,
-          "profondeur": "Mot onomatopéique : w-s-w-s imite phonétiquement le chuchotement. En prononçant ce mot, on entend presque le murmure insidieux. Le Coran utilise les sons pour illustrer le sens — c'est la balagha (éloquence coranique)."
+          "ar": "شَرِّ",
+          "translit": "sharri",
+          "fr": "mal",
+          "racine": "ش-ر-ر",
+          "frequence_coran": 8,
+          "auto": true
         },
         {
           "ar": "الْخَنَّاسِ",
@@ -429,19 +415,12 @@ const S114 = {
           "profondeur": "Min introduit une alternative ouverte : le tentateur peut appartenir à l'une ou l'autre catégorie. Ni l'une ni l'autre n'est exclue."
         },
         {
-          "ar": "الْجِنَّةِ",
-          "translit": "al-jinna",
-          "fr": "les djinns",
+          "ar": "الْجِنَّةِ",
+          "translit": "l-jinnati",
+          "fr": "paradis",
           "racine": "ج-ن-ن",
-          "famille": [
-            "جِنّ (jinn) — djinns",
-            "جَنَّة (janna) — paradis (jardin caché)",
-            "جَنِين (janīn) — fœtus (caché dans le ventre)",
-            "مَجْنُون (majnūn) — fou",
-            "جُنُون (junūn) — folie"
-          ],
-          "frequence_coran": 32,
-          "profondeur": "La racine j-n-n est l'une des plus fascinantes : elle relie tout ce qui est CACHÉ. Le paradis (janna) = jardin derrière des murs. Le fœtus (janīn) = caché dans le ventre. Le djinn = être invisible. La folie (junūn) = quelque chose de caché qui envahit l'esprit. Une seule racine, un seul concept : le voilé."
+          "frequence_coran": 147,
+          "auto": true
         },
         {
           "ar": "وَالنَّاسِ",

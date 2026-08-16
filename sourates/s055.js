@@ -159,6 +159,14 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "عَلَّمَهُ",
+          "translit": "ʿallamahu",
+          "fr": "savoir",
+          "racine": "ع-ل-م",
+          "frequence_coran": 105,
+          "auto": true
+        },
+        {
           "ar": "الْبَيَانَ",
           "translit": "l-bayāna",
           "fr": "exposé clair",
@@ -236,6 +244,14 @@ const S055 = {
           "fr": "étoile",
           "racine": "ن-ج-م",
           "frequence_coran": 14
+        },
+        {
+          "ar": "يَسْجُدَانِ",
+          "translit": "yasjudāni",
+          "fr": "se prosterner",
+          "racine": "س-ج-د",
+          "frequence_coran": 8,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -265,6 +281,14 @@ const S055 = {
           "fr": "ciel",
           "racine": "س-م-و",
           "frequence_coran": 310
+        },
+        {
+          "ar": "رَفَعَهَا",
+          "translit": "rafaʿahā",
+          "fr": "élever",
+          "racine": "ر-ف-ع",
+          "frequence_coran": 29,
+          "auto": true
         },
         {
           "ar": "وَوَضَعَ",
@@ -311,6 +335,14 @@ const S055 = {
           "frequence_coran": 662
         },
         {
+          "ar": "تَطْغَوْاْ",
+          "translit": "taṭghaw",
+          "fr": "transgresser",
+          "racine": "ط-غ-ي",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
@@ -346,6 +378,14 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَأَقِيمُواْ",
+          "translit": "waʾaqīmū",
+          "fr": "établir",
+          "racine": "ق-و-م",
+          "frequence_coran": 21,
+          "auto": true
+        },
         {
           "ar": "الْوَزْنَ",
           "translit": "l-wazna",
@@ -402,6 +442,14 @@ const S055 = {
           "fr": "et la terre",
           "racine": "و + أ-ر-ض",
           "frequence_coran": 108
+        },
+        {
+          "ar": "وَضَعَهَا",
+          "translit": "waḍaʿahā",
+          "fr": "poser",
+          "racine": "و-ض-ع",
+          "frequence_coran": 26,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -503,7 +551,24 @@ const S055 = {
           "texte": "Ey insanlar ve cinler! Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "analyse_globale": "Le refrain fa-bi-ayyi ālāʾi rabbikumā tukadhdhibān revient 31 fois, au duel : hommes et djinns interpellés ensemble. Ālāʾ (bienfaits) couvre tout ce qui précède — y compris les avertissements, car prévenir est aussi un bienfait. La répétition n'endort pas : elle ponctue, comme un refrain liturgique qui exige réponse.",
       "niveau_couche": 3
     },
@@ -611,7 +676,24 @@ const S055 = {
           "texte": "Öyleyken; Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -641,11 +723,27 @@ const S055 = {
           "frequence_coran": 980
         },
         {
+          "ar": "الْمَشْرِقَيْنِ",
+          "translit": "l-mashriqayni",
+          "fr": "orient",
+          "racine": "ش-ر-ق",
+          "frequence_coran": 17,
+          "auto": true
+        },
+        {
           "ar": "وَرَبُّ",
           "translit": "warabbu",
           "fr": "Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 980
+        },
+        {
+          "ar": "الْمَغْرِبَيْنِ",
+          "translit": "l-maghribayni",
+          "fr": "occident",
+          "racine": "غ-ر-ب",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -668,7 +766,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -689,7 +804,16 @@ const S055 = {
           "texte": "Acı ve tatlı sulu iki denizi birbirine kavuşmamak üzere salıvermiştir"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "الْبَحْرَيْنِ",
+          "translit": "l-baḥrayni",
+          "fr": "mer",
+          "racine": "ب-ح-ر",
+          "frequence_coran": 41,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -712,6 +836,14 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "بَيْنَهُمَا",
+          "translit": "baynahumā",
+          "fr": "entre",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "بَرْزَخٌ",
           "translit": "barzakhun",
           "fr": "barrière",
@@ -724,6 +856,14 @@ const S055 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يَبْغِيَانِ",
+          "translit": "yabghiyāni",
+          "fr": "transgresser",
+          "racine": "ب-غ-ي",
+          "frequence_coran": 30,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -746,7 +886,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -803,7 +960,24 @@ const S055 = {
           "texte": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -874,7 +1048,24 @@ const S055 = {
           "texte": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -948,6 +1139,14 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "وَيَبْقَىٰ",
+          "translit": "wayabqā",
+          "fr": "rester",
+          "racine": "ب-ق-ي",
+          "frequence_coran": 21,
+          "auto": true
+        },
+        {
           "ar": "وَجْهُ",
           "translit": "wajhu",
           "fr": "visage",
@@ -982,7 +1181,24 @@ const S055 = {
           "texte": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1005,6 +1221,14 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "يَسْـءَلُهُ",
+          "translit": "yasʾaluhū",
+          "fr": "demander",
+          "racine": "س-أ-ل",
+          "frequence_coran": 95,
+          "auto": true
+        },
+        {
           "ar": "مَن",
           "translit": "man",
           "fr": "de",
@@ -1017,6 +1241,14 @@ const S055 = {
           "fr": "dans",
           "racine": "particule",
           "frequence_coran": 4381
+        },
+        {
+          "ar": "السَّمَٰوَٰتِ",
+          "translit": "s-samāwāti",
+          "fr": "ciel",
+          "racine": "س-م-و",
+          "frequence_coran": 310,
+          "auto": true
         },
         {
           "ar": "وَالْأَرْضِ",
@@ -1074,7 +1306,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1102,6 +1351,14 @@ const S055 = {
           "fr": "à vous",
           "racine": "لِ + كُمْ",
           "frequence_coran": 294
+        },
+        {
+          "ar": "أَيُّهَ",
+          "translit": "ayyuha",
+          "fr": "ô vous",
+          "racine": "particule d’appel",
+          "frequence_coran": 150,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1124,7 +1381,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1182,6 +1456,14 @@ const S055 = {
           "frequence_coran": 3226
         },
         {
+          "ar": "السَّمَٰوَٰتِ",
+          "translit": "s-samāwāti",
+          "fr": "ciel",
+          "racine": "س-م-و",
+          "frequence_coran": 310,
+          "auto": true
+        },
+        {
           "ar": "وَالْأَرْضِ",
           "translit": "wal-ʾarḍi",
           "fr": "et la terre",
@@ -1223,7 +1505,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1245,6 +1544,14 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "عَلَيْكُمَا",
+          "translit": "ʿalaykumā",
+          "fr": "sur",
+          "racine": "particule",
+          "frequence_coran": 1430,
+          "auto": true
+        },
         {
           "ar": "مِّن",
           "translit": "min",
@@ -1287,7 +1594,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1322,6 +1646,14 @@ const S055 = {
           "fr": "du ciel",
           "racine": "س-م-و",
           "frequence_coran": 81
+        },
+        {
+          "ar": "فَكَانَتْ",
+          "translit": "fakānat",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1344,7 +1676,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1381,11 +1730,27 @@ const S055 = {
           "frequence_coran": 812
         },
         {
+          "ar": "يُسْـءَلُ",
+          "translit": "yusʾalu",
+          "fr": "demander",
+          "racine": "س-أ-ل",
+          "frequence_coran": 95,
+          "auto": true
+        },
+        {
           "ar": "عَن",
           "translit": "ʿan",
           "fr": "de",
           "racine": "préposition",
           "frequence_coran": 153
+        },
+        {
+          "ar": "ذَنبِهِ",
+          "translit": "dhanbihī",
+          "fr": "péché",
+          "racine": "ذ-ن-ب",
+          "frequence_coran": 39,
+          "auto": true
         },
         {
           "ar": "إِنسٌ",
@@ -1422,7 +1787,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1443,7 +1825,32 @@ const S055 = {
           "texte": "Suçlular simalarından tanınırlar da, alın saçlarından ve ayaklarından yakalanırlar"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "يُعْرَفُ",
+          "translit": "yuʿrafu",
+          "fr": "connaître",
+          "racine": "ع-ر-ف",
+          "frequence_coran": 7,
+          "auto": true
+        },
+        {
+          "ar": "فَيُؤْخَذُ",
+          "translit": "fayuʾkhadhu",
+          "fr": "il a pris",
+          "racine": "أ-خ-ذ",
+          "frequence_coran": 38,
+          "auto": true
+        },
+        {
+          "ar": "وَالْأَقْدَامِ",
+          "translit": "wal-ʾaqdāmi",
+          "fr": "avancer",
+          "racine": "ق-د-م",
+          "frequence_coran": 7,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1464,7 +1871,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1508,6 +1932,14 @@ const S055 = {
           "frequence_coran": 57
         },
         {
+          "ar": "يُكَذِّبُ",
+          "translit": "yukadhdhibu",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        },
+        {
           "ar": "بِهَا",
           "translit": "bihā",
           "fr": "par elle",
@@ -1536,6 +1968,14 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "بَيْنَهَا",
+          "translit": "baynahā",
+          "fr": "entre",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 70,
+          "auto": true
+        },
         {
           "ar": "وَبَيْنَ",
           "translit": "wabayna",
@@ -1571,7 +2011,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1613,6 +2070,14 @@ const S055 = {
           "fr": "son Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 44
+        },
+        {
+          "ar": "جَنَّتَانِ",
+          "translit": "jannatāni",
+          "fr": "paradis",
+          "racine": "ج-ن-ن",
+          "frequence_coran": 147,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1635,7 +2100,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1677,7 +2159,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1698,7 +2197,16 @@ const S055 = {
           "texte": "Bu cennetlerden akan iki kaynak vardır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "عَيْنَانِ",
+          "translit": "ʿaynāni",
+          "fr": "œil",
+          "racine": "ع-ي-ن",
+          "frequence_coran": 23,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1719,7 +2227,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1754,6 +2279,14 @@ const S055 = {
           "fr": "de tout",
           "racine": "ك-ل-ل",
           "frequence_coran": 123
+        },
+        {
+          "ar": "زَوْجَانِ",
+          "translit": "zawjāni",
+          "fr": "épouse",
+          "racine": "ز-و-ج",
+          "frequence_coran": 81,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1776,7 +2309,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1811,6 +2361,14 @@ const S055 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "الْجَنَّتَيْنِ",
+          "translit": "l-jannatayni",
+          "fr": "paradis",
+          "racine": "ج-ن-ن",
+          "frequence_coran": 147,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1833,7 +2391,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1870,6 +2445,14 @@ const S055 = {
           "frequence_coran": 18
         },
         {
+          "ar": "قَبْلَهُمْ",
+          "translit": "qablahum",
+          "fr": "avant",
+          "racine": "ق-ب-ل",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et ne... pas",
@@ -1897,7 +2480,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1918,7 +2518,16 @@ const S055 = {
           "texte": "Onlar yakut ve mercan gibidirler"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "كَأَنَّهُنَّ",
+          "translit": "kaʾannahunna",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1939,7 +2548,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2018,7 +2644,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2046,6 +2689,22 @@ const S055 = {
           "fr": "et celui qui",
           "racine": "و + مَنْ",
           "frequence_coran": 234
+        },
+        {
+          "ar": "دُونِهِمَا",
+          "translit": "dūnihimā",
+          "fr": "en dehors de",
+          "racine": "د-و-ن",
+          "frequence_coran": 83,
+          "auto": true
+        },
+        {
+          "ar": "جَنَّتَانِ",
+          "translit": "jannatāni",
+          "fr": "paradis",
+          "racine": "ج-ن-ن",
+          "frequence_coran": 147,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2068,7 +2727,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2110,7 +2786,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2131,7 +2824,16 @@ const S055 = {
           "texte": "İkisinde de durmadan fışkıran iki kaynak vardır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "عَيْنَانِ",
+          "translit": "ʿaynāni",
+          "fr": "œil",
+          "racine": "ع-ي-ن",
+          "frequence_coran": 23,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2152,7 +2854,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2202,7 +2921,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2244,7 +2980,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2301,7 +3054,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2338,6 +3108,14 @@ const S055 = {
           "frequence_coran": 18
         },
         {
+          "ar": "قَبْلَهُمْ",
+          "translit": "qablahum",
+          "fr": "avant",
+          "racine": "ق-ب-ل",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et ne... pas",
@@ -2365,7 +3143,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2415,7 +3210,24 @@ const S055 = {
           "texte": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "رَبِّكُمَا",
+          "translit": "rabbikumā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "تُكَذِّبَانِ",
+          "translit": "tukadhdhibāni",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2437,6 +3249,14 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "تَبَٰرَكَ",
+          "translit": "tabāraka",
+          "fr": "être béni",
+          "racine": "ب-ر-ك",
+          "frequence_coran": 4,
+          "auto": true
+        },
         {
           "ar": "اسْمُ",
           "translit": "smu",

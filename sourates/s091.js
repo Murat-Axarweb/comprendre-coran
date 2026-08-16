@@ -56,6 +56,14 @@ const S091 = {
           "fr": "soleil",
           "racine": "ش-م-س",
           "frequence_coran": 33
+        },
+        {
+          "ar": "وَضُحَىٰهَا",
+          "translit": "waḍuḥāhā",
+          "fr": "matinée claire",
+          "racine": "ض-ح-و",
+          "frequence_coran": 5,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -193,6 +201,14 @@ const S091 = {
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "بَنَىٰهَا",
+          "translit": "banāhā",
+          "fr": "construire",
+          "racine": "ب-ن-ي",
+          "frequence_coran": 7,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -288,7 +304,16 @@ const S091 = {
           "texte": "Sonra da ona iyilik ve kötülük kabiliyeti verene and olsun ki"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَتَقْوَىٰهَا",
+          "translit": "wataqwāhā",
+          "fr": "piété",
+          "racine": "و-ق-ي",
+          "frequence_coran": 158,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -383,6 +408,14 @@ const S091 = {
         }
       },
       "mots": [
+        {
+          "ar": "كَذَّبَتْ",
+          "translit": "kadhdhabat",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        },
         {
           "ar": "ثَمُودُ",
           "translit": "thamūdu",
@@ -496,6 +529,14 @@ const S091 = {
           "fr": "Allah",
           "racine": "أ-ل-ه",
           "frequence_coran": 2699
+        },
+        {
+          "ar": "وَسُقْيَٰهَا",
+          "translit": "wasuqyāhā",
+          "fr": "abreuver",
+          "racine": "س-ق-ي",
+          "frequence_coran": 7,
+          "auto": true
         }
       ],
       "analyse_globale": "Nāqat Allāh : la chamelle-signe de Thamud. Un seul homme l'a tuée, mais le châtiment fut collectif — 'ils la sacrifièrent' au pluriel : la communauté qui laisse faire endosse le crime. La responsabilité coranique connaît la complicité passive.",
@@ -521,6 +562,14 @@ const S091 = {
       },
       "mots": [
         {
+          "ar": "فَكَذَّبُوهُ",
+          "translit": "fakadhdhabūhu",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْهِمْ",
           "translit": "ʿalayhim",
           "fr": "sur eux",
@@ -533,6 +582,14 @@ const S091 = {
           "fr": "leur Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 80
+        },
+        {
+          "ar": "بِذَنبِهِمْ",
+          "translit": "bidhanbihim",
+          "fr": "péché",
+          "racine": "ذ-ن-ب",
+          "frequence_coran": 39,
+          "auto": true
         }
       ],
       "niveau_couche": 2

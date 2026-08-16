@@ -203,6 +203,22 @@ const S086 = {
       },
       "mots": [
         {
+          "ar": "فَلْيَنظُرِ",
+          "translit": "falyanẓuri",
+          "fr": "regarder",
+          "racine": "ن-ظ-ر",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "مِمَّ",
+          "translit": "mimma",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226,
+          "auto": true
+        },
+        {
           "ar": "خُلِقَ",
           "translit": "khuliqa",
           "fr": "il a créé",
@@ -330,6 +346,14 @@ const S086 = {
           "fr": "sur",
           "racine": "particule",
           "frequence_coran": 1430
+        },
+        {
+          "ar": "رَجْعِهِ",
+          "translit": "rajʿihī",
+          "fr": "revenir",
+          "racine": "ر-ج-ع",
+          "frequence_coran": 79,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -611,6 +635,22 @@ const S086 = {
           "fr": "certes ils",
           "racine": "إِنَّ + هُمْ",
           "frequence_coran": 62
+        },
+        {
+          "ar": "يَكِيدُونَ",
+          "translit": "yakīdūna",
+          "fr": "ruse",
+          "racine": "ك-ي-د",
+          "frequence_coran": 35,
+          "auto": true
+        },
+        {
+          "ar": "كَيْدًا",
+          "translit": "kaydan",
+          "fr": "ruse",
+          "racine": "ك-ي-د",
+          "frequence_coran": 35,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -633,7 +673,24 @@ const S086 = {
           "texte": "Ben de bir düzen kurmaktayım"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَأَكِيدُ",
+          "translit": "waʾakīdu",
+          "fr": "ruse",
+          "racine": "ك-ي-د",
+          "frequence_coran": 35,
+          "auto": true
+        },
+        {
+          "ar": "كَيْدًا",
+          "translit": "kaydan",
+          "fr": "ruse",
+          "racine": "ك-ي-د",
+          "frequence_coran": 35,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {

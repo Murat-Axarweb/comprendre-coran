@@ -157,6 +157,14 @@ const S080 = {
           "fr": "ou",
           "racine": "particule de choix",
           "frequence_coran": 264
+        },
+        {
+          "ar": "فَتَنفَعَهُ",
+          "translit": "fatanfaʿahu",
+          "fr": "être utile",
+          "racine": "ن-ف-ع",
+          "frequence_coran": 8,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -322,6 +330,14 @@ const S080 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "يَسْعَىٰ",
+          "translit": "yasʿā",
+          "fr": "s'efforcer",
+          "racine": "س-ع-ي",
+          "frequence_coran": 30,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -358,6 +374,14 @@ const S080 = {
           "fr": "et Il",
           "racine": "و + pronom",
           "frequence_coran": 171
+        },
+        {
+          "ar": "يَخْشَىٰ",
+          "translit": "yakhshā",
+          "fr": "redouter (avec révérence)",
+          "racine": "خ-ش-ي",
+          "frequence_coran": 48,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -394,6 +418,14 @@ const S080 = {
           "fr": "toi",
           "racine": "pronom personnel",
           "frequence_coran": 55
+        },
+        {
+          "ar": "عَنْهُ",
+          "translit": "ʿanhu",
+          "fr": "de",
+          "racine": "préposition",
+          "frequence_coran": 153,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -430,6 +462,14 @@ const S080 = {
           "fr": "que non !",
           "racine": "—",
           "frequence_coran": 8
+        },
+        {
+          "ar": "إِنَّهَا",
+          "translit": "innahā",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609,
+          "auto": true
         },
         {
           "ar": "تَذْكِرَةٌ",
@@ -473,6 +513,14 @@ const S080 = {
           "fr": "Il a voulu",
           "racine": "ش-ي-ء",
           "frequence_coran": 56
+        },
+        {
+          "ar": "ذَكَرَهُ",
+          "translit": "dhakarahū",
+          "fr": "souvenir",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 256,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -566,7 +614,16 @@ const S080 = {
           "texte": "İyi kimseler, saygıdeğer elçilerin eliyle yazılmıştır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "بِأَيْدِي",
+          "translit": "biʾaydī",
+          "fr": "main",
+          "racine": "ي-د-ي",
+          "frequence_coran": 120,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -594,7 +651,24 @@ const S080 = {
           "texte": "İyi kimseler, saygıdeğer elçilerin eliyle yazılmıştır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "كِرَامٍ",
+          "translit": "kirāmi",
+          "fr": "noble",
+          "racine": "ك-ر-م",
+          "frequence_coran": 27,
+          "auto": true
+        },
+        {
+          "ar": "بَرَرَةٍ",
+          "translit": "bararatin",
+          "fr": "piété",
+          "racine": "ب-ر-ر",
+          "frequence_coran": 5,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -672,6 +746,14 @@ const S080 = {
           "fr": "une chose",
           "racine": "ش-ي-ء",
           "frequence_coran": 179
+        },
+        {
+          "ar": "خَلَقَهُ",
+          "translit": "khalaqahū",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -708,6 +790,14 @@ const S080 = {
           "fr": "goutte (de sperme)",
           "racine": "ن-ط-ف",
           "frequence_coran": 12
+        },
+        {
+          "ar": "خَلَقَهُ",
+          "translit": "khalaqahū",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -744,6 +834,14 @@ const S080 = {
           "fr": "chemin",
           "racine": "س-ب-ل",
           "frequence_coran": 176
+        },
+        {
+          "ar": "يَسَّرَهُ",
+          "translit": "yassarahū",
+          "fr": "facilité",
+          "racine": "ي-س-ر",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -854,11 +952,27 @@ const S080 = {
           "frequence_coran": 1010
         },
         {
+          "ar": "يَقْضِ",
+          "translit": "yaqḍi",
+          "fr": "décréter",
+          "racine": "ق-ض-ي",
+          "frequence_coran": 63,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
           "racine": "particule",
           "frequence_coran": 1010
+        },
+        {
+          "ar": "أَمَرَهُ",
+          "translit": "amarahū",
+          "fr": "ordre",
+          "racine": "أ-م-ر",
+          "frequence_coran": 166,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -883,11 +997,27 @@ const S080 = {
       },
       "mots": [
         {
+          "ar": "فَلْيَنظُرِ",
+          "translit": "falyanẓuri",
+          "fr": "regarder",
+          "racine": "ن-ظ-ر",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "إِلَىٰ",
           "translit": "ilā",
           "fr": "vers",
           "racine": "particule",
           "frequence_coran": 742
+        },
+        {
+          "ar": "طَعَامِهِ",
+          "translit": "ṭaʿāmihī",
+          "fr": "nourriture",
+          "racine": "ط-ع-م",
+          "frequence_coran": 24,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -960,6 +1090,14 @@ const S080 = {
           "fr": "la terre",
           "racine": "أ-ر-ض",
           "frequence_coran": 219
+        },
+        {
+          "ar": "شَقًّا",
+          "translit": "shaqqan",
+          "fr": "fendre",
+          "racine": "ش-ق-ق",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -996,6 +1134,14 @@ const S080 = {
           "fr": "en elle",
           "racine": "فِي + هَا",
           "frequence_coran": 241
+        },
+        {
+          "ar": "حَبًّا",
+          "translit": "ḥabban",
+          "fr": "grain",
+          "racine": "ح-ب-ب",
+          "frequence_coran": 7,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1025,7 +1171,16 @@ const S080 = {
           "texte": "Sonra yeryüzünü iyice yarmakta ve orada taneli ekinler, üzümler, sebzeler, zeytin, hurma ağaçları ve bahçelerde koca koca ağaçlı meyveler ve çayırlar bitirmekteyiz"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَعِنَبًا",
+          "translit": "waʿinaban",
+          "fr": "raisin",
+          "racine": "ع-ن-ب",
+          "frequence_coran": 7,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1053,7 +1208,24 @@ const S080 = {
           "texte": "Sonra yeryüzünü iyice yarmakta ve orada taneli ekinler, üzümler, sebzeler, zeytin, hurma ağaçları ve bahçelerde koca koca ağaçlı meyveler ve çayırlar bitirmekteyiz"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَزَيْتُونًا",
+          "translit": "wazaytūnan",
+          "fr": "olivier",
+          "racine": "ز-ي-ت",
+          "frequence_coran": 7,
+          "auto": true
+        },
+        {
+          "ar": "وَنَخْلًا",
+          "translit": "wanakhlan",
+          "fr": "palmiers",
+          "racine": "ن-خ-ل",
+          "frequence_coran": 20,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1081,7 +1253,16 @@ const S080 = {
           "texte": "Sonra yeryüzünü iyice yarmakta ve orada taneli ekinler, üzümler, sebzeler, zeytin, hurma ağaçları ve bahçelerde koca koca ağaçlı meyveler ve çayırlar bitirmekteyiz"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "غُلْبًا",
+          "translit": "ghulban",
+          "fr": "vaincre",
+          "racine": "غ-ل-ب",
+          "frequence_coran": 15,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1144,6 +1325,14 @@ const S080 = {
           "fr": "à vous",
           "racine": "لِ + كُمْ",
           "frequence_coran": 294
+        },
+        {
+          "ar": "وَلِأَنْعَٰمِكُمْ",
+          "translit": "waliʾanʿāmikum",
+          "fr": "oui",
+          "racine": "—",
+          "frequence_coran": 2,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1209,6 +1398,14 @@ const S080 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "أَخِيهِ",
+          "translit": "akhīhi",
+          "fr": "frère",
+          "racine": "أ-خ-و",
+          "frequence_coran": 96,
+          "auto": true
         }
       ],
       "analyse_globale": "La fuite devant le frère, la mère, le père, l'épouse, les fils : l'ordre remonte les liens du plus lointain au plus intime. Le Jour du Jugement défait une à une les solidarités qui structuraient l'ici-bas — chacun devient un dossier individuel.",
@@ -1239,7 +1436,24 @@ const S080 = {
           "texte": "O gün, kişi kardeşinden, annesinden, babasından, karısından ve oğullarından, kaçar"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَأُمِّهِ",
+          "translit": "waʾummihī",
+          "fr": "ou bien",
+          "racine": "particule d’alternative",
+          "frequence_coran": 110,
+          "auto": true
+        },
+        {
+          "ar": "وَأَبِيهِ",
+          "translit": "waʾabīhi",
+          "fr": "père",
+          "racine": "أ-ب-و",
+          "frequence_coran": 117,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1340,6 +1554,14 @@ const S080 = {
       },
       "mots": [
         {
+          "ar": "وُجُوهٌ",
+          "translit": "wujūhun",
+          "fr": "visage",
+          "racine": "و-ج-ه",
+          "frequence_coran": 72,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",
           "fr": "ce jour-là",
@@ -1404,6 +1626,14 @@ const S080 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَوُجُوهٌ",
+          "translit": "wawujūhun",
+          "fr": "visage",
+          "racine": "و-ج-ه",
+          "frequence_coran": 72,
+          "auto": true
+        },
         {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",

@@ -98,18 +98,12 @@ const S113 = {
           "profondeur": "Aʿūḏu est à la première personne du singulier présent — 'je cherche refuge maintenant, activement'. Ce n'est pas une déclaration passive mais un acte volontaire de se tourner vers Allah. La racine ʿ-w-ḏ évoque le fait de se coller, s'abriter sous quelque chose de solide."
         },
         {
-          "ar": "بِرَبِّ",
-          "translit": "bi-rabbi",
-          "fr": "auprès du Seigneur de",
+          "ar": "بِرَبِّ",
+          "translit": "birabbi",
+          "fr": "Seigneur",
           "racine": "ر-ب-ب",
-          "famille": [
-            "رَبّ (rabb) — seigneur, maître, nourricier",
-            "رَبَّى (rabbā) — il a éduqué, nourri",
-            "تَرْبِيَة (tarbiya) — éducation",
-            "مُرَبِّي (murabbī) — éducateur"
-          ],
           "frequence_coran": 980,
-          "profondeur": "Rabb (980 occurrences) est bien plus riche que 'Seigneur'. Il combine : celui qui possède, qui nourrit, qui éduque, qui fait grandir. Chercher refuge auprès du Rabb, c'est se tourner vers Celui qui a créé ce dont on a peur ET qui prend soin de nous."
+          "auto": true
         },
         {
           "ar": "الْفَلَقِ",
@@ -165,18 +159,12 @@ const S113 = {
           "profondeur": "Min est la 3e particule la plus fréquente du Coran (3226 fois). Ici elle a un sens protecteur : 'refuge contre'. La même particule exprime l'origine ('de') et la protection ('contre') — nuance essentielle selon le contexte."
         },
         {
-          "ar": "شَرِّ",
-          "translit": "šarr",
-          "fr": "le mal de",
+          "ar": "شَرِّ",
+          "translit": "sharri",
+          "fr": "mal",
           "racine": "ش-ر-ر",
-          "famille": [
-            "شَرّ (šarr) — mal, mauvais",
-            "أَشَرّ (ašarr) — pire",
-            "شِرِّير (širrīr) — méchant, malfaisant",
-            "شَرَارَة (šarāra) — étincelle (de mal)"
-          ],
-          "frequence_coran": 84,
-          "profondeur": "Šarr est le mal dans sa généralité — pas un mal précis mais le principe même du mal. Les versets suivants vont spécifier : mal de la nuit, des souffleuses, de l'envieux. On part du général vers le particulier."
+          "frequence_coran": 8,
+          "auto": true
         },
         {
           "ar": "مَا",
@@ -244,16 +232,12 @@ const S113 = {
           "profondeur": "La conjonction wa relie les trois dangers spécifiques (vv. 3, 4, 5) — même structure répétée trois fois, rythme incantoire voulu."
         },
         {
-          "ar": "شَرِّ",
-          "translit": "šarr",
-          "fr": "le mal de",
+          "ar": "شَرِّ",
+          "translit": "sharri",
+          "fr": "mal",
           "racine": "ش-ر-ر",
-          "famille": [
-            "شَرّ (šarr) — mal",
-            "أَشَرّ (ašarr) — pire"
-          ],
-          "frequence_coran": 84,
-          "profondeur": "Répétition de šarr — le mal revient comme un refrain. Cette répétition est pédagogique et rythmique : elle martèle la nature de ce contre quoi on cherche protection."
+          "frequence_coran": 8,
+          "auto": true
         },
         {
           "ar": "غَاسِقٍ",
@@ -322,17 +306,20 @@ const S113 = {
       },
       "mots": [
         {
-          "ar": "النَّفَّاثَاتِ",
-          "translit": "an-naffāṯāt",
-          "fr": "celles qui soufflent (avec intensité)",
-          "racine": "ن-ف-ث",
-          "famille": [
-            "نَفَثَ (nafaṯa) — souffler, expectorer",
-            "نَفْث (nafṯ) — souffle, expiration",
-            "نَفَّاثَة (naffāṯa) — celle qui souffle beaucoup (forme intensive)"
-          ],
-          "frequence_coran": 1,
-          "profondeur": "Naffāṯāt est une forme intensive (fréquence d'action élevée) au féminin pluriel. Le féminin peut désigner des femmes pratiquant la sorcellerie, mais aussi des âmes ou forces maléfiques. Le souffle sur les nœuds est une pratique magique de l'Arabie ancienne — le Coran la nomme pour mieux en protéger."
+          "ar": "وَمِن",
+          "translit": "wamin",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226,
+          "auto": true
+        },
+        {
+          "ar": "شَرِّ",
+          "translit": "sharri",
+          "fr": "mal",
+          "racine": "ش-ر-ر",
+          "frequence_coran": 8,
+          "auto": true
         },
         {
           "ar": "فِي",
@@ -388,6 +375,22 @@ const S113 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَمِن",
+          "translit": "wamin",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226,
+          "auto": true
+        },
+        {
+          "ar": "شَرِّ",
+          "translit": "sharri",
+          "fr": "mal",
+          "racine": "ش-ر-ر",
+          "frequence_coran": 8,
+          "auto": true
+        },
         {
           "ar": "حَاسِدٍ",
           "translit": "ḥāsid",

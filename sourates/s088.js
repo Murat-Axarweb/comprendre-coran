@@ -58,6 +58,14 @@ const S088 = {
           "frequence_coran": 66
         },
         {
+          "ar": "أَتَىٰكَ",
+          "translit": "atāka",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
           "ar": "حَدِيثُ",
           "translit": "ḥadīthu",
           "fr": "propos",
@@ -86,6 +94,14 @@ const S088 = {
         }
       },
       "mots": [
+        {
+          "ar": "وُجُوهٌ",
+          "translit": "wujūhun",
+          "fr": "visage",
+          "racine": "و-ج-ه",
+          "frequence_coran": 72,
+          "auto": true
+        },
         {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",
@@ -135,7 +151,16 @@ const S088 = {
           "texte": "Yakıcı ateşe yaslanırlar"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "نَارًا",
+          "translit": "nāran",
+          "fr": "feu",
+          "racine": "ن-و-ر",
+          "frequence_coran": 145,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -157,6 +182,14 @@ const S088 = {
         }
       },
       "mots": [
+        {
+          "ar": "تُسْقَىٰ",
+          "translit": "tusqā",
+          "fr": "abreuver",
+          "racine": "س-ق-ي",
+          "frequence_coran": 7,
+          "auto": true
+        },
         {
           "ar": "مِنْ",
           "translit": "min",
@@ -315,6 +348,14 @@ const S088 = {
       },
       "mots": [
         {
+          "ar": "وُجُوهٌ",
+          "translit": "wujūhun",
+          "fr": "visage",
+          "racine": "و-ج-ه",
+          "frequence_coran": 72,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",
           "fr": "ce jour-là",
@@ -342,7 +383,16 @@ const S088 = {
           "texte": "Yaptıklarından hoşnuddurlar"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "لِّسَعْيِهَا",
+          "translit": "lisaʿyihā",
+          "fr": "s'efforcer",
+          "racine": "س-ع-ي",
+          "frequence_coran": 30,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -406,6 +456,14 @@ const S088 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "تَسْمَعُ",
+          "translit": "tasmaʿu",
+          "fr": "entendre",
+          "racine": "س-م-ع",
+          "frequence_coran": 47,
+          "auto": true
         },
         {
           "ar": "فِيهَا",
@@ -579,6 +637,14 @@ const S088 = {
           "frequence_coran": 45
         },
         {
+          "ar": "يَنظُرُونَ",
+          "translit": "yanẓurūna",
+          "fr": "regarder",
+          "racine": "ن-ظ-ر",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "إِلَى",
           "translit": "ilā",
           "fr": "vers",
@@ -591,6 +657,14 @@ const S088 = {
           "fr": "comment ?",
           "racine": "particule interrogative",
           "frequence_coran": 62
+        },
+        {
+          "ar": "خُلِقَتْ",
+          "translit": "khuliqat",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
         }
       ],
       "analyse_globale": "A-fa-lā yanẓurūna ilā l-ibil : pourquoi le chameau en tête de liste, avant le ciel ? Pour l'Arabe du désert, le chameau est le miracle quotidien : il porte, nourrit, abreuve, endure — un vaisseau biologique parfaitement adapté. Le Coran commence l'école du regard par ce qu'on a sous les yeux.",
@@ -642,6 +716,14 @@ const S088 = {
           "fr": "comment ?",
           "racine": "particule interrogative",
           "frequence_coran": 62
+        },
+        {
+          "ar": "رُفِعَتْ",
+          "translit": "rufiʿat",
+          "fr": "élever",
+          "racine": "ر-ف-ع",
+          "frequence_coran": 29,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -678,6 +760,14 @@ const S088 = {
           "fr": "vers",
           "racine": "particule",
           "frequence_coran": 742
+        },
+        {
+          "ar": "الْجِبَالِ",
+          "translit": "l-jibāli",
+          "fr": "montagne",
+          "racine": "ج-ب-ل",
+          "frequence_coran": 39,
+          "auto": true
         },
         {
           "ar": "كَيْفَ",
@@ -810,6 +900,14 @@ const S088 = {
       },
       "mots": [
         {
+          "ar": "لَّسْتَ",
+          "translit": "lasta",
+          "fr": "n’est pas",
+          "racine": "verbe de négation",
+          "frequence_coran": 47,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْهِم",
           "translit": "ʿalayhim",
           "fr": "sur eux",
@@ -937,6 +1035,14 @@ const S088 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "إِلَيْنَا",
+          "translit": "ilaynā",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -980,6 +1086,14 @@ const S088 = {
           "fr": "sur nous",
           "racine": "عَلَى + نَا",
           "frequence_coran": 51
+        },
+        {
+          "ar": "حِسَابَهُم",
+          "translit": "ḥisābahum",
+          "fr": "compte",
+          "racine": "ح-س-ب",
+          "frequence_coran": 109,
+          "auto": true
         }
       ],
       "niveau_couche": 2

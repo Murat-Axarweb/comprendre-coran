@@ -136,7 +136,40 @@ const S075 = {
           "texte": "İnsan, kemiklerini bir araya toplayamayız mı sanıyor"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "أَيَحْسَبُ",
+          "translit": "ayaḥsabu",
+          "fr": "croire",
+          "racine": "ح-س-ب",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
+          "ar": "أَلَّن",
+          "translit": "allan",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609,
+          "auto": true
+        },
+        {
+          "ar": "نَّجْمَعَ",
+          "translit": "najmaʿa",
+          "fr": "rassembler",
+          "racine": "ج-م-ع",
+          "frequence_coran": 4,
+          "auto": true
+        },
+        {
+          "ar": "عِظَامَهُ",
+          "translit": "ʿiẓāmahū",
+          "fr": "immense",
+          "racine": "ع-ظ-م",
+          "frequence_coran": 107,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -245,6 +278,14 @@ const S075 = {
         }
       },
       "mots": [
+        {
+          "ar": "يَسْـءَلُ",
+          "translit": "yasʾalu",
+          "fr": "demander",
+          "racine": "س-أ-ل",
+          "frequence_coran": 95,
+          "auto": true
+        },
         {
           "ar": "يَوْمُ",
           "translit": "yawmu",
@@ -425,6 +466,14 @@ const S075 = {
       },
       "mots": [
         {
+          "ar": "يَقُولُ",
+          "translit": "yaqūlu",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",
           "fr": "ce jour-là",
@@ -547,6 +596,14 @@ const S075 = {
       },
       "mots": [
         {
+          "ar": "يُنَبَّؤُاْ",
+          "translit": "yunabbaʾu",
+          "fr": "nouvelle",
+          "racine": "ن-ب-أ",
+          "frequence_coran": 29,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhi",
           "fr": "ce jour-là",
@@ -609,6 +666,14 @@ const S075 = {
           "fr": "sur",
           "racine": "particule",
           "frequence_coran": 1430
+        },
+        {
+          "ar": "نَفْسِهِ",
+          "translit": "nafsihī",
+          "fr": "âme",
+          "racine": "ن-ف-س",
+          "frequence_coran": 298,
+          "auto": true
         },
         {
           "ar": "بَصِيرَةٌ",
@@ -704,6 +769,22 @@ const S075 = {
           "frequence_coran": 327
         },
         {
+          "ar": "لِسَانَكَ",
+          "translit": "lisānaka",
+          "fr": "langue",
+          "racine": "ل-س-ن",
+          "frequence_coran": 25,
+          "auto": true
+        },
+        {
+          "ar": "لِتَعْجَلَ",
+          "translit": "litaʿjala",
+          "fr": "veau (d'or)",
+          "racine": "ع-ج-ل",
+          "frequence_coran": 13,
+          "auto": true
+        },
+        {
           "ar": "بِهِ",
           "translit": "bihī",
           "fr": "par lui",
@@ -746,6 +827,14 @@ const S075 = {
           "fr": "sur nous",
           "racine": "عَلَى + نَا",
           "frequence_coran": 51
+        },
+        {
+          "ar": "جَمْعَهُ",
+          "translit": "jamʿahū",
+          "fr": "rassembler",
+          "racine": "ج-م-ع",
+          "frequence_coran": 4,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -775,6 +864,14 @@ const S075 = {
           "fr": "alors quand",
           "racine": "ف + إِذَا",
           "frequence_coran": 86
+        },
+        {
+          "ar": "قَرَأْنَٰهُ",
+          "translit": "qaraʾnāhu",
+          "fr": "lire",
+          "racine": "ق-ر-أ",
+          "frequence_coran": 18,
+          "auto": true
         },
         {
           "ar": "فَاتَّبِعْ",
@@ -825,6 +922,14 @@ const S075 = {
           "fr": "sur nous",
           "racine": "عَلَى + نَا",
           "frequence_coran": 51
+        },
+        {
+          "ar": "بَيَانَهُ",
+          "translit": "bayānahū",
+          "fr": "exposé clair",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 4,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -914,6 +1019,14 @@ const S075 = {
       },
       "mots": [
         {
+          "ar": "وُجُوهٌ",
+          "translit": "wujūhun",
+          "fr": "visage",
+          "racine": "و-ج-ه",
+          "frequence_coran": 72,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",
           "fr": "ce jour-là",
@@ -955,6 +1068,14 @@ const S075 = {
           "fr": "vers",
           "racine": "particule",
           "frequence_coran": 742
+        },
+        {
+          "ar": "رَبِّهَا",
+          "translit": "rabbihā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -986,6 +1107,14 @@ const S075 = {
       },
       "mots": [
         {
+          "ar": "وَوُجُوهٌ",
+          "translit": "wawujūhun",
+          "fr": "visage",
+          "racine": "و-ج-ه",
+          "frequence_coran": 72,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhi",
           "fr": "ce jour-là",
@@ -1015,11 +1144,27 @@ const S075 = {
       },
       "mots": [
         {
+          "ar": "تَظُنُّ",
+          "translit": "taẓunnu",
+          "fr": "penser",
+          "racine": "ظ-ن-ن",
+          "frequence_coran": 69,
+          "auto": true
+        },
+        {
           "ar": "أَن",
           "translit": "an",
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "يُفْعَلَ",
+          "translit": "yufʿala",
+          "fr": "faire",
+          "racine": "ف-ع-ل",
+          "frequence_coran": 108,
+          "auto": true
         },
         {
           "ar": "بِهَا",
@@ -1063,6 +1208,14 @@ const S075 = {
           "fr": "quand",
           "racine": "particule temporelle",
           "frequence_coran": 195
+        },
+        {
+          "ar": "بَلَغَتِ",
+          "translit": "balaghati",
+          "fr": "atteindre",
+          "racine": "ب-ل-غ",
+          "frequence_coran": 49,
+          "auto": true
         }
       ],
       "analyse_globale": "L'agonie filmée de l'intérieur : la remontée de l'âme jusqu'aux clavicules (tarāqī), l'entourage cherchant un guérisseur, la conscience du départ, les jambes qui se raidissent. Quatre plans serrés, sans un mot de trop — puis le travelling final : « vers ton Seigneur, ce jour-là, on est conduit ».",
@@ -1094,6 +1247,14 @@ const S075 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَقِيلَ",
+          "translit": "waqīla",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722,
+          "auto": true
+        },
         {
           "ar": "مَنْ",
           "translit": "man",
@@ -1432,6 +1593,14 @@ const S075 = {
       },
       "mots": [
         {
+          "ar": "أَيَحْسَبُ",
+          "translit": "ayaḥsabu",
+          "fr": "croire",
+          "racine": "ح-س-ب",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
           "ar": "أَن",
           "translit": "an",
           "fr": "certes",
@@ -1466,6 +1635,14 @@ const S075 = {
           "fr": "n’a-t-il pas ?",
           "racine": "أ + لَمْ",
           "frequence_coran": 78
+        },
+        {
+          "ar": "يَكُ",
+          "translit": "yaku",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360,
+          "auto": true
         },
         {
           "ar": "نُطْفَةً",
@@ -1561,6 +1738,14 @@ const S075 = {
           "frequence_coran": 88
         },
         {
+          "ar": "الزَّوْجَيْنِ",
+          "translit": "z-zawjayni",
+          "fr": "épouse",
+          "racine": "ز-و-ج",
+          "frequence_coran": 81,
+          "auto": true
+        },
+        {
           "ar": "الذَّكَرَ",
           "translit": "dh-dhakara",
           "fr": "souvenir",
@@ -1590,6 +1775,14 @@ const S075 = {
       },
       "mots": [
         {
+          "ar": "أَلَيْسَ",
+          "translit": "alaysa",
+          "fr": "n’est pas",
+          "racine": "verbe de négation",
+          "frequence_coran": 47,
+          "auto": true
+        },
+        {
           "ar": "ذَٰلِكَ",
           "translit": "dhālika",
           "fr": "cela",
@@ -1609,6 +1802,14 @@ const S075 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "يُحْـِيَ",
+          "translit": "yuḥiya",
+          "fr": "faire vivre",
+          "racine": "ح-ي-ي",
+          "frequence_coran": 51,
+          "auto": true
         }
       ],
       "niveau_couche": 3

@@ -91,7 +91,16 @@ const S100 = {
           "texte": "Sabah sabah akına çıkanlara"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "صُبْحًا",
+          "translit": "ṣubḥan",
+          "fr": "matin",
+          "racine": "ص-ب-ح",
+          "frequence_coran": 5,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -143,11 +152,27 @@ const S100 = {
       },
       "mots": [
         {
+          "ar": "فَوَسَطْنَ",
+          "translit": "fawasaṭna",
+          "fr": "milieu",
+          "racine": "و-س-ط",
+          "frequence_coran": 4,
+          "auto": true
+        },
+        {
           "ar": "بِهِ",
           "translit": "bihī",
           "fr": "par lui",
           "racine": "بِ + هُ",
           "frequence_coran": 327
+        },
+        {
+          "ar": "جَمْعًا",
+          "translit": "jamʿan",
+          "fr": "rassembler",
+          "racine": "ج-م-ع",
+          "frequence_coran": 4,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -393,6 +418,14 @@ const S100 = {
           "fr": "dans",
           "racine": "particule",
           "frequence_coran": 4381
+        },
+        {
+          "ar": "الصُّدُورِ",
+          "translit": "ṣ-ṣudūri",
+          "fr": "poitrine",
+          "racine": "ص-د-ر",
+          "frequence_coran": 40,
+          "auto": true
         }
       ],
       "niveau_couche": 2,

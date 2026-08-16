@@ -96,17 +96,12 @@ const S112 = {
           "profondeur": "Huwa précède le nom Allah — grammaticalement c'est un pronom de séparation qui crée une emphase. 'C'est LUI, Allah'. Pas 'Allah est unique' mais 'LUI — Allah — est unique'. La distinction est subtile mais intense en arabe."
         },
         {
-          "ar": "اللَّهُ",
-          "translit": "allāh",
+          "ar": "اللَّهُ",
+          "translit": "llāhu",
           "fr": "Allah",
           "racine": "أ-ل-ه",
-          "famille": [
-            "إِلَه (ilāh) — divinité, dieu",
-            "تَأَلُّه (taʾalluh) — dévotion totale",
-            "أَلَّهَ (allaha) — adorer"
-          ],
           "frequence_coran": 2699,
-          "profondeur": "Allah est le mot le plus fréquent du Coran (2699 fois). La racine a-l-h évoque la dévotion, l'aspiration totale du cœur. Contrairement à 'Dieu' en français, Allah n'a pas de féminin ni de pluriel — il désigne l'Être unique par essence, pas une catégorie de divinités."
+          "auto": true
         },
         {
           "ar": "أَحَدٌ",
@@ -146,16 +141,12 @@ const S112 = {
       },
       "mots": [
         {
-          "ar": "اللَّهُ",
-          "translit": "allāh",
+          "ar": "اللَّهُ",
+          "translit": "allāhu",
           "fr": "Allah",
           "racine": "أ-ل-ه",
-          "famille": [
-            "إِلَه (ilāh) — divinité",
-            "تَأَلُّه (taʾalluh) — dévotion totale"
-          ],
           "frequence_coran": 2699,
-          "profondeur": "Voir verset 1. La répétition du nom Allah (sans pronom cette fois) est une insistance stylistique : c'est Allah lui-même — directement — qui est As-Samad."
+          "auto": true
         },
         {
           "ar": "الصَّمَدُ",

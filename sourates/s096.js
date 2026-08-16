@@ -51,6 +51,14 @@ const S096 = {
       },
       "mots": [
         {
+          "ar": "اقْرَأْ",
+          "translit": "iqraʾ",
+          "fr": "lire",
+          "racine": "ق-ر-أ",
+          "frequence_coran": 18,
+          "auto": true
+        },
+        {
           "ar": "بِاسْمِ",
           "translit": "bismi",
           "fr": "nom",
@@ -144,6 +152,14 @@ const S096 = {
         }
       },
       "mots": [
+        {
+          "ar": "اقْرَأْ",
+          "translit": "iqraʾ",
+          "fr": "lire",
+          "racine": "ق-ر-أ",
+          "frequence_coran": 18,
+          "auto": true
+        },
         {
           "ar": "وَرَبُّكَ",
           "translit": "warabbuka",
@@ -300,6 +316,14 @@ const S096 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "لَيَطْغَىٰ",
+          "translit": "layaṭghā",
+          "fr": "transgresser",
+          "racine": "ط-غ-ي",
+          "frequence_coran": 8,
+          "auto": true
         }
       ],
       "analyse_globale": "An raʾāhu staghnā : la racine de toute tyrannie selon le Coran — se voir autosuffisant. Le mot vise l'illusion de ne dépendre de rien : ni de Dieu, ni des autres, ni du réel. Le v.8 répond en un vers : le retour est vers ton Seigneur — l'autosuffisance est une erreur de calcul.",
@@ -416,6 +440,14 @@ const S096 = {
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "يَنْهَىٰ",
+          "translit": "yanhā",
+          "fr": "interdire",
+          "racine": "ن-ه-ي",
+          "frequence_coran": 8,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -446,6 +478,14 @@ const S096 = {
         }
       },
       "mots": [
+        {
+          "ar": "عَبْدًا",
+          "translit": "ʿabdan",
+          "fr": "serviteur",
+          "racine": "ع-ب-د",
+          "frequence_coran": 40,
+          "auto": true
+        },
         {
           "ar": "إِذَا",
           "translit": "idhā",
@@ -690,6 +730,14 @@ const S096 = {
           "frequence_coran": 8
         },
         {
+          "ar": "لَئِن",
+          "translit": "laʾin",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609,
+          "auto": true
+        },
+        {
           "ar": "لَّمْ",
           "translit": "lam",
           "fr": "ne... pas",
@@ -717,7 +765,16 @@ const S096 = {
           "texte": "Yalancı ve günahkar perçeminden cehenneme sürükleriz"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "كَٰذِبَةٍ",
+          "translit": "kādhibatin",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -738,7 +795,24 @@ const S096 = {
           "texte": "O zaman, kafadarlarını çağırsın"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "فَلْيَدْعُ",
+          "translit": "falyadʿu",
+          "fr": "invoquer",
+          "racine": "د-ع-و",
+          "frequence_coran": 55,
+          "auto": true
+        },
+        {
+          "ar": "نَادِيَهُ",
+          "translit": "nādiyahū",
+          "fr": "appeler",
+          "racine": "ن-د-و",
+          "frequence_coran": 44,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -759,7 +833,16 @@ const S096 = {
           "texte": "Biz de zebanileri çağıracağız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "سَنَدْعُ",
+          "translit": "sanadʿu",
+          "fr": "invoquer",
+          "racine": "د-ع-و",
+          "frequence_coran": 55,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -794,6 +877,22 @@ const S096 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "تُطِعْهُ",
+          "translit": "tuṭiʿhu",
+          "fr": "obéir",
+          "racine": "ط-و-ع",
+          "frequence_coran": 77,
+          "auto": true
+        },
+        {
+          "ar": "وَاسْجُدْ",
+          "translit": "wasjud",
+          "fr": "se prosterner",
+          "racine": "س-ج-د",
+          "frequence_coran": 8,
+          "auto": true
         }
       ],
       "analyse_globale": "Wa-sjud wa-qtarib : la sourate commencée par 'lis' s'achève par 'prosterne-toi et rapproche-toi'. Le savoir (v.1-5) sans la proximité (v.19) fabrique des Abu Jahl — savants en généalogie, tyrans en pratique. Lire, puis se prosterner : le programme complet.",

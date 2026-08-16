@@ -93,6 +93,14 @@ const S081 = {
           "fr": "et quand",
           "racine": "و + إِذَا",
           "frequence_coran": 130
+        },
+        {
+          "ar": "النُّجُومُ",
+          "translit": "n-nujūmu",
+          "fr": "étoile",
+          "racine": "ن-ج-م",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -122,6 +130,14 @@ const S081 = {
           "fr": "et quand",
           "racine": "و + إِذَا",
           "frequence_coran": 130
+        },
+        {
+          "ar": "الْجِبَالُ",
+          "translit": "l-jibālu",
+          "fr": "montagne",
+          "racine": "ج-ب-ل",
+          "frequence_coran": 39,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -194,6 +210,14 @@ const S081 = {
           "fr": "et quand",
           "racine": "و + إِذَا",
           "frequence_coran": 130
+        },
+        {
+          "ar": "حُشِرَتْ",
+          "translit": "ḥushirat",
+          "fr": "rassembler (pour le Jugement)",
+          "racine": "ح-ش-ر",
+          "frequence_coran": 43,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -223,6 +247,14 @@ const S081 = {
           "fr": "et quand",
           "racine": "و + إِذَا",
           "frequence_coran": 130
+        },
+        {
+          "ar": "الْبِحَارُ",
+          "translit": "l-biḥāru",
+          "fr": "mer",
+          "racine": "ب-ح-ر",
+          "frequence_coran": 41,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -252,6 +284,14 @@ const S081 = {
           "fr": "et quand",
           "racine": "و + إِذَا",
           "frequence_coran": 130
+        },
+        {
+          "ar": "النُّفُوسُ",
+          "translit": "n-nufūsu",
+          "fr": "âme",
+          "racine": "ن-ف-س",
+          "frequence_coran": 298,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -281,6 +321,14 @@ const S081 = {
           "fr": "et quand",
           "racine": "و + إِذَا",
           "frequence_coran": 130
+        },
+        {
+          "ar": "سُئِلَتْ",
+          "translit": "suʾilat",
+          "fr": "demander",
+          "racine": "س-أ-ل",
+          "frequence_coran": 95,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -317,6 +365,14 @@ const S081 = {
           "fr": "péché",
           "racine": "ذ-ن-ب",
           "frequence_coran": 39
+        },
+        {
+          "ar": "قُتِلَتْ",
+          "translit": "qutilat",
+          "fr": "tuer",
+          "racine": "ق-ت-ل",
+          "frequence_coran": 93,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -491,6 +547,14 @@ const S081 = {
         }
       },
       "mots": [
+        {
+          "ar": "عَلِمَتْ",
+          "translit": "ʿalimat",
+          "fr": "savoir",
+          "racine": "ع-ل-م",
+          "frequence_coran": 105,
+          "auto": true
+        },
         {
           "ar": "نَفْسٌ",
           "translit": "nafsun",
@@ -977,6 +1041,14 @@ const S081 = {
           "fr": "où",
           "racine": "—",
           "frequence_coran": 4
+        },
+        {
+          "ar": "تَذْهَبُونَ",
+          "translit": "tadhhabūna",
+          "fr": "aller",
+          "racine": "ذ-ه-ب",
+          "frequence_coran": 7,
+          "auto": true
         }
       ],
       "analyse_globale": "Fa-ayna tadhhabūn : 'où allez-vous donc ?' — après avoir écarté la folie (v.22) et l'inspiration démoniaque (v.25), il ne reste plus d'échappatoire intellectuelle. La question finale n'est plus 'que pensez-vous du texte ?' mais 'quelle direction prend votre vie ?'",

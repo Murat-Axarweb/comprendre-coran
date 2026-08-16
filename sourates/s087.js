@@ -200,7 +200,16 @@ const S087 = {
           "texte": "Sonra da onları siyah çerçöpe çevirmiştir"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "فَجَعَلَهُ",
+          "translit": "fajaʿalahū",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -228,6 +237,14 @@ const S087 = {
           "fr": "alors ne... pas",
           "racine": "ف + لَا",
           "frequence_coran": 156
+        },
+        {
+          "ar": "تَنسَىٰ",
+          "translit": "tansā",
+          "fr": "oublier",
+          "racine": "ن-س-ي",
+          "frequence_coran": 36,
+          "auto": true
         }
       ],
       "analyse_globale": "Sanuqriʾuka fa-lā tansā : la promesse faite à un Prophète illettré recevant un livre de 6000 versets — 'tu n'oublieras pas'. Le Coran est le seul livre de cette taille mémorisé intégralement par des millions de personnes, enfants compris : la promesse du verset se vérifie empiriquement chaque jour.",
@@ -329,7 +346,16 @@ const S087 = {
           "texte": "Kolay olanı yapmayı sana kolaylaştırırız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَنُيَسِّرُكَ",
+          "translit": "wanuyassiruka",
+          "fr": "facilité",
+          "racine": "ي-س-ر",
+          "frequence_coran": 12,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -364,6 +390,14 @@ const S087 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "نَّفَعَتِ",
+          "translit": "nafaʿati",
+          "fr": "être utile",
+          "racine": "ن-ف-ع",
+          "frequence_coran": 8,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -393,6 +427,14 @@ const S087 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "يَخْشَىٰ",
+          "translit": "yakhshā",
+          "fr": "redouter (avec révérence)",
+          "racine": "خ-ش-ي",
+          "frequence_coran": 48,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -632,6 +674,14 @@ const S087 = {
           "frequence_coran": 113
         },
         {
+          "ar": "تُؤْثِرُونَ",
+          "translit": "tuʾthirūna",
+          "fr": "trace",
+          "racine": "أ-ث-ر",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "الدُّنْيَا",
           "translit": "d-dunyā",
           "fr": "la vie d’ici-bas",
@@ -723,6 +773,14 @@ const S087 = {
           "fr": "feuillets",
           "racine": "ص-ح-ف",
           "frequence_coran": 6
+        },
+        {
+          "ar": "الْأُولَىٰ",
+          "translit": "l-ʾūlā",
+          "fr": "premier",
+          "racine": "أ-و-ل",
+          "frequence_coran": 82,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -759,6 +817,14 @@ const S087 = {
           "fr": "feuillets",
           "racine": "ص-ح-ف",
           "frequence_coran": 6
+        },
+        {
+          "ar": "إِبْرَٰهِيمَ",
+          "translit": "ibrāhīma",
+          "fr": "Abraham",
+          "racine": "nom propre",
+          "frequence_coran": 47,
+          "auto": true
         },
         {
           "ar": "وَمُوسَىٰ",

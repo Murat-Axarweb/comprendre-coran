@@ -153,6 +153,14 @@ const S093 = {
       },
       "mots": [
         {
+          "ar": "وَلَلْأخِرَةُ",
+          "translit": "walalʾkhiratu",
+          "fr": "dernier",
+          "racine": "أ-خ-ر",
+          "frequence_coran": 40,
+          "auto": true
+        },
+        {
           "ar": "خَيْرٌ",
           "translit": "khayrun",
           "fr": "meilleur",
@@ -172,6 +180,14 @@ const S093 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "الْأُولَىٰ",
+          "translit": "l-ʾūlā",
+          "fr": "premier",
+          "racine": "أ-و-ل",
+          "frequence_coran": 82,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -196,11 +212,35 @@ const S093 = {
       },
       "mots": [
         {
+          "ar": "وَلَسَوْفَ",
+          "translit": "walasawfa",
+          "fr": "particule du futur (bientôt",
+          "racine": "—",
+          "frequence_coran": 42,
+          "auto": true
+        },
+        {
+          "ar": "يُعْطِيكَ",
+          "translit": "yuʿṭīka",
+          "fr": "donner",
+          "racine": "ع-ط-و",
+          "frequence_coran": 14,
+          "auto": true
+        },
+        {
           "ar": "رَبُّكَ",
           "translit": "rabbuka",
           "fr": "ton Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 116
+        },
+        {
+          "ar": "فَتَرْضَىٰ",
+          "translit": "fatarḍā",
+          "fr": "agréer",
+          "racine": "ر-ض-و",
+          "frequence_coran": 57,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -230,6 +270,22 @@ const S093 = {
           "fr": "n’a-t-il pas ?",
           "racine": "أ + لَمْ",
           "frequence_coran": 78
+        },
+        {
+          "ar": "يَجِدْكَ",
+          "translit": "yajidka",
+          "fr": "trouver",
+          "racine": "و-ج-د",
+          "frequence_coran": 107,
+          "auto": true
+        },
+        {
+          "ar": "يَتِيمًا",
+          "translit": "yatīman",
+          "fr": "orphelin",
+          "racine": "ي-ت-م",
+          "frequence_coran": 23,
+          "auto": true
         }
       ],
       "analyse_globale": "Les versets 6-8 relisent la biographie du Prophète comme une série de sauvetages : orphelin accueilli (par Abd al-Muttalib puis Abu Talib), chercheur guidé (par la révélation), pauvre enrichi (par Khadija puis le contentement). L'argument : Celui qui t'a porté jusqu'ici ne va pas te lâcher maintenant.",
@@ -254,6 +310,14 @@ const S093 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَوَجَدَكَ",
+          "translit": "wawajadaka",
+          "fr": "trouver",
+          "racine": "و-ج-د",
+          "frequence_coran": 107,
+          "auto": true
+        },
         {
           "ar": "فَهَدَىٰ",
           "translit": "fahadā",
@@ -282,7 +346,16 @@ const S093 = {
           "texte": "Seni fakir bulup zenginleştirmedi mi"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَوَجَدَكَ",
+          "translit": "wawajadaka",
+          "fr": "trouver",
+          "racine": "و-ج-د",
+          "frequence_coran": 107,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {

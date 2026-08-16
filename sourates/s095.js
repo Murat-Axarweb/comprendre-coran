@@ -160,6 +160,14 @@ const S095 = {
           "frequence_coran": 52
         },
         {
+          "ar": "خَلَقْنَا",
+          "translit": "khalaqnā",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
@@ -202,6 +210,14 @@ const S095 = {
           "fr": "puis",
           "racine": "particule de succession",
           "frequence_coran": 337
+        },
+        {
+          "ar": "رَدَدْنَٰهُ",
+          "translit": "radadnāhu",
+          "fr": "rendre",
+          "racine": "ر-د-د",
+          "frequence_coran": 60,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -297,6 +313,14 @@ const S095 = {
           "frequence_coran": 86
         },
         {
+          "ar": "يُكَذِّبُكَ",
+          "translit": "yukadhdhibuka",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        },
+        {
           "ar": "بَعْدُ",
           "translit": "baʿdu",
           "fr": "après",
@@ -332,6 +356,14 @@ const S095 = {
         }
       },
       "mots": [
+        {
+          "ar": "أَلَيْسَ",
+          "translit": "alaysa",
+          "fr": "n’est pas",
+          "racine": "verbe de négation",
+          "frequence_coran": 47,
+          "auto": true
+        },
         {
           "ar": "اللَّهُ",
           "translit": "llāhu",

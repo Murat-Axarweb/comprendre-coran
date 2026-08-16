@@ -346,6 +346,14 @@ const S102 = {
           "frequence_coran": 337
         },
         {
+          "ar": "لَتُسْـءَلُنَّ",
+          "translit": "latusʾalunna",
+          "fr": "demander",
+          "racine": "س-أ-ل",
+          "frequence_coran": 95,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",
           "fr": "ce jour-là",

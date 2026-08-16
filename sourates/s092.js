@@ -164,6 +164,14 @@ const S092 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "سَعْيَكُمْ",
+          "translit": "saʿyakum",
+          "fr": "s'efforcer",
+          "racine": "س-ع-ي",
+          "frequence_coran": 30,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -280,7 +288,16 @@ const S092 = {
           "texte": "Elinde bulunandan verenin, Allah'a karşı gelmekten sakınanın, en güzel söz olan Allah'ın birliğini doğrulayanın işlerini kolaylaştırırız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "فَسَنُيَسِّرُهُ",
+          "translit": "fasanuyassiruhū",
+          "fr": "facilité",
+          "racine": "ي-س-ر",
+          "frequence_coran": 12,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -401,7 +418,16 @@ const S092 = {
           "texte": "Ama, cimrilik eden, kendini Allah'tan müstağni sayan, en güzel sözü yalanlayan kimsenin güçlüğe uğramasını kolaylaştırırız"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "فَسَنُيَسِّرُهُ",
+          "translit": "fasanuyassiruhū",
+          "fr": "facilité",
+          "racine": "ي-س-ر",
+          "frequence_coran": 12,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -436,6 +462,22 @@ const S092 = {
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "عَنْهُ",
+          "translit": "ʿanhu",
+          "fr": "de",
+          "racine": "préposition",
+          "frequence_coran": 153,
+          "auto": true
+        },
+        {
+          "ar": "مَالُهُ",
+          "translit": "māluhū",
+          "fr": "bien",
+          "racine": "م-و-ل",
+          "frequence_coran": 86,
+          "auto": true
         },
         {
           "ar": "إِذَا",
@@ -522,6 +564,22 @@ const S092 = {
           "fr": "à nous",
           "racine": "لِ + نَا",
           "frequence_coran": 83
+        },
+        {
+          "ar": "لَلْأخِرَةَ",
+          "translit": "lalʾkhirata",
+          "fr": "dernier",
+          "racine": "أ-خ-ر",
+          "frequence_coran": 40,
+          "auto": true
+        },
+        {
+          "ar": "وَالْأُولَىٰ",
+          "translit": "wal-ʾūlā",
+          "fr": "premier",
+          "racine": "أ-و-ل",
+          "frequence_coran": 82,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -544,7 +602,16 @@ const S092 = {
           "texte": "Sizi alevler saçan ateşle uyardım"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "نَارًا",
+          "translit": "nāran",
+          "fr": "feu",
+          "racine": "ن-و-ر",
+          "frequence_coran": 145,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -694,6 +761,22 @@ const S092 = {
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "يُؤْتِي",
+          "translit": "yuʾtī",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
+          "ar": "مَالَهُ",
+          "translit": "mālahū",
+          "fr": "bien",
+          "racine": "م-و-ل",
+          "frequence_coran": 86,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -739,6 +822,14 @@ const S092 = {
           "frequence_coran": 85
         },
         {
+          "ar": "عِندَهُ",
+          "translit": "ʿindahū",
+          "fr": "auprès de",
+          "racine": "adverbe / préposition",
+          "frequence_coran": 98,
+          "auto": true
+        },
+        {
           "ar": "مِن",
           "translit": "min",
           "fr": "de",
@@ -751,6 +842,14 @@ const S092 = {
           "fr": "bienfait",
           "racine": "ن-ع-م",
           "frequence_coran": 144
+        },
+        {
+          "ar": "تُجْزَىٰ",
+          "translit": "tujzā",
+          "fr": "rétribuer",
+          "racine": "ج-ز-ي",
+          "frequence_coran": 73,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -831,7 +930,24 @@ const S092 = {
           "texte": "Elbette kendisi de hoşnut (razı) olacaktır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَلَسَوْفَ",
+          "translit": "walasawfa",
+          "fr": "particule du futur (bientôt",
+          "racine": "—",
+          "frequence_coran": 42,
+          "auto": true
+        },
+        {
+          "ar": "يَرْضَىٰ",
+          "translit": "yarḍā",
+          "fr": "agréer",
+          "racine": "ر-ض-و",
+          "frequence_coran": 57,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     }
   ],

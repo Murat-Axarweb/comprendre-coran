@@ -58,11 +58,27 @@ const S094 = {
           "frequence_coran": 78
         },
         {
+          "ar": "نَشْرَحْ",
+          "translit": "nashraḥ",
+          "fr": "ouvrir",
+          "racine": "ش-ر-ح",
+          "frequence_coran": 5,
+          "auto": true
+        },
+        {
           "ar": "لَكَ",
           "translit": "laka",
           "fr": "à toi",
           "racine": "لِ + كَ",
           "frequence_coran": 69
+        },
+        {
+          "ar": "صَدْرَكَ",
+          "translit": "ṣadraka",
+          "fr": "poitrine",
+          "racine": "ص-د-ر",
+          "frequence_coran": 40,
+          "auto": true
         }
       ],
       "analyse_globale": "Sharḥ aṣ-ṣadr, l'ouverture de la poitrine : la métaphore coranique de la sérénité intérieure — un espace agrandi où l'épreuve ne suffoque plus. C'est le don que Moïse demande avant d'affronter Pharaon (20:25) et que le Prophète reçoit sans le demander.",
@@ -86,7 +102,24 @@ const S094 = {
           "texte": "Belini büken yükünü üzerinden almadık mı"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَوَضَعْنَا",
+          "translit": "wawaḍaʿnā",
+          "fr": "poser",
+          "racine": "و-ض-ع",
+          "frequence_coran": 26,
+          "auto": true
+        },
+        {
+          "ar": "عَنكَ",
+          "translit": "ʿanka",
+          "fr": "de",
+          "racine": "préposition",
+          "frequence_coran": 153,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -121,6 +154,14 @@ const S094 = {
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "ظَهْرَكَ",
+          "translit": "ẓahraka",
+          "fr": "apparaître",
+          "racine": "ظ-ه-ر",
+          "frequence_coran": 26,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -152,11 +193,27 @@ const S094 = {
       },
       "mots": [
         {
+          "ar": "وَرَفَعْنَا",
+          "translit": "warafaʿnā",
+          "fr": "élever",
+          "racine": "ر-ف-ع",
+          "frequence_coran": 29,
+          "auto": true
+        },
+        {
           "ar": "لَكَ",
           "translit": "laka",
           "fr": "à toi",
           "racine": "لِ + كَ",
           "frequence_coran": 69
+        },
+        {
+          "ar": "ذِكْرَكَ",
+          "translit": "dhikraka",
+          "fr": "souvenir",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 256,
+          "auto": true
         }
       ],
       "analyse_globale": "Wa-rafaʿnā laka dhikrak : 'Nous avons élevé ta renommée'. Promesse vertigineuse faite à un homme alors moqué par sa propre tribu — aujourd'hui son nom est joint à celui de Dieu dans chaque appel à la prière, à chaque instant, quelque part sur terre.",
@@ -201,6 +258,14 @@ const S094 = {
           "fr": "difficulté",
           "racine": "ع-س-ر",
           "frequence_coran": 12
+        },
+        {
+          "ar": "يُسْرًا",
+          "translit": "yusran",
+          "fr": "facilité",
+          "racine": "ي-س-ر",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -251,6 +316,14 @@ const S094 = {
           "fr": "difficulté",
           "racine": "ع-س-ر",
           "frequence_coran": 12
+        },
+        {
+          "ar": "يُسْرًا",
+          "translit": "yusran",
+          "fr": "facilité",
+          "racine": "ي-س-ر",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 2,

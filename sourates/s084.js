@@ -92,7 +92,32 @@ const S084 = {
           "texte": "Gök yarılıp Rabbine boyun eğdiği zaman, ki gök boyun eğecektir"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَأَذِنَتْ",
+          "translit": "waʾadhinat",
+          "fr": "oreille",
+          "racine": "أ-ذ-ن",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "لِرَبِّهَا",
+          "translit": "lirabbihā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "وَحُقَّتْ",
+          "translit": "waḥuqqat",
+          "fr": "vérité",
+          "racine": "ح-ق-ق",
+          "frequence_coran": 287,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -134,6 +159,14 @@ const S084 = {
           "fr": "la terre",
           "racine": "أ-ر-ض",
           "frequence_coran": 219
+        },
+        {
+          "ar": "مُدَّتْ",
+          "translit": "muddat",
+          "fr": "étendre",
+          "racine": "م-د-د",
+          "frequence_coran": 6,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -164,6 +197,14 @@ const S084 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَأَلْقَتْ",
+          "translit": "waʾalqat",
+          "fr": "jeter",
+          "racine": "ل-ق-ي",
+          "frequence_coran": 71,
+          "auto": true
+        },
         {
           "ar": "مَا",
           "translit": "mā",
@@ -206,7 +247,32 @@ const S084 = {
           "texte": "Yer düzeltilip, içinde olanları dışarı atarak boşaldığı zaman ve yer Rabbine boyun eğdiği zaman, ki yer boyun eğecektir"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَأَذِنَتْ",
+          "translit": "waʾadhinat",
+          "fr": "oreille",
+          "racine": "أ-ذ-ن",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "لِرَبِّهَا",
+          "translit": "lirabbihā",
+          "fr": "Seigneur",
+          "racine": "ر-ب-ب",
+          "frequence_coran": 980,
+          "auto": true
+        },
+        {
+          "ar": "وَحُقَّتْ",
+          "translit": "waḥuqqat",
+          "fr": "vérité",
+          "racine": "ح-ق-ق",
+          "frequence_coran": 287,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -235,6 +301,14 @@ const S084 = {
         }
       },
       "mots": [
+        {
+          "ar": "يَـٰأَيُّهَا",
+          "translit": "yāʾayyuhā",
+          "fr": "ô vous",
+          "racine": "particule d’appel",
+          "frequence_coran": 150,
+          "auto": true
+        },
         {
           "ar": "إِنَّكَ",
           "translit": "innaka",
@@ -292,6 +366,22 @@ const S084 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "أُوتِيَ",
+          "translit": "ūtiya",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
+          "ar": "بِيَمِينِهِ",
+          "translit": "biyamīnihī",
+          "fr": "droite",
+          "racine": "ي-م-ن",
+          "frequence_coran": 71,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -328,6 +418,14 @@ const S084 = {
           "fr": "particule du futur (bientôt",
           "racine": "—",
           "frequence_coran": 42
+        },
+        {
+          "ar": "حِسَابًا",
+          "translit": "ḥisāban",
+          "fr": "compte",
+          "racine": "ح-س-ب",
+          "frequence_coran": 109,
+          "auto": true
         }
       ],
       "analyse_globale": "Ḥisāban yasīrā : le 'compte facile'. Le hadith précise : c'est la simple présentation (ʿarḍ) des actes, sans interrogatoire serré — 'car celui dont le compte est discuté est perdu'. La prière prophétique 'Allāhumma ḥāsibnī ḥisāban yasīrā' vient de ce verset.",
@@ -410,11 +508,27 @@ const S084 = {
           "frequence_coran": 3226
         },
         {
+          "ar": "أُوتِيَ",
+          "translit": "ūtiya",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
           "ar": "وَرَاءَ",
           "translit": "warāʾa",
           "fr": "derrière",
           "racine": "و-ر-ي",
           "frequence_coran": 24
+        },
+        {
+          "ar": "ظَهْرِهِ",
+          "translit": "ẓahrihī",
+          "fr": "apparaître",
+          "racine": "ظ-ه-ر",
+          "frequence_coran": 26,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -451,6 +565,14 @@ const S084 = {
           "fr": "particule du futur (bientôt",
           "racine": "—",
           "frequence_coran": 42
+        },
+        {
+          "ar": "يَدْعُواْ",
+          "translit": "yadʿū",
+          "fr": "invoquer",
+          "racine": "د-ع-و",
+          "frequence_coran": 55,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -480,7 +602,16 @@ const S084 = {
           "texte": "Ama amel defteri kendisine arkasından verilen kimse: \"Mahvoldum\" diye bağırır ve çılgın alevli cehenneme girer"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "سَعِيرًا",
+          "translit": "saʿīran",
+          "fr": "Brasier (enfer)",
+          "racine": "س-ع-ر",
+          "frequence_coran": 16,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -636,6 +767,14 @@ const S084 = {
           "fr": "par lui",
           "racine": "بِ + هُ",
           "frequence_coran": 327
+        },
+        {
+          "ar": "بَصِيرًا",
+          "translit": "baṣīran",
+          "fr": "Clairvoyant",
+          "racine": "ب-ص-ر",
+          "frequence_coran": 41,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -761,6 +900,14 @@ const S084 = {
       },
       "mots": [
         {
+          "ar": "لَتَرْكَبُنَّ",
+          "translit": "latarkabunna",
+          "fr": "monter",
+          "racine": "ر-ك-ب",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "عَن",
           "translit": "ʿan",
           "fr": "de",
@@ -848,6 +995,14 @@ const S084 = {
           "frequence_coran": 130
         },
         {
+          "ar": "قُرِئَ",
+          "translit": "quriʾa",
+          "fr": "lire",
+          "racine": "ق-ر-أ",
+          "frequence_coran": 18,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْهِمُ",
           "translit": "ʿalayhimu",
           "fr": "sur eux",
@@ -860,6 +1015,14 @@ const S084 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يَسْجُدُونَ",
+          "translit": "yasjudūna",
+          "fr": "se prosterner",
+          "racine": "س-ج-د",
+          "frequence_coran": 8,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -903,6 +1066,14 @@ const S084 = {
           "fr": "ils ont mécru",
           "racine": "ك-ف-ر",
           "frequence_coran": 189
+        },
+        {
+          "ar": "يُكَذِّبُونَ",
+          "translit": "yukadhdhibūna",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -969,6 +1140,14 @@ const S084 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبَشِّرْهُم",
+          "translit": "fabashshirhum",
+          "fr": "annoncer (une bonne nouvelle)",
+          "racine": "ب-ش-ر",
+          "frequence_coran": 44,
+          "auto": true
+        },
         {
           "ar": "بِعَذَابٍ",
           "translit": "biʿadhābin",

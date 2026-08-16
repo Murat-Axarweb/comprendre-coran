@@ -62,6 +62,32 @@ fiabilité de chaque donnée, information affichée sur le site.
 
 ---
 
+## Analyse morphologique
+
+L'appariement des gloses mot à mot s'appuie sur le **Quranic Arabic Corpus**
+(morphologie, version 0.4) — Copyright © 2011 Kais Dukes, université de Leeds,
+sous **licence GNU GPL**.
+
+Conditions posées par le corpus :
+
+- copie et distribution à l'identique autorisées, **modification interdite** ;
+- utilisation possible dans tout site ou application, **à condition d'indiquer
+  clairement la source et de faire un lien vers** <http://corpus.quran.com>
+  afin que les utilisateurs puissent suivre les mises à jour ;
+- l'avis de copyright doit être reproduit dans les œuvres dérivées ou
+  contenant une part substantielle du fichier.
+
+**Application dans le projet** : le fichier n'est pas versionné dans ce dépôt
+et n'est utilisé qu'à la génération, par `scripts/enrich-glosses.mjs`. **Aucune
+traduction n'en est reprise** : les gloses affichées sont celles du glossaire du
+projet ; le corpus sert uniquement à déterminer la forme de dictionnaire de
+chaque mot, afin de savoir quelle entrée du glossaire s'applique. L'attribution
+et le lien figurent en pied de page du site.
+
+> **À arbitrer** — la GPL est une licence copyleft. Le dépôt ne déclare
+> aujourd'hui aucune licence ; l'articulation entre les deux reste à trancher,
+> au même titre que la contrainte non commerciale de Tanzil.
+
 ## Dépendances
 
 | Dépendance | Licence | Usage |

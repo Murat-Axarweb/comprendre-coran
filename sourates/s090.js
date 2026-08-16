@@ -201,6 +201,14 @@ const S090 = {
           "frequence_coran": 52
         },
         {
+          "ar": "خَلَقْنَا",
+          "translit": "khalaqnā",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
@@ -230,6 +238,14 @@ const S090 = {
         }
       },
       "mots": [
+        {
+          "ar": "أَيَحْسَبُ",
+          "translit": "ayaḥsabu",
+          "fr": "croire",
+          "racine": "ح-س-ب",
+          "frequence_coran": 44,
+          "auto": true
+        },
         {
           "ar": "أَن",
           "translit": "an",
@@ -281,6 +297,22 @@ const S090 = {
       },
       "mots": [
         {
+          "ar": "يَقُولُ",
+          "translit": "yaqūlu",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722,
+          "auto": true
+        },
+        {
+          "ar": "مَالًا",
+          "translit": "mālan",
+          "fr": "bien",
+          "racine": "م-و-ل",
+          "frequence_coran": 86,
+          "auto": true
+        },
+        {
           "ar": "لُّبَدًا",
           "translit": "lubadan",
           "fr": "apparaître",
@@ -309,6 +341,14 @@ const S090 = {
         }
       },
       "mots": [
+        {
+          "ar": "أَيَحْسَبُ",
+          "translit": "ayaḥsabu",
+          "fr": "croire",
+          "racine": "ح-س-ب",
+          "frequence_coran": 44,
+          "auto": true
+        },
         {
           "ar": "أَن",
           "translit": "an",
@@ -360,11 +400,27 @@ const S090 = {
           "frequence_coran": 78
         },
         {
+          "ar": "نَجْعَل",
+          "translit": "najʿal",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
           "ar": "لَّهُ",
           "translit": "lahū",
           "fr": "à lui",
           "racine": "لِ + هُ",
           "frequence_coran": 275
+        },
+        {
+          "ar": "عَيْنَيْنِ",
+          "translit": "ʿaynayni",
+          "fr": "œil",
+          "racine": "ع-ي-ن",
+          "frequence_coran": 23,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -394,7 +450,16 @@ const S090 = {
           "texte": "Biz onun için iki göz, bir dil ve iki dudak var etmedik mi"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَلِسَانًا",
+          "translit": "walisānan",
+          "fr": "langue",
+          "racine": "ل-س-ن",
+          "frequence_coran": 25,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -422,7 +487,16 @@ const S090 = {
           "texte": "Biz ona eğri ve doğru iki yolu da göstermedik mi"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَهَدَيْنَٰهُ",
+          "translit": "wahadaynāhu",
+          "fr": "guidance",
+          "racine": "ه-د-ي",
+          "frequence_coran": 46,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -608,7 +682,16 @@ const S090 = {
           "texte": "Yahut, açlık gününde, yakını olan bir öksüzü, yahut toprağa serilmiş bir yoksulu doyurmaktır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "يَتِيمًا",
+          "translit": "yatīman",
+          "fr": "orphelin",
+          "racine": "ي-ت-م",
+          "frequence_coran": 23,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -643,6 +726,14 @@ const S090 = {
           "fr": "ou",
           "racine": "particule de choix",
           "frequence_coran": 264
+        },
+        {
+          "ar": "مِسْكِينًا",
+          "translit": "miskīnan",
+          "fr": "nécessiteux",
+          "racine": "س-ك-ن",
+          "frequence_coran": 23,
+          "auto": true
         }
       ],
       "niveau_couche": 2,

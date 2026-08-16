@@ -49,7 +49,16 @@ const S078 = {
           "texte": "Neyi soruşturuyorlar"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "عَمَّ",
+          "translit": "ʿamma",
+          "fr": "de",
+          "racine": "préposition",
+          "frequence_coran": 153,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -258,6 +267,14 @@ const S078 = {
           "frequence_coran": 78
         },
         {
+          "ar": "نَجْعَلِ",
+          "translit": "najʿali",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
           "ar": "الْأَرْضَ",
           "translit": "l-ʾarḍa",
           "fr": "la terre",
@@ -293,7 +310,16 @@ const S078 = {
           "texte": "Biz yeryüzünü bir beşik, dağları da onun için birer direk kılmadık mı"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَالْجِبَالَ",
+          "translit": "wal-jibāla",
+          "fr": "montagne",
+          "racine": "ج-ب-ل",
+          "frequence_coran": 39,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -321,7 +347,24 @@ const S078 = {
           "texte": "Sizi çift çift yarattık"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَخَلَقْنَٰكُمْ",
+          "translit": "wakhalaqnākum",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
+        },
+        {
+          "ar": "أَزْوَٰجًا",
+          "translit": "azwājan",
+          "fr": "épouse",
+          "racine": "ز-و-ج",
+          "frequence_coran": 81,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -342,7 +385,24 @@ const S078 = {
           "texte": "Uykunuzu dinlenme vakti kıldık"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَجَعَلْنَا",
+          "translit": "wajaʿalnā",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
+          "ar": "نَوْمَكُمْ",
+          "translit": "nawmakum",
+          "fr": "sommeil",
+          "racine": "ن-و-م",
+          "frequence_coran": 9,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -363,7 +423,24 @@ const S078 = {
           "texte": "Geceyi bir örtü yaptık"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَجَعَلْنَا",
+          "translit": "wajaʿalnā",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
+          "ar": "لِبَاسًا",
+          "translit": "libāsan",
+          "fr": "vêtement",
+          "racine": "ل-ب-س",
+          "frequence_coran": 10,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -385,6 +462,14 @@ const S078 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَجَعَلْنَا",
+          "translit": "wajaʿalnā",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
+        },
         {
           "ar": "النَّهَارَ",
           "translit": "n-nahāra",
@@ -413,7 +498,40 @@ const S078 = {
           "texte": "Üstünüze yedi kat sağlam gök bina ettik"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَبَنَيْنَا",
+          "translit": "wabanaynā",
+          "fr": "construire",
+          "racine": "ب-ن-ي",
+          "frequence_coran": 7,
+          "auto": true
+        },
+        {
+          "ar": "فَوْقَكُمْ",
+          "translit": "fawqakum",
+          "fr": "au-dessus",
+          "racine": "ف-و-ق",
+          "frequence_coran": 42,
+          "auto": true
+        },
+        {
+          "ar": "سَبْعًا",
+          "translit": "sabʿan",
+          "fr": "sept",
+          "racine": "س-ب-ع",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "شِدَادًا",
+          "translit": "shidādan",
+          "fr": "intense",
+          "racine": "ش-د-د",
+          "frequence_coran": 52,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -434,7 +552,24 @@ const S078 = {
           "texte": "Parlak ışık veren güneşi varettik"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَجَعَلْنَا",
+          "translit": "wajaʿalnā",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
+          "ar": "سِرَاجًا",
+          "translit": "sirājan",
+          "fr": "lampe",
+          "racine": "س-ر-ج",
+          "frequence_coran": 6,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -456,6 +591,14 @@ const S078 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَأَنزَلْنَا",
+          "translit": "waʾanzalnā",
+          "fr": "il a été descendu",
+          "racine": "ن-ز-ل",
+          "frequence_coran": 47,
+          "auto": true
+        },
         {
           "ar": "مِنَ",
           "translit": "mina",
@@ -493,11 +636,35 @@ const S078 = {
       },
       "mots": [
         {
+          "ar": "لِّنُخْرِجَ",
+          "translit": "linukhrija",
+          "fr": "faire sortir",
+          "racine": "خ-ر-ج",
+          "frequence_coran": 99,
+          "auto": true
+        },
+        {
           "ar": "بِهِ",
           "translit": "bihī",
           "fr": "par lui",
           "racine": "بِ + هُ",
           "frequence_coran": 327
+        },
+        {
+          "ar": "حَبًّا",
+          "translit": "ḥabban",
+          "fr": "grain",
+          "racine": "ح-ب-ب",
+          "frequence_coran": 7,
+          "auto": true
+        },
+        {
+          "ar": "وَنَبَاتًا",
+          "translit": "wanabātan",
+          "fr": "végétation",
+          "racine": "ن-ب-ت",
+          "frequence_coran": 4,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -527,7 +694,16 @@ const S078 = {
           "texte": "Taneler, bitkiler, ağaçları sarmaş dolaş bahçeler yetiştirmek için, yoğunlaşmış bulutlardan bol yağmur yağdırdık"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَجَنَّـٰتٍ",
+          "translit": "wajannātin",
+          "fr": "paradis",
+          "racine": "ج-ن-ن",
+          "frequence_coran": 147,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -607,6 +783,14 @@ const S078 = {
           "frequence_coran": 405
         },
         {
+          "ar": "يُنفَخُ",
+          "translit": "yunfakhu",
+          "fr": "souffler",
+          "racine": "ن-ف-خ",
+          "frequence_coran": 6,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
@@ -619,6 +803,22 @@ const S078 = {
           "fr": "Trompette (du Jugement)",
           "racine": "ص-و-ر",
           "frequence_coran": 10
+        },
+        {
+          "ar": "فَتَأْتُونَ",
+          "translit": "fataʾtūna",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
+          "ar": "أَفْوَاجًا",
+          "translit": "afwājan",
+          "fr": "foule",
+          "racine": "ف-و-ج",
+          "frequence_coran": 5,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -643,11 +843,35 @@ const S078 = {
       },
       "mots": [
         {
+          "ar": "وَفُتِحَتِ",
+          "translit": "wafutiḥati",
+          "fr": "ouvrir",
+          "racine": "ف-ت-ح",
+          "frequence_coran": 20,
+          "auto": true
+        },
+        {
           "ar": "السَّمَاءُ",
           "translit": "s-samāʾu",
           "fr": "du ciel",
           "racine": "س-م-و",
           "frequence_coran": 81
+        },
+        {
+          "ar": "فَكَانَتْ",
+          "translit": "fakānat",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360,
+          "auto": true
+        },
+        {
+          "ar": "أَبْوَٰبًا",
+          "translit": "abwāban",
+          "fr": "porte",
+          "racine": "ب-و-ب",
+          "frequence_coran": 19,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -670,7 +894,24 @@ const S078 = {
           "texte": "Dağlar yürütülüp serap olacaktır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "الْجِبَالُ",
+          "translit": "l-jibālu",
+          "fr": "montagne",
+          "racine": "ج-ب-ل",
+          "frequence_coran": 39,
+          "auto": true
+        },
+        {
+          "ar": "فَكَانَتْ",
+          "translit": "fakānat",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -807,6 +1048,14 @@ const S078 = {
           "frequence_coran": 812
         },
         {
+          "ar": "يَذُوقُونَ",
+          "translit": "yadhūqūna",
+          "fr": "goûter",
+          "racine": "ذ-و-ق",
+          "frequence_coran": 63,
+          "auto": true
+        },
+        {
           "ar": "فِيهَا",
           "translit": "fīhā",
           "fr": "en elle",
@@ -819,6 +1068,14 @@ const S078 = {
           "fr": "et ne... pas",
           "racine": "و + لَا",
           "frequence_coran": 658
+        },
+        {
+          "ar": "شَرَابًا",
+          "translit": "sharāban",
+          "fr": "boisson",
+          "racine": "ش-ر-ب",
+          "frequence_coran": 7,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -855,6 +1112,14 @@ const S078 = {
           "fr": "sauf",
           "racine": "particule d’exception",
           "frequence_coran": 662
+        },
+        {
+          "ar": "حَمِيمًا",
+          "translit": "ḥamīman",
+          "fr": "eau bouillante",
+          "racine": "ح-م-م",
+          "frequence_coran": 20,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -941,6 +1206,14 @@ const S078 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "حِسَابًا",
+          "translit": "ḥisāban",
+          "fr": "compte",
+          "racine": "ح-س-ب",
+          "frequence_coran": 109,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -963,7 +1236,16 @@ const S078 = {
           "texte": "Ayetlerimizi hep yalan sayıp dururlardı"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَكَذَّبُواْ",
+          "translit": "wakadhdhabū",
+          "fr": "traiter de mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 80,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -998,6 +1280,14 @@ const S078 = {
           "fr": "une chose",
           "racine": "ش-ي-ء",
           "frequence_coran": 179
+        },
+        {
+          "ar": "أَحْصَيْنَٰهُ",
+          "translit": "aḥṣaynāhu",
+          "fr": "dénombrer (exhaustivement)",
+          "racine": "ح-ص-ي",
+          "frequence_coran": 11,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1022,6 +1312,14 @@ const S078 = {
       },
       "mots": [
         {
+          "ar": "فَذُوقُواْ",
+          "translit": "fadhūqū",
+          "fr": "goûter",
+          "racine": "ذ-و-ق",
+          "frequence_coran": 63,
+          "auto": true
+        },
+        {
           "ar": "فَلَن",
           "translit": "falan",
           "fr": "ne... jamais",
@@ -1029,11 +1327,27 @@ const S078 = {
           "frequence_coran": 59
         },
         {
+          "ar": "نَّزِيدَكُمْ",
+          "translit": "nazīdakum",
+          "fr": "accroître",
+          "racine": "ز-ي-د",
+          "frequence_coran": 61,
+          "auto": true
+        },
+        {
           "ar": "إِلَّا",
           "translit": "illā",
           "fr": "sauf",
           "racine": "particule d’exception",
           "frequence_coran": 662
+        },
+        {
+          "ar": "عَذَابًا",
+          "translit": "ʿadhāban",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1092,7 +1406,16 @@ const S078 = {
           "texte": "Doğrusu, Allah'a karşı gelmekten sakınanlara kurtuluş, bahçeler, bağlar, yaşıtlar ve dolu kadehler vardır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَأَعْنَٰبًا",
+          "translit": "waʾaʿnāban",
+          "fr": "raisin",
+          "racine": "ع-ن-ب",
+          "frequence_coran": 7,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1148,7 +1471,16 @@ const S078 = {
           "texte": "Doğrusu, Allah'a karşı gelmekten sakınanlara kurtuluş, bahçeler, bağlar, yaşıtlar ve dolu kadehler vardır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَكَأْسًا",
+          "translit": "wakaʾsan",
+          "fr": "coupe",
+          "racine": "ك-أ-س",
+          "frequence_coran": 8,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1183,6 +1515,14 @@ const S078 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يَسْمَعُونَ",
+          "translit": "yasmaʿūna",
+          "fr": "entendre",
+          "racine": "س-م-ع",
+          "frequence_coran": 47,
+          "auto": true
         },
         {
           "ar": "فِيهَا",
@@ -1240,6 +1580,14 @@ const S078 = {
           "fr": "ton Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 116
+        },
+        {
+          "ar": "حِسَابًا",
+          "translit": "ḥisāban",
+          "fr": "compte",
+          "racine": "ح-س-ب",
+          "frequence_coran": 109,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1271,6 +1619,14 @@ const S078 = {
           "frequence_coran": 980
         },
         {
+          "ar": "السَّمَٰوَٰتِ",
+          "translit": "s-samāwāti",
+          "fr": "ciel",
+          "racine": "س-م-و",
+          "frequence_coran": 310,
+          "auto": true
+        },
+        {
           "ar": "وَالْأَرْضِ",
           "translit": "wal-ʾarḍi",
           "fr": "et la terre",
@@ -1283,6 +1639,14 @@ const S078 = {
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "بَيْنَهُمَا",
+          "translit": "baynahumā",
+          "fr": "entre",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 70,
+          "auto": true
         },
         {
           "ar": "الرَّحْمَٰنِ",
@@ -1335,11 +1699,27 @@ const S078 = {
           "frequence_coran": 405
         },
         {
+          "ar": "يَقُومُ",
+          "translit": "yaqūmu",
+          "fr": "se lever",
+          "racine": "ق-و-م",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "الرُّوحُ",
           "translit": "r-rūḥu",
           "fr": "esprit",
           "racine": "ر-و-ح",
           "frequence_coran": 21
+        },
+        {
+          "ar": "وَالْمَلَـٰئِكَةُ",
+          "translit": "wal-malāʾikatu",
+          "fr": "royauté",
+          "racine": "م-ل-ك",
+          "frequence_coran": 48,
+          "auto": true
         },
         {
           "ar": "لَّا",
@@ -1492,6 +1872,22 @@ const S078 = {
           "frequence_coran": 156
         },
         {
+          "ar": "عَذَابًا",
+          "translit": "ʿadhāban",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373,
+          "auto": true
+        },
+        {
+          "ar": "قَرِيبًا",
+          "translit": "qarīban",
+          "fr": "proche",
+          "racine": "ق-ر-ب",
+          "frequence_coran": 41,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَ",
           "translit": "yawma",
           "fr": "jour",
@@ -1499,11 +1895,67 @@ const S078 = {
           "frequence_coran": 405
         },
         {
+          "ar": "يَنظُرُ",
+          "translit": "yanẓuru",
+          "fr": "regarder",
+          "racine": "ن-ظ-ر",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
           "racine": "particule",
           "frequence_coran": 1010
+        },
+        {
+          "ar": "قَدَّمَتْ",
+          "translit": "qaddamat",
+          "fr": "avancer",
+          "racine": "ق-د-م",
+          "frequence_coran": 7,
+          "auto": true
+        },
+        {
+          "ar": "يَدَاهُ",
+          "translit": "yadāhu",
+          "fr": "main",
+          "racine": "ي-د-ي",
+          "frequence_coran": 120,
+          "auto": true
+        },
+        {
+          "ar": "وَيَقُولُ",
+          "translit": "wayaqūlu",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722,
+          "auto": true
+        },
+        {
+          "ar": "يَٰلَيْتَنِي",
+          "translit": "yālaytanī",
+          "fr": "si seulement",
+          "racine": "—",
+          "frequence_coran": 14,
+          "auto": true
+        },
+        {
+          "ar": "كُنتُ",
+          "translit": "kuntu",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360,
+          "auto": true
+        },
+        {
+          "ar": "تُرَٰبًا",
+          "translit": "turābā",
+          "fr": "poussière",
+          "racine": "ت-ر-ب",
+          "frequence_coran": 22,
+          "auto": true
         }
       ],
       "analyse_globale": "Yā laytanī kuntu turābā : 'que ne suis-je poussière !' — le dernier mot de la sourate. Celui qui niait de devoir renaître de la poussière suppliera d'y retourner pour toujours. La boucle est bouclée : la Grande Nouvelle contestée (v.1-3) est devenue la Grande Évidence.",

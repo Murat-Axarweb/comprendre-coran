@@ -92,7 +92,16 @@ const S079 = {
           "texte": "Yüzüp yüzüp gidenlere and olsun"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "سَبْحًا",
+          "translit": "sabḥan",
+          "fr": "glorifier",
+          "racine": "س-ب-ح",
+          "frequence_coran": 47,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -113,7 +122,16 @@ const S079 = {
           "texte": "Yarıştıkça yarışan ve işleri yöneten meleklere and olsun"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "سَبْقًا",
+          "translit": "sabqan",
+          "fr": "devancer",
+          "racine": "س-ب-ق",
+          "frequence_coran": 37,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -141,7 +159,16 @@ const S079 = {
           "texte": "Yarıştıkça yarışan ve işleri yöneten meleklere and olsun"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "أَمْرًا",
+          "translit": "amran",
+          "fr": "ordre",
+          "racine": "أ-م-ر",
+          "frequence_coran": 166,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -221,6 +248,14 @@ const S079 = {
       },
       "mots": [
         {
+          "ar": "قُلُوبٌ",
+          "translit": "qulūbun",
+          "fr": "cœur",
+          "racine": "ق-ل-ب",
+          "frequence_coran": 168,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",
           "fr": "ce jour-là",
@@ -248,7 +283,16 @@ const S079 = {
           "texte": "İnsanların gözleri yere döner"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "أَبْصَٰرُهَا",
+          "translit": "abṣāruhā",
+          "fr": "vue",
+          "racine": "ب-ص-ر",
+          "frequence_coran": 38,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -276,6 +320,14 @@ const S079 = {
           "fr": "ils disent",
           "racine": "ق-و-ل",
           "frequence_coran": 51
+        },
+        {
+          "ar": "أَءِنَّا",
+          "translit": "aʾinnā",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609,
+          "auto": true
         },
         {
           "ar": "فِي",
@@ -307,11 +359,27 @@ const S079 = {
       },
       "mots": [
         {
+          "ar": "أَءِذَا",
+          "translit": "aʾidhā",
+          "fr": "quand",
+          "racine": "particule temporelle",
+          "frequence_coran": 195,
+          "auto": true
+        },
+        {
           "ar": "كُنَّا",
           "translit": "kunnā",
           "fr": "nous étions",
           "racine": "ك-و-ن",
           "frequence_coran": 63
+        },
+        {
+          "ar": "عِظَٰمًا",
+          "translit": "ʿiẓāman",
+          "fr": "immense",
+          "racine": "ع-ظ-م",
+          "frequence_coran": 107,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -458,6 +526,14 @@ const S079 = {
           "frequence_coran": 66
         },
         {
+          "ar": "أَتَىٰكَ",
+          "translit": "atāka",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
           "ar": "حَدِيثُ",
           "translit": "ḥadīthu",
           "fr": "propos",
@@ -499,6 +575,14 @@ const S079 = {
           "fr": "quand",
           "racine": "particule temporelle",
           "frequence_coran": 156
+        },
+        {
+          "ar": "نَادَىٰهُ",
+          "translit": "nādāhu",
+          "fr": "appeler",
+          "racine": "ن-د-و",
+          "frequence_coran": 44,
+          "auto": true
         },
         {
           "ar": "رَبُّهُ",
@@ -543,6 +627,14 @@ const S079 = {
         }
       },
       "mots": [
+        {
+          "ar": "اذْهَبْ",
+          "translit": "idhhab",
+          "fr": "aller",
+          "racine": "ذ-ه-ب",
+          "frequence_coran": 7,
+          "auto": true
+        },
         {
           "ar": "إِلَىٰ",
           "translit": "ilā",
@@ -651,6 +743,14 @@ const S079 = {
       },
       "mots": [
         {
+          "ar": "وَأَهْدِيَكَ",
+          "translit": "waʾahdiyaka",
+          "fr": "guidance",
+          "racine": "ه-د-ي",
+          "frequence_coran": 46,
+          "auto": true
+        },
+        {
           "ar": "إِلَىٰ",
           "translit": "ilā",
           "fr": "vers",
@@ -663,6 +763,14 @@ const S079 = {
           "fr": "ton Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 116
+        },
+        {
+          "ar": "فَتَخْشَىٰ",
+          "translit": "fatakhshā",
+          "fr": "redouter (avec révérence)",
+          "racine": "خ-ش-ي",
+          "frequence_coran": 48,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -764,6 +872,14 @@ const S079 = {
           "fr": "tourner le dos",
           "racine": "د-ب-ر",
           "frequence_coran": 7
+        },
+        {
+          "ar": "يَسْعَىٰ",
+          "translit": "yasʿā",
+          "fr": "s'efforcer",
+          "racine": "س-ع-ي",
+          "frequence_coran": 30,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -868,6 +984,14 @@ const S079 = {
       },
       "mots": [
         {
+          "ar": "فَأَخَذَهُ",
+          "translit": "faʾakhadhahu",
+          "fr": "il a pris",
+          "racine": "أ-خ-ذ",
+          "frequence_coran": 38,
+          "auto": true
+        },
+        {
           "ar": "اللَّهُ",
           "translit": "llāhu",
           "fr": "Allah",
@@ -880,6 +1004,14 @@ const S079 = {
           "fr": "l’au-delà",
           "racine": "أ-خ-ر",
           "frequence_coran": 55
+        },
+        {
+          "ar": "وَالْأُولَىٰ",
+          "translit": "wal-ʾūlā",
+          "fr": "premier",
+          "racine": "أ-و-ل",
+          "frequence_coran": 82,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -937,6 +1069,14 @@ const S079 = {
           "fr": "pour celui qui",
           "racine": "لِ + مَنْ",
           "frequence_coran": 55
+        },
+        {
+          "ar": "يَخْشَىٰ",
+          "translit": "yakhshā",
+          "fr": "redouter (avec révérence)",
+          "racine": "خ-ش-ي",
+          "frequence_coran": 48,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -961,6 +1101,14 @@ const S079 = {
       },
       "mots": [
         {
+          "ar": "خَلْقًا",
+          "translit": "khalqan",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
+        },
+        {
           "ar": "أَمِ",
           "translit": "ami",
           "fr": "ou bien",
@@ -973,6 +1121,14 @@ const S079 = {
           "fr": "du ciel",
           "racine": "س-م-و",
           "frequence_coran": 81
+        },
+        {
+          "ar": "بَنَىٰهَا",
+          "translit": "banāhā",
+          "fr": "construire",
+          "racine": "ب-ن-ي",
+          "frequence_coran": 7,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1045,6 +1201,14 @@ const S079 = {
           "fr": "faire sortir",
           "racine": "خ-ر-ج",
           "frequence_coran": 99
+        },
+        {
+          "ar": "ضُحَىٰهَا",
+          "translit": "ḍuḥāhā",
+          "fr": "matinée claire",
+          "racine": "ض-ح-و",
+          "frequence_coran": 5,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1146,7 +1310,16 @@ const S079 = {
           "texte": "Dağları yerleştirmiştir"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَالْجِبَالَ",
+          "translit": "wal-jibāla",
+          "fr": "montagne",
+          "racine": "ج-ب-ل",
+          "frequence_coran": 39,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -1174,6 +1347,14 @@ const S079 = {
           "fr": "à vous",
           "racine": "لِ + كُمْ",
           "frequence_coran": 294
+        },
+        {
+          "ar": "وَلِأَنْعَٰمِكُمْ",
+          "translit": "waliʾanʿāmikum",
+          "fr": "oui",
+          "racine": "—",
+          "frequence_coran": 2,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1376,6 +1557,14 @@ const S079 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَءَاثَرَ",
+          "translit": "waʾāthara",
+          "fr": "trace",
+          "racine": "أ-ث-ر",
+          "frequence_coran": 8,
+          "auto": true
+        },
         {
           "ar": "الدُّنْيَا",
           "translit": "d-dunyā",
@@ -1598,6 +1787,14 @@ const S079 = {
       },
       "mots": [
         {
+          "ar": "يَسْـءَلُونَكَ",
+          "translit": "yasʾalūnaka",
+          "fr": "demander",
+          "racine": "س-أ-ل",
+          "frequence_coran": 95,
+          "auto": true
+        },
+        {
           "ar": "عَنِ",
           "translit": "ʿani",
           "fr": "de",
@@ -1725,6 +1922,14 @@ const S079 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "يَخْشَىٰهَا",
+          "translit": "yakhshāhā",
+          "fr": "redouter (avec révérence)",
+          "racine": "خ-ش-ي",
+          "frequence_coran": 48,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1782,6 +1987,14 @@ const S079 = {
           "fr": "ou",
           "racine": "particule de choix",
           "frequence_coran": 264
+        },
+        {
+          "ar": "ضُحَىٰهَا",
+          "translit": "ḍuḥāhā",
+          "fr": "matinée claire",
+          "racine": "ض-ح-و",
+          "frequence_coran": 5,
+          "auto": true
         }
       ],
       "analyse_globale": "Le raccourcissement rétrospectif du temps : toute une vie ramenée à 'un soir ou son matin'. La perception de la durée s'inverse au Jugement — thème récurrent (23:112-114) qui relativise l'attachement au monde d'ici-bas.",

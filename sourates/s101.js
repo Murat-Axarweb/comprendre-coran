@@ -166,6 +166,14 @@ const S101 = {
           "frequence_coran": 405
         },
         {
+          "ar": "يَكُونُ",
+          "translit": "yakūnu",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360,
+          "auto": true
+        },
+        {
           "ar": "النَّاسُ",
           "translit": "n-nāsu",
           "fr": "les gens",
@@ -194,7 +202,24 @@ const S101 = {
           "texte": "Dağlar, atılmış renkli yüne benzeyecekler"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَتَكُونُ",
+          "translit": "watakūnu",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360,
+          "auto": true
+        },
+        {
+          "ar": "الْجِبَالُ",
+          "translit": "l-jibālu",
+          "fr": "montagne",
+          "racine": "ج-ب-ل",
+          "frequence_coran": 39,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -229,6 +254,14 @@ const S101 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "مَوَٰزِينُهُ",
+          "translit": "mawāzīnuhū",
+          "fr": "balance",
+          "racine": "و-ز-ن",
+          "frequence_coran": 6,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -315,6 +348,14 @@ const S101 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "مَوَٰزِينُهُ",
+          "translit": "mawāzīnuhū",
+          "fr": "balance",
+          "racine": "و-ز-ن",
+          "frequence_coran": 6,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -337,7 +378,16 @@ const S101 = {
           "texte": "Onların yeri bir çukurdur"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "فَأُمُّهُ",
+          "translit": "faʾummuhū",
+          "fr": "ou bien",
+          "racine": "particule d’alternative",
+          "frequence_coran": 110,
+          "auto": true
+        }
+      ],
       "analyse_globale": "Fa-ummuhu hāwiya : littéralement 'sa mère sera l'abîme'. L'arabe appelle 'mère' le refuge ultime — là où l'on revient. Pour celui dont les œuvres ne pèsent rien, le seul giron qui reste est le gouffre : l'image la plus glaçante de la sourate tient dans ce mot maternel détourné.",
       "niveau_couche": 2
     },

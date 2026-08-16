@@ -129,6 +129,14 @@ const S041 = {
       },
       "mots": [
         {
+          "ar": "عَرَبِيًّا",
+          "translit": "ʿarabiyyan",
+          "fr": "arabe",
+          "racine": "ع-ر-ب",
+          "frequence_coran": 4,
+          "auto": true
+        },
+        {
           "ar": "لِّقَوْمٍ",
           "translit": "liqawmin",
           "fr": "pour un peuple",
@@ -172,6 +180,14 @@ const S041 = {
       },
       "mots": [
         {
+          "ar": "وَنَذِيرًا",
+          "translit": "wanadhīran",
+          "fr": "avertisseur",
+          "racine": "ن-ذ-ر",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
           "ar": "أَكْثَرُهُمْ",
           "translit": "aktharuhum",
           "fr": "la plupart d’entre eux",
@@ -191,6 +207,14 @@ const S041 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يَسْمَعُونَ",
+          "translit": "yasmaʿūna",
+          "fr": "entendre",
+          "racine": "س-م-ع",
+          "frequence_coran": 47,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -229,6 +253,14 @@ const S041 = {
           "frequence_coran": 61
         },
         {
+          "ar": "قُلُوبُنَا",
+          "translit": "qulūbunā",
+          "fr": "cœur",
+          "racine": "ق-ل-ب",
+          "frequence_coran": 168,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
@@ -241,6 +273,14 @@ const S041 = {
           "fr": "de ce que",
           "racine": "مِن + مَا",
           "frequence_coran": 111
+        },
+        {
+          "ar": "تَدْعُونَا",
+          "translit": "tadʿūnā",
+          "fr": "invoquer",
+          "racine": "د-ع-و",
+          "frequence_coran": 55,
+          "auto": true
         },
         {
           "ar": "إِلَيْهِ",
@@ -257,6 +297,14 @@ const S041 = {
           "frequence_coran": 4381
         },
         {
+          "ar": "ءَاذَانِنَا",
+          "translit": "ādhāninā",
+          "fr": "oreille",
+          "racine": "أ-ذ-ن",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "وَمِن",
           "translit": "wamin",
           "fr": "et celui qui",
@@ -264,11 +312,51 @@ const S041 = {
           "frequence_coran": 234
         },
         {
+          "ar": "بَيْنِنَا",
+          "translit": "bayninā",
+          "fr": "entre",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
+          "ar": "وَبَيْنِكَ",
+          "translit": "wabaynika",
+          "fr": "entre",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "حِجَابٌ",
           "translit": "ḥijābun",
           "fr": "voile",
           "racine": "ح-ج-ب",
           "frequence_coran": 5
+        },
+        {
+          "ar": "فَاعْمَلْ",
+          "translit": "faʿmal",
+          "fr": "il a fait",
+          "racine": "ع-م-ل",
+          "frequence_coran": 359,
+          "auto": true
+        },
+        {
+          "ar": "إِنَّنَا",
+          "translit": "innanā",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609,
+          "auto": true
+        },
+        {
+          "ar": "عَٰمِلُونَ",
+          "translit": "ʿāmilūna",
+          "fr": "il a fait",
+          "racine": "ع-م-ل",
+          "frequence_coran": 359,
+          "auto": true
         }
       ],
       "analyse_globale": "L'auto-diagnostic des récusants : cœurs sous akinna (enveloppes), oreilles lourdes, voile entre les deux camps. Trois barrières qu'ils revendiquent eux-mêmes — le refus se décrit comme imperméabilité choisie. Le v.44 y répondra en miroir : le même texte est guérison pour l'un, surdité pour l'autre. Le récepteur détermine la réception.",
@@ -329,6 +417,30 @@ const S041 = {
           "frequence_coran": 44
         },
         {
+          "ar": "مِّثْلُكُمْ",
+          "translit": "mithlukum",
+          "fr": "parabole",
+          "racine": "م-ث-ل",
+          "frequence_coran": 169,
+          "auto": true
+        },
+        {
+          "ar": "يُوحَىٰ",
+          "translit": "yūḥā",
+          "fr": "révéler",
+          "racine": "و-ح-ي",
+          "frequence_coran": 72,
+          "auto": true
+        },
+        {
+          "ar": "إِلَيَّ",
+          "translit": "ilayya",
+          "fr": "vers",
+          "racine": "particule",
+          "frequence_coran": 742,
+          "auto": true
+        },
+        {
           "ar": "أَنَّمَا",
           "translit": "annamā",
           "fr": "seulement",
@@ -341,6 +453,14 @@ const S041 = {
           "fr": "vers lui",
           "racine": "إِلَى + هُ",
           "frequence_coran": 76
+        },
+        {
+          "ar": "وَاسْتَغْفِرُوهُ",
+          "translit": "wastaghfirūhu",
+          "fr": "demander pardon",
+          "racine": "غ-ف-ر",
+          "frequence_coran": 8,
+          "auto": true
         },
         {
           "ar": "وَوَيْلٌ",
@@ -384,6 +504,14 @@ const S041 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يُؤْتُونَ",
+          "translit": "yuʾtūna",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
         },
         {
           "ar": "وَهُم",
@@ -500,6 +628,22 @@ const S041 = {
           "frequence_coran": 263
         },
         {
+          "ar": "أَئِنَّكُمْ",
+          "translit": "aʾinnakum",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609,
+          "auto": true
+        },
+        {
+          "ar": "لَتَكْفُرُونَ",
+          "translit": "latakfurūna",
+          "fr": "il a mécru",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 525,
+          "auto": true
+        },
+        {
           "ar": "بِالَّذِي",
           "translit": "billadhī",
           "fr": "celui qui",
@@ -526,6 +670,22 @@ const S041 = {
           "fr": "dans",
           "racine": "particule",
           "frequence_coran": 4381
+        },
+        {
+          "ar": "يَوْمَيْنِ",
+          "translit": "yawmayni",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405,
+          "auto": true
+        },
+        {
+          "ar": "وَتَجْعَلُونَ",
+          "translit": "watajʿalūna",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
         },
         {
           "ar": "لَهُ",
@@ -592,6 +752,14 @@ const S041 = {
           "frequence_coran": 3226
         },
         {
+          "ar": "فَوْقِهَا",
+          "translit": "fawqihā",
+          "fr": "au-dessus",
+          "racine": "ف-و-ق",
+          "frequence_coran": 42,
+          "auto": true
+        },
+        {
           "ar": "فِيهَا",
           "translit": "fīhā",
           "fr": "en elle",
@@ -620,11 +788,27 @@ const S041 = {
           "frequence_coran": 4
         },
         {
+          "ar": "أَيَّامٍ",
+          "translit": "ayyāmin",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405,
+          "auto": true
+        },
+        {
           "ar": "سَوَاءً",
           "translit": "sawāʾan",
           "fr": "égal",
           "racine": "س-و-ي",
           "frequence_coran": 27
+        },
+        {
+          "ar": "لِّلسَّائِلِينَ",
+          "translit": "lilssāʾilīna",
+          "fr": "mendiant",
+          "racine": "س-أ-ل",
+          "frequence_coran": 4,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -705,11 +889,43 @@ const S041 = {
           "frequence_coran": 461
         },
         {
+          "ar": "ائْتِيَا",
+          "translit": "ʾtiyā",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
           "ar": "أَوْ",
           "translit": "aw",
           "fr": "ou",
           "racine": "particule de choix",
           "frequence_coran": 264
+        },
+        {
+          "ar": "كَرْهًا",
+          "translit": "karhan",
+          "fr": "détester",
+          "racine": "ك-ر-ه",
+          "frequence_coran": 41,
+          "auto": true
+        },
+        {
+          "ar": "قَالَتَا",
+          "translit": "qālatā",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722,
+          "auto": true
+        },
+        {
+          "ar": "أَتَيْنَا",
+          "translit": "ataynā",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -734,6 +950,14 @@ const S041 = {
       },
       "mots": [
         {
+          "ar": "فَقَضَىٰهُنَّ",
+          "translit": "faqaḍāhunna",
+          "fr": "décréter",
+          "racine": "ق-ض-ي",
+          "frequence_coran": 63,
+          "auto": true
+        },
+        {
           "ar": "سَبْعَ",
           "translit": "sabʿa",
           "fr": "sept",
@@ -741,11 +965,27 @@ const S041 = {
           "frequence_coran": 8
         },
         {
+          "ar": "سَمَٰوَاتٍ",
+          "translit": "samāwātin",
+          "fr": "ciel",
+          "racine": "س-م-و",
+          "frequence_coran": 310,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
           "racine": "particule",
           "frequence_coran": 4381
+        },
+        {
+          "ar": "يَوْمَيْنِ",
+          "translit": "yawmayni",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405,
+          "auto": true
         },
         {
           "ar": "وَأَوْحَىٰ",
@@ -774,6 +1014,14 @@ const S041 = {
           "fr": "ciel",
           "racine": "س-م-و",
           "frequence_coran": 310
+        },
+        {
+          "ar": "أَمْرَهَا",
+          "translit": "amrahā",
+          "fr": "ordre",
+          "racine": "أ-م-ر",
+          "frequence_coran": 166,
+          "auto": true
         },
         {
           "ar": "السَّمَاءَ",
@@ -847,11 +1095,27 @@ const S041 = {
           "frequence_coran": 263
         },
         {
+          "ar": "صَٰعِقَةً",
+          "translit": "ṣāʿiqatan",
+          "fr": "foudre",
+          "racine": "ص-ع-ق",
+          "frequence_coran": 6,
+          "auto": true
+        },
+        {
           "ar": "مِّثْلَ",
           "translit": "mithla",
           "fr": "parabole",
           "racine": "م-ث-ل",
           "frequence_coran": 169
+        },
+        {
+          "ar": "صَٰعِقَةِ",
+          "translit": "ṣāʿiqati",
+          "fr": "foudre",
+          "racine": "ص-ع-ق",
+          "frequence_coran": 6,
+          "auto": true
         },
         {
           "ar": "عَادٍ",
@@ -897,6 +1161,14 @@ const S041 = {
           "frequence_coran": 156
         },
         {
+          "ar": "الرُّسُلُ",
+          "translit": "r-rusulu",
+          "fr": "messager",
+          "racine": "ر-س-ل",
+          "frequence_coran": 332,
+          "auto": true
+        },
+        {
           "ar": "مِن",
           "translit": "min",
           "fr": "de",
@@ -911,6 +1183,14 @@ const S041 = {
           "frequence_coran": 70
         },
         {
+          "ar": "أَيْدِيهِمْ",
+          "translit": "aydīhim",
+          "fr": "main",
+          "racine": "ي-د-ي",
+          "frequence_coran": 120,
+          "auto": true
+        },
+        {
           "ar": "وَمِنْ",
           "translit": "wamin",
           "fr": "et celui qui",
@@ -918,11 +1198,27 @@ const S041 = {
           "frequence_coran": 234
         },
         {
+          "ar": "خَلْفِهِمْ",
+          "translit": "khalfihim",
+          "fr": "derrière",
+          "racine": "خ-ل-ف",
+          "frequence_coran": 22,
+          "auto": true
+        },
+        {
           "ar": "أَلَّا",
           "translit": "allā",
           "fr": "sauf",
           "racine": "particule d’exception",
           "frequence_coran": 662
+        },
+        {
+          "ar": "تَعْبُدُواْ",
+          "translit": "taʿbudū",
+          "fr": "serviteur",
+          "racine": "ع-ب-د",
+          "frequence_coran": 40,
+          "auto": true
         },
         {
           "ar": "إِلَّا",
@@ -972,6 +1268,14 @@ const S041 = {
           "fr": "il a été descendu",
           "racine": "ن-ز-ل",
           "frequence_coran": 47
+        },
+        {
+          "ar": "مَلَـٰئِكَةً",
+          "translit": "malāʾikatan",
+          "fr": "royauté",
+          "racine": "م-ل-ك",
+          "frequence_coran": 48,
+          "auto": true
         },
         {
           "ar": "فَإِنَّا",
@@ -1031,6 +1335,14 @@ const S041 = {
           "frequence_coran": 24
         },
         {
+          "ar": "فَاسْتَكْبَرُواْ",
+          "translit": "fastakbarū",
+          "fr": "s'enorgueillir",
+          "racine": "ك-ب-ر",
+          "frequence_coran": 48,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
@@ -1087,6 +1399,14 @@ const S041 = {
           "frequence_coran": 33
         },
         {
+          "ar": "أَوَلَمْ",
+          "translit": "awalam",
+          "fr": "ne... pas",
+          "racine": "particule de négation",
+          "frequence_coran": 163,
+          "auto": true
+        },
+        {
           "ar": "أَنَّ",
           "translit": "anna",
           "fr": "certes",
@@ -1106,6 +1426,14 @@ const S041 = {
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "خَلَقَهُمْ",
+          "translit": "khalaqahum",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
         },
         {
           "ar": "هُوَ",
@@ -1134,6 +1462,14 @@ const S041 = {
           "fr": "ils étaient",
           "racine": "ك-و-ن",
           "frequence_coran": 229
+        },
+        {
+          "ar": "يَجْحَدُونَ",
+          "translit": "yajḥadūna",
+          "fr": "nier (contre l'évidence)",
+          "racine": "ج-ح-د",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1172,11 +1508,27 @@ const S041 = {
           "frequence_coran": 183
         },
         {
+          "ar": "رِيحًا",
+          "translit": "rīḥan",
+          "fr": "vent",
+          "racine": "ر-و-ح",
+          "frequence_coran": 29,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
           "racine": "particule",
           "frequence_coran": 4381
+        },
+        {
+          "ar": "أَيَّامٍ",
+          "translit": "ayyāmin",
+          "fr": "jour",
+          "racine": "ي-و-م",
+          "frequence_coran": 405,
+          "auto": true
         },
         {
           "ar": "عَذَابَ",
@@ -1200,6 +1552,14 @@ const S041 = {
           "frequence_coran": 115
         },
         {
+          "ar": "وَلَعَذَابُ",
+          "translit": "walaʿadhābu",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373,
+          "auto": true
+        },
+        {
           "ar": "الْأخِرَةِ",
           "translit": "l-ʾkhirati",
           "fr": "l’au-delà",
@@ -1219,6 +1579,14 @@ const S041 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يُنصَرُونَ",
+          "translit": "yunṣarūna",
+          "fr": "secourir",
+          "racine": "ن-ص-ر",
+          "frequence_coran": 60,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1257,6 +1625,14 @@ const S041 = {
           "frequence_coran": 26
         },
         {
+          "ar": "فَهَدَيْنَٰهُمْ",
+          "translit": "fahadaynāhum",
+          "fr": "guidance",
+          "racine": "ه-د-ي",
+          "frequence_coran": 46,
+          "auto": true
+        },
+        {
           "ar": "عَلَى",
           "translit": "ʿalā",
           "fr": "sur",
@@ -1269,6 +1645,22 @@ const S041 = {
           "fr": "guidance",
           "racine": "ه-د-ي",
           "frequence_coran": 46
+        },
+        {
+          "ar": "فَأَخَذَتْهُمْ",
+          "translit": "faʾakhadhathum",
+          "fr": "il a pris",
+          "racine": "أ-خ-ذ",
+          "frequence_coran": 38,
+          "auto": true
+        },
+        {
+          "ar": "صَٰعِقَةُ",
+          "translit": "ṣāʿiqatu",
+          "fr": "foudre",
+          "racine": "ص-ع-ق",
+          "frequence_coran": 6,
+          "auto": true
         },
         {
           "ar": "الْعَذَابِ",
@@ -1290,6 +1682,14 @@ const S041 = {
           "fr": "ils étaient",
           "racine": "ك-و-ن",
           "frequence_coran": 229
+        },
+        {
+          "ar": "يَكْسِبُونَ",
+          "translit": "yaksibūna",
+          "fr": "acquérir",
+          "racine": "ك-س-ب",
+          "frequence_coran": 62,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1314,6 +1714,14 @@ const S041 = {
       },
       "mots": [
         {
+          "ar": "وَنَجَّيْنَا",
+          "translit": "wanajjaynā",
+          "fr": "sauver",
+          "racine": "ن-ج-و",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "الَّذِينَ",
           "translit": "lladhīna",
           "fr": "ceux qui",
@@ -1326,6 +1734,14 @@ const S041 = {
           "fr": "ils étaient",
           "racine": "ك-و-ن",
           "frequence_coran": 229
+        },
+        {
+          "ar": "يَتَّقُونَ",
+          "translit": "yattaqūna",
+          "fr": "craindre pieusement",
+          "racine": "و-ق-ي",
+          "frequence_coran": 74,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1355,6 +1771,22 @@ const S041 = {
           "fr": "et le jour où",
           "racine": "و + ي-و-م",
           "frequence_coran": 44
+        },
+        {
+          "ar": "يُحْشَرُ",
+          "translit": "yuḥsharu",
+          "fr": "rassembler (pour le Jugement)",
+          "racine": "ح-ش-ر",
+          "frequence_coran": 43,
+          "auto": true
+        },
+        {
+          "ar": "أَعْدَاءُ",
+          "translit": "aʿdāʾu",
+          "fr": "ennemi",
+          "racine": "ع-د-و",
+          "frequence_coran": 53,
+          "auto": true
         },
         {
           "ar": "اللَّهِ",
@@ -1442,6 +1874,22 @@ const S041 = {
           "frequence_coran": 183
         },
         {
+          "ar": "سَمْعُهُمْ",
+          "translit": "samʿuhum",
+          "fr": "entendre",
+          "racine": "س-م-ع",
+          "frequence_coran": 47,
+          "auto": true
+        },
+        {
+          "ar": "وَأَبْصَٰرُهُمْ",
+          "translit": "waʾabṣāruhum",
+          "fr": "vue",
+          "racine": "ب-ص-ر",
+          "frequence_coran": 38,
+          "auto": true
+        },
+        {
           "ar": "بِمَا",
           "translit": "bimā",
           "fr": "par ce que",
@@ -1499,6 +1947,14 @@ const S041 = {
           "frequence_coran": 163
         },
         {
+          "ar": "شَهِدتُّمْ",
+          "translit": "shahidtum",
+          "fr": "témoigner",
+          "racine": "ش-ه-د",
+          "frequence_coran": 5,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْنَا",
           "translit": "ʿalaynā",
           "fr": "sur nous",
@@ -1548,6 +2004,14 @@ const S041 = {
           "frequence_coran": 171
         },
         {
+          "ar": "خَلَقَكُمْ",
+          "translit": "khalaqakum",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
+        },
+        {
           "ar": "أَوَّلَ",
           "translit": "awwala",
           "fr": "premier",
@@ -1560,6 +2024,14 @@ const S041 = {
           "fr": "vers lui",
           "racine": "إِلَى + هُ",
           "frequence_coran": 76
+        },
+        {
+          "ar": "تُرْجَعُونَ",
+          "translit": "turjaʿūna",
+          "fr": "revenir",
+          "racine": "ر-ج-ع",
+          "frequence_coran": 79,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1605,6 +2077,14 @@ const S041 = {
           "frequence_coran": 609
         },
         {
+          "ar": "يَشْهَدَ",
+          "translit": "yashhada",
+          "fr": "témoigner",
+          "racine": "ش-ه-د",
+          "frequence_coran": 5,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْكُمْ",
           "translit": "ʿalaykum",
           "fr": "sur vous",
@@ -1612,11 +2092,27 @@ const S041 = {
           "frequence_coran": 146
         },
         {
+          "ar": "سَمْعُكُمْ",
+          "translit": "samʿukum",
+          "fr": "entendre",
+          "racine": "س-م-ع",
+          "frequence_coran": 47,
+          "auto": true
+        },
+        {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et ne... pas",
           "racine": "و + لَا",
           "frequence_coran": 658
+        },
+        {
+          "ar": "أَبْصَٰرُكُمْ",
+          "translit": "abṣārukum",
+          "fr": "vue",
+          "racine": "ب-ص-ر",
+          "frequence_coran": 38,
+          "auto": true
         },
         {
           "ar": "وَلَا",
@@ -1631,6 +2127,14 @@ const S041 = {
           "fr": "mais",
           "racine": "و + لَكِنْ",
           "frequence_coran": 57
+        },
+        {
+          "ar": "ظَنَنتُمْ",
+          "translit": "ẓanantum",
+          "fr": "penser",
+          "racine": "ظ-ن-ن",
+          "frequence_coran": 69,
+          "auto": true
         },
         {
           "ar": "أَنَّ",
@@ -1704,11 +2208,35 @@ const S041 = {
       },
       "mots": [
         {
+          "ar": "وَذَٰلِكُمْ",
+          "translit": "wadhālikum",
+          "fr": "cela",
+          "racine": "pronom démonstratif",
+          "frequence_coran": 280,
+          "auto": true
+        },
+        {
+          "ar": "ظَنُّكُمُ",
+          "translit": "ẓannukumu",
+          "fr": "penser",
+          "racine": "ظ-ن-ن",
+          "frequence_coran": 69,
+          "auto": true
+        },
+        {
           "ar": "الَّذِي",
           "translit": "lladhī",
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "ظَنَنتُم",
+          "translit": "ẓanantum",
+          "fr": "penser",
+          "racine": "ظ-ن-ن",
+          "frequence_coran": 69,
+          "auto": true
         },
         {
           "ar": "بِرَبِّكُمْ",
@@ -1752,6 +2280,14 @@ const S041 = {
           "fr": "alors si",
           "racine": "ف + إِنْ",
           "frequence_coran": 89
+        },
+        {
+          "ar": "يَصْبِرُواْ",
+          "translit": "yaṣbirū",
+          "fr": "il a patienté",
+          "racine": "ص-ب-ر",
+          "frequence_coran": 103,
+          "auto": true
         },
         {
           "ar": "فَالنَّارُ",
@@ -1825,6 +2361,14 @@ const S041 = {
           "frequence_coran": 325
         },
         {
+          "ar": "قُرَنَاءَ",
+          "translit": "quranāʾa",
+          "fr": "compagnon inséparable",
+          "racine": "ق-ر-ن",
+          "frequence_coran": 5,
+          "auto": true
+        },
+        {
           "ar": "لَهُم",
           "translit": "lahum",
           "fr": "à eux",
@@ -1846,11 +2390,27 @@ const S041 = {
           "frequence_coran": 70
         },
         {
+          "ar": "أَيْدِيهِمْ",
+          "translit": "aydīhim",
+          "fr": "main",
+          "racine": "ي-د-ي",
+          "frequence_coran": 120,
+          "auto": true
+        },
+        {
           "ar": "وَمَا",
           "translit": "wamā",
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "خَلْفَهُمْ",
+          "translit": "khalfahum",
+          "fr": "derrière",
+          "racine": "خ-ل-ف",
+          "frequence_coran": 22,
+          "auto": true
         },
         {
           "ar": "وَحَقَّ",
@@ -1881,6 +2441,14 @@ const S041 = {
           "frequence_coran": 4381
         },
         {
+          "ar": "أُمَمٍ",
+          "translit": "umamin",
+          "fr": "communauté",
+          "racine": "أ-م-م",
+          "frequence_coran": 64,
+          "auto": true
+        },
+        {
           "ar": "قَدْ",
           "translit": "qad",
           "fr": "déjà",
@@ -1893,6 +2461,14 @@ const S041 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "قَبْلِهِم",
+          "translit": "qablihim",
+          "fr": "avant",
+          "racine": "ق-ب-ل",
+          "frequence_coran": 70,
+          "auto": true
         },
         {
           "ar": "مِّنَ",
@@ -1980,6 +2556,14 @@ const S041 = {
           "frequence_coran": 812
         },
         {
+          "ar": "تَسْمَعُواْ",
+          "translit": "tasmaʿū",
+          "fr": "entendre",
+          "racine": "س-م-ع",
+          "frequence_coran": 47,
+          "auto": true
+        },
+        {
           "ar": "لِهَٰذَا",
           "translit": "lihādhā",
           "fr": "ceci",
@@ -1999,6 +2583,14 @@ const S041 = {
           "fr": "afin que vous",
           "racine": "particule d’espérance / finalité",
           "frequence_coran": 59
+        },
+        {
+          "ar": "تَغْلِبُونَ",
+          "translit": "taghlibūna",
+          "fr": "vaincre",
+          "racine": "غ-ل-ب",
+          "frequence_coran": 15,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2035,6 +2627,30 @@ const S041 = {
           "fr": "ils ont mécru",
           "racine": "ك-ف-ر",
           "frequence_coran": 189
+        },
+        {
+          "ar": "عَذَابًا",
+          "translit": "ʿadhāban",
+          "fr": "châtiment",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 373,
+          "auto": true
+        },
+        {
+          "ar": "شَدِيدًا",
+          "translit": "shadīdan",
+          "fr": "intense",
+          "racine": "ش-د-د",
+          "frequence_coran": 52,
+          "auto": true
+        },
+        {
+          "ar": "وَلَنَجْزِيَنَّهُمْ",
+          "translit": "walanajziyannahum",
+          "fr": "rétribuer",
+          "racine": "ج-ز-ي",
+          "frequence_coran": 73,
+          "auto": true
         },
         {
           "ar": "الَّذِي",
@@ -2092,6 +2708,14 @@ const S041 = {
           "fr": "rétribution",
           "racine": "ج-ز-ي",
           "frequence_coran": 42
+        },
+        {
+          "ar": "أَعْدَاءِ",
+          "translit": "aʿdāʾi",
+          "fr": "ennemi",
+          "racine": "ع-د-و",
+          "frequence_coran": 53,
+          "auto": true
         },
         {
           "ar": "اللَّهِ",
@@ -2155,6 +2779,14 @@ const S041 = {
           "fr": "ils étaient",
           "racine": "ك-و-ن",
           "frequence_coran": 229
+        },
+        {
+          "ar": "يَجْحَدُونَ",
+          "translit": "yajḥadūna",
+          "fr": "nier (contre l'évidence)",
+          "racine": "ج-ح-د",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2235,11 +2867,35 @@ const S041 = {
           "frequence_coran": 18
         },
         {
+          "ar": "نَجْعَلْهُمَا",
+          "translit": "najʿalhumā",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
           "ar": "تَحْتَ",
           "translit": "taḥta",
           "fr": "sous",
           "racine": "ت-ح-ت",
           "frequence_coran": 51
+        },
+        {
+          "ar": "أَقْدَامِنَا",
+          "translit": "aqdāminā",
+          "fr": "avancer",
+          "racine": "ق-د-م",
+          "frequence_coran": 7,
+          "auto": true
+        },
+        {
+          "ar": "لِيَكُونَا",
+          "translit": "liyakūnā",
+          "fr": "il était",
+          "racine": "ك-و-ن",
+          "frequence_coran": 1360,
+          "auto": true
         },
         {
           "ar": "مِنَ",
@@ -2320,6 +2976,14 @@ const S041 = {
           "frequence_coran": 183
         },
         {
+          "ar": "الْمَلَـٰئِكَةُ",
+          "translit": "l-malāʾikatu",
+          "fr": "royauté",
+          "racine": "م-ل-ك",
+          "frequence_coran": 48,
+          "auto": true
+        },
+        {
           "ar": "أَلَّا",
           "translit": "allā",
           "fr": "sauf",
@@ -2353,6 +3017,14 @@ const S041 = {
           "fr": "vous étiez",
           "racine": "ك-و-ن",
           "frequence_coran": 188
+        },
+        {
+          "ar": "تُوعَدُونَ",
+          "translit": "tūʿadūna",
+          "fr": "promettre",
+          "racine": "و-ع-د",
+          "frequence_coran": 7,
+          "auto": true
         }
       ],
       "analyse_globale": "Qālū rabbunā Llāhu thumma staqāmū : dire « notre Seigneur est Allah » PUIS tenir droit — le thumma (puis) porte tout le poids : la profession dure une seconde, l'istiqāma dure une vie. La récompense est le message angélique aux deux interdits du cœur : lā takhāfū (peur du futur), lā taḥzanū (tristesse du passé).",
@@ -2390,6 +3062,14 @@ const S041 = {
           "fr": "nous",
           "racine": "pronom personnel",
           "frequence_coran": 65
+        },
+        {
+          "ar": "أَوْلِيَاؤُكُمْ",
+          "translit": "awliyāʾukum",
+          "fr": "allié",
+          "racine": "و-ل-ي",
+          "frequence_coran": 86,
+          "auto": true
         },
         {
           "ar": "فِي",
@@ -2439,6 +3119,14 @@ const S041 = {
           "fr": "ce que",
           "racine": "particule",
           "frequence_coran": 1010
+        },
+        {
+          "ar": "أَنفُسُكُمْ",
+          "translit": "anfusukum",
+          "fr": "âme",
+          "racine": "ن-ف-س",
+          "frequence_coran": 298,
+          "auto": true
         },
         {
           "ar": "وَلَكُمْ",
@@ -2548,6 +3236,22 @@ const S041 = {
           "frequence_coran": 33
         },
         {
+          "ar": "قَوْلًا",
+          "translit": "qawlan",
+          "fr": "parole",
+          "racine": "ق-و-ل",
+          "frequence_coran": 92,
+          "auto": true
+        },
+        {
+          "ar": "مِّمَّن",
+          "translit": "mimman",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226,
+          "auto": true
+        },
+        {
           "ar": "دَعَا",
           "translit": "daʿā",
           "fr": "invoquer",
@@ -2583,11 +3287,27 @@ const S041 = {
           "frequence_coran": 85
         },
         {
+          "ar": "إِنَّنِي",
+          "translit": "innanī",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609,
+          "auto": true
+        },
+        {
           "ar": "مِنَ",
           "translit": "mina",
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "الْمُسْلِمِينَ",
+          "translit": "l-muslimīna",
+          "fr": "soumis (à Dieu)",
+          "racine": "س-ل-م",
+          "frequence_coran": 8,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2640,6 +3360,14 @@ const S041 = {
           "frequence_coran": 36
         },
         {
+          "ar": "ادْفَعْ",
+          "translit": "dfaʿ",
+          "fr": "repousser",
+          "racine": "د-ف-ع",
+          "frequence_coran": 10,
+          "auto": true
+        },
+        {
           "ar": "بِالَّتِي",
           "translit": "billatī",
           "fr": "celle qui",
@@ -2673,6 +3401,22 @@ const S041 = {
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "بَيْنَكَ",
+          "translit": "baynaka",
+          "fr": "entre",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
+          "ar": "وَبَيْنَهُ",
+          "translit": "wabaynahū",
+          "fr": "entre",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 70,
+          "auto": true
         },
         {
           "ar": "كَأَنَّهُ",
@@ -2726,6 +3470,14 @@ const S041 = {
           "frequence_coran": 646
         },
         {
+          "ar": "يُلَقَّىٰهَا",
+          "translit": "yulaqqāhā",
+          "fr": "rencontrer",
+          "racine": "ل-ق-ي",
+          "frequence_coran": 45,
+          "auto": true
+        },
+        {
           "ar": "إِلَّا",
           "translit": "illā",
           "fr": "sauf",
@@ -2740,11 +3492,27 @@ const S041 = {
           "frequence_coran": 810
         },
         {
+          "ar": "صَبَرُواْ",
+          "translit": "ṣabarū",
+          "fr": "il a patienté",
+          "racine": "ص-ب-ر",
+          "frequence_coran": 103,
+          "auto": true
+        },
+        {
           "ar": "وَمَا",
           "translit": "wamā",
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "يُلَقَّىٰهَا",
+          "translit": "yulaqqāhā",
+          "fr": "rencontrer",
+          "racine": "ل-ق-ي",
+          "frequence_coran": 45,
+          "auto": true
         },
         {
           "ar": "إِلَّا",
@@ -2896,6 +3664,14 @@ const S041 = {
           "frequence_coran": 812
         },
         {
+          "ar": "تَسْجُدُواْ",
+          "translit": "tasjudū",
+          "fr": "se prosterner",
+          "racine": "س-ج-د",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "لِلشَّمْسِ",
           "translit": "lilshshamsi",
           "fr": "soleil",
@@ -2917,6 +3693,14 @@ const S041 = {
           "frequence_coran": 27
         },
         {
+          "ar": "وَاسْجُدُواْ",
+          "translit": "wasjudū",
+          "fr": "se prosterner",
+          "racine": "س-ج-د",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "لِلَّهِ",
           "translit": "lillāhi",
           "fr": "à Allah",
@@ -2931,6 +3715,14 @@ const S041 = {
           "frequence_coran": 1464
         },
         {
+          "ar": "خَلَقَهُنَّ",
+          "translit": "khalaqahunna",
+          "fr": "il a créé",
+          "racine": "خ-ل-ق",
+          "frequence_coran": 261,
+          "auto": true
+        },
+        {
           "ar": "إِن",
           "translit": "in",
           "fr": "certes",
@@ -2943,6 +3735,14 @@ const S041 = {
           "fr": "vous étiez",
           "racine": "ك-و-ن",
           "frequence_coran": 188
+        },
+        {
+          "ar": "تَعْبُدُونَ",
+          "translit": "taʿbudūna",
+          "fr": "serviteur",
+          "racine": "ع-ب-د",
+          "frequence_coran": 40,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2974,6 +3774,14 @@ const S041 = {
           "frequence_coran": 89
         },
         {
+          "ar": "اسْتَكْبَرُواْ",
+          "translit": "stakbarū",
+          "fr": "s'enorgueillir",
+          "racine": "ك-ب-ر",
+          "frequence_coran": 48,
+          "auto": true
+        },
+        {
           "ar": "فَالَّذِينَ",
           "translit": "falladhīna",
           "fr": "ceux qui",
@@ -2993,6 +3801,14 @@ const S041 = {
           "fr": "ton Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 116
+        },
+        {
+          "ar": "يُسَبِّحُونَ",
+          "translit": "yusabbiḥūna",
+          "fr": "glorifier",
+          "racine": "س-ب-ح",
+          "frequence_coran": 47,
+          "auto": true
         },
         {
           "ar": "لَهُ",
@@ -3073,6 +3889,14 @@ const S041 = {
           "frequence_coran": 86
         },
         {
+          "ar": "أَنزَلْنَا",
+          "translit": "anzalnā",
+          "fr": "il a été descendu",
+          "racine": "ن-ز-ل",
+          "frequence_coran": 47,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْهَا",
           "translit": "ʿalayhā",
           "fr": "sur elle",
@@ -3099,6 +3923,14 @@ const S041 = {
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "أَحْيَاهَا",
+          "translit": "aḥyāhā",
+          "fr": "faire vivre",
+          "racine": "ح-ي-ي",
+          "frequence_coran": 51,
+          "auto": true
         },
         {
           "ar": "إِنَّهُ",
@@ -3193,6 +4025,22 @@ const S041 = {
           "frequence_coran": 51
         },
         {
+          "ar": "أَفَمَن",
+          "translit": "afaman",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226,
+          "auto": true
+        },
+        {
+          "ar": "يُلْقَىٰ",
+          "translit": "yulqā",
+          "fr": "jeter",
+          "racine": "ل-ق-ي",
+          "frequence_coran": 71,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
@@ -3228,11 +4076,27 @@ const S041 = {
           "frequence_coran": 3226
         },
         {
+          "ar": "يَأْتِي",
+          "translit": "yaʾtī",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَ",
           "translit": "yawma",
           "fr": "jour",
           "racine": "ي-و-م",
           "frequence_coran": 405
+        },
+        {
+          "ar": "اعْمَلُواْ",
+          "translit": "ʿmalū",
+          "fr": "il a fait",
+          "racine": "ع-م-ل",
+          "frequence_coran": 359,
+          "auto": true
         },
         {
           "ar": "مَا",
@@ -3370,6 +4234,14 @@ const S041 = {
           "frequence_coran": 812
         },
         {
+          "ar": "يَأْتِيهِ",
+          "translit": "yaʾtīhi",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
           "ar": "مِن",
           "translit": "min",
           "fr": "de",
@@ -3384,6 +4256,14 @@ const S041 = {
           "frequence_coran": 70
         },
         {
+          "ar": "يَدَيْهِ",
+          "translit": "yadayhi",
+          "fr": "main",
+          "racine": "ي-د-ي",
+          "frequence_coran": 120,
+          "auto": true
+        },
+        {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et ne... pas",
@@ -3396,6 +4276,14 @@ const S041 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "خَلْفِهِ",
+          "translit": "khalfihī",
+          "fr": "derrière",
+          "racine": "خ-ل-ف",
+          "frequence_coran": 22,
+          "auto": true
         },
         {
           "ar": "تَنزِيلٌ",
@@ -3455,6 +4343,14 @@ const S041 = {
           "frequence_coran": 1010
         },
         {
+          "ar": "يُقَالُ",
+          "translit": "yuqālu",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722,
+          "auto": true
+        },
+        {
           "ar": "لَكَ",
           "translit": "laka",
           "fr": "à toi",
@@ -3483,11 +4379,35 @@ const S041 = {
           "frequence_coran": 120
         },
         {
+          "ar": "قِيلَ",
+          "translit": "qīla",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722,
+          "auto": true
+        },
+        {
+          "ar": "لِلرُّسُلِ",
+          "translit": "lilrrusuli",
+          "fr": "messager",
+          "racine": "ر-س-ل",
+          "frequence_coran": 332,
+          "auto": true
+        },
+        {
           "ar": "مِن",
           "translit": "min",
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "قَبْلِكَ",
+          "translit": "qablika",
+          "fr": "avant",
+          "racine": "ق-ب-ل",
+          "frequence_coran": 70,
+          "auto": true
         },
         {
           "ar": "إِنَّ",
@@ -3538,6 +4458,14 @@ const S041 = {
           "fr": "et si",
           "racine": "و + لَوْ",
           "frequence_coran": 108
+        },
+        {
+          "ar": "جَعَلْنَٰهُ",
+          "translit": "jaʿalnāhu",
+          "fr": "il a fait",
+          "racine": "ج-ع-ل",
+          "frequence_coran": 44,
+          "auto": true
         },
         {
           "ar": "لَّقَالُواْ",
@@ -3617,6 +4545,14 @@ const S041 = {
           "frequence_coran": 4381
         },
         {
+          "ar": "ءَاذَانِهِمْ",
+          "translit": "ādhānihim",
+          "fr": "oreille",
+          "racine": "أ-ذ-ن",
+          "frequence_coran": 8,
+          "auto": true
+        },
+        {
           "ar": "وَهُوَ",
           "translit": "wahuwa",
           "fr": "et Il",
@@ -3636,6 +4572,14 @@ const S041 = {
           "fr": "ceux-là",
           "racine": "pronom démonstratif",
           "frequence_coran": 133
+        },
+        {
+          "ar": "يُنَادَوْنَ",
+          "translit": "yunādawna",
+          "fr": "appeler",
+          "racine": "ن-د-و",
+          "frequence_coran": 44,
+          "auto": true
         },
         {
           "ar": "مِن",
@@ -3688,6 +4632,14 @@ const S041 = {
           "frequence_coran": 124
         },
         {
+          "ar": "ءَاتَيْنَا",
+          "translit": "ātaynā",
+          "fr": "donner",
+          "racine": "أ-ت-ي",
+          "frequence_coran": 90,
+          "auto": true
+        },
+        {
           "ar": "مُوسَى",
           "translit": "mūsā",
           "fr": "Moïse",
@@ -3716,6 +4668,14 @@ const S041 = {
           "frequence_coran": 42
         },
         {
+          "ar": "سَبَقَتْ",
+          "translit": "sabaqat",
+          "fr": "devancer",
+          "racine": "س-ب-ق",
+          "frequence_coran": 37,
+          "auto": true
+        },
+        {
           "ar": "مِن",
           "translit": "min",
           "fr": "de",
@@ -3728,6 +4688,14 @@ const S041 = {
           "fr": "ton Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 116
+        },
+        {
+          "ar": "لَقُضِيَ",
+          "translit": "laquḍiya",
+          "fr": "décréter",
+          "racine": "ق-ض-ي",
+          "frequence_coran": 63,
+          "auto": true
         },
         {
           "ar": "بَيْنَهُمْ",
@@ -3801,6 +4769,14 @@ const S041 = {
           "frequence_coran": 359
         },
         {
+          "ar": "فَلِنَفْسِهِ",
+          "translit": "falinafsihī",
+          "fr": "âme",
+          "racine": "ن-ف-س",
+          "frequence_coran": 298,
+          "auto": true
+        },
+        {
           "ar": "وَمَنْ",
           "translit": "waman",
           "fr": "et celui qui",
@@ -3834,6 +4810,14 @@ const S041 = {
           "fr": "injustice",
           "racine": "ظ-ل-م",
           "frequence_coran": 315
+        },
+        {
+          "ar": "لِّلْعَبِيدِ",
+          "translit": "lilʿabīdi",
+          "fr": "serviteur",
+          "racine": "ع-ب-د",
+          "frequence_coran": 40,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -3863,6 +4847,14 @@ const S041 = {
           "fr": "vers lui",
           "racine": "إِلَى + هُ",
           "frequence_coran": 76
+        },
+        {
+          "ar": "يُرَدُّ",
+          "translit": "yuraddu",
+          "fr": "rendre",
+          "racine": "ر-د-د",
+          "frequence_coran": 60,
+          "auto": true
         },
         {
           "ar": "عِلْمُ",
@@ -3907,6 +4899,14 @@ const S041 = {
           "frequence_coran": 646
         },
         {
+          "ar": "تَحْمِلُ",
+          "translit": "taḥmilu",
+          "fr": "porter",
+          "racine": "ح-م-ل",
+          "frequence_coran": 64,
+          "auto": true
+        },
+        {
           "ar": "مِنْ",
           "translit": "min",
           "fr": "de",
@@ -3921,6 +4921,14 @@ const S041 = {
           "frequence_coran": 658
         },
         {
+          "ar": "تَضَعُ",
+          "translit": "taḍaʿu",
+          "fr": "poser",
+          "racine": "و-ض-ع",
+          "frequence_coran": 26,
+          "auto": true
+        },
+        {
           "ar": "إِلَّا",
           "translit": "illā",
           "fr": "sauf",
@@ -3928,11 +4936,27 @@ const S041 = {
           "frequence_coran": 662
         },
         {
+          "ar": "بِعِلْمِهِ",
+          "translit": "biʿilmihī",
+          "fr": "savoir",
+          "racine": "ع-ل-م",
+          "frequence_coran": 105,
+          "auto": true
+        },
+        {
           "ar": "وَيَوْمَ",
           "translit": "wayawma",
           "fr": "et le jour où",
           "racine": "و + ي-و-م",
           "frequence_coran": 44
+        },
+        {
+          "ar": "يُنَادِيهِمْ",
+          "translit": "yunādīhim",
+          "fr": "appeler",
+          "racine": "ن-د-و",
+          "frequence_coran": 44,
+          "auto": true
         },
         {
           "ar": "أَيْنَ",
@@ -3947,6 +4971,14 @@ const S041 = {
           "fr": "ils ont dit",
           "racine": "ق-و-ل",
           "frequence_coran": 250
+        },
+        {
+          "ar": "مَامِنَّا",
+          "translit": "māminnā",
+          "fr": "ce que",
+          "racine": "particule",
+          "frequence_coran": 1010,
+          "auto": true
         },
         {
           "ar": "مِن",
@@ -4013,6 +5045,14 @@ const S041 = {
           "frequence_coran": 229
         },
         {
+          "ar": "يَدْعُونَ",
+          "translit": "yadʿūna",
+          "fr": "invoquer",
+          "racine": "د-ع-و",
+          "frequence_coran": 55,
+          "auto": true
+        },
+        {
           "ar": "مِن",
           "translit": "min",
           "fr": "de",
@@ -4025,6 +5065,14 @@ const S041 = {
           "fr": "avant",
           "racine": "ق-ب-ل",
           "frequence_coran": 70
+        },
+        {
+          "ar": "وَظَنُّواْ",
+          "translit": "waẓannū",
+          "fr": "penser",
+          "racine": "ظ-ن-ن",
+          "frequence_coran": 69,
+          "auto": true
         },
         {
           "ar": "مَا",
@@ -4105,6 +5153,14 @@ const S041 = {
           "frequence_coran": 170
         },
         {
+          "ar": "مَّسَّهُ",
+          "translit": "massahu",
+          "fr": "toucher",
+          "racine": "م-س-س",
+          "frequence_coran": 58,
+          "auto": true
+        },
+        {
           "ar": "الشَّرُّ",
           "translit": "sh-sharru",
           "fr": "mal",
@@ -4134,6 +5190,14 @@ const S041 = {
       },
       "mots": [
         {
+          "ar": "وَلَئِنْ",
+          "translit": "walaʾin",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609,
+          "auto": true
+        },
+        {
           "ar": "رَحْمَةً",
           "translit": "raḥmatan",
           "fr": "miséricorde",
@@ -4162,6 +5226,22 @@ const S041 = {
           "frequence_coran": 82
         },
         {
+          "ar": "مَسَّتْهُ",
+          "translit": "massathu",
+          "fr": "toucher",
+          "racine": "م-س-س",
+          "frequence_coran": 58,
+          "auto": true
+        },
+        {
+          "ar": "لَيَقُولَنَّ",
+          "translit": "layaqūlanna",
+          "fr": "il a dit",
+          "racine": "ق-و-ل",
+          "frequence_coran": 1722,
+          "auto": true
+        },
+        {
           "ar": "هَٰذَا",
           "translit": "hādhā",
           "fr": "ceci",
@@ -4183,11 +5263,35 @@ const S041 = {
           "frequence_coran": 646
         },
         {
+          "ar": "أَظُنُّ",
+          "translit": "aẓunnu",
+          "fr": "penser",
+          "racine": "ظ-ن-ن",
+          "frequence_coran": 69,
+          "auto": true
+        },
+        {
           "ar": "السَّاعَةَ",
           "translit": "s-sāʿata",
           "fr": "Heure (du Jugement)",
           "racine": "س-و-ع",
           "frequence_coran": 48
+        },
+        {
+          "ar": "وَلَئِن",
+          "translit": "walaʾin",
+          "fr": "certes",
+          "racine": "particule d’insistance",
+          "frequence_coran": 609,
+          "auto": true
+        },
+        {
+          "ar": "رُّجِعْتُ",
+          "translit": "rujiʿtu",
+          "fr": "revenir",
+          "racine": "ر-ج-ع",
+          "frequence_coran": 79,
+          "auto": true
         },
         {
           "ar": "إِلَىٰ",
@@ -4218,11 +5322,27 @@ const S041 = {
           "frequence_coran": 59
         },
         {
+          "ar": "عِندَهُ",
+          "translit": "ʿindahū",
+          "fr": "auprès de",
+          "racine": "adverbe / préposition",
+          "frequence_coran": 98,
+          "auto": true
+        },
+        {
           "ar": "لَلْحُسْنَىٰ",
           "translit": "lalḥusnā",
           "fr": "la plus belle (récompense)",
           "racine": "ح-س-ن",
           "frequence_coran": 9
+        },
+        {
+          "ar": "فَلَنُنَبِّئَنَّ",
+          "translit": "falanunabbiʾanna",
+          "fr": "nouvelle",
+          "racine": "ن-ب-أ",
+          "frequence_coran": 29,
+          "auto": true
         },
         {
           "ar": "الَّذِينَ",
@@ -4244,6 +5364,14 @@ const S041 = {
           "fr": "par ce que",
           "racine": "بِ + مَا",
           "frequence_coran": 296
+        },
+        {
+          "ar": "عَمِلُواْ",
+          "translit": "ʿamilū",
+          "fr": "il a fait",
+          "racine": "ع-م-ل",
+          "frequence_coran": 359,
+          "auto": true
         },
         {
           "ar": "مِّنْ",
@@ -4296,11 +5424,27 @@ const S041 = {
           "frequence_coran": 1430
         },
         {
+          "ar": "بِجَانِبِهِ",
+          "translit": "bijānibihī",
+          "fr": "côté",
+          "racine": "ج-ن-ب",
+          "frequence_coran": 10,
+          "auto": true
+        },
+        {
           "ar": "وَإِذَا",
           "translit": "waʾidhā",
           "fr": "et quand",
           "racine": "و + إِذَا",
           "frequence_coran": 130
+        },
+        {
+          "ar": "مَسَّهُ",
+          "translit": "massahu",
+          "fr": "toucher",
+          "racine": "م-س-س",
+          "frequence_coran": 58,
+          "auto": true
         },
         {
           "ar": "الشَّرُّ",
@@ -4388,6 +5532,14 @@ const S041 = {
           "frequence_coran": 337
         },
         {
+          "ar": "كَفَرْتُم",
+          "translit": "kafartum",
+          "fr": "il a mécru",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 525,
+          "auto": true
+        },
+        {
           "ar": "بِهِ",
           "translit": "bihī",
           "fr": "par lui",
@@ -4400,6 +5552,14 @@ const S041 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "مِمَّنْ",
+          "translit": "mimman",
+          "fr": "de",
+          "racine": "particule",
+          "frequence_coran": 3226,
+          "auto": true
         },
         {
           "ar": "هُوَ",
@@ -4492,6 +5652,14 @@ const S041 = {
           "fr": "la vérité",
           "racine": "ح-ق-ق",
           "frequence_coran": 48
+        },
+        {
+          "ar": "أَوَلَمْ",
+          "translit": "awalam",
+          "fr": "ne... pas",
+          "racine": "particule de négation",
+          "frequence_coran": 163,
+          "auto": true
         },
         {
           "ar": "بِرَبِّكَ",

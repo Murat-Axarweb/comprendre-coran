@@ -94,6 +94,14 @@ const S099 = {
       },
       "mots": [
         {
+          "ar": "وَأَخْرَجَتِ",
+          "translit": "waʾakhrajati",
+          "fr": "faire sortir",
+          "racine": "خ-ر-ج",
+          "frequence_coran": 99,
+          "auto": true
+        },
+        {
           "ar": "الْأَرْضُ",
           "translit": "l-ʾarḍu",
           "fr": "la terre",
@@ -286,6 +294,14 @@ const S099 = {
           "fr": "les gens",
           "racine": "ن-و-س / أ-ن-س",
           "frequence_coran": 92
+        },
+        {
+          "ar": "أَعْمَٰلَهُمْ",
+          "translit": "aʿmālahum",
+          "fr": "il a fait",
+          "racine": "ع-م-ل",
+          "frequence_coran": 359,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -317,11 +333,27 @@ const S099 = {
           "frequence_coran": 67
         },
         {
+          "ar": "يَعْمَلْ",
+          "translit": "yaʿmal",
+          "fr": "il a fait",
+          "racine": "ع-م-ل",
+          "frequence_coran": 359,
+          "auto": true
+        },
+        {
           "ar": "مِثْقَالَ",
           "translit": "mithqāla",
           "fr": "poids (d'un atome)",
           "racine": "ث-ق-ل",
           "frequence_coran": 7
+        },
+        {
+          "ar": "خَيْرًا",
+          "translit": "khayran",
+          "fr": "meilleur",
+          "racine": "خ-ي-ر",
+          "frequence_coran": 78,
+          "auto": true
         }
       ],
       "analyse_globale": "Fa-man yaʿmal mithqāla dharratin khayran yarah : le hadith rapporte qu'un homme hésitait à donner une datte en aumône, la trouvant trop peu. Ce verset répond d'avance : il n'existe pas de bien trop petit. La comptabilité divine n'arrondit ni vers le haut ni vers le bas.",
@@ -354,11 +386,27 @@ const S099 = {
           "frequence_coran": 234
         },
         {
+          "ar": "يَعْمَلْ",
+          "translit": "yaʿmal",
+          "fr": "il a fait",
+          "racine": "ع-م-ل",
+          "frequence_coran": 359,
+          "auto": true
+        },
+        {
           "ar": "مِثْقَالَ",
           "translit": "mithqāla",
           "fr": "poids (d'un atome)",
           "racine": "ث-ق-ل",
           "frequence_coran": 7
+        },
+        {
+          "ar": "شَرًّا",
+          "translit": "sharran",
+          "fr": "mal",
+          "racine": "ش-ر-ر",
+          "frequence_coran": 8,
+          "auto": true
         }
       ],
       "niveau_couche": 2
