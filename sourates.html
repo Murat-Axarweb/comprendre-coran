@@ -237,6 +237,17 @@
     }
     .v-nav-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
     .v-nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    /* Libellé réservé aux lecteurs d'écran : le sélecteur doit être nommé
+       même si son rôle est visuellement évident. */
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+    #v-select {
+      background: var(--bg2); border: 1px solid var(--border); color: var(--text);
+      border-radius: var(--radius-sm); padding: 5px 8px; font-size: 13px;
+      max-width: 190px; cursor: pointer;
+    }
+    #v-select:hover { border-color: var(--gold); }
+    #v-total { color: var(--text3); font-size: 13px; margin-left: 6px; }
     .v-counter {
       flex: 1;
       text-align: center;
@@ -627,7 +638,11 @@
       <div class="v-progress"><div class="v-progress-fill" id="v-progress-fill"></div></div>
       <div class="v-nav">
         <button class="v-nav-btn" id="btn-prev" onclick="prevV()">← Précédent</button>
-        <span class="v-counter" id="v-counter"></span>
+        <span class="v-counter">
+          <label class="sr-only" for="v-select" id="v-select-label">Aller au verset</label>
+          <select id="v-select" onchange="allerAuVersetIdx(this.selectedIndex)"></select>
+          <span id="v-total"></span>
+        </span>
         <button class="v-nav-btn" id="btn-next" onclick="nextV()">Suivant →</button>
       </div>
       <div class="verset-body" id="verset-body"></div>
@@ -645,6 +660,7 @@ let I18N_DICT = { fr: {
   nav_racines: "Racines", nav_exercices: "Exercices", nav_reviser: "Réviser", nav_compte: "Compte",
   label_versets_groupes: "Versets", label_verset: "verset",
   label_verset_num: "Verset", label_dans_coran: "dans le Coran",
+  aller_au_verset: "Aller au verset",
   sourate_lue: "Sourate lue", marquer_lue: "Marquer comme lue",
   prov_gloses: "Analyse mot à mot générée automatiquement",
   prov_gloses_detail: "Appariement par squelette consonantique contre le glossaire — marge d'erreur possible sur les homographes.",
@@ -700,6 +716,8 @@ function applyStaticI18n(){
     if (o('mushaf')) o('mushaf').textContent = T('sort_mushaf');
     if (o('revelation')) o('revelation').textContent = T('sort_revelation'); }
   const back = document.querySelector('.back-btn'); if (back) back.textContent = T('back_all');
+  const lab = document.getElementById('v-select-label'); if (lab) lab.textContent = T('aller_au_verset');
+  const sel = document.getElementById('v-select'); if (sel) sel.dataset.sourate = '';   // force la reconstruction
   const bp = document.getElementById('btn-prev'); if (bp) bp.textContent = T('prev_verse');
   const bn = document.getElementById('btn-next'); if (bn) bn.textContent = T('next_verse');
 }
@@ -1385,9 +1403,32 @@ async function openSourate(num) {
 }
 
 // Rendu verset
+// Remplit le sélecteur de versets. Reconstruit seulement au changement de
+// sourate : sur Al-Baqara, ce sont 286 options à créer.
+function remplirSelecteurVersets() {
+  const sel = document.getElementById('v-select');
+  if (!sel || !currentData) return;
+  const total = currentS[4];
+  if (sel.dataset.sourate === String(currentS[0])) return;
+  sel.dataset.sourate = String(currentS[0]);
+  sel.innerHTML = currentData.versets
+    .map(v => `<option>${T('label_verset_num')} ${v.numero}</option>`).join('');
+  const t = document.getElementById('v-total');
+  if (t) t.textContent = `/ ${total}`;
+}
+
+// Aller au verset par sa position dans la sourate (0 = premier).
+window.allerAuVersetIdx = function (idx) {
+  if (idx < 0 || idx >= currentS[4]) return;
+  currentIdx = idx; selectedMot = null; renderVerset();
+};
+
+// Rendu verset
 function renderVerset() {
   const total = currentS[4];
-  document.getElementById('v-counter').textContent = `${T('label_verset_num')} ${currentIdx + 1} / ${total}`;
+  remplirSelecteurVersets();
+  const sel = document.getElementById('v-select');
+  if (sel && sel.selectedIndex !== currentIdx) sel.selectedIndex = currentIdx;
   document.getElementById('btn-prev').disabled = currentIdx === 0;
   document.getElementById('btn-next').disabled = currentIdx === total - 1;
   document.getElementById('v-progress-fill').style.width = ((currentIdx + 1) / total * 100) + '%';
