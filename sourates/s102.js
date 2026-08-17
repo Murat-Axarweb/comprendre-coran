@@ -267,6 +267,14 @@ const S102 = {
       },
       "mots": [
         {
+          "ar": "لَتَرَوُنَّ",
+          "translit": "latarawunna",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        },
+        {
           "ar": "الْجَحِيمَ",
           "translit": "l-jaḥīma",
           "fr": "la Fournaise",
@@ -301,6 +309,14 @@ const S102 = {
           "fr": "puis",
           "racine": "particule de succession",
           "frequence_coran": 337
+        },
+        {
+          "ar": "لَتَرَوُنَّهَا",
+          "translit": "latarawunnahā",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         },
         {
           "ar": "عَيْنَ",

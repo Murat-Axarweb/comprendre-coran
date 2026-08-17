@@ -100,6 +100,14 @@ const S091 = {
           "fr": "quand",
           "racine": "particule temporelle",
           "frequence_coran": 195
+        },
+        {
+          "ar": "تَلَىٰهَا",
+          "translit": "talāhā",
+          "fr": "réciter",
+          "racine": "ت-ل-و",
+          "frequence_coran": 61,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -159,6 +167,14 @@ const S091 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَالَّيْلِ",
+          "translit": "wallayli",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
         {
           "ar": "إِذَا",
           "translit": "idhā",
@@ -341,6 +357,14 @@ const S091 = {
           "fr": "déjà",
           "racine": "particule d’aspect",
           "frequence_coran": 120
+        },
+        {
+          "ar": "أَفْلَحَ",
+          "translit": "aflaḥa",
+          "fr": "réussir",
+          "racine": "ف-ل-ح",
+          "frequence_coran": 27,
+          "auto": true
         },
         {
           "ar": "مَن",
@@ -619,6 +643,14 @@ const S091 = {
           "fr": "et ne... pas",
           "racine": "و + لَا",
           "frequence_coran": 658
+        },
+        {
+          "ar": "يَخَافُ",
+          "translit": "yakhāfu",
+          "fr": "craindre",
+          "racine": "خ-و-ف",
+          "frequence_coran": 83,
+          "auto": true
         }
       ],
       "niveau_couche": 2

@@ -433,6 +433,14 @@ const S078 = {
           "auto": true
         },
         {
+          "ar": "الَّيْلَ",
+          "translit": "llayla",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "لِبَاسًا",
           "translit": "libāsan",
           "fr": "vêtement",
@@ -605,6 +613,14 @@ const S078 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "مَاءً",
+          "translit": "māʾan",
+          "fr": "eau",
+          "racine": "م-و-ه",
+          "frequence_coran": 46,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1244,6 +1260,14 @@ const S078 = {
           "racine": "ك-ذ-ب",
           "frequence_coran": 80,
           "auto": true
+        },
+        {
+          "ar": "بِـءَايَٰتِنَا",
+          "translit": "biʾāyātinā",
+          "fr": "signe",
+          "racine": "ا-ي-ي",
+          "frequence_coran": 361,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1287,6 +1311,14 @@ const S078 = {
           "fr": "dénombrer (exhaustivement)",
           "racine": "ح-ص-ي",
           "frequence_coran": 11,
+          "auto": true
+        },
+        {
+          "ar": "كِتَٰبًا",
+          "translit": "kitāban",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
           "auto": true
         }
       ],
@@ -1663,6 +1695,14 @@ const S078 = {
           "frequence_coran": 812
         },
         {
+          "ar": "يَمْلِكُونَ",
+          "translit": "yamlikūna",
+          "fr": "posséder",
+          "racine": "م-ل-ك",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
           "ar": "مِنْهُ",
           "translit": "minhu",
           "fr": "de lui",
@@ -1829,6 +1869,14 @@ const S078 = {
           "frequence_coran": 56
         },
         {
+          "ar": "اتَّخَذَ",
+          "translit": "ttakhadha",
+          "fr": "prendre",
+          "racine": "ا-خ-ذ",
+          "frequence_coran": 124,
+          "auto": true
+        },
+        {
           "ar": "إِلَىٰ",
           "translit": "ilā",
           "fr": "vers",
@@ -1870,6 +1918,14 @@ const S078 = {
           "fr": "certes Nous",
           "racine": "إِنَّ + نَا",
           "frequence_coran": 156
+        },
+        {
+          "ar": "أَنذَرْنَٰكُمْ",
+          "translit": "andharnākum",
+          "fr": "avertir",
+          "racine": "ن-ذ-ر",
+          "frequence_coran": 44,
+          "auto": true
         },
         {
           "ar": "عَذَابًا",

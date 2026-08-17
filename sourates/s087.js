@@ -422,6 +422,14 @@ const S087 = {
       },
       "mots": [
         {
+          "ar": "سَيَذَّكَّرُ",
+          "translit": "sayadhdhakkaru",
+          "fr": "se rappeler",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 51,
+          "auto": true
+        },
+        {
           "ar": "مَن",
           "translit": "man",
           "fr": "de",
@@ -530,6 +538,14 @@ const S087 = {
           "frequence_coran": 812
         },
         {
+          "ar": "يَمُوتُ",
+          "translit": "yamūtu",
+          "fr": "mourir",
+          "racine": "م-و-ت",
+          "frequence_coran": 39,
+          "auto": true
+        },
+        {
           "ar": "فِيهَا",
           "translit": "fīhā",
           "fr": "en elle",
@@ -578,6 +594,14 @@ const S087 = {
           "fr": "déjà",
           "racine": "particule d’aspect",
           "frequence_coran": 120
+        },
+        {
+          "ar": "أَفْلَحَ",
+          "translit": "aflaḥa",
+          "fr": "réussir",
+          "racine": "ف-ل-ح",
+          "frequence_coran": 27,
+          "auto": true
         },
         {
           "ar": "مَن",
@@ -679,6 +703,14 @@ const S087 = {
           "fr": "trace",
           "racine": "أ-ث-ر",
           "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "الْحَيَوٰةَ",
+          "translit": "l-ḥayawāta",
+          "fr": "vie",
+          "racine": "ح-ي-ي",
+          "frequence_coran": 76,
           "auto": true
         },
         {

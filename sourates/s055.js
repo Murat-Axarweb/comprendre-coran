@@ -92,6 +92,14 @@ const S055 = {
           "fr": "savoir",
           "racine": "ع-ل-م",
           "frequence_coran": 105
+        },
+        {
+          "ar": "الْقُرْءَانَ",
+          "translit": "l-qurʾāna",
+          "fr": "Coran",
+          "racine": "ق-ر-ا",
+          "frequence_coran": 70,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -128,6 +136,14 @@ const S055 = {
           "fr": "il a créé",
           "racine": "خ-ل-ق",
           "frequence_coran": 261
+        },
+        {
+          "ar": "الْإِنسَٰنَ",
+          "translit": "l-ʾinsāna",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -486,6 +502,14 @@ const S055 = {
           "fr": "palmiers",
           "racine": "ن-خ-ل",
           "frequence_coran": 20
+        },
+        {
+          "ar": "ذَاتُ",
+          "translit": "dhātu",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -522,6 +546,14 @@ const S055 = {
           "fr": "grain",
           "racine": "ح-ب-ب",
           "frequence_coran": 7
+        },
+        {
+          "ar": "ذُو",
+          "translit": "dhū",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -552,6 +584,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -597,6 +645,14 @@ const S055 = {
           "fr": "il a créé",
           "racine": "خ-ل-ق",
           "frequence_coran": 261
+        },
+        {
+          "ar": "الْإِنسَٰنَ",
+          "translit": "l-ʾinsāna",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
         },
         {
           "ar": "مِن",
@@ -677,6 +733,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -767,6 +839,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -888,6 +976,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -926,6 +1030,14 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "يَخْرُجُ",
+          "translit": "yakhruju",
+          "fr": "sortir",
+          "racine": "خ-ر-ج",
+          "frequence_coran": 47,
+          "auto": true
+        },
+        {
           "ar": "مِنْهُمَا",
           "translit": "minhumā",
           "fr": "d’eux deux",
@@ -961,6 +1073,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -1049,6 +1177,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -1159,6 +1303,14 @@ const S055 = {
           "fr": "ton Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 116
+        },
+        {
+          "ar": "ذُو",
+          "translit": "dhū",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1182,6 +1334,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -1308,6 +1476,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -1383,6 +1567,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -1442,6 +1642,14 @@ const S055 = {
           "frequence_coran": 609
         },
         {
+          "ar": "اسْتَطَعْتُمْ",
+          "translit": "staṭaʿtum",
+          "fr": "pouvoir",
+          "racine": "ط-و-ع",
+          "frequence_coran": 42,
+          "auto": true
+        },
+        {
           "ar": "أَن",
           "translit": "an",
           "fr": "certes",
@@ -1483,6 +1691,14 @@ const S055 = {
           "fr": "sauf",
           "racine": "particule d’exception",
           "frequence_coran": 662
+        },
+        {
+          "ar": "بِسُلْطَٰنٍ",
+          "translit": "bisulṭānin",
+          "fr": "autorité",
+          "racine": "س-ل-ط",
+          "frequence_coran": 37,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1506,6 +1722,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -1544,6 +1776,14 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "يُرْسَلُ",
+          "translit": "yursalu",
+          "fr": "envoyer",
+          "racine": "ر-س-ل",
+          "frequence_coran": 68,
+          "auto": true
+        },
         {
           "ar": "عَلَيْكُمَا",
           "translit": "ʿalaykumā",
@@ -1595,6 +1835,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -1677,6 +1933,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -1789,6 +2061,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -1835,6 +2123,14 @@ const S055 = {
           "auto": true
         },
         {
+          "ar": "الْمُجْرِمُونَ",
+          "translit": "l-mujrimūna",
+          "fr": "criminel",
+          "racine": "ج-ر-م",
+          "frequence_coran": 52,
+          "auto": true
+        },
+        {
           "ar": "فَيُؤْخَذُ",
           "translit": "fayuʾkhadhu",
           "fr": "il a pris",
@@ -1872,6 +2168,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -1945,6 +2257,14 @@ const S055 = {
           "fr": "par elle",
           "racine": "بِ + هَا",
           "frequence_coran": 79
+        },
+        {
+          "ar": "الْمُجْرِمُونَ",
+          "translit": "l-mujrimūna",
+          "fr": "criminel",
+          "racine": "ج-ر-م",
+          "frequence_coran": 52,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2013,6 +2333,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -2056,6 +2392,14 @@ const S055 = {
           "fr": "pour celui qui",
           "racine": "لِ + مَنْ",
           "frequence_coran": 55
+        },
+        {
+          "ar": "خَافَ",
+          "translit": "khāfa",
+          "fr": "craindre",
+          "racine": "خ-و-ف",
+          "frequence_coran": 83,
+          "auto": true
         },
         {
           "ar": "مَقَامَ",
@@ -2102,6 +2446,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -2138,7 +2498,16 @@ const S055 = {
           "texte": "Bu iki cennet türlü ağaçlarla doludur"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "ذَوَاتَا",
+          "translit": "dhawātā",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -2160,6 +2529,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -2228,6 +2613,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -2311,6 +2712,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -2392,6 +2809,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -2482,6 +2915,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -2549,6 +2998,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -2646,6 +3111,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -2729,6 +3210,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -2787,6 +3284,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -2856,6 +3369,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -2923,6 +3452,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -2981,6 +3526,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -3055,6 +3616,22 @@ const S055 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
@@ -3145,6 +3722,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -3212,6 +3805,22 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
+        {
           "ar": "رَبِّكُمَا",
           "translit": "rabbikumā",
           "fr": "Seigneur",
@@ -3270,6 +3879,14 @@ const S055 = {
           "fr": "ton Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 116
+        },
+        {
+          "ar": "ذِي",
+          "translit": "dhī",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
         }
       ],
       "niveau_couche": 3

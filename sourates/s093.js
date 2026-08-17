@@ -80,6 +80,14 @@ const S093 = {
       },
       "mots": [
         {
+          "ar": "وَالَّيْلِ",
+          "translit": "wallayli",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "إِذَا",
           "translit": "idhā",
           "fr": "quand",

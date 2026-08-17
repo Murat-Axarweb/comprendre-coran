@@ -49,7 +49,16 @@ const S080 = {
           "texte": "Yanına kör bir kimse geldi diye (Peygamber) yüzünü asıp çevirdi"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَتَوَلَّىٰ",
+          "translit": "watawallā",
+          "fr": "se détourner",
+          "racine": "و-ل-ي",
+          "frequence_coran": 78,
+          "auto": true
+        }
+      ],
       "analyse_globale": "Le texte parle du Prophète à la troisième personne (« il s'est renfrogné ») avant de passer au tutoiement (v.3) : la mise à distance grammaticale adoucit le blâme tout en le rendant public pour toujours. Ibn Umm Maktum devint plus tard muezzin de Médine — le Prophète l'accueillait par : « Bienvenue à celui pour qui mon Seigneur m'a réprimandé. »",
       "niveau_couche": 3,
       "groupes": {
@@ -157,6 +166,14 @@ const S080 = {
           "fr": "ou",
           "racine": "particule de choix",
           "frequence_coran": 264
+        },
+        {
+          "ar": "يَذَّكَّرُ",
+          "translit": "yadhdhakkaru",
+          "fr": "se rappeler",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 51,
+          "auto": true
         },
         {
           "ar": "فَتَنفَعَهُ",
@@ -705,6 +722,14 @@ const S080 = {
           "frequence_coran": 93
         },
         {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -739,6 +764,14 @@ const S080 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "أَيِّ",
+          "translit": "ayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
         },
         {
           "ar": "شَيْءٍ",
@@ -1002,6 +1035,14 @@ const S080 = {
           "fr": "regarder",
           "racine": "ن-ظ-ر",
           "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
           "auto": true
         },
         {
@@ -1320,6 +1361,14 @@ const S080 = {
       },
       "mots": [
         {
+          "ar": "مَّتَٰعًا",
+          "translit": "matāʿan",
+          "fr": "jouissance",
+          "racine": "م-ت-ع",
+          "frequence_coran": 35,
+          "auto": true
+        },
+        {
           "ar": "لَّكُمْ",
           "translit": "lakum",
           "fr": "à vous",
@@ -1530,6 +1579,14 @@ const S080 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "يُغْنِيهِ",
+          "translit": "yughnīhi",
+          "fr": "dispenser",
+          "racine": "غ-ن-ي",
+          "frequence_coran": 28,
+          "auto": true
         }
       ],
       "niveau_couche": 3

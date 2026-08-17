@@ -48,12 +48,12 @@ export const PROVENANCE = {
     niveau: 'genere',
     revu: false,
     source: 'glossaire du projet, apparié via les lemmes du Quranic Arabic Corpus (université de Leeds)',
-    note: "Couvre 77 % des mots du corpus. Les traductions restent celles du "
+    note: "Couvre 85 % des mots du corpus. Les traductions restent celles du "
         + "glossaire ; le corpus de Leeds sert uniquement à identifier la forme "
         + "de dictionnaire de chaque mot. Un appariement n'est retenu que si les "
         + "racines concordent. Marge d'erreur résiduelle sur les homographes "
         + "partageant une même racine.",
-    couverture: 0.766
+    couverture: 0.851
   },
 
   racines: {

@@ -51,6 +51,14 @@ const S092 = {
       },
       "mots": [
         {
+          "ar": "وَالَّيْلِ",
+          "translit": "wallayli",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "إِذَا",
           "translit": "idhā",
           "fr": "quand",
@@ -464,6 +472,14 @@ const S092 = {
           "frequence_coran": 646
         },
         {
+          "ar": "يُغْنِي",
+          "translit": "yughnī",
+          "fr": "dispenser",
+          "racine": "غ-ن-ي",
+          "frequence_coran": 28,
+          "auto": true
+        },
+        {
           "ar": "عَنْهُ",
           "translit": "ʿanhu",
           "fr": "de",
@@ -604,6 +620,14 @@ const S092 = {
       },
       "mots": [
         {
+          "ar": "فَأَنذَرْتُكُمْ",
+          "translit": "faʾandhartukum",
+          "fr": "avertir",
+          "racine": "ن-ذ-ر",
+          "frequence_coran": 44,
+          "auto": true
+        },
+        {
           "ar": "نَارًا",
           "translit": "nāran",
           "fr": "feu",
@@ -689,6 +713,14 @@ const S092 = {
           "fr": "traiter de mensonge",
           "racine": "ك-ذ-ب",
           "frequence_coran": 80
+        },
+        {
+          "ar": "وَتَوَلَّىٰ",
+          "translit": "watawallā",
+          "fr": "se détourner",
+          "racine": "و-ل-ي",
+          "frequence_coran": 78,
+          "auto": true
         }
       ],
       "niveau_couche": 2,

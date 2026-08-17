@@ -459,6 +459,14 @@ const S079 = {
           "fr": "elle",
           "racine": "pronom personnel",
           "frequence_coran": 47
+        },
+        {
+          "ar": "وَٰحِدَةٌ",
+          "translit": "wāḥidatun",
+          "fr": "une seule (fém.)",
+          "racine": "و-ح-د",
+          "frequence_coran": 31,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -795,6 +803,14 @@ const S079 = {
       },
       "mots": [
         {
+          "ar": "فَأَرَىٰهُ",
+          "translit": "faʾarāhu",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        },
+        {
           "ar": "الْأيَةَ",
           "translit": "l-ʾyata",
           "fr": "verset",
@@ -1101,6 +1117,14 @@ const S079 = {
       },
       "mots": [
         {
+          "ar": "أَشَدُّ",
+          "translit": "ashaddu",
+          "fr": "plus fort",
+          "racine": "ش-د-د",
+          "frequence_coran": 31,
+          "auto": true
+        },
+        {
           "ar": "خَلْقًا",
           "translit": "khalqan",
           "fr": "il a créé",
@@ -1196,6 +1220,14 @@ const S079 = {
       },
       "mots": [
         {
+          "ar": "لَيْلَهَا",
+          "translit": "laylahā",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "وَأَخْرَجَ",
           "translit": "waʾakhraja",
           "fr": "faire sortir",
@@ -1288,6 +1320,14 @@ const S079 = {
           "fr": "d’elle",
           "racine": "مِن + هَا",
           "frequence_coran": 86
+        },
+        {
+          "ar": "مَاءَهَا",
+          "translit": "māʾahā",
+          "fr": "eau",
+          "racine": "م-و-ه",
+          "frequence_coran": 46,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1341,6 +1381,14 @@ const S079 = {
         }
       },
       "mots": [
+        {
+          "ar": "مَتَٰعًا",
+          "translit": "matāʿan",
+          "fr": "jouissance",
+          "racine": "م-ت-ع",
+          "frequence_coran": 35,
+          "auto": true
+        },
         {
           "ar": "لَّكُمْ",
           "translit": "lakum",
@@ -1429,6 +1477,22 @@ const S079 = {
           "frequence_coran": 405
         },
         {
+          "ar": "يَتَذَكَّرُ",
+          "translit": "yatadhakkaru",
+          "fr": "se rappeler",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 51,
+          "auto": true
+        },
+        {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -1484,6 +1548,14 @@ const S079 = {
           "fr": "pour celui qui",
           "racine": "لِ + مَنْ",
           "frequence_coran": 55
+        },
+        {
+          "ar": "يَرَىٰ",
+          "translit": "yarā",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1563,6 +1635,14 @@ const S079 = {
           "fr": "trace",
           "racine": "أ-ث-ر",
           "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "الْحَيَوٰةَ",
+          "translit": "l-ḥayawāta",
+          "fr": "vie",
+          "racine": "ح-ي-ي",
+          "frequence_coran": 76,
           "auto": true
         },
         {
@@ -1664,6 +1744,14 @@ const S079 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "خَافَ",
+          "translit": "khāfa",
+          "fr": "craindre",
+          "racine": "خ-و-ف",
+          "frequence_coran": 83,
+          "auto": true
         },
         {
           "ar": "مَقَامَ",
@@ -1968,11 +2056,27 @@ const S079 = {
           "frequence_coran": 405
         },
         {
+          "ar": "يَرَوْنَهَا",
+          "translit": "yarawnahā",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        },
+        {
           "ar": "لَمْ",
           "translit": "lam",
           "fr": "ne... pas",
           "racine": "particule de négation",
           "frequence_coran": 163
+        },
+        {
+          "ar": "يَلْبَثُواْ",
+          "translit": "yalbathū",
+          "fr": "demeurer",
+          "racine": "ل-ب-ث",
+          "frequence_coran": 30,
+          "auto": true
         },
         {
           "ar": "إِلَّا",

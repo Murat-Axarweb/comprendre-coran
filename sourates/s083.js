@@ -331,6 +331,14 @@ const S083 = {
           "fr": "Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 980
+        },
+        {
+          "ar": "الْعَٰلَمِينَ",
+          "translit": "l-ʿālamīna",
+          "fr": "les mondes",
+          "racine": "ع-ل-م",
+          "frequence_coran": 72,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -367,6 +375,14 @@ const S083 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "كِتَٰبَ",
+          "translit": "kitāba",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
+          "auto": true
         },
         {
           "ar": "لَفِي",
@@ -432,7 +448,16 @@ const S083 = {
           "texte": "O, yazılmış bir kitaptır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "كِتَٰبٌ",
+          "translit": "kitābun",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -607,11 +632,27 @@ const S083 = {
           "frequence_coran": 195
         },
         {
+          "ar": "تُتْلَىٰ",
+          "translit": "tutlā",
+          "fr": "réciter",
+          "racine": "ت-ل-و",
+          "frequence_coran": 61,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْهِ",
           "translit": "ʿalayhi",
           "fr": "sur lui",
           "racine": "عَلَى + هُ",
           "frequence_coran": 145
+        },
+        {
+          "ar": "ءَايَٰتُنَا",
+          "translit": "āyātunā",
+          "fr": "signe",
+          "racine": "ا-ي-ي",
+          "frequence_coran": 361,
+          "auto": true
         },
         {
           "ar": "قَالَ",
@@ -911,6 +952,14 @@ const S083 = {
           "frequence_coran": 609
         },
         {
+          "ar": "كِتَٰبَ",
+          "translit": "kitāba",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
+          "auto": true
+        },
+        {
           "ar": "الْأَبْرَارِ",
           "translit": "l-ʾabrāri",
           "fr": "piété",
@@ -982,7 +1031,16 @@ const S083 = {
           "texte": "O, gözde meleklerin gördüğü, yazılı bir kitapdır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "كِتَٰبٌ",
+          "translit": "kitābun",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -1411,6 +1469,14 @@ const S083 = {
           "fr": "ceux qui",
           "racine": "pronom relatif",
           "frequence_coran": 810
+        },
+        {
+          "ar": "ءَامَنُواْ",
+          "translit": "āmanū",
+          "fr": "croire",
+          "racine": "ا-م-ن",
+          "frequence_coran": 440,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -1483,6 +1549,14 @@ const S083 = {
           "fr": "vers",
           "racine": "particule",
           "frequence_coran": 742
+        },
+        {
+          "ar": "أَهْلِهِمُ",
+          "translit": "ahlihimu",
+          "fr": "gens de",
+          "racine": "ا-ه-ل",
+          "frequence_coran": 127,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -1512,6 +1586,14 @@ const S083 = {
           "fr": "et quand",
           "racine": "و + إِذَا",
           "frequence_coran": 130
+        },
+        {
+          "ar": "رَأَوْهُمْ",
+          "translit": "raʾawhum",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         },
         {
           "ar": "قَالُواْ",
@@ -1564,6 +1646,14 @@ const S083 = {
           "frequence_coran": 646
         },
         {
+          "ar": "أُرْسِلُواْ",
+          "translit": "ursilū",
+          "fr": "envoyer",
+          "racine": "ر-س-ل",
+          "frequence_coran": 68,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْهِمْ",
           "translit": "ʿalayhim",
           "fr": "sur eux",
@@ -1605,6 +1695,14 @@ const S083 = {
           "fr": "ceux qui",
           "racine": "pronom relatif",
           "frequence_coran": 810
+        },
+        {
+          "ar": "ءَامَنُواْ",
+          "translit": "āmanū",
+          "fr": "croire",
+          "racine": "ا-م-ن",
+          "frequence_coran": 440,
+          "auto": true
         },
         {
           "ar": "مِنَ",

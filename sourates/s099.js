@@ -145,6 +145,14 @@ const S099 = {
           "frequence_coran": 85
         },
         {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -296,6 +304,14 @@ const S099 = {
           "frequence_coran": 92
         },
         {
+          "ar": "لِّيُرَوْاْ",
+          "translit": "liyuraw",
+          "fr": "montrer",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 40,
+          "auto": true
+        },
+        {
           "ar": "أَعْمَٰلَهُمْ",
           "translit": "aʿmālahum",
           "fr": "il a fait",
@@ -354,6 +370,14 @@ const S099 = {
           "racine": "خ-ي-ر",
           "frequence_coran": 78,
           "auto": true
+        },
+        {
+          "ar": "يَرَهُ",
+          "translit": "yarahū",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         }
       ],
       "analyse_globale": "Fa-man yaʿmal mithqāla dharratin khayran yarah : le hadith rapporte qu'un homme hésitait à donner une datte en aumône, la trouvant trop peu. Ce verset répond d'avance : il n'existe pas de bien trop petit. La comptabilité divine n'arrondit ni vers le haut ni vers le bas.",
@@ -406,6 +430,14 @@ const S099 = {
           "fr": "mal",
           "racine": "ش-ر-ر",
           "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "يَرَهُ",
+          "translit": "yarahū",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
           "auto": true
         }
       ],

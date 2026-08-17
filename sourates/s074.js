@@ -87,6 +87,14 @@ const S074 = {
           "racine": "ق-و-م",
           "frequence_coran": 8,
           "auto": true
+        },
+        {
+          "ar": "فَأَنذِرْ",
+          "translit": "faʾandhir",
+          "fr": "avertir",
+          "racine": "ن-ذ-ر",
+          "frequence_coran": 44,
+          "auto": true
         }
       ],
       "analyse_globale": "Qum fa-andhir — deux mots, tout un destin. Après le « lève-toi la nuit » de la sourate précédente (73:2, formation intérieure), voici « lève-toi et avertis » (mission extérieure). Les deux sourates jumelles dessinent l'ordre pédagogique : d'abord se construire dans la nuit, ensuite sortir vers les hommes.",
@@ -382,6 +390,14 @@ const S074 = {
           "frequence_coran": 1430
         },
         {
+          "ar": "الْكَٰفِرِينَ",
+          "translit": "l-kāfirīna",
+          "fr": "mécréants",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 128,
+          "auto": true
+        },
+        {
           "ar": "غَيْرُ",
           "translit": "ghayru",
           "fr": "autre que",
@@ -417,6 +433,14 @@ const S074 = {
         }
       },
       "mots": [
+        {
+          "ar": "ذَرْنِي",
+          "translit": "dharnī",
+          "fr": "laisser",
+          "racine": "و-ذ-ر",
+          "frequence_coran": 45,
+          "auto": true
+        },
         {
           "ar": "وَمَنْ",
           "translit": "waman",
@@ -641,6 +665,14 @@ const S074 = {
           "fr": "il était",
           "racine": "ك-و-ن",
           "frequence_coran": 1360
+        },
+        {
+          "ar": "لِأيَٰتِنَا",
+          "translit": "liʾyātinā",
+          "fr": "signe",
+          "racine": "ا-ي-ي",
+          "frequence_coran": 361,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1115,6 +1147,14 @@ const S074 = {
           "fr": "et ne... pas",
           "racine": "و + لَا",
           "frequence_coran": 658
+        },
+        {
+          "ar": "تَذَرُ",
+          "translit": "tadharu",
+          "fr": "laisser",
+          "racine": "و-ذ-ر",
+          "frequence_coran": 45,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1226,6 +1266,14 @@ const S074 = {
           "auto": true
         },
         {
+          "ar": "أَصْحَٰبَ",
+          "translit": "aṣḥāba",
+          "fr": "compagnons",
+          "racine": "ص-ح-ب",
+          "frequence_coran": 77,
+          "auto": true
+        },
+        {
           "ar": "النَّارِ",
           "translit": "n-nāri",
           "fr": "le Feu",
@@ -1313,11 +1361,35 @@ const S074 = {
           "frequence_coran": 47
         },
         {
+          "ar": "الْكِتَٰبَ",
+          "translit": "l-kitāba",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
+          "auto": true
+        },
+        {
           "ar": "الَّذِينَ",
           "translit": "lladhīna",
           "fr": "ceux qui",
           "racine": "pronom relatif",
           "frequence_coran": 810
+        },
+        {
+          "ar": "ءَامَنُواْ",
+          "translit": "āmanū",
+          "fr": "croire",
+          "racine": "ا-م-ن",
+          "frequence_coran": 440,
+          "auto": true
+        },
+        {
+          "ar": "إِيمَٰنًا",
+          "translit": "īmānan",
+          "fr": "foi",
+          "racine": "ا-م-ن",
+          "frequence_coran": 45,
+          "auto": true
         },
         {
           "ar": "وَلَا",
@@ -1339,6 +1411,22 @@ const S074 = {
           "fr": "ils ont reçu",
           "racine": "أ-ت-ي",
           "frequence_coran": 47
+        },
+        {
+          "ar": "الْكِتَٰبَ",
+          "translit": "l-kitāba",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
+          "auto": true
+        },
+        {
+          "ar": "وَالْمُؤْمِنُونَ",
+          "translit": "wal-muʾminūna",
+          "fr": "croyant",
+          "racine": "ا-م-ن",
+          "frequence_coran": 117,
+          "auto": true
         },
         {
           "ar": "وَلِيَقُولَ",
@@ -1377,11 +1465,27 @@ const S074 = {
           "frequence_coran": 13
         },
         {
+          "ar": "وَالْكَٰفِرُونَ",
+          "translit": "wal-kāfirūna",
+          "fr": "mécréants",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 128,
+          "auto": true
+        },
+        {
           "ar": "مَاذَا",
           "translit": "mādhā",
           "fr": "quoi",
           "racine": "—",
           "frequence_coran": 4
+        },
+        {
+          "ar": "أَرَادَ",
+          "translit": "arāda",
+          "fr": "vouloir",
+          "racine": "ر-و-د",
+          "frequence_coran": 98,
+          "auto": true
         },
         {
           "ar": "اللَّهُ",
@@ -1411,6 +1515,14 @@ const S074 = {
           "fr": "ainsi",
           "racine": "كَ + ذَلِكَ",
           "frequence_coran": 83
+        },
+        {
+          "ar": "يُضِلُّ",
+          "translit": "yuḍillu",
+          "fr": "égarer",
+          "racine": "ض-ل-ل",
+          "frequence_coran": 64,
+          "auto": true
         },
         {
           "ar": "اللَّهُ",
@@ -1592,6 +1704,14 @@ const S074 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَالَّيْلِ",
+          "translit": "wallayli",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
         {
           "ar": "إِذْ",
           "translit": "idh",
@@ -1883,6 +2003,14 @@ const S074 = {
           "frequence_coran": 662
         },
         {
+          "ar": "أَصْحَٰبَ",
+          "translit": "aṣḥāba",
+          "fr": "compagnons",
+          "racine": "ص-ح-ب",
+          "frequence_coran": 77,
+          "auto": true
+        },
+        {
           "ar": "الْيَمِينِ",
           "translit": "l-yamīni",
           "fr": "droite",
@@ -1968,6 +2096,14 @@ const S074 = {
           "fr": "de",
           "racine": "préposition",
           "frequence_coran": 153
+        },
+        {
+          "ar": "الْمُجْرِمِينَ",
+          "translit": "l-mujrimīna",
+          "fr": "criminel",
+          "racine": "ج-ر-م",
+          "frequence_coran": 52,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -2544,6 +2680,14 @@ const S074 = {
           "frequence_coran": 812
         },
         {
+          "ar": "يَخَافُونَ",
+          "translit": "yakhāfūna",
+          "fr": "craindre",
+          "racine": "خ-و-ف",
+          "frequence_coran": 83,
+          "auto": true
+        },
+        {
           "ar": "الْأخِرَةَ",
           "translit": "l-ʾkhirata",
           "fr": "l’au-delà",
@@ -2710,11 +2854,35 @@ const S074 = {
           "frequence_coran": 265
         },
         {
+          "ar": "أَهْلُ",
+          "translit": "ahlu",
+          "fr": "gens de",
+          "racine": "ا-ه-ل",
+          "frequence_coran": 127,
+          "auto": true
+        },
+        {
           "ar": "التَّقْوَىٰ",
           "translit": "t-taqwā",
           "fr": "piété",
           "racine": "و-ق-ي",
           "frequence_coran": 158
+        },
+        {
+          "ar": "وَأَهْلُ",
+          "translit": "waʾahlu",
+          "fr": "gens de",
+          "racine": "ا-ه-ل",
+          "frequence_coran": 127,
+          "auto": true
+        },
+        {
+          "ar": "الْمَغْفِرَةِ",
+          "translit": "l-maghfirati",
+          "fr": "pardon",
+          "racine": "غ-ف-ر",
+          "frequence_coran": 28,
+          "auto": true
         }
       ],
       "niveau_couche": 3

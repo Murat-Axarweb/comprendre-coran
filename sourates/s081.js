@@ -360,6 +360,14 @@ const S081 = {
       },
       "mots": [
         {
+          "ar": "بِأَيِّ",
+          "translit": "biʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
           "ar": "ذَنبٍ",
           "translit": "dhanbin",
           "fr": "péché",
@@ -663,6 +671,14 @@ const S081 = {
       },
       "mots": [
         {
+          "ar": "وَالَّيْلِ",
+          "translit": "wallayli",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "إِذَا",
           "translit": "idhā",
           "fr": "quand",
@@ -785,6 +801,14 @@ const S081 = {
       },
       "mots": [
         {
+          "ar": "ذِي",
+          "translit": "dhī",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
+        },
+        {
           "ar": "قُوَّةٍ",
           "translit": "quwwatin",
           "fr": "force",
@@ -797,6 +821,14 @@ const S081 = {
           "fr": "auprès de",
           "racine": "adverbe / préposition",
           "frequence_coran": 98
+        },
+        {
+          "ar": "ذِي",
+          "translit": "dhī",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
         },
         {
           "ar": "الْعَرْشِ",
@@ -914,6 +946,14 @@ const S081 = {
           "frequence_coran": 124
         },
         {
+          "ar": "رَءَاهُ",
+          "translit": "raʾāhu",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        },
+        {
           "ar": "الْمُبِينِ",
           "translit": "l-mubīni",
           "fr": "clair",
@@ -1012,6 +1052,14 @@ const S081 = {
           "fr": "parole",
           "racine": "ق-و-ل",
           "frequence_coran": 92
+        },
+        {
+          "ar": "شَيْطَٰنٍ",
+          "translit": "shayṭānin",
+          "fr": "Satan",
+          "racine": "ش-ط-ن",
+          "frequence_coran": 88,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -1100,6 +1148,14 @@ const S081 = {
           "fr": "souvenir",
           "racine": "ذ-ك-ر",
           "frequence_coran": 256
+        },
+        {
+          "ar": "لِّلْعَٰلَمِينَ",
+          "translit": "lilʿālamīna",
+          "fr": "les mondes",
+          "racine": "ع-ل-م",
+          "frequence_coran": 72,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -1228,6 +1284,14 @@ const S081 = {
           "fr": "Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 980
+        },
+        {
+          "ar": "الْعَٰلَمِينَ",
+          "translit": "l-ʿālamīna",
+          "fr": "les mondes",
+          "racine": "ع-ل-م",
+          "frequence_coran": 72,
+          "auto": true
         }
       ],
       "niveau_couche": 2

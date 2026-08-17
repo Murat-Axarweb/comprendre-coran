@@ -80,6 +80,14 @@ const S089 = {
       },
       "mots": [
         {
+          "ar": "وَلَيَالٍ",
+          "translit": "walayālin",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "عَشْرٍ",
           "translit": "ʿashrin",
           "fr": "dix",
@@ -129,6 +137,14 @@ const S089 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَالَّيْلِ",
+          "translit": "wallayli",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
         {
           "ar": "إِذَا",
           "translit": "idhā",
@@ -192,6 +208,14 @@ const S089 = {
           "fr": "cela",
           "racine": "pronom démonstratif",
           "frequence_coran": 280
+        },
+        {
+          "ar": "لِّذِي",
+          "translit": "lidhī",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -228,6 +252,14 @@ const S089 = {
           "fr": "n’a-t-il pas ?",
           "racine": "أ + لَمْ",
           "frequence_coran": 78
+        },
+        {
+          "ar": "تَرَ",
+          "translit": "tara",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         },
         {
           "ar": "كَيْفَ",
@@ -285,7 +317,16 @@ const S089 = {
           "texte": "Rabbinin, hiçbir memlekette benzeri ortaya konmayan sütunlara sahip İrem şehrinde oturan Ad milletine ne ettiğini görmedin mi"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "ذَاتِ",
+          "translit": "dhāti",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -443,6 +484,14 @@ const S089 = {
           "fr": "Pharaon",
           "racine": "nom propre",
           "frequence_coran": 48
+        },
+        {
+          "ar": "ذِي",
+          "translit": "dhī",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -531,6 +580,14 @@ const S089 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَأَكْثَرُواْ",
+          "translit": "faʾaktharū",
+          "fr": "la plupart",
+          "racine": "ك-ث-ر",
+          "frequence_coran": 35,
+          "auto": true
+        },
         {
           "ar": "فِيهَا",
           "translit": "fīhā",
@@ -661,6 +718,14 @@ const S089 = {
           "frequence_coran": 4
         },
         {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "إِذَا",
           "translit": "idhā",
           "fr": "quand",
@@ -770,6 +835,14 @@ const S089 = {
           "fr": "sur lui",
           "racine": "عَلَى + هُ",
           "frequence_coran": 145
+        },
+        {
+          "ar": "رِزْقَهُ",
+          "translit": "rizqahū",
+          "fr": "pourvoir",
+          "racine": "ر-ز-ق",
+          "frequence_coran": 61,
+          "auto": true
         },
         {
           "ar": "فَيَقُولُ",
@@ -1098,6 +1171,22 @@ const S089 = {
           "frequence_coran": 63
         },
         {
+          "ar": "يَتَذَكَّرُ",
+          "translit": "yatadhakkaru",
+          "fr": "se rappeler",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 51,
+          "auto": true
+        },
+        {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "وَأَنَّىٰ",
           "translit": "waʾannā",
           "fr": "comment",
@@ -1156,6 +1245,14 @@ const S089 = {
           "racine": "ق-د-م",
           "frequence_coran": 7,
           "auto": true
+        },
+        {
+          "ar": "لِحَيَاتِي",
+          "translit": "liḥayātī",
+          "fr": "vie",
+          "racine": "ح-ي-ي",
+          "frequence_coran": 76,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -1192,6 +1289,14 @@ const S089 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يُعَذِّبُ",
+          "translit": "yuʿadhdhibu",
+          "fr": "châtier",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 41,
+          "auto": true
         },
         {
           "ar": "عَذَابَهُ",

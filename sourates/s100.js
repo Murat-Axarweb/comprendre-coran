@@ -204,6 +204,14 @@ const S100 = {
           "frequence_coran": 609
         },
         {
+          "ar": "الْإِنسَٰنَ",
+          "translit": "l-ʾinsāna",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "لِرَبِّهِ",
           "translit": "lirabbihī",
           "fr": "son Seigneur",

@@ -453,6 +453,14 @@ const S077 = {
       },
       "mots": [
         {
+          "ar": "لِأَيِّ",
+          "translit": "liʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
           "ar": "يَوْمٍ",
           "translit": "yawmin",
           "fr": "jour",
@@ -606,6 +614,14 @@ const S077 = {
           "frequence_coran": 78
         },
         {
+          "ar": "نُهْلِكِ",
+          "translit": "nuhliki",
+          "fr": "anéantir",
+          "racine": "ه-ل-ك",
+          "frequence_coran": 51,
+          "auto": true
+        },
+        {
           "ar": "الْأَوَّلِينَ",
           "translit": "l-ʾawwalīna",
           "fr": "premier",
@@ -708,6 +724,14 @@ const S077 = {
           "racine": "ف-ع-ل",
           "frequence_coran": 108,
           "auto": true
+        },
+        {
+          "ar": "بِالْمُجْرِمِينَ",
+          "translit": "bil-mujrimīna",
+          "fr": "criminel",
+          "racine": "ج-ر-م",
+          "frequence_coran": 52,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -788,6 +812,14 @@ const S077 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "مَّاءٍ",
+          "translit": "māʾin",
+          "fr": "eau",
+          "racine": "م-و-ه",
+          "frequence_coran": 46,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1021,6 +1053,14 @@ const S077 = {
           "racine": "ح-ي-ي",
           "frequence_coran": 19,
           "auto": true
+        },
+        {
+          "ar": "وَأَمْوَٰتًا",
+          "translit": "waʾamwātan",
+          "fr": "mort",
+          "racine": "م-و-ت",
+          "frequence_coran": 38,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1065,6 +1105,14 @@ const S077 = {
           "fr": "en elle",
           "racine": "فِي + هَا",
           "frequence_coran": 241
+        },
+        {
+          "ar": "مَّاءً",
+          "translit": "māʾan",
+          "fr": "eau",
+          "racine": "م-و-ه",
+          "frequence_coran": 46,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1195,6 +1243,14 @@ const S077 = {
           "fr": "ombre",
           "racine": "ظ-ل-ل",
           "frequence_coran": 33
+        },
+        {
+          "ar": "ذِي",
+          "translit": "dhī",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1238,6 +1294,14 @@ const S077 = {
           "fr": "et ne... pas",
           "racine": "و + لَا",
           "frequence_coran": 658
+        },
+        {
+          "ar": "يُغْنِي",
+          "translit": "yughnī",
+          "fr": "dispenser",
+          "racine": "غ-ن-ي",
+          "frequence_coran": 28,
+          "auto": true
         },
         {
           "ar": "مِنَ",
@@ -1829,6 +1893,14 @@ const S077 = {
           "racine": "ج-ز-ي",
           "frequence_coran": 73,
           "auto": true
+        },
+        {
+          "ar": "الْمُحْسِنِينَ",
+          "translit": "l-muḥsinīna",
+          "fr": "bienfaisant",
+          "racine": "ح-س-ن",
+          "frequence_coran": 38,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1909,6 +1981,14 @@ const S077 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609,
+          "auto": true
+        },
+        {
+          "ar": "مُّجْرِمُونَ",
+          "translit": "mujrimūna",
+          "fr": "criminel",
+          "racine": "ج-ر-م",
+          "frequence_coran": 52,
           "auto": true
         }
       ],
@@ -2056,6 +2136,14 @@ const S077 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
         {
           "ar": "حَدِيثٍ",
           "translit": "ḥadīthi",

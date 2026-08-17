@@ -318,11 +318,12 @@ import { VOCAB, COUVERTURE, THEMES } from './data/vocab.js';
 import { VOCAB2 } from './data/vocab2.js';
 import { VOCAB3 } from './data/vocab3.js';
 import { VOCAB4 } from './data/vocab4.js';
+import { VOCAB5 } from './data/vocab5.js';
 import * as Progress from './data/progress.js';
 Progress.subscribe(() => window.renderAll());
 
 // Fusionner les deux blocs de vocabulaire
-const ALL_VOCAB = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4];
+const ALL_VOCAB = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4, ...VOCAB5];
 
 window.I18N = I18N;
 window.VOCAB = ALL_VOCAB;

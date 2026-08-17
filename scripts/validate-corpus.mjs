@@ -131,7 +131,8 @@ const { VOCAB, THEMES } = await import(`file://${join(root, 'data', 'vocab.js')}
 const { VOCAB2 } = await import(`file://${join(root, 'data', 'vocab2.js')}`);
 const { VOCAB3 } = await import(`file://${join(root, 'data', 'vocab3.js')}`);
 const { VOCAB4 } = await import(`file://${join(root, 'data', 'vocab4.js')}`);
-const MOTS = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4];
+const { VOCAB5 } = await import(`file://${join(root, 'data', 'vocab5.js')}`);
+const MOTS = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4, ...VOCAB5];
 
 const vusId = new Map(), vusRang = new Map(), vusAr = new Map();
 MOTS.forEach(m => {

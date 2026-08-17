@@ -117,6 +117,14 @@ const S096 = {
           "frequence_coran": 261
         },
         {
+          "ar": "الْإِنسَٰنَ",
+          "translit": "l-ʾinsāna",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "مِنْ",
           "translit": "min",
           "fr": "de",
@@ -254,6 +262,14 @@ const S096 = {
           "frequence_coran": 105
         },
         {
+          "ar": "الْإِنسَٰنَ",
+          "translit": "l-ʾinsāna",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -318,6 +334,14 @@ const S096 = {
           "frequence_coran": 609
         },
         {
+          "ar": "الْإِنسَٰنَ",
+          "translit": "l-ʾinsāna",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "لَيَطْغَىٰ",
           "translit": "layaṭghā",
           "fr": "transgresser",
@@ -361,6 +385,14 @@ const S096 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "رَّءَاهُ",
+          "translit": "raʾāhu",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -434,6 +466,14 @@ const S096 = {
         }
       },
       "mots": [
+        {
+          "ar": "أَرَءَيْتَ",
+          "translit": "araʾayta",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        },
         {
           "ar": "الَّذِي",
           "translit": "lladhī",
@@ -522,6 +562,14 @@ const S096 = {
         }
       },
       "mots": [
+        {
+          "ar": "أَرَءَيْتَ",
+          "translit": "araʾayta",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        },
         {
           "ar": "إِن",
           "translit": "in",
@@ -630,6 +678,14 @@ const S096 = {
       },
       "mots": [
         {
+          "ar": "أَرَءَيْتَ",
+          "translit": "araʾayta",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        },
+        {
           "ar": "إِن",
           "translit": "in",
           "fr": "certes",
@@ -642,6 +698,14 @@ const S096 = {
           "fr": "traiter de mensonge",
           "racine": "ك-ذ-ب",
           "frequence_coran": 80
+        },
+        {
+          "ar": "وَتَوَلَّىٰ",
+          "translit": "watawallā",
+          "fr": "se détourner",
+          "racine": "و-ل-ي",
+          "frequence_coran": 78,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -699,6 +763,14 @@ const S096 = {
           "fr": "Allah",
           "racine": "أ-ل-ه",
           "frequence_coran": 2699
+        },
+        {
+          "ar": "يَرَىٰ",
+          "translit": "yarā",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         }
       ],
       "niveau_couche": 2

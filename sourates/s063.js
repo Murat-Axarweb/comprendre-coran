@@ -58,6 +58,14 @@ const S063 = {
           "frequence_coran": 195
         },
         {
+          "ar": "الْمُنَٰفِقُونَ",
+          "translit": "l-munāfiqūna",
+          "fr": "hypocrites",
+          "racine": "ن-ف-ق",
+          "frequence_coran": 27,
+          "auto": true
+        },
+        {
           "ar": "قَالُواْ",
           "translit": "qālū",
           "fr": "ils ont dit",
@@ -145,6 +153,14 @@ const S063 = {
           "frequence_coran": 609
         },
         {
+          "ar": "الْمُنَٰفِقِينَ",
+          "translit": "l-munāfiqīna",
+          "fr": "hypocrites",
+          "racine": "ن-ف-ق",
+          "frequence_coran": 27,
+          "auto": true
+        },
+        {
           "ar": "لَكَٰذِبُونَ",
           "translit": "lakādhibūna",
           "fr": "traiter de mensonge",
@@ -176,6 +192,14 @@ const S063 = {
       },
       "mots": [
         {
+          "ar": "اتَّخَذُواْ",
+          "translit": "ittakhadhū",
+          "fr": "prendre",
+          "racine": "ا-خ-ذ",
+          "frequence_coran": 124,
+          "auto": true
+        },
+        {
           "ar": "أَيْمَٰنَهُمْ",
           "translit": "aymānahum",
           "fr": "droite",
@@ -189,6 +213,14 @@ const S063 = {
           "fr": "paradis",
           "racine": "ج-ن-ن",
           "frequence_coran": 147
+        },
+        {
+          "ar": "فَصَدُّواْ",
+          "translit": "faṣaddū",
+          "fr": "détourner",
+          "racine": "ص-د-د",
+          "frequence_coran": 37,
+          "auto": true
         },
         {
           "ar": "عَن",
@@ -217,6 +249,14 @@ const S063 = {
           "fr": "certes ils",
           "racine": "إِنَّ + هُمْ",
           "frequence_coran": 62
+        },
+        {
+          "ar": "سَاءَ",
+          "translit": "sāʾa",
+          "fr": "être mauvais",
+          "racine": "س-و-ا",
+          "frequence_coran": 30,
+          "auto": true
         },
         {
           "ar": "مَا",
@@ -274,6 +314,14 @@ const S063 = {
           "fr": "certes ils",
           "racine": "إِنَّ + هُمْ",
           "frequence_coran": 62
+        },
+        {
+          "ar": "ءَامَنُواْ",
+          "translit": "āmanū",
+          "fr": "croire",
+          "racine": "ا-م-ن",
+          "frequence_coran": 440,
+          "auto": true
         },
         {
           "ar": "ثُمَّ",
@@ -352,6 +400,14 @@ const S063 = {
           "fr": "et quand",
           "racine": "و + إِذَا",
           "frequence_coran": 130
+        },
+        {
+          "ar": "رَأَيْتَهُمْ",
+          "translit": "raʾaytahum",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         },
         {
           "ar": "وَإِن",
@@ -552,6 +608,22 @@ const S063 = {
           "fr": "tête",
           "racine": "ر-أ-س",
           "frequence_coran": 14,
+          "auto": true
+        },
+        {
+          "ar": "وَرَأَيْتَهُمْ",
+          "translit": "waraʾaytahum",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        },
+        {
+          "ar": "يَصُدُّونَ",
+          "translit": "yaṣuddūna",
+          "fr": "détourner",
+          "racine": "ص-د-د",
+          "frequence_coran": 37,
           "auto": true
         },
         {
@@ -844,6 +916,14 @@ const S063 = {
           "frequence_coran": 57
         },
         {
+          "ar": "الْمُنَٰفِقِينَ",
+          "translit": "l-munāfiqīna",
+          "fr": "hypocrites",
+          "racine": "ن-ف-ق",
+          "frequence_coran": 27,
+          "auto": true
+        },
+        {
           "ar": "لَا",
           "translit": "lā",
           "fr": "non",
@@ -947,11 +1027,27 @@ const S063 = {
           "auto": true
         },
         {
+          "ar": "وَلِلْمُؤْمِنِينَ",
+          "translit": "walilmuʾminīna",
+          "fr": "croyant",
+          "racine": "ا-م-ن",
+          "frequence_coran": 117,
+          "auto": true
+        },
+        {
           "ar": "وَلَٰكِنَّ",
           "translit": "walākinna",
           "fr": "mais",
           "racine": "و + لَكِنْ",
           "frequence_coran": 57
+        },
+        {
+          "ar": "الْمُنَٰفِقِينَ",
+          "translit": "l-munāfiqīna",
+          "fr": "hypocrites",
+          "racine": "ن-ف-ق",
+          "frequence_coran": 27,
+          "auto": true
         },
         {
           "ar": "لَا",
@@ -1003,6 +1099,14 @@ const S063 = {
           "fr": "ceux qui",
           "racine": "pronom relatif",
           "frequence_coran": 810
+        },
+        {
+          "ar": "ءَامَنُواْ",
+          "translit": "āmanū",
+          "fr": "croire",
+          "racine": "ا-م-ن",
+          "frequence_coran": 440,
+          "auto": true
         },
         {
           "ar": "لَا",
@@ -1090,6 +1194,14 @@ const S063 = {
           "fr": "eux",
           "racine": "pronom personnel",
           "frequence_coran": 180
+        },
+        {
+          "ar": "الْخَٰسِرُونَ",
+          "translit": "l-khāsirūna",
+          "fr": "perdants",
+          "racine": "خ-س-ر",
+          "frequence_coran": 32,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1134,6 +1246,14 @@ const S063 = {
           "fr": "ce que",
           "racine": "particule",
           "frequence_coran": 1010
+        },
+        {
+          "ar": "رَزَقْنَٰكُم",
+          "translit": "razaqnākum",
+          "fr": "pourvoir",
+          "racine": "ر-ز-ق",
+          "frequence_coran": 61,
+          "auto": true
         },
         {
           "ar": "مِّن",
@@ -1244,6 +1364,14 @@ const S063 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "الصَّـٰلِحِينَ",
+          "translit": "ṣ-ṣāliḥīna",
+          "fr": "vertueux",
+          "racine": "ص-ل-ح",
+          "frequence_coran": 65,
+          "auto": true
         }
       ],
       "analyse_globale": "La supplique du mourant : lawlā akhkhartanī — « si seulement Tu m'accordais un délai... je ferais l'aumône ». De tout ce qu'on pourrait regretter, le texte choisit la ṣadaqa non donnée. Le v.11 ferme la porte avec une douceur terrible : aucun report quand le terme arrive. La sourate des faux-semblants s'achève sur l'urgence du geste vrai.",

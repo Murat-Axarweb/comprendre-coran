@@ -305,6 +305,14 @@ const S088 = {
           "frequence_coran": 658
         },
         {
+          "ar": "يُغْنِي",
+          "translit": "yughnī",
+          "fr": "dispenser",
+          "racine": "غ-ن-ي",
+          "frequence_coran": 28,
+          "auto": true
+        },
+        {
           "ar": "مِن",
           "translit": "min",
           "fr": "de",
@@ -951,6 +959,14 @@ const S088 = {
           "frequence_coran": 3226
         },
         {
+          "ar": "تَوَلَّىٰ",
+          "translit": "tawallā",
+          "fr": "se détourner",
+          "racine": "و-ل-ي",
+          "frequence_coran": 78,
+          "auto": true
+        },
+        {
           "ar": "وَكَفَرَ",
           "translit": "wakafara",
           "fr": "il a mécru",
@@ -986,6 +1002,14 @@ const S088 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَيُعَذِّبُهُ",
+          "translit": "fayuʿadhdhibuhu",
+          "fr": "châtier",
+          "racine": "ع-ذ-ب",
+          "frequence_coran": 41,
+          "auto": true
+        },
         {
           "ar": "اللَّهُ",
           "translit": "llāhu",

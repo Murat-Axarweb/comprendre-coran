@@ -223,6 +223,14 @@ const S069 = {
           "fr": "Thamud (peuple de Salih)",
           "racine": "—",
           "frequence_coran": 26
+        },
+        {
+          "ar": "فَأُهْلِكُواْ",
+          "translit": "faʾuhlikū",
+          "fr": "anéantir",
+          "racine": "ه-ل-ك",
+          "frequence_coran": 51,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -259,6 +267,14 @@ const S069 = {
           "fr": "Aad (peuple de Hud)",
           "racine": "—",
           "frequence_coran": 24
+        },
+        {
+          "ar": "فَأُهْلِكُواْ",
+          "translit": "faʾuhlikū",
+          "fr": "anéantir",
+          "racine": "ه-ل-ك",
+          "frequence_coran": 51,
+          "auto": true
         },
         {
           "ar": "بِرِيحٍ",
@@ -312,11 +328,27 @@ const S069 = {
           "frequence_coran": 8
         },
         {
+          "ar": "لَيَالٍ",
+          "translit": "layālin",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "أَيَّامٍ",
           "translit": "ayyāmin",
           "fr": "jour",
           "racine": "ي-و-م",
           "frequence_coran": 405,
+          "auto": true
+        },
+        {
+          "ar": "فَتَرَى",
+          "translit": "fatarā",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
           "auto": true
         },
         {
@@ -375,6 +407,14 @@ const S069 = {
           "fr": "est-ce que ?",
           "racine": "particule interrogative",
           "frequence_coran": 66
+        },
+        {
+          "ar": "تَرَىٰ",
+          "translit": "tarā",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         },
         {
           "ar": "لَهُم",
@@ -674,6 +714,14 @@ const S069 = {
           "fr": "Trompette (du Jugement)",
           "racine": "ص-و-ر",
           "frequence_coran": 10
+        },
+        {
+          "ar": "وَٰحِدَةٌ",
+          "translit": "wāḥidatun",
+          "fr": "une seule (fém.)",
+          "racine": "و-ح-د",
+          "frequence_coran": 31,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -725,6 +773,14 @@ const S069 = {
           "fr": "montagne",
           "racine": "ج-ب-ل",
           "frequence_coran": 39,
+          "auto": true
+        },
+        {
+          "ar": "وَٰحِدَةً",
+          "translit": "wāḥidatan",
+          "fr": "une seule (fém.)",
+          "racine": "و-ح-د",
+          "frequence_coran": 31,
           "auto": true
         }
       ],
@@ -982,6 +1038,14 @@ const S069 = {
           "auto": true
         },
         {
+          "ar": "كِتَٰبَهُ",
+          "translit": "kitābahū",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
+          "auto": true
+        },
+        {
           "ar": "بِيَمِينِهِ",
           "translit": "biyamīnihī",
           "fr": "droite",
@@ -1003,6 +1067,14 @@ const S069 = {
           "fr": "lire",
           "racine": "ق-ر-أ",
           "frequence_coran": 18,
+          "auto": true
+        },
+        {
+          "ar": "كِتَٰبِيَهْ",
+          "translit": "kitābiyah",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
           "auto": true
         }
       ],
@@ -1291,6 +1363,14 @@ const S069 = {
           "auto": true
         },
         {
+          "ar": "كِتَٰبَهُ",
+          "translit": "kitābahū",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
+          "auto": true
+        },
+        {
           "ar": "بِشِمَالِهِ",
           "translit": "bishimālihī",
           "fr": "gauche",
@@ -1327,6 +1407,14 @@ const S069 = {
           "fr": "donner",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
+          "auto": true
+        },
+        {
+          "ar": "كِتَٰبِيَهْ",
+          "translit": "kitābiyah",
+          "fr": "livre",
+          "racine": "ك-ت-ب",
+          "frequence_coran": 256,
           "auto": true
         }
       ],
@@ -1519,6 +1607,14 @@ const S069 = {
           "racine": "préposition",
           "frequence_coran": 153,
           "auto": true
+        },
+        {
+          "ar": "سُلْطَٰنِيَهْ",
+          "translit": "sulṭāniyah",
+          "fr": "autorité",
+          "racine": "س-ل-ط",
+          "frequence_coran": 37,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1679,6 +1775,14 @@ const S069 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يُؤْمِنُ",
+          "translit": "yuʾminu",
+          "fr": "croire",
+          "racine": "ا-م-ن",
+          "frequence_coran": 440,
+          "auto": true
         },
         {
           "ar": "بِاللَّهِ",
@@ -1944,6 +2048,14 @@ const S069 = {
           "fr": "par ce que",
           "racine": "بِ + مَا",
           "frequence_coran": 296
+        },
+        {
+          "ar": "تُبْصِرُونَ",
+          "translit": "tubṣirūna",
+          "fr": "voir",
+          "racine": "ب-ص-ر",
+          "frequence_coran": 29,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1987,6 +2099,14 @@ const S069 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "تُبْصِرُونَ",
+          "translit": "tubṣirūna",
+          "fr": "voir",
+          "racine": "ب-ص-ر",
+          "frequence_coran": 29,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -2172,6 +2292,14 @@ const S069 = {
           "fr": "ce que",
           "racine": "particule",
           "frequence_coran": 1010
+        },
+        {
+          "ar": "تَذَكَّرُونَ",
+          "translit": "tadhakkarūna",
+          "fr": "se rappeler",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 51,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2215,6 +2343,14 @@ const S069 = {
           "fr": "Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 980
+        },
+        {
+          "ar": "الْعَٰلَمِينَ",
+          "translit": "l-ʿālamīna",
+          "fr": "les mondes",
+          "racine": "ع-ل-م",
+          "frequence_coran": 72,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2251,6 +2387,14 @@ const S069 = {
           "fr": "sur nous",
           "racine": "عَلَى + نَا",
           "frequence_coran": 51
+        },
+        {
+          "ar": "بَعْضَ",
+          "translit": "baʿḍa",
+          "fr": "une partie",
+          "racine": "ب-ع-ض",
+          "frequence_coran": 124,
+          "auto": true
         }
       ],
       "analyse_globale": "Les versets 44-47 répondent à l'accusation de fabrication par un argument de véracité radicale : si le Messager inventait, il serait exécuté par Celui-là même dont il se réclame. La transmission du texte engage la vie du transmetteur — garantie suprême de fidélité.",
@@ -2549,6 +2693,14 @@ const S069 = {
           "fr": "sur",
           "racine": "particule",
           "frequence_coran": 1430
+        },
+        {
+          "ar": "الْكَٰفِرِينَ",
+          "translit": "l-kāfirīna",
+          "fr": "mécréants",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 128,
+          "auto": true
         }
       ],
       "niveau_couche": 3

@@ -211,6 +211,14 @@ const S086 = {
           "auto": true
         },
         {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "مِمَّ",
           "translit": "mimma",
           "fr": "de",
@@ -260,6 +268,14 @@ const S086 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "مَّاءٍ",
+          "translit": "māʾin",
+          "fr": "eau",
+          "racine": "م-و-ه",
+          "frequence_coran": 46,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -290,6 +306,14 @@ const S086 = {
         }
       },
       "mots": [
+        {
+          "ar": "يَخْرُجُ",
+          "translit": "yakhruju",
+          "fr": "sortir",
+          "racine": "خ-ر-ج",
+          "frequence_coran": 47,
+          "auto": true
+        },
         {
           "ar": "مِن",
           "translit": "min",
@@ -486,6 +510,14 @@ const S086 = {
           "frequence_coran": 310
         },
         {
+          "ar": "ذَاتِ",
+          "translit": "dhāti",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
+        },
+        {
           "ar": "الرَّجْعِ",
           "translit": "r-rajʿi",
           "fr": "revenir",
@@ -527,6 +559,14 @@ const S086 = {
           "fr": "et la terre",
           "racine": "و + أ-ر-ض",
           "frequence_coran": 108
+        },
+        {
+          "ar": "ذَاتِ",
+          "translit": "dhāti",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -711,7 +751,16 @@ const S086 = {
           "texte": "Sen inkarcılara mehil ver; onlara mukabeleyi biraz geri bırak"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "الْكَٰفِرِينَ",
+          "translit": "l-kāfirīna",
+          "fr": "mécréants",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 128,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     }
   ],

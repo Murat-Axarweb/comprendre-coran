@@ -96,6 +96,14 @@ const S073 = {
           "auto": true
         },
         {
+          "ar": "الَّيْلَ",
+          "translit": "llayla",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "إِلَّا",
           "translit": "illā",
           "fr": "sauf",
@@ -224,6 +232,14 @@ const S073 = {
           "fr": "réciter posément",
           "racine": "ر-ت-ل",
           "frequence_coran": 3
+        },
+        {
+          "ar": "الْقُرْءَانَ",
+          "translit": "l-qurʾāna",
+          "fr": "Coran",
+          "racine": "ق-ر-ا",
+          "frequence_coran": 70,
+          "auto": true
         }
       ],
       "analyse_globale": "Rattil il-qurʾāna tartīlā : l'ordre fondateur de toute la science de la récitation. Tartīl désigne l'agencement soigné, perle après perle — réciter lentement pour que le sens ait le temps de descendre. La nuit fournit le silence, le tartīl fournit le rythme : les deux conditions de l'imprégnation.",
@@ -324,11 +340,27 @@ const S073 = {
           "frequence_coran": 609
         },
         {
+          "ar": "الَّيْلِ",
+          "translit": "llayli",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "هِيَ",
           "translit": "hiya",
           "fr": "elle",
           "racine": "pronom personnel",
           "frequence_coran": 47
+        },
+        {
+          "ar": "أَشَدُّ",
+          "translit": "ashaddu",
+          "fr": "plus fort",
+          "racine": "ش-د-د",
+          "frequence_coran": 31,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -490,6 +522,14 @@ const S073 = {
           "frequence_coran": 812
         },
         {
+          "ar": "إِلَٰهَ",
+          "translit": "ilāha",
+          "fr": "divinité",
+          "racine": "ا-ل-ه",
+          "frequence_coran": 146,
+          "auto": true
+        },
+        {
           "ar": "إِلَّا",
           "translit": "illā",
           "fr": "sauf",
@@ -502,6 +542,14 @@ const S073 = {
           "fr": "il",
           "racine": "pronom personnel",
           "frequence_coran": 265
+        },
+        {
+          "ar": "فَاتَّخِذْهُ",
+          "translit": "fattakhidhhu",
+          "fr": "prendre",
+          "racine": "ا-خ-ذ",
+          "frequence_coran": 124,
+          "auto": true
         },
         {
           "ar": "وَكِيلًا",
@@ -593,6 +641,22 @@ const S073 = {
       },
       "mots": [
         {
+          "ar": "وَذَرْنِي",
+          "translit": "wadharnī",
+          "fr": "laisser",
+          "racine": "و-ذ-ر",
+          "frequence_coran": 45,
+          "auto": true
+        },
+        {
+          "ar": "أُوْلِي",
+          "translit": "ūlī",
+          "fr": "doués de",
+          "racine": "ا-و-ل",
+          "frequence_coran": 45,
+          "auto": true
+        },
+        {
           "ar": "النَّعْمَةِ",
           "translit": "n-naʿmati",
           "fr": "bienfait",
@@ -678,6 +742,14 @@ const S073 = {
           "fr": "châtiment",
           "racine": "ع-ذ-ب",
           "frequence_coran": 373,
+          "auto": true
+        },
+        {
+          "ar": "أَلِيمًا",
+          "translit": "alīman",
+          "fr": "douloureux",
+          "racine": "ا-ل-م",
+          "frequence_coran": 72,
           "auto": true
         }
       ],
@@ -1075,6 +1147,14 @@ const S073 = {
           "frequence_coran": 56
         },
         {
+          "ar": "اتَّخَذَ",
+          "translit": "ttakhadha",
+          "fr": "prendre",
+          "racine": "ا-خ-ذ",
+          "frequence_coran": 124,
+          "auto": true
+        },
+        {
           "ar": "إِلَىٰ",
           "translit": "ilā",
           "fr": "vers",
@@ -1162,6 +1242,14 @@ const S073 = {
           "frequence_coran": 3226
         },
         {
+          "ar": "الَّيْلِ",
+          "translit": "llayli",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "وَنِصْفَهُ",
           "translit": "waniṣfahū",
           "fr": "moitié",
@@ -1206,6 +1294,14 @@ const S073 = {
           "frequence_coran": 239
         },
         {
+          "ar": "الَّيْلَ",
+          "translit": "llayla",
+          "fr": "nuit",
+          "racine": "ل-ي-ل",
+          "frequence_coran": 84,
+          "auto": true
+        },
+        {
           "ar": "وَالنَّهَارَ",
           "translit": "wan-nahāra",
           "fr": "le jour",
@@ -1242,6 +1338,14 @@ const S073 = {
           "auto": true
         },
         {
+          "ar": "فَتَابَ",
+          "translit": "fatāba",
+          "fr": "se repentir",
+          "racine": "ت-و-ب",
+          "frequence_coran": 63,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْكُمْ",
           "translit": "ʿalaykum",
           "fr": "sur vous",
@@ -1269,6 +1373,14 @@ const S073 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "الْقُرْءَانِ",
+          "translit": "l-qurʾāni",
+          "fr": "Coran",
+          "racine": "ق-ر-ا",
+          "frequence_coran": 70,
+          "auto": true
         },
         {
           "ar": "عَلِمَ",
@@ -1426,11 +1538,27 @@ const S073 = {
           "auto": true
         },
         {
+          "ar": "الصَّلَوٰةَ",
+          "translit": "ṣ-ṣalawāta",
+          "fr": "prière",
+          "racine": "ص-ل-و",
+          "frequence_coran": 82,
+          "auto": true
+        },
+        {
           "ar": "وَءَاتُواْ",
           "translit": "waʾātū",
           "fr": "donner",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
+          "auto": true
+        },
+        {
+          "ar": "الزَّكَوٰةَ",
+          "translit": "z-zakawāta",
+          "fr": "aumône purificatrice",
+          "racine": "ز-ك-و",
+          "frequence_coran": 32,
           "auto": true
         },
         {
@@ -1565,6 +1693,14 @@ const S073 = {
           "fr": "Très Pardonneur",
           "racine": "غ-ف-ر",
           "frequence_coran": 51
+        },
+        {
+          "ar": "رَّحِيمٌ",
+          "translit": "raḥīmu",
+          "fr": "Très Miséricordieux",
+          "racine": "ر-ح-م",
+          "frequence_coran": 82,
+          "auto": true
         }
       ],
       "analyse_globale": "Le verset final, médinois, est le plus long de la sourate et fonctionne comme son avenant : l'obligation nocturne devient recommandation souple (« ce qui vous est aisé »), au vu des réalités nouvelles — maladie, commerce, défense. La pédagogie divine ajuste la charge sans annuler l'esprit : la nuit reste l'école, l'assouplissement reste la règle.",

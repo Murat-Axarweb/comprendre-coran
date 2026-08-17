@@ -296,7 +296,24 @@ const S053 = {
           "texte": "Ona, çetin kuvvetlere sahip ve güçlü olan Cebrail öğretmiştir; en yüksek ufukta iken doğruluvermiş"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "ذُو",
+          "translit": "dhū",
+          "fr": "possesseur de",
+          "racine": "—",
+          "frequence_coran": 92,
+          "auto": true
+        },
+        {
+          "ar": "فَاسْتَوَىٰ",
+          "translit": "fastawā",
+          "fr": "s'établir",
+          "racine": "س-و-ي",
+          "frequence_coran": 35,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -547,6 +564,14 @@ const S053 = {
           "fr": "ce que",
           "racine": "particule",
           "frequence_coran": 1010
+        },
+        {
+          "ar": "يَرَىٰ",
+          "translit": "yarā",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -576,6 +601,14 @@ const S053 = {
           "fr": "et certes",
           "racine": "و + لَ + قَدْ",
           "frequence_coran": 124
+        },
+        {
+          "ar": "رَءَاهُ",
+          "translit": "raʾāhu",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         },
         {
           "ar": "أُخْرَىٰ",
@@ -809,6 +842,14 @@ const S053 = {
           "frequence_coran": 3226
         },
         {
+          "ar": "ءَايَٰتِ",
+          "translit": "āyāti",
+          "fr": "signe",
+          "racine": "ا-ي-ي",
+          "frequence_coran": 361,
+          "auto": true
+        },
+        {
           "ar": "رَبِّهِ",
           "translit": "rabbihi",
           "fr": "son Seigneur",
@@ -836,7 +877,16 @@ const S053 = {
           "texte": "Ey inkarcılar! Şimdi Lat, Uzza ve bundan başka üçüncüleri olan Menat'ın ne olduğunu söyler misiniz"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "أَفَرَءَيْتُمُ",
+          "translit": "afaraʾaytumu",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        }
+      ],
       "analyse_globale": "Les trois déesses mecquoises citées par leurs noms — al-Lāt, al-ʿUzzā, Manāt — puis désarmées en un verset : « ce ne sont que des noms ». La critique coranique de l'idolâtrie est nominaliste : derrière le nom vénéré, aucune réalité, aucune autorité descendue — que la conjecture (ẓann) et le désir (hawā), les deux mots-clés de la sourate.",
       "niveau_couche": 3,
       "groupes": {
@@ -1019,6 +1069,14 @@ const S053 = {
           "frequence_coran": 78
         },
         {
+          "ar": "وَءَابَاؤُكُم",
+          "translit": "waʾābāʾukum",
+          "fr": "pères",
+          "racine": "ا-ب-و",
+          "frequence_coran": 64,
+          "auto": true
+        },
+        {
           "ar": "مَّا",
           "translit": "mā",
           "fr": "ce que",
@@ -1052,6 +1110,14 @@ const S053 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "سُلْطَٰنٍ",
+          "translit": "sulṭānin",
+          "fr": "autorité",
+          "racine": "س-ل-ط",
+          "frequence_coran": 37,
+          "auto": true
         },
         {
           "ar": "إِن",
@@ -1161,6 +1227,14 @@ const S053 = {
           "fr": "ou bien",
           "racine": "particule d’alternative",
           "frequence_coran": 110
+        },
+        {
+          "ar": "لِلْإِنسَٰنِ",
+          "translit": "lilʾinsāni",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
         },
         {
           "ar": "مَا",
@@ -1284,6 +1358,14 @@ const S053 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "تُغْنِي",
+          "translit": "tughnī",
+          "fr": "dispenser",
+          "racine": "غ-ن-ي",
+          "frequence_coran": 28,
+          "auto": true
         },
         {
           "ar": "إِلَّا",
@@ -1523,6 +1605,14 @@ const S053 = {
           "frequence_coran": 812
         },
         {
+          "ar": "يُغْنِي",
+          "translit": "yughnī",
+          "fr": "dispenser",
+          "racine": "غ-ن-ي",
+          "frequence_coran": 28,
+          "auto": true
+        },
+        {
           "ar": "مِنَ",
           "translit": "mina",
           "fr": "de",
@@ -1559,6 +1649,14 @@ const S053 = {
       },
       "mots": [
         {
+          "ar": "فَأَعْرِضْ",
+          "translit": "faʾaʿriḍ",
+          "fr": "se détourner",
+          "racine": "ع-ر-ض",
+          "frequence_coran": 32,
+          "auto": true
+        },
+        {
           "ar": "عَن",
           "translit": "ʿan",
           "fr": "de",
@@ -1571,6 +1669,14 @@ const S053 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "تَوَلَّىٰ",
+          "translit": "tawallā",
+          "fr": "se détourner",
+          "racine": "و-ل-ي",
+          "frequence_coran": 78,
+          "auto": true
         },
         {
           "ar": "عَن",
@@ -1595,11 +1701,27 @@ const S053 = {
           "frequence_coran": 47
         },
         {
+          "ar": "يُرِدْ",
+          "translit": "yurid",
+          "fr": "vouloir",
+          "racine": "ر-و-د",
+          "frequence_coran": 98,
+          "auto": true
+        },
+        {
           "ar": "إِلَّا",
           "translit": "illā",
           "fr": "sauf",
           "racine": "particule d’exception",
           "frequence_coran": 662
+        },
+        {
+          "ar": "الْحَيَوٰةَ",
+          "translit": "l-ḥayawāta",
+          "fr": "vie",
+          "racine": "ح-ي-ي",
+          "frequence_coran": 76,
+          "auto": true
         },
         {
           "ar": "الدُّنْيَا",
@@ -1728,6 +1850,14 @@ const S053 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "اهْتَدَىٰ",
+          "translit": "htadā",
+          "fr": "être guidé",
+          "racine": "ه-د-ي",
+          "frequence_coran": 40,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1926,6 +2056,14 @@ const S053 = {
           "frequence_coran": 116
         },
         {
+          "ar": "الْمَغْفِرَةِ",
+          "translit": "l-maghfirati",
+          "fr": "pardon",
+          "racine": "غ-ف-ر",
+          "frequence_coran": 28,
+          "auto": true
+        },
+        {
           "ar": "هُوَ",
           "translit": "huwa",
           "fr": "il",
@@ -2078,11 +2216,27 @@ const S053 = {
       },
       "mots": [
         {
+          "ar": "أَفَرَءَيْتَ",
+          "translit": "afaraʾayta",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
+        },
+        {
           "ar": "الَّذِي",
           "translit": "lladhī",
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "تَوَلَّىٰ",
+          "translit": "tawallā",
+          "fr": "se détourner",
+          "racine": "و-ل-ي",
+          "frequence_coran": 78,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -2184,6 +2338,14 @@ const S053 = {
           "fr": "il",
           "racine": "pronom personnel",
           "frequence_coran": 265
+        },
+        {
+          "ar": "يَرَىٰ",
+          "translit": "yarā",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2383,6 +2545,14 @@ const S053 = {
           "frequence_coran": 47
         },
         {
+          "ar": "لِلْإِنسَٰنِ",
+          "translit": "lilʾinsāni",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "إِلَّا",
           "translit": "illā",
           "fr": "sauf",
@@ -2446,6 +2616,14 @@ const S053 = {
           "fr": "particule du futur (bientôt",
           "racine": "—",
           "frequence_coran": 42
+        },
+        {
+          "ar": "يُرَىٰ",
+          "translit": "yurā",
+          "fr": "voir",
+          "racine": "ر-ا-ي",
+          "frequence_coran": 265,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2895,6 +3073,14 @@ const S053 = {
           "frequence_coran": 147
         },
         {
+          "ar": "أَهْلَكَ",
+          "translit": "ahlaka",
+          "fr": "anéantir",
+          "racine": "ه-ل-ك",
+          "frequence_coran": 51,
+          "auto": true
+        },
+        {
           "ar": "الْأُولَىٰ",
           "translit": "l-ʾūlā",
           "fr": "premier",
@@ -3127,6 +3313,22 @@ const S053 = {
         }
       },
       "mots": [
+        {
+          "ar": "فَبِأَيِّ",
+          "translit": "fabiʾayyi",
+          "fr": "quel",
+          "racine": "—",
+          "frequence_coran": 60,
+          "auto": true
+        },
+        {
+          "ar": "ءَالَاءِ",
+          "translit": "ālāʾi",
+          "fr": "bienfaits",
+          "racine": "ا-ل-و",
+          "frequence_coran": 34,
+          "auto": true
+        },
         {
           "ar": "رَبِّكَ",
           "translit": "rabbika",

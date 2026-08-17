@@ -70,6 +70,14 @@ const S075 = {
           "fr": "jour",
           "racine": "ي-و-م",
           "frequence_coran": 405
+        },
+        {
+          "ar": "الْقِيَٰمَةِ",
+          "translit": "l-qiyāmati",
+          "fr": "résurrection",
+          "racine": "ق-و-م",
+          "frequence_coran": 70,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -143,6 +151,14 @@ const S075 = {
           "fr": "croire",
           "racine": "ح-س-ب",
           "frequence_coran": 44,
+          "auto": true
+        },
+        {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
           "auto": true
         },
         {
@@ -248,6 +264,14 @@ const S075 = {
           "fr": "il veut",
           "racine": "ر-و-د",
           "frequence_coran": 40
+        },
+        {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -292,6 +316,14 @@ const S075 = {
           "fr": "jour",
           "racine": "ي-و-م",
           "frequence_coran": 405
+        },
+        {
+          "ar": "الْقِيَٰمَةِ",
+          "translit": "l-qiyāmati",
+          "fr": "résurrection",
+          "racine": "ق-و-م",
+          "frequence_coran": 70,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -474,6 +506,14 @@ const S075 = {
           "auto": true
         },
         {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",
           "fr": "ce jour-là",
@@ -604,6 +644,14 @@ const S075 = {
           "auto": true
         },
         {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhi",
           "fr": "ce jour-là",
@@ -659,6 +707,14 @@ const S075 = {
           "fr": "plutôt",
           "racine": "particule de correction",
           "frequence_coran": 113
+        },
+        {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
         },
         {
           "ar": "عَلَىٰ",
@@ -835,6 +891,14 @@ const S075 = {
           "racine": "ج-م-ع",
           "frequence_coran": 4,
           "auto": true
+        },
+        {
+          "ar": "وَقُرْءَانَهُ",
+          "translit": "waqurʾānahū",
+          "fr": "Coran",
+          "racine": "ق-ر-ا",
+          "frequence_coran": 70,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -879,6 +943,14 @@ const S075 = {
           "fr": "suivre",
           "racine": "ت-ب-ع",
           "frequence_coran": 78
+        },
+        {
+          "ar": "قُرْءَانَهُ",
+          "translit": "qurʾānahū",
+          "fr": "Coran",
+          "racine": "ق-ر-ا",
+          "frequence_coran": 70,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -989,6 +1061,14 @@ const S075 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَتَذَرُونَ",
+          "translit": "watadharūna",
+          "fr": "laisser",
+          "racine": "و-ذ-ر",
+          "frequence_coran": 45,
+          "auto": true
+        },
         {
           "ar": "الْأخِرَةَ",
           "translit": "l-ʾkhirata",
@@ -1447,6 +1527,14 @@ const S075 = {
           "fr": "traiter de mensonge",
           "racine": "ك-ذ-ب",
           "frequence_coran": 80
+        },
+        {
+          "ar": "وَتَوَلَّىٰ",
+          "translit": "watawallā",
+          "fr": "se détourner",
+          "racine": "و-ل-ي",
+          "frequence_coran": 78,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1497,6 +1585,14 @@ const S075 = {
           "fr": "vers",
           "racine": "particule",
           "frequence_coran": 742
+        },
+        {
+          "ar": "أَهْلِهِ",
+          "translit": "ahlihī",
+          "fr": "gens de",
+          "racine": "ا-ه-ل",
+          "frequence_coran": 127,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1601,11 +1697,27 @@ const S075 = {
           "auto": true
         },
         {
+          "ar": "الْإِنسَٰنُ",
+          "translit": "l-ʾinsānu",
+          "fr": "être humain",
+          "racine": "ا-ن-س",
+          "frequence_coran": 70,
+          "auto": true
+        },
+        {
           "ar": "أَن",
           "translit": "an",
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "يُتْرَكَ",
+          "translit": "yutraka",
+          "fr": "laisser",
+          "racine": "ت-ر-ك",
+          "frequence_coran": 40,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1809,6 +1921,14 @@ const S075 = {
           "fr": "faire vivre",
           "racine": "ح-ي-ي",
           "frequence_coran": 51,
+          "auto": true
+        },
+        {
+          "ar": "الْمَوْتَىٰ",
+          "translit": "l-mawtā",
+          "fr": "mort",
+          "racine": "م-و-ت",
+          "frequence_coran": 38,
           "auto": true
         }
       ],
