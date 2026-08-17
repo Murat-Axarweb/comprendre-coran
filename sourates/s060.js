@@ -940,7 +940,6 @@ const S060 = {
           "frequence_coran": 8
         }
       ],
-      "analyse_globale": "L'uswa ḥasana (bel exemple) d'Abraham — la même expression qu'au sujet du Prophète en 33:21 : le désaveu de l'idolâtrie, net et public. Mais le texte signale l'exception avec une honnêteté remarquable : la promesse d'Abraham de prier pour son père idolâtre n'est PAS à imiter. Même le modèle a une limite documentée — l'exemplarité coranique n'est jamais aveugle.",
       "niveau_couche": 3
     },
     {
@@ -1314,7 +1313,6 @@ const S060 = {
           "auto": true
         }
       ],
-      "analyse_globale": "ʿAsā Llāhu an yajʿala... mawadda : « il se peut qu'Allah établisse de l'affection » entre vous et vos ennemis d'aujourd'hui. Placé entre les versets de rupture et ceux de la coexistence, ce verset interdit de figer l'inimitié : l'ennemi actuel est un ami potentiel. L'histoire l'a confirmé — La Mecque entière, combattue pendant vingt ans, devint musulmane.",
       "niveau_couche": 3
     },
     {
@@ -1467,7 +1465,6 @@ const S060 = {
           "frequence_coran": 39
         }
       ],
-      "analyse_globale": "Le verset-charte : lā yanhākumu Llāh — « Allah ne vous interdit pas » la bonté (birr, le mot de la piété filiale) ni l'équité envers les non-combattants. Puis la clause décisive : « Allah aime les équitables ». Lu avec le v.9 qui définit strictement l'exception (combattants, expulseurs), il fonde la distinction coranique entre la différence religieuse — respectable — et l'agression — seule à combattre.",
       "niveau_couche": 3
     },
     {

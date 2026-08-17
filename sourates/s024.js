@@ -1257,7 +1257,6 @@ const S024 = {
           "frequence_coran": 107
         }
       ],
-      "analyse_globale": "Inna lladhīna jāʾū bi-l-ifki ʿuṣbatun minkum : « ceux qui ont porté la calomnie sont un groupe parmi vous ». L'ifk (le mensonge retourné, la calomnie) désigne l'accusation portée contre ʿĀʾisha. Et le retournement stupéfiant : lā taḥsabūhu sharran lakum bal huwa khayrun lakum — « ne le croyez pas un mal, c'est un bien pour vous ». L'épreuve devient l'occasion d'une législation qui protégera à jamais l'honneur des innocents. La douleur communautaire accouche d'une loi de justice.",
       "niveau_couche": 3
     },
     {
@@ -1360,7 +1359,6 @@ const S024 = {
           "frequence_coran": 45
         }
       ],
-      "analyse_globale": "Le principe du ḥusn aẓ-ẓann — la bonne présomption : « pourquoi les croyants n'ont-ils pas, en eux-mêmes, pensé du bien ? » Face à une rumeur, le réflexe du croyant devrait être de supposer l'innocence, pas la faute. Le verset fait de la charité interprétative un devoir : penser bien d'autrui par défaut. Et il ajoute la règle de preuve (v.13) : sans quatre témoins, l'accusateur est le menteur. La présomption d'innocence est ici une exigence théologique.",
       "niveau_couche": 3
     },
     {
@@ -4070,7 +4068,6 @@ const S024 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-yaḥfaẓna furūjahunna : le verset central de la pudeur féminine, en parallèle exact du v.30 pour les hommes (baisser le regard, garder la chasteté). La symétrie est notable : la responsabilité du regard incombe D'ABORD aux hommes (v.30), avant toute prescription vestimentaire. La pudeur coranique est bilatérale, une éthique partagée du regard et du comportement, non un fardeau unilatéral. Le vêtement vient ensuite, dans une liste précise des proches devant qui il n'est pas requis.",
       "niveau_couche": 3
     },
     {
@@ -4859,7 +4856,6 @@ const S024 = {
           "frequence_coran": 100
         }
       ],
-      "analyse_globale": "Allāhu nūru s-samāwāti wal-arḍ : le sommet mystique du Coran. Dieu est LA Lumière — non pas une chose éclairée, mais ce par quoi tout devient visible et intelligible. La parabole s'emboîte : niche (mishkāt), lampe, cristal comme un astre, huile d'un olivier « ni oriental ni occidental » (au-delà des directions, donc universel), huile qui « éclairerait presque sans feu ». Nūrun ʿalā nūr — lumière sur lumière. Les commentateurs y lisent la lumière de la foi dans le cœur, la révélation dans le monde, la raison illuminant la matière. Placé au cœur d'une sourate sur la pureté sociale, il en donne le fondement : vivre dans la lumière divine, c'est vivre sans les ténèbres du soupçon, de la calomnie et de l'indécence.",
       "niveau_couche": 3
     },
     {

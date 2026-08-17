@@ -65,7 +65,6 @@ const S054 = {
           "frequence_coran": 27
         }
       ],
-      "analyse_globale": "« La lune s'est fendue » : la tradition rapporte le prodige montré aux Mecquois qui réclamaient un signe — et leur réponse est consignée au v.2 : « magie persistante ». Le miracle ne convainc pas qui a décidé de ne pas croire : la sourate en tire toute sa pédagogie, remplaçant le prodige visuel par le rappel mémorisable.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1060,7 +1059,6 @@ const S054 = {
           "frequence_coran": 3226
         }
       ],
-      "analyse_globale": "Le refrain yassarnā revient après chaque récit (v.17, 22, 32, 40) : le Coran facilité POUR le dhikr — mémorisation, méditation, rappel. La question fa-hal min muddakir n'est pas rhétorique : elle attend une main levée. Chaque lecteur de ce verset est personnellement interpellé, quatorze siècles après.",
       "niveau_couche": 3
     },
     {
@@ -1748,7 +1746,6 @@ const S054 = {
           "frequence_coran": 39
         }
       ],
-      "analyse_globale": "Le partage de l'eau avec la chamelle de Thamūd : « chaque tour de boisson respecté ». Le test de tout un peuple tenait à un point d'eau partagé avec un être vulnérable. Les grandes chutes commencent par le refus des petits partages — le crime (v.29) ne fait qu'exécuter ce que l'avarice avait déjà décidé.",
       "niveau_couche": 3
     },
     {
@@ -2938,7 +2935,6 @@ const S054 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Innā kulla shayʾin khalaqnāhu bi-qadar : « toute chose créée selon une mesure ». Le verset-clé de la doctrine du qadar (décret, mesure) — l'univers n'est ni chaos ni improvisation : constantes, proportions, lois. Et le v.50 ajoute la vitesse d'exécution : un ordre unique, « comme un clin d'œil ».",
       "niveau_couche": 3
     },
     {

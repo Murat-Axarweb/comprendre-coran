@@ -1624,7 +1624,6 @@ const S013 = {
           "frequence_coran": 26
         }
       ],
-      "analyse_globale": "Inna Llāha lā yughayyiru mā bi-qawmin ḥattā yughayyirū mā bi-anfusihim : « Allah ne change pas l'état d'un peuple tant qu'ils ne changent pas ce qui est en eux-mêmes ». La grande loi coranique de l'histoire. Le changement collectif — prospérité ou décadence, liberté ou servitude — dépend d'abord d'une transformation intérieure (mā bi-anfusihim : ce qui est dans les âmes). Ni fatalisme ni attentisme : Dieu ne modifie pas d'en haut la condition d'un peuple passif. La réforme des cœurs, des valeurs, des comportements précède celle des situations. Le verset fonde une responsabilité historique : chaque communauté est comptable de son propre devenir.",
       "niveau_couche": 3
     },
     {
@@ -1839,7 +1838,6 @@ const S013 = {
           "frequence_coran": 52
         }
       ],
-      "analyse_globale": "Wa-yusabbiḥu r-raʿdu bi-ḥamdihi : « le tonnerre glorifie Sa louange ». Le phénomène le plus effrayant du ciel est présenté comme une créature en prière : son grondement est un tasbīḥ, une glorification. La nature entière — jusqu'à ses fracas — participe d'une liturgie cosmique que l'homme n'entend pas comme telle (cf. 17:44). Le verset renverse la peur en révérence : ce qui terrifie les hommes loue Dieu. Et la mention des foudres « frappant qui Il veut » pendant que les hommes « disputent au sujet d'Allah » souligne l'ironie : la création obéit tandis que la créature douée de raison conteste.",
       "niveau_couche": 3
     },
     {
@@ -2683,7 +2681,6 @@ const S013 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La parabole de l'écume : la pluie descend, les vallées coulent, et le flot charrie une écume gonflée — de même le métal fondu produit son écume. Puis le verdict : fa-ammā z-zabadu fa-yadhhabu jufāʾan — « l'écume s'en va au rebut, et ce qui est utile aux hommes demeure sur terre ». Image du vrai et du faux : le faux fait du volume, de l'éclat, du bruit — comme l'écume qui domine la surface — mais il est vide et se dissipe. La vérité, discrète, demeure et profite. Critère précieux : ne pas juger à l'apparence ni au vacarme, mais à la permanence et à l'utilité. Le durable est le vrai.",
       "niveau_couche": 3
     },
     {
@@ -4035,7 +4032,6 @@ const S013 = {
           "auto": true
         }
       ],
-      "analyse_globale": "A-lā bi-dhikri Llāhi taṭmaʾinnu l-qulūb : « n'est-ce pas par le rappel d'Allah que s'apaisent les cœurs ? » Le verset-remède du Coran. La ṭumaʾnīna — quiétude stable, sérénité enracinée — a une source unique : le dhikr, le souvenir de Dieu (récitation, invocation, prière, présence du cœur). Le verset pose un diagnostic implicite : l'agitation, l'anxiété, le vide viennent de l'oubli de Dieu ; le cœur créé pour Lui ne se repose qu'en Lui. La forme interrogative (a-lā) est une invitation à vérifier par soi-même. Ce n'est pas la possession qui apaise, ni la distraction : c'est la connexion à l'Éternel au milieu de l'éphémère.",
       "niveau_couche": 3
     },
     {

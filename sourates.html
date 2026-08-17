@@ -1464,7 +1464,6 @@ function renderVerset() {
     <div class="tabs">
       <button class="tab-btn ${currentTab==='traduction'?'active':''}" onclick="setTab('traduction')">${T('tab_traduction')}</button>
       <button class="tab-btn ${currentTab==='mots'?'active':''}" onclick="setTab('mots')">${T('tab_mots')}</button>
-      <button class="tab-btn ${currentTab==='analyse'?'active':''}" onclick="setTab('analyse')">${T('tab_analyse')}</button>
       <button class="tab-btn ${currentTab==='resume'?'active':''}" onclick="setTab('resume')">${T('tab_resume')}</button>
     </div>
 
@@ -1490,14 +1489,6 @@ function renderVerset() {
         `).join('')}
       </div>
       <div class="mot-detail" id="mot-detail"></div>
-    </div>
-
-    <div class="tab-panel ${currentTab==='analyse'?'active':''}" id="panel-analyse">
-      <div class="section-label">${T('label_analyse_global')}</div>
-      <div class="analyse-box">
-        ${v.analyse_globale || T('wip_analyse')}
-        <div class="couche-badge">${T('label_couche')} ${v.niveau_couche || 1} / 5</div>
-      </div>
     </div>
 
     <div class="tab-panel ${currentTab==='resume'?'active':''}" id="panel-resume">

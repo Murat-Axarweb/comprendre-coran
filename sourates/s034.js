@@ -1777,7 +1777,6 @@ const S034 = {
           "frequence_coran": 10
         }
       ],
-      "analyse_globale": "Iʿmalū āla Dāwūda shukran : « œuvrez, famille de David, EN reconnaissance ». La gratitude est un impératif d'action (iʿmalū), non un état d'âme. Puis le constat désabusé qui traverse tout le Coran : wa-qalīlun min ʿibādiya sh-shakūr — les reconnaissants sont RARES. Recevoir est universel ; remercier par l'acte est l'exception. C'est le thème central de la sourate, illustré à contrario par Saba.",
       "niveau_couche": 3
     },
     {
@@ -1965,7 +1964,6 @@ const S034 = {
           "frequence_coran": 373
         }
       ],
-      "analyse_globale": "La mort de Salomon : les djinns, réputés connaître l'invisible, continuent leurs travaux forcés autour de son cadavre appuyé sur son bâton — jusqu'à ce qu'une simple termite (dābbat al-arḍ) ronge le bois et le fasse tomber. La démonstration est cinglante : ceux qui prétendent au ghayb ignoraient la mort sous leurs yeux. Nul, hormis Dieu, ne connaît l'invisible — pas même les esprits.",
       "niveau_couche": 3
     },
     {
@@ -2112,7 +2110,6 @@ const S034 = {
           "frequence_coran": 51
         }
       ],
-      "analyse_globale": "Le paradigme de Saba : deux jardins, « à droite et à gauche » — l'abondance encadrant la cité. L'ordre tient en deux mots : kulū... wa-shkurū — mangez et remerciez. La récompense promise est déjà là (balda ṭayyiba, terre bonne ; rabbun ghafūr, Seigneur pardonneur). Il suffisait de continuer. Le sayl al-ʿarim (v.16) est la conséquence, non d'un crime spectaculaire, mais d'un simple aʿraḍū — « ils se détournèrent ». L'ingratitude tranquille suffit à tout ruiner.",
       "niveau_couche": 3
     },
     {
@@ -6027,7 +6024,6 @@ const S034 = {
           "frequence_coran": 52
         }
       ],
-      "analyse_globale": "Le remède intellectuel proposé : an taqūmū li-Llāhi mathnā wa-furādā — se lever pour Dieu « par deux et un par un », puis réfléchir (tatafakkarū). Contre l'emballement des foules et des slogans (« magie ! », « mensonge ! »), le Coran prescrit la station calme, seul ou en petit comité, et l'examen personnel. La foi véritable naît de la réflexion posée, pas de la contagion collective.",
       "niveau_couche": 3
     },
     {

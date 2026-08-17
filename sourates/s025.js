@@ -119,7 +119,6 @@ const S025 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Tabāraka lladhī nazzala l-furqāna : la sourate s'ouvre et se referme (v.61) sur tabāraka — « béni, source débordante de bien ». Et le Coran y est nommé furqān, « ce qui sépare » : le critère qui tranche le vrai du faux, le juste de l'injuste. Recevoir le Coran, c'est recevoir une capacité de discernement. Le mot dit l'inverse de la confusion morale : là où les passions brouillent tout (v.43), la révélation donne des lignes claires.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2285,7 +2284,6 @@ const S025 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La réponse aux railleries sur le Prophète « qui mange et marche au marché » : TOUS les messagers d'avant faisaient de même (illā innahum la-yaʾkulūna ṭ-ṭaʿām). L'humanité du messager n'est pas un défaut mais la condition même de l'exemplarité : un ange n'aurait pu être un modèle imitable. Et la clause centrale : « Nous avons fait des uns pour les autres une épreuve » — le riche éprouve le pauvre, le puissant le faible, et réciproquement. La question posée : a-taṣbirūn, « serez-vous patients ? »",
       "niveau_couche": 3
     },
     {
@@ -4317,7 +4315,6 @@ const S025 = {
           "auto": true
         }
       ],
-      "analyse_globale": "A-raʾayta mani ttakhadha ilāhahu hawāh : « as-tu vu celui qui a pris sa passion pour divinité ? » Diagnostic saisissant de l'idolâtrie moderne : le vrai faux-dieu n'est pas toujours une statue, c'est le hawā — le désir érigé en absolu, qui dicte tout. Et le verdict (v.44) est cinglant : celui-là est « comme les bestiaux, plus égaré encore ». Suivre aveuglément ses pulsions ravale l'homme au-dessous de l'animal, car lui avait reçu la raison qu'il refuse d'employer.",
       "niveau_couche": 3
     },
     {
@@ -6275,7 +6272,6 @@ const S025 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-ʿibādu r-Raḥmāni lladhīna yamshūna ʿalā l-arḍi hawnan : le grand portrait final. Les serviteurs du Tout-Miséricordieux (ʿibād ar-Raḥmān) sont d'abord définis par leur DÉMARCHE — hawnan, avec douceur et humilité, sans arrogance ni ostentation. Puis se déploie tout un art de vivre : la paix face aux insultes, les nuits de prière, la dépense mesurée (ni prodigue ni avare, v.67 : « le juste milieu »), le refus du faux témoignage. Le croyant accompli n'est pas un ascète coupé du monde : c'est un être équilibré, doux et juste, qui traverse la vie avec sérénité.",
       "niveau_couche": 3
     },
     {

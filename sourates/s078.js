@@ -282,7 +282,6 @@ const S078 = {
           "frequence_coran": 219
         }
       ],
-      "analyse_globale": "Les versets 6-16 forment un poème de la providence en neuf dons appariés : terre-berceau / montagnes-piquets, sommeil-repos / nuit-vêtement / jour-subsistance, sept cieux / lampe solaire, eau / grains-jardins. L'argument est implicite mais écrasant : l'univers entier est aménagé POUR vous — et vous doutez que son Aménageur puisse vous rappeler ?",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1811,7 +1810,6 @@ const S078 = {
           "frequence_coran": 85
         }
       ],
-      "analyse_globale": "Yawma yaqūmu r-rūḥu wa-l-malāʾikatu ṣaffā : même l'Esprit (Gabriel, selon la plupart des commentateurs) et les anges se taisent en rangs. La parole, ce jour-là, est un privilège accordé — et conditionné : qāla ṣawābā, dire juste. Contraste voulu avec les bavardages et disputes du v.3.",
       "niveau_couche": 3
     },
     {
@@ -2014,7 +2012,6 @@ const S078 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Yā laytanī kuntu turābā : 'que ne suis-je poussière !' — le dernier mot de la sourate. Celui qui niait de devoir renaître de la poussière suppliera d'y retourner pour toujours. La boucle est bouclée : la Grande Nouvelle contestée (v.1-3) est devenue la Grande Évidence.",
       "niveau_couche": 3
     }
   ],

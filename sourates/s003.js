@@ -873,7 +873,6 @@ const S003 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Minhu āyātun muḥkamātun hunna ummu l-kitābi wa-ukharu mutashābihāt : « il s'y trouve des versets univoques — ils sont la mère du Livre — et d'autres équivoques ». Le verset qui enseigne comment lire le Coran. Les muḥkamāt (racine ح-ك-م, verrouiller, rendre ferme) sont les versets au sens net, fondation de tout ; les mutashābihāt (racine ش-ب-ه, ressembler) sont ceux dont les sens se ressemblent, ouverts à l'interprétation. La méthode saine : ramener l'équivoque à l'univoque. La méthode malade — celle des « cœurs qui penchent » — : traquer l'équivoque pour semer la discorde. Et l'humilité des enracinés dans la science : āmannā bihi, kullun min ʿindi rabbinā — « nous y croyons : tout vient de notre Seigneur » — savoir dire qu'on ne sait pas tout.",
       "niveau_couche": 3
     },
     {
@@ -13679,7 +13678,6 @@ const S003 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Waʿtaṣimū bi-ḥabli Llāhi jamīʿan wa-lā tafarraqū : « attachez-vous tous ensemble au cordon d'Allah et ne vous divisez pas ». Le verset de l'unité. Le ḥabl est la corde de sauvetage — et l'image est filée jusqu'au bout : kuntum ʿalā shafā ḥufratin mina n-nāri fa-anqadhakum minhā, « vous étiez au bord d'un abîme de feu et Il vous en a sauvés ». Médine se souvient : Aws et Khazraj, deux tribus saignées par des générations de vendetta, devenues frères (ikhwānan) par la foi — allafa bayna qulūbikum, « Il a uni vos cœurs ». L'unité n'est pas décorative : elle est ce qui sépare les sauvés du gouffre. L'adverbe jamīʿan (tous ensemble) interdit de s'attacher à la corde chacun de son côté : c'est ensemble ou pas du tout.",
       "niveau_couche": 3
     },
     {
@@ -20995,7 +20993,6 @@ const S003 = {
           "frequence_coran": 39
         }
       ],
-      "analyse_globale": "Fa-bimā raḥmatin mina Llāhi linta lahum : « c'est par une miséricorde d'Allah que tu as été doux envers eux ». Après Uḥud — après la désobéissance des archers qui coûta la bataille — le verset qui définit le leadership prophétique. Trois ordres : iʿfu ʿanhum (pardonne-leur), istaghfir lahum (implore le pardon pour eux), shāwirhum fī l-amr (consulte-les dans l'affaire). Consulter ceux-là mêmes dont la désobéissance vient de coûter si cher : la shūrā n'est pas une récompense pour les infaillibles mais une école pour tous. Et l'avertissement : law kunta faẓẓan ghalīẓa l-qalbi la-nfaḍḍū min ḥawlik — « si tu avais été rude, au cœur dur, ils se seraient enfuis de ton entourage ». La douceur (līn) n'est pas une faiblesse de caractère : elle est une miséricorde descendue, la condition même du rassemblement.",
       "niveau_couche": 3
     },
     {
@@ -25486,7 +25483,6 @@ const S003 = {
           "frequence_coran": 70
         }
       ],
-      "analyse_globale": "Alladhīna yadhkurūna Llāha qiyāman wa-quʿūdan wa-ʿalā junūbihim wa-yatafakkarūna fī khalqi s-samāwāti wa-l-arḍ : « ceux qui se rappellent Allah debout, assis et couchés, et méditent la création des cieux et de la terre ». Le portrait des ūlū l-albāb, les doués d'intelligence (lubb : le cœur du fruit, l'intelligence débarrassée de ses écorces). Deux actes noués : le dhikr (rappel constant, dans toutes les postures — c'est-à-dire dans toute la vie) et le tafakkur (méditation de la création). Ni dévotion sans réflexion, ni science sans adoration : les deux ensemble. Et le fruit de cette double contemplation : rabbanā mā khalaqta hādhā bāṭilan — « Seigneur, Tu n'as pas créé cela en vain ». L'univers médité révèle un sens ; le sens débouche sur la prière. La tradition rapporte que le Prophète pleura toute une nuit à la descente de ces versets : « malheur à qui les lit sans les méditer ».",
       "niveau_couche": 3
     },
     {

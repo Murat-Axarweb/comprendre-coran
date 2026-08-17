@@ -219,7 +219,6 @@ const S100 = {
           "frequence_coran": 44
         }
       ],
-      "analyse_globale": "Kanūd : l'ingrat qui compte les malheurs et oublie les dons — le mot désignait aussi la terre stérile qui ne rend rien de ce qu'on y sème. Le contraste avec les serments est cinglant : le cheval, lui, s'épuise loyalement pour son maître ; l'homme, comblé, renie le sien.",
       "niveau_couche": 2
     },
     {
@@ -384,7 +383,6 @@ const S100 = {
           "frequence_coran": 5
         }
       ],
-      "analyse_globale": "Buʿthira mā fī l-qubūr / ḥuṣṣila mā fī ṣ-ṣudūr : deux dévoilements parallèles — les tombes rendront les corps, les poitrines rendront les secrets. La rime arabe (qubūr/ṣudūr) lie les deux exhumations : celle des morts et celle des intentions.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {

@@ -298,7 +298,6 @@ const S062 = {
           "frequence_coran": 45
         }
       ],
-      "analyse_globale": "La mission en trois verbes : yatlū (réciter), yuzakkīhim (purifier), yuʿallimuhum (enseigner) — envoyée aux ummiyyīn, les illettrés. Le peuple le moins livresque d'alors reçoit le Livre par excellence : la grâce ne suit pas les qualifications. Et l'ordre des verbes enseigne : le texte d'abord, le cœur ensuite, la science enfin.",
       "niveau_couche": 3
     },
     {
@@ -642,7 +641,6 @@ const S062 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'âne chargé de livres (asfār : les gros volumes) : la parabole du savoir-fardeau. Porter un texte sans le vivre, c'est le transporter sans le comprendre — le poids sans le profit. L'avertissement dépasse son destinataire historique : toute communauté du Livre, y compris musulmane, peut devenir la bête de somme de son propre héritage.",
       "niveau_couche": 3
     },
     {
@@ -1154,7 +1152,6 @@ const S062 = {
           "frequence_coran": 55
         }
       ],
-      "analyse_globale": "L'équilibre du vendredi en trois versets : à l'appel, tout lâcher (v.9) ; après la prière, retourner au monde et « rechercher la grâce » (v.10). Ni fuite du commerce, ni esclavage du commerce : une respiration — le marché suspendu une heure, puis réinvesti avec le dhikr en surplus. Le v.11 rappelle le jour où une caravane vida la mosquée : le texte consigne la faiblesse et la corrige sans condamner le négoce lui-même.",
       "niveau_couche": 3
     },
     {

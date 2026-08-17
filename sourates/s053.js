@@ -165,7 +165,6 @@ const S053 = {
           "frequence_coran": 30
         }
       ],
-      "analyse_globale": "« Il ne parle pas sous l'empire de la passion » (ʿani l-hawā) : la première garantie donnée au message est la neutralisation du moi du messager. Hawā — le désir qui penche — est l'anti-révélation par excellence : tout le débat sur l'origine du Coran tient dans cette alternative, hawā ou waḥy.",
       "niveau_couche": 3
     },
     {
@@ -887,7 +886,6 @@ const S053 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Les trois déesses mecquoises citées par leurs noms — al-Lāt, al-ʿUzzā, Manāt — puis désarmées en un verset : « ce ne sont que des noms ». La critique coranique de l'idolâtrie est nominaliste : derrière le nom vénéré, aucune réalité, aucune autorité descendue — que la conjecture (ẓann) et le désir (hawā), les deux mots-clés de la sourate.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2186,7 +2184,6 @@ const S053 = {
           "frequence_coran": 74
         }
       ],
-      "analyse_globale": "« Ne prétendez pas vous-mêmes à la pureté » (fa-lā tuzakkū anfusakum) : au cœur d'un passage sur le pardon, l'interdit de l'auto-certification spirituelle. Celui qui connaît l'homme depuis la terre et l'utérus est seul juge de la piété — l'humilité est ici une conséquence directe de l'embryologie.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2508,7 +2505,6 @@ const S053 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Les versets 38-42 citent le contenu des feuillets d'Abraham et de Moïse : responsabilité individuelle, mérite de l'effort, transparence future, rétribution complète, retour à Dieu. Le Coran présente ces principes comme le fonds commun de toute la révélation — une charte inter-prophétique, antérieure et permanente.",
       "niveau_couche": 3
     },
     {

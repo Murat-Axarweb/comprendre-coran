@@ -86,7 +86,6 @@ const S111 = {
           "frequence_coran": 3
         }
       ],
-      "analyse_globale": "Abu Lahab signifie 'père de la Flamme' — surnom donné pour son teint éclatant. Le verset 3 retourne le surnom contre lui : il entrera dans un feu 'dhāta lahab', plein de flammes. Son nom même devient sa sentence : ironie prophétique intraduisible.",
       "niveau_couche": 1
     },
     {

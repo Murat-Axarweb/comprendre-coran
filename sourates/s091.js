@@ -299,7 +299,6 @@ const S091 = {
           "frequence_coran": 646
         }
       ],
-      "analyse_globale": "Wa-nafsin wa-mā sawwāhā : après le soleil, la lune, le jour, la nuit, le ciel et la terre, le septième serment est l'âme humaine — placée au même rang que les astres. Le cosmos entier converge vers le microcosme : la sourate suggère que le vrai théâtre du drame universel est intérieur.",
       "niveau_couche": 2
     },
     {
@@ -374,7 +373,6 @@ const S091 = {
           "frequence_coran": 3226
         }
       ],
-      "analyse_globale": "Qad aflaḥa man zakkāhā : LA sentence centrale — la réussite (falāḥ, le mot de l'appel à la prière : ḥayya ʿalā l-falāḥ) est indexée sur la purification de l'âme, pas sur la fortune ni le rang. Onze serments cosmiques pour certifier une seule loi morale.",
       "niveau_couche": 2
     },
     {
@@ -563,7 +561,6 @@ const S091 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Nāqat Allāh : la chamelle-signe de Thamud. Un seul homme l'a tuée, mais le châtiment fut collectif — 'ils la sacrifièrent' au pluriel : la communauté qui laisse faire endosse le crime. La responsabilité coranique connaît la complicité passive.",
       "niveau_couche": 2
     },
     {

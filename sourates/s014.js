@@ -997,7 +997,6 @@ const S014 = {
           "frequence_coran": 52
         }
       ],
-      "analyse_globale": "La-in shakartum la-azīdannakum : « si vous êtes reconnaissants, Je vous accroîtrai certes ». Loi spirituelle fondamentale, proclamée par Dieu Lui-même (taʾadhdhana rabbukum, « votre Seigneur proclama »). La gratitude n'est pas un simple sentiment : elle est génératrice. Le shukr appelle l'accroissement (ziyāda) du bienfait — matériel ou spirituel. À l'inverse, le kufr (ingratitude, occultation du bienfait) attire un châtiment « terrible ». Le verset décrit un mécanisme : reconnaître d'où vient le bien ouvre à recevoir davantage ; le nier ferme cette porte. La gratitude est un art de vivre autant qu'une vertu.",
       "niveau_couche": 3
     },
     {
@@ -3560,7 +3559,6 @@ const S014 = {
           "frequence_coran": 81
         }
       ],
-      "analyse_globale": "Kalimatan ṭayyibatan ka-shajaratin ṭayyiba : la parabole de la bonne parole comparée à un bel arbre. Trois traits : sa racine est ferme (aṣluhā thābit) — ancrée en profondeur, elle ne vacille pas ; ses branches montent au ciel — elle relie la terre au haut ; elle donne son fruit « en toute saison » — utile sans cesse. La kalima ṭayyiba (souvent identifiée à la profession de foi) est cette parole qui structure une vie : enracinée dans la conviction, tournée vers Dieu, féconde en actes. Le v.26 lui oppose la mauvaise parole, arbre déraciné « sans stabilité » — le mensonge n'a pas d'ancrage et ne dure pas.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -4827,7 +4825,6 @@ const S014 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Rabbi jʿal hādhā l-balada āminan : « Seigneur, fais de cette contrée un lieu sûr ». Début de la grande invocation d'Abraham pour La Mecque et sa descendance. Elle est un modèle de duʿāʾ : elle demande d'abord la sécurité (amn) du lieu, puis la préservation de l'idolâtrie, puis l'assiduité à la prière, la subsistance, et enfin le pardon pour lui, ses parents et les croyants. L'ordre est révélateur : le spirituel (ne pas adorer les idoles, prier) prime sur le matériel (les fruits). Et la prière déborde de soi : elle englobe la descendance à venir et « les croyants » au Jour du Compte. La vraie invocation est généreuse, tournée vers les autres.",
       "niveau_couche": 3
     },
     {
@@ -6269,7 +6266,6 @@ const S014 = {
           "frequence_coran": 5
         }
       ],
-      "analyse_globale": "Yawma tubaddalu l-arḍu ghayra l-arḍi : « le jour où la terre sera remplacée par une autre terre ». Image de la refonte totale du cosmos au Jugement : non seulement les êtres ressuscitent, mais le cadre lui-même est renouvelé. La terre et les cieux actuels laissent place à une création autre, sur laquelle les hommes comparaissent devant « Allah, l'Unique, le Dominateur » (al-Wāḥid al-Qahhār). Le verset répond à ceux qui doutent de la résurrection : Celui qui peut remplacer la terre entière peut a fortiori recréer les hommes. La transformation cosmique encadre la comparution : rien de l'ancien monde ne subsiste pour s'y dérober.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

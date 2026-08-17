@@ -478,7 +478,6 @@ const S098 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le verset-programme : culte exclusif (ikhlas), orientation droite (hanif), prière (lien vertical), zakat (lien horizontal). Quatre éléments, rien de plus — 'dīn al-qayyima', la religion de la rectitude. Toute la complexité religieuse ramenée à son noyau.",
       "niveau_couche": 2
     },
     {
@@ -865,7 +864,6 @@ const S098 = {
           "frequence_coran": 44
         }
       ],
-      "analyse_globale": "Raḍiya llāhu ʿanhum wa-raḍū ʿanhu : la satisfaction mutuelle — le sommet de la description du Paradis. Au-dessus des jardins et des rivières, une relation apaisée dans les deux sens : Dieu content de Ses serviteurs, les serviteurs contents de leur Seigneur.",
       "niveau_couche": 2
     }
   ],

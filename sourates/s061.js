@@ -211,7 +211,6 @@ const S061 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Lima taqūlūna mā lā tafʿalūn : la question qui vise l'écart entre profession et pratique. Le v.3 la qualifie : kabura maqtan — « grande abomination » (maqt : la détestation la plus intense du lexique). Dans l'échelle coranique des fautes, l'incohérence déclarée pèse plus lourd que bien des transgressions : elle décrédibilise le message lui-même.",
       "niveau_couche": 3
     },
     {
@@ -372,7 +371,6 @@ const S061 = {
           "frequence_coran": 62
         }
       ],
-      "analyse_globale": "Bunyān marṣūṣ : l'édifice aux éléments scellés au plomb. L'amour divin est ici attaché non au héros solitaire mais au rang — la coordination, chacun à sa place, sans brèche. La prière en rangs quotidienne est l'entraînement de cette architecture humaine.",
       "niveau_couche": 3
     },
     {
@@ -745,7 +743,6 @@ const S061 = {
           "frequence_coran": 45
         }
       ],
-      "analyse_globale": "L'annonce d'Ahmad (forme superlative de la même racine que Muhammad : ح-م-د, « le plus digne de louange ») par Jésus. Les musulmans y lisent l'écho du Paraclet annoncé dans l'Évangile de Jean. Le verset inscrit la mission muhammadienne dans une chaîne : Moïse → Jésus → Ahmad, chaque messager confirmant le précédent et annonçant le suivant.",
       "niveau_couche": 3
     },
     {

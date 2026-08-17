@@ -65,7 +65,6 @@ const S095 = {
           "frequence_coran": 7
         }
       ],
-      "analyse_globale": "Quatre lieux, quatre révélations : le figuier et l'olivier (la terre de Jésus), le mont Sinaï (Moïse), la cité sûre (La Mecque, Muhammad). Avant de parler de l'homme, la sourate convoque la géographie entière de la prophétie — l'humanité a partout été visitée.",
       "niveau_couche": 2
     },
     {
@@ -190,7 +189,6 @@ const S095 = {
           "frequence_coran": 33
         }
       ],
-      "analyse_globale": "Aḥsani taqwīm : la déclaration coranique de la dignité humaine. Ni corps méprisable ni âme condamnée d'avance — une conformation excellente, physique, morale et spirituelle. Le v.5 n'annule pas cette dignité : il décrit ce que l'homme fait de lui-même quand il la trahit.",
       "niveau_couche": 2
     },
     {

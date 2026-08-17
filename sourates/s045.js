@@ -1296,7 +1296,6 @@ const S045 = {
           "frequence_coran": 39
         }
       ],
-      "analyse_globale": "Sakhkhara lakum mā fī s-samāwāti wa-mā fī l-arḍi jamīʿan minhu : l'assujettissement cosmique intégral. Deux lectures du minhu : « le tout venant de Lui » (don) ou « de Sa part » (grâce) — dans les deux cas, la maîtrise technique de la nature est théologiquement un usufruit. Le verset fonde une écologie de la gratitude : dominer sans rendre grâce, c'est trahir le contrat.",
       "niveau_couche": 3
     },
     {
@@ -2512,7 +2511,6 @@ const S045 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Ittakhadha ilāhahu hawāh : « il a pris sa passion pour divinité » — la définition coranique de l'idolâtrie intérieure. Point besoin de statue : obéir systématiquement à son désir, c'est déjà l'adorer. Et la triple fermeture qui suit (ouïe, cœur, vue) décrit le mécanisme : la passion souveraine rend progressivement imperméable à tout ce qui la contredit.",
       "niveau_couche": 3
     },
     {
@@ -2687,7 +2685,6 @@ const S045 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le credo matérialiste cité verbatim : « nous mourons, nous vivons, seul le temps (dahr) nous détruit ». Le Coran ne caricature pas ses adversaires : il les cite, puis situe leur position : mā lahum bihi min ʿilm — pas une connaissance, une conjecture (ẓann). Le débat n'oppose pas foi et science, mais deux affirmations sur l'invisible, dont une seule se prétend prouvée.",
       "niveau_couche": 3
     },
     {
@@ -3257,7 +3254,6 @@ const S045 = {
           "frequence_coran": 83
         }
       ],
-      "analyse_globale": "Hādhā kitābunā yanṭiqu ʿalaykum bil-ḥaqq : « voici Notre Livre : il PARLE contre vous ». Le registre du Jugement n'est pas muet : nastansikh — « Nous faisions transcrire » (racine de nuskha, la copie). L'existence entière est un original dont il existe une copie certifiée. Aucune surprise au Jour du Livre : seulement la relecture.",
       "niveau_couche": 3
     },
     {

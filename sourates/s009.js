@@ -6023,7 +6023,6 @@ const S009 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Lā taḥzan inna Llāha maʿanā : « ne t'afflige pas : Allah est avec nous ». La parole du Prophète à Abū Bakr dans la grotte de Thawr, traqués par les Mecquois lors de l'hégire — les poursuivants à quelques pas de l'entrée. Trois mots qui définissent la confiance absolue : pas de plan de secours, pas de promesse de moyens, seulement la maʿiyya — la présence de Dieu « avec nous ». Et la réponse divine est immédiate : la sakīna (sérénité) descend, des soldats invisibles soutiennent. Le verset fonde la certitude que deux hommes sans armes, avec Dieu, sont plus forts qu'une ville lancée à leur poursuite.",
       "niveau_couche": 3
     },
     {
@@ -14584,7 +14583,6 @@ const S009 = {
           "frequence_coran": 100
         }
       ],
-      "analyse_globale": "Khudh min amwālihim ṣadaqatan tuṭahhiruhum wa-tuzakkīhim bihā : « prélève sur leurs biens une aumône par laquelle tu les purifies et les bénis ». Le verset fondateur de la fonction de la zakāt : elle n'est pas un impôt mais une purification (taṭhīr — laver l'attachement, l'avarice, la part douteuse) et une croissance (tazkiya — faire fructifier l'âme et le bien restant). Donner ne diminue pas : cela nettoie et fait croître. Et l'ajout : « prie pour eux, ta prière est apaisement pour eux » — le donateur reçoit en retour une bénédiction. L'économie spirituelle inverse l'économie comptable.",
       "niveau_couche": 3
     },
     {
@@ -16844,7 +16842,6 @@ const S009 = {
           "frequence_coran": 118
         }
       ],
-      "analyse_globale": "Wa-ʿalā th-thalāthati lladhīna khullifū : « et envers les trois qui furent laissés en arrière ». L'histoire de Kaʿb ibn Mālik et ses deux compagnons, restés à Médine sans excuse lors de Tabūk, qui refusèrent de mentir pour se justifier. Cinquante jours de boycott total — jusqu'à ce que « la terre, si vaste, leur devînt étroite ». Puis la formule clé : thumma tāba ʿalayhim li-yatūbū — « Il revint vers eux POUR QU'ils reviennent ». Le repentir humain est précédé et rendu possible par le retour divin. La sincérité de Kaʿb (dire la vérité quand le mensonge aurait sauvé) fut la clé : Dieu honore la vérité douloureuse plus que l'excuse commode.",
       "niveau_couche": 3
     },
     {
@@ -18241,7 +18238,6 @@ const S009 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La-qad jāʾakum rasūlun min anfusikum : « un Messager issu de vous-mêmes vous est certes venu ». L'avant-dernier verset de la sourate la plus sévère dresse le portrait le plus tendre du Prophète, en quatre traits : ʿazīzun ʿalayhi mā ʿanittum (votre souffrance lui pèse), ḥarīṣun ʿalaykum (ardemment soucieux de vous — de tous, ʿalaykum), et pour les croyants raʾūfun raḥīm — deux noms divins que Dieu partage ici avec Son Messager, cas unique dans le Coran. Après 127 versets de guerre, d'hypocrites et d'ultimatums, la sourate s'achève sur la compassion : la sévérité n'était que l'écorce d'un souci ardent des hommes.",
       "niveau_couche": 3
     },
     {

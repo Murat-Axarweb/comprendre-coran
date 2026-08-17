@@ -79,7 +79,6 @@ const S001 = {
           "frequence_coran": 115
         }
       ],
-      "analyse_globale": "La basmala ouvre 113 des 114 sourates. Les deux noms raḥmān et raḥīm dérivent de la même racine ر-ح-م, liée au mot raḥim (matrice, utérus) : la miséricorde divine enveloppe comme le ventre maternel enveloppe l'enfant. Raḥmān désigne la miséricorde immense qui embrasse toute la création ; raḥīm, la miséricorde constante et renouvelée envers les croyants.",
       "niveau_couche": 1
     },
     {
@@ -271,7 +270,6 @@ const S001 = {
           "frequence_coran": 11
         }
       ],
-      "analyse_globale": "Verset-pivot de la sourate : les versets 1 à 4 parlent DE Dieu (louange), les versets 6 et 7 s'adressent À Dieu (demande). Le verset 5 fait la bascule — le serviteur passe de la contemplation au dialogue direct. Selon un hadith qudsi, Allah répond à chaque verset de la Fatiha récité par Son serviteur : ce verset est 'partagé entre Moi et Mon serviteur'.",
       "niveau_couche": 1
     },
     {
@@ -406,7 +404,6 @@ const S001 = {
           "frequence_coran": 191
         }
       ],
-      "analyse_globale": "Trois chemins sont décrits : celui des comblés (les prophètes, les véridiques, les martyrs, les vertueux — cf. 4:69), celui de la colère (savoir sans agir) et celui de l'égarement (agir sans savoir). La guidance demandée au v.6 se précise : marcher avec ceux qui savent ET agissent.",
       "niveau_couche": 1
     }
   ],

@@ -154,7 +154,6 @@ const S026 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Laʿallaka bākhiʿun nafsak : « peut-être vas-tu te consumer de chagrin ». Le verbe bakhaʿa signifie s'user, se détruire à force de peine. Dieu s'adresse à la douleur du Prophète devant l'incroyance des siens — un chagrin si intense qu'il menace sa santé. Le Coran ne reproche pas ce chagrin mais le tempère : la guidance ne dépend pas de l'effort du messager (v.4). Sollicitude divine envers celui qui porte le message : ta responsabilité est de transmettre, pas de forcer les cœurs.",
       "niveau_couche": 3
     },
     {
@@ -627,7 +626,6 @@ const S026 = {
           "frequence_coran": 118
         }
       ],
-      "analyse_globale": "Le refrain wa-inna rabbaka la-huwa l-ʿazīzu r-raḥīm clôt chaque récit — huit fois. L'alliance ʿazīz (Puissant) et raḥīm (Miséricordieux) est le nœud théologique de la sourate : la même puissance qui engloutit Pharaon (v.66) est la miséricorde qui sauve Moïse (v.65). Chaque histoire illustre les deux faces : châtiment pour les dénégateurs, salut pour les croyants. Ni un Dieu seulement terrible, ni un Dieu seulement doux — les deux inséparablement.",
       "niveau_couche": 3
     },
     {
@@ -5744,7 +5742,6 @@ const S026 = {
           "frequence_coran": 168
         }
       ],
-      "analyse_globale": "Illā man atā Llāha bi-qalbin salīm : « sauf celui qui vient à Allah avec un cœur sain ». Au Jour où « ni biens ni enfants » ne servent (v.88), seule compte la qualité du cœur. Le qalb salīm — cœur intact, sain, non corrompu par le shirk ni la rancune — est la seule monnaie de l'au-delà. La prière d'Abraham situe l'essentiel : non ce qu'on possède ou ce qu'on a bâti, mais l'état intérieur avec lequel on se présente. Toute la sourate des puissances déchues converge vers cette intériorité.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -13955,7 +13952,6 @@ const S026 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-sh-shuʿarāʾu yattabiʿuhumu l-ghāwūn : « les poètes, ce sont les égarés qui les suivent ». La sourate qui porte leur nom les définit par le divorce entre parole et acte : yaqūlūna mā lā yafʿalūn, « ils disent ce qu'ils ne font pas » (v.226). La critique ne vise pas la poésie en soi — l'exception du v.227 sauve les poètes croyants, sincères et justes — mais la parole qui séduit sans engager, l'éloquence détachée de la vérité vécue. Face à eux, le Coran s'affirme parole qui EST ce qu'elle dit.",
       "niveau_couche": 3
     },
     {

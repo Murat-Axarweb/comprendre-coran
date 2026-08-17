@@ -248,7 +248,6 @@ const S110 = {
           "profondeur": "Tawwāb, forme intensive : appliqué à l'homme, celui qui revient sans cesse vers Dieu ; appliqué à Dieu, Celui qui revient sans cesse vers Son serviteur pour accueillir son retour. Le même mot des deux côtés de la relation — le repentir est un mouvement à double sens."
         }
       ],
-      "analyse_globale": "Au sommet de la réussite, trois ordres : glorifier, louer, demander pardon. La logique coranique inverse le réflexe humain : plus le succès est grand, plus l'humilité doit croître — car le succès vient de Dieu (v.1 : 'le secours d'Allah'), non de soi.",
       "niveau_couche": 1,
       "groupes": {
         "tr": {

@@ -181,7 +181,6 @@ const S101 = {
           "frequence_coran": 92
         }
       ],
-      "analyse_globale": "Ka-l-farāsh al-mabthūth : les papillons de nuit qui se jettent en désordre vers la lumière — image de la foule humaine au Jour du rassemblement, sans direction, sans rangs, chacun aimanté par son propre sort. La fourmilière humaine soudain privée de ses repères.",
       "niveau_couche": 2
     },
     {
@@ -388,7 +387,6 @@ const S101 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Fa-ummuhu hāwiya : littéralement 'sa mère sera l'abîme'. L'arabe appelle 'mère' le refuge ultime — là où l'on revient. Pour celui dont les œuvres ne pèsent rien, le seul giron qui reste est le gouffre : l'image la plus glaçante de la sourate tient dans ce mot maternel détourné.",
       "niveau_couche": 2
     },
     {

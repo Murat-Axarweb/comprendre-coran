@@ -64,10 +64,10 @@ for (let n = 1; n <= 114; n++) {
     gloses.push(`    ${v.numero}: [\n${lignes.join(',\n')}\n    ]`);
   });
 
-  // --- Analyses de versets ---
-  const analyses = d.versets
-    .filter(v => v.analyse_globale)
-    .map(v => `    ${v.numero}: ${s(v.analyse_globale)}`);
+  // Les analyses de versets ont été retirées du projet : le site décrit la
+  // langue, il ne propose pas de lecture du sens. Un tafsir sourcé pourra
+  // être ajouté plus tard, comme ressource attribuée et distincte.
+  const analyses = [];
 
   const resume = meta.resume || {};
   // Le parcours pédagogique est rangé dans meta.progression.

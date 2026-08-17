@@ -675,7 +675,6 @@ const S088 = {
           "auto": true
         }
       ],
-      "analyse_globale": "A-fa-lā yanẓurūna ilā l-ibil : pourquoi le chameau en tête de liste, avant le ciel ? Pour l'Arabe du désert, le chameau est le miracle quotidien : il porte, nourrit, abreuve, endure — un vaisseau biologique parfaitement adapté. Le Coran commence l'école du regard par ce qu'on a sous les yeux.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -885,7 +884,6 @@ const S088 = {
           "frequence_coran": 55
         }
       ],
-      "analyse_globale": "Fa-dhakkir innamā anta mudhakkir, lasta ʿalayhim bi-muṣayṭir : le binôme fondateur de l'éthique de la prédication — rappelle / ne domine pas. Le v.23-24 précise la répartition : au Prophète le rappel, à Dieu le compte. Aucun humain n'est le comptable de la foi d'un autre.",
       "niveau_couche": 2
     },
     {

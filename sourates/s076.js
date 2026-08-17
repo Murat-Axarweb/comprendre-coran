@@ -116,7 +116,6 @@ const S076 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Al-dahr, le temps long : avant d'exister, chaque homme a traversé des ères entières de non-mention — « rien qui se mentionne ». Le verset installe une humilité ontologique : l'existence est une parenthèse récente dans une durée qui se passait très bien de nous.",
       "niveau_couche": 3
     },
     {
@@ -266,7 +265,6 @@ const S076 = {
           "frequence_coran": 4
         }
       ],
-      "analyse_globale": "Innā hadaynāhu s-sabīl : la guidance est montrée, non imposée. Puis deux participes en miroir : shākiran (reconnaissant) ou kafūran (ingrat — même racine que kāfir : celui qui couvre le bienfait). Le choix théologique fondamental est formulé en vocabulaire de gratitude, pas de dogme.",
       "niveau_couche": 3
     },
     {
@@ -575,7 +573,6 @@ const S076 = {
           "auto": true
         }
       ],
-      "analyse_globale": "ʿAlā ḥubbihi — « malgré son amour » (de la nourriture) ou « par amour de Lui » : l'ambiguïté du pronom est féconde, les deux lectures se complètent. Donner ce qu'on aime, par amour de Dieu, aux trois figures de la vulnérabilité : le pauvre, l'orphelin, et même le captif — qui pouvait être un ennemi d'hier.",
       "niveau_couche": 3
     },
     {
@@ -1995,7 +1992,6 @@ const S076 = {
           "auto": true
         }
       ],
-      "analyse_globale": "« Vous ne voudrez que si Allah veut » : le verset conclut la sourate du libre choix (v.3) par le rappel de la souveraineté divine. La tension entre liberté humaine et volonté divine n'est pas résolue mais tenue — les deux affirmations coexistent à quelques versets d'écart, chacune vraie à son niveau.",
       "niveau_couche": 3
     },
     {

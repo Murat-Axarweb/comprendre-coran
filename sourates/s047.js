@@ -648,7 +648,6 @@ const S047 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le protocole du combat en un verset : la violence limitée au champ de bataille (idhā laqītum), la captivité encadrée, puis DEUX seules issues pour les prisonniers : mannan (libération gracieuse) aw fidāʾan (rançon/échange) — l'exécution n'est pas une option du texte. Et l'horizon : « jusqu'à ce que la guerre dépose ses fardeaux » — la guerre est un état provisoire, jamais un but.",
       "niveau_couche": 3
     },
     {
@@ -1855,7 +1854,6 @@ const S047 = {
           "frequence_coran": 36
         }
       ],
-      "analyse_globale": "Les quatre rivières du Jardin : eau, lait, vin, miel — chacune corrigée de son défaut terrestre : l'eau ne croupit pas, le lait ne tourne pas, le vin n'enivre pas (cf. 37:47), le miel est sans cire. Le Paradis coranique n'est pas un autre monde : c'est ce monde guéri de l'altération. Le contraste final (l'eau bouillante qui déchire) utilise la même matière — l'eau — pour dire les deux destins.",
       "niveau_couche": 3
     },
     {
@@ -2299,7 +2297,6 @@ const S047 = {
           "frequence_coran": 62
         }
       ],
-      "analyse_globale": "Fa-ʿlam annahu lā ilāha illā Llāh : « sache qu'il n'est de divinité qu'Allah » — l'ordre de SAVOIR le tawhid, adressé au Prophète lui-même, avant l'ordre d'implorer le pardon. Les savants en ont tiré le principe : la connaissance précède la parole et l'acte (al-ʿilm qabla l-qawl wal-ʿamal — titre d'un chapitre de Bukhari).",
       "niveau_couche": 3
     },
     {
@@ -2809,7 +2806,6 @@ const S047 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La question-titre de tout projet d'apprentissage coranique : méditer (tadabbur), ou les verrous. Le texte suppose que le Coran est intrinsèquement méditables — si la rencontre ne se produit pas, le blocage est du côté du récepteur. Aqfāluhā, « SES verrous » : chaque cœur a les siens, forgés sur mesure par ses passions et ses habitudes.",
       "niveau_couche": 3
     },
     {

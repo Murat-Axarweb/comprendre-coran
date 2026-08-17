@@ -355,7 +355,6 @@ const S097 = {
           "frequence_coran": 24
         }
       ],
-      "analyse_globale": "Salāmun hiya : la phrase nominale arabe place 'paix' en premier — la nuit n'est pas seulement paisible, elle EST paix, en substance. Jusqu'à l'aube (fajr) : la sourate suivante dans l'ordre de récitation traditionnel de l'apprentissage est souvent al-Fajr — les textes se répondent.",
       "niveau_couche": 1
     }
   ],

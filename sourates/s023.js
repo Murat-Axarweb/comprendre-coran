@@ -74,7 +74,6 @@ const S023 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Qad aflaḥa l-muʾminūn : « ont réussi les croyants ! » L'ouverture est une proclamation d'emblée accomplie (qad + passé) : le succès n'est pas promis mais déjà acquis pour qui remplit les conditions énumérées. Le falāḥ (racine du laboureur qui fend la terre) est la réussite totale. Et la liste des traits est révélatrice : elle commence par le khushūʿ dans la prière (humilité, recueillement) et se referme (v.9) sur la garde de la prière — la vie du croyant est encadrée par le rapport à Dieu, mais remplie de vertus sociales : chasteté, honnêteté, zakat.",
       "niveau_couche": 3
     },
     {
@@ -894,7 +893,6 @@ const S023 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La séquence embryologique : nuṭfa (goutte), ʿalaqa (caillot/chose qui s'accroche), muḍgha (mâchée), ʿiẓām (os), puis chair — et enfin le saut : thumma anshaʾnāhu khalqan ākhar, « Nous en fîmes une tout autre création ». Ce dernier stade n'est plus décrit en termes matériels : c'est le passage à l'humain, doté d'esprit et de conscience. Et l'exclamation qui suit — fa-tabāraka Llāhu aḥsanu l-khāliqīn, « le meilleur des créateurs » — fait de l'embryogenèse un lieu d'émerveillement théologique.",
       "niveau_couche": 3
     },
     {
@@ -4959,7 +4957,6 @@ const S023 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Lā nukallifu nafsan illā wusʿahā : « Nous n'imposons à aucune âme que ce qu'elle peut supporter ». Principe cardinal de l'éthique coranique, glissé au milieu du portrait des justes qui « donnent le cœur tremblant » (v.60). La responsabilité est toujours proportionnée à la capacité : nul n'est tenu à l'impossible. Ce verset désamorce le scrupule excessif comme le laxisme — chacun est jugé sur sa mesure réelle, consignée dans un « Livre qui dit la vérité ».",
       "niveau_couche": 3
     },
     {
@@ -9068,7 +9065,6 @@ const S023 = {
           "auto": true
         }
       ],
-      "analyse_globale": "A-fa-ḥasibtum annamā khalaqnākum ʿabathan : « pensiez-vous que Nous vous avions créés sans but ? » La question qui clôt la sourate est vertigineuse : ʿabath, c'est le jeu gratuit, l'acte sans finalité. Le Coran nie radicalement l'absurde : l'existence humaine a un sens, une destination (« ramenés vers Nous »). Placée après le dialogue des damnés qui découvrent n'avoir vécu qu'« un jour ou une partie d'un jour », elle donne la clé : une vie brève mais chargée de sens, orientée vers le retour à Dieu. Le contraire du nihilisme.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

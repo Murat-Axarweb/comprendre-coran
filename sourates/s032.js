@@ -753,7 +753,6 @@ const S032 = {
           "frequence_coran": 12
         }
       ],
-      "analyse_globale": "Alladhī aḥsana kulla shayʾin khalaqah : « qui a rendu belle toute chose qu'Il a créée ». La création n'est pas seulement fonctionnelle mais esthétique — iḥsān (excellence, beauté) est inscrit dans l'acte créateur. Puis la séquence de l'homme : argile, goutte vile, puis le retournement du v.9 — nafakha fīhi min rūḥih, « Il insuffla en lui de Son Esprit ». De la boue à l'esprit : la dignité humaine tient dans ce souffle divin greffé sur la matière.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -935,7 +934,6 @@ const S032 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'ordre des dons après l'insufflation de l'Esprit : as-samʿa wal-abṣāra wal-afʾida — l'ouïe, la vue, les cœurs. La séquence est constante dans le Coran : l'ouïe précède la vue (on entend avant de voir, dès le ventre maternel), et le cœur (fuʾād, siège de la compréhension) couronne les deux. Trois facultés reçues — et le reproche immédiat : qalīlan mā tashkurūn, « combien peu vous remerciez ». Les instruments de la connaissance sont eux-mêmes des grâces à honorer.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1730,7 +1728,6 @@ const S032 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Tatajāfā junūbuhum ʿani l-maḍājiʿ : le portrait le plus physique de la piété — « leurs flancs s'arrachent aux lits ». Se lever la nuit contre l'attraction du sommeil, dans la tension khawfan wa-ṭamaʿan (crainte ET espoir : jamais l'une sans l'autre). La foi véritable a un coût corporel mesurable : quitter la chaleur pour la prière obscure. C'est le contre-portrait exact des criminels du v.12, tête basse de regret.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1839,7 +1836,6 @@ const S032 = {
           "frequence_coran": 56
         }
       ],
-      "analyse_globale": "Fa-lā taʿlamu nafsun mā ukhfiya lahum min qurrati aʿyun : « nulle âme ne sait ce qu'on lui a réservé comme fraîcheur des yeux ». La récompense suprême est délibérément indicible — cachée (ukhfiya) même à l'imagination. Le hadith qudsi la commente : « ce qu'aucun œil n'a vu, qu'aucune oreille n'a entendu, qu'aucun cœur humain n'a conçu ». Placée juste après l'effort nocturne du v.16 : à la dévotion secrète répond une récompense secrète, symétrie parfaite de l'intime.",
       "niveau_couche": 3
     },
     {

@@ -58,7 +58,6 @@ const S069 = {
           "frequence_coran": 3
         }
       ],
-      "analyse_globale": "Al-ḥāqqa dérive de ḥaqq (vérité, réalité, droit) : le Jour où la vérité s'impose et où chaque dû est acquitté. Le triple questionnement d'ouverture (v.1-3) est un procédé récurrent des sourates mecquoises : nommer, interroger, suspendre — pour dire que la chose dépasse toute représentation.",
       "niveau_couche": 3
     },
     {
@@ -658,7 +657,6 @@ const S069 = {
           "frequence_coran": 8
         }
       ],
-      "analyse_globale": "« Qu'une oreille attentive le retienne » (udhunun wāʿiya) : le déluge n'est pas raconté pour l'archéologie mais pour la mémoire. Le Coran définit ici son propre mode de transmission : un événement devient rappel quand une oreille consent à le porter.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1078,7 +1076,6 @@ const S069 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La scène du livre tendu est d'une psychologie fine : le sauvé ne dit pas « j'ai réussi » mais « je savais que je rencontrerais mon compte » (v.20) — c'est la conscience anticipée du bilan, vécue dès ici-bas, qui a produit le bilan favorable.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2397,7 +2394,6 @@ const S069 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Les versets 44-47 répondent à l'accusation de fabrication par un argument de véracité radicale : si le Messager inventait, il serait exécuté par Celui-là même dont il se réclame. La transmission du texte engage la vie du transmetteur — garantie suprême de fidélité.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

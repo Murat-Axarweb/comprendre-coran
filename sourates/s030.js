@@ -95,7 +95,6 @@ const S030 = {
           "frequence_coran": 3
         }
       ],
-      "analyse_globale": "Ghulibati r-Rūm : la prophétie la plus vérifiable du Coran. Les Byzantins, écrasés par les Perses vers 614, « vaincront à leur tour dans quelques années » (biḍʿ sinīn : entre 3 et 9 ans) — accompli à Ninive en 627. Détail linguistique célèbre : le même verbe ghalaba peut se lire à l'actif ou au passif, et la tradition rapporte qu'Abū Bakr paria sur l'accomplissement. Une religion qui date sa propre prédiction prend un risque que les mythes évitent.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2018,7 +2017,6 @@ const S030 = {
           "frequence_coran": 39
         }
       ],
-      "analyse_globale": "Li-taskunū ilayhā : « pour que vous reposiez auprès d'elles ». Le mariage est défini par la sakīna (sérénité, apaisement), non par la fonction — et complété par deux dons placés « entre vous » : mawadda (affection tendre) et raḥma (miséricorde). L'amour du début et la compassion qui dure : le couple coranique est un signe (āya) au même titre que les cieux, une théophanie domestique.",
       "niveau_couche": 3
     },
     {
@@ -2139,7 +2137,6 @@ const S030 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Ikhtilāfu alsinatikum wa-alwānikum : « la diversité de vos langues et de vos couleurs » — érigée en signe divin, non en malédiction. La pluralité humaine est voulue, porteuse de sens pour « les savants ». Le verset coupe court à toute hiérarchie des races et des peuples : les différences sont des āyāt à méditer, pas des frontières à ériger. La science (ʿilm) est précisément ce qui sait lire la diversité comme signe.",
       "niveau_couche": 3
     },
     {
@@ -3237,7 +3234,6 @@ const S030 = {
           "frequence_coran": 81
         }
       ],
-      "analyse_globale": "Fiṭrata Llāhi llatī faṭara n-nāsa ʿalayhā : le concept de fiṭra — la disposition originelle vers Dieu inscrite en tout être à sa création. La religion vraie (ad-dīn al-qayyim) n'est donc pas une nouveauté à adopter mais une nature à retrouver : « nul changement à la création d'Allah ». Le hadith le confirme : tout enfant naît sur la fiṭra, ce sont les influences qui la recouvrent. Croire, c'est revenir à soi ; l'incroyance est un exil hors de sa propre nature.",
       "niveau_couche": 3
     },
     {

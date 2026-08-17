@@ -1134,7 +1134,6 @@ const S059 = {
           "frequence_coran": 10
         }
       ],
-      "analyse_globale": "« Afin que cela ne circule pas seulement entre les riches » (kay lā yakūna dūlatan bayna l-aghniyāʾ) : le principe économique le plus explicite du Coran. La richesse qui tourne en circuit fermé est un dysfonctionnement que la loi du butin vient corriger — la redistribution n'est pas une charité optionnelle mais un objectif de législation.",
       "niveau_couche": 3
     },
     {
@@ -1481,7 +1480,6 @@ const S059 = {
           "frequence_coran": 42
         }
       ],
-      "analyse_globale": "Le portrait des Ansar en trois traits : aimer ceux qui arrivent, ne pas envier ce qu'ils reçoivent, les préférer à soi-même (īthār) « même dans le besoin ». Puis le diagnostic universel : le verrou intérieur s'appelle shuḥḥ — l'avarice-appropriation, plus profonde que la simple pingrerie. En être prémuni, c'est la définition coranique de la victoire.",
       "niveau_couche": 3
     },
     {
@@ -2838,7 +2836,6 @@ const S059 = {
           "auto": true
         }
       ],
-      "analyse_globale": "« Ils ont oublié Allah : Il leur a fait oublier leurs propres âmes » — l'équation la plus vertigineuse de l'anthropologie coranique : la perte de Dieu entraîne la perte de soi. L'oubli du Centre désoriente toute la périphérie ; l'homme sans transcendance finit étranger à lui-même.",
       "niveau_couche": 3
     },
     {
@@ -3167,7 +3164,6 @@ const S059 = {
           "frequence_coran": 118
         }
       ],
-      "analyse_globale": "Les versets 22-24 : quinze noms divins en cascade, du Connaisseur de l'invisible au Sage. La tradition rapporte que le Prophète recommandait leur récitation matin et soir. La sourate de l'exil et du butin s'achève en pure contemplation — comme si toute l'histoire, même militaire, ne servait qu'à conduire ici : à la connaissance des Noms.",
       "niveau_couche": 3
     },
     {

@@ -1221,7 +1221,6 @@ const S052 = {
           "frequence_coran": 62
         }
       ],
-      "analyse_globale": "Le regroupement familial au Paradis : les descendants « rattrapés » vers le rang des parents, sans que les parents perdent rien. La grâce divine élève sans soustraire — arithmétique inverse de la nôtre, où donner diminue. Et la clause finale (« chacun est gage ») maintient la responsabilité individuelle au sein même des retrouvailles.",
       "niveau_couche": 3
     },
     {
@@ -1768,7 +1767,6 @@ const S052 = {
           "frequence_coran": 8
         }
       ],
-      "analyse_globale": "« Attendons pour lui les vicissitudes du temps » (rayb al-manūn) : la stratégie de l'usure — ne pas réfuter, attendre que le gêneur meure. Le Coran consigne le calcul et y répond par la symétrie du v.31 : attendez, nous attendons aussi. L'histoire a arbitré.",
       "niveau_couche": 3
     },
     {
@@ -2089,7 +2087,6 @@ const S052 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Am khuliqū min ghayri shayʾ : « ont-ils été créés de rien, ou sont-ils les créateurs ? » — le trilemme qui bouleversa Jubayr ibn Mutʿim. Trois options logiques : surgir du néant sans cause, s'être créé soi-même, ou avoir un Créateur. Les versets 35-43 enchaînent quinze questions qui épuisent une à une les échappatoires : la plus serrée démonstration par l'absurde du texte.",
       "niveau_couche": 3
     },
     {

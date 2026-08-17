@@ -2183,7 +2183,6 @@ const S007 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Rabbanā ẓalamnā anfusanā : « Seigneur, nous nous sommes fait tort à nous-mêmes ». La prière d'Adam et Ève après la faute, à comparer avec la réponse d'Iblīs (v.12-13). Face à la même transgression, deux attitudes opposées fondent deux destins. Iblīs se justifie (« je suis meilleur que lui »), argumente, s'obstine dans l'orgueil : il chute. Adam reconnaît le tort (ẓalamnā : nous avons été injustes), implore le pardon, s'en remet à la miséricorde : il est relevé. La faute n'est pas ce qui sépare ; c'est la réaction à la faute. L'aveu humble ouvre le pardon ; la justification orgueilleuse ferme toute issue. Toute la spiritualité coranique du repentir est dans ce contraste.",
       "niveau_couche": 3
     },
     {
@@ -17238,7 +17237,6 @@ const S007 = {
           "frequence_coran": 78
         }
       ],
-      "analyse_globale": "Rabbi arinī anẓur ilayk : « Seigneur, montre-Toi à moi, que je Te voie ». La demande de Moïse — le seul prophète à qui Dieu parla directement (kalīm Allāh) — et sa réponse : lan tarānī, « tu ne Me verras pas », non par refus arbitraire mais par impossibilité pour une créature terrestre. La montagne elle-même, à la manifestation divine, est pulvérisée et Moïse foudroyé. La leçon dépasse l'anecdote : la vision directe de Dieu excède les capacités de la condition mortelle ; même le plus grand des prophètes est terrassé. La réaction de Moïse au réveil — subḥānaka tubtu ilayk, « gloire à Toi, je reviens à Toi » — enseigne que la vraie connaissance de Dieu passe par la reconnaissance de Sa transcendance, non par la prétention à Le saisir.",
       "niveau_couche": 3
     },
     {
@@ -21972,7 +21970,6 @@ const S007 = {
           "auto": true
         }
       ],
-      "analyse_globale": "A-lastu bi-rabbikum qālū balā shahidnā : « Ne suis-Je pas votre Seigneur ? Ils dirent : Mais si, nous en témoignons ». Le mīthāq, le pacte primordial. Avant même la naissance, Dieu tire de la lignée d'Adam toutes les âmes à venir et les fait attester Sa seigneurie. Ce témoignage explique le fiṭra — la disposition innée de tout être humain à reconnaître son Créateur. La foi n'est donc pas une greffe étrangère mais un ressouvenir de ce que l'âme sait déjà au plus profond. Et le but est explicite : que nul ne puisse plaider au Jugement l'ignorance (« nous étions inattentifs ») ou l'excuse de l'héritage (« nos pères associaient »). La responsabilité est enracinée dans une reconnaissance originelle.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -25190,7 +25187,6 @@ const S007 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Khudhi l-ʿafwa wa-ʾmur bi-l-ʿurfi wa-aʿriḍ ʿani l-jāhilīn : « prends sur toi le pardon, ordonne le convenable, et détourne-toi des ignorants ». Trois commandements qui résument une éthique complète de la relation à autrui. Khudhi l-ʿafw : prendre ce qui vient facilement des gens, pardonner leurs manquements, ne pas exiger la perfection — la magnanimité. Wa-ʾmur bi-l-ʿurf : promouvoir activement le bien reconnu de tous. Wa-aʿriḍ ʿani l-jāhilīn : ne pas répondre à la provocation des ignorants, se détourner sans s'abaisser à leur niveau. Le verset suivant ajoute le remède quand la colère monte : chercher refuge en Dieu. Une sagesse de la douceur ferme, qui ne cède ni à la dureté ni à la faiblesse.",
       "niveau_couche": 3
     },
     {

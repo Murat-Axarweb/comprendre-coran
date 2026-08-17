@@ -393,7 +393,6 @@ const S028 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-nurīdu an namunna ʿalā lladhīna stuḍʿifū fī l-arḍ : le programme divin d'inversion. Allah veut favoriser « ceux qui ont été rendus faibles » (mustaḍʿafīn) — en faire des imams (guides) et des héritiers. Face à Pharaon qui « divise son peuple en clans » (v.4) pour mieux dominer, la volonté divine renverse la pyramide : l'histoire de Moïse est la démonstration que la tyrannie, si assurée soit-elle, porte en elle sa propre défaite.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2738,7 +2737,6 @@ const S028 = {
           "frequence_coran": 13
         }
       ],
-      "analyse_globale": "La prière du dénuement, à Madyan : rabbi innī limā anzalta ilayya min khayrin faqīr — « je suis nécessiteux du moindre bien que Tu ferais descendre ». Moïse, fugitif épuisé, vient d'abreuver deux inconnues sans rien attendre. Sa demande est d'une pudeur extrême : ni exigence ni liste, juste l'aveu du besoin. La réponse est immédiate et déborde la demande : un abri, un travail, une épouse, une famille. Le dénuement reconnu attire la générosité.",
       "niveau_couche": 3
     },
     {
@@ -9332,7 +9330,6 @@ const S028 = {
           "frequence_coran": 39
         }
       ],
-      "analyse_globale": "Le conseil au riche Coré, en équilibre parfait : wa-btaghi fīmā ātāka Llāhu d-dāra l-ākhira wa-lā tansa naṣībaka mina d-dunyā — chercher l'au-delà par ses biens SANS oublier sa part d'ici-bas. Ni ascétisme qui méprise le monde, ni matérialisme qui l'idolâtre. Puis : « fais le bien comme Allah t'a fait du bien » — la richesse est un flux reçu à faire circuler, pas un stock à thésauriser. Coré refuse cette vision et périt de son « je l'ai gagné par ma science » (v.78).",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -10992,7 +10989,6 @@ const S028 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le verset qui clôt la sourate et résume sa métaphysique : kullu shayʾin hālikun illā wajhah — « toute chose périt, sauf Sa Face ». Après Pharaon englouti et Coré enfoui, la leçon est posée : tout pouvoir, toute fortune, tout ce qui n'est pas Dieu est voué à l'anéantissement. Seul demeure le wajh (la Face, l'être même) de Dieu. C'est le socle du détachement coranique : bâtir sur le périssable, c'est bâtir la maison de l'araignée.",
       "niveau_couche": 3
     }
   ],

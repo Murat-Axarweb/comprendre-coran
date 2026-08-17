@@ -78,7 +78,6 @@ const S104 = {
           "frequence_coran": 4
         }
       ],
-      "analyse_globale": "Humaza et lumaza : deux formes intensives quasi-synonymes — celui qui blesse par gestes et allusions (humaza) et celui qui blesse par la langue (lumaza). Le doublement du mot mime la répétition compulsive de la moquerie.",
       "niveau_couche": 1,
       "groupes": {
         "tr": {

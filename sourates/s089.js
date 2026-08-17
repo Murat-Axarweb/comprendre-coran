@@ -778,7 +778,6 @@ const S089 = {
           "frequence_coran": 91
         }
       ],
-      "analyse_globale": "Les versets 15-16 démontent la théologie spontanée de l'homme : richesse = honneur divin, gêne = mépris divin. Le Coran répond kallā (mais non !) : les deux situations sont des épreuves (ibtalāhu dans les deux versets), et le vrai critère est ailleurs — dans le traitement de l'orphelin et du pauvre (v.17-18).",
       "niveau_couche": 2
     },
     {
@@ -1379,7 +1378,6 @@ const S089 = {
           "frequence_coran": 298
         }
       ],
-      "analyse_globale": "Yā ayyatuhā n-nafs al-muṭmaʾinna : le seul passage du Coran où Dieu s'adresse directement à l'âme individuelle au moment du retour. Quatre impératifs d'accueil — reviens, entre, entre — après une vie de fidélité. Ces versets accompagnent les mourants et les funérailles dans tout le monde musulman.",
       "niveau_couche": 2
     },
     {

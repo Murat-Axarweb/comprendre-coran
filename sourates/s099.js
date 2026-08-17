@@ -203,7 +203,6 @@ const S099 = {
           "frequence_coran": 63
         }
       ],
-      "analyse_globale": "Tuḥaddithu akhbārahā : la terre 'racontera ses nouvelles'. Le sol que nous foulons est présenté comme un enregistreur : chaque pas, chaque acte commis à sa surface fait partie de son témoignage. L'écologie coranique a une dimension morale — la terre n'oublie rien.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -380,7 +379,6 @@ const S099 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Fa-man yaʿmal mithqāla dharratin khayran yarah : le hadith rapporte qu'un homme hésitait à donner une datte en aumône, la trouvant trop peu. Ce verset répond d'avance : il n'existe pas de bien trop petit. La comptabilité divine n'arrondit ni vers le haut ni vers le bas.",
       "niveau_couche": 2
     },
     {

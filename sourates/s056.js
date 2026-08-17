@@ -313,7 +313,6 @@ const S056 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Trois catégories, non deux : le tri classique sauvés/damnés est raffiné par une élite — les sābiqūn, les devanciers. Le Coran ouvre ainsi une hiérarchie dans le bien lui-même : au-dessus de la droiture, la course. Et la démographie des v.13-14 intrigue : beaucoup parmi les premiers, peu parmi les derniers — les débuts d'un message produisent ses plus grands athlètes.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2538,7 +2537,6 @@ const S056 = {
           "frequence_coran": 1010
         }
       ],
-      "analyse_globale": "Les quatre défis (v.58-72) suivent le trajet de la vie quotidienne : la semence humaine, la semence végétale, l'eau, le feu. Quatre fois la même structure — « est-ce vous, ou Nous ? » — appliquée aux gestes les plus banals : engendrer, semer, boire, cuisiner. La théologie coranique se démontre dans la cuisine et le champ, pas seulement dans le cosmos.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -3877,7 +3875,6 @@ const S056 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La scène de l'agonie retournée en argument : l'âme à la gorge, l'entourage impuissant qui regarde — « faites-la donc revenir, si vous êtes véridiques ». Le seul moment où toute prétention d'autonomie humaine s'effondre publiquement. La mort de chaque homme est une démonstration à laquelle tous assistent.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

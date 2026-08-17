@@ -58,7 +58,6 @@ const S083 = {
           "frequence_coran": 40
         }
       ],
-      "analyse_globale": "Taṭfīf : réduire la mesure d'un rien — le mot vient de ṭafīf, l'infime. La fraude visée n'est pas le vol massif mais le grappillage systématique, jugé assez grave pour ouvrir une sourate par wayl (malheur). L'asymétrie est le cœur du délit : exiger plein pour soi, donner incomplet aux autres — une définition qui dépasse largement le commerce.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -799,7 +798,6 @@ const S083 = {
           "frequence_coran": 63
         }
       ],
-      "analyse_globale": "Kallā innahum ʿan rabbihim yawmaʾidhin la-maḥjūbūn : le voile — la punition suprême n'est pas le feu (v.16, qui vient 'ensuite') mais la privation de la vision de Dieu. En miroir, les pieux 'contemplent' (v.23, 35) : le Coran hiérarchise — au sommet du bonheur, voir ; au fond du malheur, être coupé.",
       "niveau_couche": 2
     },
     {

@@ -770,7 +770,6 @@ const S049 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Fa-tabayyanū : « vérifiez ». Le premier protocole anti-rumeur de l'histoire législative — une seule nouvelle non vérifiée peut faire « frapper des gens par ignorance ». À l'ère des partages instantanés, le verset est d'une actualité chirurgicale : la source (fāsiq ou fiable) et la vérification précèdent la réaction.",
       "niveau_couche": 3
     },
     {
@@ -1602,7 +1601,6 @@ const S049 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Trois interdits sociaux en un verset : la moquerie collective (avec la raison donnée : « il se peut qu'ils soient meilleurs » — on ne connaît jamais le classement réel), le dénigrement (lamz : littéralement « se piquer soi-même », car rabaisser un frère c'est se blesser), les sobriquets. La dignité d'autrui est une zone protégée par triple clôture.",
       "niveau_couche": 3
     },
     {
@@ -1826,7 +1824,6 @@ const S049 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'escalade des atteintes invisibles : conjecture (ẓann) → espionnage (tajassus) → médisance (ghība). Puis l'image la plus viscérale du Coran : manger la chair de son frère mort — la médisance consomme un absent sans défense. Le dégoût physique est mobilisé pour éduquer le dégoût moral.",
       "niveau_couche": 3
     },
     {
@@ -1965,7 +1962,6 @@ const S049 = {
           "frequence_coran": 38
         }
       ],
-      "analyse_globale": "Le verset de l'entre-connaissance : création commune (un mâle, une femelle — aucune généalogie n'est supérieure), diversification voulue (peuples et tribus), finalité relationnelle (litaʿārafū), critère unique (atqākum). Prononcé par le Prophète en écho lors du sermon d'adieu : « pas de mérite de l'Arabe sur le non-Arabe... sinon par la taqwā ». L'anti-racisme coranique n'est pas une concession moderne : c'est un verset fondateur.",
       "niveau_couche": 3
     },
     {

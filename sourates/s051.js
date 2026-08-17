@@ -889,7 +889,6 @@ const S051 = {
           "frequence_coran": 1010
         }
       ],
-      "analyse_globale": "Le triptyque des pieux (v.17-19) tient en trois lignes : peu de sommeil, l'istighfar de l'aube, la part du pauvre. Nuit intérieure, dialogue avec Dieu, solidarité avec les hommes — la sainteté coranique équilibre toujours la verticale et l'horizontale.",
       "niveau_couche": 3
     },
     {
@@ -1096,7 +1095,6 @@ const S051 = {
           "auto": true
         }
       ],
-      "analyse_globale": "« Et en vous-mêmes : ne voyez-vous pas ? » — le corps humain rejoint le cosmos parmi les signes. La quête de sens n'exige pas d'aller loin : le premier laboratoire est l'observateur lui-même. Ce verset a nourri toute la tradition de la connaissance de soi comme voie vers Dieu.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2846,7 +2844,6 @@ const S051 = {
           "frequence_coran": 156
         }
       ],
-      "analyse_globale": "« Nous l'élargissons constamment » (la-mūsiʿūn) : le participe actif suggère une action continue sur le ciel. Beaucoup de lecteurs contemporains y entendent un écho de l'expansion cosmique — lecture qu'on proposera avec prudence : le texte parle d'abord de la capacité divine sans limite (wusʿ), et cette amplitude sémantique est précisément sa force.",
       "niveau_couche": 3
     },
     {
@@ -3463,7 +3460,6 @@ const S051 = {
           "auto": true
         }
       ],
-      "analyse_globale": "LE verset-réponse : illā li-yaʿbudūn — « que pour qu'ils M'adorent ». Ibn Abbas glosait : « pour qu'ils Me connaissent ». L'adoration au sens coranique englobe la connaissance, l'amour, l'obéissance et le service — toute la vie orientée. Et les deux versets suivants désamorcent le contresens : ce culte ne nourrit pas Dieu, il accomplit l'homme.",
       "niveau_couche": 3
     },
     {

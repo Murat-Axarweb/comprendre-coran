@@ -65,7 +65,6 @@ const S068 = {
           "frequence_coran": 646
         }
       ],
-      "analyse_globale": "Le serment fondateur : par la plume et « ce qu'ils inscrivent ». Dans une société orale, où le Prophète lui-même ne sait pas écrire, la révélation prête serment par l'écriture — annonçant une civilisation du livre. La lettre isolée Nūn qui précède reste un mystère assumé du texte.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -238,7 +237,6 @@ const S068 = {
           "frequence_coran": 107
         }
       ],
-      "analyse_globale": "ʿAẓīm (immense) est un mot que le Coran réserve d'ordinaire au Trône, au Jour du Jugement, au triomphe suprême. L'appliquer au caractère du Prophète en fait la plus haute distinction morale du texte. Aïcha résumera plus tard : « Son caractère était le Coran. »",
       "niveau_couche": 3
     },
     {
@@ -858,7 +856,6 @@ const S068 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La parabole des gens du jardin est un miroir tendu aux Mecquois : comme eux, les propriétaires excluent les pauvres de la richesse reçue. La nuit du fléau tombe pendant qu'ils dorment sur leur plan parfait — et le seul mot qui manquait à leur serment était l'exception : in shāʾa Llāh.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2709,7 +2706,6 @@ const S068 = {
           "frequence_coran": 171
         }
       ],
-      "analyse_globale": "« Ne sois pas comme l'homme au poisson » : Jonas est le seul prophète cité en contre-exemple partiel — non pour sa foi, mais pour son impatience. Le verset enseigne au Prophète (et au lecteur) que la patience fait partie de la mission : partir avant l'heure, même écœuré par le rejet, n'est pas une option.",
       "niveau_couche": 3
     },
     {

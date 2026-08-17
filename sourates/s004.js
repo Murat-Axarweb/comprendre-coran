@@ -241,7 +241,6 @@ const S004 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Khalaqakum min nafsin wāḥida : « Il vous a créés d'une seule âme ». Le verset d'ouverture fonde toute la charte sociale qui suit sur une anthropologie : l'humanité entière — hommes et femmes, riches et pauvres, toutes tribus — procède d'une seule et même nafs. Aucune hiérarchie d'origine, aucune noblesse de sang : le seul titre est la taqwā. Le verset lie ensuite deux craintes en une : ittaqū Llāha... wa-l-arḥām — craignez Allah et respectez les liens du sang (arḥām, pluriel de raḥim, la matrice, de la même racine que raḥma, miséricorde). Violer les liens de parenté, opprimer femmes ou orphelins, c'est déchirer le tissu même dont l'humanité est faite. Et le sceau : inna Llāha kāna ʿalaykum raqībā — Allah vous observe en permanence.",
       "niveau_couche": 3
     },
     {
@@ -9408,7 +9407,6 @@ const S004 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Inna Llāha yaʾmurukum an tuʾaddū l-amānāti ilā ahlihā : « Allah vous commande de rendre les dépôts à leurs ayants droit ». Le verset des amānāt (dépôts, charges de confiance) — descendu, selon la tradition, lorsque le Prophète rendit la clé de la Kaʿba à son gardien traditionnel le jour de la conquête de La Mecque, alors qu'il aurait pu la garder. Le principe est universel : tout ce qui est confié — biens, fonctions, secrets, responsabilités publiques — doit revenir à qui y a droit, sans considération de clan ni de religion. La suite l'élargit au pouvoir : wa-idhā ḥakamtum bayna n-nāsi an taḥkumū bi-l-ʿadl — quand vous jugez entre les gens (les gens, pas seulement les croyants), jugez avec justice.",
       "niveau_couche": 3
     },
     {
@@ -13105,7 +13103,6 @@ const S004 = {
           "frequence_coran": 46
         }
       ],
-      "analyse_globale": "A-fa-lā yatadabbarūna l-Qurʾān : « ne méditent-ils donc pas le Coran ? » Le verbe tadabbara (racine د-ب-ر, dubur : l'arrière, la suite) signifie regarder derrière les mots, considérer les suites et les profondeurs — non une lecture des lèvres mais une pénétration du sens. Le Coran se donne ici un critère falsifiable : law kāna min ʿindi ghayri Llāhi la-wajadū fīhi khtilāfan kathīrā — s'il venait d'un autre qu'Allah, on y trouverait maintes contradictions. Vingt-trois ans de révélation, dans la guerre et la paix, le deuil et la victoire — et une cohérence sans faille : c'est l'argument interne du Livre, offert à quiconque le médite. Le tadabbur est ainsi le contraire de la lecture machinale : le Coran demande à être interrogé.",
       "niveau_couche": 3
     },
     {
@@ -21461,7 +21458,6 @@ const S004 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Kūnū qawwāmīna bi-l-qisṭi shuhadāʾa li-Llāhi wa-law ʿalā anfusikum : « soyez fermes dans l'équité, témoins pour Allah, fût-ce contre vous-mêmes ». Le commandement de justice le plus radical du Coran. Qawwāmūn est une forme intensive : non pas « justes parfois » mais dresseurs permanents de justice. Et la liste des exceptions abolies est vertigineuse : contre soi-même, contre ses père et mère, contre ses proches ; que la partie soit riche (qu'on pourrait craindre ou flatter) ou pauvre (qu'on pourrait vouloir favoriser) — Allāhu awlā bihimā, Allah a priorité sur les deux. Ni la solidarité familiale, ni l'intérêt, ni même la compassion ne peuvent tordre le témoignage. Le verset jumeau 5:8 complète : ni la haine non plus. La justice coranique est ainsi cernée des deux côtés : ni l'amour ni la haine ne doivent la faire dévier.",
       "niveau_couche": 3
     },
     {

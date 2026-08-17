@@ -7686,7 +7686,6 @@ const S006 = {
           "frequence_coran": 45
         }
       ],
-      "analyse_globale": "Wa-ʿindahu mafātiḥu l-ghaybi lā yaʿlamuhā illā huwa : « c'est Lui qui détient les clés de l'invisible : nul ne les connaît que Lui ». Le verset des clés, l'un des plus contemplés du Coran. La science divine y est déclinée en cercles concentriques : le ghayb (l'invisible absolu), puis la terre ferme et la mer, puis un zoom vertigineux — nulle feuille ne tombe, nulle graine dans les ténèbres de la terre, rien d'humide ni de sec, sans que ce soit su et inscrit. Aucune parcelle du réel n'échappe : la providence n'est pas une supervision globale mais une connaissance feuille par feuille, graine par graine. Face à des idoles qui ne savent rien, le Dieu d'Abraham sait tout.",
       "niveau_couche": 3
     },
     {
@@ -10363,7 +10362,6 @@ const S006 = {
           "frequence_coran": 49
         }
       ],
-      "analyse_globale": "Innī wajjahtu wajhiya li-lladhī faṭara s-samāwāti wa-l-arḍa ḥanīfan : « je tourne mon visage vers Celui qui a créé les cieux et la terre, en pur monothéiste ». La conclusion de l'itinéraire d'Abraham (v.76-79) : l'astre, la lune, le soleil — chaque fois « voici mon Seigneur ! », chaque fois le déclin (ufūl), chaque fois le renoncement : lā uḥibbu l-āfilīn, « je n'aime pas ceux qui déclinent ». Le raisonnement est d'une simplicité désarmante : ce qui disparaît ne peut être Dieu ; l'adorable est Celui qui ne décline jamais et qui a fait surgir (faṭara) les astres eux-mêmes. Le ḥanīf est celui qui, ayant écarté tout ce qui passe, se tourne (wajjaha) tout entier vers l'Éternel.",
       "niveau_couche": 3
     },
     {
@@ -13828,7 +13826,6 @@ const S006 = {
           "frequence_coran": 38
         }
       ],
-      "analyse_globale": "Lā tudrikuhu l-abṣāru wa-huwa yudriku l-abṣār : « les regards ne L'atteignent pas, et Lui atteint les regards ». Le verset de la transcendance absolue, complété par les deux noms : al-Laṭīf (le Subtil, qui échappe à toute saisie et pénètre toute chose avec douceur) et al-Khabīr (le Parfaitement-Informé). L'asymétrie est totale : Dieu voit sans être vu, saisit sans être saisi. Ce n'est pas une privation mais une protection — un dieu que l'œil pourrait cerner serait un objet parmi les objets, un « déclінant » de plus. À méditer avec le lan tarānī dit à Moïse (7:143) : la vision directe excède la condition terrestre, et c'est le cœur, non l'œil, qui connaît.",
       "niveau_couche": 3
     },
     {
@@ -22657,7 +22654,6 @@ const S006 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Qul inna ṣalātī wa-nusukī wa-maḥyāya wa-mamātī li-Llāhi rabbi l-ʿālamīn : « ma prière, mon sacrifice, ma vie et ma mort appartiennent à Allah, Seigneur des mondes ». Le credo total, récité par des millions de fidèles dans l'ouverture de leur prière. La gradation embrasse tout : le rite ponctuel (la ṣalāt), l'offrande (le nusuk), puis — saut immense — la vie entière (maḥyā) et la mort même (mamāt). Rien n'est laissé hors du don : l'existence devient un acte d'adoration continu, et mourir même est orienté vers Dieu. Le verset suivant scelle : lā sharīka lah — sans associé. L'unité de Dieu appelle l'unification de la vie.",
       "niveau_couche": 3
     },
     {

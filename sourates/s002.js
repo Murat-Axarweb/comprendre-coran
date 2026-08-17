@@ -20873,7 +20873,6 @@ const S002 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Fa-dhkurūnī adhkurkum : « rappelez-vous de Moi, Je Me rappellerai de vous ». Une des promesses les plus intimes du Coran, bâtie sur la réciprocité : le même verbe (dhakara, racine ذ-ك-ر) revient de part et d'autre, à l'impératif puis au futur. Le dhikr n'est pas une performance mais un mouvement qui appelle sa réponse — se souvenir de Dieu, c'est être souvenu de Lui. La suite ajoute la gratitude et écarte son contraire : wa-shkurū lī wa-lā takfurūn. Le kufr est ici mis en face du shukr, ce qui en dévoile le sens premier : couvrir, occulter le bienfait. Croire, c'est d'abord ne pas recouvrir ce qu'on a reçu.",
       "niveau_couche": 3
     },
     {
@@ -38380,7 +38379,6 @@ const S002 = {
           "frequence_coran": 107
         }
       ],
-      "analyse_globale": "Allāhu lā ilāha illā huwa l-ḥayyu l-qayyūm : le Āyat al-Kursī, le Verset du Trône, le plus récité du Coran après la Fatiha. Deux noms le fondent : al-Ḥayy (le Vivant, la vie même, non reçue d'un autre) et al-Qayyūm (Celui qui subsiste par Soi et par qui tout subsiste — racine ق-و-م, se tenir debout). Suit une cascade de négations qui écartent toute faiblesse : ni assoupissement ni sommeil, nulle intercession sans Sa permission, nulle science qui déborde la Sienne. Puis l'image finale : Son Kursī embrasse les cieux et la terre, et leur garde ne Lui pèse pas. Le verset dit l'absolue asymétrie entre le Créateur et tout le reste : tout tient de Lui, Lui ne tient de rien.",
       "niveau_couche": 3
     },
     {
@@ -38517,7 +38515,6 @@ const S002 = {
           "frequence_coran": 100
         }
       ],
-      "analyse_globale": "Lā ikrāha fī d-dīn : « nulle contrainte en religion ». Le verset donne aussitôt sa raison : qad tabayyana r-rushdu mina l-ghayy — la voie droite se distingue nettement de l'égarement. Puisque la vérité est devenue lisible, la contrainte n'a plus d'objet : on ne force pas quelqu'un à voir ce qu'il peut voir. La foi arrachée n'est pas une foi ; l'adhésion doit venir du cœur ou elle n'est rien. Suit l'image de la ʿurwa al-wuthqā, « l'anse la plus solide » qui ne se rompt pas : celui qui renie les fausses divinités et croit en Allah s'y agrippe. Le verset articule ainsi liberté et responsabilité — nul ne peut être contraint, et chacun répond de sa saisie.",
       "niveau_couche": 3
     },
     {
@@ -44782,7 +44779,6 @@ const S002 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Lā yukallifu Llāhu nafsan illā wusʿahā : « Allah n'impose à une âme que selon sa capacité ». Le dernier verset de la plus longue sourate, et le sceau de tout ce qui précède : après des centaines de prescriptions — jeûne, pèlerinage, dettes, mariage, combat — vient l'assurance qu'aucune n'excède la force de qui la reçoit. Le mot wusʿ (racine و-س-ع, être ample) dit l'espace dont on dispose : la charge est taillée à la mesure. Puis la balance : lahā mā kasabat wa-ʿalayhā mā ktasabat — le bien acquis est pour l'âme, le mal contre elle. La sourate s'achève enfin par une prière que la communauté fait sienne : ne nous punis pas de nos oublis, ne nous charge pas au-delà de nos forces, efface, pardonne, fais miséricorde. Le Livre qui s'ouvrait sur « guidance pour les pieux » se ferme sur un aveu de faiblesse et un appel au secours.",
       "niveau_couche": 3
     }
   ],

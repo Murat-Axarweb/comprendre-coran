@@ -1224,7 +1224,6 @@ const S031 = {
           "frequence_coran": 17
         }
       ],
-      "analyse_globale": "Wa-laqad ātaynā Luqmāna l-ḥikma ani shkur li-Llāh : le contenu de la sagesse est immédiatement défini — « sois reconnaissant ». Toute la ḥikma se ramène à la shukr : reconnaître d'où vient le bien et vivre en conséquence. Et la clause qui suit désamorce tout marchandage : la reconnaissance profite au reconnaissant, jamais à Dieu (al-ghaniyy, le Riche). On remercie pour se libérer, pas pour flatter.",
       "niveau_couche": 3
     },
     {
@@ -1447,7 +1446,6 @@ const S031 = {
           "frequence_coran": 8
         }
       ],
-      "analyse_globale": "Le lien entre gratitude à Dieu et gratitude aux parents, dans un même verset : ani shkur lī wa-li-wālidayk. Et la mère est nommée d'abord et longuement — « faiblesse sur faiblesse », deux ans d'allaitement. Détail bouleversant : le commandement de reconnaissance envers les parents est inséré AU MILIEU des conseils de Luqmān sur le tawhid pur (v.13 et 16) — sauf que le v.15 pose la limite : obéir aux parents, oui ; leur obéir CONTRE Dieu, non. La hiérarchie est claire sans être froide.",
       "niveau_couche": 3
     },
     {
@@ -2057,7 +2055,6 @@ const S031 = {
           "frequence_coran": 123
         }
       ],
-      "analyse_globale": "wa-lā tuṣaʿʿir khaddaka li-n-nās : « ne tourne pas ta joue [avec mépris] loin des gens ». La sagesse de Luqmān descend jusqu'à la posture du corps : le visage détourné, la démarche insolente (maraḥan), la voix criarde. L'arrogance a une grammaire corporelle, et l'humilité aussi. La spiritualité coranique ne s'arrête pas au cœur : elle se lit dans la façon de marcher et de parler.",
       "niveau_couche": 3
     },
     {
@@ -3183,7 +3180,6 @@ const S031 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'image de l'inépuisable : tous les arbres calames, sept mers d'encre — et « les paroles d'Allah ne s'épuiseraient pas ». Le kalimāt (paroles/décrets/réalités créatrices) de Dieu débordent infiniment tout support fini. Placé après Luqmān, le verset relativise même la plus haute sagesse humaine : Luqmān a reçu la ḥikma, mais la source divine reste sans fond. Le sage le plus grand n'a puisé qu'une goutte.",
       "niveau_couche": 3
     },
     {

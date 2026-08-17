@@ -667,7 +667,6 @@ const S015 = {
           "frequence_coran": 275
         }
       ],
-      "analyse_globale": "Innā naḥnu nazzalnā dh-dhikra wa-innā lahu la-ḥāfiẓūn : « c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes les gardiens ». L'une des promesses les plus lourdes de conséquences. Le dhikr (le Rappel = le Coran) est protégé par Dieu Lui-même contre toute altération. Le pronom emphatique (naḥnu... innā) souligne : ni les hommes, ni le temps, ni les ennemis ne peuvent corrompre le texte. Historiquement, cette garde s'est incarnée dans la mémorisation intégrale par des générations de ḥuffāẓ et la transmission écrite rigoureuse. Le verset explique la singulière stabilité du texte coranique à travers les siècles.",
       "niveau_couche": 3
     },
     {
@@ -2039,7 +2038,6 @@ const S015 = {
           "frequence_coran": 275
         }
       ],
-      "analyse_globale": "Fa-idhā sawwaytuhu wa-nafakhtu fīhi min rūḥī : « quand Je l'aurai harmonieusement formé et lui aurai insufflé de Mon Esprit ». La création d'Adam en deux temps : le façonnement de l'argile (le corps), puis l'insufflation du rūḥ (l'esprit). Cette part divine insufflée fait la dignité de l'homme et fonde l'ordre de prosternation aux anges. Iblīs, en refusant, ne voit que l'argile et manque l'Esprit — son erreur est de juger sur la matière, pas sur ce que Dieu y a déposé. Le récit oppose deux regards : celui qui ne voit que la boue (Iblīs) et celui qui reconnaît le souffle divin.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -2660,7 +2658,6 @@ const S015 = {
           "frequence_coran": 219
         }
       ],
-      "analyse_globale": "Rabbi bimā aghwaytanī la-uzayyinanna lahum fī l-arḍi : « parce que Tu m'as égaré, je leur enjoliverai le mal sur terre ». La stratégie d'Iblīs est nommée : le tazyīn, l'embellissement du mal. Il ne force personne ; il rend le péché séduisant, désirable, paré d'attraits. Mais Dieu lui oppose une limite absolue (v.42) : « sur Mes serviteurs élus, tu n'auras aucune autorité ». Le pouvoir du démon se réduit à la suggestion ; il ne contraint pas. La sincérité (ikhlāṣ) est le rempart : celui qui se voue purement à Dieu échappe à l'enjolivement. Le mal n'a de prise que sur qui lui ouvre la porte.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -5559,7 +5556,6 @@ const S015 = {
           "frequence_coran": 107
         }
       ],
-      "analyse_globale": "Wa-laqad ātaynāka sabʿan mina l-mathānī wal-qurʾāna l-ʿaẓīm : « Nous t'avons donné les sept versets répétés et le Coran sublime ». Les sabʿ al-mathānī sont, selon l'interprétation dominante, les sept versets de la Fātiḥa, répétés (mathānī) dans chaque unité de prière. Le verset consolant place ce don au-dessus de toutes les richesses que Dieu accorde aux dénégateurs (v.88 : « ne tends pas tes yeux vers... »). Face à la moquerie et au dénuement matériel, le Prophète reçoit un trésor incomparable : la Fātiḥa et le Coran. La vraie richesse n'est pas dans ce qui s'épuise mais dans le Rappel qui demeure.",
       "niveau_couche": 3
     },
     {

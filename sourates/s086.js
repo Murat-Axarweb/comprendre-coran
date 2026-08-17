@@ -180,7 +180,6 @@ const S086 = {
           "frequence_coran": 51
         }
       ],
-      "analyse_globale": "In kullu nafsin lammā ʿalayhā ḥāfiẓ : chaque âme a son gardien — l'astre qui perce la nuit (v.1-3) devient l'image de cette vigilance qui traverse toute obscurité. Rien n'est laissé sans surveillance ni protection : le ḥāfiẓ enregistre ET garde.",
       "niveau_couche": 2
     },
     {
@@ -416,7 +415,6 @@ const S086 = {
           "frequence_coran": 405
         }
       ],
-      "analyse_globale": "Yawma tublā s-sarāʾir : 'le jour où les secrets seront testés'. Sarīra désigne ce qu'on ne confie à personne. La résurrection coranique n'est pas qu'un retour des corps (v.5-8) : c'est une mise à nu des intériorités — le vrai contenu de chacun enfin manifesté.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {

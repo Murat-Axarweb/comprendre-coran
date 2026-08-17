@@ -71,7 +71,6 @@ const S108 = {
           "frequence_coran": 167
         }
       ],
-      "analyse_globale": "Al-Kawthar désigne à la fois le fleuve du Paradis promis au Prophète et, plus largement, l'abondance de tout bien : la révélation, la descendance spirituelle, le renom. L'histoire a tranché : le nom de celui qu'on disait 'sans avenir' est prononcé chaque seconde quelque part sur terre.",
       "niveau_couche": 1
     },
     {

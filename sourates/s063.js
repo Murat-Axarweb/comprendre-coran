@@ -169,7 +169,6 @@ const S063 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'ouverture piège la sincérité grammaticale : les hypocrites disent une vérité (« tu es le messager d'Allah ») et sont pourtant déclarés menteurs — car le mensonge porte sur le nashhadu, « nous attestons » : leur attestation ne correspond à aucune conviction. Le Coran distingue la vérité de l'énoncé et la véracité de l'énonciateur : on peut mentir en disant vrai.",
       "niveau_couche": 3
     },
     {
@@ -521,7 +520,6 @@ const S063 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Khushubun musannada : des poutres adossées au mur — belles silhouettes, bois mort. L'image capture l'hypocrisie en deux traits : l'apparence qui impressionne (corps, éloquence) et le vide porteur (rien ne tient debout par soi). S'y ajoute la paranoïa (v.4b) : « tout cri est contre eux » — la duplicité rend le monde menaçant.",
       "niveau_couche": 3
     },
     {
@@ -1374,7 +1372,6 @@ const S063 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La supplique du mourant : lawlā akhkhartanī — « si seulement Tu m'accordais un délai... je ferais l'aumône ». De tout ce qu'on pourrait regretter, le texte choisit la ṣadaqa non donnée. Le v.11 ferme la porte avec une douceur terrible : aucun report quand le terme arrive. La sourate des faux-semblants s'achève sur l'urgence du geste vrai.",
       "niveau_couche": 3
     },
     {

@@ -294,7 +294,6 @@ const S082 = {
           "frequence_coran": 27
         }
       ],
-      "analyse_globale": "Yā ayyuhā l-insānu mā gharraka bi-rabbika l-karīm : les commentateurs notent que le verset contient sa propre excuse — 'c'est Ta générosité qui m'a trompé', pourrait répondre l'homme. Mais présumer du pardon pour continuer la faute, c'est précisément confondre karam (générosité) et indifférence : le v.9 corrige — le vrai problème est le déni de la Rétribution.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -507,7 +506,6 @@ const S082 = {
           "frequence_coran": 146
         }
       ],
-      "analyse_globale": "Kirāman kātibīn : les scribes sont dits 'nobles' — la surveillance divine n'est pas policière mais honorable. Détail des versets : ils 'savent' (yaʿlamūna) ce que vous faites, pas seulement l'écrivent : rien de mécanique, une connaissance vivante de chaque acte, contexte compris.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {

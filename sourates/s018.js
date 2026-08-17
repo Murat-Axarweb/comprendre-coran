@@ -922,7 +922,6 @@ const S018 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Idh awā l-fityatu ilā l-kahf : « quand les jeunes gens se réfugièrent dans la caverne ». Le mot fitya (pluriel de fatā, jeune homme) est souligné par la tradition : ce sont des JEUNES qui portent la foi quand leur société entière l'a abandonnée. Leur premier réflexe n'est pas l'héroïsme mais la prière : rabbanā ātinā min ladunka raḥma — « accorde-nous de Ta part une miséricorde ». Face à la persécution, le retrait n'est pas une fuite mais une préservation confiée à Dieu. Et Dieu répond au-delà de toute attente : trois siècles de sommeil protecteur, preuve vivante de la résurrection.",
       "niveau_couche": 3
     },
     {
@@ -2935,7 +2934,6 @@ const S018 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Illā an yashāʾa Llāh : « sans ajouter : si Allah le veut ». La leçon du in shāʾa Llāh, révélée — selon la tradition — quand le Prophète promit une réponse « demain » aux questions des Mecquois sans cette réserve, et que la révélation tarda. Nul ne dispose de son lendemain : promettre sans réserve, c'est s'attribuer une maîtrise du futur qui n'appartient qu'à Dieu. La formule n'est pas une superstition mais un rappel d'humilité ontologique inscrit dans le langage quotidien : chaque projet humain est suspendu au vouloir divin.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -8063,7 +8061,6 @@ const S018 = {
           "frequence_coran": 327
         }
       ],
-      "analyse_globale": "Wa-kayfa taṣbiru ʿalā mā lam tuḥiṭ bihi khubran : « comment serais-tu patient devant ce que tu n'embrasses pas de ta connaissance ? » Al-Khiḍr énonce la clé du récit : l'impatience naît de l'ignorance. Moïse — pourtant prophète — juge sur les apparences : la barque sabordée, l'enfant tué, le mur redressé sans salaire. Chaque acte se révélera miséricorde cachée. Le récit enseigne l'épistémologie de l'épreuve : ce qui paraît mal dans l'instant peut être bien dans le dessein d'ensemble. Dieu voit la totalité ; l'homme ne voit qu'un fragment — d'où le ṣabr comme confiance.",
       "niveau_couche": 3
     },
     {
@@ -12058,7 +12055,6 @@ const S018 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Law kāna l-baḥru midādan li-kalimāti rabbī : « si la mer était encre pour les paroles de mon Seigneur, la mer serait épuisée avant qu'elles ne le soient ». L'image mesure l'incommensurable : la science et la sagesse divines dépassent infiniment toute capacité humaine de les consigner. Placé en conclusion d'une sourate traversée par le thème du savoir (la science cachée d'al-Khiḍr, le nombre inconnu des dormants), le verset scelle la leçon : le savoir humain est une goutte, l'océan divin est sans rivage. Et le verset final ramène tout à la simplicité : un Dieu unique, des œuvres bonnes, une adoration sans partage.",
       "niveau_couche": 3
     },
     {

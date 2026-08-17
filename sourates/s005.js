@@ -826,7 +826,6 @@ const S005 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Al-yawma akmaltu lakum dīnakum wa-atmamtu ʿalaykum niʿmatī wa-raḍītu lakumu l-islāma dīnan : « aujourd'hui, J'ai parfait pour vous votre religion, J'ai parachevé Mon bienfait sur vous, et J'agrée pour vous l'islam comme religion ». Révélé, selon la tradition, lors du pèlerinage d'adieu à ʿArafāt, ce fragment est reçu comme le sceau de la Révélation : trois verbes au passé accompli (akmaltu, atmamtu, raḍītu) déclarent la religion achevée, le don complété, l'islam agréé. Il n'y aura rien à ajouter. La racine ك-م-ل (kamāl, perfection) dit une plénitude : non un arrêt arbitraire mais un tout qui se referme sur sa complétude. Placé au milieu d'un verset sur le licite et l'illicite, il rappelle que la perfection de la religion n'est pas d'abord doctrinale mais pratique : une voie entière pour vivre.",
       "niveau_couche": 3
     },
     {
@@ -1988,7 +1987,6 @@ const S005 = {
           "frequence_coran": 83
         }
       ],
-      "analyse_globale": "Kūnū qawwāmīna li-Llāhi shuhadāʾa bi-l-qisṭ : « soyez fermes en Allah, témoins de l'équité ». Le verset de la justice inconditionnelle, jumeau de 4:135. Le commandement radical suit : wa-lā yajrimannakum shanaʾānu qawmin ʿalā allā taʿdilū — « que la haine pour un peuple ne vous incite pas à être injustes ». La justice ne connaît pas d'ennemi : même envers ceux qu'on déteste, même dans le conflit, l'équité (qisṭ) reste due. Puis le sceau : iʿdilū huwa aqrabu li-t-taqwā — « soyez justes : c'est plus proche de la piété ». La justice n'est pas une contrainte extérieure à la foi mais son expression la plus haute : rien n'approche autant de Dieu que de rendre à chacun son dû, surtout à celui qu'on n'aime pas.",
       "niveau_couche": 3
     },
     {
@@ -5853,7 +5851,6 @@ const S005 = {
           "frequence_coran": 219
         }
       ],
-      "analyse_globale": "Man qatala nafsan bi-ghayri nafsin aw fasādin fī l-arḍi fa-ka-annamā qatala n-nāsa jamīʿan : « quiconque tue une personne, non pour meurtre ou pour corruption, c'est comme s'il avait tué tous les hommes ». Après le meurtre d'Abel par Caïn, ce verset énonce la valeur infinie de la vie humaine. Chaque personne est un absolu : tuer un innocent, c'est violer l'humanité entière ; en sauver un, c'est sauver l'humanité entière. La vie n'est pas quantifiable — un = tous. La contrepartie est aussi lumineuse : man aḥyāhā, « quiconque en sauve une », reçoit le mérite d'avoir sauvé tous les hommes. Face à la première mort violente de l'histoire, la Révélation pose le principe qui condamne toute banalisation du meurtre.",
       "niveau_couche": 3
     },
     {
@@ -19647,7 +19644,6 @@ const S005 = {
           "frequence_coran": 105
         }
       ],
-      "analyse_globale": "A-anta qulta li-n-nāsi ttakhidhūnī wa-ummiya ilāhayni min dūni Llāh : « est-ce toi qui as dit aux gens : prenez-moi, ainsi que ma mère, pour deux divinités ? » Le grand dialogue final. Au Jour du Jugement, Dieu interroge Jésus sur sa divinisation — et Jésus la récuse absolument : subḥānaka, « gloire à Toi », suivi d'une humilité vertigineuse : « Tu sais ce qu'il y a en moi, et je ne sais pas ce qu'il y a en Toi ». La créature ne peut prétendre égaler le Créateur, fût-elle le Messie. Jésus rappelle son seul message : « adorez Allah, mon Seigneur et le vôtre ». Et il s'efface jusqu'au bout : « si Tu les châties, ce sont Tes serviteurs ; si Tu leur pardonnes, c'est Toi le Puissant » — remettant même le sort de ceux qui l'ont divinisé à la seule miséricorde de Dieu.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

@@ -2070,7 +2070,6 @@ const S038 = {
           "frequence_coran": 7
         }
       ],
-      "analyse_globale": "La parabole des brebis : 99 contre 1 — l'inégalité criante rendue mémorable. David juge vite, contre le riche... et comprend soudain que la scène le visait lui-même. Le miroir judiciaire : il vient de se condamner. Sa réaction fait sa grandeur : ni déni ni justification — istighfār, prosternation, retour (anāb). L'épreuve des puissants est jugée à la vitesse de leur retour.",
       "niveau_couche": 3
     },
     {
@@ -2368,7 +2367,6 @@ const S038 = {
           "frequence_coran": 109
         }
       ],
-      "analyse_globale": "La charte du gouvernant : yā Dāwūdu innā jaʿalnāka khalīfatan — le pouvoir est une lieutenance, pas une propriété. Deux ordres : juger en vérité, ne pas suivre la passion (hawā). Et le diagnostic de toute dérive politique tient en trois mots : « oublié le Jour du compte ». La corruption commence quand l'échéance disparaît de l'horizon mental.",
       "niveau_couche": 3
     },
     {
@@ -3104,7 +3102,6 @@ const S038 = {
           "frequence_coran": 5
         }
       ],
-      "analyse_globale": "La prière de Salomon après l'épreuve : pardon D'ABORD (rabbi ghfir lī), royauté ensuite. L'ordre des demandes est la leçon : même le souhait le plus ambitieux du texte — un royaume sans égal — est précédé par la demande de purification. Le pouvoir demandé après le pardon n'est plus une convoitise : c'est un instrument.",
       "niveau_couche": 3
     },
     {
@@ -3478,7 +3475,6 @@ const S038 = {
           "frequence_coran": 373
         }
       ],
-      "analyse_globale": "La pudeur de Job : après des années d'épreuve totale, sa plainte tient en une proposition — « Satan m'a touché de peine ». Ni révolte, ni catalogue de malheurs, ni mise en cause de Dieu. La réponse est immédiate et physique : « frappe du pied » — la source est SOUS lui, à un geste. Le remède était plus proche que la plainte. Et le verdict divin : innā wajadnāhu ṣābiran — « Nous l'avons trouvé endurant ».",
       "niveau_couche": 3
     },
     {

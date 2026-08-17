@@ -1421,7 +1421,6 @@ const S033 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La psychologie du siège en une image : blaghati l-qulūbu l-ḥanājir — « les cœurs remontèrent aux gorges ». La panique physique du croyant assiégé n'est pas censurée mais nommée : la foi n'exclut pas la peur, elle la traverse. Le verset ajoute : « vous conjecturiez sur Allah toutes sortes de pensées » — même le doute affleure. L'épreuve (v.11) est précisément là pour trier.",
       "niveau_couche": 3
     },
     {
@@ -2899,7 +2898,6 @@ const S033 = {
           "frequence_coran": 46
         }
       ],
-      "analyse_globale": "Uswatun ḥasana : « un beau modèle » — pièce maîtresse de toute l'éthique musulmane. Le Prophète n'est pas seulement transmetteur d'un texte : sa vie EST une exégèse vivante. Et le contexte est décisif : le verset tombe en plein siège, quand certains fuient. Le modèle à imiter n'est pas un idéal désincarné mais un homme tenant bon dans la peur réelle — accessible précisément parce qu'éprouvé.",
       "niveau_couche": 3
     },
     {
@@ -5487,7 +5485,6 @@ const S033 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Khātam an-nabiyyīn : « le sceau des prophètes » — le verset qui clôt la prophétie. Le khātam est à la fois le sceau qui authentifie (Muhammad confirme les précédents) et celui qui ferme (nul après lui). Placé au cœur d'un passage sur l'adoption, il tranche : Muhammad n'est le père biologique d'aucun homme adulte — sa paternité est spirituelle et universelle, non lignagère.",
       "niveau_couche": 3
     },
     {
@@ -9436,7 +9433,6 @@ const S033 = {
           "frequence_coran": 1360
         }
       ],
-      "analyse_globale": "L'amāna (dépôt de confiance) refusée par les cieux, la terre, les montagnes — et assumée par l'homme, « injuste et ignorant ». Le paradoxe est le sommet de l'anthropologie coranique : ce que le cosmos entier n'ose porter, l'homme le prend — la liberté responsable, capable du meilleur comme du pire. Sa grandeur (accepter) et sa misère (ẓalūm jahūl) sont le même acte. Porter l'amāna, c'est risquer de la trahir : là est toute la dignité tragique de la condition humaine.",
       "niveau_couche": 3
     },
     {

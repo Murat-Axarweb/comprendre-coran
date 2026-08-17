@@ -247,7 +247,6 @@ const S087 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Sanuqriʾuka fa-lā tansā : la promesse faite à un Prophète illettré recevant un livre de 6000 versets — 'tu n'oublieras pas'. Le Coran est le seul livre de cette taille mémorisé intégralement par des millions de personnes, enfants compris : la promesse du verset se vérifie empiriquement chaque jour.",
       "niveau_couche": 2
     },
     {
@@ -611,7 +610,6 @@ const S087 = {
           "frequence_coran": 3226
         }
       ],
-      "analyse_globale": "Qad aflaḥa man tazakkā : écho direct de 91:9 (qad aflaḥa man zakkāhā). La purification s'y précise en deux actes : dhakara sma rabbihi (le rappel du Nom) et ṣallā (la prière). Formule que la tradition applique aussi à la zakat al-fitr et à la prière de l'Aïd — d'où la récitation de cette sourate aux fêtes.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {

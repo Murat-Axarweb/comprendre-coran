@@ -165,7 +165,6 @@ function buildSurah(n) {
         tr: { auteur: 'Comprendre le Coran', texte: tr }
       },
       mots,
-      ...(content.analyses && content.analyses[v.n] ? { analyse_globale: content.analyses[v.n] } : {}),
       niveau_couche: content.couche || 2,
       // Marquage des versets rendus en bloc par une traduction : posé par
       // scripts/mark-translation-groups.mjs, il doit survivre au rebuild.

@@ -7889,7 +7889,6 @@ const S010 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Qad jāʾatkum mawʿiẓatun min rabbikum wa-shifāʾun limā fī ṣ-ṣudūr : « une exhortation vous est venue de votre Seigneur, une guérison pour ce qui est dans les poitrines ». Les quatre noms du Coran en un verset : mawʿiẓa (exhortation qui touche), shifāʾ (guérison — non des corps mais de « ce qui est dans les poitrines » : le doute, l'orgueil, l'envie, l'angoisse), hudā (guidance) et raḥma (miséricorde). La progression est thérapeutique : l'exhortation réveille, la guérison purifie le cœur malade, la guidance oriente le cœur assaini, la miséricorde couronne. Le Coran se présente comme médecine de l'âme avant d'être code ou récit.",
       "niveau_couche": 3
     },
     {
@@ -8671,7 +8670,6 @@ const S010 = {
           "auto": true
         }
       ],
-      "analyse_globale": "A-lā inna awliyāʾa Llāhi lā khawfun ʿalayhim wa-lā hum yaḥzanūn : « les alliés d'Allah n'éprouveront aucune crainte et ne seront pas affligés ». La définition des awliyāʾ (alliés, proches, amis de Dieu) suit au v.63, et elle est d'une simplicité désarmante : « ceux qui croient et sont pieux » — pas de conditions ésotériques, pas d'élite initiatique. La walāya est ouverte à tout croyant pieux. Et sa récompense est psychologique autant qu'eschatologique : la libération des deux tourments du cœur humain — khawf (la peur de ce qui vient) et ḥuzn (le chagrin de ce qui est passé). Vivre avec Dieu, c'est être guéri du futur et du passé.",
       "niveau_couche": 3
     },
     {
@@ -12195,7 +12193,6 @@ const S010 = {
           "frequence_coran": 3226
         }
       ],
-      "analyse_globale": "Āl-āna wa-qad ʿaṣayta qablu : « maintenant ?! alors qu'auparavant tu as désobéi ». La réponse à la profession de foi de Pharaon englouti par les flots. Sa déclaration (v.90) est verbalement parfaite — unicité, référence à la foi d'Israël, soumission — mais elle vient quand le choix n'existe plus : croire devant le châtiment n'est plus un acte libre. Le v.92 ajoute la suite saisissante : « aujourd'hui Nous sauvons ton corps, pour que tu sois un signe » — le corps du tyran, préservé, devient leçon pour les générations. La foi a une fenêtre : celle du temps où l'on peut encore choisir autrement.",
       "niveau_couche": 3
     },
     {
@@ -13065,7 +13062,6 @@ const S010 = {
           "frequence_coran": 8
         }
       ],
-      "analyse_globale": "Illā qawma Yūnus : « sinon le peuple de Jonas ». L'exception qui donne son nom à la sourate : de toute l'histoire prophétique, un seul peuple crut avant que le châtiment ne s'abatte — et sa foi lui profita. Ninive, voyant les signes avant-coureurs après le départ de Jonas, se repentit collectivement, et Dieu « écarta le châtiment de l'ignominie ». Le verset est un espoir gravé dans l'histoire : le décret du châtiment n'est pas une fatalité tant qu'il n'est pas tombé ; le repentir sincère et collectif peut retourner le ciel. Aucun peuple n'est condamné d'avance — mais nul ne connaît l'heure limite, d'où l'urgence de croire pendant qu'il est temps.",
       "niveau_couche": 3
     },
     {

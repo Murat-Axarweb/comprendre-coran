@@ -89,7 +89,6 @@ const S048 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Fatḥan mubīnā : le mot fatḥ (ouverture) appliqué à... une trêve signée en position de faiblesse. La relecture divine renverse la perception : le traité ouvrait les cœurs (la paix permit le dialogue, et les conversions doublèrent en deux ans) avant d'ouvrir la ville. La vraie victoire est parfois celle qui ressemble le moins à une victoire.",
       "niveau_couche": 3
     },
     {
@@ -1073,7 +1072,6 @@ const S048 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Yadu Llāhi fawqa aydīhim : « la main d'Allah au-dessus de leurs mains ». Le serment de Ridwan sous l'arbre — 1400 personnes s'engageant à mourir plutôt que fuir — est élevé au rang de contrat direct avec Dieu. Le geste physique (main sur main) devient sacrement : l'engagement humain touche la transcendance.",
       "niveau_couche": 3
     },
     {
@@ -3555,7 +3553,6 @@ const S048 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Ḥamiyyat al-jāhiliyya : la « fureur de l'ignorance » — l'orgueil tribal qui refuse toute concession, même raisonnable. Face à elle, non pas une fureur symétrique, mais la sakīna et « la parole de la piété ». La sourate oppose deux énergies : celle qui embrase et celle qui apaise — et la victoire appartient à la seconde.",
       "niveau_couche": 3
     },
     {
@@ -4173,7 +4170,6 @@ const S048 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le portrait final en double parabole scripturaire : dans la Torah, les traces de prosternation ; dans l'Évangile, la semence qui croît. Deux images de croissance — intérieure (le visage marqué) et collective (la tige qui se dresse). La description commence par l'équilibre-clé : ashiddāʾ... ruḥamāʾ — fermes au-dehors, tendres au-dedans. L'inverse exact de la faiblesse déguisée en dureté.",
       "niveau_couche": 3
     }
   ],

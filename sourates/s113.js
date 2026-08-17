@@ -120,7 +120,6 @@ const S113 = {
           "profondeur": "Al-falaq est une image magnifique : l'aube comme une fissure de lumière qui déchire l'obscurité. La racine f-l-q signifie fendre, séparer. L'aube 'fend' la nuit. Chercher refuge auprès du Seigneur de l'aube, c'est invoquer Celui qui brise toutes les obscurités."
         }
       ],
-      "analyse_globale": "L'ouverture pose le cadre : un 'je' actif qui cherche refuge, auprès d'un Seigneur précis (de l'aube), image de la lumière qui vainc le noir. Tout le reste de la sourate détaille 'contre quoi' ce refuge est demandé.",
       "niveau_couche": 1,
       "groupes": {
         "tr": {
@@ -193,7 +192,6 @@ const S113 = {
           "profondeur": "Fascinant : la racine ḫ-l-q donne à la fois 'créer' et 'caractère moral' (aḫlāq). La création et la moralité partagent la même racine en arabe. Ici, le refuge est demandé auprès du Créateur contre sa propre création — paradoxe apparent qui souligne que le mal vient des créatures, pas du Créateur."
         }
       ],
-      "analyse_globale": "Le verset 2 pose une protection générale avant les protections spécifiques. Structure pédagogique : d'abord le cadre large (tout ce qu'Il a créé), puis zoom sur trois menaces précises (vv. 3, 4, 5).",
       "niveau_couche": 1,
       "groupes": {
         "tr": {
@@ -276,7 +274,6 @@ const S113 = {
           "profondeur": "Waqaba n'apparaît qu'une seule fois dans le Coran. Il évoque une pénétration active — la nuit qui s'insinue dans les espaces, les esprits, les cœurs. Image physique très forte : l'obscurité comme une entité qui envahit."
         }
       ],
-      "analyse_globale": "La nuit n'est pas passive — elle 's'étend', elle 'pénètre'. Le Coran personnalise les forces naturelles pour en montrer la puissance. Protection demandée non contre la nuit elle-même mais contre ce qu'elle permet et cache.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -346,7 +343,6 @@ const S113 = {
           "profondeur": "La famille de ʿ-q-d est révélatrice : le nœud physique, le contrat juridique, et la croyance (ʿaqīda) partagent la même racine. Lier, attacher, engager. Les nœuds de la sorcellerie visent à 'lier' la volonté — d'où la protection demandée contre ce 'liage' illégitime."
         }
       ],
-      "analyse_globale": "Ce verset ancre la sourate dans la réalité culturelle de l'Arabie du VIIe siècle tout en posant un principe universel : il existe des influences invisibles et malveillantes. La protection n'est pas dans l'ignorance de ces réalités mais dans le refuge auprès d'Allah.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -429,7 +425,6 @@ const S113 = {
           "profondeur": "La répétition de la racine ḥ-s-d dans le même verset (ḥāsid... ḥasada) est un procédé stylistique d'intensité : l'envieux QUAND IL ENVIE. La redondance n'est pas un défaut — c'est une emphase délibérée qui martèle l'acte."
         }
       ],
-      "analyse_globale": "La sourate se clôt sur le danger le plus humain : l'envie. Après les forces cosmiques (nuit), occultes (sorcellerie), elle ramène au quotidien — le voisin, le collègue, le proche qui désire notre perte. Du cosmique à l'intime en 5 versets.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {

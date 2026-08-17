@@ -209,7 +209,6 @@ const S040 = {
           "frequence_coran": 8
         }
       ],
-      "analyse_globale": "La carte d'identité divine du v.3 en quatre traits alternés : Ghāfir adh-dhanb (Pardonneur), Qābil at-tawb (Accueillant au repentir), Shadīd al-ʿiqāb (Terrible en punition), Dhī ṭ-ṭawl (Détenteur de faveur). Deux noms d'espoir encadrant un nom de crainte, puis la générosité : le portrait interdit à la fois le désespoir et la présomption.",
       "niveau_couche": 3
     },
     {
@@ -761,7 +760,6 @@ const S040 = {
           "frequence_coran": 43
         }
       ],
-      "analyse_globale": "Les porteurs du Trône prient... pour les humains. La solidarité verticale du cosmos : les créatures les plus hautes intercèdent pour les repentants d'en bas — et leur argument est le v.7 : « Tu embrasses toute chose de miséricorde ET de science ». La raḥma précède le ʿilm dans leur bouche : même l'omniscience est enveloppée de miséricorde.",
       "niveau_couche": 3
     },
     {
@@ -3275,7 +3273,6 @@ const S040 = {
           "frequence_coran": 265
         }
       ],
-      "analyse_globale": "Rajulun muʾminun min āli Firʿawn yaktumu īmānah : le croyant caché. Sa méthode de plaidoyer est un modèle d'argumentation minimale : même si Moïse ment, son mensonge le regarde ; s'il dit vrai, le risque est pour vous — le pari asymétrique, formulé mille ans avant Pascal. Puis l'appel au précédent (Joseph, v.34) et l'aveu final : « je confie mon sort à Allah » (v.44). Un seul homme, sans pouvoir, tenant tête au tyran par la seule raison.",
       "niveau_couche": 3
     },
     {
@@ -6938,7 +6935,6 @@ const S040 = {
           "frequence_coran": 54
         }
       ],
-      "analyse_globale": "Udʿūnī astajib lakum : l'invocation garantie de réponse — sans intermédiaire, sans condition de forme. La suite du verset nomme le refus de demander ce qu'il est : de l'orgueil (yastakbirūna ʿan ʿibādatī). Ne pas prier n'est pas de l'autonomie : c'est de l'arrogance envers la source de tout. La réponse peut différer de la demande — donnée, différée, ou convertie en bien — mais la ligne n'est jamais coupée.",
       "niveau_couche": 3
     },
     {

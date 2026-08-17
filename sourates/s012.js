@@ -288,7 +288,6 @@ const S012 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Naḥnu naquṣṣu ʿalayka aḥsana l-qaṣaṣ : « Nous te racontons le plus beau des récits ». Le superlatif est unique dans le Coran : aucune autre sourate n'est ainsi qualifiée. Beauté de la construction (une seule histoire, du songe initial à sa réalisation finale), beauté morale (aucun personnage n'est caricatural, même les frères se repentent), beauté du dénouement (le pardon sans reproche). Révélée durant l'année de la tristesse — mort de Khadīja et d'Abū Ṭālib —, elle vient consoler le Prophète : Joseph aussi fut trahi par les siens, et l'exil fut le chemin de l'élévation.",
       "niveau_couche": 3
     },
     {
@@ -2587,7 +2586,6 @@ const S012 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-laqad hammat bihi wa-hamma bihā law-lā an raʾā burhāna rabbih : « elle le désira ; et il l'aurait désirée, n'eût été qu'il vit la preuve de son Seigneur ». Le verset le plus honnête du Coran sur la tentation : Joseph n'est pas un être insensible — le désir le traverse (hamma bihā). Sa vertu n'est pas l'absence d'attirance mais la présence du burhān, la conscience vive de Dieu qui interrompt le passage à l'acte. La piété coranique n'est pas l'insensibilité : c'est la lucidité au moment critique. Et la fuite vers la porte (v.25) enseigne que face à la tentation, s'éloigner vaut mieux que résister sur place.",
       "niveau_couche": 3
     },
     {
@@ -10517,7 +10515,6 @@ const S012 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Lā tayʾasū min rawḥi Llāh : « ne désespérez pas du souffle d'Allah ». Jacob, qui a perdu deux fils et pleuré jusqu'à devenir aveugle, interdit le désespoir : seuls les mécréants désespèrent du rawḥ divin — ce souffle de délivrance, cette brise de miséricorde qui peut se lever à tout instant. Le mot rawḥ (apparenté à rīḥ, le vent, et rūḥ, l'esprit) suggère une aération de l'âme : Dieu peut faire souffler la détente là où tout semblait clos. L'espérance n'est pas de l'optimisme : c'est un article de foi. Douter que Dieu puisse dénouer, c'est douter de Dieu.",
       "niveau_couche": 3
     },
     {
@@ -11094,7 +11091,6 @@ const S012 = {
           "frequence_coran": 171
         }
       ],
-      "analyse_globale": "Lā tathrība ʿalaykumu l-yawm : « nul reproche contre vous aujourd'hui ». Le sommet moral du récit. Joseph, au faîte du pouvoir, face aux frères qui l'ont jeté au puits et vendu : pas un mot de blâme. Le tathrīb (reproche appuyé, remontrance humiliante) est écarté d'emblée — et Joseph ajoute la prière : « qu'Allah vous pardonne ». Le pardon complet ne rappelle pas la faute ; il libère l'offenseur de sa honte. Le Prophète reprit ces mots exacts à la conquête de La Mecque envers ceux qui l'avaient persécuté. Pardonner au sommet de la force, voilà la vraie grandeur — le contraire de la vengeance des vainqueurs.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

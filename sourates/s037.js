@@ -4509,7 +4509,6 @@ const S037 = {
           "frequence_coran": 168
         }
       ],
-      "analyse_globale": "Bi-qalbin salīm : Abraham vient à son Seigneur « avec un cœur sain » — la même expression qu'en 26:89, où c'est le seul bagage utile au Jour dernier. Le qalb salīm : indemne d'associationnisme, de rancune, de duplicité. Toute la carrière d'Abraham — le débat, le feu, le sacrifice — découle de cette santé première du cœur.",
       "niveau_couche": 3
     },
     {
@@ -5593,7 +5592,6 @@ const S037 = {
           "frequence_coran": 3226
         }
       ],
-      "analyse_globale": "Le sommet du récit : Abraham CONSULTE son fils (« qu'en penses-tu ? ») sur l'ordre le plus terrible — et le fils répond par l'obéissance à Dieu, non au père : « fais ce qui t'est ORDONNÉ ». Deux libertés qui se soumettent ensemble (aslamā, v.103), aucune contrainte de l'un sur l'autre. Le geste est arrêté : Dieu ne voulait pas le sang — Il voulait ce double oui, et le sacrifice devint mémorial (l'Aïd) au lieu d'être drame.",
       "niveau_couche": 3
     },
     {
@@ -7681,7 +7679,6 @@ const S037 = {
           "frequence_coran": 3226
         }
       ],
-      "analyse_globale": "Fa-lawlā annahu kāna mina l-musabbiḥīn : ce qui sauva Jonas du ventre du poisson n'est pas un mérite d'urgence, mais son passé de glorification — « s'il n'avait pas été de ceux qui glorifient ». Le dhikr accumulé aux jours faciles devient crédit aux jours impossibles. La tradition précise son invocation (21:87) : lā ilāha illā anta subḥānaka innī kuntu mina ẓ-ẓālimīn.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -9601,7 +9598,6 @@ const S037 = {
           "frequence_coran": 47
         }
       ],
-      "analyse_globale": "Le triple sceau final (v.180-182), que la tradition recommande de dire en clôture d'assemblée : tanzīh (gloire au Seigneur de la puissance, au-dessus des descriptions), salām sur les envoyés, ḥamd au Seigneur des mondes. Purification du concept de Dieu, salut sur les transmetteurs, louange — la sourate des rangées se referme en trois lignes qui rangent tout.",
       "niveau_couche": 3
     },
     {

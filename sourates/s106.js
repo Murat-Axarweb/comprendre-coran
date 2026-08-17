@@ -263,7 +263,6 @@ const S106 = {
           "frequence_coran": 124
         }
       ],
-      "analyse_globale": "Faim et peur : les deux insécurités primordiales de toute société humaine. Le verset les nomme dans l'ordre exact des besoins (subsistance puis sécurité) et attribue leur résolution à Dieu seul — fondement d'une gratitude qui devient culte.",
       "niveau_couche": 1,
       "groupes": {
         "tr": {

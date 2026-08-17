@@ -71,12 +71,6 @@ export const PROVENANCE = {
     note: 'Les fréquences au-delà du rang 300 sont des estimations à affiner.'
   },
 
-  analyses: {
-    niveau: 'redige',
-    revu: false,
-    source: 'rédaction du projet',
-    note: "Analyses de versets et notes pédagogiques : lecture proposée, non un tafsir."
-  },
 
   themes: {
     niveau: 'redige',

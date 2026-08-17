@@ -377,7 +377,6 @@ const S107 = {
           "frequence_coran": 1
         }
       ],
-      "analyse_globale": "Al-māʿūn : les petites choses qu'on prête entre voisins — le sel, l'eau, l'outil. Refuser cela révèle un cœur fermé. La sourate a commencé par le déni du Jugement et finit par le refus de prêter une casserole : entre les deux, une seule et même maladie du cœur.",
       "niveau_couche": 1
     }
   ],

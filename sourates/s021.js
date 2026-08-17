@@ -1785,7 +1785,6 @@ const S021 = {
           "frequence_coran": 47
         }
       ],
-      "analyse_globale": "Law kāna fīhimā ālihatun illā Llāhu la-fasadatā : « s'il y avait dans les cieux et la terre d'autres dieux qu'Allah, tous deux seraient corrompus ». Argument cosmologique décisif contre le polythéisme : la pluralité des volontés créatrices produirait le chaos, chaque dieu tirant l'univers à soi. L'ordre parfait du monde (le soleil et la lune chacun dans son orbite, v.33) est la preuve visible d'une volonté unique. Le tawḥīd n'est pas seulement une vérité religieuse mais la condition même de la cohérence du réel.",
       "niveau_couche": 3
     },
     {
@@ -5964,7 +5963,6 @@ const S021 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Yā nāru kūnī bardan wa-salāman ʿalā Ibrāhīm : « Ô feu, sois fraîcheur et paix sur Abraham ». Le sommet du récit abrahamique : jeté au bûcher pour avoir brisé les idoles, Abraham est sauvé par une parole qui inverse la nature même du feu. Les commentateurs notent la précision : Dieu ajoute salām (paix) à bard (fraîcheur), car une fraîcheur extrême eût été tout aussi mortelle. La délivrance n'est pas seulement survie mais sérénité au cœur de l'épreuve. Face à la violence des hommes, Dieu répond par la douceur.",
       "niveau_couche": 3
     },
     {
@@ -7586,7 +7584,6 @@ const S021 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Lā ilāha illā anta subḥānaka innī kuntu mina ẓ-ẓālimīn : la prière de Jonas (Dhū n-Nūn) dans les ténèbres du poisson. Formule d'une densité rare : affirmation de l'unicité (lā ilāha illā anta), glorification (subḥānaka), et aveu (innī kuntu mina ẓ-ẓālimīn). Le hadith en fait la prière de la détresse par excellence : nul croyant ne l'invoque sans être exaucé. Sa structure enseigne la sortie de l'angoisse : reconnaître Dieu seul, Le glorifier, s'accuser soi-même plutôt que le destin. C'est en s'avouant injuste que Jonas est délivré.",
       "niveau_couche": 3
     },
     {
@@ -9263,7 +9260,6 @@ const S021 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-mā arsalnāka illā raḥmatan lil-ʿālamīn : « Nous ne t'avons envoyé que comme miséricorde pour les mondes ». Le verset qui définit la mission prophétique tout entière. Non « pour les croyants », ni « pour les Arabes », mais lil-ʿālamīn — pour les mondes, tous les êtres. La restriction (mā... illā, « seulement ») est capitale : la raison d'être du message est la raḥma, rien d'autre. Toute la galerie de la sourate — seize prophètes exaucés dans leur détresse — n'illustre qu'une seule loi divine, et cette loi est miséricorde. La sévérité envers les dénégateurs elle-même s'inscrit dans ce cadre : préserver les mondes de la corruption.",
       "niveau_couche": 3
     },
     {

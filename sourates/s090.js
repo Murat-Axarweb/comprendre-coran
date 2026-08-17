@@ -224,7 +224,6 @@ const S090 = {
           "frequence_coran": 4381
         }
       ],
-      "analyse_globale": "Fī kabad : l'homme est créé 'dans la peine' — kabad évoque aussi le foie (kabid), siège de l'endurance. Ce n'est ni malédiction ni pessimisme : c'est la définition de la condition humaine comme effort continu, de la naissance à la tombe. La question n'est pas d'éviter la peine, mais de choisir pour quoi peiner (v.10-11).",
       "niveau_couche": 2
     },
     {
@@ -840,7 +839,6 @@ const S090 = {
           "frequence_coran": 103
         }
       ],
-      "analyse_globale": "La pente raide culmine dans thumma (puis) : affranchir et nourrir SANS la foi ne suffit pas, croire sans les actes non plus. L'ordre du verset est significatif : les actes concrets d'abord (v.13-16), la foi et la communauté d'entraide ensuite — contre toute religiosité désincarnée.",
       "niveau_couche": 2
     },
     {

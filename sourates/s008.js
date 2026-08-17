@@ -311,7 +311,6 @@ const S008 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Innamā l-muʾminūna lladhīna idhā dhukira Llāhu wajilat qulūbuhum : « les croyants ne sont que ceux dont les cœurs frémissent quand Allah est mentionné ». La définition existentielle de la foi : non un statut mais une sensibilité. Trois signes vitaux : le cœur qui frémit (wajilat) au rappel de Dieu, la foi qui s'ACCROÎT (zādathum īmānan) à l'écoute des versets — l'īmān est donc dynamique, il monte et descend —, et la confiance (tawakkul) placée dans le Seigneur. Le critère du cœur vivant est sa capacité d'être ému par le divin ; le cœur mort entend sans tressaillir.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1960,7 +1959,6 @@ const S008 = {
           "frequence_coran": 100
         }
       ],
-      "analyse_globale": "Wa-mā ramayta idh ramayta wa-lākinna Llāha ramā : « tu n'as pas lancé quand tu as lancé : c'est Allah qui a lancé ». Le verset le plus vertigineux sur l'agir humain, révélé après Badr où le Prophète avait jeté une poignée de sable vers l'ennemi. Le paradoxe est assumé dans la même phrase : « quand tu as lancé » (l'acte humain est réel) « tu n'as pas lancé » (l'efficacité vient de Dieu). Ni fatalisme (l'homme agit vraiment) ni orgueil (le résultat n'est pas à lui). Toute la sourate décentre la victoire de Badr : ni le nombre, ni les armes, ni la valeur — la nuṣra vient de Dieu seul, et l'homme est l'instrument honoré d'un agir qui le dépasse.",
       "niveau_couche": 3
     },
     {
@@ -3267,7 +3265,6 @@ const S008 = {
           "frequence_coran": 107
         }
       ],
-      "analyse_globale": "In tattaqū Llāha yajʿal lakum furqānan : « si vous craignez Allah, Il vous donnera un discernement ». Le furqān — la faculté de distinguer le vrai du faux, le bien du mal — n'est pas promis à l'intelligence mais à la taqwā. Le verset énonce une épistémologie spirituelle : la lucidité morale est un fruit de la piété, non de la seule réflexion. Les passions, les intérêts, les peurs brouillent le jugement ; la crainte de Dieu les fait taire, et la vision s'éclaircit. S'y ajoutent l'effacement des fautes et le pardon : la taqwā purifie à la fois le regard et le passé.",
       "niveau_couche": 3
     },
     {
@@ -7519,7 +7516,6 @@ const S008 = {
           "frequence_coran": 100
         }
       ],
-      "analyse_globale": "Wa-in janaḥū li-s-salmi fa-jnaḥ lahā : « s'ils inclinent à la paix, incline vers elle ». Dans la sourate de la première grande bataille, le verset qui fixe la doctrine : la paix est l'option à saisir dès qu'elle s'offre. Le verbe janaḥa (incliner, de janāḥ, l'aile) évoque l'oiseau qui penche son aile : au moindre signe d'inclination adverse vers la salm, l'ordre est d'y répondre — même au risque de la tromperie, car le verset suivant rassure : « s'ils veulent te tromper, Allah te suffit ». Le combat est une réponse à l'agression, jamais une fin : dès que l'ennemi penche vers la paix, la confiance en Dieu remplace la méfiance calculatrice.",
       "niveau_couche": 3
     },
     {

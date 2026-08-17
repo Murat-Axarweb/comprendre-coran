@@ -656,7 +656,6 @@ const S071 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Les doigts dans les oreilles, les vêtements sur la tête : le refus d'entendre décrit physiquement. Le texte saisit la mécanique du déni — on ne réfute pas le message, on organise son inaudibilité. Geste repris tel quel à propos des contemporains du Prophète (41:26 : « couvrez-le de vos voix »).",
       "niveau_couche": 3
     },
     {
@@ -818,7 +817,6 @@ const S071 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'istighfar (demande de pardon) promis avec des effets matériels : pluie, richesses, enfants, jardins, rivières. Le pardon n'est pas ici qu'une affaire intérieure — la sourate lie la restauration spirituelle à la prospérité écologique et sociale. Umar citait ce passage en priant pour la pluie.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1618,7 +1616,6 @@ const S071 = {
           "frequence_coran": 658
         }
       ],
-      "analyse_globale": "Wadd, Suwāʿ, Yaghūth, Yaʿūq, Nasr : selon Ibn Abbas, à l'origine des noms d'hommes pieux dont on fit des statues commémoratives, adorées par les générations suivantes. Généalogie coranique de l'idolâtrie : elle commence par la vénération excessive des justes, pas par le culte des démons.",
       "niveau_couche": 3
     },
     {

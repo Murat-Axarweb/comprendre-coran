@@ -123,7 +123,6 @@ const S075 = {
           "frequence_coran": 298
         }
       ],
-      "analyse_globale": "An-nafs al-lawwāma, « l'âme qui se blâme sans cesse » : Dieu jure par la conscience morale. Entre l'âme qui commande le mal (12:53) et l'âme apaisée (89:27), voici l'étape intermédiaire — celle qui chute mais se reprend, se juge, se corrige. Le serment l'anoblit : ce va-et-vient intérieur n'est pas une faiblesse, c'est le signe de vie spirituelle.",
       "niveau_couche": 3
     },
     {
@@ -229,7 +228,6 @@ const S075 = {
           "frequence_coran": 609
         }
       ],
-      "analyse_globale": "Banānah, « les bouts de ses doigts » : le défi de la résurrection est porté sur la partie la plus fine du corps — là où, précisément, se trouve l'empreinte unique de chaque individu. Le texte choisit pour preuve de la recomposition le détail que la science moderne utilisera pour l'identification.",
       "niveau_couche": 3
     },
     {
@@ -848,7 +846,6 @@ const S075 = {
           "frequence_coran": 327
         }
       ],
-      "analyse_globale": "Le gros plan pédagogique : le Prophète, anxieux de perdre le texte, répétait pendant la descente. Correction : jamʿuhu wa-qurʾānahu ʿalaynā — « son rassemblement et sa récitation Nous incombent ». Le verset fonde la doctrine de la préservation du texte : la mémoire du messager est prise en charge par l'Auteur.",
       "niveau_couche": 3
     },
     {
@@ -1298,7 +1295,6 @@ const S075 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'agonie filmée de l'intérieur : la remontée de l'âme jusqu'aux clavicules (tarāqī), l'entourage cherchant un guérisseur, la conscience du départ, les jambes qui se raidissent. Quatre plans serrés, sans un mot de trop — puis le travelling final : « vers ton Seigneur, ce jour-là, on est conduit ».",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

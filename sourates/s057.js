@@ -287,7 +287,6 @@ const S057 = {
           "frequence_coran": 100
         }
       ],
-      "analyse_globale": "Quatre noms en deux couples symétriques : al-Awwal wal-Ākhir (le Premier, le Dernier — l'axe du temps), aẓ-Ẓāhir wal-Bāṭin (l'Apparent, le Caché — l'axe de la manifestation). Aucune position d'où Dieu serait absent : avant tout, après tout, au-dessus de tout, au-dedans de tout. Le Prophète glosait dans son invocation nocturne : « Tu es le Premier, rien avant Toi ; le Dernier, rien après Toi... »",
       "niveau_couche": 3
     },
     {
@@ -2228,7 +2227,6 @@ const S057 = {
           "auto": true
         }
       ],
-      "analyse_globale": "A-lam yaʾni : « le temps n'est-il pas venu ? » — le verset qui réveilla Fudayl ibn Iyad, brigand devenu maître spirituel, l'entendant en pleine escalade nocturne. L'avertissement contre l'endurcissement graduel : la familiarité avec le sacré, quand elle n'est plus nourrie, durcit au lieu d'attendrir. Le diagnostic vaut pour toute communauté vieillissante — et pour tout croyant.",
       "niveau_couche": 3
     },
     {
@@ -2834,7 +2832,6 @@ const S057 = {
           "frequence_coran": 27
         }
       ],
-      "analyse_globale": "La parabole-radiographie de la dunyā en cinq étapes croissantes : jeu (enfance), divertissement (jeunesse), parure (âge adulte), surenchère (maturité), rivalité de biens et d'enfants (vieillesse). Puis l'image du cycle végétal complet en une phrase : émerveillement, jaunissement, débris. Non pour mépriser le monde — mais pour le remettre à sa taille : matāʿ al-ghurūr, jouissance qui trompe si on la prend pour le but.",
       "niveau_couche": 3
     },
     {
@@ -3570,7 +3567,6 @@ const S057 = {
           "auto": true
         }
       ],
-      "analyse_globale": "« Nous avons fait descendre le fer » : anzalnā, le verbe de la révélation, appliqué au métal. Le Livre, la balance et le fer forment le triptyque de la civilisation : la norme, la justice, la force. La force sans le Livre est tyrannie ; le Livre sans force est lettre morte. L'astrophysique moderne donne au verbe « descendre » une résonance inattendue : le fer terrestre provient bien de la nucléosynthèse stellaire.",
       "niveau_couche": 3
     },
     {

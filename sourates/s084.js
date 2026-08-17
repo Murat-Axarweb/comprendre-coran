@@ -339,7 +339,6 @@ const S084 = {
           "frequence_coran": 116
         }
       ],
-      "analyse_globale": "Innaka kādiḥun ilā rabbika kadḥan fa-mulāqīh : le verset-boussole de toute existence. Que l'homme le sache ou non, chaque effort — carrière, famille, fuite même — le déplace vers le rendez-vous final. Le Coran ne dit pas 'tu devrais aller vers Lui' mais 'tu y vas' : la seule liberté est le contenu du bagage.",
       "niveau_couche": 2
     },
     {
@@ -444,7 +443,6 @@ const S084 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Ḥisāban yasīrā : le 'compte facile'. Le hadith précise : c'est la simple présentation (ʿarḍ) des actes, sans interrogatoire serré — 'car celui dont le compte est discuté est perdu'. La prière prophétique 'Allāhumma ḥāsibnī ḥisāban yasīrā' vient de ce verset.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -963,7 +961,6 @@ const S084 = {
           "frequence_coran": 153
         }
       ],
-      "analyse_globale": "La-tarkabunna ṭabaqan ʿan ṭabaq : 'vous monterez d'état en état' — embryon, enfance, force, vieillesse, mort, résurrection : la vie humaine est une succession d'états dont aucun n'est définitif. Après la lune qui croît (v.18), l'homme qui se transforme : rien dans le créé n'est statique, tout est trajectoire.",
       "niveau_couche": 2
     },
     {

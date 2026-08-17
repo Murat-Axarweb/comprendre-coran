@@ -108,7 +108,6 @@ const S103 = {
           "frequence_coran": 65
         }
       ],
-      "analyse_globale": "Le verset est construit comme un constat comptable : inna (certes) + la- (emphase) + fī khusr (dans la perte). Trois outils d'insistance pour un seul diagnostic. Le temps qui passe consume le capital-vie de chacun : sans réinvestissement (v.3), le bilan est structurellement négatif.",
       "niveau_couche": 1
     },
     {

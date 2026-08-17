@@ -266,7 +266,6 @@ const S064 = {
           "frequence_coran": 41
         }
       ],
-      "analyse_globale": "« Parmi vous le mécréant, parmi vous le croyant » : le partage fondamental de l'humanité est énoncé comme un simple constat de création — sans que la mécréance soit attribuée à Dieu ni la foi imposée. La liberté du choix est logée dans la phrase même : Il crée tous, chacun devient l'un ou l'autre.",
       "niveau_couche": 3
     },
     {
@@ -1149,7 +1148,6 @@ const S064 = {
           "frequence_coran": 107
         }
       ],
-      "analyse_globale": "Yawm at-taghābun : le jour du « dupé mutuel » — terme de commerce désignant la découverte qu'on a vendu trop bas ou acheté trop cher. Au Jugement, les portefeuilles s'inversent : celui qui a troqué l'au-delà contre le monde découvre sa perte ; celui qui a semblé perdre découvre son gain. Toute l'existence relue comme une transaction dont le cours réel n'est révélé qu'à la clôture.",
       "niveau_couche": 3
     },
     {
@@ -1717,7 +1715,6 @@ const S064 = {
           "auto": true
         }
       ],
-      "analyse_globale": "« Parmi vos épouses et vos enfants, un ennemi » — non par nature, mais quand l'attachement familial devient l'obstacle au bien (le verset descendit au sujet d'hommes que leurs familles retenaient d'émigrer). La suite est le vrai message : trois verbes de clémence (taʿfū, taṣfaḥū, taghfirū) calqués sur les noms divins. Le foyer se gère par le pardon, jamais par la rancune — même quand il éprouve.",
       "niveau_couche": 3
     },
     {

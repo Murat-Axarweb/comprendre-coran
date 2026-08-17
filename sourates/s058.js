@@ -158,7 +158,6 @@ const S058 = {
           "frequence_coran": 41
         }
       ],
-      "analyse_globale": "Qad samiʿa Llāhu : « Allah a bien entendu ». La sourate s'ouvre sur l'écoute d'une plainte de femme — et le droit change en conséquence : le zihar, formule de répudiation qui laissait l'épouse suspendue (ni mariée ni libre), est aboli et pénalisé. La révélation descend au niveau d'un cas individuel : aucune détresse n'est trop petite pour le ciel.",
       "niveau_couche": 3
     },
     {
@@ -1284,7 +1283,6 @@ const S058 = {
           "frequence_coran": 100
         }
       ],
-      "analyse_globale": "L'arithmétique de la présence divine : trois + Lui = quatrième, cinq + Lui = sixième. Le verset ne dit pas que Dieu écoute les conciliabules — il dit qu'Il y EST. La maʿiyya (co-présence) divine transforme l'éthique de la parole privée : il n'existe pas de pièce sans témoin.",
       "niveau_couche": 3
     },
     {
@@ -1994,7 +1992,6 @@ const S058 = {
           "frequence_coran": 38
         }
       ],
-      "analyse_globale": "« Allah élèvera en degrés ceux qui croient et ceux qui ont reçu la science » : le seul verset où la hiérarchie céleste est explicitement indexée sur le savoir. La politesse d'assemblée (faire place, se lever) débouche sur ce principe : l'espace qu'on cède ici-bas se convertit en élévation — et la science est un ascenseur de degrés.",
       "niveau_couche": 3
     },
     {
@@ -3610,7 +3607,6 @@ const S058 = {
           "frequence_coran": 42
         }
       ],
-      "analyse_globale": "Le paradoxe final : la foi peut exiger de rompre les solidarités du sang — mais le verset qui le dit est aussi le plus tendre du chapitre : la foi « écrite dans les cœurs », le soutien « d'un souffle venant de Lui », et la double satisfaction (raḍiya Llāhu ʿanhum wa-raḍū ʿanhu). L'appartenance au « parti d'Allah » n'est pas un slogan : c'est une réciprocité d'agrément.",
       "niveau_couche": 3
     }
   ],

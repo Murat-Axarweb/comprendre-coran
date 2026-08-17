@@ -211,7 +211,6 @@ const S067 = {
           "frequence_coran": 51
         }
       ],
-      "analyse_globale": "L'ordre des mots surprend : « la mort ET la vie » — la mort d'abord. Parce qu'elle précède (le néant avant l'existence) et parce qu'elle donne son sérieux à l'épreuve : c'est l'échéance qui rend l'examen réel. Et le critère n'est pas « qui agira le plus » mais « qui agira le mieux » (aḥsanu ʿamalan) : la qualité prime la quantité.",
       "niveau_couche": 3
     },
     {
@@ -349,7 +348,6 @@ const S067 = {
           "frequence_coran": 4
         }
       ],
-      "analyse_globale": "Le verset lance un défi expérimental : irjiʿi l-baṣar — « ramène le regard ». Le Coran ne demande pas de croire les yeux fermés mais de vérifier les yeux ouverts. Fuṭūr (fissure) : le mot désigne la fêlure d'un récipient — l'univers est un vase sans défaut de fabrication.",
       "niveau_couche": 3
     },
     {
@@ -1260,7 +1258,6 @@ const S067 = {
           "frequence_coran": 38
         }
       ],
-      "analyse_globale": "« Ne connaîtrait-Il pas ce qu'Il a créé ? » — l'argument le plus court du Coran sur l'omniscience : le rapport créateur-créature implique la connaissance totale, comme l'artisan connaît son ouvrage de l'intérieur. Les deux noms qui concluent (Laṭīf, le Subtil ; Khabīr, l'Informé) déclinent cette connaissance : dans le détail infime et dans la profondeur cachée.",
       "niveau_couche": 3
     },
     {
@@ -2790,7 +2787,6 @@ const S067 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La sourate de la Royauté cosmique s'achève sur un verre d'eau : « si votre eau disparaissait... ». Après les sept cieux, les étoiles et les ouragans, l'argument final est le plus quotidien — la dépendance de toute vie à l'eau courante. La royauté divine se vérifie au robinet autant qu'au télescope.",
       "niveau_couche": 3
     }
   ],

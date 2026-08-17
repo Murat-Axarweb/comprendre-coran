@@ -1688,7 +1688,6 @@ const S016 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-in taʿuddū niʿmata Llāhi lā tuḥṣūhā : « si vous comptiez les bienfaits d'Allah, vous ne sauriez les dénombrer ». Le verset qui donne à la sourate son surnom de « sourate des bienfaits ». Le niʿam divin est infini, incalculable — le lait, le miel, la pluie, la mer, les astres, jusqu'à l'ombre et le vêtement. Face à cette profusion, l'attitude juste est le shukr, la reconnaissance. Le verset ajoute une note de miséricorde : malgré l'ingratitude humaine devant tant de dons, « Allah est Pardonneur, Très-Miséricordieux ». La gratitude n'acquitte pas une dette impossible à solder ; elle reconnaît simplement la source.",
       "niveau_couche": 3
     },
     {
@@ -7288,7 +7287,6 @@ const S016 = {
           "frequence_coran": 111
         }
       ],
-      "analyse_globale": "Wa-awḥā rabbuka ilā n-naḥl : « ton Seigneur a inspiré à l'abeille ». Le mot waḥy — la même racine que la révélation prophétique — est employé pour l'instinct de l'abeille : une inspiration inscrite dans sa nature, qui la guide à bâtir ses cellules et butiner. Et le miel qui en sort porte « une guérison pour les hommes » (fīhi shifāʾun li-n-nās, v.69). L'abeille devient signe : la créature la plus humble, guidée par une sagesse qu'elle ne comprend pas, produit un remède. Toute la création obéit à un ordre caché ; l'homme, doté de raison, saura-t-il en faire autant ?",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -10233,7 +10231,6 @@ const S016 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Inna Llāha yaʾmuru bil-ʿadli wal-iḥsāni wa-ītāʾi dhī l-qurbā : « Allah ordonne l'équité, la bienfaisance et la générosité envers les proches ». Le verset le plus récité de l'islam — conclusion de chaque prêche du vendredi. Il condense toute l'éthique en trois ordres croissants : ʿadl (la justice, donner à chacun son dû), iḥsān (l'excellence, faire plus et mieux que le strict droit), et le don aux proches ; puis trois interdits : la turpitude, le blâmable, l'injustice. L'iḥsān dépasse la ʿadl : la justice équilibre, la bienfaisance déborde. Une société juste est le minimum ; une société bienveillante est l'idéal.",
       "niveau_couche": 3
     },
     {
@@ -11279,7 +11276,6 @@ const S016 = {
           "frequence_coran": 56
         }
       ],
-      "analyse_globale": "Man ʿamila ṣāliḥan min dhakarin aw unthā wa-huwa muʾminun fa-la-nuḥyiyannahu ḥayātan ṭayyiba : « quiconque fait le bien, homme ou femme, en étant croyant, Nous le ferons vivre d'une vie bonne ». L'égalité homme-femme devant la récompense est explicite (min dhakarin aw unthā). Et la promesse est double : une ḥayāt ṭayyiba dès ici-bas — une « vie bonne », faite de sérénité et de sens, pas nécessairement de richesse — et la récompense de l'au-delà. Le verset enseigne que la foi agissante transforme la qualité de la vie présente : le bonheur n'est pas remis à plus tard, il commence dans la droiture.",
       "niveau_couche": 3
     },
     {

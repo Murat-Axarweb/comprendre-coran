@@ -152,7 +152,6 @@ const S044 = {
           "frequence_coran": 63
         }
       ],
-      "analyse_globale": "Laylatun mubāraka : la nuit bénie — croisée avec 97:1 (« Nous l'avons fait descendre dans la Nuit du Destin ») et 2:185 (« le mois de Ramadan où fut descendu le Coran »), elle situe la descente initiale du Livre. Le v.4 en donne la fonction : yufraqu — la nuit du grand tri, où les décrets de l'année se détaillent. Une nuit d'archivage cosmique, offerte chaque année à la prière des veilleurs.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1761,7 +1760,6 @@ const S044 = {
           "frequence_coran": 229
         }
       ],
-      "analyse_globale": "Fa-mā bakat ʿalayhimu s-samāʾu wal-arḍ : « ni le ciel ni la terre ne les pleurèrent ». La ligne la plus glaciale du Coran — l'univers indifférent à la chute des puissants. Les commentateurs rapportent en contrepoint : pour le croyant qui meurt, pleurent son lieu de prière sur terre et le passage de ses œuvres au ciel. On n'est pleuré que là où l'on a semé.",
       "niveau_couche": 3
     },
     {
@@ -2367,7 +2365,6 @@ const S044 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-mā khalaqnā... lāʿibīn : la création n'est pas un jeu. L'argument anti-absurde : un cosmos réglé au point que nous le mesurons ne peut déboucher sur rien. Le Jour de la Décision (v.40) n'est pas une menace ajoutée au monde : il est la conclusion logique d'un monde qui a un sens.",
       "niveau_couche": 3
     },
     {
@@ -3004,7 +3001,6 @@ const S044 = {
           "frequence_coran": 27
         }
       ],
-      "analyse_globale": "Dhuq innaka anta l-ʿazīzu l-karīm : « Goûte ! Toi, le puissant, le noble ! » — l'ironie eschatologique la plus mordante du texte, adressée (rapporte-t-on) à Abū Jahl qui se vantait d'être « le plus puissant et le plus noble » de la vallée. Les titres d'ici-bas, récités au Feu, deviennent la sentence elle-même.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

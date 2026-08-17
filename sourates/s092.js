@@ -232,7 +232,6 @@ const S092 = {
           "frequence_coran": 74
         }
       ],
-      "analyse_globale": "Les versets 5-10 posent deux triades symétriques : donner + craindre Dieu + confirmer la belle promesse → facilité ; retenir + se croire autosuffisant + démentir → difficulté. Le pivot n'est pas la richesse mais le rapport à elle : aʿṭā (il donne) contre bakhila (il retient).",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -934,7 +933,6 @@ const S092 = {
           "frequence_coran": 44
         }
       ],
-      "analyse_globale": "Illā btighāʾa wajhi rabbihi l-aʿlā : donner 'sans que personne n'ait sur soi de bienfait à rendre' — la charité pure, sans dette sociale, sans calcul de retour. La tradition y voit Abu Bakr rachetant les esclaves persécutés. Le v.21 scelle : wa-la-sawfa yarḍā, 'il sera satisfait' — la même satisfaction promise au Prophète (93:5).",
       "niveau_couche": 2,
       "groupes": {
         "tr": {

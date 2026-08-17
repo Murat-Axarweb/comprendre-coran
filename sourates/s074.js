@@ -97,7 +97,6 @@ const S074 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Qum fa-andhir — deux mots, tout un destin. Après le « lève-toi la nuit » de la sourate précédente (73:2, formation intérieure), voici « lève-toi et avertis » (mission extérieure). Les deux sourates jumelles dessinent l'ordre pédagogique : d'abord se construire dans la nuit, ensuite sortir vers les hommes.",
       "niveau_couche": 3
     },
     {
@@ -725,7 +724,6 @@ const S074 = {
           "frequence_coran": 147
         }
       ],
-      "analyse_globale": "Le portrait en sept temps de Walid ibn al-Mughira (v.18-25) est une radiographie du déni intellectuel : il réfléchit, calibre, regarde, se renfrogne, tourne le dos, s'enorgueillit — puis conclut par le seul verdict qui préserve son rang : « magie ». La reconnaissance intérieure de la beauté du texte (attestée par les récits) est retournée en accusation publique.",
       "niveau_couche": 3
     },
     {
@@ -1639,7 +1637,6 @@ const S074 = {
           "frequence_coran": 44
         }
       ],
-      "analyse_globale": "Le nombre dix-neuf devient lui-même une épreuve (fitna) : les moqueurs s'en amusent, les croyants s'y affermissent. Le verset théorise la fonction du détail troublant dans le texte : le même énoncé trie les cœurs selon leur disposition — l'information révélée n'est jamais neutre, elle révèle aussi son lecteur.",
       "niveau_couche": 3
     },
     {
@@ -1973,7 +1970,6 @@ const S074 = {
           "auto": true
         }
       ],
-      "analyse_globale": "« Toute âme est gagée par ce qu'elle a acquis » : l'image est celle du gage commercial — l'âme est en dépôt, ses œuvres sont le prix du rachat. Les gens de la droite ont soldé leur gage ; les autres restent saisis. L'économie du salut en une phrase.",
       "niveau_couche": 3
     },
     {

@@ -190,7 +190,6 @@ const S017 = {
           "frequence_coran": 41
         }
       ],
-      "analyse_globale": "Subḥāna lladhī asrā bi-ʿabdihi laylan : « Gloire à Celui qui fit voyager de nuit Son serviteur ». Le verset de l'isrāʾ, du voyage nocturne de La Mecque (al-Masjid al-Ḥarām) à Jérusalem (al-Masjid al-Aqṣā), prélude au miʿrāj, l'ascension céleste. Notation capitale : au sommet de son élévation, le Prophète est appelé ʿabd — serviteur. Le plus grand honneur ne divinise pas ; il confirme la servitude. Et la mention des « alentours bénis » de la Mosquée éloignée inscrit Jérusalem au cœur de la géographie sacrée de l'islam, reliant la mission muhammadienne à toute la lignée prophétique.",
       "niveau_couche": 3
     },
     {
@@ -2504,7 +2503,6 @@ const S017 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-qaḍā rabbuka allā taʿbudū illā iyyāhu wa-bil-wālidayni iḥsānan : « Ton Seigneur a décrété que vous n'adoriez que Lui — et la bonté envers les parents ». L'accolement est vertigineux : dans le même décret, l'unicité de Dieu et l'iḥsān envers père et mère. Et la précision descend jusqu'au détail : ne pas même dire uff — « fi ! », la plus petite particule d'agacement en arabe. Si le soupir est interdit, tout ce qui est au-delà l'est a fortiori. Le v.24 couronne : « abaisse pour eux l'aile de l'humilité » et prie pour eux « comme ils m'ont élevé tout petit » — la tendresse reçue devient dette de prière.",
       "niveau_couche": 3
     },
     {
@@ -7642,7 +7640,6 @@ const S017 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-laqad karramnā banī Ādam : « Nous avons certes honoré les fils d'Adam ». Le verset fondateur de la dignité humaine en islam. La karāma est universelle (BANĪ Ādam : tous les descendants, croyants ou non), ontologique (conférée par la création, non acquise), et concrète : portés sur terre et mer, pourvus de bonnes choses, préférés à beaucoup de créatures. Les juristes en ont tiré l'inviolabilité de la personne humaine ; les théologiens, la responsabilité qui accompagne l'honneur. Toute la charte éthique de la sourate (v.23-39) découle de cette dignité : on ne tue pas, on ne fraude pas, on ne méprise pas ce que Dieu a honoré.",
       "niveau_couche": 3
     },
     {
@@ -9054,7 +9051,6 @@ const S017 = {
           "frequence_coran": 55
         }
       ],
-      "analyse_globale": "Wa-yasʾalūnaka ʿani r-rūḥ : « ils t'interrogent sur l'Esprit ». La réponse est un sommet d'humilité épistémique : « l'Esprit relève de l'ordre de mon Seigneur, et vous n'avez reçu de la science que bien peu ». Le rūḥ — souffle vital, esprit, mystère de la vie et de la conscience — échappe à l'investigation humaine : il appartient au amr, l'ordre divin. Le verset trace une frontière : certaines réalités sont connaissables, d'autres relèvent du mystère assumé. Loin d'étouffer la recherche, cette limite la situe : tout le savoir humain, si vaste soit-il, reste « peu » face à l'océan divin — écho de la mer-encre d'al-Kahf 109.",
       "niveau_couche": 3
     },
     {

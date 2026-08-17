@@ -308,7 +308,6 @@ const S050 = {
           "frequence_coran": 26
         }
       ],
-      "analyse_globale": "« Nous savons ce que la terre rogne d'eux » : l'objection tacite des sceptiques (la décomposition) est nommée avant d'être réfutée — par un Livre « qui conserve ». Face à l'entropie des corps, l'information intégrale demeure : la résurrection est une restauration de données, pas une improvisation.",
       "niveau_couche": 3
     },
     {
@@ -1200,7 +1199,6 @@ const S050 = {
           "frequence_coran": 6
         }
       ],
-      "analyse_globale": "La proximité par la veine jugulaire, suivie immédiatement (v.17-18) des deux scribes : intimité et responsabilité vont ensemble. Dieu est plus proche que le sang qui fait vivre — et chaque parole est consignée. Le verset fonde à la fois la spiritualité du cœur et l'éthique de la langue.",
       "niveau_couche": 3
     },
     {
@@ -2144,7 +2142,6 @@ const S050 = {
           "frequence_coran": 3226
         }
       ],
-      "analyse_globale": "Le dialogue le plus bref et le plus vertigineux du texte : « Es-tu remplie ? — Y en a-t-il encore ? » La Géhenne personnifiée répond par une question. Les commentateurs y lisent soit l'insatiabilité du châtiment, soit la confirmation qu'elle attend son dû — dans les deux cas, l'avertissement atteint son intensité maximale.",
       "niveau_couche": 3
     },
     {
@@ -2647,7 +2644,6 @@ const S050 = {
           "frequence_coran": 35
         }
       ],
-      "analyse_globale": "« Pour qui a un cœur » (li-man kāna lahu qalb) : tous ont un organe, tous n'ont pas un cœur au sens du verset — une intériorité disponible. L'alternative : « prêter l'oreille en étant témoin » (shahīd : présent, non distrait). Deux portes d'accès au rappel : le cœur éveillé ou l'écoute pleinement présente.",
       "niveau_couche": 3
     },
     {

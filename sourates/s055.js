@@ -321,7 +321,6 @@ const S055 = {
           "frequence_coran": 6
         }
       ],
-      "analyse_globale": "La balance (mīzān) posée dans le même souffle que le ciel élevé : l'équilibre cosmique et l'équité commerciale relèvent du même principe. Les v.8-9 passent sans transition de l'ordre des sphères à l'honnêteté du marchand — frauder sur un poids, c'est désaccorder sa note dans la symphonie universelle.",
       "niveau_couche": 3
     },
     {
@@ -617,7 +616,6 @@ const S055 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le refrain fa-bi-ayyi ālāʾi rabbikumā tukadhdhibān revient 31 fois, au duel : hommes et djinns interpellés ensemble. Ālāʾ (bienfaits) couvre tout ce qui précède — y compris les avertissements, car prévenir est aussi un bienfait. La répétition n'endort pas : elle ponctue, comme un refrain liturgique qui exige réponse.",
       "niveau_couche": 3
     },
     {
@@ -1260,7 +1258,6 @@ const S055 = {
           "frequence_coran": 89
         }
       ],
-      "analyse_globale": "Kullu man ʿalayhā fān : « tout ce qui est sur elle est périssable » — et demeure la Face du Seigneur. Le couple fanāʾ/baqāʾ (extinction/permanence) qui structurera toute la spiritualité musulmane vient de ces deux versets : la conscience de l'éphémère n'est pas mélancolie, elle est réorientation vers ce qui demeure.",
       "niveau_couche": 3
     },
     {
@@ -3088,7 +3085,6 @@ const S055 = {
           "frequence_coran": 33
         }
       ],
-      "analyse_globale": "Hal jazāʾu l-iḥsāni illā l-iḥsān : « la récompense de l'excellence est-elle autre chose que l'excellence ? » Huit mots en miroir parfait. Iḥsān désigne le bien porté à sa perfection — adorer Dieu comme si on Le voyait. Le verset promet la symétrie : la beauté donnée revient en beauté.",
       "niveau_couche": 3
     },
     {

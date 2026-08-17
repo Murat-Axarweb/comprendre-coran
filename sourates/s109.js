@@ -120,7 +120,6 @@ const S109 = {
           "frequence_coran": 275
         }
       ],
-      "analyse_globale": "Les versets 2-5 semblent se répéter mais alternent les temps : présent/futur (ce que vous adorez maintenant) et accompli (ce que vous avez adoré, votre tradition héritée). Le refus couvre ainsi le passé, le présent et l'avenir : aucune fenêtre de compromis ne reste ouverte sur l'axe du temps.",
       "niveau_couche": 1
     },
     {

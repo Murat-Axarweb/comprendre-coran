@@ -262,7 +262,6 @@ const S022 = {
           "frequence_coran": 52
         }
       ],
-      "analyse_globale": "Le fracas de l'Heure en une image intolérable : tadhhalu kullu murḍiʿatin ʿammā arḍaʿat — « toute nourrice oubliera ce qu'elle allaitait ». L'instinct maternel, le plus fort qui soit, est balayé par l'épouvante. Et les gens paraissent « ivres sans l'être » : la terreur, non le vin, dissout leur raison. Le Coran mesure l'ampleur du Jour à l'aune de ce qu'il défait — jusqu'au lien mère-enfant. Rien de plus efficace pour dire l'ampleur du bouleversement.",
       "niveau_couche": 3
     },
     {
@@ -1583,7 +1582,6 @@ const S022 = {
           "frequence_coran": 45
         }
       ],
-      "analyse_globale": "Le portrait du croyant conditionnel : yaʿbudu Llāha ʿalā ḥarf — « il adore Allah au bord » (ḥarf : la lisière, l'arête). Foi de circonstance : si la prospérité vient, il reste ; si l'épreuve frappe, il « fait volte-face » (inqalaba ʿalā wajhih). C'est la religion-contrat, qui n'attend de Dieu que des bénéfices immédiats. Le verset la démasque comme « la perte évidente » : croire pour être payé, c'est déjà ne pas croire. La foi vraie tient dans l'épreuve autant que dans l'aisance.",
       "niveau_couche": 3
     },
     {
@@ -4917,7 +4915,6 @@ const S022 = {
           "frequence_coran": 45
         }
       ],
-      "analyse_globale": "Udhina lilladhīna yuqātalūna bi-annahum ẓulimū : le premier verset autorisant la défense armée. Trois précisions capitales : c'est une AUTORISATION (udhina, passif : on ne se l'octroie pas), elle vise ceux « qu'on combat » (yuqātalūna, défensif), et son fondement est l'injustice subie (ẓulimū, « parce qu'ils ont été lésés »). Le v.40 précise le grief : expulsion des foyers pour le seul motif d'avoir dit « notre Seigneur est Allah ». Et il élargit remarquablement : sans ce droit de défense, « moines, églises, synagogues et mosquées » seraient détruits — la défense protège tous les lieux de culte, pas seulement musulmans.",
       "niveau_couche": 3
     },
     {
@@ -9086,7 +9083,6 @@ const S022 = {
           "frequence_coran": 88
         }
       ],
-      "analyse_globale": "La parabole de la mouche : les fausses divinités « ne sauraient créer une mouche, même unies pour cela » — et pire, si la mouche leur dérobe quelque chose, elles ne peuvent le reprendre. L'humiliation est totale : ḍaʿufa ṭ-ṭālibu wal-maṭlūb, « faibles sont le solliciteur et le sollicité ». L'idole et son adorateur sont renvoyés dos à dos dans l'impuissance. Le verset choisit délibérément l'insecte le plus méprisable pour mesurer l'abîme entre le Créateur et tout ce qu'on Lui associe : mā qadarū Llāha ḥaqqa qadrih — « ils n'ont pas mesuré Allah à Sa juste mesure ».",
       "niveau_couche": 3
     },
     {

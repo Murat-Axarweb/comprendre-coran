@@ -99,7 +99,6 @@ const S105 = {
           "frequence_coran": 1
         }
       ],
-      "analyse_globale": "'A-lam tara' (n'as-tu pas vu ?) s'adresse au Prophète qui n'était pas né lors de l'événement : voir, ici, c'est constater par la mémoire collective encore vivante. Le Coran mobilise un fait historique vérifiable par les auditeurs comme preuve de la protection divine.",
       "niveau_couche": 1
     },
     {

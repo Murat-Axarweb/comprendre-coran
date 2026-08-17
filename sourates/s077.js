@@ -59,7 +59,6 @@ const S077 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Les cinq serments d'ouverture (envoyées, tempétueuses, déployantes, séparatrices, déposeuses de rappel) se lisent des vents ou des anges — les deux lectures coexistent depuis les premiers commentateurs. La grammaire les unit : dans les deux cas, des forces missionnées, invisibles dans leur cause, visibles dans leurs effets.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -584,7 +583,6 @@ const S077 = {
           "frequence_coran": 63
         }
       ],
-      "analyse_globale": "Le refrain « waylun yawmaʾidhin lil-mukadhdhibīn » revient dix fois : après l'histoire (v.16-18), l'embryologie (v.20-23), la géologie (v.25-27), l'eschatologie (v.29-33)... Chaque domaine de preuve reçoit le même verdict. La répétition n'est pas une faiblesse littéraire : c'est un marteau rythmique qui transforme l'argumentation en compte à rebours.",
       "niveau_couche": 3
     },
     {
@@ -2167,7 +2165,6 @@ const S077 = {
           "frequence_coran": 86
         }
       ],
-      "analyse_globale": "La question finale du juz' des serments : « en quel discours, après celui-ci, croiront-ils ? » Si ce texte-là — avec ses serments cosmiques, ses preuves, son rythme — ne suffit pas, rien ne suffira. La sourate se clôt sur la responsabilité du lecteur, non sur celle du texte.",
       "niveau_couche": 3
     }
   ],

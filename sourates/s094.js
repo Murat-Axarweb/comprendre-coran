@@ -81,7 +81,6 @@ const S094 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Sharḥ aṣ-ṣadr, l'ouverture de la poitrine : la métaphore coranique de la sérénité intérieure — un espace agrandi où l'épreuve ne suffoque plus. C'est le don que Moïse demande avant d'affronter Pharaon (20:25) et que le Prophète reçoit sans le demander.",
       "niveau_couche": 2
     },
     {
@@ -216,7 +215,6 @@ const S094 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-rafaʿnā laka dhikrak : 'Nous avons élevé ta renommée'. Promesse vertigineuse faite à un homme alors moqué par sa propre tribu — aujourd'hui son nom est joint à celui de Dieu dans chaque appel à la prière, à chaque instant, quelque part sur terre.",
       "niveau_couche": 2
     },
     {
@@ -362,7 +360,6 @@ const S094 = {
           "frequence_coran": 86
         }
       ],
-      "analyse_globale": "Fa-idhā faraghta fa-nṣab : le repos coranique n'est pas le vide mais l'alternance. Une tâche achevée ouvre sur l'effort suivant — et le v.8 précise la direction de tout effort : vers Lui.",
       "niveau_couche": 2
     },
     {

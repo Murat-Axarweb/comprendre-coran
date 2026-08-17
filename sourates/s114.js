@@ -120,7 +120,6 @@ const S114 = {
           "profondeur": "An-nās revient SIX fois dans cette sourate de six versets — une fois par verset. Refrain délibéré : cette sourate est pour et sur l'humanité entière. C'est aussi le dernier mot du Coran entier."
         }
       ],
-      "analyse_globale": "Même structure d'ouverture qu'Al-Falaq mais destinataire différent : non plus le Seigneur de l'aube mais le Seigneur DES HOMMES. On passe du cosmique à l'humain.",
       "niveau_couche": 1,
       "groupes": {
         "tr": {
@@ -177,7 +176,6 @@ const S114 = {
           "profondeur": "Deuxième occurrence. Les trois premiers versets ont la même structure : [Attribut divin] + an-nās. Une architecture en escalier vers Dieu."
         }
       ],
-      "analyse_globale": "Deux mots, un attribut divin complet. Malik ajoute la dimension du pouvoir souverain à celle du soin (Rabb). Un roi protège ses sujets différemment d'un père qui nourrit ses enfants.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -232,7 +230,6 @@ const S114 = {
           "profondeur": "Troisième occurrence. Les versets 1-2-3 forment un bloc symétrique parfait : trois mots chacun, même structure, trois attributs divins croissants."
         }
       ],
-      "analyse_globale": "La triple invocation (vv.1-3) est un chef-d'œuvre de concision théologique. Six mots, trois dimensions de la relation Allah-humanité. Les versets suivants basculent : de Qui protège à contre quoi.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -290,7 +287,6 @@ const S114 = {
           "profondeur": "N'apparaît qu'une seule fois dans tout le Coran. Forme intensive : celui qui recule CONSTAMMENT. Stratégie du tentateur : approcher → chuchoter → reculer dès qu'on mentionne Allah. Le dhikr (souvenir d'Allah) est son ennemi direct."
         }
       ],
-      "analyse_globale": "L'ennemi nommé ici n'est pas un objet ni un phénomène mais une entité intelligente avec une stratégie : approcher, chuchoter, reculer. L'ennemi le plus subtil est celui qu'on ne voit pas mais qu'on entend dedans.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -376,7 +372,6 @@ const S114 = {
           "profondeur": "Cinquième occurrence. Le fil se resserre : les hommes protégés par leur Seigneur/Roi/Dieu sont exposés au chuchoteur qui infiltre leurs poitrines. Protection divine vs infiltration du mal."
         }
       ],
-      "analyse_globale": "Le lieu du danger est révélé : la poitrine, siège du cœur et des décisions. Le mal ne vient pas de l'extérieur mais s'infiltre de l'intérieur. La protection contre un ennemi intérieur est aussi intérieure : le dhikr, le souvenir d'Allah.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -434,7 +429,6 @@ const S114 = {
           "profondeur": "Sixième et dernière occurrence de an-nās dans la sourate. Et dans tout le Coran — c'est le dernier verset de la dernière sourate. Le Coran s'ouvre sur Allah (Basmala) et se referme sur an-nās (les hommes). De Dieu à l'humanité — l'arc entier du Livre."
         }
       ],
-      "analyse_globale": "Clôture magistrale du Coran : le tentateur peut être djinn ou humain — peut-être ton voisin, ton collègue. Du cosmique à l'intime. Et avec ce dernier mot — an-nās — le Coran entier se referme sur l'humanité qu'il a accompagnée du premier au dernier verset.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {

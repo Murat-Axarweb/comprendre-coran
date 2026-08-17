@@ -832,7 +832,6 @@ const S066 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Qū anfusakum wa-ahlīkum nāran : « préservez vos personnes ET vos familles du Feu ». La responsabilité spirituelle est domestique avant d'être publique : le foyer est la première circonscription de chacun. Ali glosait : « instruisez-les et éduquez-les ». Le verset fonde toute la pédagogie familiale islamique — on ne se sauve pas seul.",
       "niveau_couche": 3
     },
     {
@@ -1261,7 +1260,6 @@ const S066 = {
           "frequence_coran": 45
         }
       ],
-      "analyse_globale": "Tawba naṣūḥ : le repentir loyal — même racine que le conseil sincère. Les maîtres le définissent par trois conditions (cesser, regretter, résoudre de ne pas y revenir) et une quatrième si un droit d'autrui est lésé : restituer. La suite du verset donne au repenti l'horizon le plus lumineux du chapitre : la prière du Jour — « parachève pour nous notre lumière ».",
       "niveau_couche": 3
     },
     {
@@ -1537,7 +1535,6 @@ const S066 = {
           "frequence_coran": 58
         }
       ],
-      "analyse_globale": "La galerie finale : quatre femmes, deux paires symétriques. Les épouses de Noé et Lot — mariées à des prophètes, perdues par leur propre trahison : aucun lien ne sauve sans la foi personnelle. Āsiya — mariée au pire tyran, sauvée par sa prière : aucun lien ne perd sans le choix personnel. Marie couronne l'ensemble : ṣaddaqat, « elle tint pour vrai » — le verbe de la fidélité intérieure. Le salut est rigoureusement individuel, et les modèles universels du croire sont ici deux croyantes.",
       "niveau_couche": 3
     },
     {

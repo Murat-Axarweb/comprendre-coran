@@ -1788,7 +1788,6 @@ const S043 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'argument de l'imitation (taqlīd) cité puis universalisé : « nous avons trouvé nos ancêtres sur une voie ». Le v.23 montre que TOUTES les cités ont opposé la même phrase à leur avertisseur — l'objection n'a rien de local, c'est le réflexe conservateur de l'aisance (mutrafūhā : les gens de luxe). Et la réponse du v.24 la désarme : « même si je vous apporte MIEUX ? » — la tradition n'est pas un argument, c'est un point de départ à évaluer.",
       "niveau_couche": 3
     },
     {
@@ -2750,7 +2749,6 @@ const S043 = {
           "auto": true
         }
       ],
-      "analyse_globale": "A-hum yaqsimūna raḥmata rabbik : « est-ce eux qui répartissent la miséricorde de ton Seigneur ? » La réponse à ceux qui auraient voulu un prophète riche et notable. Le verset concède la hiérarchie économique (degrés, services mutuels — la division du travail) mais la déclasse d'une phrase : la miséricorde « vaut mieux que ce qu'ils amassent ». Le marché distribue les biens ; il ne distribue pas l'élection.",
       "niveau_couche": 3
     },
     {
@@ -2891,7 +2889,6 @@ const S043 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Les toits d'argent : Dieu donnerait aux mécréants des palais entiers de métal précieux — tant la richesse pèse peu à Ses yeux — si le spectacle ne risquait pas d'unir l'humanité dans l'erreur (assimiler fortune et faveur divine). Le verset est la dévaluation la plus radicale du critère économique : ce que le monde entier convoite ne vaut pas, au ciel, une aile de moustique.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -5789,7 +5786,6 @@ const S043 = {
           "frequence_coran": 44
         }
       ],
-      "analyse_globale": "Al-akhillāʾu yawmaʾidhin baʿḍuhum li-baʿḍin ʿaduww : les amitiés complices deviennent inimitiés au Jour — chaque ami rappelant à l'autre le mal partagé. L'exception (illā l-muttaqīn) fonde la ṣuḥba spirituelle : choisir ses compagnons, c'est choisir ses alliés d'éternité. Suit immédiatement (v.68) la plus tendre des adresses : « Ô Mes serviteurs ! Nulle crainte pour vous aujourd'hui ».",
       "niveau_couche": 3
     },
     {

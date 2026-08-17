@@ -1745,7 +1745,6 @@ const S046 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Istiqāma en une ligne : dire « notre Seigneur est Allah » PUIS se tenir droit (thumma staqāmū). Le thumma (puis) porte tout le poids : la déclaration est un instant, la droiture est une durée. Le Prophète répondit à qui demandait une parole définitive : « Dis : je crois en Allah — puis tiens-toi droit » (Muslim), citant ce binôme.",
       "niveau_couche": 3
     },
     {
@@ -2132,7 +2131,6 @@ const S046 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La page de la mère : kurhan... kurhan — « avec peine... avec peine », grossesse et accouchement. Les trente mois (croisés avec 2:233 : deux ans d'allaitement) ont permis aux juristes de déduire le minimum de gestation viable : six mois. Puis la prière des quarante ans, l'âge du bilan : gratitude ascendante (parents), œuvre présente, descendance future — trois générations nouées dans une seule invocation.",
       "niveau_couche": 3
     },
     {
@@ -3361,7 +3359,6 @@ const S046 = {
           "auto": true
         }
       ],
-      "analyse_globale": "ʿĀriḍun mumṭirunā : « un nuage qui va nous donner la pluie ! » Le peuple assoiffé lit le châtiment comme une bénédiction — dernière et fatale erreur d'interprétation. Le verset est une leçon d'herméneutique existentielle : nos désirs dictent nos lectures, et l'objet le plus désiré peut porter la destruction.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -4040,7 +4037,6 @@ const S046 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Les djinns auditeurs : leur protocole d'écoute (anṣitū — silence total), leur réaction (retour immédiat en avertisseurs), leur argumentaire (v.30-32 : filiation avec Moïse, appel à répondre). Le Coran documente sa propre réception par un autre ordre de créatures — et leur écoute attentive fait honte, en creux, à l'inattention humaine.",
       "niveau_couche": 3
     },
     {

@@ -86,7 +86,6 @@ const S102 = {
           "frequence_coran": 142
         }
       ],
-      "analyse_globale": "Ḥattā zurtum al-maqābir : 'jusqu'à ce que vous VISITIEZ les cimetières' — le verbe zāra (visiter) est saisissant : même mort, l'homme n'est qu'en visite au cimetière, en transit vers autre chose. Certains commentateurs y lisent aussi l'ironie : la course dure littéralement jusqu'à la tombe.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -244,7 +243,6 @@ const S102 = {
           "frequence_coran": 8
         }
       ],
-      "analyse_globale": "ʿIlm al-yaqīn puis ʿayn al-yaqīn (v.7) : le Coran distingue les degrés de certitude — savoir par preuve (ʿilm), voir de ses yeux (ʿayn), puis la tradition ajoutera ḥaqq al-yaqīn, vivre la chose. La sourate fait monter le lecteur d'un degré à l'autre.",
       "niveau_couche": 2
     },
     {
@@ -391,7 +389,6 @@ const S102 = {
           "frequence_coran": 17
         }
       ],
-      "analyse_globale": "An-naʿīm : les délices sur lesquels on sera interrogé — l'eau fraîche, la sécurité, la santé, dit le hadith. Le dernier mot de la sourate retourne la course initiale : ce que vous accumuliez sans compter vous sera compté, bienfait par bienfait.",
       "niveau_couche": 2
     }
   ],

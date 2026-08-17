@@ -50,7 +50,6 @@ const S079 = {
         }
       },
       "mots": [],
-      "analyse_globale": "Cinq serments par les anges de la mort selon la lecture majoritaire : celles qui arrachent (l'âme du mécréant), qui recueillent doucement (celle du croyant), qui nagent, devancent, administrent. Cinq participes féminins pluriels sans sujet nommé : le mystère du texte mime l'invisibilité de ces agents.",
       "niveau_couche": 3
     },
     {
@@ -977,7 +976,6 @@ const S079 = {
           "frequence_coran": 46
         }
       ],
-      "analyse_globale": "'Anā rabbukumu l-aʿlā' — la phrase de Pharaon utilise le superlatif aʿlā (suprême). La sourate répondra avec le même registre : 'sabbiḥi sma rabbika l-aʿlā' ouvre la sourate suivante (87) — le vrai Suprême reprend Son titre usurpé.",
       "niveau_couche": 3
     },
     {
@@ -2101,7 +2099,6 @@ const S079 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le raccourcissement rétrospectif du temps : toute une vie ramenée à 'un soir ou son matin'. La perception de la durée s'inverse au Jugement — thème récurrent (23:112-114) qui relativise l'attachement au monde d'ici-bas.",
       "niveau_couche": 3
     }
   ],

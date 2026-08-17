@@ -242,7 +242,6 @@ const S073 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Rattil il-qurʾāna tartīlā : l'ordre fondateur de toute la science de la récitation. Tartīl désigne l'agencement soigné, perle après perle — réciter lentement pour que le sens ait le temps de descendre. La nuit fournit le silence, le tartīl fournit le rythme : les deux conditions de l'imprégnation.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -310,7 +309,6 @@ const S073 = {
           "auto": true
         }
       ],
-      "analyse_globale": "« Une parole lourde » (qawlan thaqīlan) : lourde à recevoir (le Prophète transpirait lors des révélations), lourde à porter (la responsabilité), lourde de sens (la densité). La veillée nocturne des v.1-4 est présentée comme la musculation nécessaire avant cette charge.",
       "niveau_couche": 3
     },
     {
@@ -1703,7 +1701,6 @@ const S073 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le verset final, médinois, est le plus long de la sourate et fonctionne comme son avenant : l'obligation nocturne devient recommandation souple (« ce qui vous est aisé »), au vu des réalités nouvelles — maladie, commerce, défense. La pédagogie divine ajuste la charge sans annuler l'esprit : la nuit reste l'école, l'assouplissement reste la règle.",
       "niveau_couche": 3
     }
   ],

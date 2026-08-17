@@ -267,7 +267,6 @@ const S070 = {
           "frequence_coran": 19
         }
       ],
-      "analyse_globale": "Cinquante mille ans pour un seul jour : le verset désarticule notre rapport au temps. La « belle patience » demandée au verset suivant se comprend à cette échelle — l'impatience humaine mesure en jours ce que Dieu mesure en ères. Comparer avec 22:47 (un jour = mille ans) : le temps divin est élastique, le nôtre ne l'est pas.",
       "niveau_couche": 3
     },
     {
@@ -952,7 +951,6 @@ const S070 = {
           "frequence_coran": 261
         }
       ],
-      "analyse_globale": "Halūʿ : mot unique dans le Coran, défini par le texte lui-même dans les deux versets suivants — paniqué devant le mal, avare devant le bien. C'est le portrait de l'instabilité émotionnelle fondamentale de l'homme livré à lui-même. La suite (v.22-34) n'est pas une liste de vertus abstraites mais le protocole de stabilisation de cette anxiété.",
       "niveau_couche": 3
     },
     {
@@ -1070,7 +1068,6 @@ const S070 = {
           "frequence_coran": 662
         }
       ],
-      "analyse_globale": "L'exception commence par la prière et finit par la prière (v.23 : constants dans leur prière ; v.34 : veillent sur leur prière) : l'ordonnance est encadrée par le rythme. Entre les deux : le partage codifié, la fidélité aux dépôts, la parole droite — la stabilité intérieure passe par des structures extérieures régulières.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

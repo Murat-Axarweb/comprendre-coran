@@ -160,7 +160,6 @@ const S019 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Idh nādā rabbahu nidāʾan khafiyyan : Zacharie « appela son Seigneur d'un appel secret ». Le nidāʾ khafī — l'invocation chuchotée, à voix basse — est érigé en modèle de la vraie prière. Loin de l'ostentation, l'imploration la plus sincère est la plus intime : Dieu entend le murmure comme le cri. Les commentateurs y voient l'adab (courtoisie) de la demande : Zacharie, vieillard sans enfant, ne clame pas sa détresse mais la confie dans le secret. Et c'est dans ce secret que naît le miracle de Jean. La discrétion est une marque de foi, pas de tiédeur.",
       "niveau_couche": 3
     },
     {
@@ -1893,7 +1892,6 @@ const S019 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Yā laytanī mittu qabla hādhā : « que ne suis-je morte avant cela ! » Le cri de Marie sous le palmier, seule, enfantant dans la douleur et la honte anticipée. Le Coran n'édulcore pas l'épreuve de la femme choisie : la détresse est réelle, humaine, poignante. Et la réponse divine est d'une tendresse concrète — un ruisseau sous ses pieds, des dattes fraîches à portée de main. Dieu ne répond pas à l'angoisse par un discours mais par des soins. Le miracle s'accompagne de sollicitude matérielle : l'eau, la nourriture, le réconfort.",
       "niveau_couche": 3
     },
     {
@@ -2461,7 +2459,6 @@ const S019 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Innī ʿabdu Llāh : « Je suis le serviteur d'Allah ». Les tout premiers mots de Jésus, nouveau-né parlant au berceau pour disculper sa mère. Avant « prophète », avant tout titre, il se déclare ʿabd — serviteur. Ce mot désamorce par avance toute divinisation : celui que certains feront « fils de Dieu » se définit lui-même comme serviteur de Dieu. La sourate qui raconte sa naissance virginale est aussi celle qui rejette le plus fermement l'idée d'un fils divin (v.88-92). Le miracle de la naissance ne fait pas de Jésus un dieu : il en fait un signe.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -7597,7 +7594,6 @@ const S019 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-qālū ttakhadha r-Raḥmānu waladan : « ils ont dit : le Tout-Miséricordieux s'est donné un enfant ». Le rejet le plus véhément du Coran : les cieux « manquent de se fendre », la terre de se déchirer, les montagnes de s'effondrer devant cette parole. La violence de l'image mesure la gravité théologique : attribuer un enfant à Dieu compromet Son unicité et Sa transcendance. Et l'argument final (v.93) est d'une logique implacable : TOUT être dans les cieux et la terre vient à Dieu « en serviteur » (ʿabd) — y compris Jésus, y compris les anges. La filiation divine est impossible car tout est créature, rien n'est engendré.",
       "niveau_couche": 3
     },
     {

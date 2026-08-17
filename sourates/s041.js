@@ -391,7 +391,6 @@ const S041 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'auto-diagnostic des récusants : cœurs sous akinna (enveloppes), oreilles lourdes, voile entre les deux camps. Trois barrières qu'ils revendiquent eux-mêmes — le refus se décrit comme imperméabilité choisie. Le v.44 y répondra en miroir : le même texte est guérison pour l'un, surdité pour l'autre. Le récepteur détermine la réception.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -3283,7 +3282,6 @@ const S041 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Qālū rabbunā Llāhu thumma staqāmū : dire « notre Seigneur est Allah » PUIS tenir droit — le thumma (puis) porte tout le poids : la profession dure une seconde, l'istiqāma dure une vie. La récompense est le message angélique aux deux interdits du cœur : lā takhāfū (peur du futur), lā taḥzanū (tristesse du passé).",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -3736,7 +3734,6 @@ const S041 = {
           "frequence_coran": 20
         }
       ],
-      "analyse_globale": "Le sommet éthique : idfaʿ bi-llatī hiya aḥsan. Non pas « rends le bien pour le mal » (déjà exigeant) mais « repousse par LE MEILLEUR » — le superlatif comme stratégie. Résultat annoncé : l'ennemi devient walī ḥamīm. Et le v.35 avoue le prix : seuls les endurants y parviennent — c'est « une part immense », pas un réflexe.",
       "niveau_couche": 3
     },
     {
@@ -6280,7 +6277,6 @@ const S041 = {
           "frequence_coran": 35
         }
       ],
-      "analyse_globale": "Sanurīhim āyātinā fī l-āfāqi wa-fī anfusihim : « Nos signes dans les horizons et en eux-mêmes ». Le programme de recherche le plus vaste jamais formulé : le cosmos ET l'intériorité comme double laboratoire de la vérité. Quatorze siècles d'astronomie et d'anatomie n'ont fait qu'exécuter le verset — ḥattā yatabayyana lahum : jusqu'à l'évidence.",
       "niveau_couche": 3
     },
     {

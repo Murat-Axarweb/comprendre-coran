@@ -885,7 +885,6 @@ const S036 = {
           "frequence_coran": 45
         }
       ],
-      "analyse_globale": "« Nous écrivons ce qu'ils ont avancé ET leurs traces (āthārahum) » : le registre divin comporte deux colonnes — les actes accomplis, et leurs effets qui continuent après la mort. Une science enseignée, une aumône durable, une habitude lancée : les traces travaillent pour (ou contre) leur auteur bien après lui. La responsabilité coranique a une postérité.",
       "niveau_couche": 3
     },
     {
@@ -1559,7 +1558,6 @@ const S036 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le héros anonyme : rajulun yasʿā — « un homme, courant », depuis le bout de la ville. Ni prophète, ni notable : un croyant ordinaire qui court défendre les envoyés, et argumente simplement (« ils ne demandent pas de salaire, et ils sont guidés » — désintéressement + cohérence : les deux tests de toute prédication). Tué par les siens, son premier mot au Paradis est POUR eux : « si seulement mon peuple savait ». Aucune rancune ne traverse la mort d'un cœur pareil.",
       "niveau_couche": 3
     },
     {
@@ -3007,7 +3005,6 @@ const S036 = {
           "frequence_coran": 100
         }
       ],
-      "analyse_globale": "Wa-sh-shamsu tajrī li-mustaqarrin lahā : le soleil « court vers son gîte », la lune décline ses phases, et le v.40 pose la loi : « chacun vogue dans une orbite » (kullun fī falakin yasbaḥūn). L'astronomie du texte est liturgique : les astres n'obéissent pas à des dieux — ils obéissent comme des serviteurs, chacun dans son couloir, sans collision ni retard.",
       "niveau_couche": 3
     },
     {
@@ -6106,7 +6103,6 @@ const S036 = {
           "frequence_coran": 47
         }
       ],
-      "analyse_globale": "Le duel final : un homme brandit un os friable — « qui fera revivre CELA ? » Le texte appelle son geste un oubli : nasiya khalqahu, « il a oublié sa propre création ». La réponse tient en une symétrie : Celui de la première fois fera la deuxième. Puis l'argument de l'arbre vert (v.80) : du végétal gorgé d'eau, Il tire le feu — les contraires cohabitent dans Sa création. Et le sceau (v.82) : kun fa-yakūn. Toute la sourate convergeait vers ce verbe.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

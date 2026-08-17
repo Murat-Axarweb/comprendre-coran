@@ -138,7 +138,6 @@ const S093 = {
           "frequence_coran": 646
         }
       ],
-      "analyse_globale": "Mā waddaʿaka rabbuka wa-mā qalā : 'Il ne t'a ni quitté ni détesté'. Le verbe qalā (détester) n'a même pas de complément — la phrase refuse d'écrire 'te détester'. La délicatesse divine va jusqu'à la grammaire.",
       "niveau_couche": 2
     },
     {
@@ -296,7 +295,6 @@ const S093 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Les versets 6-8 relisent la biographie du Prophète comme une série de sauvetages : orphelin accueilli (par Abd al-Muttalib puis Abu Talib), chercheur guidé (par la révélation), pauvre enrichi (par Khadija puis le contentement). L'argument : Celui qui t'a porté jusqu'ici ne va pas te lâcher maintenant.",
       "niveau_couche": 2
     },
     {
@@ -493,7 +491,6 @@ const S093 = {
           "frequence_coran": 116
         }
       ],
-      "analyse_globale": "La sourate se referme en miroir : accueilli → n'opprime pas l'orphelin ; guidé et enrichi → ne repousse pas celui qui demande ; comblé → parle du bienfait. La consolation reçue devient un programme de conduite envers autrui.",
       "niveau_couche": 2
     }
   ],

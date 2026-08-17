@@ -1574,7 +1574,6 @@ const S039 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Hal yastawī lladhīna yaʿlamūna wa-lladhīna lā yaʿlamūn : « ceux qui savent et ceux qui ne savent pas sont-ils égaux ? » La question qui a fondé la civilisation du savoir islamique — mais son contexte est précis : elle vient après le portrait du dévot nocturne. Le savoir dont il s'agit n'est pas l'érudition seule : c'est la connaissance qui met debout la nuit et fait espérer la miséricorde.",
       "niveau_couche": 3
     },
     {
@@ -3259,7 +3258,6 @@ const S039 = {
           "frequence_coran": 3226
         }
       ],
-      "analyse_globale": "La physiologie de l'écoute croyante : taqshaʿirru (les peaux frissonnent — le mot arabe de la chair de poule), PUIS l'attendrissement (talīnu) des peaux ET des cœurs vers le dhikr. Le meilleur discours produit une réaction en deux temps : saisissement puis apaisement — jamais l'hystérie, jamais l'indifférence. Le corps entier est récepteur du texte.",
       "niveau_couche": 3
     },
     {
@@ -5284,7 +5282,6 @@ const S039 = {
           "frequence_coran": 39
         }
       ],
-      "analyse_globale": "Le sommeil comme petite mort quotidienne : Allah « recueille les âmes » chaque nuit et ne rend que celles dont le terme n'est pas venu. Chaque réveil est une résurrection en miniature, une restitution décidée. Le verset transforme le plus banal des actes — dormir — en démonstration nocturne de la reprise finale.",
       "niveau_couche": 3
     },
     {
@@ -6708,7 +6705,6 @@ const S039 = {
           "frequence_coran": 118
         }
       ],
-      "analyse_globale": "LE verset de l'espérance : yā ʿibādiya — « Ô MES serviteurs » : Dieu revendique comme siens précisément ceux qui ont commis des excès (asrafū : dépassé toute mesure). L'interdit porte sur le désespoir (lā taqnaṭū), pas sur la lucidité. Et la promesse est sans plafond : jamīʿan — TOUS les péchés. La condition (v.54) : revenir. La porte reste ouverte tant que dure le souffle.",
       "niveau_couche": 3
     },
     {

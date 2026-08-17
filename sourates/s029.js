@@ -147,7 +147,6 @@ const S029 = {
           "frequence_coran": 812
         }
       ],
-      "analyse_globale": "A-yaḥsibu n-nāsu an yutrakū an yaqūlū āmannā wa-hum lā yuftanūn : la question qui fonde la théologie de l'épreuve. La foi déclarée (āmannā) n'est qu'un point de départ ; la fitna (test, au sens du feu qui purifie l'or) est ce qui distingue le véridique du menteur. Le verset désamorce toute illusion de foi confortable : croire, c'est accepter d'être éprouvé. Et le v.3 précise que ce fut la loi de « ceux d'avant » — nul n'y échappe.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -4877,7 +4876,6 @@ const S029 = {
           "frequence_coran": 81
         }
       ],
-      "analyse_globale": "Ka-mathali l-ʿankabūt : l'image maîtresse. Celui qui s'appuie sur autre qu'Allah est comme l'araignée bâtissant sa toile — awhanu l-buyūt, « la plus fragile des maisons ». L'ironie est double : la toile paraît une demeure, mais ne protège de rien, ne retient rien, se déchire au moindre souffle ; et elle est souvent un piège mortel pour l'araignée elle-même. Les faux appuis ont l'apparence de la solidité et la réalité du néant.",
       "niveau_couche": 3
     },
     {
@@ -5326,7 +5324,6 @@ const S029 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Inna ṣ-ṣalāta tanhā ʿani l-faḥshāʾi wal-munkar : la prière « préserve de la turpitude et du blâmable ». La ṣalāt n'est pas un rite isolé mais un rempart moral : accomplie vraiment, elle transforme le comportement. Et la clause finale surprend : wa-la-dhikru Llāhi akbar — « l'invocation d'Allah est plus grande encore ». Le souvenir de Dieu qui habite la prière dépasse la prière elle-même. Le rite vise à installer une présence.",
       "niveau_couche": 3
     },
     {
@@ -5528,7 +5525,6 @@ const S029 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-lā tujādilū ahla l-kitābi illā bi-llatī hiya aḥsan : la règle du dialogue interreligieux — disputer « de la meilleure manière ». Et la formule commune proposée est remarquable : « notre Dieu et votre Dieu ne font qu'un » (ilāhunā wa-ilāhukum wāḥid). Le Coran reconnaît le socle partagé avec juifs et chrétiens tout en maintenant sa spécificité. La courtoisie n'est pas concession : c'est la manière même de la vérité.",
       "niveau_couche": 3
     },
     {

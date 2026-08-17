@@ -405,7 +405,6 @@ const S085 = {
           "frequence_coran": 17
         }
       ],
-      "analyse_globale": "Wa-mā naqamū minhum illā an yuʾminū : 'ils ne leur reprochaient QUE de croire'. Le verset isole la persécution religieuse à l'état pur — aucun crime, aucune faute, la foi seule comme chef d'accusation. Le Coran en fait le paradigme de toutes les oppressions de conscience.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -846,7 +845,6 @@ const S085 = {
           "frequence_coran": 51
         }
       ],
-      "analyse_globale": "Al-Wadūd : le Très-Aimant — nom divin rare (2 occurrences), placé ici, au cœur d'une sourate de martyre. Aux torturés du fossé, la révélation ne promet pas d'abord la vengeance mais révèle un Dieu qui aime. Ghafūr + Wadūd : le pardon même pour les bourreaux repentis (v.10 : 'puis ne se repentent pas' — la porte reste ouverte).",
       "niveau_couche": 2,
       "groupes": {
         "tr": {

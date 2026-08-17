@@ -1282,7 +1282,6 @@ const S042 = {
           "frequence_coran": 41
         }
       ],
-      "analyse_globale": "Laysa ka-mithlihi shayʾ : « rien ne Lui ressemble » — la clé de voûte de la théologie négative musulmane, énoncée juste après la mention des couples humains et animaux. Le verset tient les deux bouts : Dieu parle de Lui en termes accessibles (Il entend, Il voit) tout en interdisant toute assimilation. Comprendre sans comparer : la ligne de crête du tawhid.",
       "niveau_couche": 3
     },
     {
@@ -1660,7 +1659,6 @@ const S042 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La sharīʿa avant les écoles juridiques : « ce qu'Il avait enjoint à Noé... Abraham, Moïse et Jésus » — un seul commandement commun : établir la religion, ne pas s'y diviser. Le noyau partagé de toutes les révélations est l'unité, et la division (v.14) vient toujours APRÈS la science, par baghy — rivalité jalouse, pas ignorance.",
       "niveau_couche": 3
     },
     {
@@ -4873,7 +4871,6 @@ const S042 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le portrait communautaire en quatre traits : réponse à Dieu, prière, shūrā, dépense. La consultation est enchâssée entre deux piliers cultuels — statut remarquable pour un principe de gouvernance. Amruhum : LEURS affaires, à eux ; shūrā baynahum : entre eux, horizontalement. Ni autocratie ni chaos : la décision collective comme acte de piété.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -5064,7 +5061,6 @@ const S042 = {
           "auto": true
         }
       ],
-      "analyse_globale": "L'échelle graduée de la riposte : équivalence stricte permise (v.40a), défense légitime sans reproche (v.41), condamnation de l'agression seule (v.42) — et au sommet, le double mouvement ʿafā wa-aṣlaḥa : pardonner ET réformer la relation. Le pardon coranique n'est pas passivité : c'est une initiative de reconstruction, salariée directement par Dieu (ajruhu ʿalā Llāh).",
       "niveau_couche": 3
     },
     {

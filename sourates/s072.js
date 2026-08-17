@@ -133,7 +133,6 @@ const S072 = {
           "auto": true
         }
       ],
-      "analyse_globale": "« Un Coran étonnant » (qurʾānan ʿajaban) : le premier commentaire du Coran par des non-humains est esthétique avant d'être doctrinal — l'étonnement précède la foi (v.2 : « nous y avons cru »). Le texte modélise ainsi l'itinéraire qu'il attend : écouter, s'étonner, adhérer.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -954,7 +953,6 @@ const S072 = {
           "frequence_coran": 63
         }
       ],
-      "analyse_globale": "Les djinns convertis parlent de leur diversité avec une honnêteté remarquable : « parmi nous des vertueux, parmi nous autrement ». Aucun triomphalisme de groupe. Ce verset fonde l'anthropologie coranique des communautés : aucune appartenance ne dispense du choix individuel.",
       "niveau_couche": 3
     },
     {
@@ -2182,7 +2180,6 @@ const S072 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le ghayb (invisible) appartient à Dieu seul, qui n'en dévoile que des fragments à Ses messagers — sous escorte angélique garantissant la transmission intègre. Le verset fixe la limite de la prophétie elle-même : le Prophète transmet un invisible reçu, il n'y a pas accès de plein droit. Réponse définitive à toute divinisation du messager.",
       "niveau_couche": 3
     },
     {

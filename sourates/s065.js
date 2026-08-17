@@ -292,7 +292,6 @@ const S065 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le divorce coranique est procéduralisé pour ralentir : au terme du délai, en le comptant, sans expulsion du domicile. Chaque contrainte crée du temps et de la cohabitation — car « tu ne sais pas : il se peut qu'Allah suscite du nouveau » (v.1). Le droit organise les conditions de la réconciliation possible, jusqu'au dernier moment.",
       "niveau_couche": 3
     },
     {
@@ -507,7 +506,6 @@ const S065 = {
           "frequence_coran": 275
         }
       ],
-      "analyse_globale": "La promesse centrale, répétée en variantes tout au long : issue (makhraj, v.2), subsistance inattendue (v.3), facilité (yusr, v.4), effacement et récompense (v.5). Cinq mentions de la taqwā dans une sourate de douze versets : le message est que la crainte de Dieu n'est pas un supplément spirituel au droit — elle est la condition de fonctionnement du droit.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1385,7 +1383,6 @@ const S065 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Li-yunfiq dhū saʿatin min saʿatih : chacun dépense « selon son aisance » — et le verset protège aussitôt le démuni : Allah n'impose que selon ce qu'Il a donné. La pension alimentaire est indexée sur les moyens réels, pas sur un standard : équité dynamique, close par la promesse sayajʿalu Llāhu baʿda ʿusrin yusrā — après la gêne, l'aisance.",
       "niveau_couche": 3
     },
     {

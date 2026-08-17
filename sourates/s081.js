@@ -65,7 +65,6 @@ const S081 = {
           "frequence_coran": 33
         }
       ],
-      "analyse_globale": "Kuwwirat : enrouler comme on enroule un turban — le soleil, source de toute vie terrestre, plié et éteint. Les douze conditionnelles (v.1-13) démontent une à une les évidences du monde : astres, montagnes, mers, biens précieux (les chamelles pleines), avant la seule phrase principale (v.14) : l'âme face à son bilan.",
       "niveau_couche": 2
     },
     {
@@ -1099,7 +1098,6 @@ const S081 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Fa-ayna tadhhabūn : 'où allez-vous donc ?' — après avoir écarté la folie (v.22) et l'inspiration démoniaque (v.25), il ne reste plus d'échappatoire intellectuelle. La question finale n'est plus 'que pensez-vous du texte ?' mais 'quelle direction prend votre vie ?'",
       "niveau_couche": 2
     },
     {

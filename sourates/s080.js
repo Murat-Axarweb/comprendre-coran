@@ -59,7 +59,6 @@ const S080 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Le texte parle du Prophète à la troisième personne (« il s'est renfrogné ») avant de passer au tutoiement (v.3) : la mise à distance grammaticale adoucit le blâme tout en le rendant public pour toujours. Ibn Umm Maktum devint plus tard muezzin de Médine — le Prophète l'accueillait par : « Bienvenue à celui pour qui mon Seigneur m'a réprimandé. »",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1457,7 +1456,6 @@ const S080 = {
           "auto": true
         }
       ],
-      "analyse_globale": "La fuite devant le frère, la mère, le père, l'épouse, les fils : l'ordre remonte les liens du plus lointain au plus intime. Le Jour du Jugement défait une à une les solidarités qui structuraient l'ici-bas — chacun devient un dossier individuel.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1626,7 +1624,6 @@ const S080 = {
           "frequence_coran": 63
         }
       ],
-      "analyse_globale": "Le diptyque final des visages (rayonnants / poussiéreux) reprend le diptyque initial (le notable / l'aveugle) : la sourate s'ouvre sur une hiérarchie sociale erronée et se ferme sur la seule hiérarchie vraie, celle des visages au Jour dernier.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {

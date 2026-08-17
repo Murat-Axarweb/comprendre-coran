@@ -118,7 +118,6 @@ const S112 = {
           "profondeur": "Aḥad est fondamentalement différent de wāḥid. Wāḥid = un parmi d'autres possibles (un livre, deux livres...). Aḥad = unique en son genre, sans équivalent possible, sans second imaginable. Ce mot ne peut s'appliquer qu'à Allah dans le Coran — c'est sa désignation exclusive."
         }
       ],
-      "analyse_globale": "Quatre mots seulement, mais une déclaration totale. La structure huwa + Allah + aḥad est une mise en emphase progressive : on isole, on nomme, on qualifie. Le verset répond à la question 'Qui est ton Dieu ?' avec une économie de mots absolue.",
       "niveau_couche": 1
     },
     {
@@ -161,7 +160,6 @@ const S112 = {
           "profondeur": "As-Ṣamad n'apparaît qu'UNE SEULE fois dans tout le Coran — ici. C'est l'un des mots les plus riches et les plus intraduisibles. Il désigne : celui vers qui tous se tournent dans le besoin, qui n'a lui-même aucun besoin, qui est plein et dense (sans creux, sans manque), qui ne dort pas, ne mange pas, ne dépend de rien. Toutes les traductions sont des approximations."
         }
       ],
-      "analyse_globale": "Le verset le plus court de la sourate mais peut-être le plus dense. Deux mots, deux noms — aucun verbe. En arabe, l'absence de verbe 'est' crée une vérité intemporelle : pas 'Allah EST As-Samad' (à un moment), mais 'Allah — As-Samad' (toujours, par nature).",
       "niveau_couche": 2
     },
     {
@@ -235,7 +233,6 @@ const S112 = {
           "profondeur": "Yūlad est la forme passive de yalid — même racine, miroir grammatical. Cette symétrie active/passive en deux mots est un chef-d'œuvre de concision : aucun père, aucun fils, aucune généalogie possible dans aucune direction."
         }
       ],
-      "analyse_globale": "Ce verset est une réponse directe aux conceptions polythéistes et trinitaires de l'époque. La symétrie parfaite active/passive (yalid / yūlad) est intentionnelle — elle ferme toutes les directions de la filiation. Un seul verset liquide des siècles de théologie comparative.",
       "niveau_couche": 2
     },
     {
@@ -323,7 +320,6 @@ const S112 = {
           "profondeur": "Magnifique clôture : la sourate s'ouvre sur aḥad (l'Unique) et se ferme sur aḥad (personne). Le même mot, utilisé d'abord pour qualifier Allah, revient pour nier tout équivalent. Une boucle stylistique parfaite."
         }
       ],
-      "analyse_globale": "La sourate se referme en boucle parfaite : aḥad au verset 1 (Allah est Unique) répond à aḥad au verset 4 (nul n'est Son égal). Même mot, deux usages, une seule idée : l'unicité absolue et sans comparaison d'Allah.",
       "niveau_couche": 3
     }
   ],

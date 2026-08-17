@@ -1705,7 +1705,6 @@ const S027 = {
           "frequence_coran": 812
         }
       ],
-      "analyse_globale": "La fourmi (namla) qui donne son nom à la sourate : elle avertit sa colonie sans céder à la panique, avec une précision juridique — « de peur que Salomon et ses armées ne vous écrasent SANS le vouloir » (wa-hum lā yashʿurūn). Elle innocente d'avance le prophète-roi. Et Salomon SOURIT : le plus puissant des rois s'attendrit devant le souci d'un insecte, et sa réaction immédiate est... la gratitude (v.19). La vraie grandeur écoute même la fourmi.",
       "niveau_couche": 3
     },
     {
@@ -2941,7 +2940,6 @@ const S027 = {
           "frequence_coran": 118
         }
       ],
-      "analyse_globale": "La lettre de Salomon, modèle de correspondance : elle s'ouvre par la basmala (« Au nom d'Allah... ») — le premier usage rapporté de la formule — puis va droit au but sans flatterie ni menace verbeuse : « ne soyez pas hautains, venez soumis ». Et la reine la qualifie de karīm (noble). La noblesse d'un message tient à sa concision, à son ancrage en Dieu, et à la clarté de sa demande.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -4106,7 +4104,6 @@ const S027 = {
           "frequence_coran": 27
         }
       ],
-      "analyse_globale": "Le sommet spirituel de la sourate : celui qui « détient une science du Livre » transporte le trône « avant que le regard ne revienne » — et Salomon, au lieu de s'enorgueillir, y lit un TEST : a-ashkuru am akfur, « serai-je reconnaissant ou ingrat ? » Le prodige n'est pas une occasion de vanité mais un examen. Et la maxime : la gratitude enrichit celui qui la porte (li-nafsih) ; Dieu, Lui, est ghaniyy karīm — Riche et Généreux, indifférent à notre reconnaissance sinon pour notre bien.",
       "niveau_couche": 3
     },
     {
@@ -8838,7 +8835,6 @@ const S027 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-tara l-jibāla taḥsabuhā jāmidatan wa-hiya tamurru marra s-saḥāb : « tu vois les montagnes que tu crois immobiles passer comme les nuages ». Verset saisissant : l'apparente solidité du monde est une illusion de perception ; tout est en mouvement vers son terme. Longtemps lu comme une image du Jour dernier, il évoque aussi à l'oreille moderne la rotation terrestre. La leçon coranique : ṣunʿa Llāhi lladhī atqana kulla shayʾ — l'œuvre d'un Dieu qui a tout « parfait », rien n'est laissé au hasard, même ce qui nous paraît figé.",
       "niveau_couche": 3
     },
     {

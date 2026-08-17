@@ -5648,7 +5648,6 @@ const S011 = {
           "frequence_coran": 3226
         }
       ],
-      "analyse_globale": "Sa-āwī ilā jabalin yaʿṣimunī mina l-māʾ : « je vais me réfugier sur une montagne qui me protégera de l'eau ». La réponse du fils de Noé — le sommet tragique du Coran. Face à l'appel déchirant de son père (« ô mon fils, monte avec nous ! »), il oppose le calcul humain : une montagne suffira. Noé rétorque : « nul protecteur aujourd'hui contre l'ordre d'Allah ». Puis une phrase d'une sobriété terrible : « les vagues s'interposèrent entre eux ». Le récit enseigne que ni le lien du sang ni la hauteur des refuges matériels ne sauvent : seule la miséricorde divine protège. Et le v.46 tranchera : la vraie famille est celle de la foi, non du sang.",
       "niveau_couche": 3
     },
     {
@@ -6077,7 +6076,6 @@ const S011 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Innahu laysa min ahlika : « il n'est pas de ta famille ». La réponse divine à la prière de Noé pour son fils noyé. Le verset redéfinit la parenté : innahu ʿamalun ghayru ṣāliḥ — « c'est une œuvre non vertueuse ». Le fils biologique qui rejette la foi n'est plus, au sens ultime, « de la famille » du prophète ; la filiation qui compte est celle des œuvres et de la foi. Leçon dure mais libératrice : nul n'est sauvé par sa généalogie, nul n'est perdu par elle. Et la délicatesse divine demeure : Dieu ne condamne pas Noé pour sa prière paternelle — Il l'exhorte seulement à ne pas demander ce dont il n'a pas connaissance.",
       "niveau_couche": 3
     },
     {
@@ -13817,7 +13815,6 @@ const S011 = {
           "frequence_coran": 41
         }
       ],
-      "analyse_globale": "Fa-staqim kamā umirta : « tiens-toi droit comme il t'a été commandé ». Le verset qui, selon la tradition, fit dire au Prophète : « Hūd et ses sœurs m'ont blanchi les cheveux ». Pourquoi ce poids ? L'istiqāma exigée n'est pas un acte mais un état permanent : la rectitude kamā umirta — exactement comme ordonné, sans excès de zèle ni relâchement, wa-lā taṭghaw, « et ne transgressez pas » (même l'excès de rigueur est une transgression). Tenir la ligne droite chaque jour, en public et en secret, dans la facilité et l'épreuve : voilà la charge la plus lourde. Toute la sourate — chaque prophète debout face à son peuple — en est l'illustration.",
       "niveau_couche": 3
     },
     {
@@ -14038,7 +14035,6 @@ const S011 = {
           "frequence_coran": 280
         }
       ],
-      "analyse_globale": "Inna l-ḥasanāti yudhhibna s-sayyiʾāt : « les bonnes actions effacent les mauvaises ». L'une des paroles les plus consolantes du Coran, révélée — selon la tradition — pour un homme venu confesser une faute au Prophète. Le bien n'est pas seulement récompensé : il répare. Chaque prière, chaque aumône, chaque bienfait dissout quelque chose du mal commis. La spiritualité coranique n'enferme pas dans la culpabilité : elle ouvre une voie active de rachat — plutôt que ressasser la faute, multiplier le bien. Le verset lie cette dynamique à la prière « aux deux extrémités du jour » : le rythme même de la journée du croyant est un effacement continu.",
       "niveau_couche": 3
     },
     {

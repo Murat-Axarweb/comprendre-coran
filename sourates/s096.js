@@ -87,7 +87,6 @@ const S096 = {
           "frequence_coran": 261
         }
       ],
-      "analyse_globale": "Iqraʾ bi-smi rabbika lladhī khalaq : le premier verset de l'islam. Pas 'crois', pas 'combats' — 'lis'. Et pas une lecture neutre : une lecture reliée ('au nom de ton Seigneur') et fondée sur l'origine ('qui a créé'). Tout savoir authentique remonte à la double source : le réel créé et son Créateur.",
       "niveau_couche": 2
     },
     {
@@ -350,7 +349,6 @@ const S096 = {
           "auto": true
         }
       ],
-      "analyse_globale": "An raʾāhu staghnā : la racine de toute tyrannie selon le Coran — se voir autosuffisant. Le mot vise l'illusion de ne dépendre de rien : ni de Dieu, ni des autres, ni du réel. Le v.8 répond en un vers : le retour est vers ton Seigneur — l'autosuffisance est une erreur de calcul.",
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -967,7 +965,6 @@ const S096 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Wa-sjud wa-qtarib : la sourate commencée par 'lis' s'achève par 'prosterne-toi et rapproche-toi'. Le savoir (v.1-5) sans la proximité (v.19) fabrique des Abu Jahl — savants en généalogie, tyrans en pratique. Lire, puis se prosterner : le programme complet.",
       "niveau_couche": 2
     }
   ],

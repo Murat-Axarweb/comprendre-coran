@@ -102,7 +102,6 @@ const S020 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Mā anzalnā ʿalayka l-qurʾāna li-tashqā : « Nous n'avons pas fait descendre sur toi le Coran pour que tu sois malheureux ». Verset d'ouverture qui donne le ton de toute la sourate : la révélation n'est pas un fardeau accablant. Le Prophète, épuisé de veilles et de peine devant l'incroyance, reçoit ce réconfort — le Coran est venu alléger, non écraser. Le mot shaqāʾ (l'infortune, la peine) est l'exact contraire de ce que la guidance apporte. La religion coranique se présente d'emblée comme miséricorde, non comme épreuve destinée à briser.",
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -989,7 +988,6 @@ const S020 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Innanī anā Llāhu lā ilāha illā ana fa-ʿbudnī wa-aqimi ṣ-ṣalāta li-dhikrī : au buisson ardent, la première parole après la révélation de l'unicité est l'ordre de prier « pour Te souvenir de Moi » (li-dhikrī). La prière est définie par sa finalité : le dhikr, le souvenir constant de Dieu. Elle n'est pas un rite formel mais l'instrument par lequel l'homme maintient présente à sa conscience la réalité divine. C'est la première prescription de l'islam de Moïse, et le cœur de toute vie spirituelle.",
       "niveau_couche": 3
     },
     {
@@ -2950,7 +2948,6 @@ const S020 = {
           "auto": true
         }
       ],
-      "analyse_globale": "Fa-qūlā lahu qawlan layyinan : « adressez-lui une parole douce ». L'ordre est adressé à Moïse et Aaron partant affronter Pharaon — le tyran qui se disait dieu, qui égorgeait les enfants. Et pourtant : parole DOUCE. Le layyin (souplesse, douceur) est prescrit face au pire des oppresseurs, « peut-être se rappellera-t-il ou craindra-t-il ». Leçon immense sur la méthode de la prédication : même face à l'injustice extrême, la porte du repentir reste ouverte, et la douceur est plus efficace que la violence pour l'entrebâiller. La fermeté du message n'exige pas la dureté du ton.",
       "niveau_couche": 3
     },
     {
@@ -10389,7 +10386,6 @@ const S020 = {
           "frequence_coran": 33
         }
       ],
-      "analyse_globale": "Wa-man aʿraḍa ʿan dhikrī fa-inna lahu maʿīshatan ḍankan : « quiconque se détourne de Mon rappel aura une vie étroite ». Le ḍank, c'est l'étroitesse, l'oppression, l'étouffement. Le verset énonce une loi psychologique et spirituelle : se couper de Dieu ne libère pas, cela rétrécit l'existence. La richesse matérielle n'y change rien — on peut avoir tout et vivre dans l'angoisse. À l'inverse, suivre la guidance délivre du shaqāʾ (v.123) évoqué en écho au v.2 : le fil de toute la sourate. La détresse n'est pas dans les circonstances mais dans l'oubli de Dieu.",
       "niveau_couche": 3
     },
     {

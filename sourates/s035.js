@@ -197,7 +197,6 @@ const S035 = {
           "frequence_coran": 45
         }
       ],
-      "analyse_globale": "Fāṭir : Celui qui « fend » l'origine (fiṭra : la nature première déchirée à l'être). Et d'emblée les anges « à deux, trois, quatre ailes » — puis la clause ouverte : yazīdu fī l-khalqi mā yashāʾ, « Il ajoute à la création ce qu'Il veut ». La création n'est pas un catalogue fermé : le possible dépasse toujours l'observé.",
       "niveau_couche": 3
     },
     {
@@ -2301,7 +2300,6 @@ const S035 = {
           "frequence_coran": 17
         }
       ],
-      "analyse_globale": "Antumu l-fuqarāʾu ilā Llāh : « c'est VOUS les pauvres ayant besoin d'Allah ». Le mot faqīr (pauvre) définit ici la condition ontologique de tout être : dépendance totale, à chaque instant, pour l'existence même. Et le miroir : wa-Llāhu l-ghaniyy — le Riche par essence, qui n'a besoin de rien. Toute la spiritualité découle de bien situer les deux termes.",
       "niveau_couche": 3
     },
     {
@@ -3493,7 +3491,6 @@ const S035 = {
           "frequence_coran": 51
         }
       ],
-      "analyse_globale": "Innamā yakhshā Llāha min ʿibādihi l-ʿulamāʾ : placé juste après la diversité des fruits, des montagnes, des peaux humaines — la vraie science observe la variété du réel et en tire, non l'orgueil, mais la khashya. Le verset inverse l'idée moderne : ce n'est pas l'ignorance qui rend religieux, c'est la connaissance approfondie qui rend humble. Les savants tremblent parce qu'ils voient plus.",
       "niveau_couche": 3
     },
     {
@@ -3950,7 +3947,6 @@ const S035 = {
           "frequence_coran": 5
         }
       ],
-      "analyse_globale": "Les trois héritiers du Livre : ẓālimun li-nafsih (celui qui se lèse), muqtaṣid (le modéré), sābiqun bil-khayrāt (celui qui devance). Remarquable : les TROIS sont dits « élus » (iṣṭafaynā) et tous entrent au Jardin (v.33). Même l'héritier négligent du Livre garde un lien qui le sauve — pourvu qu'il ne le rompe pas. Gradation d'excellence, pas de salut : la miséricorde englobe les trois rangs.",
       "niveau_couche": 3
     },
     {
