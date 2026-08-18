@@ -496,6 +496,14 @@ const S055 = {
           "frequence_coran": 241
         },
         {
+          "ar": "فَٰكِهَةٌ",
+          "translit": "fākihatun",
+          "fr": "fruit",
+          "racine": "ف-ك-ه",
+          "frequence_coran": 11,
+          "auto": true
+        },
+        {
           "ar": "وَالنَّخْلُ",
           "translit": "wan-nakhlu",
           "fr": "palmiers",
@@ -2679,6 +2687,14 @@ const S055 = {
           "frequence_coran": 123
         },
         {
+          "ar": "فَٰكِهَةٍ",
+          "translit": "fākihatin",
+          "fr": "fruit",
+          "racine": "ف-ك-ه",
+          "frequence_coran": 11,
+          "auto": true
+        },
+        {
           "ar": "زَوْجَانِ",
           "translit": "zawjāni",
           "fr": "épouse",
@@ -3419,6 +3435,14 @@ const S055 = {
       },
       "mots": [
         {
+          "ar": "فَٰكِهَةٌ",
+          "translit": "fākihatun",
+          "fr": "fruit",
+          "racine": "ف-ك-ه",
+          "frequence_coran": 11,
+          "auto": true
+        },
+        {
           "ar": "وَنَخْلٌ",
           "translit": "wanakhlun",
           "fr": "palmiers",
@@ -3500,7 +3524,24 @@ const S055 = {
           "texte": "Oralarda iyi huylu güzel kadınlar vardır"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "خَيْرَٰتٌ",
+          "translit": "khayrātun",
+          "fr": "bonnes actions",
+          "racine": "خ-ي-ر",
+          "frequence_coran": 10,
+          "auto": true
+        },
+        {
+          "ar": "حِسَانٌ",
+          "translit": "ḥisānun",
+          "fr": "beau",
+          "racine": "ح-س-ن",
+          "frequence_coran": 21,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3
     },
     {
@@ -3777,6 +3818,14 @@ const S055 = {
           "fr": "sur",
           "racine": "particule",
           "frequence_coran": 1430
+        },
+        {
+          "ar": "حِسَانٍ",
+          "translit": "ḥisānin",
+          "fr": "beau",
+          "racine": "ح-س-ن",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3

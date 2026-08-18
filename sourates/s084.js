@@ -441,6 +441,14 @@ const S084 = {
           "racine": "ح-س-ب",
           "frequence_coran": 109,
           "auto": true
+        },
+        {
+          "ar": "يَسِيرًا",
+          "translit": "yasīran",
+          "fr": "aisé",
+          "racine": "ي-س-ر",
+          "frequence_coran": 15,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -471,6 +479,14 @@ const S084 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَيَنقَلِبُ",
+          "translit": "wayanqalibu",
+          "fr": "se retourner",
+          "racine": "ق-ل-ب",
+          "frequence_coran": 17,
+          "auto": true
+        },
         {
           "ar": "إِلَىٰ",
           "translit": "ilā",
@@ -633,6 +649,14 @@ const S084 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَيَصْلَىٰ",
+          "translit": "wayaṣlā",
+          "fr": "subir (le feu)",
+          "racine": "ص-ل-ي",
+          "frequence_coran": 12,
+          "auto": true
+        },
         {
           "ar": "سَعِيرًا",
           "translit": "saʿīran",

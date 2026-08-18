@@ -123,6 +123,14 @@ const S101 = {
           "frequence_coran": 646
         },
         {
+          "ar": "أَدْرَىٰكَ",
+          "translit": "adrāka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -414,6 +422,14 @@ const S101 = {
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "أَدْرَىٰكَ",
+          "translit": "adrāka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
         },
         {
           "ar": "مَا",

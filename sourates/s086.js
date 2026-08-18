@@ -87,6 +87,14 @@ const S086 = {
           "frequence_coran": 646
         },
         {
+          "ar": "أَدْرَىٰكَ",
+          "translit": "adrāka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -178,6 +186,14 @@ const S086 = {
           "fr": "sur elle",
           "racine": "عَلَى + هَا",
           "frequence_coran": 51
+        },
+        {
+          "ar": "حَافِظٌ",
+          "translit": "ḥāfiẓun",
+          "fr": "gardien",
+          "racine": "ح-ف-ظ",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -377,6 +393,14 @@ const S086 = {
           "racine": "ر-ج-ع",
           "frequence_coran": 79,
           "auto": true
+        },
+        {
+          "ar": "لَقَادِرٌ",
+          "translit": "laqādirun",
+          "fr": "capable",
+          "racine": "ق-د-ر",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -413,6 +437,14 @@ const S086 = {
           "fr": "jour",
           "racine": "ي-و-م",
           "frequence_coran": 405
+        },
+        {
+          "ar": "تُبْلَى",
+          "translit": "tublā",
+          "fr": "éprouver",
+          "racine": "ب-ل-و",
+          "frequence_coran": 20,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -477,6 +509,14 @@ const S086 = {
           "fr": "et ne... pas",
           "racine": "و + لَا",
           "frequence_coran": 658
+        },
+        {
+          "ar": "نَاصِرٍ",
+          "translit": "nāṣirin",
+          "fr": "secoureur",
+          "racine": "ن-ص-ر",
+          "frequence_coran": 11,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -608,6 +648,14 @@ const S086 = {
           "fr": "parole",
           "racine": "ق-و-ل",
           "frequence_coran": 92
+        },
+        {
+          "ar": "فَصْلٌ",
+          "translit": "faṣlun",
+          "fr": "exposer en détail",
+          "racine": "ف-ص-ل",
+          "frequence_coran": 17,
+          "auto": true
         }
       ],
       "niveau_couche": 2

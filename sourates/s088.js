@@ -108,6 +108,14 @@ const S088 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "خَٰشِعَةٌ",
+          "translit": "khāshiʿatun",
+          "fr": "humble",
+          "racine": "خ-ش-ع",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -152,6 +160,14 @@ const S088 = {
         }
       },
       "mots": [
+        {
+          "ar": "تَصْلَىٰ",
+          "translit": "taṣlā",
+          "fr": "subir (le feu)",
+          "racine": "ص-ل-ي",
+          "frequence_coran": 12,
+          "auto": true
+        },
         {
           "ar": "نَارًا",
           "translit": "nāran",
@@ -1021,6 +1037,14 @@ const S088 = {
           "fr": "châtiment",
           "racine": "ع-ذ-ب",
           "frequence_coran": 373
+        },
+        {
+          "ar": "الْأَكْبَرَ",
+          "translit": "l-ʾakbara",
+          "fr": "plus grand",
+          "racine": "ك-ب-ر",
+          "frequence_coran": 24,
+          "auto": true
         }
       ],
       "niveau_couche": 2,

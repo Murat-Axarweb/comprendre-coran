@@ -167,6 +167,14 @@ const S067 = {
           "auto": true
         },
         {
+          "ar": "لِيَبْلُوَكُمْ",
+          "translit": "liyabluwakum",
+          "fr": "éprouver",
+          "racine": "ب-ل-و",
+          "frequence_coran": 20,
+          "auto": true
+        },
+        {
           "ar": "أَيُّكُمْ",
           "translit": "ayyukum",
           "fr": "quel",
@@ -392,6 +400,14 @@ const S067 = {
           "frequence_coran": 38
         },
         {
+          "ar": "يَنقَلِبْ",
+          "translit": "yanqalib",
+          "fr": "se retourner",
+          "racine": "ق-ل-ب",
+          "frequence_coran": 17,
+          "auto": true
+        },
+        {
           "ar": "إِلَيْكَ",
           "translit": "ilayka",
           "fr": "vers toi",
@@ -442,6 +458,14 @@ const S067 = {
           "frequence_coran": 124
         },
         {
+          "ar": "زَيَّنَّا",
+          "translit": "zayyannā",
+          "fr": "embellir",
+          "racine": "ز-ي-ن",
+          "frequence_coran": 26,
+          "auto": true
+        },
+        {
           "ar": "السَّمَاءَ",
           "translit": "s-samāʾa",
           "fr": "du ciel",
@@ -469,6 +493,14 @@ const S067 = {
           "fr": "Satan",
           "racine": "ش-ط-ن",
           "frequence_coran": 88,
+          "auto": true
+        },
+        {
+          "ar": "وَأَعْتَدْنَا",
+          "translit": "waʾaʿtadnā",
+          "fr": "préparer",
+          "racine": "ع-ت-د",
+          "frequence_coran": 14,
           "auto": true
         },
         {
@@ -652,6 +684,14 @@ const S067 = {
         }
       },
       "mots": [
+        {
+          "ar": "تَكَادُ",
+          "translit": "takādu",
+          "fr": "être sur le point de",
+          "racine": "ك-و-د",
+          "frequence_coran": 24,
+          "auto": true
+        },
         {
           "ar": "مِنَ",
           "translit": "mina",
@@ -1127,6 +1167,14 @@ const S067 = {
       },
       "mots": [
         {
+          "ar": "وَأَسِرُّواْ",
+          "translit": "waʾasirrū",
+          "fr": "tenir secret",
+          "racine": "س-ر-ر",
+          "frequence_coran": 18,
+          "auto": true
+        },
+        {
           "ar": "قَوْلَكُمْ",
           "translit": "qawlakum",
           "fr": "parole",
@@ -1313,6 +1361,14 @@ const S067 = {
           "fr": "la terre",
           "racine": "أ-ر-ض",
           "frequence_coran": 219
+        },
+        {
+          "ar": "فَامْشُواْ",
+          "translit": "famshū",
+          "fr": "marcher",
+          "racine": "م-ش-ي",
+          "frequence_coran": 21,
+          "auto": true
         },
         {
           "ar": "فِي",
@@ -1991,6 +2047,14 @@ const S067 = {
           "auto": true
         },
         {
+          "ar": "يَمْشِي",
+          "translit": "yamshī",
+          "fr": "marcher",
+          "racine": "م-ش-ي",
+          "frequence_coran": 21,
+          "auto": true
+        },
+        {
           "ar": "عَلَىٰ",
           "translit": "ʿalā",
           "fr": "sur",
@@ -2011,6 +2075,22 @@ const S067 = {
           "fr": "il a cru",
           "racine": "أ-م-ن",
           "frequence_coran": 537
+        },
+        {
+          "ar": "يَمْشِي",
+          "translit": "yamshī",
+          "fr": "marcher",
+          "racine": "م-ش-ي",
+          "frequence_coran": 21,
+          "auto": true
+        },
+        {
+          "ar": "سَوِيًّا",
+          "translit": "sawiyyan",
+          "fr": "façonner harmonieusement",
+          "racine": "س-و-ي",
+          "frequence_coran": 13,
+          "auto": true
         },
         {
           "ar": "عَلَىٰ",
@@ -2078,6 +2158,14 @@ const S067 = {
           "frequence_coran": 1464
         },
         {
+          "ar": "أَنشَأَكُمْ",
+          "translit": "anshaʾakum",
+          "fr": "faire naître",
+          "racine": "ن-ش-ا",
+          "frequence_coran": 20,
+          "auto": true
+        },
+        {
           "ar": "وَجَعَلَ",
           "translit": "wajaʿala",
           "fr": "il a fait",
@@ -2104,6 +2192,14 @@ const S067 = {
           "fr": "vue",
           "racine": "ب-ص-ر",
           "frequence_coran": 38,
+          "auto": true
+        },
+        {
+          "ar": "وَالْأَفْـءِدَةَ",
+          "translit": "wal-ʾafʾidata",
+          "fr": "cœur",
+          "racine": "ف-ا-د",
+          "frequence_coran": 15,
           "auto": true
         },
         {

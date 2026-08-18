@@ -310,6 +310,14 @@ const S049 = {
           "frequence_coran": 609
         },
         {
+          "ar": "تَحْبَطَ",
+          "translit": "taḥbaṭa",
+          "fr": "être vain",
+          "racine": "ح-ب-ط",
+          "frequence_coran": 12,
+          "auto": true
+        },
+        {
           "ar": "أَعْمَٰلُكُمْ",
           "translit": "aʿmālukum",
           "fr": "il a fait",
@@ -330,6 +338,14 @@ const S049 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "تَشْعُرُونَ",
+          "translit": "tashʿurūna",
+          "fr": "percevoir",
+          "racine": "ش-ع-ر",
+          "frequence_coran": 25,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -717,6 +733,14 @@ const S049 = {
           "frequence_coran": 29
         },
         {
+          "ar": "فَتَبَيَّنُواْ",
+          "translit": "fatabayyanū",
+          "fr": "devenir clair",
+          "racine": "ب-ي-ن",
+          "frequence_coran": 17,
+          "auto": true
+        },
+        {
           "ar": "أَن",
           "translit": "an",
           "fr": "certes",
@@ -843,6 +867,14 @@ const S049 = {
           "frequence_coran": 4381
         },
         {
+          "ar": "كَثِيرٍ",
+          "translit": "kathīrin",
+          "fr": "nombreux",
+          "racine": "ك-ث-ر",
+          "frequence_coran": 17,
+          "auto": true
+        },
+        {
           "ar": "مِّنَ",
           "translit": "mina",
           "fr": "de",
@@ -892,6 +924,14 @@ const S049 = {
           "fr": "foi",
           "racine": "ا-م-ن",
           "frequence_coran": 45,
+          "auto": true
+        },
+        {
+          "ar": "وَزَيَّنَهُ",
+          "translit": "wazayyanahū",
+          "fr": "embellir",
+          "racine": "ز-ي-ن",
+          "frequence_coran": 26,
           "auto": true
         },
         {
@@ -1112,6 +1152,14 @@ const S049 = {
           "fr": "transgresser",
           "racine": "ب-غ-ي",
           "frequence_coran": 30,
+          "auto": true
+        },
+        {
+          "ar": "إِحْدَىٰهُمَا",
+          "translit": "iḥdāhumā",
+          "fr": "l'une (fém.)",
+          "racine": "ا-ح-د",
+          "frequence_coran": 11,
           "auto": true
         },
         {
@@ -1726,6 +1774,14 @@ const S049 = {
           "auto": true
         },
         {
+          "ar": "أَيُحِبُّ",
+          "translit": "ayuḥibbu",
+          "fr": "aimer",
+          "racine": "ح-ب-ب",
+          "frequence_coran": 24,
+          "auto": true
+        },
+        {
           "ar": "أَحَدُكُمْ",
           "translit": "aḥadukum",
           "fr": "un",
@@ -1890,6 +1946,14 @@ const S049 = {
           "frequence_coran": 256
         },
         {
+          "ar": "وَأُنثَىٰ",
+          "translit": "waʾunthā",
+          "fr": "femelle",
+          "racine": "ا-ن-ث",
+          "frequence_coran": 24,
+          "auto": true
+        },
+        {
           "ar": "وَجَعَلْنَٰكُمْ",
           "translit": "wajaʿalnākum",
           "fr": "il a fait",
@@ -2034,6 +2098,14 @@ const S049 = {
           "fr": "il a dit",
           "racine": "ق-و-ل",
           "frequence_coran": 1722,
+          "auto": true
+        },
+        {
+          "ar": "أَسْلَمْنَا",
+          "translit": "aslamnā",
+          "fr": "se soumettre",
+          "racine": "س-ل-م",
+          "frequence_coran": 22,
           "auto": true
         },
         {
@@ -2485,6 +2557,14 @@ const S049 = {
           "frequence_coran": 609
         },
         {
+          "ar": "أَسْلَمُواْ",
+          "translit": "aslamū",
+          "fr": "se soumettre",
+          "racine": "س-ل-م",
+          "frequence_coran": 22,
+          "auto": true
+        },
+        {
           "ar": "قُل",
           "translit": "qul",
           "fr": "dis !",
@@ -2512,6 +2592,14 @@ const S049 = {
           "fr": "Très-Haut",
           "racine": "ع-ل-و",
           "frequence_coran": 11
+        },
+        {
+          "ar": "إِسْلَٰمَكُم",
+          "translit": "islāmakum",
+          "fr": "se soumettre",
+          "racine": "س-ل-م",
+          "frequence_coran": 22,
+          "auto": true
         },
         {
           "ar": "بَلِ",

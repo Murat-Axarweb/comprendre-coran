@@ -290,6 +290,14 @@ const S079 = {
           "racine": "ب-ص-ر",
           "frequence_coran": 38,
           "auto": true
+        },
+        {
+          "ar": "خَٰشِعَةٌ",
+          "translit": "khāshiʿatun",
+          "fr": "humble",
+          "racine": "خ-ش-ع",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1187,6 +1195,14 @@ const S079 = {
           "fr": "élever",
           "racine": "ر-ف-ع",
           "frequence_coran": 29
+        },
+        {
+          "ar": "فَسَوَّىٰهَا",
+          "translit": "fasawwāhā",
+          "fr": "façonner harmonieusement",
+          "racine": "س-و-ي",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1699,6 +1715,14 @@ const S079 = {
           "fr": "elle",
           "racine": "pronom personnel",
           "frequence_coran": 47
+        },
+        {
+          "ar": "الْمَأْوَىٰ",
+          "translit": "l-maʾwā",
+          "fr": "refuge",
+          "racine": "ا-و-ي",
+          "frequence_coran": 22,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1842,6 +1866,14 @@ const S079 = {
           "fr": "elle",
           "racine": "pronom personnel",
           "frequence_coran": 47
+        },
+        {
+          "ar": "الْمَأْوَىٰ",
+          "translit": "l-maʾwā",
+          "fr": "refuge",
+          "racine": "ا-و-ي",
+          "frequence_coran": 22,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1929,6 +1961,14 @@ const S079 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "ذِكْرَىٰهَا",
+          "translit": "dhikrāhā",
+          "fr": "rappel",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 23,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2001,6 +2041,14 @@ const S079 = {
           "fr": "toi",
           "racine": "pronom personnel",
           "frequence_coran": 55
+        },
+        {
+          "ar": "مُنذِرُ",
+          "translit": "mundhiru",
+          "fr": "avertisseur",
+          "racine": "ن-ذ-ر",
+          "frequence_coran": 15,
+          "auto": true
         },
         {
           "ar": "مَن",

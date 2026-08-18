@@ -871,6 +871,14 @@ const S081 = {
           "fr": "puis",
           "racine": "particule de succession",
           "frequence_coran": 337
+        },
+        {
+          "ar": "أَمِينٍ",
+          "translit": "amīnin",
+          "fr": "digne de confiance",
+          "racine": "ا-م-ن",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 2,

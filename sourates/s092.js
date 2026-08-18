@@ -64,6 +64,14 @@ const S092 = {
           "fr": "quand",
           "racine": "particule temporelle",
           "frequence_coran": 195
+        },
+        {
+          "ar": "يَغْشَىٰ",
+          "translit": "yaghshā",
+          "fr": "couvrir",
+          "racine": "غ-ش-و",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -143,6 +151,14 @@ const S092 = {
           "fr": "souvenir",
           "racine": "ذ-ك-ر",
           "frequence_coran": 256
+        },
+        {
+          "ar": "وَالْأُنثَىٰ",
+          "translit": "wal-ʾunthā",
+          "fr": "femelle",
+          "racine": "ا-ن-ث",
+          "frequence_coran": 24,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -260,6 +276,14 @@ const S092 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَصَدَّقَ",
+          "translit": "waṣaddaqa",
+          "fr": "dire vrai",
+          "racine": "ص-د-ق",
+          "frequence_coran": 15,
+          "auto": true
+        },
         {
           "ar": "بِالْحُسْنَىٰ",
           "translit": "bil-ḥusnā",
@@ -664,6 +688,14 @@ const S092 = {
           "frequence_coran": 812
         },
         {
+          "ar": "يَصْلَىٰهَا",
+          "translit": "yaṣlāhā",
+          "fr": "subir (le feu)",
+          "racine": "ص-ل-ي",
+          "frequence_coran": 12,
+          "auto": true
+        },
+        {
           "ar": "إِلَّا",
           "translit": "illā",
           "fr": "sauf",
@@ -917,6 +949,14 @@ const S092 = {
           "fr": "sauf",
           "racine": "particule d’exception",
           "frequence_coran": 662
+        },
+        {
+          "ar": "ابْتِغَاءَ",
+          "translit": "btighāʾa",
+          "fr": "recherche",
+          "racine": "ب-غ-ي",
+          "frequence_coran": 14,
+          "auto": true
         },
         {
           "ar": "وَجْهِ",

@@ -402,6 +402,14 @@ const S074 = {
           "fr": "autre que",
           "racine": "غ-ي-ر",
           "frequence_coran": 147
+        },
+        {
+          "ar": "يَسِيرٍ",
+          "translit": "yasīrin",
+          "fr": "aisé",
+          "racine": "ي-س-ر",
+          "frequence_coran": 15,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -535,7 +543,16 @@ const S074 = {
           "texte": "Tek olarak yaratıp kendisine bol bol mal, çevresinde bulunan oğullar verdiğim ve nimetleri yaydıkça yaydığım o kimseyi Bana bırak"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "شُهُودًا",
+          "translit": "shuhūdan",
+          "fr": "témoin",
+          "racine": "ش-ه-د",
+          "frequence_coran": 21,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -722,6 +739,14 @@ const S074 = {
           "fr": "certes il",
           "racine": "إِنَّ + هُ",
           "frequence_coran": 147
+        },
+        {
+          "ar": "وَقَدَّرَ",
+          "translit": "waqaddara",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -758,6 +783,14 @@ const S074 = {
           "fr": "comment ?",
           "racine": "particule interrogative",
           "frequence_coran": 62
+        },
+        {
+          "ar": "قَدَّرَ",
+          "translit": "qaddara",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -801,6 +834,14 @@ const S074 = {
           "fr": "comment ?",
           "racine": "particule interrogative",
           "frequence_coran": 62
+        },
+        {
+          "ar": "قَدَّرَ",
+          "translit": "qaddara",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1095,6 +1136,14 @@ const S074 = {
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "أَدْرَىٰكَ",
+          "translit": "adrāka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
         },
         {
           "ar": "مَا",
@@ -1630,6 +1679,14 @@ const S074 = {
           "frequence_coran": 662
         },
         {
+          "ar": "ذِكْرَىٰ",
+          "translit": "dhikrā",
+          "fr": "rappel",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 23,
+          "auto": true
+        },
+        {
           "ar": "لِلْبَشَرِ",
           "translit": "lilbashari",
           "fr": "annoncer (une bonne nouvelle)",
@@ -1801,6 +1858,14 @@ const S074 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609,
+          "auto": true
+        },
+        {
+          "ar": "لَإِحْدَى",
+          "translit": "laʾiḥdā",
+          "fr": "l'une (fém.)",
+          "racine": "ا-ح-د",
+          "frequence_coran": 11,
           "auto": true
         }
       ],
@@ -2138,6 +2203,14 @@ const S074 = {
           "frequence_coran": 1010
         },
         {
+          "ar": "سَلَكَكُمْ",
+          "translit": "salakakum",
+          "fr": "emprunter (un chemin)",
+          "racine": "س-ل-ك",
+          "frequence_coran": 12,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
@@ -2428,6 +2501,14 @@ const S074 = {
           "racine": "ن-ف-ع",
           "frequence_coran": 8,
           "auto": true
+        },
+        {
+          "ar": "شَفَٰعَةُ",
+          "translit": "shafāʿatu",
+          "fr": "intercession",
+          "racine": "ش-ف-ع",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2478,6 +2559,14 @@ const S074 = {
           "fr": "rappel",
           "racine": "ذ-ك-ر",
           "frequence_coran": 7
+        },
+        {
+          "ar": "مُعْرِضِينَ",
+          "translit": "muʿriḍīna",
+          "fr": "ceux qui se détournent",
+          "racine": "ع-ر-ض",
+          "frequence_coran": 19,
+          "auto": true
         }
       ],
       "niveau_couche": 3

@@ -185,6 +185,14 @@ const S060 = {
           "frequence_coran": 41
         },
         {
+          "ar": "وَإِيَّاكُمْ",
+          "translit": "waʾiyyākum",
+          "fr": "(pronom d'insistance)",
+          "racine": "—",
+          "frequence_coran": 22,
+          "auto": true
+        },
+        {
           "ar": "أَن",
           "translit": "an",
           "fr": "certes",
@@ -251,6 +259,22 @@ const S060 = {
           "auto": true
         },
         {
+          "ar": "وَابْتِغَاءَ",
+          "translit": "wabtighāʾa",
+          "fr": "recherche",
+          "racine": "ب-غ-ي",
+          "frequence_coran": 14,
+          "auto": true
+        },
+        {
+          "ar": "تُسِرُّونَ",
+          "translit": "tusirrūna",
+          "fr": "tenir secret",
+          "racine": "س-ر-ر",
+          "frequence_coran": 18,
+          "auto": true
+        },
+        {
           "ar": "إِلَيْهِم",
           "translit": "ilayhim",
           "fr": "vers eux",
@@ -286,11 +310,27 @@ const S060 = {
           "frequence_coran": 296
         },
         {
+          "ar": "أَخْفَيْتُمْ",
+          "translit": "akhfaytum",
+          "fr": "être caché",
+          "racine": "خ-ف-ي",
+          "frequence_coran": 18,
+          "auto": true
+        },
+        {
           "ar": "وَمَا",
           "translit": "wamā",
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "أَعْلَنتُمْ",
+          "translit": "aʿlantum",
+          "fr": "annoncer publiquement",
+          "racine": "ع-ل-ن",
+          "frequence_coran": 12,
+          "auto": true
         },
         {
           "ar": "وَمَن",
@@ -531,6 +571,14 @@ const S060 = {
           "auto": true
         },
         {
+          "ar": "يَفْصِلُ",
+          "translit": "yafṣilu",
+          "fr": "exposer en détail",
+          "racine": "ف-ص-ل",
+          "frequence_coran": 17,
+          "auto": true
+        },
+        {
           "ar": "بَيْنَكُمْ",
           "translit": "baynakum",
           "fr": "entre",
@@ -674,6 +722,14 @@ const S060 = {
           "fr": "certes Nous",
           "racine": "إِنَّ + نَا",
           "frequence_coran": 156
+        },
+        {
+          "ar": "بُرَءَـٰؤُاْ",
+          "translit": "buraʾāʾu",
+          "fr": "innocent",
+          "racine": "ب-ر-ا",
+          "frequence_coran": 12,
+          "auto": true
         },
         {
           "ar": "مِنكُمْ",
@@ -1117,6 +1173,14 @@ const S060 = {
           "fr": "il était",
           "racine": "ك-و-ن",
           "frequence_coran": 1360
+        },
+        {
+          "ar": "يَرْجُواْ",
+          "translit": "yarjū",
+          "fr": "espérer",
+          "racine": "ر-ج-و",
+          "frequence_coran": 22,
+          "auto": true
         },
         {
           "ar": "اللَّهَ",
@@ -1687,6 +1751,14 @@ const S060 = {
           "frequence_coran": 195
         },
         {
+          "ar": "الْمُؤْمِنَٰتُ",
+          "translit": "l-muʾminātu",
+          "fr": "croyantes",
+          "racine": "ا-م-ن",
+          "frequence_coran": 22,
+          "auto": true
+        },
+        {
           "ar": "اللَّهُ",
           "translit": "llāhu",
           "fr": "Allah",
@@ -1724,6 +1796,14 @@ const S060 = {
           "auto": true
         },
         {
+          "ar": "مُؤْمِنَٰتٍ",
+          "translit": "muʾminātin",
+          "fr": "croyantes",
+          "racine": "ا-م-ن",
+          "frequence_coran": 22,
+          "auto": true
+        },
+        {
           "ar": "فَلَا",
           "translit": "falā",
           "fr": "alors ne... pas",
@@ -1744,6 +1824,14 @@ const S060 = {
           "fr": "vers",
           "racine": "particule",
           "frequence_coran": 742
+        },
+        {
+          "ar": "الْكُفَّارِ",
+          "translit": "l-kuffāri",
+          "fr": "mécréant",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 26,
+          "auto": true
         },
         {
           "ar": "لَا",
@@ -1772,6 +1860,14 @@ const S060 = {
           "fr": "eux",
           "racine": "pronom personnel",
           "frequence_coran": 180
+        },
+        {
+          "ar": "يَحِلُّونَ",
+          "translit": "yaḥillūna",
+          "fr": "licite",
+          "racine": "ح-ل-ل",
+          "frequence_coran": 14,
+          "auto": true
         },
         {
           "ar": "وَءَاتُوهُم",
@@ -1823,6 +1919,14 @@ const S060 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "تَنكِحُوهُنَّ",
+          "translit": "tankiḥūhunna",
+          "fr": "épouser",
+          "racine": "ن-ك-ح",
+          "frequence_coran": 14,
+          "auto": true
         },
         {
           "ar": "إِذَا",
@@ -2034,6 +2138,14 @@ const S060 = {
           "frequence_coran": 742
         },
         {
+          "ar": "الْكُفَّارِ",
+          "translit": "l-kuffāri",
+          "fr": "mécréant",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 26,
+          "auto": true
+        },
+        {
           "ar": "فَـءَاتُواْ",
           "translit": "faʾātū",
           "fr": "donner",
@@ -2173,6 +2285,14 @@ const S060 = {
           "fr": "quand",
           "racine": "particule temporelle",
           "frequence_coran": 195
+        },
+        {
+          "ar": "الْمُؤْمِنَٰتُ",
+          "translit": "l-muʾminātu",
+          "fr": "croyantes",
+          "racine": "ا-م-ن",
+          "frequence_coran": 22,
+          "auto": true
         },
         {
           "ar": "عَلَىٰ",
@@ -2488,6 +2608,14 @@ const S060 = {
           "fr": "désespérer",
           "racine": "ي-أ-س",
           "frequence_coran": 7
+        },
+        {
+          "ar": "الْكُفَّارُ",
+          "translit": "l-kuffāru",
+          "fr": "mécréant",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 26,
+          "auto": true
         },
         {
           "ar": "مِنْ",

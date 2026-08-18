@@ -214,6 +214,14 @@ const S075 = {
           "frequence_coran": 22
         },
         {
+          "ar": "قَٰدِرِينَ",
+          "translit": "qādirīna",
+          "fr": "capable",
+          "racine": "ق-د-ر",
+          "frequence_coran": 14,
+          "auto": true
+        },
+        {
           "ar": "عَلَىٰ",
           "translit": "ʿalā",
           "fr": "sur",
@@ -226,6 +234,14 @@ const S075 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "نُّسَوِّيَ",
+          "translit": "nusawwiya",
+          "fr": "façonner harmonieusement",
+          "racine": "س-و-ي",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -269,6 +285,14 @@ const S075 = {
           "fr": "être humain",
           "racine": "ا-ن-س",
           "frequence_coran": 70,
+          "auto": true
+        },
+        {
+          "ar": "أَمَامَهُ",
+          "translit": "amāmahū",
+          "fr": "guide",
+          "racine": "ا-م-م",
+          "frequence_coran": 12,
           "auto": true
         }
       ],
@@ -567,6 +591,14 @@ const S075 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "وَزَرَ",
+          "translit": "wazara",
+          "fr": "fardeau",
+          "racine": "و-ز-ر",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -610,6 +642,14 @@ const S075 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "الْمُسْتَقَرُّ",
+          "translit": "l-mustaqarru",
+          "fr": "lieu de séjour",
+          "racine": "ق-ر-ر",
+          "frequence_coran": 10,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1035,6 +1075,14 @@ const S075 = {
           "fr": "plutôt",
           "racine": "particule de correction",
           "frequence_coran": 113
+        },
+        {
+          "ar": "تُحِبُّونَ",
+          "translit": "tuḥibbūna",
+          "fr": "aimer",
+          "racine": "ح-ب-ب",
+          "frequence_coran": 24,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1475,11 +1523,27 @@ const S075 = {
           "frequence_coran": 156
         },
         {
+          "ar": "صَدَّقَ",
+          "translit": "ṣaddaqa",
+          "fr": "dire vrai",
+          "racine": "ص-د-ق",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et ne... pas",
           "racine": "و + لَا",
           "frequence_coran": 658
+        },
+        {
+          "ar": "صَلَّىٰ",
+          "translit": "ṣallā",
+          "fr": "prier",
+          "racine": "ص-ل-و",
+          "frequence_coran": 11,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1808,6 +1872,14 @@ const S075 = {
           "fr": "il a créé",
           "racine": "خ-ل-ق",
           "frequence_coran": 261
+        },
+        {
+          "ar": "فَسَوَّىٰ",
+          "translit": "fasawwā",
+          "fr": "façonner harmonieusement",
+          "racine": "س-و-ي",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1859,6 +1931,14 @@ const S075 = {
           "fr": "souvenir",
           "racine": "ذ-ك-ر",
           "frequence_coran": 256
+        },
+        {
+          "ar": "وَالْأُنثَىٰ",
+          "translit": "wal-ʾunthā",
+          "fr": "femelle",
+          "racine": "ا-ن-ث",
+          "frequence_coran": 24,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1896,6 +1976,14 @@ const S075 = {
           "fr": "cela",
           "racine": "pronom démonstratif",
           "frequence_coran": 280
+        },
+        {
+          "ar": "بِقَٰدِرٍ",
+          "translit": "biqādirin",
+          "fr": "capable",
+          "racine": "ق-د-ر",
+          "frequence_coran": 14,
+          "auto": true
         },
         {
           "ar": "عَلَىٰ",

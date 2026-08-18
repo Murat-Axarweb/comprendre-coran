@@ -829,6 +829,14 @@ const S089 = {
           "auto": true
         },
         {
+          "ar": "فَقَدَرَ",
+          "translit": "faqadara",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
+        },
+        {
           "ar": "عَلَيْهِ",
           "translit": "ʿalayhi",
           "fr": "sur lui",
@@ -1026,6 +1034,14 @@ const S089 = {
       },
       "mots": [
         {
+          "ar": "وَتُحِبُّونَ",
+          "translit": "watuḥibbūna",
+          "fr": "aimer",
+          "racine": "ح-ب-ب",
+          "frequence_coran": 24,
+          "auto": true
+        },
+        {
           "ar": "الْمَالَ",
           "translit": "l-māla",
           "fr": "bien",
@@ -1198,6 +1214,14 @@ const S089 = {
           "fr": "à lui",
           "racine": "لِ + هُ",
           "frequence_coran": 275
+        },
+        {
+          "ar": "الذِّكْرَىٰ",
+          "translit": "dh-dhikrā",
+          "fr": "rappel",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 23,
+          "auto": true
         }
       ],
       "niveau_couche": 2

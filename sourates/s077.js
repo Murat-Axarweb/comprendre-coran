@@ -502,6 +502,14 @@ const S077 = {
           "fr": "jour",
           "racine": "ي-و-م",
           "frequence_coran": 405
+        },
+        {
+          "ar": "الْفَصْلِ",
+          "translit": "l-faṣli",
+          "fr": "exposer en détail",
+          "racine": "ف-ص-ل",
+          "frequence_coran": 17,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -533,6 +541,14 @@ const S077 = {
           "frequence_coran": 646
         },
         {
+          "ar": "أَدْرَىٰكَ",
+          "translit": "adrāka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -545,6 +561,14 @@ const S077 = {
           "fr": "jour",
           "racine": "ي-و-م",
           "frequence_coran": 405
+        },
+        {
+          "ar": "الْفَصْلِ",
+          "translit": "l-faṣli",
+          "fr": "exposer en détail",
+          "racine": "ف-ص-ل",
+          "frequence_coran": 17,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -581,6 +605,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -766,6 +798,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -898,6 +938,14 @@ const S077 = {
           "fr": "vers",
           "racine": "particule",
           "frequence_coran": 742
+        },
+        {
+          "ar": "قَدَرٍ",
+          "translit": "qadarin",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -929,11 +977,27 @@ const S077 = {
       },
       "mots": [
         {
+          "ar": "فَقَدَرْنَا",
+          "translit": "faqadarnā",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
+        },
+        {
           "ar": "فَنِعْمَ",
           "translit": "faniʿma",
           "fr": "oui",
           "racine": "—",
           "frequence_coran": 2
+        },
+        {
+          "ar": "الْقَٰدِرُونَ",
+          "translit": "l-qādirūna",
+          "fr": "capable",
+          "racine": "ق-د-ر",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -970,6 +1034,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1147,6 +1219,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1431,6 +1511,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1554,6 +1642,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1590,6 +1686,14 @@ const S077 = {
           "fr": "jour",
           "racine": "ي-و-م",
           "frequence_coran": 405
+        },
+        {
+          "ar": "الْفَصْلِ",
+          "translit": "l-faṣli",
+          "fr": "exposer en détail",
+          "racine": "ف-ص-ل",
+          "frequence_coran": 17,
+          "auto": true
         },
         {
           "ar": "جَمَعْنَٰكُمْ",
@@ -1700,6 +1804,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1935,6 +2047,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1964,6 +2084,14 @@ const S077 = {
           "fr": "manger",
           "racine": "أ-ك-ل",
           "frequence_coran": 109,
+          "auto": true
+        },
+        {
+          "ar": "وَتَمَتَّعُواْ",
+          "translit": "watamattaʿū",
+          "fr": "jouir",
+          "racine": "م-ت-ع",
+          "frequence_coran": 11,
           "auto": true
         },
         {
@@ -2024,6 +2152,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2111,6 +2247,14 @@ const S077 = {
           "fr": "ce jour-là",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
+        },
+        {
+          "ar": "لِّلْمُكَذِّبِينَ",
+          "translit": "lilmukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3

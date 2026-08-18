@@ -280,6 +280,14 @@ const S082 = {
           "frequence_coran": 1010
         },
         {
+          "ar": "غَرَّكَ",
+          "translit": "gharraka",
+          "fr": "tromper",
+          "racine": "غ-ر-ر",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "بِرَبِّكَ",
           "translit": "birabbika",
           "fr": "ton Seigneur",
@@ -335,6 +343,14 @@ const S082 = {
           "fr": "il a créé",
           "racine": "خ-ل-ق",
           "frequence_coran": 261,
+          "auto": true
+        },
+        {
+          "ar": "فَسَوَّىٰكَ",
+          "translit": "fasawwāka",
+          "fr": "façonner harmonieusement",
+          "racine": "س-و-ي",
+          "frequence_coran": 13,
           "auto": true
         },
         {
@@ -504,6 +520,14 @@ const S082 = {
           "fr": "sur vous",
           "racine": "عَلَى + كُمْ",
           "frequence_coran": 146
+        },
+        {
+          "ar": "لَحَٰفِظِينَ",
+          "translit": "laḥāfiẓīna",
+          "fr": "gardien",
+          "racine": "ح-ف-ظ",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -710,6 +734,14 @@ const S082 = {
       },
       "mots": [
         {
+          "ar": "يَصْلَوْنَهَا",
+          "translit": "yaṣlawnahā",
+          "fr": "subir (le feu)",
+          "racine": "ص-ل-ي",
+          "frequence_coran": 12,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَ",
           "translit": "yawma",
           "fr": "jour",
@@ -797,6 +829,14 @@ const S082 = {
           "frequence_coran": 646
         },
         {
+          "ar": "أَدْرَىٰكَ",
+          "translit": "adrāka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -852,6 +892,14 @@ const S082 = {
           "fr": "ce que",
           "racine": "particule",
           "frequence_coran": 1010
+        },
+        {
+          "ar": "أَدْرَىٰكَ",
+          "translit": "adrāka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
         },
         {
           "ar": "مَا",

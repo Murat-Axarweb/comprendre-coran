@@ -122,7 +122,16 @@ const S085 = {
           "texte": "Şahitlik edene ve edilene and olsun ki, insanlar öldükten sonra diriltileceklerdir"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَشَاهِدٍ",
+          "translit": "washāhidin",
+          "fr": "témoin",
+          "racine": "ش-ه-د",
+          "frequence_coran": 21,
+          "auto": true
+        }
+      ],
       "niveau_couche": 2
     },
     {
@@ -317,6 +326,14 @@ const S085 = {
           "fr": "les croyants",
           "racine": "أ-م-ن",
           "frequence_coran": 78
+        },
+        {
+          "ar": "شُهُودٌ",
+          "translit": "shuhūdun",
+          "fr": "témoin",
+          "racine": "ش-ه-د",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -548,11 +565,27 @@ const S085 = {
           "frequence_coran": 810
         },
         {
+          "ar": "فَتَنُواْ",
+          "translit": "fatanū",
+          "fr": "éprouver",
+          "racine": "ف-ت-ن",
+          "frequence_coran": 23,
+          "auto": true
+        },
+        {
           "ar": "الْمُؤْمِنِينَ",
           "translit": "l-muʾminīna",
           "fr": "les croyants",
           "racine": "أ-م-ن",
           "frequence_coran": 78
+        },
+        {
+          "ar": "وَالْمُؤْمِنَٰتِ",
+          "translit": "wal-muʾmināti",
+          "fr": "croyantes",
+          "racine": "ا-م-ن",
+          "frequence_coran": 22,
+          "auto": true
         },
         {
           "ar": "ثُمَّ",
@@ -723,6 +756,14 @@ const S085 = {
           "frequence_coran": 280
         },
         {
+          "ar": "الْفَوْزُ",
+          "translit": "l-fawzu",
+          "fr": "succès",
+          "racine": "ف-و-ز",
+          "frequence_coran": 19,
+          "auto": true
+        },
+        {
           "ar": "الْكَبِيرُ",
           "translit": "l-kabīru",
           "fr": "Grand",
@@ -807,6 +848,14 @@ const S085 = {
           "fr": "il",
           "racine": "pronom personnel",
           "frequence_coran": 265
+        },
+        {
+          "ar": "وَيُعِيدُ",
+          "translit": "wayuʿīdu",
+          "fr": "faire revenir",
+          "racine": "ع-و-د",
+          "frequence_coran": 18,
+          "auto": true
         }
       ],
       "niveau_couche": 2

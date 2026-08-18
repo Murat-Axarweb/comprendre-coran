@@ -225,6 +225,14 @@ const S062 = {
           "auto": true
         },
         {
+          "ar": "وَيُزَكِّيهِمْ",
+          "translit": "wayuzakkīhim",
+          "fr": "purifier",
+          "racine": "ز-ك-و",
+          "frequence_coran": 12,
+          "auto": true
+        },
+        {
           "ar": "وَيُعَلِّمُهُمُ",
           "translit": "wayuʿallimuhumu",
           "fr": "savoir",
@@ -508,6 +516,14 @@ const S062 = {
           "auto": true
         },
         {
+          "ar": "التَّوْرَىٰةَ",
+          "translit": "t-tawrāta",
+          "fr": "Torah",
+          "racine": "—",
+          "frequence_coran": 18,
+          "auto": true
+        },
+        {
           "ar": "ثُمَّ",
           "translit": "thumma",
           "fr": "puis",
@@ -683,6 +699,14 @@ const S062 = {
           "fr": "ceux qui",
           "racine": "pronom relatif",
           "frequence_coran": 810
+        },
+        {
+          "ar": "هَادُواْ",
+          "translit": "hādū",
+          "fr": "être juif",
+          "racine": "ه-و-د",
+          "frequence_coran": 11,
+          "auto": true
         },
         {
           "ar": "إِن",
@@ -952,6 +976,14 @@ const S062 = {
           "fr": "invisible",
           "racine": "غ-ي-ب",
           "frequence_coran": 60
+        },
+        {
+          "ar": "وَالشَّهَٰدَةِ",
+          "translit": "wash-shahādati",
+          "fr": "témoignage",
+          "racine": "ش-ه-د",
+          "frequence_coran": 23,
+          "auto": true
         },
         {
           "ar": "فَيُنَبِّئُكُم",
@@ -1342,6 +1374,14 @@ const S062 = {
           "fr": "laisser",
           "racine": "ت-ر-ك",
           "frequence_coran": 40,
+          "auto": true
+        },
+        {
+          "ar": "قَائِمًا",
+          "translit": "qāʾiman",
+          "fr": "debout",
+          "racine": "ق-و-م",
+          "frequence_coran": 17,
           "auto": true
         },
         {

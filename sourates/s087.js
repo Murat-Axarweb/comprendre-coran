@@ -106,6 +106,14 @@ const S087 = {
           "fr": "il a créé",
           "racine": "خ-ل-ق",
           "frequence_coran": 261
+        },
+        {
+          "ar": "فَسَوَّىٰ",
+          "translit": "fasawwā",
+          "fr": "façonner harmonieusement",
+          "racine": "س-و-ي",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -135,6 +143,14 @@ const S087 = {
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "قَدَّرَ",
+          "translit": "qaddara",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
         },
         {
           "ar": "فَهَدَىٰ",
@@ -397,6 +413,14 @@ const S087 = {
           "racine": "ن-ف-ع",
           "frequence_coran": 8,
           "auto": true
+        },
+        {
+          "ar": "الذِّكْرَىٰ",
+          "translit": "dh-dhikrā",
+          "fr": "rappel",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 23,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -492,6 +516,14 @@ const S087 = {
           "fr": "celui qui",
           "racine": "pronom",
           "frequence_coran": 1464
+        },
+        {
+          "ar": "يَصْلَى",
+          "translit": "yaṣlā",
+          "fr": "subir (le feu)",
+          "racine": "ص-ل-ي",
+          "frequence_coran": 12,
+          "auto": true
         },
         {
           "ar": "النَّارَ",
@@ -658,6 +690,14 @@ const S087 = {
           "fr": "son Seigneur",
           "racine": "ر-ب-ب",
           "frequence_coran": 44
+        },
+        {
+          "ar": "فَصَلَّىٰ",
+          "translit": "faṣallā",
+          "fr": "prier",
+          "racine": "ص-ل-و",
+          "frequence_coran": 11,
+          "auto": true
         }
       ],
       "niveau_couche": 2,

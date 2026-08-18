@@ -762,6 +762,14 @@ const S078 = {
           "frequence_coran": 405
         },
         {
+          "ar": "الْفَصْلِ",
+          "translit": "l-faṣli",
+          "fr": "exposer en détail",
+          "racine": "ف-ص-ل",
+          "frequence_coran": 17,
+          "auto": true
+        },
+        {
           "ar": "كَانَ",
           "translit": "kāna",
           "fr": "il était",
@@ -1223,6 +1231,14 @@ const S078 = {
           "frequence_coran": 812
         },
         {
+          "ar": "يَرْجُونَ",
+          "translit": "yarjūna",
+          "fr": "espérer",
+          "racine": "ر-ج-و",
+          "frequence_coran": 22,
+          "auto": true
+        },
+        {
           "ar": "حِسَابًا",
           "translit": "ḥisāban",
           "fr": "compte",
@@ -1408,6 +1424,14 @@ const S078 = {
           "fr": "certes",
           "racine": "particule d’insistance",
           "frequence_coran": 609
+        },
+        {
+          "ar": "لِلْمُتَّقِينَ",
+          "translit": "lilmuttaqīna",
+          "fr": "pieux",
+          "racine": "و-ق-ي",
+          "frequence_coran": 24,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1985,6 +2009,14 @@ const S078 = {
           "fr": "il a dit",
           "racine": "ق-و-ل",
           "frequence_coran": 1722,
+          "auto": true
+        },
+        {
+          "ar": "الْكَافِرُ",
+          "translit": "l-kāfiru",
+          "fr": "mécréant",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 26,
           "auto": true
         },
         {

@@ -731,6 +731,14 @@ const S070 = {
           "fr": "puis",
           "racine": "particule de succession",
           "frequence_coran": 337
+        },
+        {
+          "ar": "يُنجِيهِ",
+          "translit": "yunjīhi",
+          "fr": "sauver",
+          "racine": "ن-ج-و",
+          "frequence_coran": 23,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -1263,6 +1271,14 @@ const S070 = {
           "frequence_coran": 164
         },
         {
+          "ar": "يُصَدِّقُونَ",
+          "translit": "yuṣaddiqūna",
+          "fr": "dire vrai",
+          "racine": "ص-د-ق",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "بِيَوْمِ",
           "translit": "biyawmi",
           "fr": "jour",
@@ -1439,6 +1455,14 @@ const S070 = {
           "fr": "chasteté",
           "racine": "ف-ر-ج",
           "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "حَٰفِظُونَ",
+          "translit": "ḥāfiẓūna",
+          "fr": "gardien",
+          "racine": "ح-ف-ظ",
+          "frequence_coran": 13,
           "auto": true
         }
       ],
@@ -1694,6 +1718,14 @@ const S070 = {
           "fr": "eux",
           "racine": "pronom personnel",
           "frequence_coran": 180
+        },
+        {
+          "ar": "قَائِمُونَ",
+          "translit": "qāʾimūna",
+          "fr": "debout",
+          "racine": "ق-و-م",
+          "frequence_coran": 17,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2091,6 +2123,14 @@ const S070 = {
           "fr": "certes Nous",
           "racine": "إِنَّ + نَا",
           "frequence_coran": 156
+        },
+        {
+          "ar": "لَقَٰدِرُونَ",
+          "translit": "laqādirūna",
+          "fr": "capable",
+          "racine": "ق-د-ر",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -2326,6 +2366,14 @@ const S070 = {
         }
       },
       "mots": [
+        {
+          "ar": "خَٰشِعَةً",
+          "translit": "khāshiʿatan",
+          "fr": "humble",
+          "racine": "خ-ش-ع",
+          "frequence_coran": 14,
+          "auto": true
+        },
         {
           "ar": "أَبْصَٰرُهُمْ",
           "translit": "abṣāruhum",

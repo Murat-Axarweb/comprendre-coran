@@ -117,6 +117,14 @@ const S094 = {
           "racine": "préposition",
           "frequence_coran": 153,
           "auto": true
+        },
+        {
+          "ar": "وِزْرَكَ",
+          "translit": "wizraka",
+          "fr": "fardeau",
+          "racine": "و-ز-ر",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 2,

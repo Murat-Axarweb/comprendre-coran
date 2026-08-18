@@ -158,6 +158,14 @@ const S090 = {
       },
       "mots": [
         {
+          "ar": "وَوَالِدٍ",
+          "translit": "wawālidin",
+          "fr": "parent",
+          "racine": "و-ل-د",
+          "frequence_coran": 14,
+          "auto": true
+        },
+        {
           "ar": "وَمَا",
           "translit": "wamā",
           "fr": "et ce que",
@@ -266,6 +274,14 @@ const S090 = {
           "fr": "ne... jamais",
           "racine": "particule de négation future",
           "frequence_coran": 59
+        },
+        {
+          "ar": "يَقْدِرَ",
+          "translit": "yaqdira",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
         },
         {
           "ar": "عَلَيْهِ",
@@ -585,6 +601,14 @@ const S090 = {
           "frequence_coran": 646
         },
         {
+          "ar": "أَدْرَىٰكَ",
+          "translit": "adrāka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -721,6 +745,14 @@ const S090 = {
           "racine": "ي-ت-م",
           "frequence_coran": 23,
           "auto": true
+        },
+        {
+          "ar": "ذَا",
+          "translit": "dhā",
+          "fr": "celui",
+          "racine": "—",
+          "frequence_coran": 23,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -763,6 +795,14 @@ const S090 = {
           "translit": "miskīnan",
           "fr": "nécessiteux",
           "racine": "س-ك-ن",
+          "frequence_coran": 23,
+          "auto": true
+        },
+        {
+          "ar": "ذَا",
+          "translit": "dhā",
+          "fr": "celui",
+          "racine": "—",
           "frequence_coran": 23,
           "auto": true
         }

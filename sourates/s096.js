@@ -530,6 +530,14 @@ const S096 = {
           "fr": "quand",
           "racine": "particule temporelle",
           "frequence_coran": 195
+        },
+        {
+          "ar": "صَلَّىٰ",
+          "translit": "ṣallā",
+          "fr": "prier",
+          "racine": "ص-ل-و",
+          "frequence_coran": 11,
+          "auto": true
         }
       ],
       "niveau_couche": 2,
@@ -813,6 +821,14 @@ const S096 = {
           "fr": "ne... pas",
           "racine": "particule de négation",
           "frequence_coran": 163
+        },
+        {
+          "ar": "يَنتَهِ",
+          "translit": "yantahi",
+          "fr": "cesser",
+          "racine": "ن-ه-ي",
+          "frequence_coran": 16,
+          "auto": true
         }
       ],
       "niveau_couche": 2

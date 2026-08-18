@@ -361,6 +361,14 @@ const S071 = {
           "frequence_coran": 56
         },
         {
+          "ar": "مُّسَمًّى",
+          "translit": "musammanā",
+          "fr": "fixé",
+          "racine": "س-م-و",
+          "frequence_coran": 21,
+          "auto": true
+        },
+        {
           "ar": "إِنَّ",
           "translit": "inna",
           "fr": "certes",
@@ -736,11 +744,27 @@ const S071 = {
           "frequence_coran": 131
         },
         {
+          "ar": "أَعْلَنتُ",
+          "translit": "aʿlantu",
+          "fr": "annoncer publiquement",
+          "racine": "ع-ل-ن",
+          "frequence_coran": 12,
+          "auto": true
+        },
+        {
           "ar": "لَهُمْ",
           "translit": "lahum",
           "fr": "à eux",
           "racine": "لِ + هُمْ",
           "frequence_coran": 325
+        },
+        {
+          "ar": "وَأَسْرَرْتُ",
+          "translit": "waʾasrartu",
+          "fr": "tenir secret",
+          "racine": "س-ر-ر",
+          "frequence_coran": 18,
+          "auto": true
         },
         {
           "ar": "لَهُمْ",
@@ -992,6 +1016,14 @@ const S071 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "تَرْجُونَ",
+          "translit": "tarjūna",
+          "fr": "espérer",
+          "racine": "ر-ج-و",
+          "frequence_coran": 22,
+          "auto": true
         },
         {
           "ar": "لِلَّهِ",
@@ -1256,6 +1288,14 @@ const S071 = {
           "frequence_coran": 337
         },
         {
+          "ar": "يُعِيدُكُمْ",
+          "translit": "yuʿīdukum",
+          "fr": "faire revenir",
+          "racine": "ع-و-د",
+          "frequence_coran": 18,
+          "auto": true
+        },
+        {
           "ar": "فِيهَا",
           "translit": "fīhā",
           "fr": "en elle",
@@ -1349,6 +1389,14 @@ const S071 = {
         }
       },
       "mots": [
+        {
+          "ar": "لِّتَسْلُكُواْ",
+          "translit": "litaslukū",
+          "fr": "emprunter (un chemin)",
+          "racine": "س-ل-ك",
+          "frequence_coran": 12,
+          "auto": true
+        },
         {
           "ar": "مِنْهَا",
           "translit": "minhā",
@@ -2050,6 +2098,14 @@ const S071 = {
           "fr": "croyant",
           "racine": "ا-م-ن",
           "frequence_coran": 117,
+          "auto": true
+        },
+        {
+          "ar": "وَالْمُؤْمِنَٰتِ",
+          "translit": "wal-muʾmināti",
+          "fr": "croyantes",
+          "racine": "ا-م-ن",
+          "frequence_coran": 22,
           "auto": true
         },
         {

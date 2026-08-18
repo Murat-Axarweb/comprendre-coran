@@ -402,6 +402,14 @@ const S098 = {
           "frequence_coran": 2699
         },
         {
+          "ar": "مُخْلِصِينَ",
+          "translit": "mukhliṣīna",
+          "fr": "sincère",
+          "racine": "خ-ل-ص",
+          "frequence_coran": 11,
+          "auto": true
+        },
+        {
           "ar": "لَهُ",
           "translit": "lahu",
           "fr": "à lui",

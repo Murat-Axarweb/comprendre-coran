@@ -258,11 +258,27 @@ const S076 = {
           "frequence_coran": 4
         },
         {
+          "ar": "شَاكِرًا",
+          "translit": "shākiran",
+          "fr": "reconnaissant",
+          "racine": "ش-ك-ر",
+          "frequence_coran": 14,
+          "auto": true
+        },
+        {
           "ar": "وَإِمَّا",
           "translit": "waʾimmā",
           "fr": "soit... soit",
           "racine": "—",
           "frequence_coran": 4
+        },
+        {
+          "ar": "كَفُورًا",
+          "translit": "kafūran",
+          "fr": "très ingrat",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -292,6 +308,14 @@ const S076 = {
           "fr": "certes Nous",
           "racine": "إِنَّ + نَا",
           "frequence_coran": 156
+        },
+        {
+          "ar": "أَعْتَدْنَا",
+          "translit": "aʿtadnā",
+          "fr": "préparer",
+          "racine": "ع-ت-د",
+          "frequence_coran": 14,
+          "auto": true
         },
         {
           "ar": "لِلْكَٰفِرِينَ",
@@ -763,6 +787,14 @@ const S076 = {
       },
       "mots": [
         {
+          "ar": "فَوَقَىٰهُمُ",
+          "translit": "fawaqāhumu",
+          "fr": "préserver",
+          "racine": "و-ق-ي",
+          "frequence_coran": 16,
+          "auto": true
+        },
+        {
           "ar": "اللَّهُ",
           "translit": "llāhu",
           "fr": "Allah",
@@ -1045,6 +1077,14 @@ const S076 = {
           "fr": "argent (métal)",
           "racine": "ف-ض-ض",
           "frequence_coran": 7
+        },
+        {
+          "ar": "قَدَّرُوهَا",
+          "translit": "qaddarūhā",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1562,6 +1602,14 @@ const S076 = {
           "fr": "ou",
           "racine": "particule de choix",
           "frequence_coran": 264
+        },
+        {
+          "ar": "كَفُورًا",
+          "translit": "kafūran",
+          "fr": "très ingrat",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1717,6 +1765,14 @@ const S076 = {
           "fr": "ceux-ci",
           "racine": "—",
           "frequence_coran": 46
+        },
+        {
+          "ar": "يُحِبُّونَ",
+          "translit": "yuḥibbūna",
+          "fr": "aimer",
+          "racine": "ح-ب-ب",
+          "frequence_coran": 24,
+          "auto": true
         },
         {
           "ar": "وَيَذَرُونَ",
@@ -2056,6 +2112,14 @@ const S076 = {
           "fr": "injuste",
           "racine": "ظ-ل-م",
           "frequence_coran": 129,
+          "auto": true
+        },
+        {
+          "ar": "أَعَدَّ",
+          "translit": "aʿadda",
+          "fr": "préparer",
+          "racine": "ع-د-د",
+          "frequence_coran": 20,
           "auto": true
         },
         {

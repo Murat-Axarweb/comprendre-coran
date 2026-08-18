@@ -103,6 +103,14 @@ const S050 = {
           "frequence_coran": 609
         },
         {
+          "ar": "مُّنذِرٌ",
+          "translit": "mundhirun",
+          "fr": "avertisseur",
+          "racine": "ن-ذ-ر",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "مِّنْهُمْ",
           "translit": "minhum",
           "fr": "d’eux",
@@ -455,6 +463,14 @@ const S050 = {
           "auto": true
         },
         {
+          "ar": "وَزَيَّنَّـٰهَا",
+          "translit": "wazayyannāhā",
+          "fr": "embellir",
+          "racine": "ز-ي-ن",
+          "frequence_coran": 26,
+          "auto": true
+        },
+        {
           "ar": "وَمَا",
           "translit": "wamā",
           "fr": "et ce que",
@@ -592,6 +608,14 @@ const S050 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَذِكْرَىٰ",
+          "translit": "wadhikrā",
+          "fr": "rappel",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 23,
+          "auto": true
+        },
         {
           "ar": "لِكُلِّ",
           "translit": "likulli",
@@ -1074,6 +1098,14 @@ const S050 = {
           "frequence_coran": 4381
         },
         {
+          "ar": "لَبْسٍ",
+          "translit": "labsin",
+          "fr": "revêtir",
+          "racine": "ل-ب-س",
+          "frequence_coran": 11,
+          "auto": true
+        },
+        {
           "ar": "مِّنْ",
           "translit": "min",
           "fr": "de",
@@ -1176,6 +1208,14 @@ const S050 = {
           "fr": "nous",
           "racine": "pronom personnel",
           "frequence_coran": 65
+        },
+        {
+          "ar": "أَقْرَبُ",
+          "translit": "aqrabu",
+          "fr": "plus proche",
+          "racine": "ق-ر-ب",
+          "frequence_coran": 19,
+          "auto": true
         },
         {
           "ar": "إِلَيْهِ",
@@ -1311,6 +1351,14 @@ const S050 = {
           "fr": "sauf",
           "racine": "particule d’exception",
           "frequence_coran": 662
+        },
+        {
+          "ar": "لَدَيْهِ",
+          "translit": "ladayhi",
+          "fr": "auprès de",
+          "racine": "—",
+          "frequence_coran": 20,
+          "auto": true
         },
         {
           "ar": "رَقِيبٌ",
@@ -1638,6 +1686,14 @@ const S050 = {
           "fr": "ce que",
           "racine": "particule",
           "frequence_coran": 1010
+        },
+        {
+          "ar": "لَدَيَّ",
+          "translit": "ladayya",
+          "fr": "auprès de",
+          "racine": "—",
+          "frequence_coran": 20,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1959,6 +2015,14 @@ const S050 = {
           "frequence_coran": 812
         },
         {
+          "ar": "لَدَيَّ",
+          "translit": "ladayya",
+          "fr": "auprès de",
+          "racine": "—",
+          "frequence_coran": 20,
+          "auto": true
+        },
+        {
           "ar": "وَقَدْ",
           "translit": "waqad",
           "fr": "et certes",
@@ -2031,6 +2095,14 @@ const S050 = {
           "fr": "parole",
           "racine": "ق-و-ل",
           "frequence_coran": 92
+        },
+        {
+          "ar": "لَدَيَّ",
+          "translit": "ladayya",
+          "fr": "auprès de",
+          "racine": "—",
+          "frequence_coran": 20,
+          "auto": true
         },
         {
           "ar": "وَمَا",
@@ -2169,6 +2241,14 @@ const S050 = {
           "fr": "paradis",
           "racine": "ج-ن-ن",
           "frequence_coran": 147
+        },
+        {
+          "ar": "لِلْمُتَّقِينَ",
+          "translit": "lilmuttaqīna",
+          "fr": "pieux",
+          "racine": "و-ق-ي",
+          "frequence_coran": 24,
+          "auto": true
         },
         {
           "ar": "غَيْرَ",
@@ -2427,6 +2507,14 @@ const S050 = {
           "fr": "en elle",
           "racine": "فِي + هَا",
           "frequence_coran": 241
+        },
+        {
+          "ar": "وَلَدَيْنَا",
+          "translit": "waladaynā",
+          "fr": "auprès de",
+          "racine": "—",
+          "frequence_coran": 20,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2579,6 +2667,14 @@ const S050 = {
           "fr": "cela",
           "racine": "pronom démonstratif",
           "frequence_coran": 280
+        },
+        {
+          "ar": "لَذِكْرَىٰ",
+          "translit": "ladhikrā",
+          "fr": "rappel",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 23,
+          "auto": true
         },
         {
           "ar": "لِمَن",
@@ -2922,6 +3018,14 @@ const S050 = {
       },
       "mots": [
         {
+          "ar": "وَاسْتَمِعْ",
+          "translit": "wastamiʿ",
+          "fr": "écouter",
+          "racine": "س-م-ع",
+          "frequence_coran": 16,
+          "auto": true
+        },
+        {
           "ar": "يَوْمَ",
           "translit": "yawma",
           "fr": "jour",
@@ -3067,6 +3171,14 @@ const S050 = {
           "auto": true
         },
         {
+          "ar": "وَنُمِيتُ",
+          "translit": "wanumītu",
+          "fr": "faire mourir",
+          "racine": "م-و-ت",
+          "frequence_coran": 21,
+          "auto": true
+        },
+        {
           "ar": "وَإِلَيْنَا",
           "translit": "waʾilaynā",
           "fr": "vers",
@@ -3144,6 +3256,14 @@ const S050 = {
           "fr": "sur nous",
           "racine": "عَلَى + نَا",
           "frequence_coran": 51
+        },
+        {
+          "ar": "يَسِيرٌ",
+          "translit": "yasīrun",
+          "fr": "aisé",
+          "racine": "ي-س-ر",
+          "frequence_coran": 15,
+          "auto": true
         }
       ],
       "niveau_couche": 3

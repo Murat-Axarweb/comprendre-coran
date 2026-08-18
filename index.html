@@ -605,7 +605,8 @@ import { VOCAB2 } from './data/vocab2.js';
 import { VOCAB3 } from './data/vocab3.js';
 import { VOCAB4 } from './data/vocab4.js';
 import { VOCAB5 } from './data/vocab5.js';
-const ALL_VOCAB_LIST = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4, ...VOCAB5].sort((a,b)=>a.rang-b.rang);
+import { VOCAB6 } from './data/vocab6.js';
+const ALL_VOCAB_LIST = [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4, ...VOCAB5, ...VOCAB6].sort((a,b)=>a.rang-b.rang);
 const ALL_VOCAB_MAP = new Map(ALL_VOCAB_LIST.map(w => [w.id, w]));
 // ===== DONNÉES I18N LÉGÈRES (inline pour la page d'accueil) =====
 const TEXTS = {

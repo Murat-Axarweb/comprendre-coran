@@ -325,6 +325,14 @@ const S093 = {
           "auto": true
         },
         {
+          "ar": "ضَالًّا",
+          "translit": "ḍāllan",
+          "fr": "égaré",
+          "racine": "ض-ل-ل",
+          "frequence_coran": 13,
+          "auto": true
+        },
+        {
           "ar": "فَهَدَىٰ",
           "translit": "fahadā",
           "fr": "guidance",
@@ -359,6 +367,14 @@ const S093 = {
           "fr": "trouver",
           "racine": "و-ج-د",
           "frequence_coran": 107,
+          "auto": true
+        },
+        {
+          "ar": "فَأَغْنَىٰ",
+          "translit": "faʾaghnā",
+          "fr": "enrichir",
+          "racine": "غ-ن-ي",
+          "frequence_coran": 14,
           "auto": true
         }
       ],

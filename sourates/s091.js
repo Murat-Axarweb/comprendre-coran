@@ -181,6 +181,14 @@ const S091 = {
           "fr": "quand",
           "racine": "particule temporelle",
           "frequence_coran": 195
+        },
+        {
+          "ar": "يَغْشَىٰهَا",
+          "translit": "yaghshāhā",
+          "fr": "couvrir",
+          "racine": "غ-ش-و",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -297,6 +305,14 @@ const S091 = {
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "سَوَّىٰهَا",
+          "translit": "sawwāhā",
+          "fr": "façonner harmonieusement",
+          "racine": "س-و-ي",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -371,6 +387,14 @@ const S091 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "زَكَّىٰهَا",
+          "translit": "zakkāhā",
+          "fr": "purifier",
+          "racine": "ز-ك-و",
+          "frequence_coran": 12,
+          "auto": true
         }
       ],
       "niveau_couche": 2
@@ -610,6 +634,14 @@ const S091 = {
           "fr": "péché",
           "racine": "ذ-ن-ب",
           "frequence_coran": 39,
+          "auto": true
+        },
+        {
+          "ar": "فَسَوَّىٰهَا",
+          "translit": "fasawwāhā",
+          "fr": "façonner harmonieusement",
+          "racine": "س-و-ي",
+          "frequence_coran": 13,
           "auto": true
         }
       ],

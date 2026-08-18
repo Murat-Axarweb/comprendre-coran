@@ -311,6 +311,14 @@ const S056 = {
           "racine": "ز-و-ج",
           "frequence_coran": 81,
           "auto": true
+        },
+        {
+          "ar": "ثَلَٰثَةً",
+          "translit": "thalāthatan",
+          "fr": "trois",
+          "racine": "ث-ل-ث",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -584,6 +592,14 @@ const S056 = {
       },
       "mots": [
         {
+          "ar": "وَقَلِيلٌ",
+          "translit": "waqalīlun",
+          "fr": "peu",
+          "racine": "ق-ل-ل",
+          "frequence_coran": 14,
+          "auto": true
+        },
+        {
           "ar": "مِّنَ",
           "translit": "mina",
           "fr": "de",
@@ -843,6 +859,14 @@ const S056 = {
         }
       },
       "mots": [
+        {
+          "ar": "وَفَٰكِهَةٍ",
+          "translit": "wafākihatin",
+          "fr": "fruit",
+          "racine": "ف-ك-ه",
+          "frequence_coran": 11,
+          "auto": true
+        },
         {
           "ar": "مِّمَّا",
           "translit": "mimmā",
@@ -1372,7 +1396,24 @@ const S056 = {
           "texte": "Onlar dikensiz sedir ağaçları, salkımları sarkmış muz ağaçları, uzamış gölge altında, çağlayarak akan sular kenarlarında; bitip tükenmeyen ve yasak da edilmeyen bol meyveler arasında; yüksek döşekler üzerindedirler"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَفَٰكِهَةٍ",
+          "translit": "wafākihatin",
+          "fr": "fruit",
+          "racine": "ف-ك-ه",
+          "frequence_coran": 11,
+          "auto": true
+        },
+        {
+          "ar": "كَثِيرَةٍ",
+          "translit": "kathīratin",
+          "fr": "nombreuse (fém.)",
+          "racine": "ك-ث-ر",
+          "frequence_coran": 11,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1478,6 +1519,14 @@ const S056 = {
           "fr": "certes Nous",
           "racine": "إِنَّ + نَا",
           "frequence_coran": 156
+        },
+        {
+          "ar": "أَنشَأْنَٰهُنَّ",
+          "translit": "anshaʾnāhunna",
+          "fr": "faire naître",
+          "racine": "ن-ش-ا",
+          "frequence_coran": 20,
+          "auto": true
         }
       ],
       "niveau_couche": 3,
@@ -2251,6 +2300,22 @@ const S056 = {
           "fr": "ô vous",
           "racine": "particule d’appel",
           "frequence_coran": 150
+        },
+        {
+          "ar": "الضَّالُّونَ",
+          "translit": "ḍ-ḍāllūna",
+          "fr": "égaré",
+          "racine": "ض-ل-ل",
+          "frequence_coran": 13,
+          "auto": true
+        },
+        {
+          "ar": "الْمُكَذِّبُونَ",
+          "translit": "l-mukadhdhibūna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2498,6 +2563,14 @@ const S056 = {
           "fr": "si ce n'était",
           "racine": "—",
           "frequence_coran": 75
+        },
+        {
+          "ar": "تُصَدِّقُونَ",
+          "translit": "tuṣaddiqūna",
+          "fr": "dire vrai",
+          "racine": "ص-د-ق",
+          "frequence_coran": 15,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2632,6 +2705,14 @@ const S056 = {
           "frequence_coran": 65
         },
         {
+          "ar": "قَدَّرْنَا",
+          "translit": "qaddarnā",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
+        },
+        {
           "ar": "بَيْنَكُمُ",
           "translit": "baynakumu",
           "fr": "entre",
@@ -2717,6 +2798,14 @@ const S056 = {
           "fr": "parabole",
           "racine": "م-ث-ل",
           "frequence_coran": 169,
+          "auto": true
+        },
+        {
+          "ar": "وَنُنشِئَكُمْ",
+          "translit": "wanunshiʾakum",
+          "fr": "faire naître",
+          "racine": "ن-ش-ا",
+          "frequence_coran": 20,
           "auto": true
         },
         {
@@ -3289,6 +3378,14 @@ const S056 = {
         }
       },
       "mots": [
+        {
+          "ar": "أَنشَأْتُمْ",
+          "translit": "anshaʾtum",
+          "fr": "faire naître",
+          "racine": "ن-ش-ا",
+          "frequence_coran": 20,
+          "auto": true
+        },
         {
           "ar": "شَجَرَتَهَا",
           "translit": "shajaratahā",
@@ -3963,6 +4060,14 @@ const S056 = {
           "frequence_coran": 65
         },
         {
+          "ar": "أَقْرَبُ",
+          "translit": "aqrabu",
+          "fr": "plus proche",
+          "racine": "ق-ر-ب",
+          "frequence_coran": 19,
+          "auto": true
+        },
+        {
           "ar": "إِلَيْهِ",
           "translit": "ilayhi",
           "fr": "vers lui",
@@ -4401,6 +4506,22 @@ const S056 = {
           "fr": "de",
           "racine": "particule",
           "frequence_coran": 3226
+        },
+        {
+          "ar": "الْمُكَذِّبِينَ",
+          "translit": "l-mukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
+        },
+        {
+          "ar": "الضَّالِّينَ",
+          "translit": "ḍ-ḍāllīna",
+          "fr": "égaré",
+          "racine": "ض-ل-ل",
+          "frequence_coran": 13,
+          "auto": true
         }
       ],
       "niveau_couche": 3

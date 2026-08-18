@@ -128,6 +128,14 @@ const S095 = {
           "fr": "pays",
           "racine": "ب-ل-د",
           "frequence_coran": 7
+        },
+        {
+          "ar": "الْأَمِينِ",
+          "translit": "l-ʾamīni",
+          "fr": "digne de confiance",
+          "racine": "ا-م-ن",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 2

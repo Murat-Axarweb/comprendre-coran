@@ -119,9 +119,10 @@ const { VOCAB2 } = await import(`file://${join(root, 'data', 'vocab2.js')}`);
 const { VOCAB3 } = await import(`file://${join(root, 'data', 'vocab3.js')}`);
 const { VOCAB4 } = await import(`file://${join(root, 'data', 'vocab4.js')}`);
 const { VOCAB5 } = await import(`file://${join(root, 'data', 'vocab5.js')}`);
+const { VOCAB6 } = await import(`file://${join(root, 'data', 'vocab6.js')}`);
 const glossaire = new Map();
 const glossaireStrict = new Map();
-for (const mot of [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4, ...VOCAB5]) {
+for (const mot of [...VOCAB, ...VOCAB2, ...VOCAB3, ...VOCAB4, ...VOCAB5, ...VOCAB6]) {
   const k = nu(mot.ar);
   if (!glossaire.has(k)) glossaire.set(k, mot);
   const ks = strict(mot.ar);

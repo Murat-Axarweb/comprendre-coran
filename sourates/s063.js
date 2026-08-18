@@ -370,6 +370,14 @@ const S063 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يَفْقَهُونَ",
+          "translit": "yafqahūna",
+          "fr": "comprendre",
+          "racine": "ف-ق-ه",
+          "frequence_coran": 19,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -406,6 +414,14 @@ const S063 = {
           "fr": "voir",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
+          "auto": true
+        },
+        {
+          "ar": "تُعْجِبُكَ",
+          "translit": "tuʿjibuka",
+          "fr": "plaire",
+          "racine": "ع-ج-ب",
+          "frequence_coran": 11,
           "auto": true
         },
         {
@@ -488,6 +504,14 @@ const S063 = {
           "fr": "ennemi",
           "racine": "ع-د-و",
           "frequence_coran": 53
+        },
+        {
+          "ar": "فَاحْذَرْهُمْ",
+          "translit": "faḥdharhum",
+          "fr": "prendre garde",
+          "racine": "ح-ذ-ر",
+          "frequence_coran": 12,
+          "auto": true
         },
         {
           "ar": "قَٰتَلَهُمُ",
@@ -927,6 +951,14 @@ const S063 = {
           "fr": "non",
           "racine": "particule",
           "frequence_coran": 812
+        },
+        {
+          "ar": "يَفْقَهُونَ",
+          "translit": "yafqahūna",
+          "fr": "comprendre",
+          "racine": "ف-ق-ه",
+          "frequence_coran": 19,
+          "auto": true
         }
       ],
       "niveau_couche": 3

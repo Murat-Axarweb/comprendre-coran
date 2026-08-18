@@ -136,6 +136,22 @@ const S080 = {
           "fr": "et ce que",
           "racine": "و + مَا",
           "frequence_coran": 646
+        },
+        {
+          "ar": "يُدْرِيكَ",
+          "translit": "yudrīka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
+          "ar": "لَعَلَّهُ",
+          "translit": "laʿallāhū",
+          "fr": "peut-être",
+          "racine": "—",
+          "frequence_coran": 11,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -180,6 +196,14 @@ const S080 = {
           "fr": "être utile",
           "racine": "ن-ف-ع",
           "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "الذِّكْرَىٰ",
+          "translit": "dh-dhikrā",
+          "fr": "rappel",
+          "racine": "ذ-ك-ر",
+          "frequence_coran": 23,
           "auto": true
         }
       ],
@@ -830,6 +854,14 @@ const S080 = {
           "racine": "خ-ل-ق",
           "frequence_coran": 261,
           "auto": true
+        },
+        {
+          "ar": "فَقَدَّرَهُ",
+          "translit": "faqaddarahū",
+          "fr": "mesurer",
+          "racine": "ق-د-ر",
+          "frequence_coran": 25,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -903,6 +935,14 @@ const S080 = {
           "fr": "puis",
           "racine": "particule de succession",
           "frequence_coran": 337
+        },
+        {
+          "ar": "أَمَاتَهُ",
+          "translit": "amātahū",
+          "fr": "faire mourir",
+          "racine": "م-و-ت",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1330,7 +1370,16 @@ const S080 = {
           "texte": "Sonra yeryüzünü iyice yarmakta ve orada taneli ekinler, üzümler, sebzeler, zeytin, hurma ağaçları ve bahçelerde koca koca ağaçlı meyveler ve çayırlar bitirmekteyiz"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "وَفَٰكِهَةً",
+          "translit": "wafākihatan",
+          "fr": "fruit",
+          "racine": "ف-ك-ه",
+          "frequence_coran": 11,
+          "auto": true
+        }
+      ],
       "niveau_couche": 3,
       "groupes": {
         "tr": {
@@ -1772,6 +1821,14 @@ const S080 = {
           "fr": "eux",
           "racine": "pronom personnel",
           "frequence_coran": 180
+        },
+        {
+          "ar": "الْكَفَرَةُ",
+          "translit": "l-kafaratu",
+          "fr": "mécréant",
+          "racine": "ك-ف-ر",
+          "frequence_coran": 26,
+          "auto": true
         }
       ],
       "niveau_couche": 3

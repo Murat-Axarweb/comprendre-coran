@@ -86,6 +86,14 @@ const S058 = {
           "frequence_coran": 57
         },
         {
+          "ar": "تُجَٰدِلُكَ",
+          "translit": "tujādiluka",
+          "fr": "disputer",
+          "racine": "ج-د-ل",
+          "frequence_coran": 25,
+          "auto": true
+        },
+        {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
@@ -825,6 +833,14 @@ const S058 = {
           "fr": "châtiment",
           "racine": "ع-ذ-ب",
           "frequence_coran": 373
+        },
+        {
+          "ar": "مُّهِينٌ",
+          "translit": "muhīnun",
+          "fr": "avilissant",
+          "racine": "ه-و-ن",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -1089,25 +1105,12 @@ const S058 = {
           "frequence_coran": 6
         },
         {
-          "ar": "إِلَّا",
-          "translit": "illā",
-          "fr": "sauf",
-          "racine": "particule d’exception",
-          "frequence_coran": 662
-        },
-        {
-          "ar": "هُوَ",
-          "translit": "huwa",
-          "fr": "il",
-          "racine": "pronom personnel",
-          "frequence_coran": 265
-        },
-        {
-          "ar": "وَلَا",
-          "translit": "walā",
-          "fr": "et ne... pas",
-          "racine": "و + لَا",
-          "frequence_coran": 658
+          "ar": "ثَلَٰثَةٍ",
+          "translit": "thalāthatin",
+          "fr": "trois",
+          "racine": "ث-ل-ث",
+          "frequence_coran": 13,
+          "auto": true
         },
         {
           "ar": "إِلَّا",
@@ -1129,6 +1132,35 @@ const S058 = {
           "fr": "et ne... pas",
           "racine": "و + لَا",
           "frequence_coran": 658
+        },
+        {
+          "ar": "إِلَّا",
+          "translit": "illā",
+          "fr": "sauf",
+          "racine": "particule d’exception",
+          "frequence_coran": 662
+        },
+        {
+          "ar": "هُوَ",
+          "translit": "huwa",
+          "fr": "il",
+          "racine": "pronom personnel",
+          "frequence_coran": 265
+        },
+        {
+          "ar": "وَلَا",
+          "translit": "walā",
+          "fr": "et ne... pas",
+          "racine": "و + لَا",
+          "frequence_coran": 658
+        },
+        {
+          "ar": "أَدْنَىٰ",
+          "translit": "adnā",
+          "fr": "plus proche",
+          "racine": "د-ن-و",
+          "frequence_coran": 12,
+          "auto": true
         },
         {
           "ar": "مِن",
@@ -1530,6 +1562,14 @@ const S058 = {
           "fr": "Jahannam",
           "racine": "nom propre",
           "frequence_coran": 54
+        },
+        {
+          "ar": "يَصْلَوْنَهَا",
+          "translit": "yaṣlawnahā",
+          "fr": "subir (le feu)",
+          "racine": "ص-ل-ي",
+          "frequence_coran": 12,
+          "auto": true
         },
         {
           "ar": "فَبِئْسَ",
@@ -1962,6 +2002,14 @@ const S058 = {
           "fr": "savoir",
           "racine": "ع-ل-م",
           "frequence_coran": 105
+        },
+        {
+          "ar": "دَرَجَٰتٍ",
+          "translit": "darajātin",
+          "fr": "degré",
+          "racine": "د-ر-ج",
+          "frequence_coran": 18,
+          "auto": true
         },
         {
           "ar": "وَاللَّهُ",
@@ -2537,6 +2585,14 @@ const S058 = {
       },
       "mots": [
         {
+          "ar": "أَعَدَّ",
+          "translit": "aʿadda",
+          "fr": "préparer",
+          "racine": "ع-د-د",
+          "frequence_coran": 20,
+          "auto": true
+        },
+        {
           "ar": "اللَّهُ",
           "translit": "llāhu",
           "fr": "Allah",
@@ -2689,6 +2745,14 @@ const S058 = {
           "fr": "châtiment",
           "racine": "ع-ذ-ب",
           "frequence_coran": 373
+        },
+        {
+          "ar": "مُّهِينٌ",
+          "translit": "muhīnun",
+          "fr": "avilissant",
+          "racine": "ه-و-ن",
+          "frequence_coran": 14,
+          "auto": true
         }
       ],
       "niveau_couche": 3

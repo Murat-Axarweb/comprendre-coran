@@ -123,6 +123,14 @@ const S069 = {
           "frequence_coran": 646
         },
         {
+          "ar": "أَدْرَىٰكَ",
+          "translit": "adrāka",
+          "fr": "faire savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 15,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -978,6 +986,14 @@ const S069 = {
           "frequence_coran": 63
         },
         {
+          "ar": "تُعْرَضُونَ",
+          "translit": "tuʿraḍūna",
+          "fr": "présenter",
+          "racine": "ع-ر-ض",
+          "frequence_coran": 11,
+          "auto": true
+        },
+        {
           "ar": "لَا",
           "translit": "lā",
           "fr": "non",
@@ -1451,6 +1467,14 @@ const S069 = {
           "frequence_coran": 47
         },
         {
+          "ar": "أَدْرِ",
+          "translit": "adri",
+          "fr": "savoir",
+          "racine": "د-ر-ي",
+          "frequence_coran": 12,
+          "auto": true
+        },
+        {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
@@ -1544,6 +1568,14 @@ const S069 = {
           "fr": "ce que",
           "racine": "particule",
           "frequence_coran": 1010
+        },
+        {
+          "ar": "أَغْنَىٰ",
+          "translit": "aghnā",
+          "fr": "enrichir",
+          "racine": "غ-ن-ي",
+          "frequence_coran": 14,
+          "auto": true
         },
         {
           "ar": "عَنِّي",
@@ -1728,6 +1760,14 @@ const S069 = {
           "fr": "sept",
           "racine": "س-ب-ع",
           "frequence_coran": 8,
+          "auto": true
+        },
+        {
+          "ar": "فَاسْلُكُوهُ",
+          "translit": "faslukūhu",
+          "fr": "emprunter (un chemin)",
+          "racine": "س-ل-ك",
+          "frequence_coran": 12,
           "auto": true
         }
       ],
@@ -2595,6 +2635,14 @@ const S069 = {
           "fr": "rappel",
           "racine": "ذ-ك-ر",
           "frequence_coran": 7
+        },
+        {
+          "ar": "لِّلْمُتَّقِينَ",
+          "translit": "lilmuttaqīna",
+          "fr": "pieux",
+          "racine": "و-ق-ي",
+          "frequence_coran": 24,
+          "auto": true
         }
       ],
       "niveau_couche": 3
@@ -2646,6 +2694,14 @@ const S069 = {
           "fr": "de vous",
           "racine": "مِن + كُمْ",
           "frequence_coran": 105
+        },
+        {
+          "ar": "مُّكَذِّبِينَ",
+          "translit": "mukadhdhibīna",
+          "fr": "ceux qui crient au mensonge",
+          "racine": "ك-ذ-ب",
+          "frequence_coran": 21,
+          "auto": true
         }
       ],
       "niveau_couche": 3
