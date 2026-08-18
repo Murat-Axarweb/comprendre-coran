@@ -52,6 +52,8 @@ const S109 = {
           "ar": "قُلْ",
           "translit": "qul",
           "fr": "dis",
+          "en": "Say",
+          "tr": "de ki",
           "racine": "ق-و-ل",
           "frequence_coran": 332
         },
@@ -59,6 +61,8 @@ const S109 = {
           "ar": "يَـٰأَيُّهَا",
           "translit": "yāʾayyuhā",
           "fr": "ô vous",
+          "en": "O",
+          "tr": "ey",
           "racine": "— (vocatif)",
           "frequence_coran": 0
         },
@@ -66,6 +70,8 @@ const S109 = {
           "ar": "الْكَٰفِرُونَ",
           "translit": "l-kāfirūna",
           "fr": "les dénégateurs",
+          "en": "disbelievers",
+          "tr": "inkar edenler",
           "racine": "ك-ف-ر",
           "frequence_coran": 525
         }
@@ -95,6 +101,8 @@ const S109 = {
           "ar": "لَا",
           "translit": "lā",
           "fr": "ne... pas",
+          "en": "Not",
+          "tr": "ben ibadet etmem",
           "racine": "— (négation)",
           "frequence_coran": 0
         },
@@ -102,6 +110,8 @@ const S109 = {
           "ar": "أَعْبُدُ",
           "translit": "aʿbudu",
           "fr": "j'adore",
+          "en": "I worship",
+          "tr": "",
           "racine": "ع-ب-د",
           "frequence_coran": 275
         },
@@ -109,6 +119,8 @@ const S109 = {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce que",
+          "en": "what",
+          "tr": "şeye",
           "racine": "— (relatif)",
           "frequence_coran": 0
         },
@@ -116,6 +128,8 @@ const S109 = {
           "ar": "تَعْبُدُونَ",
           "translit": "taʿbudūna",
           "fr": "vous adorez",
+          "en": "you worship",
+          "tr": "sizin taptığınız",
           "racine": "ع-ب-د",
           "frequence_coran": 275
         }
@@ -145,6 +159,8 @@ const S109 = {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et ne... pas",
+          "en": "And not",
+          "tr": "ve (etmezsiniz)",
           "racine": "— (négation)",
           "frequence_coran": 0
         },
@@ -152,6 +168,8 @@ const S109 = {
           "ar": "أَنتُمْ",
           "translit": "antum",
           "fr": "vous",
+          "en": "you",
+          "tr": "siz de",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -159,6 +177,8 @@ const S109 = {
           "ar": "عَٰبِدُونَ",
           "translit": "ʿābidūna",
           "fr": "êtes adorateurs",
+          "en": "(are) worshippers",
+          "tr": "ibadeti",
           "racine": "ع-ب-د",
           "frequence_coran": 275
         },
@@ -166,6 +186,8 @@ const S109 = {
           "ar": "مَا",
           "translit": "mā",
           "fr": "de ce que",
+          "en": "(of) what",
+          "tr": "benim taptığıma",
           "racine": "— (relatif)",
           "frequence_coran": 0
         },
@@ -173,6 +195,8 @@ const S109 = {
           "ar": "أَعْبُدُ",
           "translit": "aʿbudu",
           "fr": "j'adore",
+          "en": "I worship",
+          "tr": "",
           "racine": "ع-ب-د",
           "frequence_coran": 275
         }
@@ -202,6 +226,8 @@ const S109 = {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et ne... pas",
+          "en": "And not",
+          "tr": "ve değil(im)",
           "racine": "— (négation)",
           "frequence_coran": 0
         },
@@ -209,6 +235,8 @@ const S109 = {
           "ar": "أَنَا",
           "translit": "anā",
           "fr": "moi",
+          "en": "I am",
+          "tr": "ben",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -216,6 +244,8 @@ const S109 = {
           "ar": "عَابِدٌ",
           "translit": "ʿābidun",
           "fr": "je suis adorateur",
+          "en": "a worshipper",
+          "tr": "ibadet eden",
           "racine": "ع-ب-د",
           "frequence_coran": 275
         },
@@ -223,6 +253,8 @@ const S109 = {
           "ar": "مَّا",
           "translit": "mā",
           "fr": "de ce que",
+          "en": "(of) what",
+          "tr": "sizin taptıklarınıza",
           "racine": "— (relatif)",
           "frequence_coran": 0
         },
@@ -230,6 +262,8 @@ const S109 = {
           "ar": "عَبَدتُّمْ",
           "translit": "ʿabadtum",
           "fr": "vous avez adoré",
+          "en": "you worship",
+          "tr": "",
           "racine": "ع-ب-د",
           "frequence_coran": 275
         }
@@ -259,6 +293,8 @@ const S109 = {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et ne... pas",
+          "en": "And not",
+          "tr": "ve değilsiniz",
           "racine": "— (négation)",
           "frequence_coran": 0
         },
@@ -266,6 +302,8 @@ const S109 = {
           "ar": "أَنتُمْ",
           "translit": "antum",
           "fr": "vous",
+          "en": "you",
+          "tr": "siz de",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -273,6 +311,8 @@ const S109 = {
           "ar": "عَٰبِدُونَ",
           "translit": "ʿābidūna",
           "fr": "êtes adorateurs",
+          "en": "(are) worshippers",
+          "tr": "ibadet eden",
           "racine": "ع-ب-د",
           "frequence_coran": 275
         },
@@ -280,6 +320,8 @@ const S109 = {
           "ar": "مَا",
           "translit": "mā",
           "fr": "de ce que",
+          "en": "(of) what",
+          "tr": "benim ibadet ettiğime",
           "racine": "— (relatif)",
           "frequence_coran": 0
         },
@@ -287,6 +329,8 @@ const S109 = {
           "ar": "أَعْبُدُ",
           "translit": "aʿbudu",
           "fr": "j'adore",
+          "en": "I worship",
+          "tr": "",
           "racine": "ع-ب-د",
           "frequence_coran": 275
         }
@@ -316,6 +360,8 @@ const S109 = {
           "ar": "لَكُمْ",
           "translit": "lakum",
           "fr": "à vous",
+          "en": "For you",
+          "tr": "sizindir",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -323,6 +369,8 @@ const S109 = {
           "ar": "دِينُكُمْ",
           "translit": "dīnukum",
           "fr": "votre religion",
+          "en": "(is) your religion",
+          "tr": "sizin dininiz",
           "racine": "د-ي-ن",
           "frequence_coran": 92,
           "famille": [
@@ -336,6 +384,8 @@ const S109 = {
           "ar": "وَلِيَ",
           "translit": "waliya",
           "fr": "et à moi",
+          "en": "and for me",
+          "tr": "ve benimdir",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -343,6 +393,8 @@ const S109 = {
           "ar": "دِينِ",
           "translit": "dīni",
           "fr": "ma religion",
+          "en": "(is) my religion",
+          "tr": "benim dinim",
           "racine": "د-ي-ن",
           "frequence_coran": 92
         }

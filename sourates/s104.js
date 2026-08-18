@@ -53,6 +53,8 @@ const S104 = {
           "ar": "وَيْلٌ",
           "translit": "waylun",
           "fr": "malheur à",
+          "en": "Woe",
+          "tr": "vay haline",
           "racine": "و-ي-ل",
           "frequence_coran": 40
         },
@@ -60,6 +62,8 @@ const S104 = {
           "ar": "لِّكُلِّ",
           "translit": "likulli",
           "fr": "tout / chaque",
+          "en": "to every",
+          "tr": "herkesin",
           "racine": "ك-ل-ل",
           "frequence_coran": 358
         },
@@ -67,6 +71,8 @@ const S104 = {
           "ar": "هُمَزَةٍ",
           "translit": "humazatin",
           "fr": "calomniateur",
+          "en": "slanderer",
+          "tr": "diliyle çekiştiren",
           "racine": "ه-م-ز",
           "frequence_coran": 3
         },
@@ -74,6 +80,8 @@ const S104 = {
           "ar": "لُّمَزَةٍ",
           "translit": "lumazatin",
           "fr": "dénigreur",
+          "en": "backbiter",
+          "tr": "kaş göz işaretleriyle alay eden",
           "racine": "ل-م-ز",
           "frequence_coran": 4
         }
@@ -110,6 +118,8 @@ const S104 = {
           "ar": "الَّذِي",
           "translit": "alladhī",
           "fr": "celui qui",
+          "en": "The one who",
+          "tr": "o ki",
           "racine": "— (relatif)",
           "frequence_coran": 1080
         },
@@ -117,6 +127,8 @@ const S104 = {
           "ar": "جَمَعَ",
           "translit": "jamaʿa",
           "fr": "a amassé",
+          "en": "collects",
+          "tr": "yığdı",
           "racine": "ج-م-ع",
           "frequence_coran": 129
         },
@@ -124,6 +136,8 @@ const S104 = {
           "ar": "مَالًا",
           "translit": "mālan",
           "fr": "une fortune",
+          "en": "wealth",
+          "tr": "mal",
           "racine": "م-و-ل",
           "frequence_coran": 86
         },
@@ -131,6 +145,8 @@ const S104 = {
           "ar": "وَعَدَّدَهُ",
           "translit": "waʿaddadahū",
           "fr": "et l'a comptée sans cesse",
+          "en": "and counts it",
+          "tr": "ve onu saydı durdu",
           "racine": "ع-د-د",
           "frequence_coran": 57
         }
@@ -167,6 +183,8 @@ const S104 = {
           "ar": "يَحْسَبُ",
           "translit": "yaḥsabu",
           "fr": "il pense",
+          "en": "Thinking",
+          "tr": "sanıyor",
           "racine": "ح-س-ب",
           "frequence_coran": 109
         },
@@ -174,6 +192,8 @@ const S104 = {
           "ar": "أَنَّ",
           "translit": "anna",
           "fr": "que",
+          "en": "that",
+          "tr": "muhakkak",
           "racine": "— (particule)",
           "frequence_coran": 0
         },
@@ -181,6 +201,8 @@ const S104 = {
           "ar": "مَالَهُ",
           "translit": "mālahū",
           "fr": "sa fortune",
+          "en": "his wealth",
+          "tr": "malının",
           "racine": "م-و-ل",
           "frequence_coran": 86
         },
@@ -188,6 +210,8 @@ const S104 = {
           "ar": "أَخْلَدَهُ",
           "translit": "akhladahū",
           "fr": "l'a rendu immortel",
+          "en": "will make him immortal",
+          "tr": "onu ebedi yaşatacağını",
           "racine": "خ-ل-د",
           "frequence_coran": 87
         }
@@ -217,6 +241,8 @@ const S104 = {
           "ar": "كَلَّا",
           "translit": "kallā",
           "fr": "que non !",
+          "en": "Nay",
+          "tr": "hayır",
           "racine": "— (réfutation)",
           "frequence_coran": 33
         },
@@ -224,6 +250,8 @@ const S104 = {
           "ar": "لَيُنبَذَنَّ",
           "translit": "layunbadhanna",
           "fr": "il sera certes précipité",
+          "en": "Surely he will be thrown",
+          "tr": "andolsun o atılacaktır",
           "racine": "ن-ب-ذ",
           "frequence_coran": 12
         },
@@ -231,6 +259,8 @@ const S104 = {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
+          "en": "in",
+          "tr": "Hutame'ye",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -238,6 +268,8 @@ const S104 = {
           "ar": "الْحُطَمَةِ",
           "translit": "l-ḥuṭamati",
           "fr": "la Hutama (la Broyeuse)",
+          "en": "the Crusher",
+          "tr": "",
           "racine": "ح-ط-م",
           "frequence_coran": 3
         }
@@ -267,6 +299,8 @@ const S104 = {
           "ar": "وَمَا",
           "translit": "wamā",
           "fr": "et qu'est-ce qui",
+          "en": "And what",
+          "tr": "nedir?",
           "racine": "— (interrogatif)",
           "frequence_coran": 0
         },
@@ -274,6 +308,8 @@ const S104 = {
           "ar": "أَدْرَىٰكَ",
           "translit": "adrāka",
           "fr": "t'a fait savoir",
+          "en": "will make you know",
+          "tr": "bilir misin?",
           "racine": "د-ر-ي",
           "frequence_coran": 29
         },
@@ -281,6 +317,8 @@ const S104 = {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce qu'est",
+          "en": "what",
+          "tr": "nedir",
           "racine": "— (interrogatif)",
           "frequence_coran": 0
         },
@@ -288,6 +326,8 @@ const S104 = {
           "ar": "الْحُطَمَةُ",
           "translit": "l-ḥuṭamatu",
           "fr": "la Hutama",
+          "en": "the Crusher (is)",
+          "tr": "Hutame",
           "racine": "ح-ط-م",
           "frequence_coran": 3
         }
@@ -317,6 +357,8 @@ const S104 = {
           "ar": "نَارُ",
           "translit": "nāru",
           "fr": "le feu (de)",
+          "en": "A Fire",
+          "tr": "ateşidir",
           "racine": "ن-و-ر",
           "frequence_coran": 145
         },
@@ -324,6 +366,8 @@ const S104 = {
           "ar": "اللَّهِ",
           "translit": "llāhi",
           "fr": "Allah",
+          "en": "Allah",
+          "tr": "Allah'ın",
           "racine": "أ-ل-ه",
           "frequence_coran": 2699
         },
@@ -331,6 +375,8 @@ const S104 = {
           "ar": "الْمُوقَدَةُ",
           "translit": "l-mūqadatu",
           "fr": "attisé",
+          "en": "kindled",
+          "tr": "tutuşturulmuş",
           "racine": "و-ق-د",
           "frequence_coran": 11
         }
@@ -367,6 +413,8 @@ const S104 = {
           "ar": "الَّتِي",
           "translit": "allatī",
           "fr": "celui qui",
+          "en": "Which",
+          "tr": "ki",
           "racine": "— (relatif)",
           "frequence_coran": 0
         },
@@ -374,6 +422,8 @@ const S104 = {
           "ar": "تَطَّلِعُ",
           "translit": "taṭṭaliʿu",
           "fr": "monte / s'élève",
+          "en": "mounts up",
+          "tr": "işler",
           "racine": "ط-ل-ع",
           "frequence_coran": 19
         },
@@ -381,6 +431,8 @@ const S104 = {
           "ar": "عَلَى",
           "translit": "ʿalā",
           "fr": "jusqu'aux",
+          "en": "to",
+          "tr": "gönüllere",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -388,6 +440,8 @@ const S104 = {
           "ar": "الْأَفْـءِدَةِ",
           "translit": "l-ʾafʾidati",
           "fr": "cœurs profonds",
+          "en": "the hearts",
+          "tr": "",
           "racine": "ف-أ-د",
           "frequence_coran": 16,
           "famille": [
@@ -429,6 +483,8 @@ const S104 = {
           "ar": "إِنَّهَا",
           "translit": "innahā",
           "fr": "certes lui (le feu)",
+          "en": "Indeed,it",
+          "tr": "şüphesiz o",
           "racine": "— (particule)",
           "frequence_coran": 0
         },
@@ -436,6 +492,8 @@ const S104 = {
           "ar": "عَلَيْهِم",
           "translit": "ʿalayhim",
           "fr": "sur eux",
+          "en": "(will be) upon them",
+          "tr": "onların üzerine",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -443,6 +501,8 @@ const S104 = {
           "ar": "مُّؤْصَدَةٌ",
           "translit": "muʾṣadatun",
           "fr": "refermé",
+          "en": "closed over",
+          "tr": "kapatılıp kilitlenecektir",
           "racine": "و-ص-د",
           "frequence_coran": 2
         }
@@ -479,6 +539,8 @@ const S104 = {
           "ar": "فِي",
           "translit": "fī",
           "fr": "en",
+          "en": "In",
+          "tr": "arasında",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -486,6 +548,8 @@ const S104 = {
           "ar": "عَمَدٍ",
           "translit": "ʿamadin",
           "fr": "colonnes",
+          "en": "columns",
+          "tr": "direkler",
           "racine": "ع-م-د",
           "frequence_coran": 7
         },
@@ -493,6 +557,8 @@ const S104 = {
           "ar": "مُّمَدَّدَةٍ",
           "translit": "mumaddadati",
           "fr": "étendues",
+          "en": "extended",
+          "tr": "uzatılmış",
           "racine": "م-د-د",
           "frequence_coran": 32
         }

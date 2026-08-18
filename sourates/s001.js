@@ -54,6 +54,8 @@ const S001 = {
           "ar": "بِسْمِ",
           "translit": "bismi",
           "fr": "au nom de",
+          "en": "In (the) name",
+          "tr": "adıyla",
           "racine": "س-م-و",
           "frequence_coran": 22
         },
@@ -61,6 +63,8 @@ const S001 = {
           "ar": "اللَّهِ",
           "translit": "llāhi",
           "fr": "Allah",
+          "en": "(of) Allah",
+          "tr": "Allah'ın",
           "racine": "أ-ل-ه",
           "frequence_coran": 2699
         },
@@ -68,6 +72,8 @@ const S001 = {
           "ar": "الرَّحْمَٰنِ",
           "translit": "r-raḥmāni",
           "fr": "le Tout-Miséricordieux",
+          "en": "the Most Gracious",
+          "tr": "Rahman",
           "racine": "ر-ح-م",
           "frequence_coran": 57
         },
@@ -75,6 +81,8 @@ const S001 = {
           "ar": "الرَّحِيمِ",
           "translit": "r-raḥīmi",
           "fr": "le Très-Miséricordieux",
+          "en": "the Most Merciful",
+          "tr": "Rahim",
           "racine": "ر-ح-م",
           "frequence_coran": 115
         }
@@ -104,6 +112,8 @@ const S001 = {
           "ar": "الْحَمْدُ",
           "translit": "al-ḥamdu",
           "fr": "la louange",
+          "en": "All praises and thanks",
+          "tr": "hamdolsun",
           "racine": "ح-م-د",
           "frequence_coran": 43
         },
@@ -111,6 +121,8 @@ const S001 = {
           "ar": "لِلَّهِ",
           "translit": "lillāhi",
           "fr": "à Allah / pour Allah",
+          "en": "(be) to Allah",
+          "tr": "Allah'a",
           "racine": "أ-ل-ه",
           "frequence_coran": 2699
         },
@@ -118,6 +130,8 @@ const S001 = {
           "ar": "رَبِّ",
           "translit": "rabbi",
           "fr": "Seigneur",
+          "en": "the Lord",
+          "tr": "Rabbi",
           "racine": "ر-ب-ب",
           "frequence_coran": 970,
           "famille": [
@@ -131,6 +145,8 @@ const S001 = {
           "ar": "الْعَٰلَمِينَ",
           "translit": "l-ʿālamīna",
           "fr": "des mondes",
+          "en": "of the universe",
+          "tr": "Alemlerin",
           "racine": "ع-ل-م",
           "frequence_coran": 73
         }
@@ -160,6 +176,8 @@ const S001 = {
           "ar": "الرَّحْمَٰنِ",
           "translit": "ar-raḥmāni",
           "fr": "le Tout-Miséricordieux",
+          "en": "The Most Gracious",
+          "tr": "(O) Rahman'dır",
           "racine": "ر-ح-م",
           "frequence_coran": 57
         },
@@ -167,6 +185,8 @@ const S001 = {
           "ar": "الرَّحِيمِ",
           "translit": "r-raḥīmi",
           "fr": "le Très-Miséricordieux",
+          "en": "the Most Merciful",
+          "tr": "Rahim'dir",
           "racine": "ر-ح-م",
           "frequence_coran": 115
         }
@@ -196,6 +216,8 @@ const S001 = {
           "ar": "مَٰلِكِ",
           "translit": "māliki",
           "fr": "Maître / Possesseur",
+          "en": "(The) Master",
+          "tr": "sahibidir",
           "racine": "م-ل-ك",
           "frequence_coran": 3
         },
@@ -203,6 +225,8 @@ const S001 = {
           "ar": "يَوْمِ",
           "translit": "yawmi",
           "fr": "du Jour",
+          "en": "(of the) Day",
+          "tr": "gününün",
           "racine": "ي-و-م",
           "frequence_coran": 405
         },
@@ -210,6 +234,8 @@ const S001 = {
           "ar": "الدِّينِ",
           "translit": "d-dīni",
           "fr": "de la rétribution",
+          "en": "(of the) Judgment",
+          "tr": "Din",
           "racine": "د-ي-ن",
           "frequence_coran": 92
         }
@@ -239,6 +265,8 @@ const S001 = {
           "ar": "إِيَّاكَ",
           "translit": "iyyāka",
           "fr": "Toi seul",
+          "en": "You Alone",
+          "tr": "ancak sana",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -246,6 +274,8 @@ const S001 = {
           "ar": "نَعْبُدُ",
           "translit": "naʿbudu",
           "fr": "nous adorons",
+          "en": "we worship",
+          "tr": "kulluk ederiz",
           "racine": "ع-ب-د",
           "frequence_coran": 275,
           "famille": [
@@ -259,6 +289,8 @@ const S001 = {
           "ar": "وَإِيَّاكَ",
           "translit": "waʾiyyāka",
           "fr": "et Toi seul",
+          "en": "and You Alone",
+          "tr": "ancak senden",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -266,6 +298,8 @@ const S001 = {
           "ar": "نَسْتَعِينُ",
           "translit": "nastaʿīnu",
           "fr": "nous implorons l'aide",
+          "en": "we ask for help",
+          "tr": "yardım isteriz",
           "racine": "ع-و-ن",
           "frequence_coran": 11
         }
@@ -295,6 +329,8 @@ const S001 = {
           "ar": "اهْدِنَا",
           "translit": "ihdinā",
           "fr": "guide-nous",
+          "en": "Guide us",
+          "tr": "bizi ilet",
           "racine": "ه-د-ي",
           "frequence_coran": 316,
           "famille": [
@@ -308,6 +344,8 @@ const S001 = {
           "ar": "الصِّرَٰطَ",
           "translit": "ṣ-ṣirāṭa",
           "fr": "le chemin",
+          "en": "(to) the path",
+          "tr": "yola",
           "racine": "ص-ر-ط",
           "frequence_coran": 45
         },
@@ -315,6 +353,8 @@ const S001 = {
           "ar": "الْمُسْتَقِيمَ",
           "translit": "l-mustaqīma",
           "fr": "droit",
+          "en": "the straight",
+          "tr": "doğru",
           "racine": "ق-و-م",
           "frequence_coran": 37
         }
@@ -344,6 +384,8 @@ const S001 = {
           "ar": "صِرَٰطَ",
           "translit": "ṣirāṭa",
           "fr": "chemin (de)",
+          "en": "(The) path",
+          "tr": "yoluna",
           "racine": "ص-ر-ط",
           "frequence_coran": 45
         },
@@ -351,6 +393,8 @@ const S001 = {
           "ar": "الَّذِينَ",
           "translit": "lladhīna",
           "fr": "ceux que",
+          "en": "(of) those",
+          "tr": "onlar ki",
           "racine": "— (relatif)",
           "frequence_coran": 1080
         },
@@ -358,6 +402,8 @@ const S001 = {
           "ar": "أَنْعَمْتَ",
           "translit": "anʿamta",
           "fr": "Tu as comblés",
+          "en": "You have bestowed (Your) Favors",
+          "tr": "ni'met verdin",
           "racine": "ن-ع-م",
           "frequence_coran": 140
         },
@@ -365,6 +411,8 @@ const S001 = {
           "ar": "عَلَيْهِمْ",
           "translit": "ʿalayhim",
           "fr": "envers eux",
+          "en": "on them",
+          "tr": "kimselerin",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -372,6 +420,8 @@ const S001 = {
           "ar": "غَيْرِ",
           "translit": "ghayri",
           "fr": "autre que / non",
+          "en": "not (of)",
+          "tr": "değil",
           "racine": "غ-ي-ر",
           "frequence_coran": 147
         },
@@ -379,13 +429,17 @@ const S001 = {
           "ar": "الْمَغْضُوبِ",
           "translit": "l-maghḍūbi",
           "fr": "ceux qui ont encouru la colère",
+          "en": "those who earned (Your) wrath",
+          "tr": "gazabedilmiş olanların",
           "racine": "غ-ض-ب",
           "frequence_coran": 24
         },
         {
           "ar": "عَلَيْهِمْ",
           "translit": "ʿalayhim",
-          "fr": "sur eux",
+          "fr": "envers eux",
+          "en": "on themselves",
+          "tr": "kendilerine",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -393,6 +447,8 @@ const S001 = {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et non",
+          "en": "and not",
+          "tr": "ve değil",
           "racine": "— (négation)",
           "frequence_coran": 0
         },
@@ -400,6 +456,8 @@ const S001 = {
           "ar": "الضَّالِّينَ",
           "translit": "ḍ-ḍāllīna",
           "fr": "les égarés",
+          "en": "(of) those who go astray",
+          "tr": "sapmışların",
           "racine": "ض-ل-ل",
           "frequence_coran": 191
         }

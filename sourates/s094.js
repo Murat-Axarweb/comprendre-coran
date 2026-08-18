@@ -54,31 +54,39 @@ const S094 = {
           "ar": "أَلَمْ",
           "translit": "alam",
           "fr": "n’a-t-il pas ?",
+          "en": "Have not",
+          "tr": "açmadık mı?",
           "racine": "أ + لَمْ",
           "frequence_coran": 78
         },
         {
           "ar": "نَشْرَحْ",
           "translit": "nashraḥ",
-          "fr": "ouvrir",
+          "fr": "Nous avons ouvert",
+          "en": "We expanded",
+          "tr": "",
           "racine": "ش-ر-ح",
           "frequence_coran": 5,
-          "auto": true
+          "src": "wbw"
         },
         {
           "ar": "لَكَ",
           "translit": "laka",
           "fr": "à toi",
+          "en": "for you",
+          "tr": "senin",
           "racine": "لِ + كَ",
           "frequence_coran": 69
         },
         {
           "ar": "صَدْرَكَ",
           "translit": "ṣadraka",
-          "fr": "poitrine",
+          "fr": "ta poitrine ?",
+          "en": "your breast",
+          "tr": "göğsünü",
           "racine": "ص-د-ر",
           "frequence_coran": 40,
-          "auto": true
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2
@@ -105,26 +113,32 @@ const S094 = {
         {
           "ar": "وَوَضَعْنَا",
           "translit": "wawaḍaʿnā",
-          "fr": "poser",
+          "fr": "Et avons enlevé",
+          "en": "And We removed",
+          "tr": "ve atmadık mı?",
           "racine": "و-ض-ع",
           "frequence_coran": 26,
-          "auto": true
+          "src": "wbw"
         },
         {
           "ar": "عَنكَ",
           "translit": "ʿanka",
-          "fr": "de",
+          "fr": "(de) toi",
+          "en": "from you",
+          "tr": "senin üzerinden",
           "racine": "préposition",
           "frequence_coran": 153,
-          "auto": true
+          "src": "wbw"
         },
         {
           "ar": "وِزْرَكَ",
           "translit": "wizraka",
-          "fr": "fardeau",
+          "fr": "ton fardeau",
+          "en": "your burden",
+          "tr": "yükünü",
           "racine": "و-ز-ر",
           "frequence_coran": 12,
-          "auto": true
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2,
@@ -159,16 +173,28 @@ const S094 = {
           "ar": "الَّذِي",
           "translit": "alladhī",
           "fr": "celui qui",
+          "en": "Which",
+          "tr": "(o yük) ki",
           "racine": "pronom",
           "frequence_coran": 1464
         },
         {
+          "ar": "أَنقَضَ",
+          "translit": "anqaḍa",
+          "fr": "a surchargé",
+          "en": "weighed upon",
+          "tr": "çatırdatmıştı",
+          "src": "wbw"
+        },
+        {
           "ar": "ظَهْرَكَ",
           "translit": "ẓahraka",
-          "fr": "apparaître",
+          "fr": "ton dos ?",
+          "en": "your back",
+          "tr": "sırtını",
           "racine": "ظ-ه-ر",
           "frequence_coran": 26,
-          "auto": true
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2,
@@ -202,25 +228,31 @@ const S094 = {
         {
           "ar": "وَرَفَعْنَا",
           "translit": "warafaʿnā",
-          "fr": "élever",
+          "fr": "Et avons élevé",
+          "en": "And We raised high",
+          "tr": "ve yükseltmedik mi?",
           "racine": "ر-ف-ع",
           "frequence_coran": 29,
-          "auto": true
+          "src": "wbw"
         },
         {
           "ar": "لَكَ",
           "translit": "laka",
           "fr": "à toi",
+          "en": "for you",
+          "tr": "senin",
           "racine": "لِ + كَ",
           "frequence_coran": 69
         },
         {
           "ar": "ذِكْرَكَ",
           "translit": "dhikraka",
-          "fr": "souvenir",
+          "fr": "ton rappel ?",
+          "en": "your reputation",
+          "tr": "şanını",
           "racine": "ذ-ك-ر",
           "frequence_coran": 256,
-          "auto": true
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2
@@ -248,6 +280,8 @@ const S094 = {
           "ar": "فَإِنَّ",
           "translit": "faʾinna",
           "fr": "alors si",
+          "en": "So indeed",
+          "tr": "muhakkak (vardır)",
           "racine": "ف + إِنْ",
           "frequence_coran": 89
         },
@@ -255,6 +289,8 @@ const S094 = {
           "ar": "مَعَ",
           "translit": "maʿa",
           "fr": "avec",
+          "en": "with",
+          "tr": "beraber",
           "racine": "préposition",
           "frequence_coran": 58
         },
@@ -262,16 +298,20 @@ const S094 = {
           "ar": "الْعُسْرِ",
           "translit": "l-ʿusri",
           "fr": "difficulté",
+          "en": "the hardship",
+          "tr": "her güçlükle",
           "racine": "ع-س-ر",
           "frequence_coran": 12
         },
         {
           "ar": "يُسْرًا",
           "translit": "yusran",
-          "fr": "facilité",
+          "fr": "(il y a) de la facilité.",
+          "en": "(is) ease",
+          "tr": "bir kolaylık",
           "racine": "ي-س-ر",
           "frequence_coran": 12,
-          "auto": true
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2,
@@ -306,6 +346,8 @@ const S094 = {
           "ar": "إِنَّ",
           "translit": "inna",
           "fr": "certes",
+          "en": "Indeed",
+          "tr": "elbette (vardır)",
           "racine": "particule d’insistance",
           "frequence_coran": 609
         },
@@ -313,6 +355,8 @@ const S094 = {
           "ar": "مَعَ",
           "translit": "maʿa",
           "fr": "avec",
+          "en": "with",
+          "tr": "beraber",
           "racine": "préposition",
           "frequence_coran": 58
         },
@@ -320,16 +364,20 @@ const S094 = {
           "ar": "الْعُسْرِ",
           "translit": "l-ʿusri",
           "fr": "difficulté",
+          "en": "the hardship",
+          "tr": "her güçlükle",
           "racine": "ع-س-ر",
           "frequence_coran": 12
         },
         {
           "ar": "يُسْرًا",
           "translit": "yusran",
-          "fr": "facilité",
+          "fr": "(il y a) de la facilité.",
+          "en": "(is) ease",
+          "tr": "bir kolaylık",
           "racine": "ي-س-ر",
           "frequence_coran": 12,
-          "auto": true
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2,
@@ -364,8 +412,26 @@ const S094 = {
           "ar": "فَإِذَا",
           "translit": "faʾidhā",
           "fr": "alors quand",
+          "en": "So when",
+          "tr": "zaman",
           "racine": "ف + إِذَا",
           "frequence_coran": 86
+        },
+        {
+          "ar": "فَرَغْتَ",
+          "translit": "faraghta",
+          "fr": "tu es libre,",
+          "en": "you have finished",
+          "tr": "boşaldığın (işin bitince)",
+          "src": "wbw"
+        },
+        {
+          "ar": "فَانصَبْ",
+          "translit": "fanṣab",
+          "fr": "alors met en place",
+          "en": "then labor hard",
+          "tr": "(tekrar) başla",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2
@@ -393,6 +459,8 @@ const S094 = {
           "ar": "وَإِلَىٰ",
           "translit": "waʾilā",
           "fr": "vers",
+          "en": "And to",
+          "tr": "ve",
           "racine": "particule",
           "frequence_coran": 742
         },
@@ -400,8 +468,18 @@ const S094 = {
           "ar": "رَبِّكَ",
           "translit": "rabbika",
           "fr": "ton Seigneur",
+          "en": "your Lord",
+          "tr": "Rabb'ine",
           "racine": "ر-ب-ب",
           "frequence_coran": 116
+        },
+        {
+          "ar": "فَارْغَب",
+          "translit": "farghab",
+          "fr": "alors place tes désirs.",
+          "en": "turn your attention",
+          "tr": "niyaz et yalvar",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2

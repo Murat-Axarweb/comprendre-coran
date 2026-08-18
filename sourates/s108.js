@@ -53,6 +53,8 @@ const S108 = {
           "ar": "إِنَّا",
           "translit": "innā",
           "fr": "certes Nous",
+          "en": "Indeed,We",
+          "tr": "elbette biz",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -60,6 +62,8 @@ const S108 = {
           "ar": "أَعْطَيْنَٰكَ",
           "translit": "aʿṭaynāka",
           "fr": "Nous t'avons donné",
+          "en": "We have given you",
+          "tr": "sana verdik",
           "racine": "ع-ط-و",
           "frequence_coran": 14
         },
@@ -67,6 +71,8 @@ const S108 = {
           "ar": "الْكَوْثَرَ",
           "translit": "l-kawthara",
           "fr": "l'Abondance",
+          "en": "Al-Kauthar",
+          "tr": "Kevser'i",
           "racine": "ك-ث-ر",
           "frequence_coran": 167
         }
@@ -96,6 +102,8 @@ const S108 = {
           "ar": "فَصَلِّ",
           "translit": "faṣalli",
           "fr": "prie donc",
+          "en": "So pray",
+          "tr": "öyleyse namaz kıl",
           "racine": "ص-ل-و",
           "frequence_coran": 99
         },
@@ -103,6 +111,8 @@ const S108 = {
           "ar": "لِرَبِّكَ",
           "translit": "lirabbika",
           "fr": "pour ton Seigneur",
+          "en": "to your Lord",
+          "tr": "Rabbin için",
           "racine": "ر-ب-ب",
           "frequence_coran": 970
         },
@@ -110,6 +120,8 @@ const S108 = {
           "ar": "وَانْحَرْ",
           "translit": "wanḥar",
           "fr": "et sacrifie",
+          "en": "and sacrifice",
+          "tr": "ve kurban kes",
           "racine": "ن-ح-ر",
           "frequence_coran": 1
         }
@@ -139,6 +151,8 @@ const S108 = {
           "ar": "إِنَّ",
           "translit": "inna",
           "fr": "certes",
+          "en": "Indeed",
+          "tr": "şüphesiz",
           "racine": "— (particule)",
           "frequence_coran": 1536
         },
@@ -146,6 +160,8 @@ const S108 = {
           "ar": "شَانِئَكَ",
           "translit": "shāniʾaka",
           "fr": "celui qui te hait",
+          "en": "your enemy",
+          "tr": "sana buğzeden",
           "racine": "ش-ن-أ",
           "frequence_coran": 2
         },
@@ -153,6 +169,8 @@ const S108 = {
           "ar": "هُوَ",
           "translit": "huwa",
           "fr": "c'est lui",
+          "en": "he (is)",
+          "tr": "o",
           "racine": "— (pronom)",
           "frequence_coran": 657
         },
@@ -160,6 +178,8 @@ const S108 = {
           "ar": "الْأَبْتَرُ",
           "translit": "l-ʾabtaru",
           "fr": "l'amputé / sans postérité",
+          "en": "the one cut off",
+          "tr": "sonu kesik olandır",
           "racine": "ب-ت-ر",
           "frequence_coran": 1
         }

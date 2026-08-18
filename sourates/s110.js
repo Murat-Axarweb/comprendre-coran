@@ -54,6 +54,8 @@ const S110 = {
           "ar": "إِذَا",
           "translit": "idhā",
           "fr": "quand / lorsque",
+          "en": "When",
+          "tr": "zaman",
           "racine": "— (particule)",
           "frequence_coran": 0
         },
@@ -61,6 +63,8 @@ const S110 = {
           "ar": "جَاءَ",
           "translit": "jāʾa",
           "fr": "vient",
+          "en": "comes",
+          "tr": "geldiği",
           "racine": "ج-ي-أ",
           "frequence_coran": 278
         },
@@ -68,6 +72,8 @@ const S110 = {
           "ar": "نَصْرُ",
           "translit": "naṣru",
           "fr": "le secours (de)",
+          "en": "(the) Help",
+          "tr": "yardımı",
           "racine": "ن-ص-ر",
           "frequence_coran": 158
         },
@@ -75,6 +81,8 @@ const S110 = {
           "ar": "اللَّهِ",
           "translit": "llāhi",
           "fr": "Allah",
+          "en": "(of) Allah",
+          "tr": "Allah'ın",
           "racine": "أ-ل-ه",
           "frequence_coran": 2699
         },
@@ -82,6 +90,8 @@ const S110 = {
           "ar": "وَالْفَتْحُ",
           "translit": "wal-fatḥu",
           "fr": "et la victoire / l'ouverture",
+          "en": "and the Victory",
+          "tr": "ve fetih",
           "racine": "ف-ت-ح",
           "frequence_coran": 38
         }
@@ -118,6 +128,8 @@ const S110 = {
           "ar": "وَرَأَيْتَ",
           "translit": "waraʾayta",
           "fr": "et que tu vois",
+          "en": "And you see",
+          "tr": "ve gördüğün (zaman)",
           "racine": "ر-أ-ي",
           "frequence_coran": 328
         },
@@ -125,6 +137,8 @@ const S110 = {
           "ar": "النَّاسَ",
           "translit": "n-nāsa",
           "fr": "les gens",
+          "en": "the people",
+          "tr": "insanların",
           "racine": "أ-ن-س",
           "frequence_coran": 241
         },
@@ -132,6 +146,8 @@ const S110 = {
           "ar": "يَدْخُلُونَ",
           "translit": "yadkhulūna",
           "fr": "entrer",
+          "en": "entering",
+          "tr": "girdiklerini",
           "racine": "د-خ-ل",
           "frequence_coran": 126
         },
@@ -139,6 +155,8 @@ const S110 = {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
+          "en": "into",
+          "tr": "dinine",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -146,6 +164,8 @@ const S110 = {
           "ar": "دِينِ",
           "translit": "dīni",
           "fr": "la religion (de)",
+          "en": "(the) religion",
+          "tr": "",
           "racine": "د-ي-ن",
           "frequence_coran": 92
         },
@@ -153,6 +173,8 @@ const S110 = {
           "ar": "اللَّهِ",
           "translit": "llāhi",
           "fr": "Allah",
+          "en": "(of) Allah",
+          "tr": "Allah'ın",
           "racine": "أ-ل-ه",
           "frequence_coran": 2699
         },
@@ -160,6 +182,8 @@ const S110 = {
           "ar": "أَفْوَاجًا",
           "translit": "afwājan",
           "fr": "par vagues",
+          "en": "(in) multitudes",
+          "tr": "dalga dalga",
           "racine": "ف-و-ج",
           "frequence_coran": 5
         }
@@ -196,6 +220,8 @@ const S110 = {
           "ar": "فَسَبِّحْ",
           "translit": "fasabbiḥ",
           "fr": "alors glorifie",
+          "en": "Then glorify",
+          "tr": "o halde tesbih et",
           "racine": "س-ب-ح",
           "frequence_coran": 92
         },
@@ -203,6 +229,8 @@ const S110 = {
           "ar": "بِحَمْدِ",
           "translit": "biḥamdi",
           "fr": "par la louange (de)",
+          "en": "with (the) praises",
+          "tr": "överek",
           "racine": "ح-م-د",
           "frequence_coran": 68
         },
@@ -210,6 +238,8 @@ const S110 = {
           "ar": "رَبِّكَ",
           "translit": "rabbika",
           "fr": "ton Seigneur",
+          "en": "(of) your Lord",
+          "tr": "Rabbini",
           "racine": "ر-ب-ب",
           "frequence_coran": 970
         },
@@ -217,6 +247,8 @@ const S110 = {
           "ar": "وَاسْتَغْفِرْهُ",
           "translit": "wastaghfirhu",
           "fr": "et implore Son pardon",
+          "en": "and ask His forgiveness",
+          "tr": "ve O'ndan mağfiret dile",
           "racine": "غ-ف-ر",
           "frequence_coran": 234
         },
@@ -224,6 +256,8 @@ const S110 = {
           "ar": "إِنَّهُ",
           "translit": "innahū",
           "fr": "certes Il",
+          "en": "Indeed,He",
+          "tr": "çünkü O",
           "racine": "— (particule)",
           "frequence_coran": 0
         },
@@ -231,6 +265,8 @@ const S110 = {
           "ar": "كَانَ",
           "translit": "kāna",
           "fr": "est / a toujours été",
+          "en": "is",
+          "tr": "tevbeyi kabul edendir",
           "racine": "ك-و-ن",
           "frequence_coran": 1390
         },
@@ -238,6 +274,8 @@ const S110 = {
           "ar": "تَوَّابًا",
           "translit": "tawwābā",
           "fr": "Accueillant au repentir",
+          "en": "Oft-Returning",
+          "tr": "",
           "racine": "ت-و-ب",
           "frequence_coran": 87,
           "famille": [

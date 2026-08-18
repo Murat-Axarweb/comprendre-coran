@@ -72,49 +72,57 @@ const S112 = {
           "ar": "قُلْ",
           "translit": "qul",
           "fr": "dis",
+          "en": "Say",
+          "tr": "de ki",
           "racine": "ق-و-ل",
+          "frequence_coran": 332,
           "famille": [
             "قَوْل (qawl) — parole",
             "قَالَ (qāla) — il a dit",
             "مَقَال (maqāl) — discours",
             "أَقْوَال (aqwāl) — paroles (pluriel)"
           ],
-          "frequence_coran": 332,
           "profondeur": "Qul est un impératif direct adressé au Prophète ﷺ. Sa fréquence (332 fois) montre que le Coran est avant tout une parole vivante, transmise de bouche en bouche. Ce mot ouvre plusieurs sourates — c'est une invitation à proclamer, pas seulement à croire intérieurement."
         },
         {
           "ar": "هُوَ",
           "translit": "huwa",
           "fr": "il est / lui",
+          "en": "He",
+          "tr": "O",
           "racine": "h-w (pronom)",
+          "frequence_coran": 657,
           "famille": [
             "هِيَ (hiya) — elle",
             "هُمْ (hum) — ils",
             "هُوَ (huwa) — lui, pronom de la 3e personne masculin singulier"
           ],
-          "frequence_coran": 657,
           "profondeur": "Huwa précède le nom Allah — grammaticalement c'est un pronom de séparation qui crée une emphase. 'C'est LUI, Allah'. Pas 'Allah est unique' mais 'LUI — Allah — est unique'. La distinction est subtile mais intense en arabe."
         },
         {
           "ar": "اللَّهُ",
           "translit": "llāhu",
-          "fr": "Allah",
+          "fr": "Allâh,",
+          "en": "(is) Allah",
+          "tr": "Allah",
           "racine": "أ-ل-ه",
           "frequence_coran": 2699,
-          "auto": true
+          "src": "wbw"
         },
         {
           "ar": "أَحَدٌ",
           "translit": "aḥad",
           "fr": "unique / un absolu",
+          "en": "the One",
+          "tr": "birdir",
           "racine": "أ-ح-د",
+          "frequence_coran": 86,
           "famille": [
             "وَاحِد (wāḥid) — un (numérique)",
             "أَحَد (aḥad) — unique (absolu, sans équivalent)",
             "إِحْدَى (iḥdā) — l'une (féminin)",
             "آحَاد (āḥād) — unités"
           ],
-          "frequence_coran": 86,
           "profondeur": "Aḥad est fondamentalement différent de wāḥid. Wāḥid = un parmi d'autres possibles (un livre, deux livres...). Aḥad = unique en son genre, sans équivalent possible, sans second imaginable. Ce mot ne peut s'appliquer qu'à Allah dans le Coran — c'est sa désignation exclusive."
         }
       ],
@@ -142,22 +150,20 @@ const S112 = {
         {
           "ar": "اللَّهُ",
           "translit": "allāhu",
-          "fr": "Allah",
+          "fr": "Allâh (est)",
+          "en": "Allah",
+          "tr": "Allah",
           "racine": "أ-ل-ه",
           "frequence_coran": 2699,
-          "auto": true
+          "src": "wbw"
         },
         {
-          "ar": "الصَّمَدُ",
-          "translit": "aṣ-ṣamad",
-          "fr": "l'Imploré absolu / le Permanent",
-          "racine": "ص-م-د",
-          "famille": [
-            "صَمَدَ (ṣamada) — résister, tenir ferme",
-            "صَمْد (ṣamd) — solidité, densité absolue"
-          ],
-          "frequence_coran": 1,
-          "profondeur": "As-Ṣamad n'apparaît qu'UNE SEULE fois dans tout le Coran — ici. C'est l'un des mots les plus riches et les plus intraduisibles. Il désigne : celui vers qui tous se tournent dans le besoin, qui n'a lui-même aucun besoin, qui est plein et dense (sans creux, sans manque), qui ne dort pas, ne mange pas, ne dépend de rien. Toutes les traductions sont des approximations."
+          "ar": "الصَّمَدُ",
+          "translit": "ṣ-ṣamadu",
+          "fr": "L’Indépendant Suprême.",
+          "en": "the Eternal,the Absolute",
+          "tr": "Samed'dir",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2
@@ -185,20 +191,25 @@ const S112 = {
           "ar": "لَمْ",
           "translit": "lam",
           "fr": "ne... pas (passé)",
+          "en": "Not",
+          "tr": "doğurmamıştır",
           "racine": "particule de négation",
+          "frequence_coran": 1317,
           "famille": [
             "لَا (lā) — non / ne pas (présent-futur)",
             "لَمْ (lam) — ne pas (passé, accompli nié)",
             "لَنْ (lan) — ne jamais (futur nié)"
           ],
-          "frequence_coran": 1317,
           "profondeur": "Lam nie un accompli — quelque chose qui n'a jamais eu lieu et ne peut avoir eu lieu. Ce n'est pas 'il ne génère pas' (présent), mais 'cela n'a jamais été et ne sera jamais'. La négation est absolue, temporellement totale."
         },
         {
           "ar": "يَلِدْ",
           "translit": "yalid",
           "fr": "il engendre / il génère",
+          "en": "He begets",
+          "tr": "",
           "racine": "و-ل-د",
+          "frequence_coran": 23,
           "famille": [
             "وَلَد (walad) — enfant, descendance",
             "وِلَادَة (wilāda) — naissance",
@@ -207,29 +218,32 @@ const S112 = {
             "وَالِدَة (wālida) — mère",
             "أَوْلَاد (awlād) — enfants (pluriel)"
           ],
-          "frequence_coran": 23,
           "profondeur": "La racine w-l-d est l'une des plus fécondes du Coran (jeu de mots voulu). Elle couvre toute la chaîne de la naissance : l'acte, l'enfant, les parents, la naissance. Sa négation ici exclut toute filiation divine — ni fils, ni fille, ni père, ni ancêtre."
         },
         {
           "ar": "وَلَمْ",
           "translit": "wa-lam",
           "fr": "et ne... pas",
+          "en": "and not",
+          "tr": "ve",
           "racine": "particule",
-          "famille": [],
           "frequence_coran": 400,
+          "famille": [],
           "profondeur": "La conjonction wa (et) relie deux négations symétriques. La symétrie active/passive (yalid / yūlad) est une construction rhétorique élégante qui ferme toutes les portes : ni générateur, ni généré."
         },
         {
           "ar": "يُولَدْ",
           "translit": "yūlad",
           "fr": "il est engendré / il naît",
+          "en": "He is begotten",
+          "tr": "doğurulmamıştır",
           "racine": "و-ل-د",
+          "frequence_coran": 3,
           "famille": [
             "même racine que yalid — forme passive",
             "يُولَد (yūlad) — forme passive : être engendré",
             "مَوْلِد (mawlid) — lieu ou moment de naissance"
           ],
-          "frequence_coran": 3,
           "profondeur": "Yūlad est la forme passive de yalid — même racine, miroir grammatical. Cette symétrie active/passive en deux mots est un chef-d'œuvre de concision : aucun père, aucun fils, aucune généalogie possible dans aucune direction."
         }
       ],
@@ -258,16 +272,21 @@ const S112 = {
           "ar": "وَلَمْ",
           "translit": "wa-lam",
           "fr": "et ne... pas",
+          "en": "And not",
+          "tr": "ve",
           "racine": "particule",
-          "famille": [],
           "frequence_coran": 400,
+          "famille": [],
           "profondeur": "Troisième négation de la sourate. La sourate est construite sur des affirmations (v.1-2) puis des négations (v.3-4) — une architecture d'exclusion progressive."
         },
         {
           "ar": "يَكُن",
           "translit": "yakun",
           "fr": "il y a / il est (subjonctif)",
+          "en": "is",
+          "tr": "olmamıştır",
           "racine": "ك-و-ن",
+          "frequence_coran": 1360,
           "famille": [
             "كَانَ (kāna) — il était",
             "يَكُون (yakūn) — il sera",
@@ -276,47 +295,44 @@ const S112 = {
             "مَكَان (makān) — lieu",
             "كَائِن (kāʾin) — être, existant"
           ],
-          "frequence_coran": 1360,
           "profondeur": "La racine k-w-n est la racine de l'existence elle-même. Kun (سois !) est le mot divin de la création dans le Coran. Yakun ici nie toute existence d'un égal — en utilisant la racine même de l'existence pour dire qu'aucun comparable n'existe."
         },
         {
-          "ar": "لَّهُ",
+          "ar": "لَّهُ",
           "translit": "lahū",
-          "fr": "pour lui / à lui",
-          "racine": "pronom",
-          "famille": [
-            "لِي (lī) — pour moi",
-            "لَكَ (laka) — pour toi",
-            "لَهُ (lahū) — pour lui",
-            "لَنَا (lanā) — pour nous"
-          ],
-          "frequence_coran": 1243,
-          "profondeur": "Lahū place Allah en position de référence absolue. La construction 'lam yakun lahū kufuwan aḥad' est inversée par rapport à l'ordre français — en arabe le bénéficiaire (lahū) vient avant le sujet (aḥad), ce qui crée une emphase sur 'lui'."
+          "fr": "à Lui",
+          "en": "for Him",
+          "tr": "O'nun",
+          "src": "wbw"
         },
         {
           "ar": "كُفُوًا",
           "translit": "kufuwan",
           "fr": "égal / équivalent / homologue",
+          "en": "equivalent",
+          "tr": "dengi",
           "racine": "ك-ف-أ",
+          "frequence_coran": 1,
           "famille": [
             "كُفْء (kufʾ) — égal, pair, homologue",
             "كَفَأَ (kafaʾa) — être égal à",
             "مُكَافَأَة (mukāfaʾa) — récompense, équivalence",
             "تَكَافُؤ (takāfuʾ) — égalité, équilibre"
           ],
-          "frequence_coran": 1,
           "profondeur": "Kufuwan n'apparaît qu'une seule fois dans le Coran — ici. Il désigne l'égal au sens fort : celui qui peut être mis en face, en miroir, en balance. En le plaçant avant aḥad (ordre inversé), le Coran met l'accent sur l'absence d'équivalent avant même de dire 'personne'."
         },
         {
           "ar": "أَحَدٌ",
           "translit": "aḥad",
           "fr": "quiconque / personne",
+          "en": "any [one]",
+          "tr": "hiçbir şey",
           "racine": "أ-ح-د",
+          "frequence_coran": 86,
           "famille": [
             "voir verset 1 — même mot, sens différent selon contexte",
             "Dans une négation : aḥad = personne, quiconque"
           ],
-          "frequence_coran": 86,
           "profondeur": "Magnifique clôture : la sourate s'ouvre sur aḥad (l'Unique) et se ferme sur aḥad (personne). Le même mot, utilisé d'abord pour qualifier Allah, revient pour nier tout équivalent. Une boucle stylistique parfaite."
         }
       ],

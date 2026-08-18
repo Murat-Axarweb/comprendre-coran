@@ -54,6 +54,8 @@ const S107 = {
           "ar": "أَرَءَيْتَ",
           "translit": "araʾayta",
           "fr": "as-tu vu ?",
+          "en": "Have you seen",
+          "tr": "gördün mü?",
           "racine": "ر-أ-ي",
           "frequence_coran": 328
         },
@@ -61,6 +63,8 @@ const S107 = {
           "ar": "الَّذِي",
           "translit": "lladhī",
           "fr": "celui qui",
+          "en": "the one who",
+          "tr": "kimseyi",
           "racine": "— (relatif)",
           "frequence_coran": 1080
         },
@@ -68,6 +72,8 @@ const S107 = {
           "ar": "يُكَذِّبُ",
           "translit": "yukadhdhibu",
           "fr": "dément / traite de mensonge",
+          "en": "denies",
+          "tr": "yalanlayan",
           "racine": "ك-ذ-ب",
           "frequence_coran": 250
         },
@@ -75,6 +81,8 @@ const S107 = {
           "ar": "بِالدِّينِ",
           "translit": "bid-dīni",
           "fr": "la Rétribution",
+          "en": "the Judgment",
+          "tr": "dini",
           "racine": "د-ي-ن",
           "frequence_coran": 92
         }
@@ -104,6 +112,8 @@ const S107 = {
           "ar": "فَذَٰلِكَ",
           "translit": "fadhālika",
           "fr": "c'est donc celui-là",
+          "en": "Then that",
+          "tr": "işte o",
           "racine": "— (démonstratif)",
           "frequence_coran": 0
         },
@@ -111,6 +121,8 @@ const S107 = {
           "ar": "الَّذِي",
           "translit": "lladhī",
           "fr": "qui",
+          "en": "(is) the one who",
+          "tr": "iter kakar",
           "racine": "— (relatif)",
           "frequence_coran": 1080
         },
@@ -118,6 +130,8 @@ const S107 = {
           "ar": "يَدُعُّ",
           "translit": "yaduʿʿu",
           "fr": "repousse brutalement",
+          "en": "repulses",
+          "tr": "",
           "racine": "د-ع-ع",
           "frequence_coran": 2
         },
@@ -125,6 +139,8 @@ const S107 = {
           "ar": "الْيَتِيمَ",
           "translit": "l-yatīma",
           "fr": "l'orphelin",
+          "en": "the orphan",
+          "tr": "öksüzü",
           "racine": "ي-ت-م",
           "frequence_coran": 23
         }
@@ -161,6 +177,8 @@ const S107 = {
           "ar": "وَلَا",
           "translit": "walā",
           "fr": "et ne",
+          "en": "And (does) not",
+          "tr": "ve",
           "racine": "— (négation)",
           "frequence_coran": 0
         },
@@ -168,6 +186,8 @@ const S107 = {
           "ar": "يَحُضُّ",
           "translit": "yaḥuḍḍu",
           "fr": "encourage pas",
+          "en": "feel the urge",
+          "tr": "teşvik etmez",
           "racine": "ح-ض-ض",
           "frequence_coran": 3
         },
@@ -175,6 +195,8 @@ const S107 = {
           "ar": "عَلَىٰ",
           "translit": "ʿalā",
           "fr": "à",
+          "en": "to",
+          "tr": "doyurmaya",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -182,6 +204,8 @@ const S107 = {
           "ar": "طَعَامِ",
           "translit": "ṭaʿāmi",
           "fr": "nourrir",
+          "en": "feed",
+          "tr": "",
           "racine": "ط-ع-م",
           "frequence_coran": 48
         },
@@ -189,6 +213,8 @@ const S107 = {
           "ar": "الْمِسْكِينِ",
           "translit": "l-miskīni",
           "fr": "le pauvre",
+          "en": "the poor",
+          "tr": "yoksulu",
           "racine": "س-ك-ن",
           "frequence_coran": 23
         }
@@ -225,6 +251,8 @@ const S107 = {
           "ar": "فَوَيْلٌ",
           "translit": "fawaylun",
           "fr": "malheur donc",
+          "en": "So woe",
+          "tr": "vay haline",
           "racine": "و-ي-ل",
           "frequence_coran": 40
         },
@@ -232,6 +260,8 @@ const S107 = {
           "ar": "لِّلْمُصَلِّينَ",
           "translit": "lilmuṣallīna",
           "fr": "à ceux qui prient",
+          "en": "to those who pray",
+          "tr": "namaz kılanların",
           "racine": "ص-ل-و",
           "frequence_coran": 99
         }
@@ -261,6 +291,8 @@ const S107 = {
           "ar": "الَّذِينَ",
           "translit": "alladhīna",
           "fr": "ceux qui",
+          "en": "Those who",
+          "tr": "ki",
           "racine": "— (relatif)",
           "frequence_coran": 1080
         },
@@ -268,6 +300,8 @@ const S107 = {
           "ar": "هُمْ",
           "translit": "hum",
           "fr": "eux",
+          "en": "[they]",
+          "tr": "onlar",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -275,6 +309,8 @@ const S107 = {
           "ar": "عَن",
           "translit": "ʿan",
           "fr": "de",
+          "en": "about",
+          "tr": "namazlarından",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -282,6 +318,8 @@ const S107 = {
           "ar": "صَلَاتِهِمْ",
           "translit": "ṣalātihim",
           "fr": "leur prière",
+          "en": "their prayers",
+          "tr": "",
           "racine": "ص-ل-و",
           "frequence_coran": 99
         },
@@ -289,6 +327,8 @@ const S107 = {
           "ar": "سَاهُونَ",
           "translit": "sāhūna",
           "fr": "sont négligents",
+          "en": "(are) neglectful",
+          "tr": "gaflet ederler",
           "racine": "س-ه-و",
           "frequence_coran": 2,
           "famille": [
@@ -323,6 +363,8 @@ const S107 = {
           "ar": "الَّذِينَ",
           "translit": "alladhīna",
           "fr": "ceux qui",
+          "en": "Those who",
+          "tr": "ki",
           "racine": "— (relatif)",
           "frequence_coran": 1080
         },
@@ -330,6 +372,8 @@ const S107 = {
           "ar": "هُمْ",
           "translit": "hum",
           "fr": "eux",
+          "en": "[they]",
+          "tr": "onlar",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -337,6 +381,8 @@ const S107 = {
           "ar": "يُرَاءُونَ",
           "translit": "yurāʾūna",
           "fr": "font pour être vus",
+          "en": "make show",
+          "tr": "gösteriş yaparlar",
           "racine": "ر-أ-ي",
           "frequence_coran": 328
         }
@@ -366,6 +412,8 @@ const S107 = {
           "ar": "وَيَمْنَعُونَ",
           "translit": "wayamnaʿūna",
           "fr": "et refusent",
+          "en": "And they deny",
+          "tr": "ve esirgerler",
           "racine": "م-ن-ع",
           "frequence_coran": 17
         },
@@ -373,6 +421,8 @@ const S107 = {
           "ar": "الْمَاعُونَ",
           "translit": "l-māʿūna",
           "fr": "l'aide élémentaire",
+          "en": "[the] small kindnesses",
+          "tr": "en ufak bir yardımı",
           "racine": "م-ع-ن",
           "frequence_coran": 1
         }

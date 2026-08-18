@@ -1423,6 +1423,13 @@ window.allerAuVersetIdx = function (idx) {
   currentIdx = idx; selectedMot = null; renderVerset();
 };
 
+// Glose d'un mot dans la langue de l'interface. Le turc n'est pas complet :
+// on se replie sur l'anglais puis le français plutôt que de laisser un vide.
+function gloseDe(m) {
+  const lang = (localStorage.getItem('lang') || 'fr');
+  return m[lang] || m.en || m.fr || '';
+}
+
 // Rendu verset
 function renderVerset() {
   const total = currentS[4];
@@ -1484,7 +1491,7 @@ function renderVerset() {
           <div class="mot-card" id="mot-${i}" onclick="selectMot(${i})">
             <div class="mot-ar">${m.ar}</div>
             <div class="mot-translit">${m.translit}</div>
-            <div class="mot-fr-label">${m.fr}</div>
+            <div class="mot-fr-label">${gloseDe(m)}</div>
           </div>
         `).join('')}
       </div>
@@ -1537,7 +1544,7 @@ function selectMot(i) {
     <div class="mot-detail-header">
       <div class="mot-detail-ar">${m.ar}</div>
       <div class="mot-detail-info">
-        <div class="mot-detail-fr">${m.fr}</div>
+        <div class="mot-detail-fr">${gloseDe(m)}</div>
         <div class="mot-detail-translit">${m.translit}</div>
       </div>
       <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end">

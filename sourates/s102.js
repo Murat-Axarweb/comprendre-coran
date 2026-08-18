@@ -49,7 +49,24 @@ const S102 = {
           "texte": "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki, mezarları ziyaretle oradakileri de sayacak kadar oldunuz"
         }
       },
-      "mots": [],
+      "mots": [
+        {
+          "ar": "أَلْهَىٰكُمُ",
+          "translit": "alhākumu",
+          "fr": "Vous distrait",
+          "en": "Diverts you",
+          "tr": "sizi oyaladı",
+          "src": "wbw"
+        },
+        {
+          "ar": "التَّكَاثُرُ",
+          "translit": "t-takāthuru",
+          "fr": "la compétition en nombre",
+          "en": "the competition to increase",
+          "tr": "çokluk yarışı",
+          "src": "wbw"
+        }
+      ],
       "niveau_couche": 2,
       "groupes": {
         "tr": {
@@ -82,8 +99,26 @@ const S102 = {
           "ar": "حَتَّىٰ",
           "translit": "ḥattā",
           "fr": "jusqu’à",
+          "en": "Until",
+          "tr": "nihayet",
           "racine": "particule de limite",
           "frequence_coran": 142
+        },
+        {
+          "ar": "زُرْتُمُ",
+          "translit": "zurtumu",
+          "fr": "vous ayez visité",
+          "en": "you visit",
+          "tr": "ziyaret ettiniz",
+          "src": "wbw"
+        },
+        {
+          "ar": "الْمَقَابِرَ",
+          "translit": "l-maqābira",
+          "fr": "les tombes.",
+          "en": "the graves",
+          "tr": "kabirleri",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2,
@@ -118,6 +153,8 @@ const S102 = {
           "ar": "كَلَّا",
           "translit": "kallā",
           "fr": "que non !",
+          "en": "Nay",
+          "tr": "hayır",
           "racine": "—",
           "frequence_coran": 8
         },
@@ -125,6 +162,8 @@ const S102 = {
           "ar": "سَوْفَ",
           "translit": "sawfa",
           "fr": "particule du futur (bientôt",
+          "en": "Soon",
+          "tr": "yakında",
           "racine": "—",
           "frequence_coran": 42
         },
@@ -132,6 +171,8 @@ const S102 = {
           "ar": "تَعْلَمُونَ",
           "translit": "taʿlamūna",
           "fr": "vous savez",
+          "en": "you will know",
+          "tr": "bileceksiniz",
           "racine": "ع-ل-م",
           "frequence_coran": 55
         }
@@ -161,6 +202,8 @@ const S102 = {
           "ar": "ثُمَّ",
           "translit": "thumma",
           "fr": "puis",
+          "en": "Then",
+          "tr": "sonra",
           "racine": "particule de succession",
           "frequence_coran": 337
         },
@@ -168,6 +211,8 @@ const S102 = {
           "ar": "كَلَّا",
           "translit": "kallā",
           "fr": "que non !",
+          "en": "nay",
+          "tr": "hayır",
           "racine": "—",
           "frequence_coran": 8
         },
@@ -175,6 +220,8 @@ const S102 = {
           "ar": "سَوْفَ",
           "translit": "sawfa",
           "fr": "particule du futur (bientôt",
+          "en": "Soon",
+          "tr": "yakında",
           "racine": "—",
           "frequence_coran": 42
         },
@@ -182,6 +229,8 @@ const S102 = {
           "ar": "تَعْلَمُونَ",
           "translit": "taʿlamūna",
           "fr": "vous savez",
+          "en": "you will know",
+          "tr": "bileceksiniz",
           "racine": "ع-ل-م",
           "frequence_coran": 55
         }
@@ -211,6 +260,8 @@ const S102 = {
           "ar": "كَلَّا",
           "translit": "kallā",
           "fr": "que non !",
+          "en": "Nay",
+          "tr": "hayır",
           "racine": "—",
           "frequence_coran": 8
         },
@@ -218,6 +269,8 @@ const S102 = {
           "ar": "لَوْ",
           "translit": "law",
           "fr": "si",
+          "en": "If",
+          "tr": "keşke",
           "racine": "particule conditionnelle",
           "frequence_coran": 77
         },
@@ -225,6 +278,8 @@ const S102 = {
           "ar": "تَعْلَمُونَ",
           "translit": "taʿlamūna",
           "fr": "vous savez",
+          "en": "you know",
+          "tr": "bilseydiniz",
           "racine": "ع-ل-م",
           "frequence_coran": 55
         },
@@ -232,6 +287,8 @@ const S102 = {
           "ar": "عِلْمَ",
           "translit": "ʿilma",
           "fr": "savoir",
+          "en": "(with) a knowledge",
+          "tr": "bilgi ile",
           "racine": "ع-ل-م",
           "frequence_coran": 105
         },
@@ -239,6 +296,8 @@ const S102 = {
           "ar": "الْيَقِينِ",
           "translit": "l-yaqīni",
           "fr": "certitude",
+          "en": "(of) certainty",
+          "tr": "kesin",
           "racine": "ي-ق-ن",
           "frequence_coran": 8
         }
@@ -267,15 +326,19 @@ const S102 = {
         {
           "ar": "لَتَرَوُنَّ",
           "translit": "latarawunna",
-          "fr": "voir",
+          "fr": "Vous verrez très certainement",
+          "en": "Surely you will see",
+          "tr": "mutlaka görürdünüz",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
-          "auto": true
+          "src": "wbw"
         },
         {
           "ar": "الْجَحِيمَ",
           "translit": "l-jaḥīma",
           "fr": "la Fournaise",
+          "en": "the Hellfire",
+          "tr": "cehennemi",
           "racine": "ج-ح-م",
           "frequence_coran": 43
         }
@@ -305,21 +368,27 @@ const S102 = {
           "ar": "ثُمَّ",
           "translit": "thumma",
           "fr": "puis",
+          "en": "Then",
+          "tr": "sonra",
           "racine": "particule de succession",
           "frequence_coran": 337
         },
         {
           "ar": "لَتَرَوُنَّهَا",
           "translit": "latarawunnahā",
-          "fr": "voir",
+          "fr": "vous le verrez très certainement",
+          "en": "surely you will see it",
+          "tr": "onu göreceksiniz",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
-          "auto": true
+          "src": "wbw"
         },
         {
           "ar": "عَيْنَ",
           "translit": "ʿayna",
           "fr": "œil",
+          "en": "(with the) eye",
+          "tr": "gözle",
           "racine": "ع-ي-ن",
           "frequence_coran": 23
         },
@@ -327,6 +396,8 @@ const S102 = {
           "ar": "الْيَقِينِ",
           "translit": "l-yaqīni",
           "fr": "certitude",
+          "en": "(of) certainty",
+          "tr": "kesin olarak",
           "racine": "ي-ق-ن",
           "frequence_coran": 8
         }
@@ -356,21 +427,27 @@ const S102 = {
           "ar": "ثُمَّ",
           "translit": "thumma",
           "fr": "puis",
+          "en": "Then",
+          "tr": "sonra",
           "racine": "particule de succession",
           "frequence_coran": 337
         },
         {
           "ar": "لَتُسْـءَلُنَّ",
           "translit": "latusʾalunna",
-          "fr": "demander",
+          "fr": "vous serez très certainement interrogés",
+          "en": "surely you will be asked",
+          "tr": "sorulacaksınız",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "auto": true
+          "src": "wbw"
         },
         {
           "ar": "يَوْمَئِذٍ",
           "translit": "yawmaʾidhin",
           "fr": "ce jour-là",
+          "en": "that Day",
+          "tr": "o gün",
           "racine": "ي-و-م + إِذْ",
           "frequence_coran": 63
         },
@@ -378,6 +455,8 @@ const S102 = {
           "ar": "عَنِ",
           "translit": "ʿani",
           "fr": "de",
+          "en": "about",
+          "tr": "ni'metlerden",
           "racine": "préposition",
           "frequence_coran": 153
         },
@@ -385,6 +464,8 @@ const S102 = {
           "ar": "النَّعِيمِ",
           "translit": "n-naʿīmi",
           "fr": "délices (du Paradis)",
+          "en": "the pleasures",
+          "tr": "",
           "racine": "ن-ع-م",
           "frequence_coran": 17
         }

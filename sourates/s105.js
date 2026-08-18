@@ -53,6 +53,8 @@ const S105 = {
           "ar": "أَلَمْ",
           "translit": "alam",
           "fr": "n'as-tu pas ?",
+          "en": "Have not",
+          "tr": "görmedin mi?",
           "racine": "— (interrogatif)",
           "frequence_coran": 0
         },
@@ -60,6 +62,8 @@ const S105 = {
           "ar": "تَرَ",
           "translit": "tara",
           "fr": "vu",
+          "en": "you seen",
+          "tr": "",
           "racine": "ر-أ-ي",
           "frequence_coran": 328
         },
@@ -67,6 +71,8 @@ const S105 = {
           "ar": "كَيْفَ",
           "translit": "kayfa",
           "fr": "comment",
+          "en": "how",
+          "tr": "nasıl",
           "racine": "ك-ي-ف",
           "frequence_coran": 83
         },
@@ -74,6 +80,8 @@ const S105 = {
           "ar": "فَعَلَ",
           "translit": "faʿala",
           "fr": "a agi",
+          "en": "dealt",
+          "tr": "yaptığını",
           "racine": "ف-ع-ل",
           "frequence_coran": 108
         },
@@ -81,6 +89,8 @@ const S105 = {
           "ar": "رَبُّكَ",
           "translit": "rabbuka",
           "fr": "ton Seigneur",
+          "en": "your Lord",
+          "tr": "Rabbinin",
           "racine": "ر-ب-ب",
           "frequence_coran": 970
         },
@@ -88,6 +98,8 @@ const S105 = {
           "ar": "بِأَصْحَٰبِ",
           "translit": "biʾaṣḥābi",
           "fr": "envers les gens (de)",
+          "en": "with (the) Companions",
+          "tr": "sahiplerine",
           "racine": "ص-ح-ب",
           "frequence_coran": 97
         },
@@ -95,6 +107,8 @@ const S105 = {
           "ar": "الْفِيلِ",
           "translit": "l-fīli",
           "fr": "l'Éléphant",
+          "en": "(of the) Elephant",
+          "tr": "fil",
           "racine": "ف-ي-ل",
           "frequence_coran": 1
         }
@@ -124,6 +138,8 @@ const S105 = {
           "ar": "أَلَمْ",
           "translit": "alam",
           "fr": "n'a-t-Il pas ?",
+          "en": "Did not",
+          "tr": "çıkarmadı mı?",
           "racine": "— (interrogatif)",
           "frequence_coran": 0
         },
@@ -131,6 +147,8 @@ const S105 = {
           "ar": "يَجْعَلْ",
           "translit": "yajʿal",
           "fr": "fait / rendu",
+          "en": "He make",
+          "tr": "",
           "racine": "ج-ع-ل",
           "frequence_coran": 346
         },
@@ -138,6 +156,8 @@ const S105 = {
           "ar": "كَيْدَهُمْ",
           "translit": "kaydahum",
           "fr": "leur stratagème",
+          "en": "their plan",
+          "tr": "onların tuzaklarını",
           "racine": "ك-ي-د",
           "frequence_coran": 35
         },
@@ -145,6 +165,8 @@ const S105 = {
           "ar": "فِي",
           "translit": "fī",
           "fr": "en",
+          "en": "go",
+          "tr": "boşa",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -152,6 +174,8 @@ const S105 = {
           "ar": "تَضْلِيلٍ",
           "translit": "taḍlīlin",
           "fr": "pure perte / égarement",
+          "en": "astray",
+          "tr": "",
           "racine": "ض-ل-ل",
           "frequence_coran": 191
         }
@@ -181,6 +205,8 @@ const S105 = {
           "ar": "وَأَرْسَلَ",
           "translit": "waʾarsala",
           "fr": "et Il a envoyé",
+          "en": "And He sent",
+          "tr": "ve gönderdi",
           "racine": "ر-س-ل",
           "frequence_coran": 513
         },
@@ -188,6 +214,8 @@ const S105 = {
           "ar": "عَلَيْهِمْ",
           "translit": "ʿalayhim",
           "fr": "contre eux",
+          "en": "against them",
+          "tr": "üzerlerine",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -195,6 +223,8 @@ const S105 = {
           "ar": "طَيْرًا",
           "translit": "ṭayran",
           "fr": "des oiseaux",
+          "en": "birds",
+          "tr": "kuşlar",
           "racine": "ط-ي-ر",
           "frequence_coran": 24
         },
@@ -202,6 +232,8 @@ const S105 = {
           "ar": "أَبَابِيلَ",
           "translit": "abābīla",
           "fr": "par nuées successives",
+          "en": "(in) flocks",
+          "tr": "sürü sürü",
           "racine": "— (nom)",
           "frequence_coran": 1
         }
@@ -238,6 +270,8 @@ const S105 = {
           "ar": "تَرْمِيهِم",
           "translit": "tarmīhim",
           "fr": "qui les lapidaient",
+          "en": "Striking them",
+          "tr": "onlara atıyorlardı",
           "racine": "ر-م-ي",
           "frequence_coran": 9
         },
@@ -245,6 +279,8 @@ const S105 = {
           "ar": "بِحِجَارَةٍ",
           "translit": "biḥijāratin",
           "fr": "avec des pierres",
+          "en": "with stones",
+          "tr": "sertleşmiş taşlar",
           "racine": "ح-ج-ر",
           "frequence_coran": 21
         },
@@ -252,6 +288,8 @@ const S105 = {
           "ar": "مِّن",
           "translit": "min",
           "fr": "de",
+          "en": "of",
+          "tr": "çamurdan",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -259,6 +297,8 @@ const S105 = {
           "ar": "سِجِّيلٍ",
           "translit": "sijjīlin",
           "fr": "argile durcie",
+          "en": "baked clay",
+          "tr": "",
           "racine": "— (emprunt)",
           "frequence_coran": 3
         }
@@ -295,6 +335,8 @@ const S105 = {
           "ar": "فَجَعَلَهُمْ",
           "translit": "fajaʿalahum",
           "fr": "et Il les a rendus",
+          "en": "Then He made them",
+          "tr": "nihayet onları yaptı",
           "racine": "ج-ع-ل",
           "frequence_coran": 346
         },
@@ -302,6 +344,8 @@ const S105 = {
           "ar": "كَعَصْفٍ",
           "translit": "kaʿaṣfin",
           "fr": "comme un champ",
+          "en": "like straw",
+          "tr": "ekin yaprağı gibi",
           "racine": "ع-ص-ف",
           "frequence_coran": 5
         },
@@ -309,6 +353,8 @@ const S105 = {
           "ar": "مَّأْكُولٍ",
           "translit": "maʾkūli",
           "fr": "dévoré",
+          "en": "eaten up",
+          "tr": "yenmiş",
           "racine": "أ-ك-ل",
           "frequence_coran": 109
         }

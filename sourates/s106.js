@@ -54,6 +54,8 @@ const S106 = {
           "ar": "لِإِيلَٰفِ",
           "translit": "liʾīlāfi",
           "fr": "pour le pacte / l'habitude (de)",
+          "en": "For (the) familiarity",
+          "tr": "alıştırdığı için",
           "racine": "أ-ل-ف",
           "frequence_coran": 22,
           "famille": [
@@ -67,6 +69,8 @@ const S106 = {
           "ar": "قُرَيْشٍ",
           "translit": "qurayshin",
           "fr": "Quraysh",
+          "en": "(of the) Quraish",
+          "tr": "Kureyşi",
           "racine": "— (nom propre)",
           "frequence_coran": 1
         }
@@ -103,6 +107,8 @@ const S106 = {
           "ar": "إِلَٰفِهِمْ",
           "translit": "īlāfihim",
           "fr": "leur pacte",
+          "en": "Their familiarity",
+          "tr": "onları alıştırdığı için",
           "racine": "أ-ل-ف",
           "frequence_coran": 22
         },
@@ -110,6 +116,8 @@ const S106 = {
           "ar": "رِحْلَةَ",
           "translit": "riḥlata",
           "fr": "le voyage (de)",
+          "en": "(with the) journey",
+          "tr": "yolculuğuna",
           "racine": "ر-ح-ل",
           "frequence_coran": 6
         },
@@ -117,6 +125,8 @@ const S106 = {
           "ar": "الشِّتَاءِ",
           "translit": "sh-shitāʾi",
           "fr": "l'hiver",
+          "en": "(of) winter",
+          "tr": "kış",
           "racine": "ش-ت-و",
           "frequence_coran": 1
         },
@@ -124,6 +134,8 @@ const S106 = {
           "ar": "وَالصَّيْفِ",
           "translit": "waṣ-ṣayfi",
           "fr": "et l'été",
+          "en": "and summer",
+          "tr": "ve yaz",
           "racine": "ص-ي-ف",
           "frequence_coran": 1
         }
@@ -160,6 +172,8 @@ const S106 = {
           "ar": "فَلْيَعْبُدُواْ",
           "translit": "falyaʿbudū",
           "fr": "qu'ils adorent donc",
+          "en": "So let them worship",
+          "tr": "kulluk etsinler",
           "racine": "ع-ب-د",
           "frequence_coran": 275
         },
@@ -167,6 +181,8 @@ const S106 = {
           "ar": "رَبَّ",
           "translit": "rabba",
           "fr": "le Seigneur (de)",
+          "en": "(the) Lord",
+          "tr": "Rabbine",
           "racine": "ر-ب-ب",
           "frequence_coran": 970
         },
@@ -174,6 +190,8 @@ const S106 = {
           "ar": "هَٰذَا",
           "translit": "hādhā",
           "fr": "cette",
+          "en": "(of) this",
+          "tr": "bu",
           "racine": "— (démonstratif)",
           "frequence_coran": 0
         },
@@ -181,6 +199,8 @@ const S106 = {
           "ar": "الْبَيْتِ",
           "translit": "l-bayti",
           "fr": "Maison",
+          "en": "House",
+          "tr": "evin",
           "racine": "ب-ي-ت",
           "frequence_coran": 71
         }
@@ -217,6 +237,8 @@ const S106 = {
           "ar": "الَّذِي",
           "translit": "alladhī",
           "fr": "celui qui",
+          "en": "The One Who",
+          "tr": "o ki",
           "racine": "— (relatif)",
           "frequence_coran": 1080
         },
@@ -224,6 +246,8 @@ const S106 = {
           "ar": "أَطْعَمَهُم",
           "translit": "aṭʿamahum",
           "fr": "les a nourris",
+          "en": "feeds them",
+          "tr": "onları yedirip",
           "racine": "ط-ع-م",
           "frequence_coran": 48
         },
@@ -231,6 +255,8 @@ const S106 = {
           "ar": "مِّن",
           "translit": "min",
           "fr": "contre",
+          "en": "[from]",
+          "tr": "açlıktan (kurtardı)",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -238,6 +264,8 @@ const S106 = {
           "ar": "جُوعٍ",
           "translit": "jūʿin",
           "fr": "la faim",
+          "en": "(against) hunger",
+          "tr": "",
           "racine": "ج-و-ع",
           "frequence_coran": 5
         },
@@ -245,6 +273,8 @@ const S106 = {
           "ar": "وَءَامَنَهُم",
           "translit": "waʾāmanahum",
           "fr": "et les a mis en sécurité",
+          "en": "and gives them security",
+          "tr": "ve onları güvene kavuşturdu",
           "racine": "أ-م-ن",
           "frequence_coran": 879
         },
@@ -252,6 +282,8 @@ const S106 = {
           "ar": "مِّنْ",
           "translit": "min",
           "fr": "contre",
+          "en": "from",
+          "tr": "korkudan",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -259,6 +291,8 @@ const S106 = {
           "ar": "خَوْفٍ",
           "translit": "khawfi",
           "fr": "la peur",
+          "en": "fear",
+          "tr": "",
           "racine": "خ-و-ف",
           "frequence_coran": 124
         }

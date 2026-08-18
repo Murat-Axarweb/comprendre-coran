@@ -53,6 +53,8 @@ const S097 = {
           "ar": "إِنَّا",
           "translit": "innā",
           "fr": "certes Nous",
+          "en": "Indeed,We",
+          "tr": "elbette biz",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -60,6 +62,8 @@ const S097 = {
           "ar": "أَنزَلْنَٰهُ",
           "translit": "anzalnāhu",
           "fr": "Nous l'avons fait descendre",
+          "en": "revealed it",
+          "tr": "onu indirdik",
           "racine": "ن-ز-ل",
           "frequence_coran": 293
         },
@@ -67,6 +71,8 @@ const S097 = {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans / durant",
+          "en": "in",
+          "tr": "gecesinde",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -74,6 +80,8 @@ const S097 = {
           "ar": "لَيْلَةِ",
           "translit": "laylati",
           "fr": "la Nuit (de)",
+          "en": "(the) Night",
+          "tr": "",
           "racine": "ل-ي-ل",
           "frequence_coran": 92
         },
@@ -81,6 +89,8 @@ const S097 = {
           "ar": "الْقَدْرِ",
           "translit": "l-qadri",
           "fr": "la Destinée",
+          "en": "(of) Power",
+          "tr": "kadir",
           "racine": "ق-د-ر",
           "frequence_coran": 132,
           "famille": [
@@ -117,6 +127,8 @@ const S097 = {
           "ar": "وَمَا",
           "translit": "wamā",
           "fr": "et qu'est-ce qui",
+          "en": "And what",
+          "tr": "nedir?",
           "racine": "— (interrogatif)",
           "frequence_coran": 0
         },
@@ -124,6 +136,8 @@ const S097 = {
           "ar": "أَدْرَىٰكَ",
           "translit": "adrāka",
           "fr": "t'a fait savoir",
+          "en": "can make you know",
+          "tr": "sana bildiren",
           "racine": "د-ر-ي",
           "frequence_coran": 29
         },
@@ -131,6 +145,8 @@ const S097 = {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ce qu'est",
+          "en": "what",
+          "tr": "ne olduğunu",
           "racine": "— (interrogatif)",
           "frequence_coran": 0
         },
@@ -138,6 +154,8 @@ const S097 = {
           "ar": "لَيْلَةُ",
           "translit": "laylatu",
           "fr": "la Nuit (de)",
+          "en": "(the) Night",
+          "tr": "gecesi(nin)",
           "racine": "ل-ي-ل",
           "frequence_coran": 92
         },
@@ -145,6 +163,8 @@ const S097 = {
           "ar": "الْقَدْرِ",
           "translit": "l-qadri",
           "fr": "la Destinée",
+          "en": "(of) Power (is)",
+          "tr": "kadir",
           "racine": "ق-د-ر",
           "frequence_coran": 132
         }
@@ -174,6 +194,8 @@ const S097 = {
           "ar": "لَيْلَةُ",
           "translit": "laylatu",
           "fr": "la Nuit (de)",
+          "en": "(The) Night",
+          "tr": "gecesi",
           "racine": "ل-ي-ل",
           "frequence_coran": 92
         },
@@ -181,6 +203,8 @@ const S097 = {
           "ar": "الْقَدْرِ",
           "translit": "l-qadri",
           "fr": "la Destinée",
+          "en": "(of) Power",
+          "tr": "kadir",
           "racine": "ق-د-ر",
           "frequence_coran": 132
         },
@@ -188,6 +212,8 @@ const S097 = {
           "ar": "خَيْرٌ",
           "translit": "khayrun",
           "fr": "est meilleure",
+          "en": "(is) better",
+          "tr": "hayırlıdır",
           "racine": "خ-ي-ر",
           "frequence_coran": 186
         },
@@ -195,6 +221,8 @@ const S097 = {
           "ar": "مِّنْ",
           "translit": "min",
           "fr": "que",
+          "en": "than",
+          "tr": "bin-dan",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -202,6 +230,8 @@ const S097 = {
           "ar": "أَلْفِ",
           "translit": "alfi",
           "fr": "mille",
+          "en": "a thousand",
+          "tr": "bin",
           "racine": "أ-ل-ف",
           "frequence_coran": 8
         },
@@ -209,6 +239,8 @@ const S097 = {
           "ar": "شَهْرٍ",
           "translit": "shahrin",
           "fr": "mois",
+          "en": "month (s)",
+          "tr": "",
           "racine": "ش-ه-ر",
           "frequence_coran": 21
         }
@@ -238,6 +270,8 @@ const S097 = {
           "ar": "تَنَزَّلُ",
           "translit": "tanazzalu",
           "fr": "descendent",
+          "en": "Descend",
+          "tr": "iner de iner",
           "racine": "ن-ز-ل",
           "frequence_coran": 293
         },
@@ -245,6 +279,8 @@ const S097 = {
           "ar": "الْمَلَـٰئِكَةُ",
           "translit": "l-malāʾikatu",
           "fr": "les anges",
+          "en": "the Angels",
+          "tr": "melekler",
           "racine": "م-ل-ك",
           "frequence_coran": 88
         },
@@ -252,6 +288,8 @@ const S097 = {
           "ar": "وَالرُّوحُ",
           "translit": "war-rūḥu",
           "fr": "et l'Esprit",
+          "en": "and the Spirit",
+          "tr": "ve Ruh",
           "racine": "ر-و-ح",
           "frequence_coran": 21
         },
@@ -259,6 +297,8 @@ const S097 = {
           "ar": "فِيهَا",
           "translit": "fīhā",
           "fr": "en elle",
+          "en": "therein",
+          "tr": "onda",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -266,6 +306,8 @@ const S097 = {
           "ar": "بِإِذْنِ",
           "translit": "biʾidhni",
           "fr": "avec la permission (de)",
+          "en": "by (the) permission",
+          "tr": "izniyle",
           "racine": "أ-ذ-ن",
           "frequence_coran": 39
         },
@@ -273,6 +315,8 @@ const S097 = {
           "ar": "رَبِّهِم",
           "translit": "rabbihim",
           "fr": "leur Seigneur",
+          "en": "(of) their Lord",
+          "tr": "Rab'lerinin",
           "racine": "ر-ب-ب",
           "frequence_coran": 970
         },
@@ -280,6 +324,8 @@ const S097 = {
           "ar": "مِّن",
           "translit": "min",
           "fr": "pour",
+          "en": "for",
+          "tr": "için",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -287,6 +333,8 @@ const S097 = {
           "ar": "كُلِّ",
           "translit": "kulli",
           "fr": "tout",
+          "en": "every",
+          "tr": "her",
           "racine": "ك-ل-ل",
           "frequence_coran": 358
         },
@@ -294,6 +342,8 @@ const S097 = {
           "ar": "أَمْرٍ",
           "translit": "amrin",
           "fr": "ordre / décret",
+          "en": "affair",
+          "tr": "iş",
           "racine": "أ-م-ر",
           "frequence_coran": 166
         }
@@ -323,6 +373,8 @@ const S097 = {
           "ar": "سَلَٰمٌ",
           "translit": "salāmun",
           "fr": "paix",
+          "en": "Peace",
+          "tr": "esenliktir",
           "racine": "س-ل-م",
           "frequence_coran": 140
         },
@@ -330,6 +382,8 @@ const S097 = {
           "ar": "هِيَ",
           "translit": "hiya",
           "fr": "elle est",
+          "en": "it (is)",
+          "tr": "o",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -337,6 +391,8 @@ const S097 = {
           "ar": "حَتَّىٰ",
           "translit": "ḥattā",
           "fr": "jusqu'à",
+          "en": "until",
+          "tr": "kadar",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -344,6 +400,8 @@ const S097 = {
           "ar": "مَطْلَعِ",
           "translit": "maṭlaʿi",
           "fr": "le lever (de)",
+          "en": "(the) emergence",
+          "tr": "ağarıncaya",
           "racine": "ط-ل-ع",
           "frequence_coran": 19
         },
@@ -351,6 +409,8 @@ const S097 = {
           "ar": "الْفَجْرِ",
           "translit": "l-fajri",
           "fr": "l'aube",
+          "en": "(of) the dawn",
+          "tr": "tan yeri",
           "racine": "ف-ج-ر",
           "frequence_coran": 24
         }

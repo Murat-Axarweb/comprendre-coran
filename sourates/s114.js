@@ -76,48 +76,49 @@ const S114 = {
           "ar": "قُلْ",
           "translit": "qul",
           "fr": "dis",
+          "en": "Say",
+          "tr": "de ki",
           "racine": "ق-و-ل",
+          "frequence_coran": 332,
           "famille": [
             "قَوْل (qawl) — parole",
             "قَالَ (qāla) — il a dit",
             "مَقَال (maqāl) — discours"
           ],
-          "frequence_coran": 332,
           "profondeur": "Troisième sourate consécutive ouverte sur Qul (112, 113, 114). Ces trois sourates sont des proclamations orales — à dire à voix haute. Le Coran est vivant dans la bouche, pas seulement sur la page."
         },
         {
           "ar": "أَعُوذُ",
           "translit": "aʿūḏu",
           "fr": "je cherche refuge",
+          "en": "I seek refuge",
+          "tr": "sığınırım ben",
           "racine": "ع-و-ذ",
+          "frequence_coran": 17,
           "famille": [
             "عَائِذ (ʿāʾiḏ) — celui qui cherche refuge",
             "مَعَاذ (maʿāḏ) — lieu de refuge",
             "تَعَوُّذ (taʿawwuḏ) — l'acte de chercher refuge"
           ],
-          "frequence_coran": 17,
           "profondeur": "Même verbe qu'en Al-Falaq (113). La double répétition du refuge dans deux sourates consécutives crée une double protection — comme deux portes fermées contre le mal."
         },
         {
           "ar": "بِرَبِّ",
           "translit": "birabbi",
-          "fr": "Seigneur",
+          "fr": "auprès du Maître",
+          "en": "in (the) Lord",
+          "tr": "Rabbine",
           "racine": "ر-ب-ب",
           "frequence_coran": 980,
-          "auto": true
+          "src": "wbw"
         },
         {
-          "ar": "النَّاسِ",
-          "translit": "an-nās",
-          "fr": "des hommes / de l'humanité",
-          "racine": "أ-ن-س",
-          "famille": [
-            "إِنْسَان (insān) — être humain",
-            "إِنْس (ins) — humains (par opposition aux djinns)",
-            "أَنِيس (anīs) — compagnon"
-          ],
-          "frequence_coran": 241,
-          "profondeur": "An-nās revient SIX fois dans cette sourate de six versets — une fois par verset. Refrain délibéré : cette sourate est pour et sur l'humanité entière. C'est aussi le dernier mot du Coran entier."
+          "ar": "النَّاسِ",
+          "translit": "n-nāsi",
+          "fr": "(des) gens,",
+          "en": "(of) mankind",
+          "tr": "insanların",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 1,
@@ -152,7 +153,10 @@ const S114 = {
           "ar": "مَلِكِ",
           "translit": "malik",
           "fr": "Roi / Souverain",
+          "en": "(The) King",
+          "tr": "padişahına",
           "racine": "م-ل-ك",
+          "frequence_coran": 90,
           "famille": [
             "مَلَكَ (malaka) — posséder, régner",
             "مَمْلَكَة (mamlaka) — royaume",
@@ -160,20 +164,15 @@ const S114 = {
             "مَلَك (malak) — ange (même racine !)",
             "مَلَكُوت (malakūt) — royauté divine"
           ],
-          "frequence_coran": 90,
           "profondeur": "La racine m-l-k est extraordinaire : elle donne le roi (malik), la propriété (milk) ET l'ange (malak). Anges et rois partagent une racine — tous deux sont des exécutants d'une autorité supérieure. Malik est le deuxième attribut : Seigneur (soin) → Roi (pouvoir souverain)."
         },
         {
-          "ar": "النَّاسِ",
-          "translit": "an-nās",
-          "fr": "des hommes",
-          "racine": "أ-ن-س",
-          "famille": [
-            "نَاس (nās) — gens",
-            "إِنْسَان (insān) — humain"
-          ],
-          "frequence_coran": 241,
-          "profondeur": "Deuxième occurrence. Les trois premiers versets ont la même structure : [Attribut divin] + an-nās. Une architecture en escalier vers Dieu."
+          "ar": "النَّاسِ",
+          "translit": "n-nāsi",
+          "fr": "(des) gens,",
+          "en": "(of) mankind",
+          "tr": "insanların",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2,
@@ -208,26 +207,25 @@ const S114 = {
           "ar": "إِلَٰهِ",
           "translit": "ilāh",
           "fr": "Dieu / Divinité",
+          "en": "(The) God",
+          "tr": "tanrısına",
           "racine": "أ-ل-ه",
+          "frequence_coran": 147,
           "famille": [
             "إِلَه (ilāh) — dieu",
             "اللَّه (allāh) — Allah (contraction de al-ilāh)",
             "تَأَلُّه (taʾalluh) — adoration totale",
             "آلِهَة (āliha) — dieux (pluriel polythéiste)"
           ],
-          "frequence_coran": 147,
           "profondeur": "Ilāh complète la triple invocation : Rabb (soin) → Malik (pouvoir) → Ilāh (dévotion/amour). Ces trois dimensions répondent aux trois besoins humains fondamentaux : être nourri, être protégé, aimer et être aimé. Un seul Être répond aux trois."
         },
         {
-          "ar": "النَّاسِ",
-          "translit": "an-nās",
-          "fr": "des hommes",
-          "racine": "أ-ن-س",
-          "famille": [
-            "نَاس (nās) — gens"
-          ],
-          "frequence_coran": 241,
-          "profondeur": "Troisième occurrence. Les versets 1-2-3 forment un bloc symétrique parfait : trois mots chacun, même structure, trois attributs divins croissants."
+          "ar": "النَّاسِ",
+          "translit": "n-nāsi",
+          "fr": "(des) gens,",
+          "en": "(of) mankind",
+          "tr": "insanların",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2,
@@ -261,30 +259,38 @@ const S114 = {
         {
           "ar": "مِن",
           "translit": "min",
-          "fr": "de",
+          "fr": "du",
+          "en": "From",
+          "tr": "şerrinden",
           "racine": "particule",
           "frequence_coran": 3226,
-          "auto": true
+          "src": "wbw"
         },
         {
           "ar": "شَرِّ",
           "translit": "sharri",
           "fr": "mal",
+          "en": "(the) evil",
+          "tr": "",
           "racine": "ش-ر-ر",
           "frequence_coran": 8,
-          "auto": true
+          "src": "wbw"
         },
         {
-          "ar": "الْخَنَّاسِ",
-          "translit": "al-ḫannās",
-          "fr": "le furtif / celui qui se retire",
-          "racine": "خ-ن-س",
-          "famille": [
-            "خَنَسَ (ḫanasa) — se retirer, se tapir",
-            "خُنُوس (ḫunūs) — recul furtif"
-          ],
-          "frequence_coran": 1,
-          "profondeur": "N'apparaît qu'une seule fois dans tout le Coran. Forme intensive : celui qui recule CONSTAMMENT. Stratégie du tentateur : approcher → chuchoter → reculer dès qu'on mentionne Allah. Le dhikr (souvenir d'Allah) est son ennemi direct."
+          "ar": "الْوَسْوَاسِ",
+          "translit": "l-waswāsi",
+          "fr": "(de) celui qui suggère du mal,",
+          "en": "(of) the whisperer",
+          "tr": "vesvesecinin",
+          "src": "wbw"
+        },
+        {
+          "ar": "الْخَنَّاسِ",
+          "translit": "l-khannāsi",
+          "fr": "qui se retire souvent,",
+          "en": "the one who withdraws",
+          "tr": "sinsi",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 3,
@@ -316,60 +322,59 @@ const S114 = {
       },
       "mots": [
         {
-          "ar": "الَّذِي",
-          "translit": "allaḏī",
+          "ar": "الَّذِي",
+          "translit": "alladhī",
           "fr": "celui qui",
-          "racine": "pronom relatif",
-          "famille": [
-            "الَّتِي (allatī) — celle qui",
-            "الَّذِينَ (allaḏīna) — ceux qui"
-          ],
-          "frequence_coran": 1464,
-          "profondeur": "Le pronom relatif le plus fréquent du Coran. Il prolonge la description du tentateur : voici CE QU'IL FAIT précisément."
+          "en": "The one who",
+          "tr": "o ki",
+          "src": "wbw"
         },
         {
           "ar": "يُوَسْوِسُ",
           "translit": "yuwaswisu",
           "fr": "il chuchote / il souffle des doutes",
+          "en": "whispers",
+          "tr": "fısıldar",
           "racine": "و-س-و-س",
+          "frequence_coran": 2,
           "famille": [
             "même racine que al-waswās — forme verbale présent"
           ],
-          "frequence_coran": 2,
           "profondeur": "Six syllabes qui imitent la répétition insidieuse du murmure. Encore plus onomatopéique que le nom al-waswās. En le récitant, on 'entend' ce dont on se protège."
         },
         {
           "ar": "فِي",
           "translit": "fī",
           "fr": "dans",
+          "en": "in",
+          "tr": "göğüslerine",
           "racine": "particule",
-          "famille": [],
           "frequence_coran": 4381,
+          "famille": [],
           "profondeur": "La particule la plus fréquente du Coran (4381 fois). Ici essentielle : le chuchotement pénètre À L'INTÉRIEUR des poitrines — l'ennemi est intime."
         },
         {
           "ar": "صُدُورِ",
           "translit": "ṣudūr",
           "fr": "les poitrines / les cœurs",
+          "en": "(the) breasts",
+          "tr": "",
           "racine": "ص-د-ر",
+          "frequence_coran": 44,
           "famille": [
             "صَدْر (ṣadr) — poitrine",
             "صَدَرَ (ṣadara) — provenir de",
             "مَصْدَر (maṣdar) — source, origine (terme grammatical !)"
           ],
-          "frequence_coran": 44,
           "profondeur": "Ṣadr est le siège de l'intelligence et du cœur dans la vision coranique. Bonus grammatical : maṣdar (infinitif verbal en grammaire arabe) vient de la même racine — la 'source' d'où émane l'action. Le tentateur vise la source des décisions humaines."
         },
         {
-          "ar": "النَّاسِ",
-          "translit": "an-nās",
-          "fr": "des hommes",
-          "racine": "أ-ن-س",
-          "famille": [
-            "نَاس (nās) — gens"
-          ],
-          "frequence_coran": 241,
-          "profondeur": "Cinquième occurrence. Le fil se resserre : les hommes protégés par leur Seigneur/Roi/Dieu sont exposés au chuchoteur qui infiltre leurs poitrines. Protection divine vs infiltration du mal."
+          "ar": "النَّاسِ",
+          "translit": "n-nāsi",
+          "fr": "(des) gens",
+          "en": "(of) mankind",
+          "tr": "insanların",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 3,
@@ -404,29 +409,30 @@ const S114 = {
           "ar": "مِنَ",
           "translit": "mina",
           "fr": "parmi / de",
+          "en": "From",
+          "tr": "cinlerden",
           "racine": "particule",
-          "famille": [],
           "frequence_coran": 3226,
+          "famille": [],
           "profondeur": "Min introduit une alternative ouverte : le tentateur peut appartenir à l'une ou l'autre catégorie. Ni l'une ni l'autre n'est exclue."
         },
         {
           "ar": "الْجِنَّةِ",
           "translit": "l-jinnati",
-          "fr": "paradis",
+          "fr": "les djinns",
+          "en": "the jinn",
+          "tr": "",
           "racine": "ج-ن-ن",
           "frequence_coran": 147,
-          "auto": true
+          "src": "wbw"
         },
         {
-          "ar": "وَالنَّاسِ",
-          "translit": "wa-n-nās",
-          "fr": "et les hommes",
-          "racine": "أ-ن-س",
-          "famille": [
-            "نَاس (nās) — gens"
-          ],
-          "frequence_coran": 241,
-          "profondeur": "Sixième et dernière occurrence de an-nās dans la sourate. Et dans tout le Coran — c'est le dernier verset de la dernière sourate. Le Coran s'ouvre sur Allah (Basmala) et se referme sur an-nās (les hommes). De Dieu à l'humanité — l'arc entier du Livre."
+          "ar": "وَالنَّاسِ",
+          "translit": "wan-nāsi",
+          "fr": "et les gens humains. »",
+          "en": "and men",
+          "tr": "ve insanlar(dan);",
+          "src": "wbw"
         }
       ],
       "niveau_couche": 2,

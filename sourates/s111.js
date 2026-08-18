@@ -54,6 +54,8 @@ const S111 = {
           "ar": "تَبَّتْ",
           "translit": "tabbat",
           "fr": "que périssent",
+          "en": "Perish",
+          "tr": "kurusun",
           "racine": "ت-ب-ب",
           "frequence_coran": 3
         },
@@ -61,6 +63,8 @@ const S111 = {
           "ar": "يَدَا",
           "translit": "yadā",
           "fr": "les deux mains (de)",
+          "en": "(the) hands",
+          "tr": "iki eli",
           "racine": "ي-د-ي",
           "frequence_coran": 120
         },
@@ -68,6 +72,8 @@ const S111 = {
           "ar": "أَبِي",
           "translit": "abī",
           "fr": "père (de)",
+          "en": "(of) Abu",
+          "tr": "Ebu",
           "racine": "أ-ب-و",
           "frequence_coran": 117
         },
@@ -75,6 +81,8 @@ const S111 = {
           "ar": "لَهَبٍ",
           "translit": "lahabin",
           "fr": "Lahab (la Flamme)",
+          "en": "Lahab",
+          "tr": "Leheb'in",
           "racine": "ل-ه-ب",
           "frequence_coran": 3
         },
@@ -82,6 +90,8 @@ const S111 = {
           "ar": "وَتَبَّ",
           "translit": "watabba",
           "fr": "et il a péri",
+          "en": "and perish he",
+          "tr": "zaten kurudu da",
           "racine": "ت-ب-ب",
           "frequence_coran": 3
         }
@@ -111,6 +121,8 @@ const S111 = {
           "ar": "مَا",
           "translit": "mā",
           "fr": "ne... pas",
+          "en": "Not",
+          "tr": "kurtaramadı",
           "racine": "— (négation)",
           "frequence_coran": 0
         },
@@ -118,6 +130,8 @@ const S111 = {
           "ar": "أَغْنَىٰ",
           "translit": "aghnā",
           "fr": "lui a servi",
+          "en": "(will) avail",
+          "tr": "",
           "racine": "غ-ن-ي",
           "frequence_coran": 73
         },
@@ -125,6 +139,8 @@ const S111 = {
           "ar": "عَنْهُ",
           "translit": "ʿanhu",
           "fr": "à lui",
+          "en": "him",
+          "tr": "onu",
           "racine": "— (pronom)",
           "frequence_coran": 0
         },
@@ -132,6 +148,8 @@ const S111 = {
           "ar": "مَالُهُ",
           "translit": "māluhū",
           "fr": "sa fortune",
+          "en": "his wealth",
+          "tr": "malı",
           "racine": "م-و-ل",
           "frequence_coran": 86
         },
@@ -139,6 +157,8 @@ const S111 = {
           "ar": "وَمَا",
           "translit": "wamā",
           "fr": "ni ce que",
+          "en": "and what",
+          "tr": "ve",
           "racine": "— (relatif)",
           "frequence_coran": 0
         },
@@ -146,6 +166,8 @@ const S111 = {
           "ar": "كَسَبَ",
           "translit": "kasaba",
           "fr": "il a acquis",
+          "en": "he earned",
+          "tr": "kazandığı",
           "racine": "ك-س-ب",
           "frequence_coran": 67
         }
@@ -175,6 +197,8 @@ const S111 = {
           "ar": "سَيَصْلَىٰ",
           "translit": "sayaṣlā",
           "fr": "il brûlera bientôt",
+          "en": "He will be burnt",
+          "tr": "girecektir",
           "racine": "ص-ل-ي",
           "frequence_coran": 25
         },
@@ -182,6 +206,8 @@ const S111 = {
           "ar": "نَارًا",
           "translit": "nāran",
           "fr": "dans un feu",
+          "en": "(in) a Fire",
+          "tr": "bir ateşe",
           "racine": "ن-و-ر",
           "frequence_coran": 145
         },
@@ -189,6 +215,8 @@ const S111 = {
           "ar": "ذَاتَ",
           "translit": "dhāta",
           "fr": "doté de / plein de",
+          "en": "of",
+          "tr": "alevli",
           "racine": "— (nom)",
           "frequence_coran": 0
         },
@@ -196,6 +224,8 @@ const S111 = {
           "ar": "لَهَبٍ",
           "translit": "lahabin",
           "fr": "flammes",
+          "en": "Blazing Flames",
+          "tr": "",
           "racine": "ل-ه-ب",
           "frequence_coran": 3
         }
@@ -225,6 +255,8 @@ const S111 = {
           "ar": "وَامْرَأَتُهُ",
           "translit": "wamraʾatuhū",
           "fr": "et sa femme",
+          "en": "And his wife",
+          "tr": "ve karısı",
           "racine": "م-ر-أ",
           "frequence_coran": 38
         },
@@ -232,6 +264,8 @@ const S111 = {
           "ar": "حَمَّالَةَ",
           "translit": "ḥammālata",
           "fr": "porteuse (de)",
+          "en": "(the) carrier",
+          "tr": "hamalı",
           "racine": "ح-م-ل",
           "frequence_coran": 64
         },
@@ -239,6 +273,8 @@ const S111 = {
           "ar": "الْحَطَبِ",
           "translit": "l-ḥaṭabi",
           "fr": "bois",
+          "en": "(of) firewood",
+          "tr": "odun",
           "racine": "ح-ط-ب",
           "frequence_coran": 2
         }
@@ -275,6 +311,8 @@ const S111 = {
           "ar": "فِي",
           "translit": "fī",
           "fr": "à / dans",
+          "en": "In",
+          "tr": "boynunda",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -282,6 +320,8 @@ const S111 = {
           "ar": "جِيدِهَا",
           "translit": "jīdihā",
           "fr": "son cou",
+          "en": "her neck",
+          "tr": "",
           "racine": "ج-ي-د",
           "frequence_coran": 1
         },
@@ -289,6 +329,8 @@ const S111 = {
           "ar": "حَبْلٌ",
           "translit": "ḥablun",
           "fr": "une corde",
+          "en": "(will be) a rope",
+          "tr": "bir ip",
           "racine": "ح-ب-ل",
           "frequence_coran": 7
         },
@@ -296,6 +338,8 @@ const S111 = {
           "ar": "مِّن",
           "translit": "min",
           "fr": "de",
+          "en": "of",
+          "tr": "hurma lifinden",
           "racine": "— (préposition)",
           "frequence_coran": 0
         },
@@ -303,6 +347,8 @@ const S111 = {
           "ar": "مَّسَدٍ",
           "translit": "masadi",
           "fr": "fibres tressées",
+          "en": "palm-fiber",
+          "tr": "",
           "racine": "م-س-د",
           "frequence_coran": 1
         }

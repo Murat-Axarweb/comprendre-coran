@@ -54,6 +54,8 @@ const S103 = {
           "ar": "وَالْعَصْرِ",
           "translit": "wal-ʿaṣri",
           "fr": "par le Temps !",
+          "en": "By the time",
+          "tr": "asra andolsun ki",
           "racine": "ع-ص-ر",
           "frequence_coran": 2
         }
@@ -83,6 +85,8 @@ const S103 = {
           "ar": "إِنَّ",
           "translit": "inna",
           "fr": "certes",
+          "en": "Indeed",
+          "tr": "şüphesiz",
           "racine": "— (particule)",
           "frequence_coran": 1536
         },
@@ -90,6 +94,8 @@ const S103 = {
           "ar": "الْإِنسَٰنَ",
           "translit": "l-ʾinsāna",
           "fr": "l'homme",
+          "en": "mankind",
+          "tr": "insan",
           "racine": "أ-ن-س",
           "frequence_coran": 65
         },
@@ -97,6 +103,8 @@ const S103 = {
           "ar": "لَفِي",
           "translit": "lafī",
           "fr": "est bien dans",
+          "en": "(is) surely,in",
+          "tr": "içindedir",
           "racine": "— (emphase + fī)",
           "frequence_coran": 0
         },
@@ -104,6 +112,8 @@ const S103 = {
           "ar": "خُسْرٍ",
           "translit": "khusrin",
           "fr": "une perdition",
+          "en": "loss",
+          "tr": "ziyan",
           "racine": "خ-س-ر",
           "frequence_coran": 65
         }
@@ -133,6 +143,8 @@ const S103 = {
           "ar": "إِلَّا",
           "translit": "illā",
           "fr": "sauf",
+          "en": "Except",
+          "tr": "ancak (ziyanda değillerdir)",
           "racine": "— (exception)",
           "frequence_coran": 663
         },
@@ -140,6 +152,8 @@ const S103 = {
           "ar": "الَّذِينَ",
           "translit": "lladhīna",
           "fr": "ceux qui",
+          "en": "those who",
+          "tr": "kimseler",
           "racine": "— (relatif)",
           "frequence_coran": 1080
         },
@@ -147,6 +161,8 @@ const S103 = {
           "ar": "ءَامَنُواْ",
           "translit": "āmanū",
           "fr": "ont cru",
+          "en": "believe",
+          "tr": "inanan(lar)",
           "racine": "أ-م-ن",
           "frequence_coran": 879
         },
@@ -154,6 +170,8 @@ const S103 = {
           "ar": "وَعَمِلُواْ",
           "translit": "waʿamilū",
           "fr": "et ont accompli",
+          "en": "and do",
+          "tr": "ve yapanlar",
           "racine": "ع-م-ل",
           "frequence_coran": 360
         },
@@ -161,6 +179,8 @@ const S103 = {
           "ar": "الصَّـٰلِحَٰتِ",
           "translit": "ṣ-ṣāliḥāti",
           "fr": "les œuvres bonnes",
+          "en": "righteous deeds",
+          "tr": "iyi işler",
           "racine": "ص-ل-ح",
           "frequence_coran": 180
         },
@@ -168,6 +188,8 @@ const S103 = {
           "ar": "وَتَوَاصَوْاْ",
           "translit": "watawāṣaw",
           "fr": "et se sont recommandé",
+          "en": "and enjoin (each other)",
+          "tr": "tavsiye edenler",
           "racine": "و-ص-ي",
           "frequence_coran": 32,
           "famille": [
@@ -181,6 +203,8 @@ const S103 = {
           "ar": "بِالْحَقِّ",
           "translit": "bil-ḥaqqi",
           "fr": "la vérité",
+          "en": "to the truth",
+          "tr": "hakkı",
           "racine": "ح-ق-ق",
           "frequence_coran": 287
         },
@@ -188,13 +212,23 @@ const S103 = {
           "ar": "وَتَوَاصَوْاْ",
           "translit": "watawāṣaw",
           "fr": "et se sont recommandé",
+          "en": "and enjoin (each other)",
+          "tr": "ve tavsiye edenler",
           "racine": "و-ص-ي",
-          "frequence_coran": 32
+          "frequence_coran": 32,
+          "famille": [
+            "وَصِيَّة (waṣiyya) — testament",
+            "وَصَّىٰ (waṣṣā) — recommander",
+            "تَوَاصٍ (tawāṣin) — recommandation mutuelle"
+          ],
+          "profondeur": "Tawāṣaw est une forme réciproque (forme VI) : ce n'est pas un maître qui recommande à des élèves, mais des égaux qui se soutiennent mutuellement. Le salut décrit ici n'est pas individuel : croire et bien agir ne suffisent pas sans une communauté où circule le rappel de la vérité et de la patience."
         },
         {
           "ar": "بِالصَّبْرِ",
           "translit": "biṣ-ṣabri",
           "fr": "la patience",
+          "en": "to [the] patience",
+          "tr": "sabrı",
           "racine": "ص-ب-ر",
           "frequence_coran": 103
         }
