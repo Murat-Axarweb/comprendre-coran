@@ -172,10 +172,11 @@ const S113 = {
           "translit": "sharri",
           "fr": "mal",
           "en": "(the) evil",
-          "tr": "",
+          "tr": "şerrinden",
           "racine": "ش-ر-ر",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مَا",

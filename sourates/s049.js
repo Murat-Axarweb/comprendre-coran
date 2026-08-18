@@ -660,9 +660,10 @@ const S049 = {
           "translit": "warāʾi",
           "fr": "derrière",
           "en": "behind",
-          "tr": "",
+          "tr": "ardından",
           "racine": "و-ر-ي",
-          "frequence_coran": 24
+          "frequence_coran": 24,
+          "tr_report": true
         },
         {
           "ar": "الْحُجُرَٰتِ",
@@ -1587,9 +1588,10 @@ const S049 = {
           "translit": "amri",
           "fr": "ordre",
           "en": "(the) command",
-          "tr": "",
+          "tr": "buyruğuna",
           "racine": "أ-م-ر",
-          "frequence_coran": 166
+          "frequence_coran": 166,
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",

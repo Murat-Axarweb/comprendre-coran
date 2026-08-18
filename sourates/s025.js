@@ -292,9 +292,10 @@ const S025 = {
           "translit": "l-mulki",
           "fr": "royauté",
           "en": "the dominion",
-          "tr": "",
+          "tr": "mülkün",
           "racine": "م-ل-ك",
-          "frequence_coran": 48
+          "frequence_coran": 48,
+          "tr_report": true
         },
         {
           "ar": "وَخَلَقَ",
@@ -2119,9 +2120,10 @@ const S025 = {
           "translit": "wuʿida",
           "fr": "promettre",
           "en": "is promised",
-          "tr": "",
+          "tr": "va'dedilen",
           "racine": "و-ع-د",
-          "frequence_coran": 7
+          "frequence_coran": 7,
+          "tr_report": true
         },
         {
           "ar": "الْمُتَّقُونَ",
@@ -3099,10 +3101,11 @@ const S025 = {
           "translit": "yarjūna",
           "fr": "espèrent (pas)",
           "en": "expect",
-          "tr": "",
+          "tr": "umarlar",
           "racine": "ر-ج-و",
           "frequence_coran": 22,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لِقَاءَنَا",
@@ -4036,8 +4039,9 @@ const S025 = {
           "translit": "jāʾanī",
           "fr": "il est arrivé (chez) moi. »",
           "en": "it (had) come to me",
-          "tr": "",
-          "src": "wbw"
+          "tr": "bana geldi",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَكَانَ",
@@ -5355,10 +5359,11 @@ const S025 = {
           "translit": "yarawnahā",
           "fr": "ils le voyaient ?",
           "en": "see it",
-          "tr": "",
+          "tr": "onu gördükleri",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بَلْ",
@@ -5392,10 +5397,11 @@ const S025 = {
           "translit": "yarjūna",
           "fr": "ils espéraient",
           "en": "expecting",
-          "tr": "",
+          "tr": "umarlar",
           "racine": "ر-ج-و",
           "frequence_coran": 22,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نُشُورًا",
@@ -5508,9 +5514,10 @@ const S025 = {
           "translit": "baʿatha",
           "fr": "envoyer",
           "en": "Allah has sent",
-          "tr": "",
+          "tr": "gönderdi",
           "racine": "ب-ع-ث",
-          "frequence_coran": 8
+          "frequence_coran": 8,
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",
@@ -5566,10 +5573,11 @@ const S025 = {
           "translit": "kāda",
           "fr": "il aurait été proche",
           "en": "He would have almost",
-          "tr": "",
+          "tr": "neredeyse",
           "racine": "ك-و-د",
           "frequence_coran": 24,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَيُضِلُّنَا",
@@ -5623,10 +5631,11 @@ const S025 = {
           "translit": "ṣabarnā",
           "fr": "nous avons enduré",
           "en": "we had been steadfast",
-          "tr": "",
+          "tr": "sabretsek de",
           "racine": "ص-ب-ر",
           "frequence_coran": 103,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهَا",
@@ -6797,9 +6806,10 @@ const S025 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "قَرْيَةٍ",
@@ -6856,10 +6866,11 @@ const S025 = {
           "translit": "tuṭiʿi",
           "fr": "obéi (pas)",
           "en": "obey",
-          "tr": "",
+          "tr": "ita'at etme",
           "racine": "ط-و-ع",
           "frequence_coran": 77,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْكَٰفِرِينَ",
@@ -6953,8 +6964,9 @@ const S025 = {
           "translit": "maraja",
           "fr": "a placé ensembles",
           "en": "(has) released",
-          "tr": "",
-          "src": "wbw"
+          "tr": "salıverdi",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْبَحْرَيْنِ",
@@ -7126,9 +7138,10 @@ const S025 = {
           "translit": "l-māʾi",
           "fr": "l’eau",
           "en": "the water",
-          "tr": "",
+          "tr": "su",
           "racine": "م-و-ه / م-ي-ه",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "بَشَرًا",
@@ -7460,10 +7473,11 @@ const S025 = {
           "translit": "asʾalukum",
           "fr": "je vous demande",
           "en": "I ask (of) you",
-          "tr": "",
+          "tr": "ben sizden istemiyorum",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِ",
@@ -7803,9 +7817,10 @@ const S025 = {
           "translit": "sittati",
           "fr": "six",
           "en": "six",
-          "tr": "",
+          "tr": "altı",
           "racine": "س-ت-ت",
-          "frequence_coran": 4
+          "frequence_coran": 4,
+          "tr_report": true
         },
         {
           "ar": "أَيَّامٍ",
@@ -9715,10 +9730,11 @@ const S025 = {
           "translit": "azwājinā",
           "fr": "nos époux/épouses",
           "en": "our spouses",
-          "tr": "",
+          "tr": "kadınlarımız",
           "racine": "ز-و-ج",
           "frequence_coran": 81,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَذُرِّيَّـٰتِنَا",

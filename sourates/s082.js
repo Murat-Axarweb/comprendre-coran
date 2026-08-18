@@ -482,10 +482,11 @@ const S082 = {
           "translit": "ayyi",
           "fr": "n’importe quelle",
           "en": "whatever",
-          "tr": "",
+          "tr": "hangi",
           "racine": "—",
           "frequence_coran": 60,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "صُورَةٍ",

@@ -1237,8 +1237,9 @@ const S059 = {
           "translit": "afāʾa",
           "fr": "a rendu",
           "en": "(was) restored",
-          "tr": "",
-          "src": "wbw"
+          "tr": "verdiği",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",
@@ -2643,10 +2644,11 @@ const S059 = {
           "translit": "yakhrujūna",
           "fr": "ils sortiront",
           "en": "they will leave",
-          "tr": "",
+          "tr": "çıkarlar",
           "racine": "خ-ر-ج",
           "frequence_coran": 47,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مَعَهُمْ",
@@ -2827,10 +2829,11 @@ const S059 = {
           "translit": "ṣudūrihim",
           "fr": "leurs poitrines",
           "en": "their breasts",
-          "tr": "",
+          "tr": "göğüsleri",
           "racine": "ص-د-ر",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِّنَ",
@@ -3005,9 +3008,10 @@ const S059 = {
           "translit": "warāʾi",
           "fr": "derrière",
           "en": "behind",
-          "tr": "",
+          "tr": "ardından",
           "racine": "و-ر-ي",
-          "frequence_coran": 24
+          "frequence_coran": 24,
+          "tr_report": true
         },
         {
           "ar": "جُدُرٍ",
@@ -4034,9 +4038,10 @@ const S059 = {
           "translit": "jabalin",
           "fr": "montagne",
           "en": "a mountain",
-          "tr": "",
+          "tr": "dağın",
           "racine": "ج-ب-ل",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "لَّرَأَيْتَهُ",

@@ -357,9 +357,10 @@ const S067 = {
           "translit": "khalqi",
           "fr": "il a créé",
           "en": "(the) creation",
-          "tr": "",
+          "tr": "yaratılışı",
           "racine": "خ-ل-ق",
-          "frequence_coran": 261
+          "frequence_coran": 261,
+          "tr_report": true
         },
         {
           "ar": "الرَّحْمَٰنِ",
@@ -2281,10 +2282,11 @@ const S067 = {
           "translit": "yumsikuhunna",
           "fr": "les maintient (pas)",
           "en": "holds them",
-          "tr": "",
+          "tr": "onları tutan",
           "racine": "م-س-ك",
           "frequence_coran": 27,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",

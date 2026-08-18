@@ -175,10 +175,11 @@ const S014 = {
           "translit": "ṣirāṭi",
           "fr": "(le) chemin",
           "en": "the Path",
-          "tr": "",
+          "tr": "yoluna",
           "racine": "ص-ر-ط",
           "frequence_coran": 43,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْعَزِيزِ",
@@ -1189,9 +1190,10 @@ const S014 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "عَظِيمٌ",
@@ -1710,10 +1712,11 @@ const S014 = {
           "translit": "afwāhihim",
           "fr": "leurs bouches (les mordant avec colère)",
           "en": "their mouths",
-          "tr": "",
+          "tr": "ağızları",
           "racine": "ف-و-ه",
           "frequence_coran": 12,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَقَالُواْ",
@@ -3181,9 +3184,10 @@ const S014 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "مَكَانٍ",
@@ -3868,9 +3872,10 @@ const S014 = {
           "translit": "ʿadhābi",
           "fr": "châtiment",
           "en": "(the) punishment",
-          "tr": "",
+          "tr": "azabımı",
           "racine": "ع-ذ-ب",
-          "frequence_coran": 373
+          "frequence_coran": 373,
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",
@@ -4406,9 +4411,10 @@ const S014 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "إِنَّ",
@@ -6241,9 +6247,10 @@ const S014 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "all",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "مَا",
@@ -7480,10 +7487,11 @@ const S014 = {
           "translit": "taḥsabanna",
           "fr": "pensez (pas) du tout",
           "en": "think",
-          "tr": "",
+          "tr": "sanma",
           "racine": "ح-س-ب",
           "frequence_coran": 44,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهَ",
@@ -7912,9 +7920,10 @@ const S014 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "مَا",
@@ -8251,10 +8260,11 @@ const S014 = {
           "translit": "l-jibālu",
           "fr": "les montagnes.",
           "en": "the mountains",
-          "tr": "",
+          "tr": "dağlar",
           "racine": "ج-ب-ل",
           "frequence_coran": 39,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3

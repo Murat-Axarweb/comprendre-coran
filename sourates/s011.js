@@ -2917,9 +2917,10 @@ const S011 = {
           "translit": "rabbihī",
           "fr": "son Seigneur",
           "en": "his Lord",
-          "tr": "",
+          "tr": "Rabbi",
           "racine": "ر-ب-ب",
-          "frequence_coran": 44
+          "frequence_coran": 44,
+          "tr_report": true
         },
         {
           "ar": "وَيَتْلُوهُ",
@@ -3177,9 +3178,10 @@ const S011 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "وَلَٰكِنَّ",
@@ -4450,10 +4452,11 @@ const S011 = {
           "translit": "taʿbudū",
           "fr": "vous adoriez",
           "en": "worship",
-          "tr": "",
+          "tr": "kulluk etmeyin",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -4929,9 +4932,10 @@ const S011 = {
           "translit": "rabbī",
           "fr": "mon Seigneur",
           "en": "my Lord",
-          "tr": "",
+          "tr": "Rabbim",
           "racine": "ر-ب-ب",
-          "frequence_coran": 91
+          "frequence_coran": 91,
+          "tr_report": true
         },
         {
           "ar": "وَءَاتَىٰنِي",
@@ -5068,10 +5072,11 @@ const S011 = {
           "translit": "asʾalukum",
           "fr": "je vous demande",
           "en": "I ask (of) you",
-          "tr": "",
+          "tr": "ben sizden istemiyorum",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِ",
@@ -5106,10 +5111,11 @@ const S011 = {
           "translit": "ajriya",
           "fr": "ma compensation",
           "en": "(is) my reward",
-          "tr": "",
+          "tr": "bana bir ücret",
           "racine": "أ-ج-ر",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -6512,8 +6518,9 @@ const S011 = {
           "translit": "tukhāṭibnī",
           "fr": "discute (pas avec) Moi",
           "en": "address Me",
-          "tr": "",
-          "src": "wbw"
+          "tr": "bana yalvarma",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِي",
@@ -7013,9 +7020,10 @@ const S011 = {
           "translit": "kullin",
           "fr": "de tout",
           "en": "every kind",
-          "tr": "",
+          "tr": "hepsinden",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "زَوْجَيْنِ",
@@ -7532,9 +7540,10 @@ const S011 = {
           "translit": "jabalin",
           "fr": "montagne",
           "en": "a mountain",
-          "tr": "",
+          "tr": "dağın",
           "racine": "ج-ب-ل",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "يَعْصِمُنِي",
@@ -7558,9 +7567,10 @@ const S011 = {
           "translit": "l-māʾi",
           "fr": "l’eau",
           "en": "the water",
-          "tr": "",
+          "tr": "su",
           "racine": "م-و-ه / م-ي-ه",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "قَالَ",
@@ -7611,9 +7621,10 @@ const S011 = {
           "translit": "amri",
           "fr": "ordre",
           "en": "the Command of Allah",
-          "tr": "",
+          "tr": "buyruğuna",
           "racine": "أ-م-ر",
-          "frequence_coran": 166
+          "frequence_coran": 166,
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",
@@ -8274,10 +8285,11 @@ const S011 = {
           "translit": "l-jāhilīna",
           "fr": "les ignorants. »",
           "en": "the ignorant",
-          "tr": "",
+          "tr": "cahilleri",
           "racine": "ج-ه-ل",
           "frequence_coran": 5,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -9092,10 +9104,11 @@ const S011 = {
           "translit": "asʾalukum",
           "fr": "je vous demande",
           "en": "I ask you",
-          "tr": "",
+          "tr": "ben sizden istemiyorum",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِ",
@@ -9130,10 +9143,11 @@ const S011 = {
           "translit": "ajriya",
           "fr": "(la responsabilité de) ma compensation",
           "en": "(is) my reward",
-          "tr": "",
+          "tr": "bana bir ücret",
           "racine": "أ-ج-ر",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -9167,8 +9181,9 @@ const S011 = {
           "translit": "faṭaranī",
           "fr": "m’a créé et rendu manifeste.",
           "en": "created me",
-          "tr": "",
-          "src": "wbw"
+          "tr": "beni yaratana",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَفَلَا",
@@ -10187,9 +10202,10 @@ const S011 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "all",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "شَيْءٍ",
@@ -11266,9 +11282,10 @@ const S011 = {
           "translit": "rabbī",
           "fr": "mon Seigneur",
           "en": "my Lord",
-          "tr": "",
+          "tr": "Rabbim",
           "racine": "ر-ب-ب",
-          "frequence_coran": 91
+          "frequence_coran": 91,
+          "tr_report": true
         },
         {
           "ar": "وَءَاتَىٰنِي",
@@ -11527,10 +11544,11 @@ const S011 = {
           "translit": "tamassūhā",
           "fr": "la touchez (pas)",
           "en": "touch her",
-          "tr": "",
+          "tr": "ona dokundurmayın",
           "racine": "م-س-س",
           "frequence_coran": 58,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِسُوءٍ",
@@ -12404,10 +12422,11 @@ const S011 = {
           "translit": "takhaf",
           "fr": "es (pas) peur.",
           "en": "fear",
-          "tr": "",
+          "tr": "korkma",
           "racine": "خ-و-ف",
           "frequence_coran": 83,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِنَّا",
@@ -12747,9 +12766,10 @@ const S011 = {
           "translit": "amri",
           "fr": "ordre",
           "en": "(the) decree of Allah",
-          "tr": "",
+          "tr": "buyruğuna",
           "racine": "أ-م-ر",
-          "frequence_coran": 166
+          "frequence_coran": 166,
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",
@@ -13390,9 +13410,10 @@ const S011 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "and before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "كَانُواْ",
@@ -15207,9 +15228,10 @@ const S011 = {
           "translit": "rabbī",
           "fr": "mon Seigneur",
           "en": "my Lord",
-          "tr": "",
+          "tr": "Rabbim",
           "racine": "ر-ب-ب",
-          "frequence_coran": 91
+          "frequence_coran": 91,
+          "tr_report": true
         },
         {
           "ar": "وَرَزَقَنِي",
@@ -16176,8 +16198,9 @@ const S011 = {
           "translit": "makānatikum",
           "fr": "vos positions.",
           "en": "your position",
-          "tr": "",
-          "src": "wbw"
+          "tr": "durumunuza",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِنِّي",
@@ -17178,10 +17201,11 @@ const S011 = {
           "translit": "ẓalamnāhum",
           "fr": "Nous avons fait d’injustice (à) eux",
           "en": "We wronged them",
-          "tr": "",
+          "tr": "onlara zulmediyor",
           "racine": "ظ-ل-م",
           "frequence_coran": 315,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَلَٰكِن",
@@ -18457,9 +18481,10 @@ const S011 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَإِنَّا",
@@ -19332,10 +19357,11 @@ const S011 = {
           "translit": "yuḍīʿu",
           "fr": "laisse (pas) perdre",
           "en": "let go waste",
-          "tr": "",
+          "tr": "ecirlerini",
           "racine": "ض-ي-ع",
           "frequence_coran": 10,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَجْرَ",
@@ -20259,8 +20285,9 @@ const S011 = {
           "translit": "makānatikum",
           "fr": "vos positions !",
           "en": "your position",
-          "tr": "",
-          "src": "wbw"
+          "tr": "durumunuza",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِنَّا",

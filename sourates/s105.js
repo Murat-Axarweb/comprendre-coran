@@ -148,9 +148,10 @@ const S105 = {
           "translit": "yajʿal",
           "fr": "fait / rendu",
           "en": "He make",
-          "tr": "",
+          "tr": "yapar",
           "racine": "ج-ع-ل",
-          "frequence_coran": 346
+          "frequence_coran": 346,
+          "tr_report": true
         },
         {
           "ar": "كَيْدَهُمْ",

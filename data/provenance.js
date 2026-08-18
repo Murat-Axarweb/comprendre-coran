@@ -50,7 +50,7 @@ export const PROVENANCE = {
     source: 'Quranic Universal Library (qul.tarteel.ai) — traductions mot à mot FR/EN/TR',
     note: "Chaque mot du texte reçoit une traduction propre à sa position, et non "
         + "le sens générique d'une entrée de dictionnaire. Couverture : 100 % en "
-        + "français et en anglais, 91 % en turc. Les gloses rédigées pour le projet "
+        + "français et en anglais, 92,5 % en turc. Les gloses rédigées pour le projet "
         + "sont conservées en français.",
     couverture: 1.0
   },

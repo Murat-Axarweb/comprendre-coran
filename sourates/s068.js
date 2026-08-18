@@ -1304,9 +1304,10 @@ const S068 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "وَهُمْ",
@@ -1896,10 +1897,11 @@ const S068 = {
           "translit": "aqul",
           "fr": "j’ai dit",
           "en": "I tell",
-          "tr": "",
+          "tr": "size demiş",
           "racine": "ق-و-ل",
           "frequence_coran": 1722,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَّكُمْ",
@@ -2138,8 +2140,9 @@ const S068 = {
           "translit": "ṭāghīna",
           "fr": "transgresseurs. »",
           "en": "transgressors",
-          "tr": "",
-          "src": "wbw"
+          "tr": "azgın",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -2717,10 +2720,11 @@ const S068 = {
           "translit": "aymānun",
           "fr": "un serment",
           "en": "oaths",
-          "tr": "",
+          "tr": "yeminlerin",
           "racine": "ي-م-ن",
           "frequence_coran": 71,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْنَا",
@@ -3153,10 +3157,11 @@ const S068 = {
           "translit": "yudʿawna",
           "fr": "ils étaient appelés",
           "en": "called",
-          "tr": "",
+          "tr": "çağırılıyorlar da",
           "racine": "د-ع-و",
           "frequence_coran": 55,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَى",
@@ -3724,9 +3729,10 @@ const S068 = {
           "translit": "rabbihī",
           "fr": "son Seigneur",
           "en": "his Lord",
-          "tr": "",
+          "tr": "Rabbi",
           "racine": "ر-ب-ب",
-          "frequence_coran": 44
+          "frequence_coran": 44,
+          "tr_report": true
         },
         {
           "ar": "لَنُبِذَ",

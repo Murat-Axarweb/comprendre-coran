@@ -128,9 +128,10 @@ const S013 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "الْحَقُّ",
@@ -1519,9 +1520,10 @@ const S013 = {
           "translit": "rabbihī",
           "fr": "son Seigneur",
           "en": "his Lord",
-          "tr": "",
+          "tr": "Rabbi",
           "racine": "ر-ب-ب",
-          "frequence_coran": 44
+          "frequence_coran": 44,
+          "tr_report": true
         },
         {
           "ar": "إِنَّمَا",
@@ -2074,9 +2076,10 @@ const S013 = {
           "translit": "amri",
           "fr": "ordre",
           "en": "(the) command",
-          "tr": "",
+          "tr": "buyruğuna",
           "racine": "أ-م-ر",
-          "frequence_coran": 166
+          "frequence_coran": 166,
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",
@@ -2348,10 +2351,11 @@ const S013 = {
           "translit": "yurīkumu",
           "fr": "vous montre",
           "en": "shows you",
-          "tr": "",
+          "tr": "size göstermesidir",
           "racine": "ر-ا-ي",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْبَرْقَ",
@@ -2771,9 +2775,10 @@ const S013 = {
           "translit": "l-māʾi",
           "fr": "l’eau",
           "en": "water",
-          "tr": "",
+          "tr": "su",
           "racine": "م-و-ه / م-ي-ه",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "لِيَبْلُغَ",
@@ -3213,10 +3218,11 @@ const S013 = {
           "translit": "yastawī",
           "fr": "sont égaux",
           "en": "equal",
-          "tr": "",
+          "tr": "eşit",
           "racine": "س-و-ي",
           "frequence_coran": 35,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْأَعْمَىٰ",
@@ -3259,10 +3265,11 @@ const S013 = {
           "translit": "tastawī",
           "fr": "sont égaux",
           "en": "equal",
-          "tr": "",
+          "tr": "eşit",
           "racine": "س-و-ي",
           "frequence_coran": 35,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الظُّلُمَٰتُ",
@@ -4191,9 +4198,10 @@ const S013 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "الْحَقُّ",
@@ -4787,10 +4795,11 @@ const S013 = {
           "translit": "ābāʾihim",
           "fr": "leurs ancêtres",
           "en": "their fathers",
-          "tr": "",
+          "tr": "babalarından",
           "racine": "ا-ب-و",
           "frequence_coran": 64,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَأَزْوَٰجِهِمْ",
@@ -4853,9 +4862,10 @@ const S013 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "بَابٍ",
@@ -5472,9 +5482,10 @@ const S013 = {
           "translit": "rabbihī",
           "fr": "son Seigneur",
           "en": "his Lord",
-          "tr": "",
+          "tr": "Rabbi",
           "racine": "ر-ب-ب",
-          "frequence_coran": 44
+          "frequence_coran": 44,
+          "tr_report": true
         },
         {
           "ar": "قُلْ",
@@ -7813,9 +7824,10 @@ const S013 = {
           "translit": "l-ʿilmi",
           "fr": "savoir",
           "en": "not",
-          "tr": "",
+          "tr": "ilim",
           "racine": "ع-ل-م",
-          "frequence_coran": 105
+          "frequence_coran": 105,
+          "tr_report": true
         },
         {
           "ar": "مَا",
@@ -8272,10 +8284,11 @@ const S013 = {
           "translit": "naʿiduhum",
           "fr": "Nous leur avons promis",
           "en": "We have promised them",
-          "tr": "",
+          "tr": "onları tehdidettiğimiz",
           "racine": "و-ع-د",
           "frequence_coran": 7,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَوْ",

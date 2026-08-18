@@ -2847,10 +2847,11 @@ const S074 = {
           "translit": "naku",
           "fr": "nous étions",
           "en": "we were",
-          "tr": "",
+          "tr": "değildik",
           "racine": "ك-و-ن",
           "frequence_coran": 1360,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِنَ",
@@ -2866,8 +2867,9 @@ const S074 = {
           "translit": "l-muṣallīna",
           "fr": "ceux qui prient",
           "en": "those who prayed",
-          "tr": "",
-          "src": "wbw"
+          "tr": "namaz kılanlar",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -3665,9 +3667,10 @@ const S074 = {
           "translit": "yashāʾa",
           "fr": "Il veut",
           "en": "wills",
-          "tr": "",
+          "tr": "dilemesi",
           "racine": "ش-ي-ء",
-          "frequence_coran": 108
+          "frequence_coran": 108,
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",

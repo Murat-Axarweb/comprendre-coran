@@ -735,9 +735,10 @@ const S052 = {
           "translit": "nāri",
           "fr": "feu",
           "en": "(the) Fire",
-          "tr": "",
+          "tr": "ateşi",
           "racine": "ن-و-ر",
-          "frequence_coran": 145
+          "frequence_coran": 145,
+          "tr_report": true
         },
         {
           "ar": "جَهَنَّمَ",
@@ -2153,9 +2154,10 @@ const S052 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "نَدْعُوهُ",

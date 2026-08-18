@@ -699,10 +699,11 @@ const S046 = {
           "translit": "yastajību",
           "fr": "répondent (pas)",
           "en": "will not respond",
-          "tr": "",
+          "tr": "icabet eder",
           "racine": "ج-و-ب",
           "frequence_coran": 27,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَهُ",
@@ -1921,10 +1922,11 @@ const S046 = {
           "translit": "yahtadū",
           "fr": "ils sont guidés",
           "en": "they (are) guided",
-          "tr": "",
+          "tr": "doğru yola gelmezler",
           "racine": "ه-د-ي",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِهِ",
@@ -2641,10 +2643,11 @@ const S046 = {
           "translit": "ashkura",
           "fr": "je sois reconnaissant",
           "en": "I may be grateful",
-          "tr": "",
+          "tr": "şükredeyim",
           "racine": "ش-ك-ر",
           "frequence_coran": 75,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نِعْمَتَكَ",
@@ -4047,10 +4050,11 @@ const S046 = {
           "translit": "taʿbudū",
           "fr": "adorez (pas)",
           "en": "you worship",
-          "tr": "",
+          "tr": "kulluk etmeyin",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -4685,10 +4689,11 @@ const S046 = {
           "translit": "yurā",
           "fr": "sont (pas) vues",
           "en": "is seen",
-          "tr": "",
+          "tr": "görülecektir",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -5130,10 +5135,11 @@ const S046 = {
           "translit": "ḥawlakum",
           "fr": "autour (de) vous",
           "en": "surrounds you",
-          "tr": "",
+          "tr": "çevrenizdeki",
           "racine": "ح-و-ل",
           "frequence_coran": 17,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِّنَ",
@@ -5871,10 +5877,11 @@ const S046 = {
           "translit": "dhunūbikum",
           "fr": "vos pêchés",
           "en": "your sins",
-          "tr": "",
+          "tr": "günahlarınızdan",
           "racine": "ذ-ن-ب",
           "frequence_coran": 39,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَيُجِرْكُم",
@@ -6752,10 +6759,11 @@ const S046 = {
           "translit": "yuhlaku",
           "fr": "sont détruits",
           "en": "(any) be destroyed",
-          "tr": "",
+          "tr": "helak edilir",
           "racine": "ه-ل-ك",
           "frequence_coran": 51,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",

@@ -204,9 +204,10 @@ const S062 = {
           "translit": "baʿatha",
           "fr": "envoyer",
           "en": "sent",
-          "tr": "",
+          "tr": "gönderdi",
           "racine": "ب-ع-ث",
-          "frequence_coran": 8
+          "frequence_coran": 8,
+          "tr_report": true
         },
         {
           "ar": "فِي",
@@ -345,9 +346,10 @@ const S062 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "لَفِي",
@@ -1422,9 +1424,10 @@ const S062 = {
           "translit": "dhikri",
           "fr": "souvenir",
           "en": "(the) remembrance",
-          "tr": "",
+          "tr": "anmağa",
           "racine": "ذ-ك-ر",
-          "frequence_coran": 256
+          "frequence_coran": 256,
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",

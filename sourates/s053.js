@@ -597,10 +597,11 @@ const S053 = {
           "translit": "ʿabdihī",
           "fr": "Son esclave",
           "en": "His slave",
-          "tr": "",
+          "tr": "kulu",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مَا",
@@ -656,9 +657,10 @@ const S053 = {
           "translit": "kadhaba",
           "fr": "traiter de mensonge",
           "en": "lied",
-          "tr": "",
+          "tr": "yalan uydurandan",
           "racine": "ك-ذ-ب",
-          "frequence_coran": 80
+          "frequence_coran": 80,
+          "tr_report": true
         },
         {
           "ar": "الْفُؤَادُ",
@@ -684,9 +686,10 @@ const S053 = {
           "translit": "raʾā",
           "fr": "voir",
           "en": "it saw",
-          "tr": "",
+          "tr": "gördü",
           "racine": "ر-أ-ي",
-          "frequence_coran": 130
+          "frequence_coran": 130,
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -1860,10 +1863,11 @@ const S053 = {
           "translit": "yaʾdhana",
           "fr": "permette",
           "en": "Allah has given permission",
-          "tr": "",
+          "tr": "izin verinceye",
           "racine": "أ-ذ-ن",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",
@@ -2351,9 +2355,10 @@ const S053 = {
           "translit": "l-ʿilmi",
           "fr": "savoir",
           "en": "knowledge",
-          "tr": "",
+          "tr": "ilim",
           "racine": "ع-ل-م",
-          "frequence_coran": 105
+          "frequence_coran": 105,
+          "tr_report": true
         },
         {
           "ar": "إِنَّ",
@@ -3207,9 +3212,10 @@ const S053 = {
           "translit": "ṣuḥufi",
           "fr": "feuillets",
           "en": "(the) Scriptures",
-          "tr": "",
+          "tr": "sayfalarında",
           "racine": "ص-ح-ف",
-          "frequence_coran": 6
+          "frequence_coran": 6,
+          "tr_report": true
         },
         {
           "ar": "مُوسَىٰ",
@@ -4213,9 +4219,10 @@ const S053 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "إِنَّهُمْ",

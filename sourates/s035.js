@@ -246,9 +246,10 @@ const S035 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "شَيْءٍ",
@@ -1091,10 +1092,11 @@ const S035 = {
           "translit": "aṣḥābi",
           "fr": "(les) compagnons",
           "en": "(the) companions",
-          "tr": "",
+          "tr": "halkı",
           "racine": "ص-ح-ب",
           "frequence_coran": 77,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "السَّعِيرِ",
@@ -1550,10 +1552,11 @@ const S035 = {
           "translit": "arsala",
           "fr": "a envoyé",
           "en": "sends",
-          "tr": "",
+          "tr": "gönderdi",
           "racine": "ر-س-ل",
           "frequence_coran": 68,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الرِّيَٰحَ",
@@ -1604,9 +1607,10 @@ const S035 = {
           "translit": "baladin",
           "fr": "pays",
           "en": "a land",
-          "tr": "",
+          "tr": "şehirlere",
           "racine": "ب-ل-د",
-          "frequence_coran": 7
+          "frequence_coran": 7,
+          "tr_report": true
         },
         {
           "ar": "مَّيِّتٍ",
@@ -2052,10 +2056,11 @@ const S035 = {
           "translit": "taḥmilu",
           "fr": "est (pas) enceinte",
           "en": "conceives",
-          "tr": "",
+          "tr": "yüklendiğini",
           "racine": "ح-م-ل",
           "frequence_coran": 64,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِنْ",
@@ -5524,8 +5529,9 @@ const S035 = {
           "translit": "asāwira",
           "fr": "bracelets",
           "en": "bracelets",
-          "tr": "",
-          "src": "wbw"
+          "tr": "bilezikler",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِن",
@@ -5935,10 +5941,11 @@ const S035 = {
           "translit": "yuqḍā",
           "fr": "il sera fini",
           "en": "is decreed",
-          "tr": "",
+          "tr": "tamamlansın",
           "racine": "ق-ض-ي",
           "frequence_coran": 63,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِمْ",
@@ -6456,10 +6463,11 @@ const S035 = {
           "translit": "jaʿalakum",
           "fr": "a fait (de) vous",
           "en": "made you",
-          "tr": "",
+          "tr": "sizi yaptı",
           "racine": "ج-ع-ل",
           "frequence_coran": 44,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "خَلَـٰئِفَ",
@@ -7175,10 +7183,11 @@ const S035 = {
           "translit": "ḥalīman",
           "fr": "très indulgent,",
           "en": "Most Forbearing",
-          "tr": "",
+          "tr": "halimdir",
           "racine": "ح-ل-م",
           "frequence_coran": 5,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "غَفُورًا",
@@ -7690,10 +7699,11 @@ const S035 = {
           "translit": "yasīrū",
           "fr": "ils ont voyagé",
           "en": "traveled",
-          "tr": "",
+          "tr": "gezmediler mi?",
           "racine": "س-ي-ر",
           "frequence_coran": 27,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِي",

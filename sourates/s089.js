@@ -1703,10 +1703,11 @@ const S089 = {
           "translit": "yuʿadhdhibu",
           "fr": "châtiera",
           "en": "will punish",
-          "tr": "",
+          "tr": "azabeder",
           "racine": "ع-ذ-ب",
           "frequence_coran": 41,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَذَابَهُ",
@@ -1876,9 +1877,10 @@ const S089 = {
           "translit": "rabbiki",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbinin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "رَاضِيَةً",

@@ -708,10 +708,11 @@ const S058 = {
           "translit": "yajid",
           "fr": "trouve (pas),",
           "en": "find",
-          "tr": "",
+          "tr": "bulur",
           "racine": "و-ج-د",
           "frequence_coran": 107,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَصِيَامُ",
@@ -2346,10 +2347,11 @@ const S058 = {
           "translit": "sh-shayṭāni",
           "fr": "[le] diable",
           "en": "the Shaitaan",
-          "tr": "",
+          "tr": "şeytanın",
           "racine": "ش-ط-ن",
           "frequence_coran": 88,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لِيَحْزُنَ",
@@ -2948,10 +2950,11 @@ const S058 = {
           "translit": "tajidū",
           "fr": "vous trouvez,",
           "en": "you find",
-          "tr": "",
+          "tr": "bulamamışsanız",
           "racine": "و-ج-د",
           "frequence_coran": 107,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَإِنَّ",

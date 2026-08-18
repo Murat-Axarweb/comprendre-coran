@@ -740,10 +740,11 @@ const S085 = {
           "translit": "yatūbū",
           "fr": "se sont (pas) repentis,",
           "en": "they repented",
-          "tr": "",
+          "tr": "tevbe ederlerse",
           "racine": "ت-و-ب",
           "frequence_coran": 63,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَلَهُمْ",
@@ -1262,10 +1263,11 @@ const S085 = {
           "translit": "atāka",
           "fr": "t’est venu",
           "en": "come to you",
-          "tr": "",
+          "tr": "sana geldi",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "حَدِيثُ",
@@ -1451,10 +1453,11 @@ const S085 = {
           "translit": "warāʾihim",
           "fr": "derrière eux",
           "en": "behind them",
-          "tr": "",
+          "tr": "önlerinde vardır",
           "racine": "و-ر-ي",
           "frequence_coran": 24,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مُّحِيطٌ",

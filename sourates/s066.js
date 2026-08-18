@@ -367,10 +367,11 @@ const S066 = {
           "translit": "baʿḍi",
           "fr": "une",
           "en": "one",
-          "tr": "",
+          "tr": "biri",
           "racine": "ب-ع-ض",
           "frequence_coran": 124,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَزْوَٰجِهِ",
@@ -1271,8 +1272,9 @@ const S066 = {
           "translit": "taʿtadhirū",
           "fr": "faites (pas) d’excuses",
           "en": "make excuses",
-          "tr": "",
-          "src": "wbw"
+          "tr": "özür dilemeyin",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْيَوْمَ",
@@ -2050,10 +2052,11 @@ const S066 = {
           "translit": "ʿibādinā",
           "fr": "Nos esclaves",
           "en": "Our slaves",
-          "tr": "",
+          "tr": "kullarımız",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "صَٰلِحَيْنِ",

@@ -3510,8 +3510,9 @@ const S020 = {
           "translit": "l-ghammi",
           "fr": "la tristesse",
           "en": "the distress",
-          "tr": "",
-          "src": "wbw"
+          "tr": "o üzüntünün",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَفَتَنَّـٰكَ",
@@ -3610,10 +3611,11 @@ const S020 = {
           "translit": "qadarin",
           "fr": "un (temps) déterminé,",
           "en": "the decreed (time)",
-          "tr": "",
+          "tr": "bir süreye",
           "racine": "ق-د-ر",
           "frequence_coran": 25,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "يَٰمُوسَىٰ",
@@ -4307,9 +4309,10 @@ const S020 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "وَالسَّلَٰمُ",
@@ -6624,10 +6627,11 @@ const S020 = {
           "translit": "takhaf",
           "fr": "aie (pas) peur !",
           "en": "fear",
-          "tr": "",
+          "tr": "korkma",
           "racine": "خ-و-ف",
           "frequence_coran": 83,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِنَّكَ",
@@ -7279,10 +7283,11 @@ const S020 = {
           "translit": "l-bayyināti",
           "fr": "[les] preuves claires",
           "en": "the clear proofs",
-          "tr": "",
+          "tr": "açık deliller",
           "racine": "ب-ي-ن",
           "frequence_coran": 28,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَالَّذِي",
@@ -8500,10 +8505,11 @@ const S020 = {
           "translit": "ṭayyibāti",
           "fr": "bonnes choses",
           "en": "(the) good things",
-          "tr": "",
+          "tr": "güzel ve temiz şeyleri",
           "racine": "ط-ي-ب",
           "frequence_coran": 21,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مَا",
@@ -9261,9 +9267,10 @@ const S020 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "فَأَخْلَفْتُم",
@@ -9617,10 +9624,11 @@ const S020 = {
           "translit": "yarawna",
           "fr": "ils voyaient",
           "en": "they see",
-          "tr": "",
+          "tr": "gördükleri",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَلَّا",
@@ -9790,9 +9798,10 @@ const S020 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "يَٰقَوْمِ",
@@ -11963,10 +11972,11 @@ const S020 = {
           "translit": "tasmaʿu",
           "fr": "tu entendras",
           "en": "you will hear",
-          "tr": "",
+          "tr": "işitiyor (musun?)",
           "racine": "س-م-ع",
           "frequence_coran": 47,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -12563,8 +12573,9 @@ const S020 = {
           "translit": "l-waʿīdi",
           "fr": "la menace",
           "en": "the warnings",
-          "tr": "",
-          "src": "wbw"
+          "tr": "kendisine karşı uyarılan",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَعَلَّهُمْ",
@@ -12877,9 +12888,10 @@ const S020 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "فَنَسِيَ",
@@ -15260,9 +15272,10 @@ const S020 = {
           "translit": "rabbihī",
           "fr": "son Seigneur",
           "en": "his Lord",
-          "tr": "",
+          "tr": "Rabbi",
           "racine": "ر-ب-ب",
-          "frequence_coran": 44
+          "frequence_coran": 44,
+          "tr_report": true
         },
         {
           "ar": "أَوَلَمْ",
@@ -15403,10 +15416,11 @@ const S020 = {
           "translit": "qablihī",
           "fr": "avant Lui,",
           "en": "before him",
-          "tr": "",
+          "tr": "ondan önce",
           "racine": "ق-ب-ل",
           "frequence_coran": 70,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَقَالُواْ",

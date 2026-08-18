@@ -1040,8 +1040,9 @@ const S056 = {
           "translit": "maʿīnin",
           "fr": "eau visible coulante.",
           "en": "a flowing stream",
-          "tr": "",
-          "src": "wbw"
+          "tr": "akar",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3,
@@ -5518,8 +5519,9 @@ const S056 = {
           "translit": "l-muqarrabīna",
           "fr": "les rapprochés,",
           "en": "those brought near",
-          "tr": "",
-          "src": "wbw"
+          "tr": "yakınlar(ım)",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3,
@@ -5656,10 +5658,11 @@ const S056 = {
           "translit": "aṣḥābi",
           "fr": "(les) compagnons",
           "en": "(the) companions",
-          "tr": "",
+          "tr": "halkı",
           "racine": "ص-ح-ب",
           "frequence_coran": 77,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْيَمِينِ",
@@ -5724,10 +5727,11 @@ const S056 = {
           "translit": "aṣḥābi",
           "fr": "(les) compagnons",
           "en": "(the) companions",
-          "tr": "",
+          "tr": "halkı",
           "racine": "ص-ح-ب",
           "frequence_coran": 77,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْيَمِينِ",

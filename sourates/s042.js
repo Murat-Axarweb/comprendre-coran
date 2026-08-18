@@ -2018,10 +2018,11 @@ const S042 = {
           "translit": "tadʿūhum",
           "fr": "vous les invitez",
           "en": "you call them",
-          "tr": "",
+          "tr": "onları çağırsanız",
           "racine": "د-ع-و",
           "frequence_coran": 55,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَيْهِ",
@@ -2267,9 +2268,10 @@ const S042 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "إِلَىٰ",
@@ -4204,10 +4206,11 @@ const S042 = {
           "translit": "asʾalukum",
           "fr": "je vous demande",
           "en": "I ask you",
-          "tr": "",
+          "tr": "ben sizden istemiyorum",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِ",
@@ -4634,8 +4637,9 @@ const S042 = {
           "translit": "yaqbalu",
           "fr": "accepte",
           "en": "accepts",
-          "tr": "",
-          "src": "wbw"
+          "tr": "kabul eden",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "التَّوْبَةَ",
@@ -5790,10 +5794,11 @@ const S042 = {
           "translit": "ẓahrihī",
           "fr": "sa surface.",
           "en": "its back",
-          "tr": "",
+          "tr": "tarafından",
           "racine": "ظ-ه-ر",
           "frequence_coran": 26,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِنَّ",
@@ -6704,9 +6709,10 @@ const S042 = {
           "translit": "yuḥibbu",
           "fr": "Il aime",
           "en": "like",
-          "tr": "",
+          "tr": "sever",
           "racine": "ح-ب-ب",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "الظَّـٰلِمِينَ",
@@ -7357,8 +7363,9 @@ const S042 = {
           "translit": "dh-dhulli",
           "fr": "l’humiliation",
           "en": "disgrace",
-          "tr": "",
-          "src": "wbw"
+          "tr": "küçülme",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "يَنظُرُونَ",
@@ -8947,10 +8954,11 @@ const S042 = {
           "translit": "ʿibādinā",
           "fr": "Nos esclaves.",
           "en": "Our slaves",
-          "tr": "",
+          "tr": "kullarımız",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَإِنَّكَ",

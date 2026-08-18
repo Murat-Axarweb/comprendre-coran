@@ -446,9 +446,10 @@ const S032 = {
           "translit": "sittati",
           "fr": "six",
           "en": "six",
-          "tr": "",
+          "tr": "altı",
           "racine": "س-ت-ت",
-          "frequence_coran": 4
+          "frequence_coran": 4,
+          "tr_report": true
         },
         {
           "ar": "أَيَّامٍ",
@@ -583,10 +584,11 @@ const S032 = {
           "translit": "tatadhakkarūna",
           "fr": "vous vous rappellerez ?",
           "en": "you take heed",
-          "tr": "",
+          "tr": "düşünüyorsunuz",
           "racine": "ذ-ك-ر",
           "frequence_coran": 51,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -721,8 +723,9 @@ const S032 = {
           "translit": "miqdāruhū",
           "fr": "sa mesure",
           "en": "(the) measure of which is",
-          "tr": "",
-          "src": "wbw"
+          "tr": "miktarı",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَلْفَ",
@@ -2703,10 +2706,11 @@ const S032 = {
           "translit": "fasaqū",
           "fr": "ont commis l’immoralité,",
           "en": "are defiantly disobedient",
-          "tr": "",
+          "tr": "yoldan çıkmış(lar)",
           "racine": "ف-س-ق",
           "frequence_coran": 10,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَمَأْوَىٰهُمُ",

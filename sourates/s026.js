@@ -3753,8 +3753,9 @@ const S026 = {
           "translit": "l-muqarrabīna",
           "fr": "les gens rapprochés. »",
           "en": "the ones who are brought near",
-          "tr": "",
-          "src": "wbw"
+          "tr": "yakınlar(ım)",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -4295,10 +4296,11 @@ const S026 = {
           "translit": "ādhana",
           "fr": "je (l’)aie permis",
           "en": "I gave permission",
-          "tr": "",
+          "tr": "ben izin vermeden",
           "racine": "أ-ذ-ن",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَكُمْ",
@@ -4342,10 +4344,11 @@ const S026 = {
           "translit": "ʿallamakumu",
           "fr": "vous a enseigné",
           "en": "has taught you",
-          "tr": "",
+          "tr": "size öğreten",
           "racine": "ع-ل-م",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "السِّحْرَ",
@@ -5468,10 +5471,11 @@ const S026 = {
           "translit": "ḍrib",
           "fr": "« Frappe",
           "en": "Strike",
-          "tr": "",
+          "tr": "vur",
           "racine": "ض-ر-ب",
           "frequence_coran": 58,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِّعَصَاكَ",
@@ -10259,10 +10263,11 @@ const S026 = {
           "translit": "asʾalukum",
           "fr": "je vous demande",
           "en": "I ask you",
-          "tr": "",
+          "tr": "ben sizden istemiyorum",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِ",
@@ -10305,10 +10310,11 @@ const S026 = {
           "translit": "ajriya",
           "fr": "(la responsabilité de) ma compensation",
           "en": "(is) my payment",
-          "tr": "",
+          "tr": "bana bir ücret",
           "racine": "أ-ج-ر",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -11595,10 +11601,11 @@ const S026 = {
           "translit": "asʾalukum",
           "fr": "je vous demande",
           "en": "I ask you",
-          "tr": "",
+          "tr": "ben sizden istemiyorum",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِ",
@@ -11641,10 +11648,11 @@ const S026 = {
           "translit": "ajriya",
           "fr": "(la responsabilité de) ma compensation",
           "en": "(is) my payment",
-          "tr": "",
+          "tr": "bana bir ücret",
           "racine": "أ-ج-ر",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -11745,8 +11753,9 @@ const S026 = {
           "translit": "hāhunā",
           "fr": "(est) ici",
           "en": "(is) here",
-          "tr": "",
-          "src": "wbw"
+          "tr": "burada",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "ءَامِنِينَ",
@@ -13120,10 +13129,11 @@ const S026 = {
           "translit": "asʾalukum",
           "fr": "je vous demande",
           "en": "I ask you",
-          "tr": "",
+          "tr": "ben sizden istemiyorum",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِ",
@@ -13166,10 +13176,11 @@ const S026 = {
           "translit": "ajriya",
           "fr": "(la responsabilité de) ma compensation",
           "en": "(is) my payment",
-          "tr": "",
+          "tr": "bana bir ücret",
           "racine": "أ-ج-ر",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -14422,10 +14433,11 @@ const S026 = {
           "translit": "ajriya",
           "fr": "(la responsabilité de) ma compensation",
           "en": "(is) my payment",
-          "tr": "",
+          "tr": "bana bir ücret",
           "racine": "أ-ج-ر",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -15595,10 +15607,11 @@ const S026 = {
           "translit": "qalbika",
           "fr": "ton cœur",
           "en": "your heart",
-          "tr": "",
+          "tr": "senin kalbin",
           "racine": "ق-ل-ب",
           "frequence_coran": 168,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لِتَكُونَ",
@@ -17822,9 +17835,10 @@ const S026 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "وَادٍ",
@@ -18062,10 +18076,11 @@ const S026 = {
           "translit": "ẓulimū",
           "fr": "ils aient reçu injustice.",
           "en": "they were wronged",
-          "tr": "",
+          "tr": "onlara zulmedilmeleri",
           "racine": "ظ-ل-م",
           "frequence_coran": 315,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَسَيَعْلَمُ",

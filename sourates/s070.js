@@ -736,9 +736,10 @@ const S070 = {
           "translit": "ʿadhābi",
           "fr": "châtiment",
           "en": "(the) punishment",
-          "tr": "",
+          "tr": "azabımı",
           "racine": "ع-ذ-ب",
-          "frequence_coran": 373
+          "frequence_coran": 373,
+          "tr_report": true
         },
         {
           "ar": "يَوْمِئِذٍ",
@@ -1698,9 +1699,10 @@ const S070 = {
           "translit": "ʿadhābi",
           "fr": "châtiment",
           "en": "(the) punishment",
-          "tr": "",
+          "tr": "azabımı",
           "racine": "ع-ذ-ب",
-          "frequence_coran": 373
+          "frequence_coran": 373,
+          "tr_report": true
         },
         {
           "ar": "رَبِّهِم",
@@ -1904,10 +1906,11 @@ const S070 = {
           "translit": "azwājihim",
           "fr": "leurs épouses",
           "en": "their spouses",
-          "tr": "",
+          "tr": "eşleri",
           "racine": "ز-و-ج",
           "frequence_coran": 81,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَوْ",
@@ -1970,8 +1973,9 @@ const S070 = {
           "translit": "malūmīna",
           "fr": "blâmables,",
           "en": "blameworthy",
-          "tr": "",
-          "src": "wbw"
+          "tr": "kınanacak",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3,
@@ -2761,10 +2765,11 @@ const S070 = {
           "translit": "nubaddila",
           "fr": "Nous échangions",
           "en": "[We] replace",
-          "tr": "",
+          "tr": "sizin yerinize getirelim",
           "racine": "ب-د-ل",
           "frequence_coran": 44,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "خَيْرًا",

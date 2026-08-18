@@ -646,10 +646,11 @@ const S024 = {
           "translit": "yaʾtū",
           "fr": "amènent (pas)",
           "en": "they bring",
-          "tr": "",
+          "tr": "gelirler",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِأَرْبَعَةِ",
@@ -2028,10 +2029,11 @@ const S024 = {
           "translit": "yaʾtū",
           "fr": "ils amènent",
           "en": "they brought",
-          "tr": "",
+          "tr": "gelirler",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِالشُّهَدَاءِ",
@@ -2620,10 +2622,11 @@ const S024 = {
           "translit": "taʿūdū",
           "fr": "vous retournez",
           "en": "you return",
-          "tr": "",
+          "tr": "dönerseniz",
           "racine": "—",
           "frequence_coran": 24,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لِمِثْلِهِ",
@@ -3135,10 +3138,11 @@ const S024 = {
           "translit": "tattabiʿū",
           "fr": "suivez (pas)",
           "en": "follow",
-          "tr": "",
+          "tr": "uyarak",
           "racine": "ت-ب-ع",
           "frequence_coran": 78,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "خُطُوَٰتِ",
@@ -4284,10 +4288,11 @@ const S024 = {
           "translit": "tadkhulū",
           "fr": "entrez (pas)",
           "en": "enter",
-          "tr": "",
+          "tr": "gireceksiniz",
           "racine": "د-خ-ل",
           "frequence_coran": 80,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بُيُوتًا",
@@ -4456,10 +4461,11 @@ const S024 = {
           "translit": "tajidū",
           "fr": "vous trouvez",
           "en": "you find",
-          "tr": "",
+          "tr": "bulamamışsanız",
           "racine": "و-ج-د",
           "frequence_coran": 107,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِيهَا",
@@ -4700,10 +4706,11 @@ const S024 = {
           "translit": "tadkhulū",
           "fr": "vous entrez",
           "en": "you enter",
-          "tr": "",
+          "tr": "gireceksiniz",
           "racine": "د-خ-ل",
           "frequence_coran": 80,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بُيُوتًا",
@@ -4879,10 +4886,11 @@ const S024 = {
           "translit": "abṣārihim",
           "fr": "leurs regards",
           "en": "their gaze",
-          "tr": "",
+          "tr": "gözlerinin",
           "racine": "ب-ص-ر",
           "frequence_coran": 38,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَيَحْفَظُواْ",
@@ -5492,10 +5500,11 @@ const S024 = {
           "translit": "r-rijāli",
           "fr": "les hommes",
           "en": "[the] men",
-          "tr": "",
+          "tr": "erkekler",
           "racine": "ر-ج-ل",
           "frequence_coran": 28,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَوِ",
@@ -6166,10 +6175,11 @@ const S024 = {
           "translit": "ātākum",
           "fr": "Il vous a donnés.",
           "en": "He has given you",
-          "tr": "",
+          "tr": "size verdiği",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَلَا",
@@ -7195,9 +7205,10 @@ const S024 = {
           "translit": "dhikri",
           "fr": "souvenir",
           "en": "(the) remembrance of Allah",
-          "tr": "",
+          "tr": "anmağa",
           "racine": "ذ-ك-ر",
-          "frequence_coran": 256
+          "frequence_coran": 256,
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",
@@ -10993,10 +11004,11 @@ const S024 = {
           "translit": "taḥsabanna",
           "fr": "pensez (pas) du tout",
           "en": "think",
-          "tr": "",
+          "tr": "sanma",
           "racine": "ح-س-ب",
           "frequence_coran": 44,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الَّذِينَ",
@@ -11823,10 +11835,11 @@ const S024 = {
           "translit": "yarjūna",
           "fr": "espèrent (plus)",
           "en": "have desire",
-          "tr": "",
+          "tr": "umarlar",
           "racine": "ر-ج-و",
           "frequence_coran": 22,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نِكَاحًا",
@@ -11880,10 +11893,11 @@ const S024 = {
           "translit": "yaḍaʿna",
           "fr": "elles enlèvent",
           "en": "they put aside",
-          "tr": "",
+          "tr": "bırakıncaya",
           "racine": "و-ض-ع",
           "frequence_coran": 26,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "ثِيَابَهُنَّ",
@@ -12176,10 +12190,11 @@ const S024 = {
           "translit": "buyūtikum",
           "fr": "vos maisons",
           "en": "your houses",
-          "tr": "",
+          "tr": "kendi evlerinizden",
           "racine": "ب-ي-ت",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَوْ",
@@ -12902,10 +12917,11 @@ const S024 = {
           "translit": "yastaʾdhinūnaka",
           "fr": "te demandent permission,",
           "en": "ask your permission",
-          "tr": "",
+          "tr": "senden izin isteyen",
           "racine": "ا-ذ-ن",
           "frequence_coran": 12,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أُوْلَـٰئِكَ",

@@ -1544,10 +1544,11 @@ const S078 = {
           "translit": "yarjūna",
           "fr": "espéraient (pas)",
           "en": "expecting",
-          "tr": "",
+          "tr": "umarlar",
           "racine": "ر-ج-و",
           "frequence_coran": 22,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "حِسَابًا",
@@ -2054,9 +2055,10 @@ const S078 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "عَطَاءً",

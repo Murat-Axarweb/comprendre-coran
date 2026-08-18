@@ -1743,10 +1743,11 @@ const S045 = {
           "translit": "yarjūna",
           "fr": "espèrent (pas)",
           "en": "hope",
-          "tr": "",
+          "tr": "umarlar",
           "racine": "ر-ج-و",
           "frequence_coran": 22,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَيَّامَ",
@@ -2048,10 +2049,11 @@ const S045 = {
           "translit": "ṭ-ṭayyibāti",
           "fr": "[les] bonnes choses",
           "en": "the good things",
-          "tr": "",
+          "tr": "güzel şeyleri",
           "racine": "ط-ي-ب",
           "frequence_coran": 21,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَفَضَّلْنَٰهُمْ",
@@ -4450,10 +4452,11 @@ const S045 = {
           "translit": "takun",
           "fr": "étaient récités",
           "en": "Then were not",
-          "tr": "",
+          "tr": "etmemiş",
           "racine": "ك-و-ن",
           "frequence_coran": 1360,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "ءَايَٰتِي",

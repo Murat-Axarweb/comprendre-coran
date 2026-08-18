@@ -1550,9 +1550,10 @@ const S015 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "شَيْطَٰنٍ",
@@ -1755,9 +1756,10 @@ const S015 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "شَيْءٍ",
@@ -2517,9 +2519,10 @@ const S015 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "مِن",
@@ -4254,10 +4257,11 @@ const S015 = {
           "translit": "ṣudūrihim",
           "fr": "leurs poitrines",
           "en": "their breasts",
-          "tr": "",
+          "tr": "göğüsleri",
           "racine": "ص-د-ر",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِّنْ",
@@ -4611,8 +4615,9 @@ const S015 = {
           "translit": "ḍayfi",
           "fr": "invités",
           "en": "(the) guests",
-          "tr": "",
-          "src": "wbw"
+          "tr": "misafirlerinin",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِبْرَٰهِيمَ",
@@ -5842,8 +5847,9 @@ const S015 = {
           "translit": "yaltafit",
           "fr": "se tourne (pas)",
           "en": "let look back",
-          "tr": "",
-          "src": "wbw"
+          "tr": "geriye dönüp bakmasın",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِنكُمْ",
@@ -7563,10 +7569,11 @@ const S015 = {
           "translit": "tamuddanna",
           "fr": "étend (pas) du tout",
           "en": "extend",
-          "tr": "",
+          "tr": "dikme",
           "racine": "م-د-د",
           "frequence_coran": 6,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَيْنَيْكَ",

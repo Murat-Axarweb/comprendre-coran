@@ -247,9 +247,10 @@ const S033 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "إِنَّ",
@@ -770,10 +771,11 @@ const S033 = {
           "translit": "taʿlamū",
           "fr": "vous connaissez",
           "en": "you know",
-          "tr": "",
+          "tr": "bilesiniz",
           "racine": "ع-ل-م",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "ءَابَاءَهُمْ",
@@ -1095,10 +1097,11 @@ const S033 = {
           "translit": "kitābi",
           "fr": "(la) prescription",
           "en": "(the) Decree",
-          "tr": "",
+          "tr": "Kitabına",
           "racine": "ك-ت-ب",
           "frequence_coran": 256,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",
@@ -2083,10 +2086,11 @@ const S033 = {
           "translit": "waʿadanā",
           "fr": "nous ont promis",
           "en": "Allah promised us",
-          "tr": "",
+          "tr": "bize va'dettiğini",
           "racine": "و-ع-د",
           "frequence_coran": 7,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",
@@ -2600,9 +2604,10 @@ const S033 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "لَا",
@@ -2712,10 +2717,11 @@ const S033 = {
           "translit": "yanfaʿakumu",
           "fr": "vous profitera",
           "en": "will benefit you",
-          "tr": "",
+          "tr": "size bir yarar sağlamaz",
           "racine": "ن-ف-ع",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْفِرَارُ",
@@ -4075,10 +4081,11 @@ const S033 = {
           "translit": "waʿadanā",
           "fr": "nous ont promis",
           "en": "Allah promised us",
-          "tr": "",
+          "tr": "bize va'dettiğini",
           "racine": "و-ع-د",
           "frequence_coran": 7,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",
@@ -7439,9 +7446,10 @@ const S033 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَكَانَ",
@@ -7675,9 +7683,10 @@ const S033 = {
           "translit": "muḥammadun",
           "fr": "Mohammed (le Prophète)",
           "en": "Muhammad",
-          "tr": "",
+          "tr": "Muhammed",
           "racine": "—",
-          "frequence_coran": 5
+          "frequence_coran": 5,
+          "tr_report": true
         },
         {
           "ar": "أَبَا",
@@ -8915,10 +8924,11 @@ const S033 = {
           "translit": "ātayta",
           "fr": "tu as donné",
           "en": "you have given",
-          "tr": "",
+          "tr": "verdin",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أُجُورَهُنَّ",
@@ -8973,8 +8983,9 @@ const S033 = {
           "translit": "afāʾa",
           "fr": "a donné",
           "en": "Allah has given",
-          "tr": "",
-          "src": "wbw"
+          "tr": "verdiği",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",
@@ -9873,10 +9884,11 @@ const S033 = {
           "translit": "azwājin",
           "fr": "épouses",
           "en": "(other) wives",
-          "tr": "",
+          "tr": "çift",
           "racine": "ز-و-ج",
           "frequence_coran": 81,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَلَوْ",
@@ -10065,10 +10077,11 @@ const S033 = {
           "translit": "tadkhulū",
           "fr": "entrez (pas)",
           "en": "enter",
-          "tr": "",
+          "tr": "gireceksiniz",
           "racine": "د-خ-ل",
           "frequence_coran": 80,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بُيُوتَ",
@@ -10112,10 +10125,11 @@ const S033 = {
           "translit": "yuʾdhana",
           "fr": "il soit permis",
           "en": "permission is given",
-          "tr": "",
+          "tr": "izin verilinceye",
           "racine": "أ-ذ-ن",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَكُمْ",
@@ -10345,8 +10359,9 @@ const S033 = {
           "translit": "yastaḥyī",
           "fr": "a (pas) honte",
           "en": "is not shy",
-          "tr": "",
-          "src": "wbw"
+          "tr": "çekinecek",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِنَ",
@@ -10419,9 +10434,10 @@ const S033 = {
           "translit": "warāʾi",
           "fr": "derrière",
           "en": "behind",
-          "tr": "",
+          "tr": "ardından",
           "racine": "و-ر-ي",
-          "frequence_coran": 24
+          "frequence_coran": 24,
+          "tr_report": true
         },
         {
           "ar": "حِجَابٍ",
@@ -12081,9 +12097,10 @@ const S033 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَلَن",

@@ -434,9 +434,10 @@ const S043 = {
           "translit": "nabiyyin",
           "fr": "prophète",
           "en": "a Prophet",
-          "tr": "",
+          "tr": "peygamber",
           "racine": "ن-ب-أ",
-          "frequence_coran": 75
+          "frequence_coran": 75,
+          "tr_report": true
         },
         {
           "ar": "فِي",
@@ -1821,8 +1822,9 @@ const S043 = {
           "translit": "l-khiṣāmi",
           "fr": "la dispute",
           "en": "the dispute",
-          "tr": "",
-          "src": "wbw"
+          "tr": "hasımların",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "غَيْرُ",
@@ -2202,10 +2204,11 @@ const S043 = {
           "translit": "qablihī",
           "fr": "avant Lui",
           "en": "before it",
-          "tr": "",
+          "tr": "ondan önce",
           "racine": "ق-ب-ل",
           "frequence_coran": 70,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَهُم",
@@ -2969,8 +2972,9 @@ const S043 = {
           "translit": "faṭaranī",
           "fr": "m’a créé et rendu manifeste,",
           "en": "created me",
-          "tr": "",
-          "src": "wbw"
+          "tr": "beni yaratana",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَإِنَّهُ",
@@ -3374,9 +3378,10 @@ const S043 = {
           "translit": "rajulin",
           "fr": "homme (individu)",
           "en": "a man",
-          "tr": "",
+          "tr": "bir adam",
           "racine": "ر-ج-ل",
-          "frequence_coran": 57
+          "frequence_coran": 57,
+          "tr_report": true
         },
         {
           "ar": "مِّنَ",
@@ -4112,9 +4117,10 @@ const S043 = {
           "translit": "dhikri",
           "fr": "souvenir",
           "en": "(the) remembrance",
-          "tr": "",
+          "tr": "anmağa",
           "racine": "ذ-ك-ر",
-          "frequence_coran": 256
+          "frequence_coran": 256,
+          "tr_report": true
         },
         {
           "ar": "الرَّحْمَٰنِ",
@@ -7408,9 +7414,10 @@ const S043 = {
           "translit": "ʿadhābi",
           "fr": "châtiment",
           "en": "(the) punishment",
-          "tr": "",
+          "tr": "azabımı",
           "racine": "ع-ذ-ب",
-          "frequence_coran": 373
+          "frequence_coran": 373,
+          "tr_report": true
         },
         {
           "ar": "يَوْمٍ",
@@ -8077,10 +8084,11 @@ const S043 = {
           "translit": "ūrithtumūhā",
           "fr": "vous l’avez reçu comme héritage",
           "en": "you are made to inherit",
-          "tr": "",
+          "tr": "o size miras verildi",
           "racine": "و-ر-ث",
           "frequence_coran": 12,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِمَا",
@@ -8243,9 +8251,10 @@ const S043 = {
           "translit": "ʿadhābi",
           "fr": "châtiment",
           "en": "(the) punishment",
-          "tr": "",
+          "tr": "azabımı",
           "racine": "ع-ذ-ب",
-          "frequence_coran": 373
+          "frequence_coran": 373,
+          "tr_report": true
         },
         {
           "ar": "جَهَنَّمَ",
@@ -8376,10 +8385,11 @@ const S043 = {
           "translit": "ẓalamnāhum",
           "fr": "Nous leur avons fait d’injustice",
           "en": "We wronged them",
-          "tr": "",
+          "tr": "onlara zulmediyor",
           "racine": "ظ-ل-م",
           "frequence_coran": 315,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَلَٰكِن",
@@ -8727,10 +8737,11 @@ const S043 = {
           "translit": "nasmaʿu",
           "fr": "entendons (pas)",
           "en": "hear",
-          "tr": "",
+          "tr": "söz dinleseydik",
           "racine": "س-م-ع",
           "frequence_coran": 47,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "سِرَّهُمْ",
@@ -8975,10 +8986,11 @@ const S043 = {
           "translit": "yaṣifūna",
           "fr": "ils décrivent !",
           "en": "they ascribe",
-          "tr": "",
+          "tr": "nitelendirdikleri",
           "racine": "و-ص-ف",
           "frequence_coran": 13,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3

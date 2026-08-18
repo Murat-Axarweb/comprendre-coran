@@ -1133,10 +1133,11 @@ const S061 = {
           "translit": "l-ʾislāmi",
           "fr": "L’Islam ?",
           "en": "Islam",
-          "tr": "",
+          "tr": "İslam'dan",
           "racine": "س-ل-م",
           "frequence_coran": 22,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَاللَّهُ",
@@ -1523,8 +1524,9 @@ const S061 = {
           "translit": "adullukum",
           "fr": "(que) je vous dirige",
           "en": "I guide you",
-          "tr": "",
-          "src": "wbw"
+          "tr": "size göstereyim",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَىٰ",

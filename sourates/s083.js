@@ -265,10 +265,11 @@ const S083 = {
           "translit": "yaẓunnu",
           "fr": "pensent (pas)",
           "en": "think",
-          "tr": "",
+          "tr": "sanıyor",
           "racine": "ظ-ن-ن",
           "frequence_coran": 69,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أُوْلَـٰئِكَ",
@@ -737,10 +738,11 @@ const S083 = {
           "translit": "yukadhdhibu",
           "fr": "dément (pas)",
           "en": "can deny",
-          "tr": "",
+          "tr": "yalanlayan",
           "racine": "ك-ذ-ب",
           "frequence_coran": 80,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِهِ",
@@ -1582,10 +1584,11 @@ const S083 = {
           "translit": "wujūhihim",
           "fr": "leurs visages",
           "en": "their faces",
-          "tr": "",
+          "tr": "yüzleri",
           "racine": "و-ج-ه",
           "frequence_coran": 72,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نَضْرَةَ",
@@ -2298,10 +2301,11 @@ const S083 = {
           "translit": "l-kuffāri",
           "fr": "[les] mécréants",
           "en": "the disbelievers",
-          "tr": "",
+          "tr": "kafirlere",
           "racine": "ك-ف-ر",
           "frequence_coran": 26,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "يَضْحَكُونَ",

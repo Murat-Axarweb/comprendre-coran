@@ -1654,9 +1654,10 @@ const S069 = {
           "translit": "jannatin",
           "fr": "paradis",
           "en": "a Garden",
-          "tr": "",
+          "tr": "bir bahçeye",
           "racine": "ج-ن-ن",
-          "frequence_coran": 147
+          "frequence_coran": 147,
+          "tr_report": true
         },
         {
           "ar": "عَالِيَةٍ",

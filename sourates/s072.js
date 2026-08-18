@@ -225,9 +225,10 @@ const S072 = {
           "translit": "r-rushdi",
           "fr": "droiture",
           "en": "the right way",
-          "tr": "",
+          "tr": "doğru",
           "racine": "ر-ش-د",
-          "frequence_coran": 5
+          "frequence_coran": 5,
+          "tr_report": true
         },
         {
           "ar": "فَـءَامَنَّا",
@@ -660,9 +661,10 @@ const S072 = {
           "translit": "l-ʾinsi",
           "fr": "humains (face aux djinns)",
           "en": "mankind",
-          "tr": "",
+          "tr": "insan",
           "racine": "أ-ن-س",
-          "frequence_coran": 18
+          "frequence_coran": 18,
+          "tr_report": true
         },
         {
           "ar": "يَعُوذُونَ",
@@ -1913,9 +1915,10 @@ const S072 = {
           "translit": "dhikri",
           "fr": "souvenir",
           "en": "the Remembrance",
-          "tr": "",
+          "tr": "anmağa",
           "racine": "ذ-ك-ر",
-          "frequence_coran": 256
+          "frequence_coran": 256,
+          "tr_report": true
         },
         {
           "ar": "رَبِّهِ",

@@ -1126,10 +1126,11 @@ const S027 = {
           "translit": "takhaf",
           "fr": "aie pas peur !",
           "en": "fear",
-          "tr": "",
+          "tr": "korkma",
           "racine": "خ-و-ف",
           "frequence_coran": 83,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِنِّي",
@@ -5383,8 +5384,9 @@ const S027 = {
           "translit": "yartadda",
           "fr": "retourne",
           "en": "returns",
-          "tr": "",
-          "src": "wbw"
+          "tr": "dönerse",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَيْكَ",
@@ -9614,9 +9616,10 @@ const S027 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "إِنْ",
@@ -9812,10 +9815,11 @@ const S027 = {
           "translit": "taḥzan",
           "fr": "sois (pas) triste",
           "en": "grieve",
-          "tr": "",
+          "tr": "üzülme",
           "racine": "ح-ز-ن",
           "frequence_coran": 37,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِمْ",
@@ -11307,10 +11311,11 @@ const S027 = {
           "translit": "yukadhdhibu",
           "fr": "démentaient",
           "en": "deny",
-          "tr": "",
+          "tr": "yalanlayan",
           "racine": "ك-ذ-ب",
           "frequence_coran": 80,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِـءَايَٰتِنَا",
@@ -12525,10 +12530,11 @@ const S027 = {
           "translit": "akūna",
           "fr": "être",
           "en": "I be",
-          "tr": "",
+          "tr": "olmayacağım",
           "racine": "ك-و-ن",
           "frequence_coran": 1360,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِنَ",

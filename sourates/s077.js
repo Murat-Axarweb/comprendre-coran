@@ -1114,8 +1114,9 @@ const S077 = {
           "translit": "qarārin",
           "fr": "(un lieu de) stabilité",
           "en": "an abode",
-          "tr": "",
-          "src": "wbw"
+          "tr": "kararı (kökü)",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مَّكِينٍ",

@@ -1812,9 +1812,10 @@ const S039 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَجَعَلَ",
@@ -1932,10 +1933,11 @@ const S039 = {
           "translit": "aṣḥābi",
           "fr": "(les) compagnons",
           "en": "(the) companions",
-          "tr": "",
+          "tr": "halkı",
           "racine": "ص-ح-ب",
           "frequence_coran": 77,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "النَّارِ",
@@ -2104,10 +2106,11 @@ const S039 = {
           "translit": "yastawī",
           "fr": "sont égaux",
           "en": "equal",
-          "tr": "",
+          "tr": "eşit",
           "racine": "س-و-ي",
           "frequence_coran": 35,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الَّذِينَ",
@@ -2562,10 +2565,11 @@ const S039 = {
           "translit": "akūna",
           "fr": "je sois",
           "en": "I be",
-          "tr": "",
+          "tr": "olmayacağım",
           "racine": "ك-و-ن",
           "frequence_coran": 1360,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَوَّلَ",
@@ -3010,10 +3014,11 @@ const S039 = {
           "translit": "fawqihim",
           "fr": "au-dessus (d’)eux",
           "en": "above them",
-          "tr": "",
+          "tr": "üstlerinde de",
           "racine": "ف-و-ق",
           "frequence_coran": 42,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "ظُلَلٌ",
@@ -4159,9 +4164,10 @@ const S039 = {
           "translit": "rabbihī",
           "fr": "son Seigneur",
           "en": "his Lord",
-          "tr": "",
+          "tr": "Rabbi",
           "racine": "ر-ب-ب",
-          "frequence_coran": 44
+          "frequence_coran": 44,
+          "tr_report": true
         },
         {
           "ar": "فَوَيْلٌ",
@@ -4441,9 +4447,10 @@ const S039 = {
           "translit": "dhikri",
           "fr": "souvenir",
           "en": "(the) remembrance",
-          "tr": "",
+          "tr": "anmağa",
           "racine": "ذ-ك-ر",
-          "frequence_coran": 256
+          "frequence_coran": 256,
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",
@@ -5070,9 +5077,10 @@ const S039 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "مَثَلٍ",
@@ -10283,10 +10291,11 @@ const S039 = {
           "translit": "yamassuhumu",
           "fr": "les touchera (pas)",
           "en": "will touch them",
-          "tr": "",
+          "tr": "dokunacaktır",
           "racine": "م-س-س",
           "frequence_coran": 58,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "السُّوءُ",
@@ -10870,10 +10879,11 @@ const S039 = {
           "translit": "sh-shākirīna",
           "fr": "les reconnaissants ! »",
           "en": "the thankful ones",
-          "tr": "",
+          "tr": "şükredenleri",
           "racine": "ش-ك-ر",
           "frequence_coran": 14,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3

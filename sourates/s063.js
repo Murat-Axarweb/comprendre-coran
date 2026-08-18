@@ -925,10 +925,11 @@ const S063 = {
           "translit": "tastaghfir",
           "fr": "tu demandes pardon",
           "en": "ask forgiveness",
-          "tr": "",
+          "tr": "af dilesen",
           "racine": "غ-ف-ر",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَهُمْ",
@@ -1526,9 +1527,10 @@ const S063 = {
           "translit": "dhikri",
           "fr": "souvenir",
           "en": "(the) remembrance",
-          "tr": "",
+          "tr": "anmağa",
           "racine": "ذ-ك-ر",
-          "frequence_coran": 256
+          "frequence_coran": 256,
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",

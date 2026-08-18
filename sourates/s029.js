@@ -1325,9 +1325,10 @@ const S029 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "لَيَقُولُنَّ",
@@ -1418,10 +1419,11 @@ const S029 = {
           "translit": "ṣudūri",
           "fr": "(les) poitrines",
           "en": "(the) breasts",
-          "tr": "",
+          "tr": "göğüslerde",
           "racine": "ص-د-ر",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْعَٰلَمِينَ",
@@ -5137,10 +5139,11 @@ const S029 = {
           "translit": "takhaf",
           "fr": "aie (pas) peur",
           "en": "fear",
-          "tr": "",
+          "tr": "korkma",
           "racine": "خ-و-ف",
           "frequence_coran": 83,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَلَا",
@@ -7600,10 +7603,11 @@ const S029 = {
           "translit": "qablihī",
           "fr": "avant Lui",
           "en": "before it",
-          "tr": "",
+          "tr": "ondan önce",
           "racine": "ق-ب-ل",
           "frequence_coran": 70,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِن",
@@ -7912,9 +7916,10 @@ const S029 = {
           "translit": "rabbihī",
           "fr": "son Seigneur",
           "en": "his Lord",
-          "tr": "",
+          "tr": "Rabbi",
           "racine": "ر-ب-ب",
-          "frequence_coran": 44
+          "frequence_coran": 44,
+          "tr_report": true
         },
         {
           "ar": "قُلْ",
@@ -8644,10 +8649,11 @@ const S029 = {
           "translit": "fawqihim",
           "fr": "au-dessus (d’)eux",
           "en": "above them",
-          "tr": "",
+          "tr": "üstlerinde de",
           "racine": "ف-و-ق",
           "frequence_coran": 42,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَمِن",
@@ -9239,10 +9245,11 @@ const S029 = {
           "translit": "taḥmilu",
           "fr": "portent (pas)",
           "en": "carry",
-          "tr": "",
+          "tr": "yüklendiğini",
           "racine": "ح-م-ل",
           "frequence_coran": 64,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "رِزْقَهَا",

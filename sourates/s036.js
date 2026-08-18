@@ -1714,10 +1714,11 @@ const S036 = {
           "translit": "tantahū",
           "fr": "vous arrêtez,",
           "en": "you desist",
-          "tr": "",
+          "tr": "vazgeçerseniz",
           "racine": "ن-ه-ي",
           "frequence_coran": 16,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَنَرْجُمَنَّكُمْ",
@@ -2630,8 +2631,9 @@ const S036 = {
           "translit": "l-mukramīna",
           "fr": "les gens honorés ! »",
           "en": "the honored ones",
-          "tr": "",
-          "src": "wbw"
+          "tr": "ağırlanan",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3,
@@ -2935,10 +2937,11 @@ const S036 = {
           "translit": "l-ʿibādi",
           "fr": "les esclaves !",
           "en": "the servants",
-          "tr": "",
+          "tr": "kullar",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مَا",
@@ -3629,8 +3632,9 @@ const S036 = {
           "translit": "tunbitu",
           "fr": "fait pousser",
           "en": "grows",
-          "tr": "",
-          "src": "wbw"
+          "tr": "bitirdiği",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْأَرْضُ",
@@ -5653,10 +5657,11 @@ const S036 = {
           "translit": "tuẓlamu",
           "fr": "recevra (pas) d’injustice",
           "en": "will be wronged",
-          "tr": "",
+          "tr": "haksızlık edilmez",
           "racine": "ظ-ل-م",
           "frequence_coran": 315,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نَفْسٌ",
@@ -5869,10 +5874,11 @@ const S036 = {
           "translit": "ẓilālin",
           "fr": "des ombres",
           "en": "shades",
-          "tr": "",
+          "tr": "gölgeler",
           "racine": "ظ-ل-ل",
           "frequence_coran": 33,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَى",
@@ -6201,10 +6207,11 @@ const S036 = {
           "translit": "taʿbudū",
           "fr": "(pas) adorer",
           "en": "worship",
-          "tr": "",
+          "tr": "kulluk etmeyin",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الشَّيْطَٰنَ",
@@ -7030,10 +7037,11 @@ const S036 = {
           "translit": "ʿallamnāhu",
           "fr": "Nous lui avons enseigné",
           "en": "We taught him",
-          "tr": "",
+          "tr": "ona öğrettiğimizden",
           "racine": "ع-ل-م",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الشِّعْرَ",
@@ -8232,8 +8240,9 @@ const S036 = {
           "translit": "sh-shajari",
           "fr": "l’arbre",
           "en": "the tree",
-          "tr": "",
-          "src": "wbw"
+          "tr": "ağaçlardan",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْأَخْضَرِ",

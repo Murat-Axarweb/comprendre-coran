@@ -275,7 +275,7 @@ const S110 = {
           "translit": "tawwābā",
           "fr": "Accueillant au repentir",
           "en": "Oft-Returning",
-          "tr": "",
+          "tr": "affedici",
           "racine": "ت-و-ب",
           "frequence_coran": 87,
           "famille": [
@@ -283,7 +283,8 @@ const S110 = {
             "تَوْبَة (tawba) — repentir",
             "تَوَّاب (tawwāb) — qui revient sans cesse"
           ],
-          "profondeur": "Tawwāb, forme intensive : appliqué à l'homme, celui qui revient sans cesse vers Dieu ; appliqué à Dieu, Celui qui revient sans cesse vers Son serviteur pour accueillir son retour. Le même mot des deux côtés de la relation — le repentir est un mouvement à double sens."
+          "profondeur": "Tawwāb, forme intensive : appliqué à l'homme, celui qui revient sans cesse vers Dieu ; appliqué à Dieu, Celui qui revient sans cesse vers Son serviteur pour accueillir son retour. Le même mot des deux côtés de la relation — le repentir est un mouvement à double sens.",
+          "tr_report": true
         }
       ],
       "niveau_couche": 1,

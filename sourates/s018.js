@@ -100,10 +100,11 @@ const S018 = {
           "translit": "ʿabdihi",
           "fr": "Son esclave",
           "en": "His slave",
-          "tr": "",
+          "tr": "kulu",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْكِتَٰبَ",
@@ -597,10 +598,11 @@ const S018 = {
           "translit": "afwāhihim",
           "fr": "leurs bouches !",
           "en": "their mouths",
-          "tr": "",
+          "tr": "ağızları",
           "racine": "ف-و-ه",
           "frequence_coran": 12,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِن",
@@ -703,10 +705,11 @@ const S018 = {
           "translit": "āthārihim",
           "fr": "leurs traces",
           "en": "their footsteps",
-          "tr": "",
+          "tr": "onların izleri",
           "racine": "أ-ث-ر",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِن",
@@ -1137,9 +1140,10 @@ const S018 = {
           "translit": "l-kahfi",
           "fr": "caverne",
           "en": "the cave",
-          "tr": "",
+          "tr": "Kehf",
           "racine": "ك-ه-ف",
-          "frequence_coran": 3
+          "frequence_coran": 3,
+          "tr_report": true
         },
         {
           "ar": "فَقَالُواْ",
@@ -1308,9 +1312,10 @@ const S018 = {
           "translit": "l-kahfi",
           "fr": "caverne",
           "en": "the cave",
-          "tr": "",
+          "tr": "Kehf",
           "racine": "ك-ه-ف",
-          "frequence_coran": 3
+          "frequence_coran": 3,
+          "tr_report": true
         },
         {
           "ar": "سِنِينَ",
@@ -1433,10 +1438,11 @@ const S018 = {
           "translit": "labithū",
           "fr": "ils sont restés",
           "en": "(they had) remained",
-          "tr": "",
+          "tr": "kaldıklarını",
           "racine": "ل-ب-ث",
           "frequence_coran": 30,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَمَدًا",
@@ -2088,9 +2094,10 @@ const S018 = {
           "translit": "l-kahfi",
           "fr": "caverne",
           "en": "the cave",
-          "tr": "",
+          "tr": "Kehf",
           "racine": "ك-ه-ف",
-          "frequence_coran": 3
+          "frequence_coran": 3,
+          "tr_report": true
         },
         {
           "ar": "يَنشُرْ",
@@ -4010,9 +4017,10 @@ const S018 = {
           "translit": "yashāʾa",
           "fr": "Il veut",
           "en": "Allah wills",
-          "tr": "",
+          "tr": "dilemesi",
           "racine": "ش-ي-ء",
-          "frequence_coran": 108
+          "frequence_coran": 108,
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",
@@ -4996,9 +5004,10 @@ const S018 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "فَمَن",
@@ -5489,8 +5498,9 @@ const S018 = {
           "translit": "asāwira",
           "fr": "bracelets",
           "en": "bracelets",
-          "tr": "",
-          "src": "wbw"
+          "tr": "bilezikler",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِن",
@@ -5552,8 +5562,9 @@ const S018 = {
           "translit": "sundusin",
           "fr": "soie fine",
           "en": "fine silk",
-          "tr": "",
-          "src": "wbw"
+          "tr": "ince ipekten",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَإِسْتَبْرَقٍ",
@@ -6426,10 +6437,11 @@ const S018 = {
           "translit": "khalaqaka",
           "fr": "t’a créé",
           "en": "created you",
-          "tr": "",
+          "tr": "seni yarattı",
           "racine": "خ-ل-ق",
           "frequence_coran": 261,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِن",
@@ -8592,9 +8604,10 @@ const S018 = {
           "translit": "amri",
           "fr": "ordre",
           "en": "the Command",
-          "tr": "",
+          "tr": "buyruğuna",
           "racine": "أ-م-ر",
-          "frequence_coran": 166
+          "frequence_coran": 166,
+          "tr_report": true
         },
         {
           "ar": "رَبِّهِ",
@@ -9198,9 +9211,10 @@ const S018 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "مَثَلٍ",
@@ -11009,10 +11023,11 @@ const S018 = {
           "translit": "ʿibādinā",
           "fr": "Nos esclaves",
           "en": "Our servants",
-          "tr": "",
+          "tr": "kullarımız",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "ءَاتَيْنَٰهُ",
@@ -11722,9 +11737,10 @@ const S018 = {
           "translit": "s-safīnati",
           "fr": "navire",
           "en": "the ship",
-          "tr": "",
+          "tr": "gemi",
           "racine": "س-ف-ن",
-          "frequence_coran": 5
+          "frequence_coran": 5,
+          "tr_report": true
         },
         {
           "ar": "خَرَقَهَا",
@@ -12228,10 +12244,11 @@ const S018 = {
           "translit": "aqul",
           "fr": "j’ai dit",
           "en": "I say",
-          "tr": "",
+          "tr": "size demiş",
           "racine": "ق-و-ل",
           "frequence_coran": 1722,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَّكَ",
@@ -13443,9 +13460,10 @@ const S018 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "وَمَا",
@@ -13750,9 +13768,10 @@ const S018 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "شَيْءٍ",
@@ -13909,9 +13928,10 @@ const S018 = {
           "translit": "ʿaynin",
           "fr": "œil",
           "en": "a spring",
-          "tr": "",
+          "tr": "göz",
           "racine": "ع-ي-ن",
-          "frequence_coran": 23
+          "frequence_coran": 23,
+          "tr_report": true
         },
         {
           "ar": "حَمِئَةٍ",
@@ -14623,10 +14643,11 @@ const S018 = {
           "translit": "ladayhi",
           "fr": "(était) auprès (de) lui",
           "en": "(was) with him",
-          "tr": "",
+          "tr": "yanında",
           "racine": "—",
           "frequence_coran": 20,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "خُبْرًا",
@@ -14775,10 +14796,11 @@ const S018 = {
           "translit": "dūnihimā",
           "fr": "(à) côté (d’)elles",
           "en": "besides them",
-          "tr": "",
+          "tr": "ikisinden başka",
           "racine": "د-و-ن",
           "frequence_coran": 83,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "قَوْمًا",
@@ -14804,10 +14826,11 @@ const S018 = {
           "translit": "yakādūna",
           "fr": "[font] presque",
           "en": "who would almost",
-          "tr": "",
+          "tr": "neredeyse",
           "racine": "ك-و-د",
           "frequence_coran": 24,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "يَفْقَهُونَ",
@@ -14865,10 +14888,11 @@ const S018 = {
           "translit": "yādhā",
           "fr": "« Ô Dhou",
           "en": "O Dhul-qarnain",
-          "tr": "",
+          "tr": "Ey",
           "racine": "—",
           "frequence_coran": 23,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْقَرْنَيْنِ",
@@ -15525,9 +15549,10 @@ const S018 = {
           "translit": "rabbī",
           "fr": "mon Seigneur",
           "en": "my Lord",
-          "tr": "",
+          "tr": "Rabbim",
           "racine": "ر-ب-ب",
-          "frequence_coran": 91
+          "frequence_coran": 91,
+          "tr_report": true
         },
         {
           "ar": "فَإِذَا",
@@ -16016,10 +16041,11 @@ const S018 = {
           "translit": "yattakhidhū",
           "fr": "ils peuvent prendre",
           "en": "they (can) take",
-          "tr": "",
+          "tr": "edinmeyen(leri)",
           "racine": "ا-خ-ذ",
           "frequence_coran": 124,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عِبَادِي",

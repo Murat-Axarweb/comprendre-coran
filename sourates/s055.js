@@ -2553,10 +2553,11 @@ const S055 = {
           "translit": "yusʾalu",
           "fr": "sera (pas) interrogé",
           "en": "will be asked",
-          "tr": "",
+          "tr": "sorulmaz",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَن",
@@ -2859,10 +2860,11 @@ const S055 = {
           "translit": "yukadhdhibu",
           "fr": "démentent",
           "en": "deny",
-          "tr": "",
+          "tr": "yalanlayan",
           "racine": "ك-ذ-ب",
           "frequence_coran": 80,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِهَا",
@@ -3398,9 +3400,10 @@ const S055 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "(are) every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "فَٰكِهَةٍ",

@@ -440,9 +440,10 @@ const S057 = {
           "translit": "sittati",
           "fr": "six",
           "en": "six",
-          "tr": "",
+          "tr": "altı",
           "racine": "س-ت-ت",
-          "frequence_coran": 4
+          "frequence_coran": 4,
+          "tr_report": true
         },
         {
           "ar": "أَيَّامٍ",
@@ -1582,10 +1583,11 @@ const S057 = {
           "translit": "yastawī",
           "fr": "sont (pas) égaux",
           "en": "are equal",
-          "tr": "",
+          "tr": "eşit",
           "racine": "س-و-ي",
           "frequence_coran": 35,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِنكُم",
@@ -3007,9 +3009,10 @@ const S057 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "فَطَالَ",
@@ -4010,9 +4013,10 @@ const S057 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "وَجَنَّةٍ",
@@ -4540,9 +4544,10 @@ const S057 = {
           "translit": "yuḥibbu",
           "fr": "Il aime",
           "en": "love",
-          "tr": "",
+          "tr": "sever",
           "racine": "ح-ب-ب",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "كُلَّ",
@@ -5303,10 +5308,11 @@ const S057 = {
           "translit": "ttabaʿūhu",
           "fr": "l’ont suivi",
           "en": "followed him",
-          "tr": "",
+          "tr": "ona uyan(lar)",
           "racine": "ت-ب-ع",
           "frequence_coran": 78,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "رَأْفَةً",

@@ -292,9 +292,10 @@ const S030 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَمِن",
@@ -953,10 +954,11 @@ const S030 = {
           "translit": "yasīrū",
           "fr": "ils ont voyagé",
           "en": "they traveled",
-          "tr": "",
+          "tr": "gezmediler mi?",
           "racine": "س-ي-ر",
           "frequence_coran": 27,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِي",
@@ -2181,10 +2183,11 @@ const S030 = {
           "translit": "l-mayyiti",
           "fr": "[le] mort",
           "en": "the dead",
-          "tr": "",
+          "tr": "ölüyü",
           "racine": "م-و-ت",
           "frequence_coran": 38,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَيُخْرِجُ",
@@ -4152,8 +4155,9 @@ const S030 = {
           "translit": "tabdīla",
           "fr": "(y avoir de) changement",
           "en": "change",
-          "tr": "",
-          "src": "wbw"
+          "tr": "değişme",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لِخَلْقِ",
@@ -6111,9 +6115,10 @@ const S030 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "(were) before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "كَانَ",
@@ -6526,9 +6531,10 @@ const S030 = {
           "translit": "yuḥibbu",
           "fr": "Il aime",
           "en": "like",
-          "tr": "",
+          "tr": "sever",
           "racine": "ح-ب-ب",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "الْكَٰفِرِينَ",
@@ -7293,10 +7299,11 @@ const S030 = {
           "translit": "qablihī",
           "fr": "avant elle",
           "en": "[before it]",
-          "tr": "",
+          "tr": "ondan önce",
           "racine": "ق-ب-ل",
           "frequence_coran": 70,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَمُبْلِسِينَ",
@@ -7958,10 +7965,11 @@ const S030 = {
           "translit": "ḍaʿfin",
           "fr": "faiblesse",
           "en": "weakness",
-          "tr": "",
+          "tr": "zayıflığın",
           "racine": "ض-ع-ف",
           "frequence_coran": 11,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "ثُمَّ",
@@ -8220,10 +8228,11 @@ const S030 = {
           "translit": "labithū",
           "fr": "ils sont restés",
           "en": "they remained",
-          "tr": "",
+          "tr": "kaldıklarını",
           "racine": "ل-ب-ث",
           "frequence_coran": 30,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "غَيْرَ",
@@ -8372,10 +8381,11 @@ const S030 = {
           "translit": "kitābi",
           "fr": "(la) prescription",
           "en": "(the) Decree",
-          "tr": "",
+          "tr": "Kitabına",
           "racine": "ك-ت-ب",
           "frequence_coran": 256,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهِ",
@@ -8672,9 +8682,10 @@ const S030 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "مَثَلٍ",

@@ -158,10 +158,11 @@ const S071 = {
           "translit": "yaʾtiyahum",
           "fr": "leur vienne",
           "en": "comes to them",
-          "tr": "",
+          "tr": "kendilerine gelinceye kadar",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَذَابٌ",
@@ -2067,10 +2068,11 @@ const S071 = {
           "translit": "tadharunna",
           "fr": "laissez (pas) du tout",
           "en": "leave",
-          "tr": "",
+          "tr": "bırakmayın",
           "racine": "و-ذ-ر",
           "frequence_coran": 45,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "ءَالِهَتَكُمْ",

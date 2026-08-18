@@ -1234,10 +1234,11 @@ const S076 = {
           "translit": "yarawna",
           "fr": "ils verront",
           "en": "they will see",
-          "tr": "",
+          "tr": "gördükleri",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِيهَا",
@@ -2765,9 +2766,10 @@ const S076 = {
           "translit": "yashāʾa",
           "fr": "Il veut",
           "en": "wills",
-          "tr": "",
+          "tr": "dilemesi",
           "racine": "ش-ي-ء",
-          "frequence_coran": 108
+          "frequence_coran": 108,
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",

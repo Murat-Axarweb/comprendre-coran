@@ -325,10 +325,11 @@ const S060 = {
           "translit": "sabīlī",
           "fr": "Ma voie",
           "en": "My way",
-          "tr": "",
+          "tr": "benim yolum",
           "racine": "س-ب-ل",
           "frequence_coran": 176,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَابْتِغَاءَ",
@@ -1818,10 +1819,11 @@ const S060 = {
           "translit": "yanhākumu",
           "fr": "vous interdit (pas)",
           "en": "(does) forbid you",
-          "tr": "",
+          "tr": "sizi men'eder",
           "racine": "ن-ه-ي",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",
@@ -2396,10 +2398,11 @@ const S060 = {
           "translit": "l-kuffāri",
           "fr": "[les] mécréants.",
           "en": "the disbelievers",
-          "tr": "",
+          "tr": "kafirlere",
           "racine": "ك-ف-ر",
           "frequence_coran": 26,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَا",
@@ -2826,10 +2829,11 @@ const S060 = {
           "translit": "l-kuffāri",
           "fr": "les mécréants",
           "en": "the disbelievers",
-          "tr": "",
+          "tr": "kafirlere",
           "racine": "ك-ف-ر",
           "frequence_coran": 26,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَعَاقَبْتُمْ",
@@ -3252,9 +3256,10 @@ const S060 = {
           "translit": "maʿrūfin",
           "fr": "convenable",
           "en": "(the) right",
-          "tr": "",
+          "tr": "iyiliği",
           "racine": "ع-ر-ف",
-          "frequence_coran": 7
+          "frequence_coran": 7,
+          "tr_report": true
         },
         {
           "ar": "فَبَايِعْهُنَّ",
@@ -3448,10 +3453,11 @@ const S060 = {
           "translit": "yaʾisū",
           "fr": "ont perdu espoir",
           "en": "they despair",
-          "tr": "",
+          "tr": "ümidi kesmişlerdir",
           "racine": "ي-أ-س",
           "frequence_coran": 7,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِنَ",
@@ -3513,10 +3519,11 @@ const S060 = {
           "translit": "aṣḥābi",
           "fr": "(les) compagnons",
           "en": "(the) companions",
-          "tr": "",
+          "tr": "halkı",
           "racine": "ص-ح-ب",
           "frequence_coran": 77,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْقُبُورِ",

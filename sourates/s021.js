@@ -2516,10 +2516,11 @@ const S021 = {
           "translit": "yusʾalu",
           "fr": "Il sera interrogé",
           "en": "He (can) be questioned",
-          "tr": "",
+          "tr": "sorulmaz",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَمَّا",
@@ -3557,9 +3558,10 @@ const S021 = {
           "translit": "l-māʾi",
           "fr": "l’eau",
           "en": "[the] water",
-          "tr": "",
+          "tr": "su",
           "racine": "م-و-ه / م-ي-ه",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "كُلَّ",
@@ -4694,10 +4696,11 @@ const S021 = {
           "translit": "ẓuhūrihim",
           "fr": "leurs dos",
           "en": "their backs",
-          "tr": "",
+          "tr": "sırtlarının",
           "racine": "ظ-ه-ر",
           "frequence_coran": 26,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَلَا",
@@ -5103,9 +5106,10 @@ const S021 = {
           "translit": "dhikri",
           "fr": "souvenir",
           "en": "(the) remembrance",
-          "tr": "",
+          "tr": "anmağa",
           "racine": "ذ-ك-ر",
-          "frequence_coran": 256
+          "frequence_coran": 256,
+          "tr_report": true
         },
         {
           "ar": "رَبِّهِم",
@@ -5386,10 +5390,11 @@ const S021 = {
           "translit": "yarawna",
           "fr": "ils voient",
           "en": "they see",
-          "tr": "",
+          "tr": "gördükleri",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَنَّا",
@@ -5648,9 +5653,10 @@ const S021 = {
           "translit": "ʿadhābi",
           "fr": "châtiment",
           "en": "(the) punishment",
-          "tr": "",
+          "tr": "azabımı",
           "racine": "ع-ذ-ب",
-          "frequence_coran": 373
+          "frequence_coran": 373,
+          "tr_report": true
         },
         {
           "ar": "رَبِّكَ",
@@ -6261,9 +6267,10 @@ const S021 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَكُنَّا",
@@ -6797,10 +6804,11 @@ const S021 = {
           "translit": "sh-shāhidīna",
           "fr": "les témoins.",
           "en": "the witnesses",
-          "tr": "",
+          "tr": "şahidlerle",
           "racine": "ش-ه-د",
           "frequence_coran": 21,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -6875,10 +6883,11 @@ const S021 = {
           "translit": "tuwallū",
           "fr": "vous vous tournerez",
           "en": "you go away",
-          "tr": "",
+          "tr": "dönerseniz",
           "racine": "و-ل-ي",
           "frequence_coran": 86,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مُدْبِرِينَ",
@@ -8244,10 +8253,11 @@ const S021 = {
           "translit": "lilʿālamīna",
           "fr": "pour toutes les générations de chaque créature.",
           "en": "for the worlds",
-          "tr": "",
+          "tr": "alemlere",
           "racine": "ع-ل-م",
           "frequence_coran": 72,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -8824,9 +8834,10 @@ const S021 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "فَاسْتَجَبْنَا",
@@ -10142,10 +10153,11 @@ const S021 = {
           "translit": "raḥmatinā",
           "fr": "Notre Miséricorde.",
           "en": "Our Mercy",
-          "tr": "",
+          "tr": "rahmetimizin",
           "racine": "ر-ح-م",
           "frequence_coran": 339,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِنَّهُم",
@@ -10474,8 +10486,9 @@ const S021 = {
           "translit": "l-ghammi",
           "fr": "la tristesse.",
           "en": "the distress",
-          "tr": "",
-          "src": "wbw"
+          "tr": "o üzüntünün",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَكَذَٰلِكَ",
@@ -11434,9 +11447,10 @@ const S021 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "حَدَبٍ",
@@ -12928,9 +12942,10 @@ const S021 = {
           "translit": "sawāʾin",
           "fr": "égal",
           "en": "equally",
-          "tr": "",
+          "tr": "eşit olan",
           "racine": "س-و-ي",
-          "frequence_coran": 27
+          "frequence_coran": 27,
+          "tr_report": true
         },
         {
           "ar": "وَإِنْ",

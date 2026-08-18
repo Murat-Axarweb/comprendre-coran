@@ -64,10 +64,11 @@ const S088 = {
           "translit": "atāka",
           "fr": "t’est venu",
           "en": "(there) come to you",
-          "tr": "",
+          "tr": "sana geldi",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "حَدِيثُ",
@@ -271,9 +272,10 @@ const S088 = {
           "translit": "ʿaynin",
           "fr": "œil",
           "en": "a spring",
-          "tr": "",
+          "tr": "göz",
           "racine": "ع-ي-ن",
-          "frequence_coran": 23
+          "frequence_coran": 23,
+          "tr_report": true
         },
         {
           "ar": "ءَانِيَةٍ",
@@ -573,9 +575,10 @@ const S088 = {
           "translit": "jannatin",
           "fr": "paradis",
           "en": "a garden",
-          "tr": "",
+          "tr": "bir bahçeye",
           "racine": "ج-ن-ن",
-          "frequence_coran": 147
+          "frequence_coran": 147,
+          "tr_report": true
         },
         {
           "ar": "عَالِيَةٍ",
@@ -621,10 +624,11 @@ const S088 = {
           "translit": "tasmaʿu",
           "fr": "ils entendront",
           "en": "they will hear",
-          "tr": "",
+          "tr": "işitiyor (musun?)",
           "racine": "س-م-ع",
           "frequence_coran": 47,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِيهَا",
@@ -908,8 +912,9 @@ const S088 = {
           "translit": "l-ʾibili",
           "fr": "les chameaux :",
           "en": "the camels",
-          "tr": "",
-          "src": "wbw"
+          "tr": "deveden",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "كَيْفَ",

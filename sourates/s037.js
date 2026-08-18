@@ -552,9 +552,10 @@ const S037 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "جَانِبٍ",
@@ -1713,10 +1714,11 @@ const S037 = {
           "translit": "ṣirāṭi",
           "fr": "(le) chemin",
           "en": "(the) Path",
-          "tr": "",
+          "tr": "yoluna",
           "racine": "ص-ر-ط",
           "frequence_coran": 43,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْجَحِيمِ",
@@ -3229,8 +3231,9 @@ const S037 = {
           "translit": "maʿīni",
           "fr": "eau visible coulante",
           "en": "a flowing spring",
-          "tr": "",
-          "src": "wbw"
+          "tr": "akar",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3,
@@ -4005,10 +4008,11 @@ const S037 = {
           "translit": "kidta",
           "fr": "tu as été proche",
           "en": "you almost",
-          "tr": "",
+          "tr": "neredeyse",
           "racine": "ك-و-د",
           "frequence_coran": 24,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَتُرْدِينِ",
@@ -5677,10 +5681,11 @@ const S037 = {
           "translit": "ʿibādinā",
           "fr": "Nos esclaves",
           "en": "Our slaves",
-          "tr": "",
+          "tr": "kullarımız",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْمُؤْمِنِينَ",
@@ -6130,10 +6135,11 @@ const S037 = {
           "translit": "n-nujūmi",
           "fr": "les étoiles",
           "en": "the stars",
-          "tr": "",
+          "tr": "yıldızların",
           "racine": "ن-ج-م",
           "frequence_coran": 14,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3,
@@ -6385,8 +6391,9 @@ const S037 = {
           "translit": "tanṭiqūna",
           "fr": "vous parlez avec vos langues ?",
           "en": "you speak",
-          "tr": "",
-          "src": "wbw"
+          "tr": "konuştuğunuz",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3,
@@ -7799,10 +7806,11 @@ const S037 = {
           "translit": "ʿibādinā",
           "fr": "Nos esclaves",
           "en": "Our slaves",
-          "tr": "",
+          "tr": "kullarımız",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْمُؤْمِنِينَ",
@@ -7956,8 +7964,9 @@ const S037 = {
           "translit": "dhurriyyatihimā",
           "fr": "leurs descendants",
           "en": "their offspring",
-          "tr": "",
-          "src": "wbw"
+          "tr": "bunların zürriyetleri",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مُحْسِنٌ",
@@ -8536,10 +8545,11 @@ const S037 = {
           "translit": "ʿibādinā",
           "fr": "Nos esclaves",
           "en": "Our slaves",
-          "tr": "",
+          "tr": "kullarımız",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْمُؤْمِنِينَ",
@@ -9188,10 +9198,11 @@ const S037 = {
           "translit": "ʿibādinā",
           "fr": "Nos esclaves",
           "en": "Our slaves",
-          "tr": "",
+          "tr": "kullarımız",
           "racine": "ع-ب-د",
           "frequence_coran": 40,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْمُؤْمِنِينَ",
@@ -9925,10 +9936,11 @@ const S037 = {
           "translit": "baṭnihī",
           "fr": "son ventre",
           "en": "its belly",
-          "tr": "",
+          "tr": "karnı",
           "racine": "ب-ط-ن",
           "frequence_coran": 17,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَىٰ",
@@ -10970,10 +10982,11 @@ const S037 = {
           "translit": "yaṣifūna",
           "fr": "ils décrivent !",
           "en": "they attribute",
-          "tr": "",
+          "tr": "nitelendirdikleri",
           "racine": "و-ص-ف",
           "frequence_coran": 13,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -12272,10 +12285,11 @@ const S037 = {
           "translit": "yaṣifūna",
           "fr": "ils décrivent !",
           "en": "they attribute",
-          "tr": "",
+          "tr": "nitelendirdikleri",
           "racine": "و-ص-ف",
           "frequence_coran": 13,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3

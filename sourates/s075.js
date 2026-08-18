@@ -763,9 +763,10 @@ const S075 = {
           "translit": "yawmaʾidhin",
           "fr": "ce jour-là",
           "en": "that Day",
-          "tr": "",
+          "tr": "o gün",
           "racine": "ي-و-م + إِذْ",
-          "frequence_coran": 63
+          "frequence_coran": 63,
+          "tr_report": true
         },
         {
           "ar": "الْمُسْتَقَرُّ",
@@ -1433,10 +1434,11 @@ const S075 = {
           "translit": "rabbihā",
           "fr": "leur Maître",
           "en": "their Lord",
-          "tr": "",
+          "tr": "Rabbinin",
           "racine": "ر-ب-ب",
           "frequence_coran": 980,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نَاظِرَةٌ",
@@ -1878,10 +1880,11 @@ const S075 = {
           "translit": "ṣaddaqa",
           "fr": "il a affirmé",
           "en": "he accepted (the) truth",
-          "tr": "",
+          "tr": "doğru çıkardı",
           "racine": "ص-د-ق",
           "frequence_coran": 15,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَلَا",

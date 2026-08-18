@@ -597,9 +597,10 @@ const S022 = {
           "translit": "ʿadhābi",
           "fr": "châtiment",
           "en": "(the) punishment",
-          "tr": "",
+          "tr": "azabımı",
           "racine": "ع-ذ-ب",
-          "frequence_coran": 373
+          "frequence_coran": 373,
+          "tr_report": true
         },
         {
           "ar": "السَّعِيرِ",
@@ -1230,9 +1231,10 @@ const S022 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "زَوْجٍ",
@@ -4199,8 +4201,9 @@ const S022 = {
           "translit": "asāwira",
           "fr": "bracelets",
           "en": "bracelets",
-          "tr": "",
-          "src": "wbw"
+          "tr": "bilezikler",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِن",
@@ -4349,10 +4352,11 @@ const S022 = {
           "translit": "ṣirāṭi",
           "fr": "(le) chemin",
           "en": "(the) path",
-          "tr": "",
+          "tr": "yoluna",
           "racine": "ص-ر-ط",
           "frequence_coran": 43,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْحَمِيدِ",
@@ -4702,10 +4706,11 @@ const S022 = {
           "translit": "tushrik",
           "fr": "associe (pas)",
           "en": "associate",
-          "tr": "",
+          "tr": "ortak koşma",
           "racine": "ش-ر-ك",
           "frequence_coran": 71,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِي",
@@ -6023,8 +6028,9 @@ const S022 = {
           "translit": "bahīmati",
           "fr": "(les) bêtes",
           "en": "(the) beast",
-          "tr": "",
-          "src": "wbw"
+          "tr": "yürüyen",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْأَنْعَٰمِ",
@@ -6856,9 +6862,10 @@ const S022 = {
           "translit": "yuḥibbu",
           "fr": "Il aime",
           "en": "like",
-          "tr": "",
+          "tr": "sever",
           "racine": "ح-ب-ب",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "كُلَّ",
@@ -8148,8 +8155,9 @@ const S022 = {
           "translit": "taʿmā",
           "fr": "sont (pas) aveugles",
           "en": "(are) blinded",
-          "tr": "",
-          "src": "wbw"
+          "tr": "kör olur",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْأَبْصَٰرُ",
@@ -9305,9 +9313,10 @@ const S022 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "فَيُؤْمِنُواْ",
@@ -12646,10 +12655,11 @@ const S022 = {
           "translit": "qadarū",
           "fr": "ils ont valorisé",
           "en": "they (have) estimated",
-          "tr": "",
+          "tr": "takdir edemediler",
           "racine": "ق-د-ر",
           "frequence_coran": 25,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "اللَّهَ",
@@ -13300,9 +13310,10 @@ const S022 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَفِي",

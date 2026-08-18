@@ -64,10 +64,11 @@ const S098 = {
           "translit": "yakuni",
           "fr": "ont (pas) été",
           "en": "were",
-          "tr": "",
+          "tr": "ise",
           "racine": "ك-و-ن",
           "frequence_coran": 1360,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الَّذِينَ",

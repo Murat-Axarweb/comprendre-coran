@@ -1113,9 +1113,10 @@ const S031 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "دَابَّةٍ",
@@ -2576,9 +2577,10 @@ const S031 = {
           "translit": "ʿazmi",
           "fr": "résolution",
           "en": "the matters requiring determination",
-          "tr": "",
+          "tr": "çok önemli",
           "racine": "ع-ز-م",
-          "frequence_coran": 4
+          "frequence_coran": 4,
+          "tr_report": true
         },
         {
           "ar": "الْأُمُورِ",
@@ -2723,9 +2725,10 @@ const S031 = {
           "translit": "yuḥibbu",
           "fr": "Il aime",
           "en": "like",
-          "tr": "",
+          "tr": "sever",
           "racine": "ح-ب-ب",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "كُلَّ",
@@ -3373,9 +3376,10 @@ const S031 = {
           "translit": "ʿadhābi",
           "fr": "châtiment",
           "en": "(the) punishment",
-          "tr": "",
+          "tr": "azabımı",
           "racine": "ع-ذ-ب",
-          "frequence_coran": 373
+          "frequence_coran": 373,
+          "tr_report": true
         },
         {
           "ar": "السَّعِيرِ",
@@ -5343,10 +5347,11 @@ const S031 = {
           "translit": "yajzī",
           "fr": "pourra (pas) donner de chose satisfaisante",
           "en": "can avail",
-          "tr": "",
+          "tr": "mükafatlandırır",
           "racine": "ج-ز-ي",
           "frequence_coran": 73,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَالِدٌ",

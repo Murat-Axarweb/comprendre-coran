@@ -1407,9 +1407,10 @@ const S048 = {
           "translit": "ʿāhada",
           "fr": "pacte",
           "en": "he has covenanted",
-          "tr": "",
+          "tr": "and içtiler",
           "racine": "ع-ه-د",
-          "frequence_coran": 30
+          "frequence_coran": 30,
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهُ",
@@ -2361,8 +2362,9 @@ const S048 = {
           "translit": "maghānima",
           "fr": "des butins",
           "en": "(the) spoils of war",
-          "tr": "",
-          "src": "wbw"
+          "tr": "ganimetler",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لِتَأْخُذُوهَا",
@@ -2511,9 +2513,10 @@ const S048 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "فَسَيَقُولُونَ",
@@ -2851,9 +2854,10 @@ const S048 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "يُعَذِّبْكُمْ",
@@ -2967,8 +2971,9 @@ const S048 = {
           "translit": "l-ʾaʿraji",
           "fr": "[le] boiteux",
           "en": "the lame",
-          "tr": "",
-          "src": "wbw"
+          "tr": "topal",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "حَرَجٌ",
@@ -3003,10 +3008,11 @@ const S048 = {
           "translit": "l-marīḍi",
           "fr": "[le] malade",
           "en": "the sick",
-          "tr": "",
+          "tr": "hasta",
           "racine": "م-ر-ض",
           "frequence_coran": 10,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "حَرَجٌ",
@@ -4020,9 +4026,10 @@ const S048 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَلَن",
@@ -5145,10 +5152,11 @@ const S048 = {
           "translit": "taʿlamū",
           "fr": "vous avez su",
           "en": "you knew",
-          "tr": "",
+          "tr": "bilesiniz",
           "racine": "ع-ل-م",
           "frequence_coran": 105,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَجَعَلَ",
@@ -5251,10 +5259,11 @@ const S048 = {
           "translit": "arsala",
           "fr": "a envoyé",
           "en": "(has) sent",
-          "tr": "",
+          "tr": "gönderdi",
           "racine": "ر-س-ل",
           "frequence_coran": 68,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "رَسُولَهُ",
@@ -5664,9 +5673,10 @@ const S048 = {
           "translit": "l-ʾinjīli",
           "fr": "Évangile",
           "en": "the Injeel",
-          "tr": "",
+          "tr": "İncil",
           "racine": "—",
-          "frequence_coran": 12
+          "frequence_coran": 12,
+          "tr_report": true
         },
         {
           "ar": "كَزَرْعٍ",

@@ -682,10 +682,11 @@ const S008 = {
           "translit": "baytika",
           "fr": "ta maison",
           "en": "your home",
-          "tr": "",
+          "tr": "senin evinin",
           "racine": "ب-ي-ت",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِالْحَقِّ",
@@ -2437,9 +2438,10 @@ const S008 = {
           "translit": "fiʾatin",
           "fr": "troupe",
           "en": "a group",
-          "tr": "",
+          "tr": "topluluğu",
           "racine": "ف-أ-ي",
-          "frequence_coran": 5
+          "frequence_coran": 5,
+          "tr_report": true
         },
         {
           "ar": "فَقَدْ",
@@ -2606,10 +2608,11 @@ const S008 = {
           "translit": "ramayta",
           "fr": "tu as jeté",
           "en": "you threw",
-          "tr": "",
+          "tr": "attığın",
           "racine": "ر-م-ي",
           "frequence_coran": 9,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِذْ",
@@ -4051,10 +4054,11 @@ const S008 = {
           "translit": "ṭ-ṭayyibāti",
           "fr": "[les] bonnes choses",
           "en": "the good things",
-          "tr": "",
+          "tr": "güzel şeyleri",
           "racine": "ط-ي-ب",
           "frequence_coran": 21,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَعَلَّكُمْ",
@@ -4963,10 +4967,11 @@ const S008 = {
           "translit": "ʿindika",
           "fr": "auprès (de) toi,",
           "en": "from You",
-          "tr": "",
+          "tr": "o sendendir",
           "racine": "adverbe / préposition",
           "frequence_coran": 98,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَأَمْطِرْ",
@@ -5281,9 +5286,10 @@ const S008 = {
           "translit": "l-masjidi",
           "fr": "mosquée",
           "en": "Al-Masjid",
-          "tr": "",
+          "tr": "Mescid-i",
           "racine": "س-ج-د",
-          "frequence_coran": 28
+          "frequence_coran": 28,
+          "tr_report": true
         },
         {
           "ar": "الْحَرَامِ",
@@ -6065,8 +6071,9 @@ const S008 = {
           "translit": "salafa",
           "fr": "est passé",
           "en": "(is) past",
-          "tr": "",
-          "src": "wbw"
+          "tr": "geçmişte",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَإِن",
@@ -7377,10 +7384,11 @@ const S008 = {
           "translit": "aʿyunihim",
           "fr": "leurs yeux",
           "en": "their eyes",
-          "tr": "",
+          "tr": "gözleri",
           "racine": "ع-ي-ن",
           "frequence_coran": 23,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لِيَقْضِيَ",
@@ -8517,10 +8525,11 @@ const S008 = {
           "translit": "yatawaffā",
           "fr": "font mourir (=en prenant les âmes)",
           "en": "take away souls",
-          "tr": "",
+          "tr": "vefat ettirir",
           "racine": "و-ف-ي",
           "frequence_coran": 24,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الَّذِينَ",
@@ -9477,9 +9486,10 @@ const S008 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "مَرَّةٍ",
@@ -9745,9 +9755,10 @@ const S008 = {
           "translit": "sawāʾin",
           "fr": "égal",
           "en": "equal (terms)",
-          "tr": "",
+          "tr": "eşit olan",
           "racine": "س-و-ي",
-          "frequence_coran": 27
+          "frequence_coran": 27,
+          "tr_report": true
         },
         {
           "ar": "إِنَّ",
@@ -9781,9 +9792,10 @@ const S008 = {
           "translit": "yuḥibbu",
           "fr": "Il aime",
           "en": "love",
-          "tr": "",
+          "tr": "sever",
           "racine": "ح-ب-ب",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "الْخَائِنِينَ",
@@ -10211,10 +10223,11 @@ const S008 = {
           "translit": "tuẓlamūna",
           "fr": "recevrez (pas) d’injustice.",
           "en": "be wronged",
-          "tr": "",
+          "tr": "zulmedilmezsiniz",
           "racine": "ظ-ل-م",
           "frequence_coran": 315,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -12114,9 +12127,10 @@ const S008 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "فَأَمْكَنَ",

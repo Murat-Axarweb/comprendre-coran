@@ -1052,10 +1052,11 @@ const S054 = {
           "translit": "qudira",
           "fr": "a été déterminée,",
           "en": "predestined",
-          "tr": "",
+          "tr": "kısıtlı olan",
           "racine": "ق-د-ر",
           "frequence_coran": 25,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -2092,10 +2093,11 @@ const S054 = {
           "translit": "bayninā",
           "fr": "entre nous ?",
           "en": "among us",
-          "tr": "",
+          "tr": "bizim aramızda var",
           "racine": "ب-ي-ن",
           "frequence_coran": 70,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بَلْ",
@@ -3572,8 +3574,9 @@ const S054 = {
           "translit": "z-zuburi",
           "fr": "Les Livres ?",
           "en": "the Scriptures",
-          "tr": "",
-          "src": "wbw"
+          "tr": "Kitaplarda",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3

@@ -225,9 +225,10 @@ const S111 = {
           "translit": "lahabin",
           "fr": "flammes",
           "en": "Blazing Flames",
-          "tr": "",
+          "tr": "Leheb'in",
           "racine": "ل-ه-ب",
-          "frequence_coran": 3
+          "frequence_coran": 3,
+          "tr_report": true
         }
       ],
       "niveau_couche": 1

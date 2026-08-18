@@ -1565,10 +1565,11 @@ const S051 = {
           "translit": "atāka",
           "fr": "t’est venu",
           "en": "reached you",
-          "tr": "",
+          "tr": "sana geldi",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "حَدِيثُ",
@@ -1937,10 +1938,11 @@ const S051 = {
           "translit": "takhaf",
           "fr": "aie (pas) peur. »",
           "en": "fear",
-          "tr": "",
+          "tr": "korkma",
           "racine": "خ-و-ف",
           "frequence_coran": 83,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَبَشَّرُوهُ",
@@ -3100,10 +3102,11 @@ const S051 = {
           "translit": "tadharu",
           "fr": "il a laissé",
           "en": "it left",
-          "tr": "",
+          "tr": "bırakmaz",
           "racine": "و-ذ-ر",
           "frequence_coran": 45,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِن",
@@ -3508,9 +3511,10 @@ const S051 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "إِنَّهُمْ",
@@ -4022,9 +4026,10 @@ const S051 = {
           "translit": "atā",
           "fr": "donner",
           "en": "came",
-          "tr": "",
+          "tr": "getiren",
           "racine": "أ-ت-ي",
-          "frequence_coran": 90
+          "frequence_coran": 90,
+          "tr_report": true
         },
         {
           "ar": "الَّذِينَ",

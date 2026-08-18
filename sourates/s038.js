@@ -836,10 +836,11 @@ const S038 = {
           "translit": "bayninā",
           "fr": "entre nous ? »",
           "en": "among us",
-          "tr": "",
+          "tr": "bizim aramızda var",
           "racine": "ب-ي-ن",
           "frequence_coran": 70,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بَلْ",
@@ -2106,10 +2107,11 @@ const S038 = {
           "translit": "atāka",
           "fr": "t’est venue",
           "en": "come to you",
-          "tr": "",
+          "tr": "sana geldi",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نَبَؤُاْ",
@@ -2262,10 +2264,11 @@ const S038 = {
           "translit": "takhaf",
           "fr": "aie (pas) peur.",
           "en": "fear",
-          "tr": "",
+          "tr": "korkma",
           "racine": "خ-و-ف",
           "frequence_coran": 83,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "خَصْمَانِ",
@@ -2553,8 +2556,9 @@ const S038 = {
           "translit": "l-khiṭābi",
           "fr": "la discussion. »",
           "en": "[the] speech",
-          "tr": "",
-          "src": "wbw"
+          "tr": "konuşma",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -3936,9 +3940,10 @@ const S038 = {
           "translit": "dhikri",
           "fr": "souvenir",
           "en": "(the) remembrance",
-          "tr": "",
+          "tr": "anmağa",
           "racine": "ذ-ك-ر",
-          "frequence_coran": 256
+          "frequence_coran": 256,
+          "tr_report": true
         },
         {
           "ar": "رَبِّي",
@@ -4549,8 +4554,9 @@ const S038 = {
           "translit": "l-ʾaṣfādi",
           "fr": "les fers.",
           "en": "chains",
-          "tr": "",
-          "src": "wbw"
+          "tr": "zincirler",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3,
@@ -5516,10 +5522,11 @@ const S038 = {
           "translit": "l-ʾakhyāri",
           "fr": "les meilleurs.",
           "en": "the best",
-          "tr": "",
+          "tr": "hayırlılardandır",
           "racine": "خ-ي-ر",
           "frequence_coran": 78,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -8703,10 +8710,11 @@ const S038 = {
           "translit": "asʾalukum",
           "fr": "je vous demande",
           "en": "I ask of you",
-          "tr": "",
+          "tr": "ben sizden istemiyorum",
           "racine": "س-أ-ل",
           "frequence_coran": 95,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "عَلَيْهِ",

@@ -1016,8 +1016,9 @@ const S065 = {
           "translit": "l-maḥīḍi",
           "fr": "la menstruation",
           "en": "the menstruation",
-          "tr": "",
-          "src": "wbw"
+          "tr": "adet",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِن",
@@ -1154,10 +1155,11 @@ const S065 = {
           "translit": "yaḍaʿna",
           "fr": "elles accouchent",
           "en": "they deliver",
-          "tr": "",
+          "tr": "bırakıncaya",
           "racine": "و-ض-ع",
           "frequence_coran": 26,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "حَمْلَهُنَّ",
@@ -2038,9 +2040,10 @@ const S065 = {
           "translit": "amri",
           "fr": "ordre",
           "en": "(the) Command",
-          "tr": "",
+          "tr": "buyruğuna",
           "racine": "أ-م-ر",
-          "frequence_coran": 166
+          "frequence_coran": 166,
+          "tr_report": true
         },
         {
           "ar": "رَبِّهَا",

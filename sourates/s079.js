@@ -746,10 +746,11 @@ const S079 = {
           "translit": "atāka",
           "fr": "t’est venu",
           "en": "(there) come to you",
-          "tr": "",
+          "tr": "sana geldi",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "حَدِيثُ",

@@ -826,10 +826,11 @@ const S092 = {
           "translit": "yaṣlāhā",
           "fr": "sera (pas) brûlé (en) lui",
           "en": "will burn (in) it",
-          "tr": "",
+          "tr": "oraya girer",
           "racine": "ص-ل-ي",
           "frequence_coran": 12,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",

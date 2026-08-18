@@ -414,8 +414,9 @@ const S080 = {
           "translit": "yazzakkā",
           "fr": "il se purifie ?",
           "en": "he purifies himself",
-          "tr": "",
-          "src": "wbw"
+          "tr": "arınacaktır",
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3

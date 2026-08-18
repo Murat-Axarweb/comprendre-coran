@@ -669,9 +669,10 @@ const S064 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "فَذَاقُواْ",
@@ -783,10 +784,11 @@ const S064 = {
           "translit": "taʾtīhim",
           "fr": "leur amenaient",
           "en": "come to them",
-          "tr": "",
+          "tr": "onlara getirirdi",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "رُسُلُهُم",
@@ -2352,10 +2354,11 @@ const S064 = {
           "translit": "staṭaʿtum",
           "fr": "vous êtes capables",
           "en": "you are able",
-          "tr": "",
+          "tr": "gücünüz yeterse",
           "racine": "ط-و-ع",
           "frequence_coran": 42,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَاسْمَعُواْ",

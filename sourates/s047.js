@@ -1302,10 +1302,11 @@ const S047 = {
           "translit": "yasīrū",
           "fr": "ils ont voyagé",
           "en": "they travel",
-          "tr": "",
+          "tr": "gezmediler mi?",
           "racine": "س-ي-ر",
           "frequence_coran": 27,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِي",
@@ -2016,9 +2017,10 @@ const S047 = {
           "translit": "rabbihī",
           "fr": "son Seigneur",
           "en": "his Lord",
-          "tr": "",
+          "tr": "Rabbi",
           "racine": "ر-ب-ب",
-          "frequence_coran": 44
+          "frequence_coran": 44,
+          "tr_report": true
         },
         {
           "ar": "كَمَن",
@@ -2141,9 +2143,10 @@ const S047 = {
           "translit": "wuʿida",
           "fr": "promettre",
           "en": "is promised",
-          "tr": "",
+          "tr": "va'dedilen",
           "racine": "و-ع-د",
-          "frequence_coran": 7
+          "frequence_coran": 7,
+          "tr_report": true
         },
         {
           "ar": "الْمُتَّقُونَ",
@@ -2373,9 +2376,10 @@ const S047 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "all",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "الثَّمَرَٰتِ",
@@ -2608,10 +2612,11 @@ const S047 = {
           "translit": "ʿindika",
           "fr": "auprès (de) toi,",
           "en": "you",
-          "tr": "",
+          "tr": "o sendendir",
           "racine": "adverbe / préposition",
           "frequence_coran": 98,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "قَالُواْ",
@@ -3628,10 +3633,11 @@ const S047 = {
           "translit": "tufsidū",
           "fr": "vous sèmeriez la corruption",
           "en": "you cause corruption",
-          "tr": "",
+          "tr": "bozgunculuk",
           "racine": "ف-س-د",
           "frequence_coran": 15,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِي",
@@ -4127,10 +4133,11 @@ const S047 = {
           "translit": "baʿḍi",
           "fr": "une partie",
           "en": "part",
-          "tr": "",
+          "tr": "biri",
           "racine": "ب-ع-ض",
           "frequence_coran": 124,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْأَمْرِ",

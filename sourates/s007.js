@@ -278,9 +278,10 @@ const S007 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "وَلَا",
@@ -296,10 +297,11 @@ const S007 = {
           "translit": "tattabiʿū",
           "fr": "suivez (pas)",
           "en": "follow",
-          "tr": "",
+          "tr": "uyarak",
           "racine": "ت-ب-ع",
           "frequence_coran": 78,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مِن",
@@ -2392,8 +2394,9 @@ const S007 = {
           "translit": "sawʾātihimā",
           "fr": "leurs régions intimes",
           "en": "their shame",
-          "tr": "",
-          "src": "wbw"
+          "tr": "çirkin yerlerini",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَقَالَ",
@@ -4046,9 +4049,10 @@ const S007 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "مَسْجِدٍ",
@@ -4370,9 +4374,10 @@ const S007 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "every",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "مَسْجِدٍ",
@@ -4417,8 +4422,9 @@ const S007 = {
           "translit": "tusrifū",
           "fr": "gaspillez (pas).",
           "en": "be extravagant",
-          "tr": "",
-          "src": "wbw"
+          "tr": "israf etmeyin",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِنَّهُ",
@@ -4443,9 +4449,10 @@ const S007 = {
           "translit": "yuḥibbu",
           "fr": "Il aime",
           "en": "love",
-          "tr": "",
+          "tr": "sever",
           "racine": "ح-ب-ب",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "الْمُسْرِفِينَ",
@@ -6785,8 +6792,9 @@ const S007 = {
           "translit": "nukallifu",
           "fr": "Nous chargeons",
           "en": "We burden",
-          "tr": "",
-          "src": "wbw"
+          "tr": "biz teklif etmeyiz",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نَفْسًا",
@@ -8404,9 +8412,10 @@ const S007 = {
           "translit": "l-māʾi",
           "fr": "l’eau",
           "en": "(some) water",
-          "tr": "",
+          "tr": "su",
           "racine": "م-و-ه / م-ي-ه",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "أَوْ",
@@ -8964,9 +8973,10 @@ const S007 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "قَدْ",
@@ -9045,8 +9055,9 @@ const S007 = {
           "translit": "shufaʿāʾa",
           "fr": "intercesseurs",
           "en": "intercessors",
-          "tr": "",
-          "src": "wbw"
+          "tr": "şefa'atçiler",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فَيَشْفَعُواْ",
@@ -9598,9 +9609,10 @@ const S007 = {
           "translit": "yuḥibbu",
           "fr": "Il aime",
           "en": "love",
-          "tr": "",
+          "tr": "sever",
           "racine": "ح-ب-ب",
-          "frequence_coran": 39
+          "frequence_coran": 39,
+          "tr_report": true
         },
         {
           "ar": "الْمُعْتَدِينَ",
@@ -9646,10 +9658,11 @@ const S007 = {
           "translit": "tufsidū",
           "fr": "semez (pas) la corruption",
           "en": "cause corruption",
-          "tr": "",
+          "tr": "bozgunculuk",
           "racine": "ف-س-د",
           "frequence_coran": 15,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِي",
@@ -10004,9 +10017,10 @@ const S007 = {
           "translit": "kulli",
           "fr": "de tout",
           "en": "all (kinds)",
-          "tr": "",
+          "tr": "her",
           "racine": "ك-ل-ل",
-          "frequence_coran": 123
+          "frequence_coran": 123,
+          "tr_report": true
         },
         {
           "ar": "الثَّمَرَٰتِ",
@@ -10881,9 +10895,10 @@ const S007 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "عَلَىٰ",
@@ -12165,9 +12180,10 @@ const S007 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "رِجْسٌ",
@@ -13044,8 +13060,9 @@ const S007 = {
           "translit": "taʿthaw",
           "fr": "agissez (pas) de manière maléfique",
           "en": "act wickedly",
-          "tr": "",
-          "src": "wbw"
+          "tr": "karışıklık çıkarmayın",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِي",
@@ -13474,9 +13491,10 @@ const S007 = {
           "translit": "amri",
           "fr": "ordre",
           "en": "(the) command",
-          "tr": "",
+          "tr": "buyruğuna",
           "racine": "أ-م-ر",
-          "frequence_coran": 166
+          "frequence_coran": 166,
+          "tr_report": true
         },
         {
           "ar": "رَبِّهِمْ",
@@ -14598,9 +14616,10 @@ const S007 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "فَأَوْفُواْ",
@@ -14678,10 +14697,11 @@ const S007 = {
           "translit": "tufsidū",
           "fr": "semez (pas) la corruption",
           "en": "cause corruption",
-          "tr": "",
+          "tr": "bozgunculuk",
           "racine": "ف-س-د",
           "frequence_coran": 15,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "فِي",
@@ -15676,9 +15696,10 @@ const S007 = {
           "translit": "yashāʾa",
           "fr": "Il veut",
           "en": "wills",
-          "tr": "",
+          "tr": "dilemesi",
           "racine": "ش-ي-ء",
-          "frequence_coran": 108
+          "frequence_coran": 108,
+          "tr_report": true
         },
         {
           "ar": "اللَّهُ",
@@ -17601,9 +17622,10 @@ const S007 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "كَذَٰلِكَ",
@@ -18180,9 +18202,10 @@ const S007 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "فَأَرْسِلْ",
@@ -19130,10 +19153,11 @@ const S007 = {
           "translit": "tulqiya",
           "fr": "tu jettes",
           "en": "you throw",
-          "tr": "",
+          "tr": "sen at",
           "racine": "ل-ق-ي",
           "frequence_coran": 71,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَإِمَّا",
@@ -19158,10 +19182,11 @@ const S007 = {
           "translit": "nakūna",
           "fr": "nous serons",
           "en": "we will be",
-          "tr": "",
+          "tr": "biz olalım",
           "racine": "ك-و-ن",
           "frequence_coran": 1360,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نَحْنُ",
@@ -19825,10 +19850,11 @@ const S007 = {
           "translit": "ādhana",
           "fr": "j’ai autorisé",
           "en": "I give permission",
-          "tr": "",
+          "tr": "ben izin vermeden",
           "racine": "أ-ذ-ن",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "لَكُمْ",
@@ -20196,10 +20222,11 @@ const S007 = {
           "translit": "āmannā",
           "fr": "nous avons accepté la foi",
           "en": "we believed",
-          "tr": "",
+          "tr": "inandık",
           "racine": "ا-م-ن",
           "frequence_coran": 440,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "بِـءَايَٰتِ",
@@ -23312,10 +23339,11 @@ const S007 = {
           "translit": "tarānī",
           "fr": "tu (ne) me verras",
           "en": "you (can) see Me",
-          "tr": "",
+          "tr": "sen de beni göreceksin",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَلَٰكِنِ",
@@ -23710,10 +23738,11 @@ const S007 = {
           "translit": "sh-shākirīna",
           "fr": "les reconnaissants. »",
           "en": "the grateful",
-          "tr": "",
+          "tr": "şükredenleri",
           "racine": "ش-ك-ر",
           "frequence_coran": 14,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -24144,10 +24173,11 @@ const S007 = {
           "translit": "yattakhidhūhu",
           "fr": "ils la prendraient",
           "en": "(will) they take it",
-          "tr": "",
+          "tr": "onu edinirler",
           "racine": "ا-خ-ذ",
           "frequence_coran": 124,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "سَبِيلًا",
@@ -24610,10 +24640,11 @@ const S007 = {
           "translit": "yahdīhim",
           "fr": "les guidait (pas)",
           "en": "guide them",
-          "tr": "",
+          "tr": "doğru yola iletir",
           "racine": "ه-د-ي",
           "frequence_coran": 46,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "سَبِيلًا",
@@ -25985,9 +26016,10 @@ const S007 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَإِيَّـٰيَ",
@@ -27690,10 +27722,11 @@ const S007 = {
           "translit": "ṭayyibāti",
           "fr": "bonnes choses",
           "en": "(the) good things",
-          "tr": "",
+          "tr": "güzel ve temiz şeyleri",
           "racine": "ط-ي-ب",
           "frequence_coran": 21,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "مَا",
@@ -28274,8 +28307,9 @@ const S007 = {
           "translit": "s-sabti",
           "fr": "l’(affaire du) Sabbat,",
           "en": "the (matter of) Sabbath",
-          "tr": "",
-          "src": "wbw"
+          "tr": "cumartesi",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِذْ",
@@ -29778,10 +29812,11 @@ const S007 = {
           "translit": "nuḍīʿu",
           "fr": "laisserons (pas) être perdue",
           "en": "[We] let go waste",
-          "tr": "",
+          "tr": "zayi etmeyiz",
           "racine": "ض-ي-ع",
           "frequence_coran": 10,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَجْرَ",
@@ -30092,10 +30127,11 @@ const S007 = {
           "translit": "ẓuhūrihim",
           "fr": "leurs dos",
           "en": "their loins",
-          "tr": "",
+          "tr": "sırtlarının",
           "racine": "ظ-ه-ر",
           "frequence_coran": 26,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "ذُرِّيَّتَهُمْ",
@@ -30353,9 +30389,10 @@ const S007 = {
           "translit": "qablu",
           "fr": "avant",
           "en": "before (us)",
-          "tr": "",
+          "tr": "daha önce",
           "racine": "ق-ب-ل",
-          "frequence_coran": 70
+          "frequence_coran": 70,
+          "tr_report": true
         },
         {
           "ar": "وَكُنَّا",
@@ -32529,10 +32566,11 @@ const S007 = {
           "translit": "taʾtīkum",
           "fr": "elle vous viendra",
           "en": "will it come to you",
-          "tr": "",
+          "tr": "size geliyor",
           "racine": "أ-ت-ي",
           "frequence_coran": 90,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "إِلَّا",
@@ -33252,10 +33290,11 @@ const S007 = {
           "translit": "sh-shākirīna",
           "fr": "les reconnaissants. »",
           "en": "the thankful",
-          "tr": "",
+          "tr": "şükredenleri",
           "racine": "ش-ك-ر",
           "frequence_coran": 14,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -34562,10 +34601,11 @@ const S007 = {
           "translit": "l-jāhilīna",
           "fr": "[les] ignorants.",
           "en": "the ignorant",
-          "tr": "",
+          "tr": "cahilleri",
           "racine": "ج-ه-ل",
           "frequence_coran": 5,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3
@@ -34620,10 +34660,11 @@ const S007 = {
           "translit": "sh-shayṭāni",
           "fr": "[le] diable",
           "en": "[the] Shaitaan",
-          "tr": "",
+          "tr": "şeytanın",
           "racine": "ش-ط-ن",
           "frequence_coran": 88,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "نَزْغٌ",
@@ -34768,10 +34809,11 @@ const S007 = {
           "translit": "sh-shayṭāni",
           "fr": "[le] diable,",
           "en": "the Shaitaan",
-          "tr": "",
+          "tr": "şeytanın",
           "racine": "ش-ط-ن",
           "frequence_coran": 88,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "تَذَكَّرُواْ",
@@ -35050,9 +35092,10 @@ const S007 = {
           "translit": "rabbī",
           "fr": "mon Seigneur",
           "en": "my Lord",
-          "tr": "",
+          "tr": "Rabbim",
           "racine": "ر-ب-ب",
-          "frequence_coran": 91
+          "frequence_coran": 91,
+          "tr_report": true
         },
         {
           "ar": "هَٰذَا",
@@ -35087,9 +35130,10 @@ const S007 = {
           "translit": "rabbikum",
           "fr": "votre Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbiniz",
           "racine": "ر-ب-ب",
-          "frequence_coran": 46
+          "frequence_coran": 46,
+          "tr_report": true
         },
         {
           "ar": "وَهُدًى",
@@ -35385,10 +35429,11 @@ const S007 = {
           "translit": "l-ghāfilīna",
           "fr": "les inattentifs.",
           "en": "the heedless",
-          "tr": "",
+          "tr": "bilmeyen",
           "racine": "غ-ف-ل",
           "frequence_coran": 27,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         }
       ],
       "niveau_couche": 3

@@ -3794,9 +3794,10 @@ const S050 = {
           "translit": "sittati",
           "fr": "six",
           "en": "six",
-          "tr": "",
+          "tr": "altı",
           "racine": "س-ت-ت",
-          "frequence_coran": 4
+          "frequence_coran": 4,
+          "tr_report": true
         },
         {
           "ar": "أَيَّامٍ",

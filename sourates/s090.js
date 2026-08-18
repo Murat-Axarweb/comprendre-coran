@@ -469,10 +469,11 @@ const S090 = {
           "translit": "yarahū",
           "fr": "l’a (pas) vu",
           "en": "sees him",
-          "tr": "",
+          "tr": "onu görür",
           "racine": "ر-ا-ي",
           "frequence_coran": 265,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "أَحَدٌ",

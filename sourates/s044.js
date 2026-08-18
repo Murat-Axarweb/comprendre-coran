@@ -412,9 +412,10 @@ const S044 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "إِنَّهُ",
@@ -3853,9 +3854,10 @@ const S044 = {
           "translit": "ʿadhābi",
           "fr": "châtiment",
           "en": "(the) punishment",
-          "tr": "",
+          "tr": "azabımı",
           "racine": "ع-ذ-ب",
-          "frequence_coran": 373
+          "frequence_coran": 373,
+          "tr_report": true
         },
         {
           "ar": "الْحَمِيمِ",
@@ -4209,8 +4211,9 @@ const S044 = {
           "translit": "sundusin",
           "fr": "soie fine",
           "en": "fine silk",
-          "tr": "",
-          "src": "wbw"
+          "tr": "ince ipekten",
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "وَإِسْتَبْرَقٍ",
@@ -4520,9 +4523,10 @@ const S044 = {
           "translit": "rabbika",
           "fr": "ton Seigneur",
           "en": "your Lord",
-          "tr": "",
+          "tr": "Rabbin",
           "racine": "ر-ب-ب",
-          "frequence_coran": 116
+          "frequence_coran": 116,
+          "tr_report": true
         },
         {
           "ar": "ذَٰلِكَ",

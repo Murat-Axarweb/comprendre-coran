@@ -271,10 +271,11 @@ const S114 = {
           "translit": "sharri",
           "fr": "mal",
           "en": "(the) evil",
-          "tr": "",
+          "tr": "şerrinden",
           "racine": "ش-ر-ر",
           "frequence_coran": 8,
-          "src": "wbw"
+          "src": "wbw",
+          "tr_report": true
         },
         {
           "ar": "الْوَسْوَاسِ",
@@ -358,7 +359,7 @@ const S114 = {
           "translit": "ṣudūr",
           "fr": "les poitrines / les cœurs",
           "en": "(the) breasts",
-          "tr": "",
+          "tr": "göğüslerde",
           "racine": "ص-د-ر",
           "frequence_coran": 44,
           "famille": [
@@ -366,7 +367,8 @@ const S114 = {
             "صَدَرَ (ṣadara) — provenir de",
             "مَصْدَر (maṣdar) — source, origine (terme grammatical !)"
           ],
-          "profondeur": "Ṣadr est le siège de l'intelligence et du cœur dans la vision coranique. Bonus grammatical : maṣdar (infinitif verbal en grammaire arabe) vient de la même racine — la 'source' d'où émane l'action. Le tentateur vise la source des décisions humaines."
+          "profondeur": "Ṣadr est le siège de l'intelligence et du cœur dans la vision coranique. Bonus grammatical : maṣdar (infinitif verbal en grammaire arabe) vient de la même racine — la 'source' d'où émane l'action. Le tentateur vise la source des décisions humaines.",
+          "tr_report": true
         },
         {
           "ar": "النَّاسِ",
